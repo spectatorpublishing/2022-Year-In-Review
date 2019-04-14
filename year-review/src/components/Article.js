@@ -3,8 +3,8 @@ import styled from 'styled-components'
 
 const Image = styled.div`
     background-image: url(${({img_src}) => img_src});
-	width: 100%;
-	height: auto;
+	width: 150px;
+	height: 150px;
 	object-fit: cover;
 `
 const Title = styled.h3`
@@ -23,7 +23,7 @@ const article = (props) =>{
   return (
     <div className="Article">
         <Link href={props.url}>
-            <Image {...this.props}>
+            <Image {...props}>
                 <Title>{props.title}</Title>
                 <Author>{props.author}</Author>
             </Image>
