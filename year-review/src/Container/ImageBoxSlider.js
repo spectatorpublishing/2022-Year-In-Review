@@ -39,6 +39,7 @@ const data =
 const n = 3
 
 const Container = styled.div`
+	background: #555;
 	width: 610px;	
 	display: flex;
 	overflow: hidden;
@@ -55,7 +56,7 @@ const Arrow = styled.img`
 	width: 20px;	
 	background: #555;
 	&:hover {
-    	background: #500;
+    	background: ${props => props.src? '#500' : '#555'};
   	}
   	z-index: 1
 `
@@ -116,8 +117,6 @@ class ImageBoxSlider extends Component {
 	}
 
 	render(){
-		//let filterdata = data.filter( (data, i) => 
-			//i>= this.state.box_index && i <= this.state.box_index+n-1)
 		let boxes = data.map ( (data,i) => <Article title= {data.title} author={data.author} url={data.url} img_src={data.img_src} key = {i}/>)
 		let leftArrow =  <Arrow /> 
 		let rightArrow = <Arrow /> 

@@ -4,7 +4,6 @@ import styled from 'styled-components'
 const Article = styled.div`
     margin: 20px;
 `
-
 const Image = styled.div`
   background-image: url(${({img_src}) => img_src});
 	width: 150px;
