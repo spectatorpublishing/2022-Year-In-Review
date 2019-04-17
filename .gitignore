@@ -4,6 +4,8 @@
 
 # dependencies
 /year-review/node_modules
+/year-review/src/package-lock.json
+/year-review/src/yarn.lock
 /.pnp
 .pnp.js
 
@@ -23,6 +25,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-package-lock.json
-yarn.lock
