@@ -6,30 +6,8 @@ import { linkTo } from '@storybook/addon-links';
 
 import NavigationItems from '../Component/Navigation/NavigationItems'
 import NavBar from '../Component/Navigation/NavBar'
+import { NavItems } from "../util/NavItems";
 import { MemoryRouter } from 'react-router';
-
-let sampleMenuItems = [
-  {
-    "name": "Explore",
-    "link": "/explore",
-    "external": false
-  },
-  {
-    "name": "Whiteboard",
-    "link": "/whiteboard",
-    "external": false
-  },
-  {
-    "name": "FAQ",
-    "link": "/faq",
-    "external": false
-  },
-  {
-    "name": "Spectrum",
-    "link": "https://www.columbiaspectator.com/spectrum/",
-    "external": true
-  }
-];
   
 storiesOf('NavBar', module)
   .addDecorator(story => (
@@ -45,5 +23,5 @@ storiesOf('NavBar', module)
       </div>
     </MemoryRouter>
   ))
-  .add('navbar', () => <NavBar menuItems={sampleMenuItems} />)
-  .add('fixed navbar', () => <NavBar menuItems={sampleMenuItems} fixed />);
+  .add('navbar', () => <NavBar menuItems={NavItems} />)
+  .add('fixed navbar', () => <NavBar menuItems={NavItems} fixed />);

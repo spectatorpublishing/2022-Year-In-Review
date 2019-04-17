@@ -6,7 +6,7 @@ let NavContainer = styled.div `
   background-color: ${props => props.theme.black};
   display: flex;
   flex-direction: row;
-  height: 60px;
+  height: 50px;
   width: 100vw;
 
   ${({ fixed }) => fixed && `
@@ -18,7 +18,7 @@ let NavContainer = styled.div `
 `
 
 let LogoContainer = styled.div`
-  margin: 0 5vw;
+  width: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,11 +29,10 @@ let MenuContainer = styled.div`
   display: flex;
   justify-content: center;
   margin-right: vw;
-  width: 65%;
+  width: 70%;
 `
 
 let MenuRow = styled.div`
-  border-bottom: solid 1px ${props => props.theme.white};
   display: flex;
   flex-direction: row;
   flex-grow: 1;
@@ -41,47 +40,44 @@ let MenuRow = styled.div`
 `
 
 let MenuLink = styled(NavLink)`
-  border-bottom: none;
   color: ${props => props.theme.white};
-  padding-bottom: 0.5rem;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 
     :hover {
-      color: ${props => props.theme.lightGray};
+      color: ${props => props.theme.blue};
     }
 
     :focus {
-      color: ${props => props.theme.lightGray};
+      color: ${props => props.theme.blue};
     }
 
     &.navLinkActive {
-      border-bottom: solid 2px ${props => props.theme.white};
+      color: ${props => props.theme.blue};
     }
 
   ${({ mobile }) => !!mobile && `
     border: none;
-    padding: 10px 0;
-    margin: 20px 0;
+    margin: 4vh 0 0 0;
   `}
 `
 
 let NavBuffer = styled.div`
-  height: 60px;
+  height: 50px;
   width: 100%;
 `
 
 let MenuColumn = styled.div`
   align-items: center;
-  background-color: rgba(0,0,0,0.85);
+  background-color: ${props => props.theme.black};
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: 0;
   overflow: hidden;
   position: absolute;
-  top: 60px;
+  top: 50px;
   right: 0;
   transition: width 0.2s ease-out;
   z-index: 1;
@@ -92,6 +88,7 @@ let MenuBtn = styled.input`
 
   &:checked ~ ${MenuColumn} {
     width: 50vw;
+    height: calc(100vh - 50px)
   }
 `
 
@@ -147,21 +144,6 @@ let NavIcon = styled.span`
       top: 0;
     }
   }
-`
-
-let DisabledMenuLink = styled(MenuLink)`
-  color: ${props => props.theme.mediumGray};
-  pointer-events: none;
-`
-
-let Soon = styled.h6`
-  color: ${props => props.theme.mediumGray};
-  font-size: 0.7rem;
-
-  ${({ mobile }) => !mobile && `
-    position: absolute;
-    margin-top: -3px;
-  `}
 `
 
 let DesktopItem = styled.h4`
@@ -232,11 +214,8 @@ export default class NavBar extends Component {
           key={index++}
           styled={{isMobile}}
           mobile={isMobile ? 1 : 0} // work around for react-router link not playing nice with non-standard attributes
-          as={item["external"] ? "a" : undefined}
-          href={item["external"] ? item["link"] : undefined}
-          target={item["external"] ? "_blank" : undefined}
-          to={item["external"] ? undefined : item["link"]}
-          activeClassName={item["external"] ? undefined : "navLinkActive"}
+          to={item["link"]}
+          activeClassName={"navLinkActive"}
           onClick={this.forceClose}
         >
           {isMobile ? <MobileItem>{item["name"]}</MobileItem> : <DesktopItem>{item["name"]}</DesktopItem>}
