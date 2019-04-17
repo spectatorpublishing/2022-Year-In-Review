@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import styled from 'styled-components'
 import Article from '../components/Article'
 import arrow from '../assets/arrow.svg'
+
 const data = 
 [
 	{
@@ -37,17 +38,26 @@ const data =
 ]
 const n = 3
 
+const Container = styled.div`
+	width: 610px;	
+	display: flex;
+	overflow: hidden;
+`
+
 const BoxPanel = styled.div`
 	display: flex;
+	width: 570px;
+	transform: translate(${props => props.translateValue}px);
+	
+    transition: transform ease-out 0.45s;
 `
 const Arrow = styled.img`
-	color: black	
+	width: 20px;	
+	background: #555;
 	&:hover {
-    	background: #555;
+    	background: #500;
   	}
-  	&:disabled {
-    	background: #555;
-  	}
+  	z-index: 1
 `
 
 class ImageBoxSlider extends Component {
@@ -106,17 +116,23 @@ class ImageBoxSlider extends Component {
 	}
 
 	render(){
-		let filterdata = data.filter( (data, i) => 
-			i>= this.state.box_index && i <= this.state.box_index+n-1)
-		let boxes = filterdata.map ( (data,i) => <Article title= {data.title} author={data.author} url={data.url} img_src={data.img_src} key = {i}/>)
-
+		//let filterdata = data.filter( (data, i) => 
+			//i>= this.state.box_index && i <= this.state.box_index+n-1)
+		let boxes = data.map ( (data,i) => <Article title= {data.title} author={data.author} url={data.url} img_src={data.img_src} key = {i}/>)
+		let leftArrow =  <Arrow /> 
+		let rightArrow = <Arrow /> 
+		if (!this.state.leftDisabled)
+			leftArrow = <Arrow src={arrow} onClick={this.onLeft}/> 
+		if (!this.state.rightDisabled)
+			rightArrow = <Arrow src={arrow} onClick={this.onRight}/> 
 		return (
-			<BoxPanel>
-				<Arrow src={arrow} onClick = {this.onLeft} /> 
-				{boxes}	
-				<Arrow src={arrow} onClick = {this.onRight} /> 
-			</BoxPanel>
-			
+			<Container>
+				{leftArrow}
+				<BoxPanel translateValue = {this.state.box_index*(-190)}>
+					{boxes}		
+				</BoxPanel>
+				{rightArrow}
+			</Container>
 		)
 	}
 }
