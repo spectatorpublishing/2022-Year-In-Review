@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Image = styled.div`
-    background-image: url(${({img_src}) => img_src});
+  background-image: url(${({img_src}) => img_src});
 	width: 150px;
 	height: 150px;
 	object-fit: cover;
