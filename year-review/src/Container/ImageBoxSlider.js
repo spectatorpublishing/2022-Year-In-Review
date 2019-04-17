@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
 import Article from '../components/Article'
-
+import arrow from '../assets/arrow.svg'
 const data = 
 [
 	{
@@ -40,7 +40,7 @@ const n = 3
 const BoxPanel = styled.div`
 	display: flex;
 `
-const Button = styled.button`
+const Arrow = styled.img`
 	color: black	
 	&:hover {
     	background: #555;
@@ -112,9 +112,9 @@ class ImageBoxSlider extends Component {
 
 		return (
 			<BoxPanel>
-				<Button onClick = {this.onLeft} disabled={this.state.leftDisabled}> Left </Button>
+				<Arrow src={arrow} onClick = {this.onLeft} /> 
 				{boxes}	
-				<Button onClick = {this.onRight} disabled={this.state.rightDisabled}> Right </Button>
+				<Arrow src={arrow} onClick = {this.onRight} /> 
 			</BoxPanel>
 			
 		)
