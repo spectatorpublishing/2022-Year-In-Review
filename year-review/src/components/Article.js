@@ -1,6 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const Article = styled.div`
+    margin: 20px;
+`
+
 const Image = styled.div`
   background-image: url(${({img_src}) => img_src});
 	width: 150px;
@@ -21,14 +25,14 @@ const Link = styled.a`
 
 const article = (props) =>{
   return (
-    <div className="Article">
+    <Article>
         <Link href={props.url}>
             <Image {...props}>
                 <Title>{props.title}</Title>
                 <Author>{props.author}</Author>
             </Image>
         </Link>
-    </div>
+    </Article>
   );
 }
 
