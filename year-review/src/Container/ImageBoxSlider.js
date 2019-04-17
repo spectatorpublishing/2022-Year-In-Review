@@ -1,12 +1,44 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
+import Article from '../components/Article'
 
-
-const testdata = ["test1","test2", "test3", "test4", "test5"]
+const data = 
+[
+	{
+		title: "Title1",
+		author: "Author1",
+		url: "http://cs.columbia.edu",
+		img_src: "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png"
+	},
+	{
+		title: "Title2",
+		author: "Author2",
+		url: "http://cs.columbia.edu",
+		img_src: "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png"
+	},
+	{
+		title: "Title3",
+		author: "Author3",
+		url: "http://cs.columbia.edu",
+		img_src: "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png"
+	},
+	{
+		title: "Title4",
+		author: "Author4",
+		url: "http://cs.columbia.edu",
+		img_src: "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png"
+	},
+	{
+		title: "Title5",
+		author: "Author5",
+		url: "http://cs.columbia.edu",
+		img_src: "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png"
+	},
+]
 const n = 3
 
 const BoxPanel = styled.div`
-	float: left;
+	display: flex;
 `
 const Button = styled.button`
 	color: black	
@@ -17,11 +49,6 @@ const Button = styled.button`
     	background: #555;
   	}
 `
-
-const Tester = (props) =>{
-	return <p> {props.text} </p>
-} 
-
 
 class ImageBoxSlider extends Component {
 
@@ -49,7 +76,7 @@ class ImageBoxSlider extends Component {
 				leftDisabled: true
 			})
 		}
-		if (current_index == testdata.length-n-1){
+		if (current_index == data.length-n-1){
 			this.setState({
 				rightDisabled: false
 			})
@@ -64,7 +91,7 @@ class ImageBoxSlider extends Component {
 			box_index: current_index
 		})
 
-		if (current_index == testdata.length-n){
+		if (current_index == data.length-n){
 			this.setState({
 				rightDisabled: true
 			})
@@ -79,14 +106,14 @@ class ImageBoxSlider extends Component {
 	}
 
 	render(){
-		let filterdata = testdata.filter( (text, i) => 
+		let filterdata = data.filter( (data, i) => 
 			i>= this.state.box_index && i <= this.state.box_index+n-1)
-		let test = filterdata.map ( (text,i) => <Tester text = {text} key = {i}/>)
+		let boxes = filterdata.map ( (data,i) => <Article title= {data.title} author={data.author} url={data.url} img_src={data.img_src} key = {i}/>)
 
 		return (
 			<BoxPanel>
-				{test}
 				<Button onClick = {this.onLeft} disabled={this.state.leftDisabled}> Left </Button>
+				{boxes}	
 				<Button onClick = {this.onRight} disabled={this.state.rightDisabled}> Right </Button>
 			</BoxPanel>
 			
