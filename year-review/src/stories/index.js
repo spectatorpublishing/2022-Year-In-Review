@@ -7,41 +7,41 @@ import { linkTo } from '@storybook/addon-links';
 // Data for testing
 
 // A url for a testing image
-const test_img = "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png"
+const test_img = "https://placekitten.com/301/301"
 const test_url = "http://cs.columbia.edu"
 
 // Data for imageSlider
-const data = 
+const image_slider_data = 
 [
 	{
 		title: "Title1",
 		author: "Author1",
-		url: {test_url},
-		img_src: {test_img}
+		url: test_url,
+		img_src: test_img
 	},
 	{
 		title: "Title2",
 		author: "Author2",
-		url: {test_url},
-		img_src: {test_img}
+		url: test_url,
+		img_src: test_img
 	},
 	{
 		title: "Title3",
 		author: "Author3",
-		url: {test_url},
-		img_src: {test_img}
+		url: test_url,
+		img_src: test_img
 	},
 	{
 		title: "Title4",
 		author: "Author4",
-		url: {test_url},
-		img_src: {test_img}
+		url: test_url,
+		img_src: test_img
 	},
 	{
 		title: "Title5",
 		author: "Author5",
-		url: {test_url},
-		img_src: {test_img}
+		url: test_url,
+		img_src: test_img
 	},
 ]
 // Test Storybook
@@ -59,7 +59,7 @@ storiesOf('Article', module).add('Article', () => <Article title="title" author=
 // Test ImageBoxSlider
 import ImageBoxSlider from '../containers/ImageBoxSlider'
 
-storiesOf('ImageBoxSlider', module).add('ImageBoxSlider', () => (<ImageBoxSlider />))
+storiesOf('ImageBoxSlider', module).add('ImageBoxSlider', () => (<ImageBoxSlider data = {image_slider_data} />))
 
 // Test Navigation
 import NavBar from '../components/Navigation/NavBar'
