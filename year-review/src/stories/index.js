@@ -3,7 +3,6 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
-<<<<<<< HEAD
 
 // Data for testing
 
@@ -83,10 +82,8 @@ storiesOf('NavBar', module)
   ))
   .add('navbar', () => <NavBar menuItems={NavItems} />)
   .add('fixed navbar', () => <NavBar menuItems={NavItems} fixed />);
-=======
 
-import NavigationItems from '../Component/Navigation/NavigationItems'
-import GenericPanelLayout from '../Component/GenericPanelLayout'
+// Test Generic Panel Layout
+import GenericPanelLayout from '../components/GenericPanelLayout'
 
 storiesOf('GenericPanelLayout', module).add("GenericPanelLayout",() => <GenericPanelLayout />)
->>>>>>> 44db970a0dd68a91eb7fabff1317723e63d3253a
