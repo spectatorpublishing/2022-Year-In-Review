@@ -49,7 +49,7 @@ storiesOf('Test', module).add('Test', () => (<h1>Hello</h1>))
 
 // Test Page Intro
 import PageIntro from '../components/PageIntro.js';
-
+                                             
 storiesOf('PageIntro', module).add('PageIntro', () => <PageIntro title1="title" text1="blurb" title2="title" text2="blurb" img_src={test_img} />)
 
 // Test Article
@@ -99,3 +99,6 @@ storiesOf('NavBar', module)
   .add('navbar', () => <NavBar menuItems={NavItems} />)
   .add('fixed navbar', () => <NavBar menuItems={NavItems} fixed />);
 
+// Test Generic Panel Layout
+import GenericPanelLayout from '../components/GenericPanelLayout'
+storiesOf('GenericPanelLayout', module).add("GenericPanelLayout",() => <GenericPanelLayout />)
