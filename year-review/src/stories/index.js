@@ -51,15 +51,31 @@ storiesOf('Test', module).add('Test', () => (<h1>Hello</h1>))
 import PageIntro from '../components/PageIntro.js';
 
 storiesOf('PageIntro', module).add('PageIntro', () => <PageIntro title1="title" text1="blurb" title2="title" text2="blurb" img_src={test_img} />)
+
 // Test Article
 import Article from '../components/Article.js';
 
-storiesOf('Article', module).add('Article', () => <Article title="title" author="blurb" url={test_url} img_src={test_img}/>)
+storiesOf('ImageBoxSlider', module).add('Article', () => <Article title="title" author="blurb" url={test_url} img_src={test_img}/>)
 
 // Test ImageBoxSlider
 import ImageBoxSlider from '../containers/ImageBoxSlider'
 
 storiesOf('ImageBoxSlider', module).add('ImageBoxSlider', () => (<ImageBoxSlider data = {image_slider_data} />))
+
+// Test Generic Panel Layout
+import GenericPanelLayout from '../components/GenericPanelLayout'
+
+storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout />)
+
+// Test SportsSlide
+import SportSlide from '../components/SportSlide.js';
+
+storiesOf('SportsSlideShow', module).add('SportSlide', () => <SportSlide title="title" author="blurb" url={test_url} img_src={test_img}/>)
+
+// Test SportsSlideShow
+import SportsSlideShow from '../containers/SportsSlideShow'
+
+storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideShow data = {image_slider_data} />))
 
 // Test Navigation
 import NavBar from '../components/Navigation/NavBar'
@@ -83,7 +99,3 @@ storiesOf('NavBar', module)
   .add('navbar', () => <NavBar menuItems={NavItems} />)
   .add('fixed navbar', () => <NavBar menuItems={NavItems} fixed />);
 
-// Test Generic Panel Layout
-import GenericPanelLayout from '../components/GenericPanelLayout'
-
-storiesOf('GenericPanelLayout', module).add("GenericPanelLayout",() => <GenericPanelLayout />)
