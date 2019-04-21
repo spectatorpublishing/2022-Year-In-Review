@@ -5,6 +5,10 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import PageIntro from '../components/PageIntro.js';
 import Article from '../components/Article.js';
+//import NavigationItems from '../Component/Navigation/NavigationItems'
+//import NavBar from '../Component/Navigation/NavBar'
+import { NavItems } from "../util/NavItems";
+//import { MemoryRouter } from 'react-router';
 
 import { Button, Welcome } from '@storybook/react/demo';
 
@@ -24,3 +28,21 @@ storiesOf('Button', module)
       </span>
     </Button>
   ));
+
+  
+storiesOf('NavBar', module)
+  .addDecorator(story => (
+    <MemoryRouter initialEntries={['/']}>
+      <div>
+        {story()}
+        <p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p>
+        <p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p>
+        <p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p>
+        <p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p>
+        <p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p>
+        <p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p>
+      </div>
+    </MemoryRouter>
+  ))
+  .add('navbar', () => <NavBar menuItems={NavItems} />)
+  .add('fixed navbar', () => <NavBar menuItems={NavItems} fixed />);
