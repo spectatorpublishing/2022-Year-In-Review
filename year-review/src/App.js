@@ -33,7 +33,7 @@ class App extends Component {
           <div style={{backgroundColor: "indigo", width: "100vw", height: "100vh",}}></div>
           <div style={{backgroundColor: "purple", width: "100vw", height: "100vh",}}></div>
         </ScrollingNavBar>
-        <ScrollArrow/>
+        
       </div>
       </MemoryRouter>
       

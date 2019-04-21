@@ -77,6 +77,10 @@ import SportsSlideShow from '../containers/SportsSlideShow'
 
 storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideShow data = {image_slider_data} />))
 
+// Test scroll arrow
+import ScrollArrow from '../components/ScrollArrow.js';
+storiesOf('ScrollArrow', module).add('ScrollArrow', () => (<ScrollArrow />))
+
 // Test Navigation
 import NavBar from '../components/Navigation/NavBar'
 import { NavItems } from "../util/NavItems";
