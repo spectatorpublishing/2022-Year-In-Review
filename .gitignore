@@ -1,7 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+*.pdf
+
 # dependencies
-/node_modules
+/year-review/node_modules
+/year-review/src/package-lock.json
+/year-review/src/yarn.lock
 /.pnp
 .pnp.js
 
