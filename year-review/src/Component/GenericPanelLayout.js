@@ -28,13 +28,13 @@ let containerStyle = {
     // alignItems: 'stretch'
 }
 
-let s1 = {
+let leftSide = {
 	width: '70%', 
 	height: '100vh', 
 	float: 'left',
 	backgroundColor: 'skyblue'
 }
-let s2 = {
+let rightSide = {
 	width: '30%', 
 	height: '100vh', 
 	float: 'right',
@@ -43,16 +43,16 @@ let s2 = {
 
 let titleStyle = {
 	textAlign: 'left',
-	fontSize: '18px',
-	marginLeft: '20px',
-	marginRight: '20px'
+	fontSize: '2vw',
+	marginLeft: '2.5vw',
+	marginRight: '3vw'
 }
 
 let subtitleStyle = {
 	textAlign: 'left',
-	fontSize: '11px',
-	marginLeft: '20px',
-	marginRight: '20px'
+	fontSize: '1.25vw',
+	marginLeft: '2.5vw',
+	marginRight: '2.5vw'
 }
 
 
@@ -69,26 +69,24 @@ let subtitleStyle = {
 
 
 export default class GenericPanelLayout extends Component {
-  // constructor(props) {
-  //   super(props);
-  // }
+  constructor(props) {
+    super(props);
 
-  // handleWindowSizeChange = () => {
-  //   this.setState({ width: window.innerWidth });
-  // };
+    this.state = { };
+  }
 
   render() {
     return (
       // Try setting `flexDirection` to `column`.
       <div style={containerStyle}>
-        <div style={s1}>
+        <div style={leftSide}>
         	<h1 style={titleStyle}>CONTROVERSIAL CUCR SPEAKERS DRAW MASSIVE PROTESTS, 
         	PROMPTING FREE SPEECH DEBATE</h1>
         	<p style={subtitleStyle}>After Columbia University College Republicans invited white nationalist 
         	speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students 
         	reacted with outrage and organized protests, rallies, and marches against 
         	the speakers...</p></div>
-        <div style={s2} />
+        <div style={rightSide} />
       </div>
     );
   }
