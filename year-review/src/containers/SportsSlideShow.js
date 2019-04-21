@@ -9,13 +9,14 @@ const n = 1
 
 const ImageContainer = styled.div`
 	background: #555;
-	width: 100vw;	
+	width: 100vw;
+	height: 95vh;
 	display: flex;
 	overflow: hidden;
 `
 const BoxPanel = styled.div`
 	display: flex;
-	width: 96vw;
+	width: 100vw;
 	transform: translate(${props => props.translateValue}vw);
     transition: transform ease-out 0.45s;
 `
@@ -26,8 +27,8 @@ const LeftArrow = styled.img`
     }
   z-index: 1;
   position: absolute;
-  left: 0vw;
-  bottom: 0vw;
+  left: 2vw;
+  bottom: 5vw;
 `
 const RightArrow = styled.img`
   width: 2vw;
@@ -36,12 +37,13 @@ const RightArrow = styled.img`
     }
   z-index: 1;
   position: absolute;
-  right: 0vw;
-  bottom: 0vw;
+  right: 2vw;
+  bottom: 5vw;
 `
 
 const CircleContainer = styled.div`
 	width: 100vw;	
+	height: 5vh;
 	background: #555;
 	display: flex;
 	justify-content: center;

@@ -1,7 +1,6 @@
 import React, { Component, Children } from "react";
 import { withRouter } from 'react-router-dom';
 import NavBar from './NavBar';
-import { NavItems } from "../../util/NavItems";
 
 const ScrollerTarget = React.forwardRef((props, ref) => (
   <div ref={ref} id={props.id}>
@@ -50,7 +49,7 @@ class ScrollingNav extends Component {
       shouldBeFixed = true;
     }
 
-    if (this.state.fixed != shouldBeFixed) {
+    if (this.state.fixed !== shouldBeFixed) {
       this.setState({ fixed: !this.state.fixed });
     }
 
