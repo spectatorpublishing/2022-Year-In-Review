@@ -6,6 +6,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
+    "react-router-hash-link": "^1.2.1",
     "react-scripts": "2.1.8",
     "styled-components": "^4.2.0"
   },
@@ -27,11 +28,11 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@storybook/react": "^5.0.6",
+    "@babel/core": "^7.4.3",
     "@storybook/addon-actions": "^5.0.6",
     "@storybook/addon-links": "^5.0.6",
     "@storybook/addons": "^5.0.6",
-    "@babel/core": "^7.4.3",
+    "@storybook/react": "^5.0.6",
     "babel-loader": "^8.0.5"
   }
 }

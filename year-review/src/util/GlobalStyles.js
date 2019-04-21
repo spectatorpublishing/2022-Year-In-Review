@@ -1,6 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+  html {
+    scroll-behavior: smooth;
+  }
   body,
   button {
     @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800');

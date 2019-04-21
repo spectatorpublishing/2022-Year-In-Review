@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { Link, NavLink } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 import styled from 'styled-components';
 
 let NavContainer = styled.div `
   background-color: ${props => props.theme.black};
   display: flex;
   flex-direction: row;
-  height: 50px;
+  height: 48px;
   width: 100vw;
 
   ${({ fixed }) => fixed && `
@@ -63,8 +65,29 @@ let MenuLink = styled(NavLink)`
   `}
 `
 
+let MenuScrollLink = styled(NavHashLink)`
+  cursor: pointer;
+  color: ${props => props.theme.white};
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  :hover {
+    color: ${props => props.theme.blue};
+  }
+
+  &.navLinkActive {
+    color: ${props => props.theme.blue};
+  }
+
+  ${({ mobile }) => !!mobile && `
+    border: none;
+    margin: 4vh 0 0 0;
+  `}
+`
+
 let NavBuffer = styled.div`
-  height: 50px;
+  height: 48px;
   width: 100%;
 `
 
@@ -77,7 +100,7 @@ let MenuColumn = styled.div`
   width: 0;
   overflow: hidden;
   position: absolute;
-  top: 50px;
+  transform: translateY(calc(48px - 1px));
   right: 0;
   transition: width 0.2s ease-out;
   z-index: 1;
@@ -88,14 +111,16 @@ let MenuBtn = styled.input`
 
   &:checked ~ ${MenuColumn} {
     width: 50vw;
-    height: calc(100vh - 50px)
+    height: calc(100vh - 48px)
   }
 `
 
 let MenuIcon = styled.label`
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 10%;
   margin-left: auto;
-  padding: 28px 10%;
   user-select: none;
 `
 
@@ -123,7 +148,7 @@ let NavIcon = styled.span`
   }
 
   :after {
-    top: -8px;
+    top: -7px;
   }
 
   ${MenuBtn}:checked ~ ${MenuIcon} & {
@@ -155,7 +180,7 @@ let MobileItem = styled.h3`
 `
 
 
-export default class NavBar extends Component {
+class NavBar extends Component {
   constructor(props) {
     super(props);
 
@@ -168,6 +193,7 @@ export default class NavBar extends Component {
     this.handleCheckboxChange = this.handleCheckboxChange.bind(this);
     this.forceClose = this.forceClose.bind(this);
     this.getMenuItems = this.getMenuItems.bind(this);
+    this.getActiveSection = this.getActiveSection.bind(this);
   }
 
   componentDidMount() {
@@ -194,33 +220,37 @@ export default class NavBar extends Component {
     e.preventDefault();
   }
 
-  getMenuItems(isMobile) {
-    let index = 0
-    return this.props.menuItems.map((item) => {
-      if (item["disabled"]) {
-        return <DisabledMenuLink
-          key={index++}
+  getActiveSection(section) {
+    return this.props.history.location.hash.slice(1) == section;
+  }
+
+  getMenuItems(isMobile, isScrolling) {
+    return this.props.menuItems.map((item, i) => {
+      // Scrolling navbar uses React Refs to change scroll position
+      if (isScrolling) {
+        return <MenuScrollLink
+          key={i}
           styled={{isMobile}}
           mobile={isMobile ? 1 : 0} // work around for react-router link not playing nice with non-standard attributes
-          to={""}
-          onClick={this.negateClick}
-        >
-          {isMobile ? <MobileItem>{item["name"]}</MobileItem> : <DesktopItem>{item["name"]}</DesktopItem>}
-          <Soon mobile={isMobile}>Coming Soon!</Soon>
-        </DisabledMenuLink>
-      }
-      else {
-        return <MenuLink
-          key={index++}
-          styled={{isMobile}}
-          mobile={isMobile ? 1 : 0} // work around for react-router link not playing nice with non-standard attributes
-          to={item["link"]}
+          to={"#" + item.link.slice(1)}
           activeClassName={"navLinkActive"}
+          isActive={() => this.getActiveSection(item.link.slice(1))}
           onClick={this.forceClose}
         >
-          {isMobile ? <MobileItem>{item["name"]}</MobileItem> : <DesktopItem>{item["name"]}</DesktopItem>}
-        </MenuLink>
+          {isMobile ? <MobileItem>{item.name}</MobileItem> : <DesktopItem>{item.name}</DesktopItem>}
+        </MenuScrollLink>
       }
+      // Normal navbar uses React Router to change browser locations
+      return <MenuLink
+        key={i}
+        styled={{isMobile}}
+        mobile={isMobile ? 1 : 0} // work around for react-router link not playing nice with non-standard attributes
+        to={item.link}
+        activeClassName={"navLinkActive"}
+        onClick={this.forceClose}
+      >
+        {isMobile ? <MobileItem>{item.name}</MobileItem> : <DesktopItem>{item.name}</DesktopItem>}
+      </MenuLink>
     });
   }
 
@@ -230,7 +260,7 @@ export default class NavBar extends Component {
       <React.Fragment>
         <MenuContainer>
           <MenuRow>
-            {this.getMenuItems(isMobile)}
+            {this.getMenuItems(isMobile, this.props.isScrolling)}
           </MenuRow>
         </MenuContainer>
       </React.Fragment>
@@ -248,7 +278,7 @@ export default class NavBar extends Component {
           <NavIcon></NavIcon>
         </MenuIcon>
         <MenuColumn>
-          {this.getMenuItems(isMobile)}
+          {this.getMenuItems(isMobile, this.props.isScrolling)}
           <MenuLink
             key={this.props.menuItems.length}
             styled={{isMobile}}
@@ -278,3 +308,5 @@ export default class NavBar extends Component {
     );
   }
 }
+
+export default withRouter(NavBar);
