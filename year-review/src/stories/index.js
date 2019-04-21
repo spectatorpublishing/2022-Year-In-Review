@@ -98,7 +98,3 @@ storiesOf('NavBar', module)
   ))
   .add('navbar', () => <NavBar menuItems={NavItems} />)
   .add('fixed navbar', () => <NavBar menuItems={NavItems} fixed />);
-
-// Test Generic Panel Layout
-import GenericPanelLayout from '../components/GenericPanelLayout'
-storiesOf('GenericPanelLayout', module).add("GenericPanelLayout",() => <GenericPanelLayout />)

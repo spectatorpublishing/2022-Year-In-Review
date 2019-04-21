@@ -44,7 +44,6 @@ const CircleContainer = styled.div`
 	width: 100vw;	
 	background: #555;
 	display: flex;
-	
 	justify-content: center;
 	align-items: center;
 	text-align: center;
