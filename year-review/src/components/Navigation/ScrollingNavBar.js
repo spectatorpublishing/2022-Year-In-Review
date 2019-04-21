@@ -1,6 +1,7 @@
 import React, { Component, Children } from "react";
 import { withRouter } from 'react-router-dom';
 import NavBar from './NavBar';
+import { NavItems } from "../../util/NavItems";
 
 const ScrollerTarget = React.forwardRef((props, ref) => (
   <div ref={ref} id={props.id}>
@@ -8,18 +9,19 @@ const ScrollerTarget = React.forwardRef((props, ref) => (
   </div>
 ));
 
-export default class ScrollingNav extends Component {
+class ScrollingNav extends Component {
   constructor(props) {
     super(props);
 
     this.scrollRef = React.createRef();
     this.menuItemRefs = {};
     props.menuItems.forEach((item) => {
-      this.menuItemRefs[item.name] = React.createRef;
+      this.menuItemRefs[item.name] = React.createRef();
     });
 
     this.state = {
       fixed: false,
+      activeSection: null,
     };
 
     this.handleScroll = this.handleScroll.bind(this);
@@ -53,7 +55,21 @@ export default class ScrollingNav extends Component {
     }
 
     /* NAVBAR ACTIVE */
+    let nextActiveSection;
+    for (let i = 0; i < this.props.menuItems.length; i++) {
+      let section = this.props.menuItems[i];
+      let currentRef = this.menuItemRefs[section.name];
+      
+      if (targetTop < currentRef.current.offsetTop - 150) {
+        break;
+      }
+      nextActiveSection = section.link.slice(1);
+    }
 
+    let currentActiveSection = this.props.history.location.hash.slice(1);
+    if (nextActiveSection && nextActiveSection !== currentActiveSection) {
+      this.props.history.push("#" + nextActiveSection);
+    }
   }
 
   getChildrenScrollerTargets() {
@@ -77,3 +93,5 @@ export default class ScrollingNav extends Component {
     );
   }
 }
+
+export default withRouter(ScrollingNav);

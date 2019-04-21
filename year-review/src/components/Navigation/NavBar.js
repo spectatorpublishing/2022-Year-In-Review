@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link, NavLink } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 import styled from 'styled-components';
 
 let NavContainer = styled.div `
@@ -63,7 +65,7 @@ let MenuLink = styled(NavLink)`
   `}
 `
 
-let MenuScrollLink = styled.a`
+let MenuScrollLink = styled(NavHashLink)`
   cursor: pointer;
   color: ${props => props.theme.white};
   text-align: center;
@@ -74,7 +76,7 @@ let MenuScrollLink = styled.a`
     color: ${props => props.theme.blue};
   }
 
-  :focus {
+  &.navLinkActive {
     color: ${props => props.theme.blue};
   }
 
@@ -82,10 +84,6 @@ let MenuScrollLink = styled.a`
     border: none;
     margin: 4vh 0 0 0;
   `}
-`
-
-let MenuScrollLinkActive = styled(MenuScrollLink)`
-  color: ${props => props.theme.blue};
 `
 
 let NavBuffer = styled.div`
@@ -182,7 +180,7 @@ let MobileItem = styled.h3`
 `
 
 
-export default class NavBar extends Component {
+class NavBar extends Component {
   constructor(props) {
     super(props);
 
@@ -195,6 +193,7 @@ export default class NavBar extends Component {
     this.handleCheckboxChange = this.handleCheckboxChange.bind(this);
     this.forceClose = this.forceClose.bind(this);
     this.getMenuItems = this.getMenuItems.bind(this);
+    this.getActiveSection = this.getActiveSection.bind(this);
   }
 
   componentDidMount() {
@@ -221,6 +220,10 @@ export default class NavBar extends Component {
     e.preventDefault();
   }
 
+  getActiveSection(section) {
+    return this.props.history.location.hash.slice(1) == section;
+  }
+
   getMenuItems(isMobile, isScrolling) {
     return this.props.menuItems.map((item, i) => {
       // Scrolling navbar uses React Refs to change scroll position
@@ -228,23 +231,21 @@ export default class NavBar extends Component {
         return <MenuScrollLink
           key={i}
           styled={{isMobile}}
-          mobile={isMobile}
+          mobile={isMobile ? 1 : 0} // work around for react-router link not playing nice with non-standard attributes
+          to={"#" + item.link.slice(1)}
+          activeClassName={"navLinkActive"}
+          isActive={() => this.getActiveSection(item.link.slice(1))}
           onClick={this.forceClose}
-          href={"#" + item.link.slice(1)}
         >
           {isMobile ? <MobileItem>{item.name}</MobileItem> : <DesktopItem>{item.name}</DesktopItem>}
         </MenuScrollLink>
       }
       // Normal navbar uses React Router to change browser locations
-      let itemLink = item.link
-      // if (isScrolling) {
-      //   itemLink = "#" + itemLink.slice(1);
-      // }
       return <MenuLink
         key={i}
         styled={{isMobile}}
         mobile={isMobile ? 1 : 0} // work around for react-router link not playing nice with non-standard attributes
-        to={itemLink}
+        to={item.link}
         activeClassName={"navLinkActive"}
         onClick={this.forceClose}
       >
@@ -307,3 +308,5 @@ export default class NavBar extends Component {
     );
   }
 }
+
+export default withRouter(NavBar);
