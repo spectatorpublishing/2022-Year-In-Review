@@ -1,36 +1,50 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
-import Article from '../components/Article'
+import SportSlide from '../components/SportSlide'
 import arrow from '../assets/arrow.svg'
 import filledCircle from '../assets/filledCircle.png'
 import emptyCircle from '../assets/emptyCircle.png'
 
-const n = 3
+const n = 1
 
 const ImageContainer = styled.div`
 	background: #555;
-	width: 610px;	
+	width: 100vw;	
 	display: flex;
 	overflow: hidden;
 `
 const BoxPanel = styled.div`
 	display: flex;
-	width: 570px;
-	transform: translate(${props => props.translateValue}px);
+	width: 96vw;
+	transform: translate(${props => props.translateValue}vw);
     transition: transform ease-out 0.45s;
 `
-const Arrow = styled.img`
-	width: 20px;
-	&:hover {
-    	background: ${props => props.src? '#500' : '#555'};
-  	}
-  	z-index: 1
+const LeftArrow = styled.img`
+  width: 2vw;
+  &:hover {
+      background: ${props => props.src? '#500' : '#555'};
+    }
+  z-index: 1;
+  position: absolute;
+  left: 0vw;
+  bottom: 0vw;
+`
+const RightArrow = styled.img`
+  width: 2vw;
+  &:hover {
+      background: ${props => props.src? '#500' : '#555'};
+    }
+  z-index: 1;
+  position: absolute;
+  right: 0vw;
+  bottom: 0vw;
 `
 
 const CircleContainer = styled.div`
-	width: 610px;	
+	width: 100vw;	
 	background: #555;
 	display: flex;
+	
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -40,7 +54,7 @@ const Circle = styled.img`
 	margin: 10px;
 `
 
-class ImageBoxSlider extends Component {
+class SportsSlideShow extends Component {
 
 	constructor() {
 	    super()
@@ -116,29 +130,25 @@ class ImageBoxSlider extends Component {
 
 	render(){
 		let boxes = this.props.data.map ( (data,i) => 
-			<Article title= {data.title} author={data.author} 
+			<SportSlide title= {data.title} author={data.author} 
 			url={data.url} img_src={data.img_src} key = {i}/>
 		)
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)
 					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
-				else if (i<this.props.data.length-2)
+				else if (i<this.props.data.length)
 					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
 			}
 		)
 
-		let leftArrow =  <Arrow /> 
-		let rightArrow = <Arrow /> 
-		if (!this.state.leftDisabled)
-			leftArrow = <Arrow src={arrow} onClick={this.onLeft}/> 
-		if (!this.state.rightDisabled)
-			rightArrow = <Arrow src={arrow} onClick={this.onRight}/> 
+		let leftArrow =  this.state.leftDisabled ? null : <LeftArrow src={arrow} onClick={this.onLeft}/> 
+		let rightArrow = this.state.rightDisabled ? null : <RightArrow src={arrow} onClick={this.onRight}/> 
 
 		return (
 			<div>
 				<ImageContainer>
 					{leftArrow}
-					<BoxPanel translateValue = {this.state.box_index*(-190)}>
+					<BoxPanel translateValue = {this.state.box_index*(-100)}>
 						{boxes}		
 					</BoxPanel>
 					{rightArrow}
@@ -149,4 +159,4 @@ class ImageBoxSlider extends Component {
 	}
 }
 
-export default ImageBoxSlider
+export default SportsSlideShow
