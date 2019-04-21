@@ -86,4 +86,4 @@ storiesOf('NavBar', module)
 // Test Generic Panel Layout
 import GenericPanelLayout from '../containers/GenericPanelLayout'
 
-storiesOf('GenericPanelLayout', module).add("GenericPanelLayout",() => <GenericPanelLayout menuItems={NavItems} fixed data = {image_slider_data}/>)
+storiesOf('GenericPanelLayout', module).add("GenericPanelLayout",() => <GenericPanelLayout menuItems={NavItems} data = {image_slider_data}/>)
