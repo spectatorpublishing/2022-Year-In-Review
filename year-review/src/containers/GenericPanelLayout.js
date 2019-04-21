@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import ImageBoxSlider from './ImageBoxSlider';
+import NavBar from '../components/Navigation/NavBar';
+import { BrowserRouter } from "react-router-dom/cjs/react-router-dom";
+import fillerImg from '../assets/dawg.png'
+import blueicon from '../assets/blueicon.png'
 // import { AppRegistry, View } from 'react-native';
 
 // let whiteSpace = styled.div`
@@ -28,24 +33,38 @@ let containerStyle = {
     // alignItems: 'stretch'
 }
 
-let leftSide = {
-	width: '70%', 
-	height: '100vh', 
-	float: 'left',
-	backgroundColor: 'skyblue'
-}
-let rightSide = {
-	width: '30%', 
-	height: '100vh', 
-	float: 'right',
-	backgroundColor: 'grey'
-}
+let LeftSideContainer = styled.div`
+	width: 70%;
+	height: 100vh; 
+	float: left;
+	background-color: skyblue;
+`
 
+let RightSideContainer = styled.div`
+	width: 30%;
+	height: 100vh;
+	float: right;
+  background-color: grey;
+`
+let ImageBoxSliderContainer = styled.div`
+  margin: 2.5vw;
+`
+let SideImg = styled.img`
+  height: 100%;
+  width: 100%;
+`
+let Icon = styled.img`
+  height: 7vw;
+  width: 7vw;
+  position: absolute;
+  left: 66.5%;
+  top: 20%;
+  z-index: 5;
+`
 let titleStyle = {
 	textAlign: 'left',
-	fontSize: '2vw',
-	marginLeft: '2.5vw',
-	marginRight: '3vw'
+	fontSize: '3.5vw',
+	margin: '2vw 2.5vw 1vw 2.5vw'
 }
 
 let subtitleStyle = {
@@ -79,14 +98,25 @@ export default class GenericPanelLayout extends Component {
     return (
       // Try setting `flexDirection` to `column`.
       <div style={containerStyle}>
-        <div style={leftSide}>
+        <BrowserRouter> 
+          <NavBar menuItems = {this.props.menuItems}></NavBar>
+        </BrowserRouter>
+
+        <LeftSideContainer>
         	<h1 style={titleStyle}>CONTROVERSIAL CUCR SPEAKERS DRAW MASSIVE PROTESTS, 
         	PROMPTING FREE SPEECH DEBATE</h1>
         	<p style={subtitleStyle}>After Columbia University College Republicans invited white nationalist 
         	speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students 
         	reacted with outrage and organized protests, rallies, and marches against 
-        	the speakers...</p></div>
-        <div style={rightSide} />
+        	the speakers...</p>
+          <ImageBoxSliderContainer>
+            <ImageBoxSlider data = {this.props.data}/>
+          </ImageBoxSliderContainer>
+        </LeftSideContainer>
+        <Icon src={blueicon}></Icon>
+        <RightSideContainer>
+          <SideImg src = {fillerImg}></SideImg>
+        </RightSideContainer>
       </div>
     );
   }

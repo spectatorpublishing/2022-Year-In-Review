@@ -111,6 +111,7 @@ class ImageBoxSlider extends Component {
 	}
 
 	render(){
+		
 		let boxes = this.props.data.map ( (data,i) => 
 			<Article title= {data.title} author={data.author} 
 			url={data.url} img_src={data.img_src} key = {i}/>
