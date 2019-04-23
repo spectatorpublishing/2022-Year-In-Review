@@ -1,15 +1,22 @@
 import React from 'react';
-
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
+import PageIntro from '../components/PageIntro.js';
+import Article from '../components/Article.js';
+import ImageBoxSlider from '../containers/ImageBoxSlider';
+import NavBar from '../components/Navigation/NavBar';
+import { NavItems } from "../util/NavItems";
+import { MemoryRouter } from 'react-router';
+import GenericPanelLayout from '../components/GenericPanelLayout';
+import ImageBox from '../components/ImageBox/ImageBox.js';
 
 // Data for testing
 
 // A url for a testing image
 const test_img = "https://placekitten.com/301/301"
 const test_url = "http://cs.columbia.edu"
-
+const img = "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg";
 // Data for imageSlider
 const image_slider_data = 
 [
@@ -44,27 +51,32 @@ const image_slider_data =
 		img_src: test_img
 	},
 ]
+
+const flip_data = [
+{
+	front_image: img,
+	author: "Ben LaZebnik",
+	section: "| YOU HAVE MY WORD",
+	back_image: test_img,
+	title: "Disconnected from death",
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
+},
+]
 // Test Storybook
 storiesOf('Test', module).add('Test', () => (<h1>Hello</h1>))
 
 // Test Page Intro
-import PageIntro from '../components/PageIntro.js';
 
 storiesOf('PageIntro', module).add('PageIntro', () => <PageIntro title1="title" text1="blurb" title2="title" text2="blurb" img_src={test_img} />)
 // Test Article
-import Article from '../components/Article.js';
 
 storiesOf('Article', module).add('Article', () => <Article title="title" author="blurb" url={test_url} img_src={test_img}/>)
 
 // Test ImageBoxSlider
-import ImageBoxSlider from '../containers/ImageBoxSlider'
 
 storiesOf('ImageBoxSlider', module).add('ImageBoxSlider', () => (<ImageBoxSlider data = {image_slider_data} />))
 
 // Test Navigation
-import NavBar from '../components/Navigation/NavBar'
-import { NavItems } from "../util/NavItems";
-import { MemoryRouter } from 'react-router';
 
 storiesOf('NavBar', module)
   .addDecorator(story => (
@@ -84,6 +96,9 @@ storiesOf('NavBar', module)
   .add('fixed navbar', () => <NavBar menuItems={NavItems} fixed />);
 
 // Test Generic Panel Layout
-import GenericPanelLayout from '../components/GenericPanelLayout'
 
 storiesOf('GenericPanelLayout', module).add("GenericPanelLayout",() => <GenericPanelLayout />)
+
+//Image Box
+storiesOf('ImageBox', module).add('ImageBox', () => (<ImageBox flip_data = {flip_data}/>))
+
