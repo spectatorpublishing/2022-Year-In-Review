@@ -62,11 +62,6 @@ import ImageBoxSlider from '../containers/ImageBoxSlider'
 
 storiesOf('ImageBoxSlider', module).add('ImageBoxSlider', () => (<ImageBoxSlider data = {image_slider_data} />))
 
-// Test Generic Panel Layout
-import GenericPanelLayout from '../components/GenericPanelLayout'
-
-storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout />)
-
 // Test SportsSlide
 import SportSlide from '../components/SportSlide.js';
 
@@ -101,4 +96,10 @@ storiesOf('NavBar', module)
     </MemoryRouter>
   ))
   .add('navbar', () => <NavBar menuItems={NavItems} />)
+  .add('fixed navbar', () => <NavBar menuItems={NavItems} fixed />);
+
+// Test Generic Panel Layout
+import GenericPanelLayout from '../containers/GenericPanelLayout'
+
+storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout menuItems={NavItems} data = {image_slider_data}/>)
   .add('fixed navbar', () => <NavBar menuItems={NavItems} fixed />);
