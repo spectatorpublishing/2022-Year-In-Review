@@ -4,8 +4,8 @@
 
 # dependencies
 /year-review/node_modules
-/year-review/src/package-lock.json
-/year-review/src/yarn.lock
+/year-review/package-lock.json
+/year-review/yarn.lock
 /.pnp
 .pnp.js
 
