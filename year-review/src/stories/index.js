@@ -1,12 +1,10 @@
 import React from 'react';
-
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 import PageIntro from '../components/PageIntro.js';
 import Article from '../components/Article.js';
 import ImageBoxSlider from '../containers/ImageBoxSlider';
-import GenericPanelLayout from '../components/GenericPanelLayout';
 import SportSlide from '../components/SportSlide.js';
 import SportsSlideShow from '../containers/SportsSlideShow'
 import NavBar from '../components/Navigation/NavBar'
@@ -15,12 +13,12 @@ import { MemoryRouter } from 'react-router';
 import Photo from '../components/Photo.js';
 
 
-
 // Data for testing
 
 // A url for a testing image
 const test_img = "https://placekitten.com/301/301"
 const test_url = "http://cs.columbia.edu"
+const img = "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg";
 const test_wide_pic = "https://picsum.photos/1500/800"
 
 // Data for imageSlider
@@ -56,6 +54,17 @@ const image_slider_data =
 		url: test_url,
 		img_src: test_img
 	},
+]
+
+const flip_data = [
+{
+	front_image: img,
+	author: "Ben LaZebnik",
+	section: "| YOU HAVE MY WORD",
+	back_image: test_img,
+	title: "Disconnected from death",
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
+},
 ]
 
 // Data for sportSlider
@@ -97,7 +106,7 @@ const sports_slider_data =
 storiesOf('Test', module).add('Test', () => (<h1>Hello</h1>))
 
 // Test Page Intro
-                                             
+
 storiesOf('PageIntro', module).add('PageIntro', () => <PageIntro title1="title" text1="blurb" title2="title" text2="blurb" img_src={test_img} />)
 
 // Test Article
@@ -127,7 +136,6 @@ storiesOf('Photo', module).add('Photo', () => <Photo photos={[test_img, test_img
 
 // Test Navigation
 
-
 storiesOf('NavBar', module)
   .addDecorator(story => (
     <MemoryRouter initialEntries={['/']}>
@@ -146,6 +154,7 @@ storiesOf('NavBar', module)
   .add('fixed navbar', () => <NavBar menuItems={NavItems} fixed />);
 
 // Test Generic Panel Layout
+
 import GenericPanelLayout from '../containers/GenericPanelLayout'
 
 storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout menuItems={NavItems} data = {image_slider_data}/>)
