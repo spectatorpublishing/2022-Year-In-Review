@@ -3,6 +3,18 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
+import PageIntro from '../components/PageIntro.js';
+import Article from '../components/Article.js';
+import ImageBoxSlider from '../containers/ImageBoxSlider';
+import GenericPanelLayout from '../components/GenericPanelLayout';
+import SportSlide from '../components/SportSlide.js';
+import SportsSlideShow from '../containers/SportsSlideShow'
+import NavBar from '../components/Navigation/NavBar'
+import { NavItems } from "../util/NavItems";
+import { MemoryRouter } from 'react-router';
+import Photo from '../components/Photo.js';
+
+
 
 // Data for testing
 
@@ -85,27 +97,22 @@ const sports_slider_data =
 storiesOf('Test', module).add('Test', () => (<h1>Hello</h1>))
 
 // Test Page Intro
-import PageIntro from '../components/PageIntro.js';
                                              
 storiesOf('PageIntro', module).add('PageIntro', () => <PageIntro title1="title" text1="blurb" title2="title" text2="blurb" img_src={test_img} />)
 
 // Test Article
-import Article from '../components/Article.js';
 
 storiesOf('ImageBoxSlider', module).add('Article', () => <Article title="title" author="blurb" url={test_url} img_src={test_img}/>)
 
 // Test ImageBoxSlider
-import ImageBoxSlider from '../containers/ImageBoxSlider'
 
 storiesOf('ImageBoxSlider', module).add('ImageBoxSlider', () => (<ImageBoxSlider data = {image_slider_data} />))
 
 // Test SportsSlide
-import SportSlide from '../components/SportSlide.js';
 
 storiesOf('SportsSlideShow', module).add('SportSlide', () => <SportSlide title="title" author="blurb" url={test_url} img_src={test_img}/>)
 
 // Test SportsSlideShow
-import SportsSlideShow from '../containers/SportsSlideShow'
 
 storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideShow data = {sports_slider_data} />))
 
@@ -113,10 +120,13 @@ storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideS
 import ScrollArrow from '../components/ScrollArrow.js';
 storiesOf('ScrollArrow', module).add('ScrollArrow', () => (<ScrollArrow />))
 
+//Test Photo
+
+storiesOf('Photo', module).add('Photo', () => <Photo photos={[test_img, test_img, test_img, test_img, test_img, test_img, test_img, test_img]} />)
+
+
 // Test Navigation
-import NavBar from '../components/Navigation/NavBar'
-import { NavItems } from "../util/NavItems";
-import { MemoryRouter } from 'react-router';
+
 
 storiesOf('NavBar', module)
   .addDecorator(story => (
