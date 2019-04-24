@@ -9,15 +9,15 @@ const Arrow = styled.img`
     }
   z-index: 1;
   position: absolute;
-  right: 2vw;
-  bottom: 5vw;
+  right: 10%;
+  bottom: 10%;
 `
 const handleClick = () => {
   window.scrollTo(0, 0)
 }
 
 const scrollArrow = () =>{
-  return <img src={arrow} onClick = {handleClick}/>
+  return <Arrow src={arrow} onClick = {handleClick}/>
 }
 
 export default scrollArrow

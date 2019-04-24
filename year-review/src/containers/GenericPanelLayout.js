@@ -5,6 +5,9 @@ import NavBar from '../components/Navigation/NavBar';
 import { BrowserRouter } from "react-router-dom/cjs/react-router-dom";
 import fillerImg from '../assets/dawg.png'
 import blueicon from '../assets/blueicon.png'
+import ScrollArrow from '../components/ScrollArrow'
+import arrow from '../assets/hamburger.svg'
+
 // import { AppRegistry, View } from 'react-native';
 
 // let whiteSpace = styled.div`
@@ -23,7 +26,21 @@ import blueicon from '../assets/blueicon.png'
 // 	  align-items: flex-end;
 // 	  backgroundColor:'skyblue';
 // 	}
-// `
+// 
+
+const Arrow = styled.img`
+  width: 2vw;
+  &:hover {
+      background: ${props => props.src? '#500' : '#555'};
+    }
+  z-index: 1;
+  position: relative;
+  left: 95vw;
+  bottom: 5vh;
+`
+const handleClick = () => {
+  window.scrollTo(0, 0)
+}
 
 let containerStyle = {
 	width: "100vw",
@@ -50,14 +67,7 @@ let SideImg = styled.img`
   height: 100%;
   width: 100%;
 `
-let Icon = styled.img`
-  height: 7vw;
-  width: 7vw;
-  position: absolute;
-  left: 66.5%;
-  top: 20%;
-  z-index: 5;
-`
+
 let titleStyle = {
 	textAlign: 'left',
 	fontSize: '3.5vw',
@@ -108,51 +118,10 @@ export default class GenericPanelLayout extends Component {
         </LeftSideContainer>
         <RightSideContainer>
           <SideImg src = {fillerImg}></SideImg>
+          
         </RightSideContainer>
+        <Arrow src={arrow} onClick = {handleClick}/>
       </div>
     );
   }
-
-  // render() {
-  //   return (
-  //     // Try setting `flexDirection` to `column`.
-  //     <div style={{flex: 1, flexDirection: 'column'}}>
-	 //      <div style={whiteSpaceStyle} />
-	 //      <div style={imgStyle} />
-  //     </div>
-  //   );
-  // }
-
-  // render() {
-
-
-    // let whiteSPace = [
-    //   ["Location", this.props.location],
-    //   ["Room types", this.props.roomtype],
-    //   ["Class makeup", classMakeupFormat]
-    // ];
-
-    // glanceMap = glanceMap.concat(this.props.lottery);
-
-    // const AtAGlanceMapped = glanceMap.map((el, i) => {
-    //   if (el[1] && el[1] != "" && el[1] != "0" && el[1] != " ") {
-    //     return (
-    //       <Table key={i}>
-    //         <Category>{el[0]}</Category>
-    //         <Content>
-    //           <b>{el[1]}</b>
-    //         </Content>
-    //       </Table>
-    //     );
-    //   } else return <div key={i} />;
-    // });
-
-    // return (
-    //   <Wrapper>
-    //     <Title> At a glance </Title>
-    //     {AtAGlanceMapped}
-    //     <br />
-    //   </Wrapper>
-    // );
-  // }
 }
