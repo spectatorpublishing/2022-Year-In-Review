@@ -9,6 +9,10 @@ const test_url = "http://cs.columbia.edu"
 const img = "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg";
 const test_wide_pic = "https://picsum.photos/1500/800"
 
+const opinion_data = [
+	test_img,test_img,test_img,test_img
+]
+
 // Data for imageSlider
 const image_slider_data = 
 [
@@ -124,3 +128,7 @@ storiesOf('PhotoGrid', module).add('Photo', () => <ImageBox/>)
 // Test Generic Panel Layout
 import GenericPanelLayout from '../containers/GenericPanelLayout'
 storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout data = {image_slider_data}/>)
+
+// Test ExpandingColumns
+import ExpandingColumns from '../components/ExpandingColumns'
+storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)

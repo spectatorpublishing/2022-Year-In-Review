@@ -9,7 +9,7 @@ const Grid = styled.div`
 `;
 
 function PhotoGrid(props){
-    const grid = props.data.map((data, i) => <ImageBox />);
+    const grid = props.data.map((data, i) => <ImageBox key={i}/>);
     return (
         <Grid>{grid}</Grid>
     );
