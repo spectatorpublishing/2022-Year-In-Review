@@ -6,11 +6,11 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles, Theme } from "./util/GlobalStyles";
 
 import NewsContainer from './containers/NewsContainer'
+import SportsContainer from './containers/SportsContainer'
 import NavBar from './components/Navigation/NavBar'
 
-
-import { test_img } from "./util/NewsTestData";
-import { NewsTestData } from './util/NewsTestData'
+import { test_img } from "./util/TestData";
+import { NewsTestData, sports_slider_data } from './util/TestData'
 import { NavItems } from "./util/NavItems";
 
 class App extends Component {
@@ -23,7 +23,7 @@ class App extends Component {
     const eye = () => <h1> Eye </h1>
     const photo = () => <h1> Photo </h1>
     const design = () => <h1> Design </h1>
-    const sports = () => <h1> Sports </h1>
+    const sports = () => <SportsContainer NavItems = {NavItems} SportsData = {sports_slider_data} />
     const ane = () => <h1> A&E </h1>
     const oped = () => <h1> Op_ed </h1>
     const column = () => <h1>  column </h1>
@@ -33,8 +33,6 @@ class App extends Component {
     return (
       <div>
         <MemoryRouter>
-          
-          
           <NavBar menuItems={NavItems} fixed />
           <Switch>
             <Route exact path="/" component={home} />

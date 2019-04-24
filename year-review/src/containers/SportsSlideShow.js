@@ -26,8 +26,8 @@ const LeftArrow = styled.img`
       background: ${props => props.src? '#500' : '#555'};
     }
   z-index: 1;
-  position: absolute;
-  left: 2vw;
+  position: relative;
+  left: 5vw;
   bottom: 5vw;
 `
 const RightArrow = styled.img`
@@ -36,8 +36,8 @@ const RightArrow = styled.img`
       background: ${props => props.src? '#500' : '#555'};
     }
   z-index: 1;
-  position: absolute;
-  right: 2vw;
+  position: relative;
+  right: 5vw;
   bottom: 5vw;
 `
 

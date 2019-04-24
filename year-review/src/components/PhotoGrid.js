@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import ImageBox from './ImageBox/ImageBox'
 
 const Grid = styled.div`
     display: grid;
@@ -7,14 +8,8 @@ const Grid = styled.div`
     grid-template-rows: 50% 50%; 
 `;
 
-
 function PhotoGrid(props){
-    const photos = props.photos;
-    const grid = photos.map((photo) =>
-        <div key={photos.toString()}>
-            <img src={photo} alt="img" />
-        </div>
-    );
+    const grid = props.data.map((data, i) => <ImageBox />);
     return (
         <Grid>{grid}</Grid>
     );

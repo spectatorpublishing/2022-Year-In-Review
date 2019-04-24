@@ -114,10 +114,10 @@ import SportsSlideShow from '../containers/SportsSlideShow'
 storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideShow data = {sports_slider_data} />))
 
 //Test PhotoGrid
-import Photo from '../components/Photo.js';
-storiesOf('PhotoGrid', module).add('PhotoPanel', () => <Photo photos={[test_img, test_img, test_img, test_img, test_img, test_img, test_img, test_img]} />)
+import PhotoGrid from '../components/PhotoGrid.js';
+storiesOf('PhotoGrid', module).add('PhotoPanel', () => <PhotoGrid data={image_slider_data} />)
 
-//Test PhotoGrid
+//Test Flip Image-Box
 import ImageBox from '../components/ImageBox/ImageBox';
 storiesOf('PhotoGrid', module).add('Photo', () => <ImageBox/>)
 

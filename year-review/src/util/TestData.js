@@ -1,5 +1,6 @@
 export const test_img = "https://placekitten.com/301/301"
 export const test_url = "http://cs.columbia.edu"
+const test_wide_pic = "https://picsum.photos/1500/800"
 
 // Data for imageSlider
 export const NewsTestData = 
@@ -228,4 +229,38 @@ export const NewsTestData =
 			img_src: test_img
 		},
 	],
+]
+
+export const sports_slider_data = 
+[
+	{
+		title: "Title1",
+		author: "Author1",
+		url: test_url,
+		img_src: test_wide_pic
+	},
+	{
+		title: "Title2",
+		author: "Author2",
+		url: test_url,
+		img_src: test_wide_pic
+	},
+	{
+		title: "Title3",
+		author: "Author3",
+		url: test_url,
+		img_src: test_wide_pic
+	},
+	{
+		title: "Title4",
+		author: "Author4",
+		url: test_url,
+		img_src: test_wide_pic
+	},
+	{
+		title: "Title5",
+		author: "Author5",
+		url: test_url,
+		img_src: test_wide_pic
+	},
 ]
