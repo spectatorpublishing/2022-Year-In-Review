@@ -9,6 +9,7 @@ import { linkTo } from '@storybook/addon-links';
 // A url for a testing image
 const test_img = "https://placekitten.com/301/301"
 const test_url = "http://cs.columbia.edu"
+const test_wide_pic = "https://picsum.photos/1500/800"
 
 // Data for imageSlider
 const image_slider_data = 
@@ -44,6 +45,42 @@ const image_slider_data =
 		img_src: test_img
 	},
 ]
+
+// Data for sportSlider
+const sports_slider_data = 
+[
+	{
+		title: "Title1",
+		author: "Author1",
+		url: test_url,
+		img_src: test_wide_pic
+	},
+	{
+		title: "Title2",
+		author: "Author2",
+		url: test_url,
+		img_src: test_wide_pic
+	},
+	{
+		title: "Title3",
+		author: "Author3",
+		url: test_url,
+		img_src: test_wide_pic
+	},
+	{
+		title: "Title4",
+		author: "Author4",
+		url: test_url,
+		img_src: test_wide_pic
+	},
+	{
+		title: "Title5",
+		author: "Author5",
+		url: test_url,
+		img_src: test_wide_pic
+	},
+]
+
 // Test Storybook
 storiesOf('Test', module).add('Test', () => (<h1>Hello</h1>))
 
@@ -70,7 +107,7 @@ storiesOf('SportsSlideShow', module).add('SportSlide', () => <SportSlide title="
 // Test SportsSlideShow
 import SportsSlideShow from '../containers/SportsSlideShow'
 
-storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideShow data = {image_slider_data} />))
+storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideShow data = {sports_slider_data} />))
 
 // Test scroll arrow
 import ScrollArrow from '../components/ScrollArrow.js';
@@ -102,4 +139,3 @@ storiesOf('NavBar', module)
 import GenericPanelLayout from '../containers/GenericPanelLayout'
 
 storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout menuItems={NavItems} data = {image_slider_data}/>)
-  .add('fixed navbar', () => <NavBar menuItems={NavItems} fixed />);

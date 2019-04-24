@@ -1,5 +1,5 @@
-const test_img = "https://placekitten.com/301/301"
-const test_url = "http://cs.columbia.edu"
+export const test_img = "https://placekitten.com/301/301"
+export const test_url = "http://cs.columbia.edu"
 
 // Data for imageSlider
 export const NewsTestData = 

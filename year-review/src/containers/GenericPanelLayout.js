@@ -26,11 +26,8 @@ import blueicon from '../assets/blueicon.png'
 // `
 
 let containerStyle = {
-	// float: 'right'
-    // flex: 1,
-    // flexDirection: 'row',
-    // justifyContent: 'center',
-    // alignItems: 'stretch'
+	width: "100vw",
+  height: "100vh" 
 }
 
 let LeftSideContainer = styled.div`
@@ -98,10 +95,6 @@ export default class GenericPanelLayout extends Component {
     return (
       // Try setting `flexDirection` to `column`.
       <div style={containerStyle}>
-        <BrowserRouter> 
-          <NavBar menuItems = {this.props.menuItems}></NavBar>
-        </BrowserRouter>
-
         <LeftSideContainer>
         	<h1 style={titleStyle}>CONTROVERSIAL CUCR SPEAKERS DRAW MASSIVE PROTESTS, 
         	PROMPTING FREE SPEECH DEBATE</h1>
@@ -113,7 +106,6 @@ export default class GenericPanelLayout extends Component {
             <ImageBoxSlider data = {this.props.data}/>
           </ImageBoxSliderContainer>
         </LeftSideContainer>
-        <Icon src={blueicon}></Icon>
         <RightSideContainer>
           <SideImg src = {fillerImg}></SideImg>
         </RightSideContainer>

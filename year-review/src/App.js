@@ -4,41 +4,61 @@ import { MemoryRouter } from 'react-router';
 import { ThemeProvider } from "styled-components";
 
 import { GlobalStyles, Theme } from "./util/GlobalStyles";
+
+import NewsContainer from './containers/NewsContainer'
+import NavBar from './components/Navigation/NavBar'
+
+
+import { test_img } from "./util/NewsTestData";
+import { NewsTestData } from './util/NewsTestData'
 import { NavItems } from "./util/NavItems";
-import NewsTestData from "./util/NewsTestData";
-
-import NavBar from './components/Navigation/NavBar.js';
-import ScrollingNavBar from './components/Navigation/ScrollingNavBar';
-import GenericPanelLayout from './components/GenericPanelLayout';
-import SportsSlideShow from './containers/SportsSlideShow'
-import PageIntro from './components/PageIntro'
-import ScrollArrow from './components/ScrollArrow'
-
-const test_img = "https://placekitten.com/301/301"
-const test_url = "http://cs.columbia.edu"
 
 class App extends Component {
 
   render() {
+    const home = () => <h1> Home </h1>
+    const news = () => <NewsContainer NavItems = {NavItems} SliderData = { NewsTestData }
+          intro_img = {test_img} />
+    const opinion = () => <h1> Opinions </h1>
+    const eye = () => <h1> Eye </h1>
+    const photo = () => <h1> Photo </h1>
+    const design = () => <h1> Design </h1>
+    const sports = () => <h1> Sports </h1>
+    const ane = () => <h1> A&E </h1>
+    const oped = () => <h1> Op_ed </h1>
+    const column = () => <h1>  column </h1>
+    const love = () => <h1>  love </h1>
+    const debate = () => <h1>  debate </h1>
+
     return (
-      <MemoryRouter initialEntries={['/']}>
       <div>
-        <PageIntro title1="News" text1="blurb" title2="title" text2="blurb" img_src={test_img} />
-        <ScrollingNavBar menuItems={NavItems}>
-          <div style={{backgroundColor: "red", width: "100vw", height: "100vh",}}></div>
-          <div style={{backgroundColor: "orange", width: "100vw", height: "100vh",}}></div>
-          <div style={{backgroundColor: "yellow", width: "100vw", height: "100vh",}}></div>
-          <div style={{backgroundColor: "green", width: "100vw", height: "100vh",}}></div>
-          <div style={{backgroundColor: "blue", width: "100vw", height: "100vh",}}></div>
-          <div style={{backgroundColor: "indigo", width: "100vw", height: "100vh",}}></div>
-          <div style={{backgroundColor: "purple", width: "100vw", height: "100vh",}}></div>
-        </ScrollingNavBar>
-        
+        <MemoryRouter>
+          
+          
+          <NavBar menuItems={NavItems} fixed />
+          <Switch>
+            <Route exact path="/" component={home} />
+            <Route exact path="/news" component={news} />
+            <Route exact path="/opinion" component={opinion} />
+            <Route exact path="/eye" component={eye} />
+            <Route exact path="/photo" component={photo} />
+            <Route exact path="/design" component={design} />
+            <Route exact path="/sports" component={sports} />
+            <Route exact path="/arts-and-entertainment" component={ane} />
+            <Route exact path="/oped" component={oped} />
+            <Route exact path="/column" component={column} />
+            <Route exact path="/love-actualized" component={love} />
+            <Route exact path="/discourse-and-debate" component={debate} />
+          </Switch>
+
+        </MemoryRouter>
       </div>
-      </MemoryRouter>
+      
       
     );
   }
 }
 
 export default App;
+
+
