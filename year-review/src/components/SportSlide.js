@@ -15,6 +15,15 @@ const Title = styled.h3`
 	margin-top: -3px;
 `
 
+const Text = styled.div `
+  border: none;
+  padding: 5px;
+  font: sans-serif;
+  width: 100px;
+  height: 200px;
+  overflow: scroll;
+`
+
 const Author = styled.p`
   color: white;
 `
@@ -31,6 +40,9 @@ const slide = (props) =>{
             <Image {...props}>
                 <Title>{props.title}</Title>
                 <Author>{props.author}</Author>
+                <Text> 
+                  Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary. 
+                </Text>
             </Image>
         </Link>
     </Article>

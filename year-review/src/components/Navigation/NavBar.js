@@ -221,7 +221,7 @@ class NavBar extends Component {
   }
 
   getActiveSection(section) {
-    return this.props.history.location.hash.slice(1) == section;
+    return this.props.history.location.hash.slice(1) === section;
   }
 
   getMenuItems(isMobile, isScrolling) {
