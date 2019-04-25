@@ -10,7 +10,22 @@ const img = "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wa
 const test_wide_pic = "https://picsum.photos/1500/800"
 
 const opinion_data = [
-	test_img,test_img,test_img,test_img
+	{
+		img_src: test_wide_pic,
+		title: "Op-ED"
+	},
+	{
+		img_src: test_wide_pic,
+		title: "Love Actualized"
+	},
+	{
+		img_src: test_wide_pic,
+		title: "Columns"
+	},
+	{
+		img_src: test_wide_pic,
+		title: "Debate"
+	}
 ]
 
 // Data for imageSlider

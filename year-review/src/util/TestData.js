@@ -3,6 +3,29 @@ export const test_url = "http://cs.columbia.edu"
 const test_wide_pic = "https://picsum.photos/1500/800"
 
 // Data for imageSlider
+export const opinion_data = [
+	{
+		img_src: test_wide_pic,
+		title: "Op-ED",
+		link: '/oped'
+	},
+	{
+		img_src: test_wide_pic,
+		title: "Love Actualized",
+		link: '/love-actualized'
+	},
+	{
+		img_src: test_wide_pic,
+		title: "Columns",
+		link: '/column'
+	},
+	{
+		img_src: test_wide_pic,
+		title: "Debate",
+		link: "/discourse-and-debate"
+	}
+]
+
 export const NewsTestData = 
 [
 	[
