@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, withRouter } from 'react-router-dom';
 import styled from 'styled-components'
 import ImageBox from './ImageBox/ImageBox'
 
@@ -41,30 +41,33 @@ class ExpandingColumns extends Component{
 	}
 
 	onHover(i) {
-		console.log(i)
 		this.setState({
 			hover: i
 		})
 	}
 
 	onStopHover() {
-		console.log("bye")
 		this.setState({
 			hover: -1
 		})
 	}
 
+	handleClick(link) {
+		this.props.history.push(link)
+	}
+
 	render(){
 		const grid = this.props.data.map((data, i) => {
 			return (
-				<Link to = {data.link}>
+				
 				<Column img_src={data.img_src} key={i} index={i} 
 					hover={this.state.hover}
 					onMouseEnter={() => this.onHover(i)}
-		    		onMouseLeave={this.onStopHover}>
+		    		onMouseLeave={this.onStopHover}
+		    		onClick = {() => this.handleClick(data.link)}>
 	                <Title>{data.title}</Title>
 	    		</Column>
-	    		</Link>
+	    		
     		)
 		});
 
@@ -75,5 +78,5 @@ class ExpandingColumns extends Component{
     
  
 }
-export default ExpandingColumns;
+export default withRouter(ExpandingColumns);
 
