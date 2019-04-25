@@ -20,6 +20,7 @@ addDecorator(withGlobalStyles);
 function loadStories() {
   require('../src/stories/StyleGuide.js');
   require('../src/stories/Navigation.js');
+  require('../src/stories/Lightbox.js');
   require('../src/stories/index.js');
   // You can require as many stories as you need.
 }
