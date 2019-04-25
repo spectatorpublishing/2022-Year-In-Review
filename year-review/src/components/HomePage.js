@@ -13,12 +13,21 @@ let HomePageContainer= styled.div`
     height: 100vh;
     width: 100%;
     border: solid black 1px;
+    z-index: -1;
 `
 
 let BackImg = styled.img`
   height: 100vh;
   width: 100%;
   opacity: .5;
+  z-index: -1;
+`
+let LeftTitle = styled.div`
+	width: 60%;
+	height: 70vh; 
+	float: left;
+    background-color: skyblue;
+    position: absolute;
 `
 
 // const Image = styled.div`
@@ -35,6 +44,7 @@ const homePage = (props) =>{
   return (
     <HomePageContainer>
         <BackImg src={props.img_src} />
+        <LeftTitle>HI </LeftTitle>
     </HomePageContainer>
   );
 }
