@@ -49,14 +49,14 @@ let containerStyle = {
 
 let LeftSideContainer = styled.div`
 	width: 70%;
-	height: 100vh; 
+	height: 100%; 
 	float: left;
 	background-color: skyblue;
 `
 
 let RightSideContainer = styled.div`
 	width: 30%;
-	height: 100vh;
+	height: 100%;
 	float: right;
   background-color: grey;
 `
@@ -105,6 +105,9 @@ export default class GenericPanelLayout extends Component {
     return (
       // Try setting `flexDirection` to `column`.
       <div style={containerStyle}>
+        {/* <BrowserRouter>
+          <NavBar menuItems={this.props.menuItems} fixed/>
+        </BrowserRouter> */}
         <LeftSideContainer>
         	<h1 style={titleStyle}>CONTROVERSIAL CUCR SPEAKERS DRAW MASSIVE PROTESTS, 
         	PROMPTING FREE SPEECH DEBATE</h1>

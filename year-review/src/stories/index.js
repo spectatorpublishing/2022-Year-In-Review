@@ -139,3 +139,8 @@ storiesOf('NavBar', module)
 import GenericPanelLayout from '../containers/GenericPanelLayout'
 
 storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout menuItems={NavItems} data = {image_slider_data}/>)
+
+// Test Home Page
+import HomePage from '../components/HomePage.js'
+
+storiesOf('ImageBoxSlider', module).add('HomePage',() => <HomePage img_src={test_wide_pic}/>)
