@@ -1,27 +1,51 @@
 import React, { Component } from "react";
 import { withRouter } from 'react-router-dom';
 import styled from 'styled-components';
-import { ReactComponent as RightArrow } from "../../assets/arrow.svg";
+import { ReactComponent as Arrow } from "../../assets/arrow.svg";
+import { ReactComponent as Cross } from "../../assets/x.svg";
 
+let RightArrow = styled(Arrow)`
+  & path {
+    stroke: ${props => props.theme.transparentWhite};
+  }
+
+  &:hover path {
+    stroke: ${props => props.theme.white};
+  }
+`
 let LeftArrow = styled(RightArrow)`
   transform: rotate(180deg);
+`
+let CloseButton = styled(Cross)`
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: calc(5% - 25px);
+
+  & path {
+    stroke: ${props => props.theme.transparentWhite};
+  }
+
+  &:hover path {
+    stroke: ${props => props.theme.white};
+  }
 `
 let LightboxContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1512847819326-205ee05f3ceb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
-  background: cover;
+  background-color: ${props => props.theme.indigo};
+  background-image: url(${props => props.imageUrl});
+  background-position: right;
   display: flex;
   flex-direction: row;
 `
 let PreviewContainer = styled.div`
-  background: rgba(200,50,200,0.4);
+  background: ${props => props.theme.indigo};
   height: 100%;
   width: 60%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
 `
 let ImageContainer = styled.div`
   height: 90%;
@@ -37,21 +61,21 @@ let CaptionContainer = styled.div`
   width: 30%
   padding: 5%;
   overflow-y: scroll;
-  background: rgba(180,90,200,0.8);
+  background: rgba(34,36,48,0.8);
 `
 let TitleContainer = styled.div`
 `
 let TitleLink = styled.a`
   text-decoration: none;
-
-  &:hover {
-    color: ${props => props.theme.blue};
-  }
 `
 let Title = styled.h1`
   color: ${props => props.theme.white};
   margin: 10px 0; 
   text-transform: uppercase;
+
+  &:hover {
+    color: ${props => props.theme.blue};
+  }
 `
 let Description = styled.p`
   color: ${props => props.theme.white};
@@ -70,7 +94,7 @@ class Lightbox extends Component {
     super(props);
 
     this.state = {
-      index: 0,
+      index: this.props.index || 0,
       width: window.innerWidth
     }
 
@@ -91,7 +115,6 @@ class Lightbox extends Component {
   }
 
   handleKeyDown(e) {
-    console.log(e.key);
     switch (e.key) {
       case "ArrowLeft":
         this.handleLeftArrowClick();
@@ -100,6 +123,7 @@ class Lightbox extends Component {
         this.handleRightArrowClick();
         break;
       case "Escape":
+        this.props.onClose();
         break;
       default:
         break;
@@ -128,7 +152,7 @@ class Lightbox extends Component {
 
   render() {
     return (
-      <LightboxContainer>
+      <LightboxContainer imageUrl={this.props.media[this.state.index].imgUrl}>
         <PreviewContainer>
           <LeftArrow onClick={this.handleLeftArrowClick} />
           <ImageContainer>
@@ -153,6 +177,8 @@ class Lightbox extends Component {
             <Credit>{this.props.authorLabel}: {this.props.media[this.state.index].author}</Credit>
           </CreditContainer>
         </CaptionContainer>
+
+        <CloseButton onClick={this.props.onClose} />
       </LightboxContainer>
     );
   }

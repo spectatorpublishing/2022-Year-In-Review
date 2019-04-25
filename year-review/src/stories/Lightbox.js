@@ -24,11 +24,19 @@ let sampleMedia = [
   }
 ];
 
+let fakeOnClose = () => console.log("Trigger Close");
+
 storiesOf('Lightbox', module)
   .addDecorator(story => (
     <MemoryRouter initialEntries={['/']}>
       {story()}
     </MemoryRouter>
   ))
-  .add('Lightbox', () => <Lightbox media={sampleMedia} authorLabel="photographer" />);
+  .add('Lightbox', () => <Lightbox 
+      index={0} 
+      media={sampleMedia} 
+      authorLabel="photographer"
+      onClose={fakeOnClose}
+    />
+  );
   
