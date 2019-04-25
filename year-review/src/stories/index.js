@@ -143,7 +143,12 @@ storiesOf('PhotoGrid', module).add('Photo', () => <ImageBox/>)
 // Test Generic Panel Layout
 import GenericPanelLayout from '../containers/GenericPanelLayout'
 storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout data = {image_slider_data}/>)
+                                        
+// Test Home Page
+import HomePage from '../components/HomePage.js'
+storiesOf('HomePage', module).add('HomePage',() => <HomePage img_src={test_wide_pic}/>)
 
 // Test ExpandingColumns
 import ExpandingColumns from '../components/ExpandingColumns'
 storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
+
