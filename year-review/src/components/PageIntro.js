@@ -24,11 +24,11 @@ const Text2 = styled.p`
 
 const Image = styled.div`
   background-image: url(${({img_src}) => img_src});
-  height: 200px;
+  height: 50vh;
   `;
 const Background = styled.div`
   background: lightblue;
-  height: 200px;
+  height: 50vh;
   `;
 const Logo = styled.img`
   display: block;
