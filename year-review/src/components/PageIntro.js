@@ -28,7 +28,7 @@ const Image = styled.div`
   `;
 const Background = styled.div`
   background: lightblue;
-  height: 50vh;
+  height: 45vh;
   `;
 const Logo = styled.img`
   display: block;
