@@ -59,7 +59,6 @@ class ExpandingColumns extends Component{
 	render(){
 		const grid = this.props.data.map((data, i) => {
 			return (
-				
 				<Column img_src={data.img_src} key={i} index={i} 
 					hover={this.state.hover}
 					onMouseEnter={() => this.onHover(i)}

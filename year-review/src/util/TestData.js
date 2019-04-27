@@ -27,135 +27,25 @@ export const opinion_data = [
 ]
 
 export const NewsTestData = 
-[
+{
+	sections: 
 	[
-		{
-			title: "Title1",
-			author: "Author1",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title2",
-			author: "Author2",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title3",
-			author: "Author3",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title4",
-			author: "Author4",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title5",
-			author: "Author5",
-			url: test_url,
-			img_src: test_img
-		},
+	  {
+	    "name": "Captain Cat",
+	    "link": "/news"
+	  },
+	  {
+	    "name": "Iron Cat",
+	    "link": "/opinion"
+	  },
+	  {
+	    "name": "Black Cat",
+	    "link": "/eye"
+	  }
 	],
+
+	image_and_text: 
 	[
-		{
-			title: "Title1",
-			author: "Author1",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title2",
-			author: "Author2",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title3",
-			author: "Author3",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title4",
-			author: "Author4",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title5",
-			author: "Author5",
-			url: test_url,
-			img_src: test_img
-		},
-	],
-	[
-		{
-			title: "Title1",
-			author: "Author1",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title2",
-			author: "Author2",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title3",
-			author: "Author3",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title4",
-			author: "Author4",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title5",
-			author: "Author5",
-			url: test_url,
-			img_src: test_img
-		},
-	],
-	[
-		{
-			title: "Title1",
-			author: "Author1",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title2",
-			author: "Author2",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title3",
-			author: "Author3",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title4",
-			author: "Author4",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title5",
-			author: "Author5",
-			url: test_url,
-			img_src: test_img
-		},
-	],
 	[
 		{
 			title: "Title1",
@@ -253,6 +143,9 @@ export const NewsTestData =
 		},
 	],
 ]
+
+}
+
 
 export const sports_slider_data = 
 [

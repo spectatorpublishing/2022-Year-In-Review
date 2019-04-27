@@ -18,13 +18,14 @@ class App extends Component {
 
   render() {
     const home = () => <h1> Home </h1>
-    const news = () => <NewsContainer NavItems = {NavItems} SliderData = { NewsTestData } intro_img = {test_img} />
+    const news = () => <NewsContainer NavItems = {NewsTestData.sections} SliderData = { NewsTestData.image_and_text } intro_img = {test_img} />
     const opinion = () => <ExpandingColumns data = {opinion_data}/>
     const eye = () => <h1> Eye </h1>
     const photo = () => <h1> Photo </h1>
     const design = () => <h1> Design </h1>
     const sports = () => <SportsContainer NavItems = {NavItems} SportsData = {sports_slider_data} />
     const ane = () => <h1> A&E </h1>
+    const spectrum = () => <h1> Spectrum </h1>
 
     const oped = () => <h1> Op_ed </h1>
     const column = () => <h1>  column </h1>
@@ -34,7 +35,7 @@ class App extends Component {
     return (
       <div>
         <MemoryRouter>
-          <NavBar menuItems={NavItems} fixed />
+          <NavBar menuItems={NavItems} />
           <Switch>
             <Route exact path="/" component={home} />
             <Route exact path="/news" component={news} />
@@ -44,6 +45,7 @@ class App extends Component {
             <Route exact path="/design" component={design} />
             <Route exact path="/sports" component={sports} />
             <Route exact path="/arts-and-entertainment" component={ane} />
+            <Route exact path="/spectrum" component={spectrum} />
 
             <Route exact path="/column" component={column} />
             <Route exact path="/oped" component={oped} />
