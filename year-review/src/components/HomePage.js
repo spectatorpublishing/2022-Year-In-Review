@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Background from '../assets/homepg1500x800.png';
 
 // let HomePageImg= styled.div`
 //     background-image: url(${({img_src}) => img_src});
@@ -9,25 +10,57 @@ import styled from 'styled-components'
 // `
 
 let HomePageContainer= styled.div`
-    background-color: skyblue;
+    background-image: url(${Background});
+    background-size: cover;
     height: 100vh;
     width: 100%;
     border: solid black 1px;
     z-index: -1;
+    position: relative;
+`
+let LeftDiv = styled.div`
+	width: 60%;
+	height: 65vh; 
+	float: left;
+  background-color: skyblue;
+  position: relative;
+  top: 15vh;
 `
 
-let BackImg = styled.img`
-  height: 100vh;
-  width: 100%;
-  opacity: .5;
-  z-index: -1;
+let LeftTitleDiv = styled.div`
+	width: 100%;
+	height: 50vh; 
+  background-color: skyblue;
+  position: relative;
+  top: 15vh;
+  border: 1px solid black;
 `
-let LeftTitle = styled.div`
-	width: 60%;
-	height: 70vh; 
+
+let YearDiv = styled.div`
+  width: 100%;
+	height: 15vh; 
 	float: left;
-    background-color: skyblue;
-    position: absolute;
+  background-color: none;
+  position: relative;
+  border: 1px solid black;
+`
+
+let Year = styled.h2`
+  color: white;
+`
+
+let LeftTitle = styled.h1`
+  color: white;
+`
+
+let RightDiv = styled.div`
+	width: 35%;
+  height: 65vh;
+	float: right;
+  background-color: grey;
+  position: relative;
+  top: 15vh;
+  border: 1px solid black;
 `
 
 // const Image = styled.div`
@@ -43,8 +76,21 @@ const Title = styled.h3`
 const homePage = (props) =>{
   return (
     <HomePageContainer>
-        <BackImg src={props.img_src} />
-        <LeftTitle>HI </LeftTitle>
+        <LeftDiv>
+          <YearDiv>
+            <Year>2018 - 2019</Year>
+          </YearDiv>
+          <LeftTitleDiv>
+            <LeftTitle>
+              Year in Review
+            </LeftTitle>
+          </LeftTitleDiv>
+        </LeftDiv>
+        
+        <RightDiv>
+
+        </RightDiv>
+        
     </HomePageContainer>
   );
 }
