@@ -101,3 +101,8 @@ storiesOf('HomePage', module).add('HomePage',() => <HomePage img_src={test_wide_
 import ExpandingColumns from '../components/ExpandingColumns'
 storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
 
+// Test Footer
+import Footer from '../components/Footer.js';
+import FooterHome from '../components/FooterHome.js';
+storiesOf('Footer', module).add("Footer",() => <Footer />)
+	.add("Footer Home",() => <FooterHome />)
