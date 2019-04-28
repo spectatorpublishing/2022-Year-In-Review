@@ -1,59 +1,54 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Credits = styled.h1`
-  color: white;
-  `;
-
-const Column = styled.div`
-    float: left;
-    width: 50%
-    padding: 10px;
-`;
-
-// const Design = styled.div`
-//     float: center;
-//     width: 50%
-//     padding: 10px;
-// `;
-
-const Title = styled.h1`
-  font-size: 20px;
-  margin: 0px;
-  color: white;
-  `;
-
-const Names = styled.p`
-  color: white;
-  `;
-
-const Role = styled.p`
-  color: grey;
-  `;
 
 const Background = styled.div`
-  background: black;
-  height: 200px;
+    width: 100%;
+    background-color: ${props => props.theme.indigo};
+    color: ${props => props.theme.white};
+    padding-top: 5%;
+    padding-left: 20%;
+    `;
+
+const Column = styled.div`
+  display: grid;
+  grid-template-columns: 25% 25%;
+  grid-gap: 5%;
+  padding-top: 2%;
   `;
   
+const Role = styled.div`
+ color: ${props => props.theme.transparentWhite};
+ padding-left: 5px;
+ `;
+
+const Line = styled.h4`
+  display: flex;
+  flex-direction: row;
+`;
+
 const footerHome = (props) =>{
   return (
-    <div className="PageIntro">
+    <div className="FooterHome">
         <Background>
-        <Credits><h1>Design and Development Credits</h1></Credits>
-        
-        <Column>
-            <Title>Developed By</Title>
-            <Names>Name, </Names> 
-            <Role>Developer</Role> 
-        </Column>
-        <Column>
-            <Title>Designed By</Title>
-            <Names>Name, </Names> 
-            <Role>Designer</Role> 
-        </Column>
+
+        <h3>Design and Development Credits</h3>
+
+          <Column>
+          <h3>Developed By</h3>
+          <h3>Designed By</h3>
+          <Line>Name,<Role>Developer</Role></Line> 
+          <Line>Name,<Role>Designer</Role></Line> 
+          <Line>Name,<Role>Developer</Role></Line> 
+          <Line>Name,<Role>Designer</Role></Line> 
+          <Line>Name,<Role>Developer</Role></Line> 
+          <Line>Name,<Role>Designer</Role></Line> 
+          <Line>Name,<Role>Developer</Role></Line> 
+          <Line>Name,<Role>Designer</Role></Line> 
+          </Column>
+
+        </Background>
          
-        </Background>    
     </div>
   );
 }
