@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
-import { Link, NavLink, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import styled from 'styled-components'
-import ImageBox from './ImageBox/ImageBox'
 
 const Contain = styled.div`
     display: flex;  
@@ -20,7 +19,9 @@ const Column = styled.div`
     transition: width 0.5s;
     background-position: center;
 	width: ${props => props.hover === -1? '25%' : props.index === props.hover? '55%' : "15%"};
+	filter: ${props => props.hover === -1? 'grayscale(0%)' : props.index === props.hover ? 'grayscale(0%)' : 'grayscale(100%)'};
 `
+
 const Title = styled.h3`
 	margin-top: 3px;
 	color: black;

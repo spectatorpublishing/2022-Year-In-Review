@@ -1,4 +1,5 @@
 export const test_img = "https://placekitten.com/301/301"
+export const test_img2 = "https://placekitten.com/300/400"
 export const test_url = "http://cs.columbia.edu"
 const test_wide_pic = "https://picsum.photos/1500/800"
 
@@ -46,104 +47,103 @@ export const NewsTestData =
 
 	image_and_text: 
 	[
-	[
-		{
-			title: "Title1",
-			author: "Author1",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title2",
-			author: "Author2",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title3",
-			author: "Author3",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title4",
-			author: "Author4",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title5",
-			author: "Author5",
-			url: test_url,
-			img_src: test_img
-		},
-	],
-	[
-		{
-			title: "Title1",
-			author: "Author1",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title2",
-			author: "Author2",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title3",
-			author: "Author3",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title4",
-			author: "Author4",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title5",
-			author: "Author5",
-			url: test_url,
-			img_src: test_img
-		},
-	],
-	[
-		{
-			title: "Title1",
-			author: "Author1",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title2",
-			author: "Author2",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title3",
-			author: "Author3",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title4",
-			author: "Author4",
-			url: test_url,
-			img_src: test_img
-		},
-		{
-			title: "Title5",
-			author: "Author5",
-			url: test_url,
-			img_src: test_img
-		},
-	],
-]
-
+		[
+			{
+				title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+				description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
+				url: test_url,
+				img_src: test_img2
+			},
+			{
+				title: "Title2",
+				description: "Author2",
+				url: test_url,
+				img_src: test_img
+			},
+			{
+				title: "Title3",
+				description: "Author3",
+				url: test_url,
+				img_src: test_img
+			},
+			{
+				title: "Title4",
+				description: "Author4",
+				url: test_url,
+				img_src: test_img
+			},
+			{
+				title: "Title5",
+				description: "Author5",
+				url: test_url,
+				img_src: test_img
+			},
+		],
+		[
+			{
+				title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+				description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
+				url: test_url,
+				img_src: test_img
+			},
+			{
+				title: "Title2",
+				description: "Author2",
+				url: test_url,
+				img_src: test_img
+			},
+			{
+				title: "Title3",
+				description: "Author3",
+				url: test_url,
+				img_src: test_img
+			},
+			{
+				title: "Title4",
+				description: "Author4",
+				url: test_url,
+				img_src: test_img
+			},
+			{
+				title: "Title5",
+				description: "Author5",
+				url: test_url,
+				img_src: test_img
+			},
+		],
+		[
+			{
+				title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+				description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
+				url: test_url,
+				img_src: test_img
+			},
+			{
+				title: "Title2",
+				description: "Author2",
+				url: test_url,
+				img_src: test_img
+			},
+			{
+				title: "Title3",
+				description: "Author3",
+				url: test_url,
+				img_src: test_img
+			},
+			{
+				title: "Title4",
+				description: "Author4",
+				url: test_url,
+				img_src: test_img
+			},
+			{
+				title: "Title5",
+				description: "Author5",
+				url: test_url,
+				img_src: test_img
+			},
+		],
+	]
 }
 
 

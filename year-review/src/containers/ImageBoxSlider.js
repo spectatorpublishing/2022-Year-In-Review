@@ -1,35 +1,42 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
+
 import Article from '../components/Article'
-import arrow from '../assets/arrow.svg'
+import left_arrow from '../assets/left_arrow.svg'
+import right_arrow from '../assets/left_arrow.svg'
 import filledCircle from '../assets/filledCircle.png'
 import emptyCircle from '../assets/emptyCircle.png'
 
 const n = 3
 
 const ImageContainer = styled.div`
-	background: #555;
-	width: 610px;	
+	width: 60vw;	
 	display: flex;
 	overflow: hidden;
 `
+
 const BoxPanel = styled.div`
 	display: flex;
-	width: 570px;
-	transform: translate(${props => props.translateValue}px);
+	width: 57vw;
+	transform: translate(${props => props.translateValue}vw);
     transition: transform ease-out 0.45s;
 `
+
+const MobilePanel = styled.div`
+	display: flex;
+	width: 57vw;
+	transform: translate(${props => props.translateValue}vw);
+    transition: transform ease-out 0.45s;
+`
+
 const Arrow = styled.img`
 	width: 20px;
-	&:hover {
-    	background: ${props => props.src? '#500' : '#555'};
-  	}
-  	z-index: 1
+  	z-index: 1;
 `
 
 const CircleContainer = styled.div`
-	width: 610px;	
-	background: #555;
+	width: 60vw;	
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -64,12 +71,12 @@ class ImageBoxSlider extends Component {
 			circle_index: current_circle
 		})
 
-		if (current_index == 0){
+		if (current_index === 0){
 			this.setState({
 				leftDisabled: true
 			})
 		}
-		if (current_index == this.props.data.length-n-1){
+		if (current_index === this.props.data.length-n-1){
 			this.setState({
 				rightDisabled: false
 			})
@@ -85,12 +92,12 @@ class ImageBoxSlider extends Component {
 			circle_index: current_circle
 		})
 
-		if (current_index == this.props.data.length-n){
+		if (current_index === this.props.data.length-n){
 			this.setState({
 				rightDisabled: true
 			})
 		}
-		if (current_index == 1){
+		if (current_index === 1){
 			this.setState({
 				leftDisabled: false
 			})
@@ -100,10 +107,10 @@ class ImageBoxSlider extends Component {
 	onCircle = (i) => {
 		let leftDisabled = false
 		let rightDisabled = false
-		if (i==this.props.data.length-3){
+		if (i === this.props.data.length-3){
 		 	rightDisabled = true
 		}
-		else if (i==0)
+		else if (i === 0)
 			leftDisabled = true
 
 		this.setState({
@@ -118,34 +125,50 @@ class ImageBoxSlider extends Component {
 		
 		let boxes = this.props.data.map ( (data,i) => 
 			<Article title= {data.title} author={data.author} 
-			url={data.url} img_src={data.img_src} key = {i}/>
+			onClick = {() => this.props.handleClick(i)} img_src={data.img_src} key = {i}/>
 		)
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)
 					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
 				else if (i<this.props.data.length-2)
 					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
+				return
 			}
 		)
 
 		let leftArrow =  <Arrow /> 
 		let rightArrow = <Arrow /> 
 		if (!this.state.leftDisabled)
-			leftArrow = <Arrow src={arrow} onClick={this.onLeft}/> 
+			leftArrow = <Arrow src={left_arrow} onClick={this.onLeft}/> 
 		if (!this.state.rightDisabled)
-			rightArrow = <Arrow src={arrow} onClick={this.onRight}/> 
+			rightArrow = <Arrow src={right_arrow} onClick={this.onRight}/> 
 
 		return (
+		[
+	      <MobileAndTablet>
+	        <div>
+				{leftArrow}
+				<BoxPanel translateValue = {this.state.box_index*(-100)}>
+					{boxes}		
+				</BoxPanel>
+				{rightArrow}
+				<CircleContainer> {circles} </CircleContainer> 
+			</div>
+	      </MobileAndTablet>,
+	      
+	      <Desktop>
 			<div>
 				<ImageContainer>
 					{leftArrow}
-					<BoxPanel translateValue = {this.state.box_index*(-190)}>
+					<BoxPanel translateValue = {this.state.box_index*(-19)}>
 						{boxes}		
 					</BoxPanel>
 					{rightArrow}
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 
 			</div>
+		  </Desktop>
+        ]
 		)
 	}
 }

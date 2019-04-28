@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
 import SportSlide from '../components/SportSlide'
-import arrow from '../assets/arrow.svg'
+import left_arrow from '../assets/left_arrow.svg'
+import right_arrow from '../assets/right_arrow.svg'
 import filledCircle from '../assets/filledCircle.png'
 import emptyCircle from '../assets/emptyCircle.png'
 
@@ -79,12 +80,12 @@ class SportsSlideShow extends Component {
 			circle_index: current_circle
 		})
 
-		if (current_index == 0){
+		if (current_index === 0){
 			this.setState({
 				leftDisabled: true
 			})
 		}
-		if (current_index == this.props.data.length-n-1){
+		if (current_index === this.props.data.length-n-1){
 			this.setState({
 				rightDisabled: false
 			})
@@ -100,12 +101,12 @@ class SportsSlideShow extends Component {
 			circle_index: current_circle
 		})
 
-		if (current_index == this.props.data.length-n){
+		if (current_index === this.props.data.length-n){
 			this.setState({
 				rightDisabled: true
 			})
 		}
-		if (current_index == 1){
+		if (current_index === 1){
 			this.setState({
 				leftDisabled: false
 			})
@@ -115,10 +116,10 @@ class SportsSlideShow extends Component {
 	onCircle = (i) => {
 		let leftDisabled = false
 		let rightDisabled = false
-		if (i==this.props.data.length-3){
+		if (i===this.props.data.length-3){
 		 	rightDisabled = true
 		}
-		else if (i==0)
+		else if (i===0)
 			leftDisabled = true
 
 		this.setState({
@@ -137,13 +138,13 @@ class SportsSlideShow extends Component {
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)
 					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
-				else if (i<this.props.data.length)
+				else 
 					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
 			}
 		)
 
-		let leftArrow =  this.state.leftDisabled ? null : <LeftArrow src={arrow} onClick={this.onLeft}/> 
-		let rightArrow = this.state.rightDisabled ? null : <RightArrow src={arrow} onClick={this.onRight}/> 
+		let leftArrow =  this.state.leftDisabled ? null : <LeftArrow src={left_arrow} onClick={this.onLeft}/> 
+		let rightArrow = this.state.rightDisabled ? null : <RightArrow src={right_arrow} onClick={this.onRight}/> 
 
 		return (
 			<div>

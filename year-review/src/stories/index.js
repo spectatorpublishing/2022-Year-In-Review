@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { opinion_data, NewsTestData, sports_slider_data } from '../util/TestData'
 
 import PageIntro from '../components/PageIntro.js';
 import Article from '../components/Article.js';
@@ -11,33 +12,18 @@ import ImageBox from '../components/ImageBox/ImageBox';
 import GenericPanelLayout from '../containers/GenericPanelLayout';
 import HomePage from '../components/HomePage.js';
 import ExpandingColumns from '../components/ExpandingColumns';
+import Footer from '../components/Footer.js';
+import FooterHome from '../components/FooterHome.js';
 
 // Data for testing
 
 // A url for a testing image
 const test_img = "https://placekitten.com/301/301"
+const test_img2 = "https://placekitten.com/400/300"
 const test_url = "http://cs.columbia.edu"
 const img = "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg";
 const test_wide_pic = "https://picsum.photos/1500/800"
 
-const opinion_data = [
-	{
-		img_src: test_wide_pic,
-		title: "Op-ED"
-	},
-	{
-		img_src: test_wide_pic,
-		title: "Love Actualized"
-	},
-	{
-		img_src: test_wide_pic,
-		title: "Columns"
-	},
-	{
-		img_src: test_wide_pic,
-		title: "Debate"
-	}
-]
 
 // Data for imageSlider
 const image_slider_data = 
@@ -46,7 +32,7 @@ const image_slider_data =
 		title: "Title1",
 		author: "Author1",
 		url: test_url,
-		img_src: test_img
+		img_src: "https://placekitten.com/400/300"
 	},
 	{
 		title: "Title2",
@@ -76,48 +62,29 @@ const image_slider_data =
 
 const flip_data = [
 {
-	front_image: img,
+	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
 	author: "Ben LaZebnik",
 	section: "| YOU HAVE MY WORD",
-	back_image: test_img,
+	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
 	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
 },
-]
-
-// Data for sportSlider
-const sports_slider_data = 
-[
-	{
-		title: "Title1",
-		author: "Author1",
-		url: test_url,
-		img_src: test_wide_pic
-	},
-	{
-		title: "Title2",
-		author: "Author2",
-		url: test_url,
-		img_src: test_wide_pic
-	},
-	{
-		title: "Title3",
-		author: "Author3",
-		url: test_url,
-		img_src: test_wide_pic
-	},
-	{
-		title: "Title4",
-		author: "Author4",
-		url: test_url,
-		img_src: test_wide_pic
-	},
-	{
-		title: "Title5",
-		author: "Author5",
-		url: test_url,
-		img_src: test_wide_pic
-	},
+{
+	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
+	author: "Ben LaZebnik",
+	section: "| YOU HAVE MY WORD",
+	back_image: "https://placekitten.com/301/301",
+	title: "Disconnected from death",
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
+},
+{
+	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
+	author: "Ben LaZebnik",
+	section: "| YOU HAVE MY WORD",
+	back_image: "https://placekitten.com/301/301",
+	title: "Disconnected from death",
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
+},
 ]
 
 // Test Storybook
@@ -139,17 +106,20 @@ storiesOf('SportsSlideShow', module).add('SportSlide', () => <SportSlide title="
 storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideShow data = {sports_slider_data} />))
 
 //Test PhotoGrid
-storiesOf('PhotoGrid', module).add('PhotoPanel', () => <PhotoGrid data={image_slider_data} />)
+storiesOf('PhotoGrid', module).add('PhotoPanel', () => <PhotoGrid data={flip_data} />)
 
 //Test Flip Image-Box
-storiesOf('PhotoGrid', module).add('Photo', () => <ImageBox/>)
+storiesOf('PhotoGrid', module).add('Photo', () => <ImageBox data = {flip_data[0]}/>)
 
 // Test Generic Panel Layout
-storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout data = {image_slider_data}/>)
+storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout data = {NewsTestData.image_and_text[0]}/>)
                                         
 // Test Home Page
 storiesOf('HomePage', module).add('HomePage',() => <HomePage img_src={test_wide_pic}/>)
 
 // Test ExpandingColumns
-storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
+// storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
 
+// Test Footer
+storiesOf('Footer', module).add("Footer",() => <Footer />)
+	.add("Footer Home",() => <FooterHome />)
