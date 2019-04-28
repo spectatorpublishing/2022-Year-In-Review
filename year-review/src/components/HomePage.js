@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import Background from '../assets/homepg1500x800.png';
+import {NavLink} from 'react-router-dom'
+import Background from '../assets/homepg1500x800.png'
+import whitemasthead from '../assets/whitemasthead.png'
 
 // let HomePageImg= styled.div`
 //     background-image: url(${({img_src}) => img_src});
@@ -46,11 +48,11 @@ let YearDiv = styled.div`
 `
 
 let Year = styled.h2`
-  color: white;
+  color: ${props => props.theme.white};
 `
 
 let LeftTitle = styled.h1`
-  color: white;
+  color: ${props => props.theme.white};
 `
 
 let RightDiv = styled.div`
@@ -61,6 +63,18 @@ let RightDiv = styled.div`
   position: relative;
   top: 15vh;
   border: 1px solid black;
+`
+
+let SectionTitleDiv = styled.div`
+  padding: 0.3rem;
+  margin: 1.5rem;
+`
+
+let SectionTitle = styled.h3`
+  color: ${props => props.theme.white};
+  &:hover{
+    color: ${props => props.theme.blue};
+  };
 `
 
 // const Image = styled.div`
@@ -82,13 +96,20 @@ const homePage = (props) =>{
           </YearDiv>
           <LeftTitleDiv>
             <LeftTitle>
-              Year in Review
+              YEAR IN REVIEW
             </LeftTitle>
           </LeftTitleDiv>
         </LeftDiv>
         
         <RightDiv>
-
+          <SectionTitleDiv><SectionTitle>NEWS</SectionTitle></SectionTitleDiv>
+          <SectionTitleDiv><SectionTitle>OPINION</SectionTitle></SectionTitleDiv>
+          <SectionTitleDiv><SectionTitle>THE EYE</SectionTitle></SectionTitleDiv>
+          <SectionTitleDiv><SectionTitle>PHOTO</SectionTitle></SectionTitleDiv>
+          <SectionTitleDiv><SectionTitle>DESIGN</SectionTitle></SectionTitleDiv>
+          <SectionTitleDiv><SectionTitle>SPORTS</SectionTitle></SectionTitleDiv>
+          <SectionTitleDiv><SectionTitle>A&amp;E</SectionTitle></SectionTitleDiv>
+          <SectionTitleDiv><SectionTitle>SPECTRUM</SectionTitle></SectionTitleDiv>
         </RightDiv>
         
     </HomePageContainer>
