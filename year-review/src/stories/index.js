@@ -1,6 +1,28 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+<<<<<<< HEAD
 import { opinion_data, NewsTestData, sports_slider_data } from '../util/TestData'
+=======
+//import { action } from '@storybook/addon-actions';
+//import { linkTo } from '@storybook/addon-links';
+//import NavBar from '../components/Navigation/NavBar'
+//import { NavItems } from "../util/NavItems";
+//import { MemoryRouter } from 'react-router';
+import FooterHome from '../components/FooterHome.js';
+import ExpandingColumns from '../components/ExpandingColumns';
+import HomePage from '../components/HomePage.js';
+import GenericPanelLayout from '../containers/GenericPanelLayout';
+import ImageBox from '../components/ImageBox/ImageBox';
+import PhotoGrid from '../components/PhotoGrid.js';
+import SportsSlideShow from '../containers/SportsSlideShow';
+import SportSlide from '../components/SportSlide.js';
+import ImageBoxSlider from '../containers/ImageBoxSlider';
+import Article from '../components/Article.js';
+import PageIntro from '../components/PageIntro.js';
+import Footer from '../components/Footer.js';
+
+
+>>>>>>> 685ef915937c4e2771d57523a05c7b342dcebe3c
 
 // Data for testing
 
@@ -62,42 +84,43 @@ const flip_data = [
 storiesOf('Test', module).add('Test', () => (<h1>Hello</h1>))
 
 // Test Page Intro
-import PageIntro from '../components/PageIntro.js';
 storiesOf('PageIntro', module).add('PageIntro', () => <PageIntro title1="title" text1="blurb" title2="title" text2="blurb" img_src={test_img} />)
 
 // Test Article
-import Article from '../components/Article.js';
 storiesOf('ImageBoxSlider', module).add('Article', () => <Article title="title" author="blurb" url={test_url} img_src={test_img}/>)
 
 // Test ImageBoxSlider
-import ImageBoxSlider from '../containers/ImageBoxSlider';
 storiesOf('ImageBoxSlider', module).add('ImageBoxSlider', () => (<ImageBoxSlider data = {image_slider_data} />))
 
 // Test SportsSlide
-import SportSlide from '../components/SportSlide.js';
 storiesOf('SportsSlideShow', module).add('SportSlide', () => <SportSlide title="title" author="blurb" url={test_url} img_src={test_img}/>)
 
 // Test SportsSlideShow
-import SportsSlideShow from '../containers/SportsSlideShow'
 storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideShow data = {sports_slider_data} />))
 
 //Test PhotoGrid
-import PhotoGrid from '../components/PhotoGrid.js';
 storiesOf('PhotoGrid', module).add('PhotoPanel', () => <PhotoGrid data={image_slider_data} />)
 
+//Test FooterHome
+storiesOf('Footer', module).add('Home', () => <FooterHome/>)
+
 //Test Flip Image-Box
-import ImageBox from '../components/ImageBox/ImageBox';
 storiesOf('PhotoGrid', module).add('Photo', () => <ImageBox/>)
 
 // Test Generic Panel Layout
+<<<<<<< HEAD
 import GenericPanelLayout from '../containers/GenericPanelLayout'
 storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout data = {NewsTestData.image_and_text[0]}/>)
+=======
+storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout data = {image_slider_data}/>)
+>>>>>>> 685ef915937c4e2771d57523a05c7b342dcebe3c
                                         
 // Test Home Page
-import HomePage from '../components/HomePage.js'
 storiesOf('HomePage', module).add('HomePage',() => <HomePage img_src={test_wide_pic}/>)
 
 // Test ExpandingColumns
-import ExpandingColumns from '../components/ExpandingColumns'
 storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
+
+//Test Footer
+storiesOf('Footer', module).add('Foot', () => <Footer/>)
 
