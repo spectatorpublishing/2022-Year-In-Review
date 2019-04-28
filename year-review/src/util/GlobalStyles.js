@@ -71,6 +71,7 @@ export const GlobalStyles = createGlobalStyle`
   body,
   button {
     color: ${props => props.theme.black};
+    margin: 0;
   }
   h1 {
     font-family: 'Branding', sans-serif;
