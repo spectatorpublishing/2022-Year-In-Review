@@ -96,7 +96,6 @@ const Author = styled.div`
 
 `;
 
-
 const ImageBox = (props) => {
   return (
     <div>
