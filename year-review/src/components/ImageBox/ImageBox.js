@@ -16,7 +16,6 @@ const Flipcard = styled.div`
     transition: transform 0.8s;
 	}
 
-
 `;
 
 const Inner = styled.div`
@@ -98,7 +97,6 @@ const Author = styled.div`
 `;
 
 
-
 const ImageBox = (props) => {
   return (
     <div>
@@ -129,7 +127,4 @@ const ImageBox = (props) => {
   )
 } 
 
-
-
-export default ImageBox;
-	
+export default ImageBox;	
