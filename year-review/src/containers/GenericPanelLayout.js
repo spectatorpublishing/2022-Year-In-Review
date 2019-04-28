@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import ImageBoxSlider from './ImageBoxSlider';
 import NavBar from '../components/Navigation/NavBar';
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import fillerImg from '../assets/dawg.png'
 import blueicon from '../assets/blueicon.png'
 import ScrollArrow from '../components/ScrollArrow'

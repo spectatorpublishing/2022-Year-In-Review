@@ -77,7 +77,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Branding', sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 8rem;
+    font-size: 6rem;
     letter-spacing: .2rem;
     margin: 0;
   }
@@ -85,14 +85,14 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Branding', sans-serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0;
   }
   h3 {
     font-family: 'Branding', sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 0;
   }
   h4 {
