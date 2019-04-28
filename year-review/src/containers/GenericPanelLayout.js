@@ -55,7 +55,6 @@ let LeftSideContainer = styled.div`
 	width: 70%;
 	height: 100%; 
 	float: left;
-	background-color: skyblue;
 `
 
 let RightSideContainer = styled.div`
@@ -63,26 +62,20 @@ let RightSideContainer = styled.div`
 	height: 100%;
 	float: right;
   background-color: grey;
+  background-image: url(${({img_src}) => img_src});
 `
 let ImageBoxSliderContainer = styled.div`
   margin: 2.5vw;
 `
-let SideImg = styled.img`
-  height: 100%;
-  width: 100%;
-`
 
-let titleStyle = {
+let head_style = {
 	textAlign: 'left',
-	fontSize: '3.5vw',
-	margin: '2vw 2.5vw 1vw 2.5vw'
+	margin: '12vh 2vw 4vh 8vw',
 }
 
-let subtitleStyle = {
+let subtitle_style = {
 	textAlign: 'left',
-	fontSize: '1.25vw',
-	marginLeft: '2.5vw',
-	marginRight: '2.5vw'
+	margin: '4vh 2vw 4vh 8vw',
 }
 
 
@@ -106,6 +99,7 @@ export default class GenericPanelLayout extends Component {
   }
 
   render() {
+    console.log(this.props.data)
     return (
       // Try setting `flexDirection` to `column`.
       <div style={containerStyle}>
@@ -113,20 +107,13 @@ export default class GenericPanelLayout extends Component {
           <NavBar menuItems={this.props.menuItems} fixed/>
         </BrowserRouter> */}
         <LeftSideContainer>
-        	<h1 style={titleStyle}>CONTROVERSIAL CUCR SPEAKERS DRAW MASSIVE PROTESTS, 
-        	PROMPTING FREE SPEECH DEBATE</h1>
-        	<p style={subtitleStyle}>After Columbia University College Republicans invited white nationalist 
-        	speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students 
-        	reacted with outrage and organized protests, rallies, and marches against 
-        	the speakers...</p>
+        	<h1 style = {head_style}>{this.props.data.head}</h1>
+        	<p style = {subtitle_style}>{this.props.data.description}</p>
           <ImageBoxSliderContainer>
-            <ImageBoxSlider data = {this.props.data}/>
+            <ImageBoxSlider data = {this.props.data.article_data}/>
           </ImageBoxSliderContainer>
         </LeftSideContainer>
-        <RightSideContainer>
-          <SideImg src = {fillerImg}></SideImg>
-          
-        </RightSideContainer>
+        <RightSideContainer img_src = {this.props.data.side_img}/>
         <Arrow src={arrow} onClick = {handleClick}/>
       </div>
     );

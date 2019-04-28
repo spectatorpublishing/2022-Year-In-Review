@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
 import SportSlide from '../components/SportSlide'
-import arrow from '../assets/arrow.svg'
+import left_arrow from '../assets/left_arrow.svg'
+import right_arrow from '../assets/right_arrow.svg'
 import filledCircle from '../assets/filledCircle.png'
 import emptyCircle from '../assets/emptyCircle.png'
 
@@ -142,8 +143,8 @@ class SportsSlideShow extends Component {
 			}
 		)
 
-		let leftArrow =  this.state.leftDisabled ? null : <LeftArrow src={arrow} onClick={this.onLeft}/> 
-		let rightArrow = this.state.rightDisabled ? null : <RightArrow src={arrow} onClick={this.onRight}/> 
+		let leftArrow =  this.state.leftDisabled ? null : <LeftArrow src={left_arrow} onClick={this.onLeft}/> 
+		let rightArrow = this.state.rightDisabled ? null : <RightArrow src={right_arrow} onClick={this.onRight}/> 
 
 		return (
 			<div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import arrow from '../assets/arrow.svg'
 
 const Article = styled.div`
   margin: 0vw;

@@ -1,35 +1,31 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
 import Article from '../components/Article'
-import arrow from '../assets/arrow.svg'
+import left_arrow from '../assets/left_arrow.svg'
+import right_arrow from '../assets/left_arrow.svg'
 import filledCircle from '../assets/filledCircle.png'
 import emptyCircle from '../assets/emptyCircle.png'
 
 const n = 3
 
 const ImageContainer = styled.div`
-	background: #555;
-	width: 610px;	
+	width: 60vw;	
 	display: flex;
 	overflow: hidden;
 `
 const BoxPanel = styled.div`
 	display: flex;
-	width: 570px;
-	transform: translate(${props => props.translateValue}px);
+	width: 57vw;
+	transform: translate(${props => props.translateValue}vw);
     transition: transform ease-out 0.45s;
 `
 const Arrow = styled.img`
 	width: 20px;
-	&:hover {
-    	background: ${props => props.src? '#500' : '#555'};
-  	}
-  	z-index: 1
+  	z-index: 1;
 `
 
 const CircleContainer = styled.div`
-	width: 610px;	
-	background: #555;
+	width: 60vw;	
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -131,15 +127,15 @@ class ImageBoxSlider extends Component {
 		let leftArrow =  <Arrow /> 
 		let rightArrow = <Arrow /> 
 		if (!this.state.leftDisabled)
-			leftArrow = <Arrow src={arrow} onClick={this.onLeft}/> 
+			leftArrow = <Arrow src={left_arrow} onClick={this.onLeft}/> 
 		if (!this.state.rightDisabled)
-			rightArrow = <Arrow src={arrow} onClick={this.onRight}/> 
+			rightArrow = <Arrow src={right_arrow} onClick={this.onRight}/> 
 
 		return (
 			<div>
 				<ImageContainer>
 					{leftArrow}
-					<BoxPanel translateValue = {this.state.box_index*(-190)}>
+					<BoxPanel translateValue = {this.state.box_index*(-19)}>
 						{boxes}		
 					</BoxPanel>
 					{rightArrow}

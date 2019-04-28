@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { opinion_data, NewsTestData, sports_slider_data } from '../util/TestData'
 
 // Data for testing
 
@@ -9,24 +10,6 @@ const test_url = "http://cs.columbia.edu"
 const img = "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg";
 const test_wide_pic = "https://picsum.photos/1500/800"
 
-const opinion_data = [
-	{
-		img_src: test_wide_pic,
-		title: "Op-ED"
-	},
-	{
-		img_src: test_wide_pic,
-		title: "Love Actualized"
-	},
-	{
-		img_src: test_wide_pic,
-		title: "Columns"
-	},
-	{
-		img_src: test_wide_pic,
-		title: "Debate"
-	}
-]
 
 // Data for imageSlider
 const image_slider_data = 
@@ -74,41 +57,6 @@ const flip_data = [
 },
 ]
 
-// Data for sportSlider
-const sports_slider_data = 
-[
-	{
-		title: "Title1",
-		author: "Author1",
-		url: test_url,
-		img_src: test_wide_pic
-	},
-	{
-		title: "Title2",
-		author: "Author2",
-		url: test_url,
-		img_src: test_wide_pic
-	},
-	{
-		title: "Title3",
-		author: "Author3",
-		url: test_url,
-		img_src: test_wide_pic
-	},
-	{
-		title: "Title4",
-		author: "Author4",
-		url: test_url,
-		img_src: test_wide_pic
-	},
-	{
-		title: "Title5",
-		author: "Author5",
-		url: test_url,
-		img_src: test_wide_pic
-	},
-]
-
 // Test Storybook
 storiesOf('Test', module).add('Test', () => (<h1>Hello</h1>))
 
@@ -142,7 +90,7 @@ storiesOf('PhotoGrid', module).add('Photo', () => <ImageBox/>)
 
 // Test Generic Panel Layout
 import GenericPanelLayout from '../containers/GenericPanelLayout'
-storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout data = {image_slider_data}/>)
+storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout data = {NewsTestData.image_and_text[1]}/>)
                                         
 // Test Home Page
 import HomePage from '../components/HomePage.js'

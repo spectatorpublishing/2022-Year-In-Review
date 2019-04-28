@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from 'react-router-dom';
 import styled from 'styled-components';
-import { ReactComponent as Arrow } from "../../assets/arrow.svg";
+import { ReactComponent as Arrow } from "../../assets/left_arrow.svg";
 import { ReactComponent as Cross } from "../../assets/x.svg";
 
 let RightArrow = styled(Arrow)`
