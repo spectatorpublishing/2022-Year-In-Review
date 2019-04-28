@@ -47,126 +47,102 @@ export const NewsTestData =
 
 	image_and_text: 
 	[
-
-	{
-		head: "CONTROVERSIAL CUCR SPEAKERS DRAW MASSIVE PROTESTS, PROMPTING FREE SPEECH DEBATE",
-		description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
-        side_img: test_img2,
-		article_data: 
 		[
 			{
-				title: "Title1",
-				author: "Author1",
+				title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+				description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
 				url: test_url,
-				img_src: test_img
+				img_src: test_img2
 			},
 			{
 				title: "Title2",
-				author: "Author2",
+				description: "Author2",
 				url: test_url,
 				img_src: test_img
 			},
 			{
 				title: "Title3",
-				author: "Author3",
+				description: "Author3",
 				url: test_url,
 				img_src: test_img
 			},
 			{
 				title: "Title4",
-				author: "Author4",
+				description: "Author4",
 				url: test_url,
 				img_src: test_img
 			},
 			{
 				title: "Title5",
-				author: "Author5",
+				description: "Author5",
 				url: test_url,
 				img_src: test_img
 			},
 		],
-
-	},
-	
-	{
-		head: "CONTROVERSIAL CUCR SPEAKERS DRAW MASSIVE PROTESTS, PROMPTING FREE SPEECH DEBATE",
-		description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
-        side_img: test_img2,
-		article_data: 
 		[
 			{
-				title: "Title1",
-				author: "Author1",
+				title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+				description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
 				url: test_url,
 				img_src: test_img
 			},
 			{
 				title: "Title2",
-				author: "Author2",
+				description: "Author2",
 				url: test_url,
 				img_src: test_img
 			},
 			{
 				title: "Title3",
-				author: "Author3",
+				description: "Author3",
 				url: test_url,
 				img_src: test_img
 			},
 			{
 				title: "Title4",
-				author: "Author4",
+				description: "Author4",
 				url: test_url,
 				img_src: test_img
 			},
 			{
 				title: "Title5",
-				author: "Author5",
+				description: "Author5",
 				url: test_url,
 				img_src: test_img
 			},
 		],
-
-	},
-
-	{
-		head: "CONTROVERSIAL CUCR SPEAKERS DRAW MASSIVE PROTESTS, PROMPTING FREE SPEECH DEBATE",
-		description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
-        side_img: test_img2,
-		article_data: 
 		[
 			{
-				title: "Title1",
-				author: "Author1",
+				title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+				description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
 				url: test_url,
 				img_src: test_img
 			},
 			{
 				title: "Title2",
-				author: "Author2",
+				description: "Author2",
 				url: test_url,
 				img_src: test_img
 			},
 			{
 				title: "Title3",
-				author: "Author3",
+				description: "Author3",
 				url: test_url,
 				img_src: test_img
 			},
 			{
 				title: "Title4",
-				author: "Author4",
+				description: "Author4",
 				url: test_url,
 				img_src: test_img
 			},
 			{
 				title: "Title5",
-				author: "Author5",
+				description: "Author5",
 				url: test_url,
 				img_src: test_img
 			},
 		],
-
-	},
 	]
 }
 

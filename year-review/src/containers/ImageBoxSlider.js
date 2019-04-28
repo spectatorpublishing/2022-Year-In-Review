@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
+
 import Article from '../components/Article'
 import left_arrow from '../assets/left_arrow.svg'
 import right_arrow from '../assets/left_arrow.svg'
@@ -13,12 +15,21 @@ const ImageContainer = styled.div`
 	display: flex;
 	overflow: hidden;
 `
+
 const BoxPanel = styled.div`
 	display: flex;
 	width: 57vw;
 	transform: translate(${props => props.translateValue}vw);
     transition: transform ease-out 0.45s;
 `
+
+const MobilePanel = styled.div`
+	display: flex;
+	width: 57vw;
+	transform: translate(${props => props.translateValue}vw);
+    transition: transform ease-out 0.45s;
+`
+
 const Arrow = styled.img`
 	width: 20px;
   	z-index: 1;
@@ -114,7 +125,7 @@ class ImageBoxSlider extends Component {
 		
 		let boxes = this.props.data.map ( (data,i) => 
 			<Article title= {data.title} author={data.author} 
-			url={data.url} img_src={data.img_src} key = {i}/>
+			onClick = {() => this.props.handleClick(i)} img_src={data.img_src} key = {i}/>
 		)
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)
@@ -132,6 +143,19 @@ class ImageBoxSlider extends Component {
 			rightArrow = <Arrow src={right_arrow} onClick={this.onRight}/> 
 
 		return (
+		[
+	      <MobileAndTablet>
+	        <div>
+				{leftArrow}
+				<BoxPanel translateValue = {this.state.box_index*(-100)}>
+					{boxes}		
+				</BoxPanel>
+				{rightArrow}
+				<CircleContainer> {circles} </CircleContainer> 
+			</div>
+	      </MobileAndTablet>,
+	      
+	      <Desktop>
 			<div>
 				<ImageContainer>
 					{leftArrow}
@@ -142,6 +166,8 @@ class ImageBoxSlider extends Component {
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 
 			</div>
+		  </Desktop>
+        ]
 		)
 	}
 }

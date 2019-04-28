@@ -7,6 +7,7 @@ import fillerImg from '../assets/dawg.png'
 import blueicon from '../assets/blueicon.png'
 import ScrollArrow from '../components/ScrollArrow'
 import arrow from '../assets/hamburger.svg'
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 // import { AppRegistry, View } from 'react-native';
 
@@ -28,6 +29,12 @@ import arrow from '../assets/hamburger.svg'
 // 	}
 // 
 
+const MobileContainer = styled.div`
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({img_src}) => img_src});
+  width: 100vw;
+  height: 100vh;
+`
+
 const Arrow = styled.img`
   width: 2vw;
   &:hover {
@@ -38,6 +45,7 @@ const Arrow = styled.img`
   left: 95vw;
   bottom: 5vh;
 `
+
 const handleClick = () => {
   window.scrollTo({
         top: 0,
@@ -94,28 +102,44 @@ let subtitle_style = {
 export default class GenericPanelLayout extends Component {
   constructor(props) {
     super(props);
+    this.handleClick = this.handleClick.bind(this)
+    
+  }
 
-    this.state = { };
+  state = { 
+      selected: this.props.data.length-1
+  }
+
+  handleClick(i) {
+    console.log(i)
+    this.setState({
+      selected: i
+    })
   }
 
   render() {
-    console.log(this.props.data)
     return (
-      // Try setting `flexDirection` to `column`.
+      [
+      <MobileAndTablet>
+        <MobileContainer img_src = {this.props.data[this.state.selected].img_src}>
+          <ImageBoxSlider data = {this.props.data}/>
+        </MobileContainer>
+      </MobileAndTablet>,
+      
+      <Desktop>
       <div style={containerStyle}>
-        {/* <BrowserRouter>
-          <NavBar menuItems={this.props.menuItems} fixed/>
-        </BrowserRouter> */}
         <LeftSideContainer>
-        	<h1 style = {head_style}>{this.props.data.head}</h1>
-        	<p style = {subtitle_style}>{this.props.data.description}</p>
+        	<h3 style = {head_style}>{this.props.data[this.state.selected].title}</h3>
+        	<p style = {subtitle_style}>{this.props.data[this.state.selected].description}</p>
           <ImageBoxSliderContainer>
-            <ImageBoxSlider data = {this.props.data.article_data}/>
+            <ImageBoxSlider data = {this.props.data} handleClick = {this.handleClick}/>
           </ImageBoxSliderContainer>
         </LeftSideContainer>
-        <RightSideContainer img_src = {this.props.data.side_img}/>
+        <RightSideContainer img_src = {this.props.data[this.state.selected].img_src}/>
         <Arrow src={arrow} onClick = {handleClick}/>
       </div>
+      </Desktop>
+      ]
     );
   }
 }

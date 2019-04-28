@@ -6,6 +6,7 @@ import { opinion_data, NewsTestData, sports_slider_data } from '../util/TestData
 
 // A url for a testing image
 const test_img = "https://placekitten.com/301/301"
+const test_img2 = "https://placekitten.com/400/300"
 const test_url = "http://cs.columbia.edu"
 const img = "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg";
 const test_wide_pic = "https://picsum.photos/1500/800"
@@ -18,7 +19,7 @@ const image_slider_data =
 		title: "Title1",
 		author: "Author1",
 		url: test_url,
-		img_src: test_img
+		img_src: "https://placekitten.com/400/300"
 	},
 	{
 		title: "Title2",
@@ -90,7 +91,7 @@ storiesOf('PhotoGrid', module).add('Photo', () => <ImageBox/>)
 
 // Test Generic Panel Layout
 import GenericPanelLayout from '../containers/GenericPanelLayout'
-storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout data = {NewsTestData.image_and_text[1]}/>)
+storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout data = {NewsTestData.image_and_text[0]}/>)
                                         
 // Test Home Page
 import HomePage from '../components/HomePage.js'

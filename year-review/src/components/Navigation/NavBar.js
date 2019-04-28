@@ -8,7 +8,7 @@ let NavContainer = styled.div `
   background-color: ${props => props.theme.black};
   display: flex;
   flex-direction: row;
-  height: 5vh;
+  height: 48px;
   width: 100vw;
 
   ${({ fixed }) => fixed && `

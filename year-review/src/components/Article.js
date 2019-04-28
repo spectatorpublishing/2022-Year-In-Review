@@ -9,28 +9,28 @@ const Image = styled.div`
 	width: 15vw;
 	height: 30vh;
 	object-fit: cover;
-  text-align: center;
+  text-align: left;
   border-radius: 25px;
 `
-const Title = styled.h3`
+const Title = styled.h5`
 	position: absolute;
   bottom: 10%;
-  margin: 5% 5%;
+  margin: 3%;
+  width: 10vw;
+  color:white;
 `
 
-const Link = styled.a`
-	text-decoration: none;
-	color: white;
-`
+// const Link = styled.a`
+// 	text-decoration: none;
+// 	color: white;
+// `
 
 const article = (props) =>{
   return (
     <Article>
-        <Link href={props.url}>
-            <Image {...props}>
-                <Title>{props.title}</Title>
-            </Image>
-        </Link>
+      <Image {...props}>
+          <Title>{props.title}</Title>
+      </Image>
     </Article>
   );
 }
