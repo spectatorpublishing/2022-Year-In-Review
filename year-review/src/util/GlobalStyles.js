@@ -58,4 +58,6 @@ export const Theme = {
   blue: "#3CABDB",
   indigo: "#222430",
   shadow: "rgba(0, 0, 0, 0.3) 0 0 10px",
+  transparentBlack: "rgba(0, 0, 0, 0.32)",
+  transparentWhite: "rgba(255, 255, 255, 0.5)",
 };

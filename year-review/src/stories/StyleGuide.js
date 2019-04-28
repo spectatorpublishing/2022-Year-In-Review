@@ -26,6 +26,10 @@ let Black = styled.h3`
   color: ${props => props.theme.black};
 `
 
+let TransparentBlack = styled.h3`
+  color: ${props => props.theme.transparentBlack};
+`
+
 let Indigo = styled.h3`
   color: ${props => props.theme.indigo};
 `
@@ -36,6 +40,10 @@ let Blue = styled.h3`
 
 let White = styled.h3`
   color: ${props => props.theme.white};
+`
+
+let TransparentWhite = styled.h3`
+  color: ${props => props.theme.transparentWhite};
 `
 
 let WhiteShadowed = styled(White)`
@@ -76,62 +84,14 @@ storiesOf('Style Guide', module)
       <br/>
       <br/>
       <ClearBG><Black>black</Black></ClearBG>
+      <ClearBG><TransparentBlack>transparent black</TransparentBlack></ClearBG>
       <ClearBG><Indigo>indigo</Indigo></ClearBG>
       <ClearBG><Blue>blue</Blue></ClearBG>
       <BlackBG><White>white on black</White></BlackBG>
       <IndigoBG><White>white on indigo</White></IndigoBG>
+      <BlackBG><TransparentWhite>transparent white on black</TransparentWhite></BlackBG>
+      <IndigoBG><TransparentWhite>transparent white on indigo</TransparentWhite></IndigoBG>
       <BlueBG><WhiteShadowed>white with shadow on blue</WhiteShadowed></BlueBG>
       <ClearBG><WhiteShadowed>shadow</WhiteShadowed></ClearBG>
-      <br/>
-      <br/>
-      <b>Styled Component Source Code:</b>
-      <br/>
-      <code>{`
-      let BlackBG = styled(ClearBG)\`
-      background-color: ${props => props.theme.black};
-      \`
-      `}</code>
-      <br/>
-      <code>{`
-      let BlueBG = styled(ClearBG)\`
-      background-color: ${props => props.theme.blue};
-      \`
-      `}</code>
-      <br/>
-      <code>{`
-      let IndigoBG = styled(ClearBG)\`
-      background-color: ${props => props.theme.indigo};
-      \`
-      `}</code>
-      <br/>
-      <code>{`
-      let Black = styled.h3\`
-      color: ${props => props.theme.black};
-      \`
-      `}</code>
-      <br/>
-      <code>{`
-      let Indigo = styled.h3\`
-      color: ${props => props.theme.indigo};
-      \`
-      `}</code>
-      <br/>
-      <code>{`
-      let Blue = styled.h3\`
-      color: ${props => props.theme.blue};
-      \`
-      `}</code>
-      <br/>
-      <code>{`
-      let White = styled.h3\`
-      color: ${props => props.theme.white};
-      \`
-      `}</code>
-      <br/>
-      <code>{`
-      let WhiteShadowed = styled(White)\`
-      text-shadow: ${props => props.theme.shadow};
-      \`
-      `}</code>
     </ThemeSection>
   );

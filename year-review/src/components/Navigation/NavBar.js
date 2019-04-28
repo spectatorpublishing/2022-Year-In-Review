@@ -8,7 +8,7 @@ let NavContainer = styled.div `
   background-color: ${props => props.theme.black};
   display: flex;
   flex-direction: row;
-  height: 48px;
+  height: 5vh;
   width: 100vw;
 
   ${({ fixed }) => fixed && `
@@ -221,7 +221,7 @@ class NavBar extends Component {
   }
 
   getActiveSection(section) {
-    return this.props.history.location.hash.slice(1) == section;
+    return this.props.history.location.hash.slice(1) === section;
   }
 
   getMenuItems(isMobile, isScrolling) {
