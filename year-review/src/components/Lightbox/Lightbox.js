@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { withRouter } from 'react-router-dom';
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import styled from 'styled-components';
-import { ReactComponent as Arrow } from "../../assets/left_arrow.svg";
+import { ReactComponent as Arrow } from "../../assets/right_arrow.svg";
 import { ReactComponent as Cross } from "../../assets/x.svg";
 
 let RightArrow = styled(Arrow)`
