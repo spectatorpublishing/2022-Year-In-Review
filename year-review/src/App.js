@@ -33,30 +33,30 @@ class App extends Component {
     const debate = () => <h1>  debate </h1>
 
     return (
-      <div>
-        <MemoryRouter>
-          <NavBar menuItems={NavItems} />
-          <Switch>
-            <Route exact path="/" component={home} />
-            <Route exact path="/news" component={news} />
-            <Route exact path="/opinion" component={opinion} />
-            <Route exact path="/eye" component={eye} />
-            <Route exact path="/photo" component={photo} />
-            <Route exact path="/design" component={design} />
-            <Route exact path="/sports" component={sports} />
-            <Route exact path="/arts-and-entertainment" component={ane} />
-            <Route exact path="/spectrum" component={spectrum} />
+      <ThemeProvider theme={Theme}>
+        <main>
+          <GlobalStyles />
+          <MemoryRouter>
+            <NavBar menuItems={NavItems} />
+            <Switch>
+              <Route exact path="/" component={home} />
+              <Route exact path="/news" component={news} />
+              <Route exact path="/opinion" component={opinion} />
+              <Route exact path="/eye" component={eye} />
+              <Route exact path="/photo" component={photo} />
+              <Route exact path="/design" component={design} />
+              <Route exact path="/sports" component={sports} />
+              <Route exact path="/arts-and-entertainment" component={ane} />
+              <Route exact path="/spectrum" component={spectrum} />
 
-            <Route exact path="/column" component={column} />
-            <Route exact path="/oped" component={oped} />
-            <Route exact path="/love-actualized" component={love} />
-            <Route exact path="/discourse-and-debate" component={debate} />
-          </Switch>
-
-        </MemoryRouter>
-      </div>
-
-
+              <Route exact path="/column" component={column} />
+              <Route exact path="/oped" component={oped} />
+              <Route exact path="/love-actualized" component={love} />
+              <Route exact path="/discourse-and-debate" component={debate} />
+            </Switch>
+          </MemoryRouter>
+        </main>
+      </ThemeProvider>
     );
   }
 }
