@@ -5,6 +5,8 @@ const Grid = styled.div`
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 `;
 
 

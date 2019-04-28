@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import { linkTo } from '@storybook/addon-links';
+//import { action } from '@storybook/addon-actions';
+//import { linkTo } from '@storybook/addon-links';
 import PageIntro from '../components/PageIntro.js';
 import Article from '../components/Article.js';
 import ImageBoxSlider from '../containers/ImageBoxSlider';
@@ -13,8 +13,7 @@ import NavBar from '../components/Navigation/NavBar'
 import { NavItems } from "../util/NavItems";
 import { MemoryRouter } from 'react-router';
 import Photo from '../components/Photo.js';
-
-
+import FooterHome from '../components/FooterHome.js';
 
 // Data for testing
 
@@ -87,6 +86,9 @@ storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideS
 
 storiesOf('Photo', module).add('Photo', () => <Photo photos={[test_img, test_img, test_img, test_img, test_img, test_img, test_img, test_img]} />)
 
+//Test FooterHome
+
+storiesOf('Footer', module).add('Home', () => <FooterHome/>)
 
 // Test Navigation
 
