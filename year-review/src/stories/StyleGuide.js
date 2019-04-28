@@ -56,12 +56,11 @@ storiesOf('Style Guide', module)
       <h1>Heading1 {"<h1>"}</h1>
       <h2>Heading2 {"<h2>"}</h2>
       <h3>Heading3 {"<h3>"}</h3>
-      <h4>Heading4 {"<h4>"} - (identical to {"<b>"})</h4>
-      <h5>Heading5 {"<h5>"} - (identical to {"<p>"})</h5>
-      <h6>Heading6 {"<h6>"} - use only as caption or fine print (hard to read)</h6>
+      <h4>Heading4 {"<h4>"}</h4>
+      <h5>Heading5 {"<h5>"}</h5>
+      <h6>Heading6 {"<h6>"}</h6>
       <br/>
-      <p>Text {"<p>"} - (identical to {"<h5>"}</p>
-      <b>TextBold {"<b>"} - (identical to {"<h4>"})</b>
+      <p>Text {"<p>"}</p>
     </ThemeSection>
   )
   .add('Colors', () => 
@@ -84,13 +83,13 @@ storiesOf('Style Guide', module)
       <br/>
       <br/>
       <ClearBG><Black>black</Black></ClearBG>
-      <ClearBG><TransparentBlack>transparent black</TransparentBlack></ClearBG>
+      <ClearBG><TransparentBlack>transparentBlack</TransparentBlack></ClearBG>
       <ClearBG><Indigo>indigo</Indigo></ClearBG>
       <ClearBG><Blue>blue</Blue></ClearBG>
       <BlackBG><White>white on black</White></BlackBG>
       <IndigoBG><White>white on indigo</White></IndigoBG>
-      <BlackBG><TransparentWhite>transparent white on black</TransparentWhite></BlackBG>
-      <IndigoBG><TransparentWhite>transparent white on indigo</TransparentWhite></IndigoBG>
+      <BlackBG><TransparentWhite>transparentWhite on black</TransparentWhite></BlackBG>
+      <IndigoBG><TransparentWhite>transparentWhite on indigo</TransparentWhite></IndigoBG>
       <BlueBG><WhiteShadowed>white with shadow on blue</WhiteShadowed></BlueBG>
       <ClearBG><WhiteShadowed>shadow</WhiteShadowed></ClearBG>
     </ThemeSection>
