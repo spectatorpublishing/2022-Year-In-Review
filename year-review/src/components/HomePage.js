@@ -49,9 +49,6 @@ let YearDiv = styled.div`
 
 let Year = styled.h2`
   color: ${props => props.theme.white};
-  &:hover {
-    color: color: ${props => props.theme.blue};
-  }
 `
 
 let LeftTitle = styled.h1`
@@ -75,6 +72,9 @@ let SectionTitleDiv = styled.div`
 
 let SectionTitle = styled.h3`
   color: ${props => props.theme.white};
+  &:hover{
+    color: ${props => props.theme.blue};
+  };
 `
 
 // const Image = styled.div`
