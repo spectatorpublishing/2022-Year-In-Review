@@ -49,10 +49,10 @@ const image_slider_data =
 
 const flip_data = [
 {
-	front_image: img,
+	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
 	author: "Ben LaZebnik",
 	section: "| YOU HAVE MY WORD",
-	back_image: test_img,
+	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
 	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
 },

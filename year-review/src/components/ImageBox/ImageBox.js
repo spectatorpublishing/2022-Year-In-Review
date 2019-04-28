@@ -6,52 +6,56 @@ const Flipcard = styled.div`
   width: 300px;
   height: 300px;
   perspective: 1000px;
+  -webkit-perspective: 1000px;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 
-  &:hover{
+  :hover{
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    transform-style: preserve-3d;
+    transition: transform 0.8s;
 	}
 
 `;
 
 const Inner = styled.div`
 	position: relative;
-	width: 100%;
-	height: 100%;
 	text-align: center;
-	transition: transform 0.8s;
-  transform-style: preserve-3d;
 
 `;
 
 const Front = styled.div`
+  width: 300px;
+  height: 300px;
+  background-image: url(${({front_image}) => front_image});
+  background-size: cover;
   position: absolute;
-  color: white;
-  width: 100%;
-  height: 100%;
-  transform: rotateY(0deg);
-  -webkit-transform: rotateY(0deg);
   backface-visibility: hidden;
 
 `;
 
 const Back = styled.div`
-  background-image: url("https://pbs.twimg.com/profile_images/562725426833784832/X-RMqMez.png");
-  width: 100%;
-  height: 100%;
-  color: white;
-  position: absolute;
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  backface-visibility: hidden;
-
-`;
-
-const Img = styled.img`
   width: 300px;
   height: 300px;
+  background-image: url(${({back_image}) => back_image});
+  background-size: cover;
+  color: white;
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  
 `;
+
+const FrontAuthor = styled.h1`
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 175px;
+  font-size: 40px;
+  color: white;
+`;
+
 
 const Title = styled.h1`
   font-size: 30px;
@@ -59,6 +63,7 @@ const Title = styled.h1`
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 5px;
+  color: white;
 `;
 
 const Header = styled.p`
@@ -67,6 +72,7 @@ const Header = styled.p`
   margin-right: 20px;
   margin-top: 30px;
   display: flex;
+  color: white;
 `;
 
 const Body = styled.div`
@@ -75,37 +81,49 @@ const Body = styled.div`
   margin-right: 20px;
   margin-top: 30px;
   font-style: italic;
+  color: white;
 `;
 
 const Section = styled.div`
   font-weight: bold;
+  color: white;
 `;
 
 const Author = styled.div`
   margin-left: 20px;
   padding-right: 5px;
+  color: white;
 
 `;
 
-export default class ImageBox1 extends Component {
-  render() {
-    return (
-    	<Flipcard>
-  			<Inner>
-    			<Front>
-      				<Img src = "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg"/> 
-              <h1>Ben LaZebnik</h1>
-    			</Front>
-    			<Back>
-            <Header>
-              <Author>Ben LaZebnik</Author>
-              <Section>| YOU HAVE MY WORD</Section>
-            </Header>
-			      <Title>Disconnected from death</Title> 
-			      <Body>"colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."</Body> 
-    			</Back>
-  			</Inner>
-		</Flipcard>
-    	);
-	}
-}
+const ImageBox = (props) => {
+  return (
+    <div>
+      {
+        props.flip_data.map((data) => {
+        return (
+          <Flipcard>
+            <Inner>
+              <Front {...data}>
+                <FrontAuthor>{data.author}</FrontAuthor>
+              </Front>
+              <Back {...data}>
+                <Header>
+                  <Author>{data.author}</Author>
+                  <Section>{data.section}</Section>
+                </Header>
+                <Title>{data.title}</Title> 
+                <Body>{data.body}</Body> 
+              </Back>
+            </Inner>
+          </Flipcard>
+          );
+        }
+      )
+      }
+    </div>
+
+  )
+} 
+
+export default ImageBox;	
