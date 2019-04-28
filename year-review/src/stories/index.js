@@ -56,6 +56,22 @@ const flip_data = [
 	title: "Disconnected from death",
 	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
 },
+{
+	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
+	author: "Ben LaZebnik",
+	section: "| YOU HAVE MY WORD",
+	back_image: "https://placekitten.com/301/301",
+	title: "Disconnected from death",
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
+},
+{
+	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
+	author: "Ben LaZebnik",
+	section: "| YOU HAVE MY WORD",
+	back_image: "https://placekitten.com/301/301",
+	title: "Disconnected from death",
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
+},
 ]
 
 // Test Storybook
@@ -83,11 +99,11 @@ storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideS
 
 //Test PhotoGrid
 import PhotoGrid from '../components/PhotoGrid.js';
-storiesOf('PhotoGrid', module).add('PhotoPanel', () => <PhotoGrid data={image_slider_data} />)
+storiesOf('PhotoGrid', module).add('PhotoPanel', () => <PhotoGrid data={flip_data} />)
 
 //Test Flip Image-Box
 import ImageBox from '../components/ImageBox/ImageBox';
-storiesOf('PhotoGrid', module).add('Photo', () => <ImageBox/>)
+storiesOf('PhotoGrid', module).add('Photo', () => <ImageBox data = {flip_data[0]}/>)
 
 // Test Generic Panel Layout
 import GenericPanelLayout from '../containers/GenericPanelLayout'
@@ -97,9 +113,9 @@ storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanel
 import HomePage from '../components/HomePage.js'
 storiesOf('HomePage', module).add('HomePage',() => <HomePage img_src={test_wide_pic}/>)
 
-// Test ExpandingColumns
-import ExpandingColumns from '../components/ExpandingColumns'
-storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
+// // Test ExpandingColumns
+// import ExpandingColumns from '../components/ExpandingColumns'
+// storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
 
 // Test Footer
 import Footer from '../components/Footer.js';

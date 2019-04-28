@@ -80,12 +80,12 @@ class SportsSlideShow extends Component {
 			circle_index: current_circle
 		})
 
-		if (current_index == 0){
+		if (current_index === 0){
 			this.setState({
 				leftDisabled: true
 			})
 		}
-		if (current_index == this.props.data.length-n-1){
+		if (current_index === this.props.data.length-n-1){
 			this.setState({
 				rightDisabled: false
 			})
@@ -101,12 +101,12 @@ class SportsSlideShow extends Component {
 			circle_index: current_circle
 		})
 
-		if (current_index == this.props.data.length-n){
+		if (current_index === this.props.data.length-n){
 			this.setState({
 				rightDisabled: true
 			})
 		}
-		if (current_index == 1){
+		if (current_index === 1){
 			this.setState({
 				leftDisabled: false
 			})
@@ -116,10 +116,10 @@ class SportsSlideShow extends Component {
 	onCircle = (i) => {
 		let leftDisabled = false
 		let rightDisabled = false
-		if (i==this.props.data.length-3){
+		if (i===this.props.data.length-3){
 		 	rightDisabled = true
 		}
-		else if (i==0)
+		else if (i===0)
 			leftDisabled = true
 
 		this.setState({
@@ -138,7 +138,7 @@ class SportsSlideShow extends Component {
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)
 					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
-				else if (i<this.props.data.length)
+				else 
 					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
 			}
 		)

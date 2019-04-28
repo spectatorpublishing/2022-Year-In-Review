@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-import {Route, Switch, BrowserRouter} from 'react-router-dom';
 import { MemoryRouter } from 'react-router';
-import { ThemeProvider } from "styled-components";
 
-import { GlobalStyles, Theme } from "../util/GlobalStyles";
-
-import NavBar from '../components/Navigation/NavBar.js';
 import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
 import GenericPanelLayout from './GenericPanelLayout';
 import PageIntro from '../components/PageIntro'

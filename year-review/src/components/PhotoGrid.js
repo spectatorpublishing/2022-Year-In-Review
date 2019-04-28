@@ -11,10 +11,10 @@ const Grid = styled.div`
 `;
 
 function PhotoGrid(props){
-    const grid = props.data.map((data, i) => <ImageBox key={i}/>);
+    const grid = props.data.map((data, i) => <ImageBox key={i} data={data}/>);
     return (
         <Grid>{grid}</Grid>
-    );
+    ); 
  
 }
 export default PhotoGrid;

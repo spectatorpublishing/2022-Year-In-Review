@@ -1,12 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import ImageBoxSlider from './ImageBoxSlider';
-import NavBar from '../components/Navigation/NavBar';
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom";
-import fillerImg from '../assets/dawg.png'
-import blueicon from '../assets/blueicon.png'
-import ScrollArrow from '../components/ScrollArrow'
-import arrow from '../assets/hamburger.svg'
+import scrollArrow from '../assets/hamburger.svg'
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 // import { AppRegistry, View } from 'react-native';
@@ -136,7 +131,7 @@ export default class GenericPanelLayout extends Component {
           </ImageBoxSliderContainer>
         </LeftSideContainer>
         <RightSideContainer img_src = {this.props.data[this.state.selected].img_src}/>
-        <Arrow src={arrow} onClick = {handleClick}/>
+        <Arrow src={scrollArrow} onClick = {handleClick}/>
       </div>
       </Desktop>
       ]

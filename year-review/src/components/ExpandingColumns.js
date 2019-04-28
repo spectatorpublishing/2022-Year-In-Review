@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
-import { Link, NavLink, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import styled from 'styled-components'
-import ImageBox from './ImageBox/ImageBox'
 
 const Contain = styled.div`
     display: flex;  
