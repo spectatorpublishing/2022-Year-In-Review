@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { withRouter } from 'react-router-dom';
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import styled from 'styled-components';
-import { ReactComponent as Arrow } from "../../assets/left_arrow.svg";
+import { ReactComponent as Arrow } from "../../assets/right_arrow.svg";
 import { ReactComponent as Cross } from "../../assets/x.svg";
 
 let RightArrow = styled(Arrow)`
@@ -16,12 +17,61 @@ let RightArrow = styled(Arrow)`
 let LeftArrow = styled(RightArrow)`
   transform: rotate(180deg);
 `
+let FullScreenContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: ${props => props.theme.indigo};
+`
+let LightboxContainer = styled(FullScreenContainer)`
+  background-image: url(${props => props.imageUrl});
+  background-position: right;
+  flex-direction: row;
+`
+let LightboxMobileContainer = styled(FullScreenContainer)`
+  flex-direction: column;
+  padding: 5vh 10vw;
+  width: 80vw;
+  height: 90vh;
+`
+let PreviewContainer = styled.div`
+  background: ${props => props.theme.indigo};
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+`
+let PreviewContainerMobile = styled(PreviewContainer)`
+  width: 100vw;
+`
+let ImageContainer = styled.div`
+  height: 90%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+`
+let Image = styled.img`
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+`
+let CaptionContainer = styled.div`
+  width: 30%;
+  padding: 0 5%;
+  background: rgba(34,36,48,0.8);
+`
+let CloseContainer = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 10%;
+`
+let CloseContainerMobile = styled(CloseContainer)`
+  height: initial;
+`
 let CloseButton = styled(Cross)`
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: calc(5% - 25px);
-
   & path {
     stroke: ${props => props.theme.transparentWhite};
   }
@@ -30,59 +80,33 @@ let CloseButton = styled(Cross)`
     stroke: ${props => props.theme.white};
   }
 `
-let LightboxContainer = styled.div`
-  width: 100vw;
-  height: 100vh;
-  background-color: ${props => props.theme.indigo};
-  background-image: url(${props => props.imageUrl});
-  background-position: right;
-  display: flex;
-  flex-direction: row;
-`
-let PreviewContainer = styled.div`
-  background: ${props => props.theme.indigo};
-  height: 100%;
-  width: 60%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-`
-let ImageContainer = styled.div`
-  height: 90%;
-  width: 70%;
-  display: flex;
-  justify-content: center;
-`
-let Image = styled.img`
-  height: 100%;
-  width: auto;
-`
-let CaptionContainer = styled.div`
-  width: 30%
-  padding: 5%;
-  overflow-y: scroll;
-  background: rgba(34,36,48,0.8);
-`
 let TitleContainer = styled.div`
+  height: 70%;
+  overflow-y: scroll;
 `
-let TitleLink = styled.a`
+let ArticleLink = styled.a`
+  color: ${props => props.theme.blue};
   text-decoration: none;
 `
-let Title = styled.h1`
+let Title = styled.h3`
   color: ${props => props.theme.white};
-  margin: 10px 0; 
   text-transform: uppercase;
+  height: 25vh;
+  display: flex;
+  align-items: center;
 
   &:hover {
     color: ${props => props.theme.blue};
   }
 `
+let TitleMobile = styled(Title)`
+  height: 10vh;
+`
 let Description = styled.p`
   color: ${props => props.theme.white};
 `
 let CreditContainer = styled.div`
-  margin: 10px 0; 
-  width: 100%;
+  height: 15%;
 `
 let Credit = styled.h4`
   color: ${props => props.theme.white};
@@ -150,36 +174,91 @@ class Lightbox extends Component {
     }
   }
 
+  getShortenedCaption(description, articleUrl, maxLength) {
+    // Trim the string to the maximum length
+    description = description.substr(0, maxLength);
+    // Re-trim if we are in the middle of a word
+    let punctuation = `.!?`;
+    if (!punctuation.includes(description.substr(description.length - 1))) {
+      description = description.substr(0, Math.min(description.length, description.lastIndexOf(" ")));
+      // Add ellipsis since we're mid-sentence
+      description += "..."
+    }
+    description += " "
+    
+    return (<React.Fragment>
+      {description}<ArticleLink href={articleUrl} target="_blank">Read More</ArticleLink>
+    </React.Fragment>);
+  }
+
   render() {
+    let description = this.props.media[this.state.index].description;
+    let articleUrl = this.props.media[this.state.index].url;
     return (
-      <LightboxContainer imageUrl={this.props.media[this.state.index].imgUrl}>
-        <PreviewContainer>
-          <LeftArrow onClick={this.handleLeftArrowClick} />
-          <ImageContainer>
-            <Image 
-              src={this.props.media[this.state.index].imgUrl}
-              altText={this.props.media[this.state.index].altText}
-            >
-            </Image>
-          </ImageContainer>
-          <RightArrow onClick={this.handleRightArrowClick} />
-        </PreviewContainer>
+      <FullScreenContainer>
+        <MobileAndTablet>
+          <LightboxMobileContainer>
+            <CloseContainerMobile>
+              <CloseButton onClick={this.props.onClose} />
+            </CloseContainerMobile>
 
-        <CaptionContainer>
-          <TitleContainer>
-            <TitleLink href={this.props.media[this.state.index].url} target="_blank">
-              <Title>{this.props.media[this.state.index].title}</Title>
-            </TitleLink>
-            <Description>{this.props.media[this.state.index].description}</Description>
-          </TitleContainer>
+            <ArticleLink href={articleUrl} target="_blank">
+              <TitleMobile>{this.props.media[this.state.index].title}</TitleMobile>
+            </ArticleLink>
 
-          <CreditContainer>
-            <Credit>{this.props.authorLabel}: {this.props.media[this.state.index].author}</Credit>
-          </CreditContainer>
-        </CaptionContainer>
+            <PreviewContainerMobile>
+              <LeftArrow onClick={this.handleLeftArrowClick} />
+              <ImageContainer>
+                <Image 
+                  src={this.props.media[this.state.index].imgUrl}
+                  altText={this.props.media[this.state.index].altText}
+                >
+                </Image>
+              </ImageContainer>
+              <RightArrow onClick={this.handleRightArrowClick} />
+            </PreviewContainerMobile>
 
-        <CloseButton onClick={this.props.onClose} />
-      </LightboxContainer>
+            <Description>{this.getShortenedCaption(description, articleUrl, 100)}</Description>
+
+            <CreditContainer>
+              <Credit>{this.props.authorLabel}: {this.props.media[this.state.index].author}</Credit>
+            </CreditContainer>
+          </LightboxMobileContainer>
+        </MobileAndTablet>
+
+        <Desktop>
+          <LightboxContainer imageUrl={this.props.media[this.state.index].imgUrl}>
+            <PreviewContainer>
+              <LeftArrow onClick={this.handleLeftArrowClick} />
+              <ImageContainer>
+                <Image 
+                  src={this.props.media[this.state.index].imgUrl}
+                  altText={this.props.media[this.state.index].altText}
+                >
+                </Image>
+              </ImageContainer>
+              <RightArrow onClick={this.handleRightArrowClick} />
+            </PreviewContainer>
+
+            <CaptionContainer>
+              <CloseContainer>
+                <CloseButton onClick={this.props.onClose} />
+              </CloseContainer>
+
+              <TitleContainer>
+                <ArticleLink href={articleUrl} target="_blank">
+                  <Title>{this.props.media[this.state.index].title}</Title>
+                </ArticleLink>
+                <Description>{this.getShortenedCaption(description, articleUrl, 400)}</Description>
+              </TitleContainer>
+
+              <CreditContainer>
+                <Credit>{this.props.authorLabel}: {this.props.media[this.state.index].author}</Credit>
+              </CreditContainer>
+            </CaptionContainer>
+          </LightboxContainer>
+        </Desktop>
+      </FullScreenContainer>
     );
   }
 }

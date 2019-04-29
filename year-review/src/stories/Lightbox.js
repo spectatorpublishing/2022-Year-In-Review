@@ -21,6 +21,14 @@ let sampleMedia = [
     description: "The Metropolis Building or Edificio Metrópolis (Spanish) is an office building in Madrid, Spain, at the corner of the Calle de Alcalá and Gran Vía. Inaugurated in 1911, it was designed by Jules and Raymond Février for the insurance company La Unión y el Fénix. It is currently owned by Metrópolis Seguros.",
     url: "https://unsplash.com/photos/bviR09mlwoU",
     author: "Alberto Robledano"
+  },
+  {
+    imgUrl: "https://images.unsplash.com/photo-1509845350455-fb0c36048db1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    altText: "Warm Summer at the Plaza Mayor",
+    title: "Plaza Mayor",
+    description: "The Plaza Mayor (English: Main Square) is a major public space in the heart of Madrid, the capital of Spain. It was once the centre of Old Madrid. It was first built (1580–1619) during the Habsburg period of Philip III's reign. Only a few Spanish blocks away is another famous plaza, the Puerta del Sol. The Plaza Mayor is for the people of Madrid and tourists to shop, walk around, eat, and enjoy the outdoors.",
+    url: "https://unsplash.com/photos/OO0_7yJa-s0",
+    author: "Victor Garcia"
   }
 ];
 
