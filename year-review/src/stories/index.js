@@ -22,7 +22,7 @@ const test_img = "https://placekitten.com/301/301"
 const test_img2 = "https://placekitten.com/400/300"
 const test_url = "http://cs.columbia.edu"
 const img = "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg";
-const test_wide_pic = "https://picsum.photos/1500/800"
+const test_wide_pic = "https://picsum.photos/1450/800"
 
 
 // Data for imageSlider
@@ -31,30 +31,35 @@ const image_slider_data =
 	{
 		title: "Title1",
 		author: "Author1",
+		description: "something valuable",
 		url: test_url,
-		img_src: "https://placekitten.com/400/300"
+		img_src: test_wide_pic
 	},
 	{
 		title: "Title2",
 		author: "Author2",
+		description: "something valuable",
 		url: test_url,
-		img_src: test_img
+		img_src: test_wide_pic
 	},
 	{
 		title: "Title3",
 		author: "Author3",
+		description: "something valuable",
 		url: test_url,
 		img_src: test_img
 	},
 	{
 		title: "Title4",
 		author: "Author4",
+		description: "something valuable",
 		url: test_url,
 		img_src: test_img
 	},
 	{
 		title: "Title5",
 		author: "Author5",
+		description: "something valuable",
 		url: test_url,
 		img_src: test_img
 	},

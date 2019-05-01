@@ -9,9 +9,10 @@ import PhotoContainer from './containers/PhotoContainer'
 import OpinionContainer from './containers/OpinionContainer'
 import SportsContainer from './containers/SportsContainer'
 import NavBar from './components/Navigation/NavBar'
-
+import ExpandingColumns from './components/ExpandingColumns'
+import PhotoEssayBox from './components/PhotoEssayBox'
 import { test_img } from "./util/TestData";
-import { NewsTestData, sports_slider_data } from './util/TestData'
+import { photo_data, opinion_data, NewsTestData, sports_slider_data } from './util/TestData'
 import { NavItems } from "./util/NavItems";
 
 class App extends Component {
@@ -21,7 +22,7 @@ class App extends Component {
     const news = () => <NewsContainer NavItems = {NewsTestData.sections} SliderData = { NewsTestData.image_and_text } intro_img = {test_img} />
     const opinion = () => <OpinionContainer />
     const eye = () => <h1> Eye </h1>
-    const photo = () => <PhotoContainer />
+    const photo = () => <PhotoEssayBox data = {photo_data} />
     const design = () => <h1> Design </h1>
     const sports = () => <SportsContainer NavItems = {NavItems} SportsData = {sports_slider_data} />
     const ane = () => <h1> A&E </h1>

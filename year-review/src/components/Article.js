@@ -5,7 +5,7 @@ const Article = styled.div`
   margin: 2vw;
 `
 const Image = styled.div`
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({img_src}) => img_src});
+  background-image: ${({selected}) => selected ? "" : "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) )," } url(${({img_src}) => img_src});
 	width: 15vw;
 	height: 30vh;
 	object-fit: cover;
@@ -13,7 +13,7 @@ const Image = styled.div`
   border-radius: 25px;
 `
 const Title = styled.h5`
-	position: absolute;
+	position: absolute; 
   bottom: 10%;
   margin: 3%;
   width: 10vw;
