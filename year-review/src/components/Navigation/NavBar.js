@@ -103,7 +103,7 @@ let MenuColumn = styled.div`
   transform: translateY(calc(48px - 1px));
   right: 0;
   transition: width 0.2s ease-out;
-  z-index: 1;
+  z-index: 20;
 `
 
 let MenuBtn = styled.input`
@@ -221,7 +221,13 @@ class NavBar extends Component {
   }
 
   getActiveSection(section) {
-    return this.props.history.location.hash.slice(1) === section;
+    return this.props.location.hash.slice(1) === section;
+  }
+  
+  updateTitle(match, name) {
+    if (match) {
+      document.title = name + " | 2018-19 Year In Review";
+    }
   }
 
   getMenuItems(isMobile, isScrolling) {
@@ -247,6 +253,7 @@ class NavBar extends Component {
         mobile={isMobile ? 1 : 0} // work around for react-router link not playing nice with non-standard attributes
         to={item.link}
         activeClassName={"navLinkActive"}
+        isActive={(match, location) => this.updateTitle(match, item.name)}
         onClick={this.forceClose}
       >
         {isMobile ? <MobileItem>{item.name}</MobileItem> : <DesktopItem>{item.name}</DesktopItem>}
