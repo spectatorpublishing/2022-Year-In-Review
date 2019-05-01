@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { lightbox } from 'styled-components';
+import scroll from '../assets/scroll.svg';
 
 const Image = styled.div`
   background-image: url(${({img_src}) => img_src});
@@ -37,16 +38,27 @@ const Text2 = styled.p`
   color: ${props => props.theme.white};
   `;
 
+const Image = styled.div`
+  background-image: url(${({img_src}) => img_src});
+  height: 50vh;
+  `;
+const Background = styled.div`
+  background: lightblue;
+  height: 45vh;
+  `;
+const Logo = styled.img`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  margin-top: 100px;
+  `;
 
 const Background = styled.div`
   background: ${props => props.theme.indigo};
   height: 100vh;
   width: 100vw;
   `;
-
-
-
-
 
 const pageIntro = (props) =>{
   return (

@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const Flipcard = styled.div`
   background-color: transparent;
   width: 300px;
-  height: 300px;
+  height: 300px; 
   perspective: 1000px;
   -webkit-perspective: 1000px;
   transform-style: preserve-3d;
@@ -99,28 +99,21 @@ const Author = styled.div`
 const ImageBox = (props) => {
   return (
     <div>
-      {
-        props.flip_data.map((data) => {
-        return (
-          <Flipcard>
-            <Inner>
-              <Front {...data}>
-                <FrontAuthor>{data.author}</FrontAuthor>
-              </Front>
-              <Back {...data}>
-                <Header>
-                  <Author>{data.author}</Author>
-                  <Section>{data.section}</Section>
-                </Header>
-                <Title>{data.title}</Title> 
-                <Body>{data.body}</Body> 
-              </Back>
-            </Inner>
-          </Flipcard>
-          );
-        }
-      )
-      }
+      <Flipcard>
+        <Inner>
+          <Front {...props.data}>
+            <FrontAuthor>{props.data.author}</FrontAuthor>
+          </Front>
+          <Back {...props.data}>
+            <Header>
+              <Author>{props.data.author}</Author>
+              <Section>{props.data.section}</Section>
+            </Header>
+            <Title>{props.data.title}</Title> 
+            <Body>{props.data.body}</Body> 
+          </Back>
+        </Inner>
+      </Flipcard>
     </div>
 
   )

@@ -27,4 +27,8 @@ export const NavItems = [
     "name": "A&E",
     "link": "/arts-and-entertainment"
   },
+  {
+    "name": "Spectrum",
+    "link": "/spectrum"
+  },
 ];
