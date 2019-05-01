@@ -20,6 +20,9 @@ const Column = styled.div`
     background-position: center;
 	width: ${props => props.hover === -1? '25%' : props.index === props.hover? '55%' : "15%"};
 	filter: ${props => props.hover === -1? 'grayscale(0%)' : props.index === props.hover ? 'grayscale(0%)' : 'grayscale(100%)'};
+	@media only screen and (max-width: 600px){
+		width: ${props => props.hover === -1? '100%' : props.index === props.hover? '100%' : "100%"};
+	}
 `
 
 const Title = styled.h3`
