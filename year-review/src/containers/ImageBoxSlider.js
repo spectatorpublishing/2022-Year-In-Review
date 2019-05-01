@@ -3,12 +3,15 @@ import styled from 'styled-components'
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 import Article from '../components/Article'
+import MobileArticleBox from '../components/MobileArticleBox'
 import left_arrow from '../assets/left_arrow.svg'
 import right_arrow from '../assets/left_arrow.svg'
 import filledCircle from '../assets/filledCircle.png'
 import emptyCircle from '../assets/emptyCircle.png'
 
-const n = 3
+const number = 3
+
+const mobileSize = 992
 
 const ImageContainer = styled.div`
 	width: 60vw;	
@@ -16,7 +19,7 @@ const ImageContainer = styled.div`
 	overflow: hidden;
 `
 
-const BoxPanel = styled.div`
+const BoxPanel = styled.div` 
 	display: flex;
 	width: 57vw;
 	transform: translate(${props => props.translateValue}vw);
@@ -34,9 +37,23 @@ const Arrow = styled.img`
 	width: 20px;
   	z-index: 1;
 `
+const LeftArrow = styled.img`
+  width: 5vw;
+  z-index: 1;
+  position: relative;
+  right: 5vw;
+  top: 5vw;
+`
+const RightArrow = styled.img`
+  width: 5vw;
+  z-index: 1;
+  position: relative;
+  right: 5vw;
+  bottom: 5vw;
+`
 
 const CircleContainer = styled.div`
-	width: 60vw;	
+	width: ${props => props.isMobile ? 100 : 60}vw;	
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -60,10 +77,14 @@ class ImageBoxSlider extends Component {
 		box_index: 0,
 		circle_index: 0,
 		leftDisabled: true,
-		rightDisabled: false
+		rightDisabled: false,
+		isMobile: window.innerWidth <= mobileSize,
 	}
 
 	onLeft(){
+		let n = number
+		if (this.state.isMobile)
+			n = 1
 		let current_index = this.state.box_index - 1
 		let current_circle = this.state.circle_index -1 
 		this.setState({
@@ -84,7 +105,22 @@ class ImageBoxSlider extends Component {
 		
 	}
 
+	componentWillMount() {
+	    window.addEventListener("resize", this.handleWindowSizeChange);
+	}
+
+	componentWillUnmount() {
+	    window.removeEventListener("resize", this.handleWindowSizeChange);
+	}
+
+	handleWindowSizeChange = () => {
+	    this.setState({ isMobile: window.innerWidth <= mobileSize });
+	};
+
 	onRight(){
+		let n = number
+		if (this.state.isMobile)
+			n = 1
 		let current_index = this.state.box_index + 1
 		let current_circle = this.state.circle_index + 1 
 		this.setState({
@@ -105,9 +141,12 @@ class ImageBoxSlider extends Component {
 	}
 
 	onCircle = (i) => {
+		let n = number
+		if (this.state.isMobile)
+			n = 1
 		let leftDisabled = false
 		let rightDisabled = false
-		if (i === this.props.data.length-3){
+		if (i === this.props.data.length-n){
 		 	rightDisabled = true
 		}
 		else if (i === 0)
@@ -122,26 +161,33 @@ class ImageBoxSlider extends Component {
 	}
 
 	render(){
-		
+		let n = number
 		let boxes = this.props.data.map ( (data,i) => 
 			<Article title= {data.title} author={data.author} 
-			onClick = {() => this.props.handleClick(i)} img_src={data.img_src} key = {i}/>
+			img_src={data.img_src} key = {i}/>
 		)
+		if (this.state.isMobile){
+			n = 1
+			boxes = this.props.data.map ( (data,i) => 
+				<MobileArticleBox title= {data.title} author={data.author} 
+				onClick = {() => this.props.handleClick(i)} key = {i}/>
+			)
+		}
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)
 					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
-				else if (i<this.props.data.length-2)
+				else if (i<this.props.data.length-n+1)
 					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
 				return
 			}
 		)
 
-		let leftArrow =  <Arrow /> 
-		let rightArrow = <Arrow /> 
+		let leftArrow =  <LeftArrow /> 
+		let rightArrow = <RightArrow /> 
 		if (!this.state.leftDisabled)
-			leftArrow = <Arrow src={left_arrow} onClick={this.onLeft}/> 
+			leftArrow = <LeftArrow src={left_arrow} onClick={this.onLeft}/> 
 		if (!this.state.rightDisabled)
-			rightArrow = <Arrow src={right_arrow} onClick={this.onRight}/> 
+			rightArrow = <RightArrow src={right_arrow} onClick={this.onRight}/> 
 
 		return (
 		[
@@ -152,7 +198,7 @@ class ImageBoxSlider extends Component {
 					{boxes}		
 				</BoxPanel>
 				{rightArrow}
-				<CircleContainer> {circles} </CircleContainer> 
+				<CircleContainer isMobile> {circles} </CircleContainer> 
 			</div>
 	      </MobileAndTablet>,
 	      

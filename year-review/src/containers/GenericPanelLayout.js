@@ -110,7 +110,6 @@ export default class GenericPanelLayout extends Component {
   }
 
   handleClick(i) {
-    console.log(i)
     this.setState({
       selected: i
     })

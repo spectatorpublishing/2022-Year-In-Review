@@ -39,7 +39,7 @@ class NewsContainer extends Component {
         top: target,
         left: 0,
         behavior: 'smooth'
-      });
+      }); 
     }
 
     // if(e.deltaY > 0) {
@@ -63,9 +63,7 @@ class NewsContainer extends Component {
           <ScrollingNavBar menuItems={this.props.NavItems}>
             {this.props.SliderData.map((data, i) => 
               <GenericPanelLayout key={i} data = {this.props.SliderData[i]} />)}
-          </ScrollingNavBar>
-          
-          
+          </ScrollingNavBar> 
         </div>
         <Footer title1="News" text1="blurb" title2="title" text2="blurb" img_src={this.props.intro_img} />
       </React.Fragment>
