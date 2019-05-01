@@ -62,7 +62,7 @@ class SpectrumSlider extends Component{
 			this.handleRightArrowClick();
 			break;
 		  case "Escape":
-			this.props.onClose();
+			this.props.onCloyarse();
 			break;
 		  default:
 			break;
