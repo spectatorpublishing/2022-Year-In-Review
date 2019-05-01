@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react';
 import styled from 'styled-components'
 import {NavLink} from 'react-router-dom'
 import Background from '../assets/homepg1500x800.png'
 import whitemasthead from '../assets/whitemasthead.png'
+import downarrow from '../assets/white-down-arrow-icon.png'
+import FooterHome from './FooterHome.js'
 
 // let HomePageImg= styled.div`
 //     background-image: url(${({img_src}) => img_src});
@@ -17,65 +19,99 @@ let HomePageContainer= styled.div`
     height: 100vh;
     width: 100%;
     border: solid black 1px;
-    z-index: -1;
     position: relative;
-`
+`;
 let LeftDiv = styled.div`
-	width: 60%;
+	width: 50%;
 	height: 65vh; 
 	float: left;
-  background-color: skyblue;
   position: relative;
-  top: 15vh;
-`
+  top: 5vh;
+  padding-left: 5vw;
+  margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+`;
 
 let LeftTitleDiv = styled.div`
-	width: 100%;
-	height: 50vh; 
-  background-color: skyblue;
+	width: 70%;
+	height: 60vh; 
   position: relative;
-  top: 15vh;
-  border: 1px solid black;
-`
+  top: 4vh;
+  // display: flex;
+  // justify-content: space-evenly;
+  // align-items: flex-start;
+`;
 
 let YearDiv = styled.div`
   width: 100%;
-	height: 15vh; 
-	float: left;
-  background-color: none;
+	height: 8vh; 
   position: relative;
-  border: 1px solid black;
-`
+  top: 5vh;
+  // display: flex;
+  // justify-content: space-evenly;
+  // align-items: flex-start;
+`;
 
 let Year = styled.h2`
   color: ${props => props.theme.white};
-`
+`;
 
 let LeftTitle = styled.h1`
   color: ${props => props.theme.white};
-`
+  font-size: 17.5vh;
+
+`;
 
 let RightDiv = styled.div`
-	width: 35%;
+	width: 30%;
   height: 65vh;
 	float: right;
-  background-color: grey;
   position: relative;
   top: 15vh;
-  border: 1px solid black;
-`
+  // border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-right: 5vw;
+  margin-right: 5vw;
+`;
 
 let SectionTitleDiv = styled.div`
   padding: 0.3rem;
-  margin: 1.5rem;
 `
 
 let SectionTitle = styled.h3`
   color: ${props => props.theme.white};
-  &:hover{
+  font-size: 5.5vh;
+  
+  &:hover {
     color: ${props => props.theme.blue};
-  };
-`
+    cursor: pointer;
+  }
+`;
+
+const SpecLogo = styled.img`
+  height: 25px;
+  margin-top: 10vh;
+`;
+
+const DownArrow = styled.img`
+  height: 40px;
+`;
+
+let HomePageContainer2= styled.div`
+    // background-image: url(${Background});
+    background-color: skyblue;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border: solid black 1px;
+    position: relative;
+`;
 
 // const Image = styled.div`
 //   background-image: url(${({img_src}) => img_src});
@@ -85,12 +121,14 @@ let SectionTitle = styled.h3`
 // `
 const Title = styled.h3`
 	margin-top: -3px;
-`
+`;
 
 const homePage = (props) =>{
   return (
+    <div>
     <HomePageContainer>
         <LeftDiv>
+          <SpecLogo src={whitemasthead}/>
           <YearDiv>
             <Year>2018 - 2019</Year>
           </YearDiv>
@@ -110,9 +148,15 @@ const homePage = (props) =>{
           <SectionTitleDiv><SectionTitle>SPORTS</SectionTitle></SectionTitleDiv>
           <SectionTitleDiv><SectionTitle>A&amp;E</SectionTitle></SectionTitleDiv>
           <SectionTitleDiv><SectionTitle>SPECTRUM</SectionTitle></SectionTitleDiv>
+          <DownArrow src={downarrow} />
         </RightDiv>
         
     </HomePageContainer>
+
+    <HomePageContainer2>
+
+    </HomePageContainer2>
+    </div>
   );
 }
 
