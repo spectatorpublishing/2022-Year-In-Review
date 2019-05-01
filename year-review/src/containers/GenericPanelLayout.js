@@ -25,7 +25,6 @@ import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 // 
 
 const MobileContainer = styled.div`
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({img_src}) => img_src});
   width: 100vw;
   height: 100vh;
 `
@@ -106,7 +105,7 @@ export default class GenericPanelLayout extends Component {
   }
 
   state = { 
-      selected: this.props.data.length-1
+      selected: 0
   }
 
   handleClick(i) {
@@ -119,7 +118,7 @@ export default class GenericPanelLayout extends Component {
     return (
       [
       <MobileAndTablet>
-        <MobileContainer img_src = {this.props.data[this.state.selected].img_src}>
+        <MobileContainer>
           <ImageBoxSlider data = {this.props.data}/>
         </MobileContainer>
       </MobileAndTablet>,
@@ -132,7 +131,7 @@ export default class GenericPanelLayout extends Component {
         	  <p style = {subtitle_style}>{this.props.data[this.state.selected].description}</p>
           </Link>
           <ImageBoxSliderContainer>
-            <ImageBoxSlider data = {this.props.data} handleClick = {this.handleClick}/>
+            <ImageBoxSlider data = {this.props.data} handleClick = {this.handleClick} selected = {this.state.selected}/>
           </ImageBoxSliderContainer>
         </LeftSideContainer>
         <RightSideContainer img_src = {this.props.data[this.state.selected].img_src}/>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { MemoryRouter } from 'react-router';
 
 import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
 import GenericPanelLayout from './GenericPanelLayout';
@@ -14,33 +13,33 @@ class NewsContainer extends Component {
   }
 
   handleWheel(e){
-    let curY = window.window.pageYOffset
-    let height = window.innerHeight
+    // let curY = window.window.pageYOffset
+    // let height = window.innerHeight
 
-    if (curY>this.props.SliderData.length*height)
-      return
+    // if (curY>this.props.SliderData.length*height)
+    //   return
 
-    if (curY % height < height/2)
-      curY -= curY % height
-    else
-      curY += (height - curY % height)
+    // if (curY % height < height/2)
+    //   curY -= curY % height
+    // else
+    //   curY += (height - curY % height)
 
-    if(e.deltaY > 0) {
-      window.scrollTo({
-        top: curY + height*1.06,
-        left: 0,
-        behavior: 'smooth'
-      });
-    } else if (e.deltaY < 0) {
-      let target = curY - height*0.94
-      if (target<height)
-        target -= height*0.06
-      window.scrollTo({
-        top: target,
-        left: 0,
-        behavior: 'smooth'
-      }); 
-    }
+    // if(e.deltaY > 0) {
+    //   window.scrollTo({
+    //     top: curY + height*1.06,
+    //     left: 0,
+    //     behavior: 'smooth'
+    //   });
+    // } else if (e.deltaY < 0) {
+    //   let target = curY - height*0.94
+    //   if (target<height)
+    //     target -= height*0.06
+    //   window.scrollTo({
+    //     top: target,
+    //     left: 0,
+    //     behavior: 'smooth'
+    //   }); 
+    // }
 
     // if(e.deltaY > 0) {
     //   window.scrollTo(0, curY + height*1.06)

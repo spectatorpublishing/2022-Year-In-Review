@@ -38,14 +38,14 @@ const Text2 = styled.p`
   color: ${props => props.theme.white};
   `;
 
-const Image = styled.div`
-  background-image: url(${({img_src}) => img_src});
-  height: 50vh;
-  `;
-const Background = styled.div`
-  background: lightblue;
-  height: 45vh;
-  `;
+// const Image = styled.div`
+//   background-image: url(${({img_src}) => img_src});
+//   height: 50vh;
+//   `;
+// const Background = styled.div`
+//   background: lightblue;
+//   height: 45vh;
+//   `;
 const Logo = styled.img`
   display: block;
   margin-left: auto;

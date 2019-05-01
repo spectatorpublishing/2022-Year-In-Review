@@ -4,8 +4,8 @@ import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 import Article from '../components/Article'
 import MobileArticleBox from '../components/MobileArticleBox'
-import left_arrow from '../assets/left_arrow.svg'
-import right_arrow from '../assets/left_arrow.svg'
+import white_arrow from '../assets/right_arrow.svg'
+import black_arrow from '../assets/left_arrow.svg'
 import filledCircle from '../assets/filledCircle.png'
 import emptyCircle from '../assets/emptyCircle.png'
 
@@ -18,48 +18,52 @@ const ImageContainer = styled.div`
 	display: flex;
 	overflow: hidden;
 `
-
+const MobileContainer = styled.div`
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({img_src}) => img_src});
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+`
 const BoxPanel = styled.div` 
 	display: flex;
-	width: 57vw;
+	width: ${props => props.isMobile ? 100 : 57}vw;
 	transform: translate(${props => props.translateValue}vw);
     transition: transform ease-out 0.45s;
 `
-
-const MobilePanel = styled.div`
-	display: flex;
-	width: 57vw;
-	transform: translate(${props => props.translateValue}vw);
-    transition: transform ease-out 0.45s;
-`
-
 const Arrow = styled.img`
 	width: 20px;
   	z-index: 1;
-`
-const LeftArrow = styled.img`
-  width: 5vw;
-  z-index: 1;
-  position: relative;
-  right: 5vw;
-  top: 5vw;
-`
-const RightArrow = styled.img`
-  width: 5vw;
-  z-index: 1;
-  position: relative;
-  right: 5vw;
-  bottom: 5vw;
+  	outline: none;
+  	transform: ${props => props.right ? "rotate(180deg)" : ""};
 `
 
+const LeftArrow = styled.img`
+	transform: rotate(180deg);
+	width: 5vw;
+	z-index: 1;
+	position: absolute;
+	top: 52.5vh;
+	left: 5vw;
+`
+const RightArrow = styled.img`
+	width: 5vw;
+	z-index: 1;
+	position: absolute;
+	top: 52.5vh;
+	right: 5vw;
+`
 const CircleContainer = styled.div`
-	width: ${props => props.isMobile ? 100 : 60}vw;	
+	width: ${props => props.isMobile ? 100 : 60}vw;
+	height: 5vh;	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	position: absolute;
+	bottom: 5vh;
 `
-
 const Circle = styled.img`
 	margin: 10px;
 `
@@ -81,7 +85,21 @@ class ImageBoxSlider extends Component {
 		isMobile: window.innerWidth <= mobileSize,
 	}
 
+	componentWillMount() {
+	    window.addEventListener("resize", this.handleWindowSizeChange);
+	}
+
+	componentWillUnmount() {
+	    window.removeEventListener("resize", this.handleWindowSizeChange);
+	}
+
+	handleWindowSizeChange = () => {
+	    this.setState({ isMobile: window.innerWidth <= mobileSize });
+	};
+
 	onLeft(){
+		if (this.state.leftDisabled)
+			return
 		let n = number
 		if (this.state.isMobile)
 			n = 1
@@ -105,19 +123,9 @@ class ImageBoxSlider extends Component {
 		
 	}
 
-	componentWillMount() {
-	    window.addEventListener("resize", this.handleWindowSizeChange);
-	}
-
-	componentWillUnmount() {
-	    window.removeEventListener("resize", this.handleWindowSizeChange);
-	}
-
-	handleWindowSizeChange = () => {
-	    this.setState({ isMobile: window.innerWidth <= mobileSize });
-	};
-
 	onRight(){
+		if (this.state.rightDisabled)
+			return
 		let n = number
 		if (this.state.isMobile)
 			n = 1
@@ -162,17 +170,37 @@ class ImageBoxSlider extends Component {
 
 	render(){
 		let n = number
-		let boxes = this.props.data.map ( (data,i) => 
-			<Article title= {data.title} author={data.author} 
-			img_src={data.img_src} key = {i}/>
+		let boxes = this.props.data.map ( (data,i) => {
+				if (this.props.selected === i){
+					return (<Article 
+					onClick = {() => this.props.handleClick(i)}
+					img_src={data.img_src} selected key = {i}/>)
+				} else {
+					return (<Article title= {data.title} author={data.author} 
+					onClick = {() => this.props.handleClick(i)} 
+					description={data.description} img_src={data.img_src} key = {i}/>)
+				}
+			}
 		)
+
+		// let leftArrow =  <Arrow /> 
+		// let rightArrow = <Arrow /> 
+		// if (!this.state.leftDisabled)
+			let leftArrow = <Arrow src={black_arrow} onClick={this.onLeft}/> 
+		// if (!this.state.rightDisabled)
+			let rightArrow = <Arrow src={black_arrow} onClick={this.onRight} right/> 
+
 		if (this.state.isMobile){
 			n = 1
 			boxes = this.props.data.map ( (data,i) => 
-				<MobileArticleBox title= {data.title} author={data.author} 
-				onClick = {() => this.props.handleClick(i)} key = {i}/>
-			)
+				<MobileArticleBox description={data.description}  left = {i*100}
+			 	title= {data.title} author={data.author} url={data.url} key = {i}/>)
+			// if (!this.state.leftDisabled)
+				leftArrow = <LeftArrow src={white_arrow} onClick={this.onLeft}/> 
+			// if (!this.state.rightDisabled)
+				rightArrow = <RightArrow src={white_arrow} onClick={this.onRight}/> 
 		}
+
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)
 					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
@@ -182,23 +210,20 @@ class ImageBoxSlider extends Component {
 			}
 		)
 
-		let leftArrow =  <LeftArrow /> 
-		let rightArrow = <RightArrow /> 
-		if (!this.state.leftDisabled)
-			leftArrow = <LeftArrow src={left_arrow} onClick={this.onLeft}/> 
-		if (!this.state.rightDisabled)
-			rightArrow = <RightArrow src={right_arrow} onClick={this.onRight}/> 
-
 		return (
 		[
 	      <MobileAndTablet>
-	        <div>
-				{leftArrow}
-				<BoxPanel translateValue = {this.state.box_index*(-100)}>
-					{boxes}		
-				</BoxPanel>
-				{rightArrow}
-				<CircleContainer isMobile> {circles} </CircleContainer> 
+	        <div >
+	        	<MobileContainer img_src = {this.props.data[this.state.box_index].img_src}>
+					<BoxPanel translateValue = {this.state.box_index*(-100)}>
+						{boxes}		
+					</BoxPanel>
+					{leftArrow}
+					{rightArrow}
+					<CircleContainer isMobile> {circles} </CircleContainer> 
+				</MobileContainer>
+				
+				
 			</div>
 	      </MobileAndTablet>,
 	      
