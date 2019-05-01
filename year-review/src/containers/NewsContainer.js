@@ -6,7 +6,6 @@ import GenericPanelLayout from './GenericPanelLayout';
 import PageIntro from '../components/PageIntro'
 import Footer from '../components/Footer'
 
-
 class NewsContainer extends Component {
 
   constructor() {
@@ -69,7 +68,7 @@ class NewsContainer extends Component {
         
         
       </div>
-      <Footer title1="News" text1="blurb" title2="title" text2="blurb" img_src={this.props.intro_img} />
+      <Footer />
       </MemoryRouter>
       
     );

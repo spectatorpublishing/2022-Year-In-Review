@@ -81,6 +81,10 @@ let subtitle_style = {
 	margin: '4vh 2vw 4vh 8vw',
 }
 
+const Link = styled.a`
+  text-decoration: none;
+  color: ${props => props.theme.black};
+`
 
 // const whiteSpaceStyle = {
 // 	display: flex,
@@ -124,8 +128,10 @@ export default class GenericPanelLayout extends Component {
       <Desktop>
       <div style={containerStyle}>
         <LeftSideContainer>
-        	<h3 style = {head_style}>{this.props.data[this.state.selected].title}</h3>
-        	<p style = {subtitle_style}>{this.props.data[this.state.selected].description}</p>
+          <Link href={this.props.data[this.state.selected].url}>
+        	  <h3 style = {head_style}>{this.props.data[this.state.selected].title}</h3>
+        	  <p style = {subtitle_style}>{this.props.data[this.state.selected].description}</p>
+          </Link>
           <ImageBoxSliderContainer>
             <ImageBoxSlider data = {this.props.data} handleClick = {this.handleClick}/>
           </ImageBoxSliderContainer>
