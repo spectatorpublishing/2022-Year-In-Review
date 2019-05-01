@@ -20,19 +20,20 @@ const Box = styled.section`
     width: 22%;
     height: 0;
     margin: 1%;
-    background: #30AAE3;
+    background: #3EAADB;
     padding-bottom: 22%;
     position: relative;
 `
 
-const Text = styled.h4`
+const Text = styled.h3`
     color: white;
     position: absolute;
     margin-left: 10%;
     margin-bottom: 10%;
-    margin-right: 10%;
+    margin-right: 23%;
     bottom: 0;
     left: 0;
+    font-weight: bold;
 `
 
 class PhotoEssayBox extends Component{

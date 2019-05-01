@@ -10,7 +10,7 @@ export const photo_data = [
 		link: './affection'
 	},
 	{
-		title: "The first day of the graduate student onion strike",
+		title: "The first day of the graduate student union strike",
 		link: './strike'
 	},
 	{
