@@ -4,6 +4,7 @@ import {NavLink} from 'react-router-dom'
 import Background from '../assets/homepg1500x800.png'
 import whitemasthead from '../assets/whitemasthead.png'
 import downarrow from '../assets/white-down-arrow-icon.png'
+import FooterHome from './FooterHome.js'
 
 // let HomePageImg= styled.div`
 //     background-image: url(${({img_src}) => img_src});
@@ -60,7 +61,7 @@ let Year = styled.h2`
 
 let LeftTitle = styled.h1`
   color: ${props => props.theme.white};
-  font-size: 17vh;
+  font-size: 17.5vh;
 
 `;
 
@@ -85,7 +86,7 @@ let SectionTitleDiv = styled.div`
 
 let SectionTitle = styled.h3`
   color: ${props => props.theme.white};
-  font-size: 5vh;
+  font-size: 5.5vh;
   
   &:hover {
     color: ${props => props.theme.blue};
@@ -102,6 +103,16 @@ const DownArrow = styled.img`
   height: 40px;
 `;
 
+let HomePageContainer2= styled.div`
+    // background-image: url(${Background});
+    background-color: skyblue;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border: solid black 1px;
+    position: relative;
+`;
+
 // const Image = styled.div`
 //   background-image: url(${({img_src}) => img_src});
 // 	width: 150px;
@@ -114,6 +125,7 @@ const Title = styled.h3`
 
 const homePage = (props) =>{
   return (
+    <div>
     <HomePageContainer>
         <LeftDiv>
           <SpecLogo src={whitemasthead}/>
@@ -140,6 +152,11 @@ const homePage = (props) =>{
         </RightDiv>
         
     </HomePageContainer>
+
+    <HomePageContainer2>
+
+    </HomePageContainer2>
+    </div>
   );
 }
 
