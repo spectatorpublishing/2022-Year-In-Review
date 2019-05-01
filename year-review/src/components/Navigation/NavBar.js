@@ -103,7 +103,7 @@ let MenuColumn = styled.div`
   transform: translateY(calc(48px - 1px));
   right: 0;
   transition: width 0.2s ease-out;
-  z-index: 1;
+  z-index: 20;
 `
 
 let MenuBtn = styled.input`
