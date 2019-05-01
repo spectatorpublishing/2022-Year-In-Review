@@ -58,20 +58,19 @@ class NewsContainer extends Component {
     //
         
     return (
-      <MemoryRouter initialEntries={['/']}>
-      <div onWheel = {this.handleWheel}>
-       
-        <PageIntro title1="News" text1="blurb" title2="title" text2="blurb" img_src={this.props.intro_img} />
-        <ScrollingNavBar menuItems={this.props.NavItems}>
-          {this.props.SliderData.map((data, i) => 
-            <GenericPanelLayout key={i} data = {this.props.SliderData[i]} />)}
-        </ScrollingNavBar>
+      <React.Fragment>
+        <div onWheel = {this.handleWheel}>
         
-        
-      </div>
-      <Footer title1="News" text1="blurb" title2="title" text2="blurb" img_src={this.props.intro_img} />
-      </MemoryRouter>
-      
+          <PageIntro title1="News" text1="blurb" title2="title" text2="blurb" img_src={this.props.intro_img} />
+          <ScrollingNavBar menuItems={this.props.NavItems}>
+            {this.props.SliderData.map((data, i) => 
+              <GenericPanelLayout key={i} data = {this.props.SliderData[i]} />)}
+          </ScrollingNavBar>
+          
+          
+        </div>
+        <Footer title1="News" text1="blurb" title2="title" text2="blurb" img_src={this.props.intro_img} />
+      </React.Fragment>
     );
   }
 }
