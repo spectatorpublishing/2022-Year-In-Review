@@ -58,8 +58,7 @@ class NewsContainer extends Component {
     //
         
     return (
-      <MemoryRouter initialEntries={['/']}>
-      <div>
+      <React.Fragment>
         <div onWheel = {this.handleWheel}>
         
           <PageIntro title1="News" text1="blurb" title2="title" text2="blurb" img_src={this.props.intro_img} />
@@ -71,9 +70,7 @@ class NewsContainer extends Component {
           
         </div>
         <Footer title1="News" text1="blurb" title2="title" text2="blurb" img_src={this.props.intro_img} />
-      </div>
-      </MemoryRouter>
-      
+      </React.Fragment>
     );
   }
 }
