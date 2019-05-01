@@ -3,6 +3,26 @@ export const test_img2 = "https://placekitten.com/300/400"
 export const test_url = "http://cs.columbia.edu"
 const test_wide_pic = "https://picsum.photos/1500/800"
 
+//Data for Photo Essay Box
+export const photo_data = [
+	{
+		title: "Observing Affection",
+		link: './affection'
+	},
+	{
+		title: "The first day of the graduate student onion strike",
+		link: './strike'
+	},
+	{
+		title: "The Great Columbia Snowball Fight of 2018",
+		link: './snowball'
+	},
+	{
+		title: "The March For Our Lives",
+		link: './march'
+	}
+]
+
 // Data for imageSlider
 export const opinion_data = [
 	{
