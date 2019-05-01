@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { MemoryRouter } from 'react-router';
 
 import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
 import GenericPanelLayout from './GenericPanelLayout';

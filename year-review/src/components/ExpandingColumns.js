@@ -5,19 +5,20 @@ import styled from 'styled-components'
 const Contain = styled.div`
     display: flex;  
   	flex-flow: row wrap;
-  	width: 80vw;
+  	width: 100vw;
   	height: 100vh;
-  	margin-left: 10vw;
-  	margin-right: 10vw;
 `;
 
-const Column = styled.div`
+const Column = styled.a`
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
 	margin: 0px;
 	background-image: url(${({img_src}) => img_src});
-	text-align: center;
+	text-decoration: none;
     transition: width 0.5s;
     background-position: center;
+    background-size: cover;
 	width: ${props => props.hover === -1? '25%' : props.index === props.hover? '55%' : "15%"};
 	filter: ${props => props.hover === -1? 'grayscale(0%)' : props.index === props.hover ? 'grayscale(0%)' : 'grayscale(100%)'};
 	@media only screen and (max-width: 600px){
@@ -26,10 +27,12 @@ const Column = styled.div`
 `
 
 const Title = styled.h3`
-	margin-top: 3px;
-	color: black;
+	color: ${props => props.theme.white};
+	text-shadow: ${props => props.theme.shadow};
+	text-align: center;
 	position: relative;
-	top: 20%;
+	top: 70%;
+	width: 15vw;
 `
 
 class ExpandingColumns extends Component{
@@ -56,18 +59,15 @@ class ExpandingColumns extends Component{
 		})
 	}
 
-	handleClick(link) {
-		this.props.history.push(link)
-	}
-
 	render(){
 		const grid = this.props.data.map((data, i) => {
 			return (
 				<Column img_src={data.img_src} key={i} index={i} 
 					hover={this.state.hover}
 					onMouseEnter={() => this.onHover(i)}
-		    		onMouseLeave={this.onStopHover}
-		    		onClick = {() => this.handleClick(data.link)}>
+					onMouseLeave={this.onStopHover}
+					href={"opinion"+data.link}
+				>
 	                <Title>{data.title}</Title>
 	    		</Column>
 	    		
