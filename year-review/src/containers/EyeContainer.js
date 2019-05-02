@@ -17,7 +17,7 @@ let TempHeader = styled.div`
   background-image: url("https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
   background-position: center;
   background-size: cover;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 
   &::after {
