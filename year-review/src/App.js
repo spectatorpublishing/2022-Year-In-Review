@@ -17,7 +17,7 @@ import ExpandingColumns from './components/ExpandingColumns'
 import PhotoEssayBox from './components/PhotoEssayBox'
 import { test_img } from "./util/TestData";
 import { photo_data, opinion_data, NewsTestData, sports_slider_data } from './util/TestData'
-import { NavItems } from "./util/NavItems";
+import { NavItems, NavItemsWithHome } from "./util/NavItems";
 
 class App extends Component {
 
@@ -45,7 +45,7 @@ class App extends Component {
                 }
               </Desktop>
               <MobileAndTablet>
-                <NavBar menuItems={NavItems} transparent/>
+                <NavBar menuItems={NavItemsWithHome} transparent/>
               </MobileAndTablet>
               <Switch>
                 <Route exact path="/" component={home} />
