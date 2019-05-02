@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import { withRouter } from 'react-router-dom';
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import styled from 'styled-components'
 
 const Contain = styled.div`
@@ -31,12 +32,15 @@ const Title = styled.h3`
 	text-shadow: ${props => props.theme.shadow};
 	text-align: center;
 	position: relative;
+	top: 50%;
+`
+
+const TitleDesktop = styled(Title)`
 	top: 70%;
 	width: 15vw;
 `
 
-class ExpandingColumns extends Component{
-
+class ExpandingColumns extends Component {
 	constructor() {
 	    super()
 	    this.onHover = this.onHover.bind(this)
@@ -68,7 +72,12 @@ class ExpandingColumns extends Component{
 					onMouseLeave={this.onStopHover}
 					href={"opinion"+data.link}
 				>
-	                <Title>{data.title}</Title>
+					<MobileAndTablet>
+						<Title>{data.title}</Title>
+					</MobileAndTablet>
+					<Desktop>
+						<TitleDesktop>{data.title}</TitleDesktop>
+					</Desktop>
 	    		</Column>
 	    		
     		)
