@@ -209,10 +209,13 @@ class NavBar extends Component {
   }
 
   handleCheckboxChange(e) {
+    console.log("handleCheckboxChange()");
     this.setState({ checkedForMobile: e.target.checked });
+    console.log(this.state.checkedForMobile);
   }
 
   forceClose() {
+    console.log("forceClose()");
     this.setState({ checkedForMobile: false });
   }
 
@@ -277,11 +280,12 @@ class NavBar extends Component {
       <React.Fragment>
         <MenuBtn 
           type="checkbox" 
-          id="menu-btn" 
+          id={this.props.isScrolling ? "scrolling-menu-btn" : "menu-btn"}
+          data-checked={this.state.checkedForMobile}
           checked={this.state.checkedForMobile}
           onChange={this.handleCheckboxChange}
         />
-        <MenuIcon htmlFor="menu-btn">
+        <MenuIcon htmlFor={this.props.isScrolling ? "scrolling-menu-btn" : "menu-btn"}>
           <NavIcon></NavIcon>
         </MenuIcon>
         <MenuColumn>
