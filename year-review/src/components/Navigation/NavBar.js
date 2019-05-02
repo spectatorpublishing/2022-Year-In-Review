@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { withRouter } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
 import styled from 'styled-components';
+import Crown from '../../assets/Crown.js';
 
 let NavContainer = styled.div `
   background-color: ${props => props.theme.black};
@@ -19,11 +20,14 @@ let NavContainer = styled.div `
   `}
 `
 
+let TransparentContainer = styled(NavContainer)`
+  background-color: transparent;
+  position: absolute;
+  z-index: 19;
+`
+
 let LogoContainer = styled.div`
   width: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 `
 
 let MenuContainer = styled.div`
@@ -93,14 +97,14 @@ let NavBuffer = styled.div`
 
 let MenuColumn = styled.div`
   align-items: center;
-  background-color: ${props => props.theme.black};
+  background-color: ${props => props.transparent ? (props.theme.indigo) : props.theme.black};
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: 0;
   overflow: hidden;
   position: absolute;
-  transform: translateY(calc(48px - 1px));
+  transform: ${props => props.transparent ? `translateY(1px)` : `translateY(calc(48px - 1px))`};
   right: 0;
   transition: width 0.2s ease-out;
   z-index: 20;
@@ -110,8 +114,8 @@ let MenuBtn = styled.input`
   display: none;
 
   &:checked ~ ${MenuColumn} {
-    width: 50vw;
-    height: calc(100vh - 48px)
+    width: 70vw;
+    height: ${props => props.transparent ? `100vh` : `calc(100vh - 48px)`};
   }
 `
 
@@ -122,6 +126,7 @@ let MenuIcon = styled.label`
   width: 10%;
   margin-left: auto;
   user-select: none;
+  z-index: 21;
 `
 
 let NavIcon = styled.span`
@@ -171,12 +176,27 @@ let NavIcon = styled.span`
   }
 `
 
-let DesktopItem = styled.h4`
+let DesktopItem = styled.h5`
   color: inherit;
 `
 
 let MobileItem = styled.h3`
   color: inherit;
+  text-shadow: ${props => props.theme.shadow};
+`
+
+let CrownWrapper = styled.a`
+  width: 20%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  ${props => !props.scrolling &&
+    `top: 0;
+    left: 0;`
+  }
+  z-index: 22;
 `
 
 
@@ -215,7 +235,6 @@ class NavBar extends Component {
   }
 
   forceClose() {
-    console.log("forceClose()");
     this.setState({ checkedForMobile: false });
   }
 
@@ -284,36 +303,45 @@ class NavBar extends Component {
           data-checked={this.state.checkedForMobile}
           checked={this.state.checkedForMobile}
           onChange={this.handleCheckboxChange}
+          transparent={this.props.transparent}
         />
         <MenuIcon htmlFor={this.props.isScrolling ? "scrolling-menu-btn" : "menu-btn"}>
           <NavIcon></NavIcon>
         </MenuIcon>
-        <MenuColumn>
+        <MenuColumn transparent={this.props.transparent}>
           {this.getMenuItems(isMobile, this.props.isScrolling)}
-          <MenuLink
-            key={this.props.menuItems.length}
-            styled={{isMobile}}
-            mobile={isMobile ? 1 : 0} // work around for react-router link not playing nice with non-standard attributes
-            as="a"
-            href="https://www.columbiaspectator.com/"
-            target="_blank"
-            onClick={this.forceClose}
-          >
-            Crown
-          </MenuLink>
         </MenuColumn>
       </React.Fragment>
     );
+
+    const navbar = (
+      <React.Fragment>
+        {!this.props.hideCrown && (
+        <LogoContainer>
+          <CrownWrapper 
+            href="https://www.columbiaspectator.com/" 
+            target="_blank"
+            scrolling={""+(this.props.isScrolling || !this.props.hideCrown)}
+          >
+            <Crown />
+          </CrownWrapper>
+        </LogoContainer>
+        )}
+        {isMobile ? mobileMenu : (!this.props.transparent && desktopMenu) }
+      </React.Fragment>
+    );
+
     return (
       <div>
+        {this.props.transparent ?
+        <TransparentContainer fixed={this.props.fixed}>
+          {navbar}
+        </TransparentContainer>
+        :
         <NavContainer fixed={this.props.fixed}>
-          <LogoContainer>
-            <Link to="/">
-              Crown
-            </Link>
-          </LogoContainer>
-          {isMobile ? mobileMenu : desktopMenu}
+          {navbar}
         </NavContainer>
+        }
         {this.props.fixed && <NavBuffer></NavBuffer>}
       </div>
     );

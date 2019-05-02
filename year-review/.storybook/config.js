@@ -9,7 +9,9 @@ function withGlobalStyles(storyFn) {
     <ThemeProvider theme={Theme}>
       <React.Fragment>
           <GlobalStyles />
-          {storyFn()}
+          <div style={{background: "white"}}>
+            {storyFn()}
+          </div>
       </React.Fragment>
     </ThemeProvider>
   );

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {Route, Switch} from 'react-router-dom';
+import { withRouter } from 'react-router'
 import { ThemeProvider } from "styled-components";
-
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import { GlobalStyles, Theme } from "./util/GlobalStyles";
 
 import HomeContainer from './containers/HomeContainer'
@@ -41,7 +42,16 @@ class App extends Component {
         <main>
           <GlobalStyles />
             <React.Fragment>
-              <NavBar menuItems={NavItems} />
+              <Desktop>
+                {this.props.location.pathname == "/" ?
+                  <NavBar menuItems={NavItems} transparent hideCrown/>
+                :
+                  <NavBar menuItems={NavItems} />
+                }
+              </Desktop>
+              <MobileAndTablet>
+                <NavBar menuItems={NavItems} transparent/>
+              </MobileAndTablet>
               <Switch>
                 <Route exact path="/" component={home} />
                 <Route exact path="/news" component={news} />
@@ -65,6 +75,6 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App);
 
 

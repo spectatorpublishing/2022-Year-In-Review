@@ -27,7 +27,7 @@ const Column = styled.a`
 	}
 `
 
-const Title = styled.h3`
+const TitleMobile = styled.h3`
 	color: ${props => props.theme.white};
 	text-shadow: ${props => props.theme.shadow};
 	text-align: center;
@@ -35,7 +35,11 @@ const Title = styled.h3`
 	top: 50%;
 `
 
-const TitleDesktop = styled(Title)`
+const TitleDesktop = styled.h4`
+	color: ${props => props.theme.white};
+	text-shadow: ${props => props.theme.shadow};
+	text-align: center;
+	position: relative;
 	top: 70%;
 	width: 15vw;
 `
@@ -73,7 +77,7 @@ class ExpandingColumns extends Component {
 					href={"opinion"+data.link}
 				>
 					<MobileAndTablet>
-						<Title>{data.title}</Title>
+						<TitleMobile>{data.title}</TitleMobile>
 					</MobileAndTablet>
 					<Desktop>
 						<TitleDesktop>{data.title}</TitleDesktop>
