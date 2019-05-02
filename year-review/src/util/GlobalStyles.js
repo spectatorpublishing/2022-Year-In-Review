@@ -79,7 +79,7 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 900;
     font-style: normal;
     font-size: 8rem;
-    letter-spacing: .2rem;
+    letter-spacing: .3rem;
     margin: 0;
     @media only screen and (max-width: 767px) {
       font-size: 4rem;
@@ -90,6 +90,7 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 900;
     font-style: italic;
     font-size: 5rem;
+    letter-spacing: .2rem;
     margin: 0;
     @media only screen and (max-width: 767px) {
       font-size: 3rem;
@@ -99,17 +100,18 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Branding', sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 3rem;
+    letter-spacing: .2rem;
     margin: 0;
     @media only screen and (max-width: 767px) {
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
   }
   h4 {
     font-family: 'Branding', sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin: 0;
     @media only screen and (max-width: 767px) {
       font-size: 1.5rem;

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {Route, Switch} from 'react-router-dom';
+import { withRouter } from 'react-router'
 import { ThemeProvider } from "styled-components";
-
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import { GlobalStyles, Theme } from "./util/GlobalStyles";
 
 import HomeContainer from './containers/HomeContainer'
@@ -35,12 +36,23 @@ class App extends Component {
     const love = () => <h1 style={{color: "white"}}>  Love Actualized </h1>
     const debate = () => <h1 style={{color: "white"}}>  Discourse and Debate </h1>
 
+    console.log(this.props.location);
+
     return (
       <ThemeProvider theme={Theme}>
         <main>
           <GlobalStyles />
             <React.Fragment>
-              <NavBar menuItems={NavItems} />
+              <Desktop>
+                {this.props.location.pathname == "/" ?
+                  <NavBar menuItems={NavItems} transparent/>
+                :
+                  <NavBar menuItems={NavItems} />
+                }
+              </Desktop>
+              <MobileAndTablet>
+                <NavBar menuItems={NavItems} transparent/>
+              </MobileAndTablet>
               <Switch>
                 <Route exact path="/" component={home} />
                 <Route exact path="/news" component={news} />
@@ -64,6 +76,6 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withRouter(App);
 
 

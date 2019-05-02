@@ -9,8 +9,8 @@ import { MemoryRouter } from 'react-router';
 
 storiesOf('NavBar', module)
   .addDecorator(story => (
-    <MemoryRouter initialEntries={['/']}>
-      <div>
+    <MemoryRouter initialEntries={['/notEmptyRoute']}>
+      <div style={{background: "url(https://images.unsplash.com/photo-1476681133757-d20293a9f2de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80)"}}>
         {story()}
         <p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p>
         <p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p><p>filler</p>
@@ -22,11 +22,12 @@ storiesOf('NavBar', module)
     </MemoryRouter>
   ))
   .add('Navbar', () => <NavBar menuItems={NavItems} />)
-  .add('Fixed Navbar', () => <NavBar menuItems={NavItems} fixed />);
+  .add('Fixed Navbar', () => <NavBar menuItems={NavItems} fixed />)
+  .add('Transparent Navbar (Only Use on Mobile)', () => <NavBar menuItems={NavItems} transparent />);
   
   storiesOf('Scrolling NavBar', module)
   .addDecorator(story => (
-    <MemoryRouter initialEntries={['/']}>
+    <MemoryRouter initialEntries={['/notEmptyRoute']}>
       <div>
         <div style={{backgroundColor: "magenta", width: "100vw", height: "100vh",}}></div>
         {story()}
