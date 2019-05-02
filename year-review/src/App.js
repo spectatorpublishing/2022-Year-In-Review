@@ -32,11 +32,6 @@ class App extends Component {
     const ane = () => <h1 style={{color: "white"}}> A&amp;E </h1>
     const spectrum = () => <h1 style={{color: "white"}}> Spectrum </h1>
 
-    const opeds = () => <h1 style={{color: "white"}}> Op-Eds </h1>
-    const column = () => <h1 style={{color: "white"}}>  Column </h1>
-    const love = () => <h1 style={{color: "white"}}>  Love Actualized </h1>
-    const debate = () => <h1 style={{color: "white"}}>  Discourse and Debate </h1>
-
     return (
       <ThemeProvider theme={Theme}>
         <main>
@@ -56,10 +51,6 @@ class App extends Component {
                 <Route exact path="/" component={home} />
                 <Route exact path="/news" component={news} />
                 <Route exact path="/opinion" component={opinion} />
-                <Route exact path="/opinion/column" component={column} />
-                <Route exact path="/opinion/opeds" component={opeds} />
-                <Route exact path="/opinion/love-actualized" component={love} />
-                <Route exact path="/opinion/discourse-and-debate" component={debate} />
                 <Route exact path="/eye" component={eye} />
                 <Route exact path="/photo" component={photo} />
                 <Route exact path="/design" component={design} />

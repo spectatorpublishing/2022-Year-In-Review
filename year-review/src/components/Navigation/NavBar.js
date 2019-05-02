@@ -338,7 +338,7 @@ class NavBar extends Component {
           {navbar}
         </TransparentContainer>
         :
-        <NavContainer fixed={this.props.fixed}>
+        <NavContainer fixed={this.props.fixed} id="blah">
           {navbar}
         </NavContainer>
         }

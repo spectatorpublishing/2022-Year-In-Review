@@ -28,6 +28,14 @@ class ScrollingNav extends Component {
   }
 
   componentDidMount() {
+    if (this.scrollRef.current) {
+      let targetTop = document.scrollingElement.scrollTop;
+      let refTop = this.scrollRef.current.offsetTop;
+      let initialFixed =  targetTop > refTop;
+      if (this.state.fixed !== initialFixed) {
+        this.setState({ fixed: !this.state.fixed });
+      }
+    }
     window.addEventListener('scroll', this.handleScroll);
   }
 
