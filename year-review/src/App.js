@@ -4,11 +4,13 @@ import { ThemeProvider } from "styled-components";
 
 import { GlobalStyles, Theme } from "./util/GlobalStyles";
 
+import HomeContainer from './containers/HomeContainer'
 import NewsContainer from './containers/NewsContainer'
 import PhotoContainer from './containers/PhotoContainer'
 import OpinionContainer from './containers/OpinionContainer'
 import SportsContainer from './containers/SportsContainer'
 import NavBar from './components/Navigation/NavBar'
+import Footer from './components/Footer'
 import ExpandingColumns from './components/ExpandingColumns'
 import PhotoEssayBox from './components/PhotoEssayBox'
 import { test_img } from "./util/TestData";
@@ -18,20 +20,20 @@ import { NavItems } from "./util/NavItems";
 class App extends Component {
 
   render() {
-    const home = () => <h1> Home </h1>
+    const home = () => <HomeContainer />
     const news = () => <NewsContainer NavItems = {NewsTestData.sections} SliderData = { NewsTestData.image_and_text } intro_img = {test_img} />
     const opinion = () => <OpinionContainer />
-    const eye = () => <h1> Eye </h1>
+    const eye = () => <h1 style={{color: "white"}}> Eye </h1>
     const photo = () => <PhotoEssayBox data = {photo_data} />
-    const design = () => <h1> Design </h1>
+    const design = () => <h1 style={{color: "white"}}> Design </h1>
     const sports = () => <SportsContainer NavItems = {NavItems} SportsData = {sports_slider_data} />
-    const ane = () => <h1> A&E </h1>
-    const spectrum = () => <h1> Spectrum </h1>
+    const ane = () => <h1 style={{color: "white"}}> A&amp;E </h1>
+    const spectrum = () => <h1 style={{color: "white"}}> Spectrum </h1>
 
-    const opeds = () => <h1> Op-Eds </h1>
-    const column = () => <h1>  Column </h1>
-    const love = () => <h1>  Love Actualized </h1>
-    const debate = () => <h1>  Discourse and Debate </h1>
+    const opeds = () => <h1 style={{color: "white"}}> Op-Eds </h1>
+    const column = () => <h1 style={{color: "white"}}>  Column </h1>
+    const love = () => <h1 style={{color: "white"}}>  Love Actualized </h1>
+    const debate = () => <h1 style={{color: "white"}}>  Discourse and Debate </h1>
 
     return (
       <ThemeProvider theme={Theme}>
@@ -54,6 +56,7 @@ class App extends Component {
                 <Route exact path="/arts-and-entertainment" component={ane} />
                 <Route exact path="/spectrum" component={spectrum} />
               </Switch>
+              <Footer />
             </React.Fragment>
         </main>
       </ThemeProvider>

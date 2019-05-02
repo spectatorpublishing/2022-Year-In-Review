@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import PhotoGrid from '../components/PhotoGrid.js';
 
 export default class PhotoContainer extends Component {

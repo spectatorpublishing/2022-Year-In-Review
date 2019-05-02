@@ -61,8 +61,6 @@ let Year = styled.h2`
 
 let LeftTitle = styled.h1`
   color: ${props => props.theme.white};
-  font-size: 17.5vh;
-
 `;
 
 let RightDiv = styled.div`
@@ -123,57 +121,41 @@ const Title = styled.h3`
 	margin-top: -3px;
 `;
 
-const homePage = (props) =>{
-  return (
-    <div>
-    <HomePageContainer>
-        <LeftDiv>
-          <SpecLogo src={whitemasthead}/>
-          <YearDiv>
-            <Year>2018 - 2019</Year>
-          </YearDiv>
-          <LeftTitleDiv>
-            <LeftTitle>
-              YEAR IN REVIEW
-            </LeftTitle>
-          </LeftTitleDiv>
-        </LeftDiv>
-        
-        <RightDiv>
-          <SectionTitleDiv><SectionTitle>NEWS</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>OPINION</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>THE EYE</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>PHOTO</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>DESIGN</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>SPORTS</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>A&amp;E</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>SPECTRUM</SectionTitle></SectionTitleDiv>
-          <DownArrow src={downarrow} />
-        </RightDiv>
-        
-    </HomePageContainer>
+export default class HomePage extends Component {
+  render() {
+    return (
+      <React.Fragment>
+      <HomePageContainer>
+          <LeftDiv>
+            <SpecLogo src={whitemasthead}/>
+            <YearDiv>
+              <Year>2018 - 2019</Year>
+            </YearDiv>
+            <LeftTitleDiv>
+              <LeftTitle>
+                YEAR IN REVIEW
+              </LeftTitle>
+            </LeftTitleDiv>
+          </LeftDiv>
+          
+          <RightDiv>
+            <SectionTitleDiv><SectionTitle>NEWS</SectionTitle></SectionTitleDiv>
+            <SectionTitleDiv><SectionTitle>OPINION</SectionTitle></SectionTitleDiv>
+            <SectionTitleDiv><SectionTitle>THE EYE</SectionTitle></SectionTitleDiv>
+            <SectionTitleDiv><SectionTitle>PHOTO</SectionTitle></SectionTitleDiv>
+            <SectionTitleDiv><SectionTitle>DESIGN</SectionTitle></SectionTitleDiv>
+            <SectionTitleDiv><SectionTitle>SPORTS</SectionTitle></SectionTitleDiv>
+            <SectionTitleDiv><SectionTitle>A&amp;E</SectionTitle></SectionTitleDiv>
+            <SectionTitleDiv><SectionTitle>SPECTRUM</SectionTitle></SectionTitleDiv>
+            <DownArrow src={downarrow} />
+          </RightDiv>
+          
+      </HomePageContainer>
 
-    <HomePageContainer2>
+      <HomePageContainer2>
 
-    </HomePageContainer2>
-    </div>
-  );
+      </HomePageContainer2>
+      </React.Fragment>
+    );
+  }
 }
-
-export default homePage;
-
-
-// export default class HomePage extends Component {
-//     constructor(props) {
-//       super(props);
-  
-//       this.state = { };
-//     }
-  
-//     render() {
-//       return (
-//         <HomePageImg>
-//         </HomePageImg>
-//       );
-//     }
-//   }
