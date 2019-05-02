@@ -77,10 +77,10 @@ class ExpandingColumns extends Component {
 					href={"opinion"+data.link}
 				>
 					<MobileAndTablet>
-						<TitleMobile>{data.title}</TitleMobile>
+						<TitleMobile>{data.name}</TitleMobile>
 					</MobileAndTablet>
 					<Desktop>
-						<TitleDesktop>{data.title}</TitleDesktop>
+						<TitleDesktop>{data.name}</TitleDesktop>
 					</Desktop>
 	    		</Column>
 	    		

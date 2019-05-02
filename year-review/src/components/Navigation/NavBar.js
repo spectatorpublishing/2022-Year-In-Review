@@ -34,7 +34,6 @@ let MenuContainer = styled.div`
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-right: vw;
   width: 70%;
 `
 
@@ -45,54 +44,8 @@ let MenuRow = styled.div`
   justify-content: space-between;
 `
 
-let MenuLink = styled(NavLink)`
-  color: ${props => props.theme.white};
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-
-    :hover {
-      color: ${props => props.theme.blue};
-    }
-
-    :focus {
-      color: ${props => props.theme.blue};
-    }
-
-    &.navLinkActive {
-      color: ${props => props.theme.blue};
-    }
-
-  ${({ mobile }) => !!mobile && `
-    border: none;
-    margin: 4vh 0 0 0;
-  `}
-`
-
-let MenuScrollLink = styled(NavHashLink)`
-  cursor: pointer;
-  color: ${props => props.theme.white};
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  :hover {
-    color: ${props => props.theme.blue};
-  }
-
-  &.navLinkActive {
-    color: ${props => props.theme.blue};
-  }
-
-  ${({ mobile }) => !!mobile && `
-    border: none;
-    margin: 4vh 0 0 0;
-  `}
-`
-
-let NavBuffer = styled.div`
-  height: 48px;
-  width: 100%;
+let MenuBtn = styled.input`
+  display: none;
 `
 
 let MenuColumn = styled.div`
@@ -104,19 +57,81 @@ let MenuColumn = styled.div`
   width: 0;
   overflow: hidden;
   position: absolute;
-  transform: ${props => props.transparent ? `translateY(1px)` : `translateY(calc(48px - 1px))`};
+  transform: ${props => !props.transparent && `translateY(calc(48px - 1px))`};
   right: 0;
   transition: width 0.2s ease-out;
   z-index: 20;
+
+  ${MenuBtn}:checked ~ & {
+    width: 50vw;
+    height: ${props => props.transparent ? `calc(100vh - 4rem)` : `calc(100vh - 48px - 4rem)`};
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
 `
 
-let MenuBtn = styled.input`
-  display: none;
+let MenuLink = styled(NavLink)`
+  color: ${props => props.theme.white};
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 
-  &:checked ~ ${MenuColumn} {
-    width: 70vw;
-    height: ${props => props.transparent ? `100vh` : `calc(100vh - 48px)`};
+  ${({ mobile }) => mobile && `
+    border: none;
+    opacity: 0;
+    transition: opacity 0s;
+  `}
+
+  ${MenuBtn}:checked ~ ${MenuColumn} & {
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
   }
+
+  :hover {
+    color: ${props => props.theme.blue};
+  }
+
+  :focus {
+    color: ${props => props.theme.blue};
+  }
+
+  &.navLinkActive {
+    color: ${props => props.theme.blue};
+  }
+`
+
+let MenuScrollLink = styled(NavHashLink)`
+  cursor: pointer;
+  color: ${props => props.theme.white};
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  ${({ mobile }) => mobile && `
+    border: none;
+    margin: 4vh 0 0 0;
+    opacity: 0;
+    transition: opacity 0s;
+  `}
+
+  ${MenuBtn}:checked ~ ${MenuColumn} & {
+    opacity: 1;
+    transition: width 0.2s ease-out;
+  }
+
+  :hover {
+    color: ${props => props.theme.blue};
+  }
+
+  &.navLinkActive {
+    color: ${props => props.theme.blue};
+  }
+`
+
+let NavBuffer = styled.div`
+  height: 48px;
+  width: 100%;
 `
 
 let MenuIcon = styled.label`
