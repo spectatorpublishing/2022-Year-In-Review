@@ -67,7 +67,7 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 300;
     font-style: italic;
     scroll-behavior: smooth;
-    background: black;
+    background: #222430;
   }
   body,
   button {

@@ -9,6 +9,7 @@ import NewsContainer from './containers/NewsContainer'
 import PhotoContainer from './containers/PhotoContainer'
 import OpinionContainer from './containers/OpinionContainer'
 import SportsContainer from './containers/SportsContainer'
+import EyeContainer from './containers/EyeContainer'
 import NavBar from './components/Navigation/NavBar'
 import Footer from './components/Footer'
 import ExpandingColumns from './components/ExpandingColumns'
@@ -23,7 +24,7 @@ class App extends Component {
     const home = () => <HomeContainer />
     const news = () => <NewsContainer NavItems = {NewsTestData.sections} SliderData = { NewsTestData.image_and_text } intro_img = {test_img} />
     const opinion = () => <OpinionContainer />
-    const eye = () => <h1 style={{color: "white"}}> Eye </h1>
+    const eye = () => <EyeContainer />
     const photo = () => <PhotoEssayBox data = {photo_data} />
     const design = () => <h1 style={{color: "white"}}> Design </h1>
     const sports = () => <SportsContainer NavItems = {NavItems} SportsData = {sports_slider_data} />
