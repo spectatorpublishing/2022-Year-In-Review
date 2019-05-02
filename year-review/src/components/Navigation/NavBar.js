@@ -97,7 +97,7 @@ let NavBuffer = styled.div`
 
 let MenuColumn = styled.div`
   align-items: center;
-  background-color: ${props => props.transparent ? (props.theme.indigo + `AA`) : props.theme.black};
+  background-color: ${props => props.transparent ? (props.theme.indigo) : props.theme.black};
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -114,7 +114,7 @@ let MenuBtn = styled.input`
   display: none;
 
   &:checked ~ ${MenuColumn} {
-    width: 50vw;
+    width: 70vw;
     height: ${props => props.transparent ? `100vh` : `calc(100vh - 48px)`};
   }
 `
@@ -316,12 +316,12 @@ class NavBar extends Component {
 
     const navbar = (
       <React.Fragment>
-        {(isMobile || this.props.location.pathname !== "/") && (
+        {!this.props.hideCrown && (
         <LogoContainer>
           <CrownWrapper 
             href="https://www.columbiaspectator.com/" 
             target="_blank"
-            scrolling={this.props.isScrolling}
+            scrolling={""+(this.props.isScrolling || !this.props.hideCrown)}
           >
             <Crown />
           </CrownWrapper>

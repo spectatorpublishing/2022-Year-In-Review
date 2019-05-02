@@ -36,8 +36,6 @@ class App extends Component {
     const love = () => <h1 style={{color: "white"}}>  Love Actualized </h1>
     const debate = () => <h1 style={{color: "white"}}>  Discourse and Debate </h1>
 
-    console.log(this.props.location);
-
     return (
       <ThemeProvider theme={Theme}>
         <main>
@@ -45,7 +43,7 @@ class App extends Component {
             <React.Fragment>
               <Desktop>
                 {this.props.location.pathname == "/" ?
-                  <NavBar menuItems={NavItems} transparent/>
+                  <NavBar menuItems={NavItems} transparent hideCrown/>
                 :
                   <NavBar menuItems={NavItems} />
                 }

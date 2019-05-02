@@ -4,7 +4,6 @@ import Background from '../assets/homepg1500x800.png';
 import whitemasthead from '../assets/whitemasthead.png';
 import downarrow from '../assets/white-down-arrow-icon.png';
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
-import { NavItems } from '../util/NavItems.js';
 
 
 let MobileContainer = styled.div`
@@ -83,10 +82,12 @@ let DownArrow = styled.img`
 export default class HomePage extends Component {
   constructor(props){
     super(props);
+
+    this.getSections = this.getSections.bind(this);
   }
 
   getSections() {
-    return NavItems.map((e, i) => 
+    return this.props.menuItems.map((e, i) => 
       <SectionTitleDiv key={i} href={e.link}>
         <SectionTitle>{e.name}</SectionTitle>
       </SectionTitleDiv>

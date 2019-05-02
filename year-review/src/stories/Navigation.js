@@ -34,7 +34,7 @@ storiesOf('NavBar', module)
       </div>
     </MemoryRouter>
   ))
-  .add('Scrolling Triggered Navbar', () => { 
+  .add('Scrolling Triggered Navbar with Dynamic Active Content (menuItem length must match # of children elements)', () => { 
     return (
       <ScrollingNavBar menuItems={NavItems}>
         <div style={{backgroundColor: "red", width: "100vw", height: "100vh",}}></div>
@@ -44,6 +44,15 @@ storiesOf('NavBar', module)
         <div style={{backgroundColor: "blue", width: "100vw", height: "100vh",}}></div>
         <div style={{backgroundColor: "indigo", width: "100vw", height: "100vh",}}></div>
         <div style={{backgroundColor: "purple", width: "100vw", height: "100vh",}}></div>
+      </ScrollingNavBar>
+    );
+  })
+  .add('Scrolling Triggered Navbar ignoring Content (just fixes navbar after scrolled to)', () => { 
+    return (
+      <ScrollingNavBar menuItems={NavItems} noContent>
+        <div style={{backgroundColor: "red", width: "100vw", height: "100vh",}}></div>
+        <div style={{backgroundColor: "orange", width: "100vw", height: "100vh",}}></div>
+        <div style={{backgroundColor: "yellow", width: "100vw", height: "100vh",}}></div>
       </ScrollingNavBar>
     );
   });
