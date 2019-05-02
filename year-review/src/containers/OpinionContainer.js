@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ExpandingColumns from '../components/ExpandingColumns';
 import styled from 'styled-components';
+import ExpandingColumns from '../components/ExpandingColumns';
 
 import { opinion_data } from '../util/OpinionData'
 
