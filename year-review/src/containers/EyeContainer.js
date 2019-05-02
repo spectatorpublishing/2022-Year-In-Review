@@ -6,6 +6,7 @@ let TempTitle = styled.h1`
   text-shadow: ${props => props.theme.shadow};
   z-index: 2;
   position: absolute;
+  font-size: 12em;
 `
 
 let TempHeader = styled.div`
@@ -31,29 +32,31 @@ let TempHeader = styled.div`
 `
 
 let LetterContain = styled.div`
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
+  margin-top: 5vw;
+  margin-left: 10vw;
 `
 
 let TempLetter = styled.h1`
   height: 100vh;
-  width: 100vw;
+  width: 80vw;
   color: ${props => props.theme.white};
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-text: justify;
   background-color: ${props => props.theme.indigo};
   align-items: left;
   margin-right: 10vw;
+  font-size: 10em;
 `
 
-const Text1 = styled.p`
+const TitleBlurb = styled.p`
   font-size: 20px;
   font-weight: 25;
   margin-left: 50px;
   margin-right: 50px;
   color: white;
-  margin-top: 25vh;
+  margin-top: 30vh;
   text-align: center;
   z-index: 2;
 `;
@@ -69,10 +72,10 @@ class EyeContainer extends Component {
       <React.Fragment>
         <TempHeader>
           <TempTitle>THE EYE</TempTitle>
-          <Text1>
+          <TitleBlurb>
               Most undergraduates will only experience a small sliver of Columbia's history during their time here; current students just lived through a year for the record books.
               As the University marked the fiftieth anniversary of the 1968 protests that redined its identity, campus was roiled by a new series of student protests.
-          </Text1>
+          </TitleBlurb>
         </TempHeader>
         <LetterContain> 
             <TempLetter> LETTER FROM THE EDITOR </TempLetter>
