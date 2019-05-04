@@ -17,7 +17,7 @@ import SpectrumContainer from './containers/SpectrumContainer'
 
 import NavBar from './components/Navigation/NavBar'
 import Footer from './components/Footer'
-import ExpandingColumns from './components/ExpandingColumns'
+
 import { test_img } from "./util/TestData";
 import { photo_data, opinion_data, NewsTestData, sports_slider_data } from './util/TestData'
 import { NavItems, NavItemsWithHome } from "./util/NavItems";
@@ -41,7 +41,7 @@ class App extends Component {
           <GlobalStyles />
             <React.Fragment>
               <Desktop>
-                {this.props.location.pathname == "/" ?
+                {this.props.location.pathname === "/" ?
                   <NavBar menuItems={NavItems} transparent hideCrown/>
                 :
                   <NavBar menuItems={NavItems} />

@@ -4,127 +4,66 @@ import ImageBoxSlider from './ImageBoxSlider';
 import scrollArrow from '../assets/hamburger.svg'
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
-// import { AppRegistry, View } from 'react-native';
-
-// let whiteSpace = styled.div`
-// 	{
-// 	  display: flex;
-// 	  flex-direction: column;
-// 	  align-items: flex-start;
-// 	  backgroundColor: 'white';
-// 	}
-// `
-
-// let img = styled.div`
-// 	{
-// 	  display: flex;
-// 	  flex-direction: column;
-// 	  align-items: flex-end;
-// 	  backgroundColor:'skyblue';
-// 	}
-// 
-
 const mobileSize = 992
 
-const MobileContainer = styled.div`
+const Container = styled.div`
   width: 100vw;
   height: 100vh;
+  postion: relative;
 `
 
-const Arrow = styled.img`
-  width: 2vw;
-  z-index: 1;
-  position: absloute;
-  right: 95vw;
-  top: 95vh;
-`
-
-const handleClick = () => {
-  window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: 'smooth'
-      });
-}
-
-let containerStyle = {
-	width: "100vw",
-  height: "100vh",
-  postion: "relative",
-}
-
-let TopContainer = styled.div`
+const TopContainer = styled.div`
   width: 100vw;
   height: ${props => props.isMobile? '40vh' : '60vh'};
   float: top;
   background-image: url(${({img_src}) => img_src});
 `
 
-let BottomContainer = styled.div`
+const BottomContainer = styled.div`
 	width: 100vw;
 	height: ${props => props.isMobile? '60vh' : '40vh'};
 	float: bottom;
   background-color: ${props => props.theme.indigo};
 `
 
-// let ImageBoxSliderContainer = styled.div`
+const Head = styled.h3`
+	textAlign: left;
+	padding: 12vh 2vw 4vh 8vw;
+  color: white;
+  width: 60vw;
+`
+const MobileHead = styled.h3`
+  textAlign: left;
+  padding: 4vh 0vw 2vh 8vw;
+  color: white;
+  width: 80vw;
+`
 
-// `
+const Subtitle = styled.p`
+  textAlign: left;
+  padding: 0vh 0vw 4vh 8vw;
+  color: white;
+  width: 60vw;
+` 
 
-let head_style = {
-	textAlign: 'left',
-	padding: '12vh 2vw 4vh 8vw',
-  color: "white",
-  width: "60vw",
-}
-
-let subtitle_style = {
-	textAlign: 'left',
-	padding: '4vh 2vw 4vh 8vw',
-  color: "white",
-  width: "60vw",
-}
-
-let mobile_head_style = {
-  textAlign: 'left',
-  padding: '4vh 0vw 2vh 8vw',
-  color: "white",
-  width: "80vw",
-}
-
-let mobile_subtitle_style = {
-  textAlign: 'left',
-  padding: '0vh 0vw 4vh 8vw',
-  color: "white",
-  width: "80vw",
-}
+const MobileSubtitle = styled.p`
+  textAlign: left;
+  padding: 0vh 0vw 4vh 8vw;
+  color: white;
+  width: 80vw;
+` 
 
 const Link = styled.a`
   text-decoration: none;
   color: ${props => props.theme.black};
 `
 
-// const whiteSpaceStyle = {
-// 	display: flex,
-// 	// align-items: flex-start,
-// 	backgroundColor: 'white'
-// };
-// const imgStyle = {
-// 	display: flex,
-// 	// align-items: flex-end,
-// 	backgroundColor: 'skyblue'
-// };
-
-
 export default class GenericPanelLayout extends Component {
   constructor(props) {
     super(props);
-    this.handleClick = this.handleClick.bind(this)
-    
   }
 
   state = { 
-      selected: 0,
       isMobile: window.innerWidth <= mobileSize,
   }
 
@@ -140,12 +79,6 @@ export default class GenericPanelLayout extends Component {
       this.setState({ isMobile: window.innerWidth <= mobileSize });
   };
 
-  handleClick(i) {
-    this.setState({
-      selected: i
-    })
-  }
-
   render() {
     return (
       [
@@ -153,22 +86,22 @@ export default class GenericPanelLayout extends Component {
         <TopContainer img_src = {this.props.data.img_src} isMobile = {this.state.isMobile} />
 
         <BottomContainer isMobile = {this.state.isMobile}>
-          <h3 style = {mobile_head_style}>{this.props.data.title}</h3>
-          <ImageBoxSlider data = {this.props.data.article_box_data} handleClick = {this.handleClick} selected = {this.state.selected}/>
+          <MobileHead>{this.props.data.title}</MobileHead>
+          <ImageBoxSlider data = {this.props.data.article_box_data}/>
         </BottomContainer>
       </MobileAndTablet>,
       
       <Desktop>
-      <div style={containerStyle}>
-        <TopContainer img_src = {this.props.data.img_src}>
-            <h3 style = {head_style}>{this.props.data.title}</h3>
-            <p style = {subtitle_style}>{this.props.data.description}</p>
-        </TopContainer>
+        <Container>
+          <TopContainer img_src = {this.props.data.img_src}>
+              <Head>{this.props.data.title}</Head>
+              <Subtitle>{this.props.data.description}</Subtitle>
+          </TopContainer>
 
-        <BottomContainer>
-            <ImageBoxSlider data = {this.props.data.article_box_data} handleClick = {this.handleClick} selected = {this.state.selected}/>
-        </BottomContainer>
-      </div>
+          <BottomContainer>
+              <ImageBoxSlider data = {this.props.data.article_box_data}/>
+          </BottomContainer>
+        </Container>
       </Desktop>
       ]
     );
