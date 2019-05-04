@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
+import GenericPanelLayout from './GenericPanelLayout';
 import PageIntro from '../components/PageIntro'
 import EditorLetter from '../components/EditorLetter'
 
@@ -16,8 +18,14 @@ class EyeContainer extends Component {
   render() {
     return (
       <React.Fragment>
-        <PageIntro title="THE EYE" description={description} img_src={img_src}/>
-        <EditorLetter/>
+        <div onWheel = {this.handleWheel}>
+          <PageIntro title="THE EYE" description={description} img_src={img_src}/>
+          <EditorLetter/>
+          <ScrollingNavBar menuItems={this.props.NavItems}>
+            {this.props.SliderData.map((data, i) => 
+              <GenericPanelLayout key={i} data = {this.props.SliderData[i]} />)}
+          </ScrollingNavBar> 
+        </div>
       </React.Fragment>
     );
   }

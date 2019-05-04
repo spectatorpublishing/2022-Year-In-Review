@@ -19,21 +19,21 @@ import NavBar from './components/Navigation/NavBar'
 import Footer from './components/Footer'
 
 import { test_img } from "./util/TestData";
-import { photo_data, opinion_data, NewsTestData, sports_slider_data } from './util/TestData'
+import { spectrum_data, photo_data, opinion_data, news_data, sports_slider_data } from './util/TestData'
 import { NavItems, NavItemsWithHome } from "./util/NavItems";
 
 class App extends Component {
 
   render() {
-    const home = () => <HomeContainer />
-    const news = () => <NewsContainer NavItems = {NewsTestData.sections} SliderData = { NewsTestData.image_and_text } intro_img = {test_img} />
+    const home = () => <HomeContainer /> 
+    const news = () => <NewsContainer NavItems = {news_data.sections} SliderData = {news_data.image_and_text} IntroPage = {test_img} />
     const opinion = () => <OpinionContainer />
-    const eye = () => <EyeContainer />
+    const eye = () => <EyeContainer NavItems = {news_data.sections} SliderData = {news_data.image_and_text} />
     const photo = () => <PhotoContainer photo_data = {photo_data}/>
     const design = () => <DesignContainer />
     const sports = () => <SportsContainer SportsData = {sports_slider_data} />
     const ane = () => <AEContainer />
-    const spectrum = () => <SpectrumContainer />
+    const spectrum = () => <SpectrumContainer NavItems = {spectrum_data.sections} SliderData = {spectrum_data.image_and_text} />
 
     return (
       <ThemeProvider theme={Theme}>

@@ -2,63 +2,54 @@ import React, {Component} from 'react';
 import styled from 'styled-components'
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
-import Article from '../components/Article'
-import MobileArticleBox from '../components/MobileArticleBox'
-import ScrollArrow from '../components/ScrollArrow'
+import SpectrumSlide from '../components/SpectrumSlide'
 
 import white_arrow from '../assets/right_arrow.svg'
 import black_arrow from '../assets/left_arrow.svg'
 import filledCircle from '../assets/filledCircle.png'
 import emptyCircle from '../assets/emptyCircle.png'
 
-
-const n = 2
-
 const mobileSize = 992
 
 const ImageContainer = styled.div`
-	width: 80vw;	
-	overflow: hidden;
-	diplay: flex;
-	position: absolute;
-	top: 5vh;
-	left: 10vw;
-`
-const MobileArticleContainer = styled.div`
-	width: 80vw;
-	height: 50vh;
-`
-
-const BoxPanel = styled.div` 
+	width: 100vw;
+	height: 100vh;
 	display: flex;
-	width: 80vw;
+	overflow: hidden;
+	position: relative;
+`
+const BoxPanel = styled.div`
+	display: flex;
+	width: 100vw;
 	transform: translate(${props => props.translateValue}vw);
     transition: transform ease-out 0.45s;
 `
+
 const Arrow = styled.img`
 	width: 2vw;
   	z-index: 1;
   	transform: ${props => props.left ? "rotate(180deg)" : ""};
   	position: absolute;
-  	top: 15vh;
+  	top: 50vh;
   	left: ${props => props.left ? "3vw" : "97vw"};
 `
 
 const CircleContainer = styled.div`
-	width: 100vw;
-	height: 5vh;	
+	width: 100vw;	
+	height: 5vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	position: absolute;
-	top: 30vh;
+	top: 85vh;
 `
+
 const Circle = styled.img`
 	margin: 10px;
 `
 
-class ImageBoxSlider extends Component {
+class SpectrumLayout extends Component {
 
 	constructor() {
 	    super()
@@ -102,7 +93,7 @@ class ImageBoxSlider extends Component {
 				leftDisabled: true
 			})
 		}
-		if (current_index === Math.floor(this.props.data.length/n)-1){
+		if (current_index === this.props.data.article_box_data.length-2){
 			this.setState({
 				rightDisabled: false
 			})
@@ -119,7 +110,7 @@ class ImageBoxSlider extends Component {
 			box_index: current_index,
 			circle_index: current_circle
 		})
-		if (current_index === Math.floor(this.props.data.length/n)){
+		if (current_index === this.props.data.article_box_data.length-1){
 			this.setState({
 				rightDisabled: true
 			})
@@ -134,7 +125,7 @@ class ImageBoxSlider extends Component {
 	onCircle = (i) => {
 		let leftDisabled = false
 		let rightDisabled = false
-		if (i === Math.floor(this.props.data.length/n)){
+		if (i === this.props.data.article_box_data.length-1){
 		 	rightDisabled = true
 		}
 		else if (i === 0)
@@ -149,75 +140,41 @@ class ImageBoxSlider extends Component {
 	}
 
 	render(){
-		let boxes = this.props.data.map ( (data,i) => 
-			<Article title= {data.title} author={data.author} 
-				onClick = {() => this.props.handleClick(i)} 
-				description={data.description} img_src={data.img_src} key = {i}/>)
 
-		let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
-		let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
-
-		if (this.state.isMobile){
-			boxes = this.props.data.map ( (data,i) => {
-				if (i % 2 === 1)
-					return null
-				let article2 = null
-				if (i !== this.props.data.length-1){
-					let data2 = this.props.data[i+1]
-					article2 = <Article title= {data2.title} author={data2.author} url = {data2.url}
-							description={data2.description} img_src={data2.img_src} />
-				}
-				return (
-					<MobileArticleContainer key = {i}>
-						<Article title= {data.title} author={data.author} url = {data.url}
-							description={data.description} img_src={data.img_src} />
-						{article2}
-					</MobileArticleContainer>
-				)
-			})
-		}
-
-		let circles = this.props.data.map ( (_, i) => {
+		// mobile components
+		let boxes = this.props.data.article_box_data.map ( (data,i) => 
+			<SpectrumSlide title= {data.title} url={data.url} img_src={data.img_src} key = {i}/>
+		)
+		let circles = this.props.data.article_box_data.map ( (_, i) => {
 				if (i===this.state.circle_index)
 					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
-				else if (i<this.props.data.length/n)
+				else 
 					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
-				return null
 			}
 		)
+		let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
+		let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
+		// mobile components-finished
 
 		return (
-		[
+	      [
 	      <MobileAndTablet>
-	        <div style={{position: "relative"}}>
-	        	{leftArrow}
+	        <ImageContainer>
+				{leftArrow}
 				{rightArrow}
-				<ImageContainer>
-					<BoxPanel translateValue = {this.state.box_index*(-80)}>
-						{boxes}		 
-					</BoxPanel>
-				</ImageContainer>
+				<BoxPanel translateValue = {this.state.box_index*(-100)}>
+					{boxes}		
+				</BoxPanel>
 				<CircleContainer> {circles} </CircleContainer> 
-				<ScrollArrow />	
-			</div>
+			</ImageContainer>
 	      </MobileAndTablet>,
 	      
 	      <Desktop>
-			<div style={{position: "relative"}}>
-				{leftArrow}
-				{rightArrow}
-				<ImageContainer>
-					<BoxPanel translateValue = {this.state.box_index*(-80)}>
-						{boxes}		 
-					</BoxPanel>
-				</ImageContainer>
-				<CircleContainer> {circles} </CircleContainer> 	
-				<ScrollArrow />
-			</div>
-		  </Desktop>
-        ]
-		)
+	        
+	      </Desktop>
+	      ]
+	    )
 	}
 }
 
-export default ImageBoxSlider
+export default SpectrumLayout
