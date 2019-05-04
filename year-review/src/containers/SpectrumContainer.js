@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
+import SpectrumLayout from './SpectrumLayout';
 import PageIntro from '../components/PageIntro'
 
 const description = "Most undergraduates will only experience a small sliver of Columbia's history during their time here; current students just lived through a year for the record books. As the University marked the fiftieth anniversary of the 1968 protests that redined its identity, campus was roiled by a new series of student protests."
@@ -12,10 +14,16 @@ class SpectrumContainer extends Component {
       super()
   }
 
-  render() {
+  render() { 
     return (
       <React.Fragment>
-        <PageIntro title="SPECTRUM" description={description} img_src={img_src}/>
+        <div onWheel = {this.handleWheel}>
+          <PageIntro title="SPECTRUM" description={description} img_src={img_src}/>
+          <ScrollingNavBar menuItems={this.props.NavItems}>
+            {this.props.SliderData.map((data, i) => 
+              <SpectrumLayout key={i} data = {this.props.SliderData[i]} />)}
+          </ScrollingNavBar> 
+        </div>
       </React.Fragment>
     );
   }
