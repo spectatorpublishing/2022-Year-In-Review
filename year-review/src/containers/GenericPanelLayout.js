@@ -24,6 +24,8 @@ import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 // 	}
 // 
 
+const mobileSize = 992
+
 const MobileContainer = styled.div`
   width: 100vw;
   height: 100vh;
@@ -35,9 +37,9 @@ const Arrow = styled.img`
       background: ${props => props.src? '#500' : '#555'};
     }
   z-index: 1;
-  position: relative;
-  left: 95vw;
-  bottom: 5vh;
+  position: absloute;
+  right: 95vw;
+  top: 95vh;
 `
 
 const handleClick = () => {
@@ -50,34 +52,54 @@ const handleClick = () => {
 
 let containerStyle = {
 	width: "100vw",
-  height: "100vh" 
+  height: "100vh",
+  postion: "relative",
 }
 
-let LeftSideContainer = styled.div`
-	width: 70%;
-	height: 100%; 
-	float: left;
-`
-
-let RightSideContainer = styled.div`
-	width: 30%;
-	height: 100%;
-	float: right;
-  background-color: grey;
+let TopContainer = styled.div`
+  width: 100vw;
+  height: ${props => props.isMobile? '40vh' : '60vh'};
+  float: top;
   background-image: url(${({img_src}) => img_src});
 `
+
+let BottomContainer = styled.div`
+	width: 100vw;
+	height: ${props => props.isMobile? '60vh' : '40vh'};
+	float: bottom;
+  background-color: ${props => props.theme.indigo};
+`
+
 let ImageBoxSliderContainer = styled.div`
-  margin: 2.5vw;
+
 `
 
 let head_style = {
 	textAlign: 'left',
-	margin: '12vh 2vw 4vh 8vw',
+	padding: '12vh 2vw 4vh 8vw',
+  color: "white",
+  width: "60vw",
 }
 
 let subtitle_style = {
 	textAlign: 'left',
-	margin: '4vh 2vw 4vh 8vw',
+	padding: '4vh 2vw 4vh 8vw',
+  color: "white",
+  width: "60vw",
+}
+
+let mobile_head_style = {
+  textAlign: 'left',
+  padding: '4vh 0vw 2vh 8vw',
+  color: "white",
+  width: "80vw",
+}
+
+let mobile_subtitle_style = {
+  textAlign: 'left',
+  padding: '0vh 0vw 4vh 8vw',
+  color: "white",
+  width: "80vw",
 }
 
 const Link = styled.a`
@@ -105,8 +127,21 @@ export default class GenericPanelLayout extends Component {
   }
 
   state = { 
-      selected: 0
+      selected: 0,
+      isMobile: window.innerWidth <= mobileSize,
   }
+
+  componentWillMount() {
+      window.addEventListener("resize", this.handleWindowSizeChange);
+  }
+
+  componentWillUnmount() {
+      window.removeEventListener("resize", this.handleWindowSizeChange);
+  }
+
+  handleWindowSizeChange = () => {
+      this.setState({ isMobile: window.innerWidth <= mobileSize });
+  };
 
   handleClick(i) {
     this.setState({
@@ -118,24 +153,29 @@ export default class GenericPanelLayout extends Component {
     return (
       [
       <MobileAndTablet>
-        <MobileContainer>
-          <ImageBoxSlider data = {this.props.data}/>
-        </MobileContainer>
+        <TopContainer img_src = {this.props.data.img_src} isMobile = {this.state.isMobile} />
+
+        <BottomContainer isMobile = {this.state.isMobile}>
+          <h3 style = {mobile_head_style}>{this.props.data.title}</h3>
+          
+          <ImageBoxSliderContainer>
+            <ImageBoxSlider data = {this.props.data.article_box_data} handleClick = {this.handleClick} selected = {this.state.selected}/>
+          </ImageBoxSliderContainer>
+          <Arrow src={scrollArrow} onClick = {handleClick}/>
+        </BottomContainer>
       </MobileAndTablet>,
       
       <Desktop>
       <div style={containerStyle}>
-        <LeftSideContainer>
-          <Link href={this.props.data[this.state.selected].url}>
-        	  <h3 style = {head_style}>{this.props.data[this.state.selected].title}</h3>
-        	  <p style = {subtitle_style}>{this.props.data[this.state.selected].description}</p>
-          </Link>
-          <ImageBoxSliderContainer>
-            <ImageBoxSlider data = {this.props.data} handleClick = {this.handleClick} selected = {this.state.selected}/>
-          </ImageBoxSliderContainer>
-        </LeftSideContainer>
-        <RightSideContainer img_src = {this.props.data[this.state.selected].img_src}/>
-        <Arrow src={scrollArrow} onClick = {handleClick}/>
+        <TopContainer img_src = {this.props.data.img_src}>
+            <h3 style = {head_style}>{this.props.data.title}</h3>
+            <p style = {subtitle_style}>{this.props.data.description}</p>
+        </TopContainer>
+
+        <BottomContainer>
+            <ImageBoxSlider data = {this.props.data.article_box_data} handleClick = {this.handleClick} selected = {this.state.selected}/>
+            <Arrow src={scrollArrow} onClick = {handleClick}/>
+        </BottomContainer>
       </div>
       </Desktop>
       ]

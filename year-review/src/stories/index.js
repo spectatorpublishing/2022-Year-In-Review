@@ -27,43 +27,49 @@ const test_wide_pic = "https://picsum.photos/1450/800"
 
 // Data for imageSlider
 const image_slider_data = 
-[
-	{
-		title: "Title1",
-		author: "Author1",
-		description: "something valuable",
-		url: test_url,
-		img_src: test_wide_pic
-	},
-	{
-		title: "Title2",
-		author: "Author2",
-		description: "something valuable",
-		url: test_url,
-		img_src: test_wide_pic
-	},
-	{
-		title: "Title3",
-		author: "Author3",
-		description: "something valuable",
-		url: test_url,
-		img_src: test_img
-	},
-	{
-		title: "Title4",
-		author: "Author4",
-		description: "something valuable",
-		url: test_url,
-		img_src: test_img
-	},
-	{
-		title: "Title5",
-		author: "Author5",
-		description: "something valuable",
-		url: test_url,
-		img_src: test_img
-	},
-]
+{
+	title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+	description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
+	img_src: test_img2,
+	article_box_data: 
+	[
+		{
+			title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+			description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
+			author: "Author 1",
+			url: test_url,
+			img_src: test_img2
+		},
+		{
+			title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of colortitle: Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+			description: "After Columbia University College Republicans invited white nationalist speakers Mike Cernovich and Tommy Robinson to campus, hundreds of students reacted with outrage and organized protests, rallies, and marches against the speakers",
+			author: "Author 2",
+			url: test_url,
+			img_src: test_img
+		},
+		{
+			title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+			description: "Author3",
+			author: "Author 3",
+			url: test_url,
+			img_src: test_img
+		},
+		{
+			title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+			description: "Author4",
+			author: "Author 4",
+			url: test_url,
+			img_src: test_img
+		},
+		{
+			title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+			description: "Author5",
+			author: "Author 5",
+			url: test_url,
+			img_src: test_img
+		},
+	],
+}
 
 const flip_data = [
 {

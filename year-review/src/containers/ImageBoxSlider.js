@@ -9,64 +9,84 @@ import black_arrow from '../assets/left_arrow.svg'
 import filledCircle from '../assets/filledCircle.png'
 import emptyCircle from '../assets/emptyCircle.png'
 
-const number = 3
+const number = 2
 
 const mobileSize = 992
 
 const ImageContainer = styled.div`
-	width: 60vw;	
-	display: flex;
+	width: 80vw;	
 	overflow: hidden;
-`
-const MobileContainer = styled.div`
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({img_src}) => img_src});
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	overflow: hidden;
+	diplay: flex;
 	position: relative;
+	left: 10vw;
 `
+
 const BoxPanel = styled.div` 
 	display: flex;
-	width: ${props => props.isMobile ? 100 : 57}vw;
+	width: 80vw;
 	transform: translate(${props => props.translateValue}vw);
     transition: transform ease-out 0.45s;
 `
 const Arrow = styled.img`
-	width: 20px;
+	width: 2vw;
   	z-index: 1;
-  	outline: none;
-  	transform: ${props => props.right ? "rotate(180deg)" : ""};
+  	transform: ${props => props.left ? "rotate(180deg)" : ""};
+  	position: absolute;
+  	left: ${props => props.left ? "3vw" : "97vw"};
+	top: 90%;
 `
 
-const LeftArrow = styled.img`
-	transform: rotate(180deg);
-	width: 5vw;
-	z-index: 1;
-	position: absolute;
-	top: 52.5vh;
-	left: 5vw;
-`
-const RightArrow = styled.img`
-	width: 5vw;
-	z-index: 1;
-	position: absolute;
-	top: 52.5vh;
-	right: 5vw;
-`
 const CircleContainer = styled.div`
-	width: ${props => props.isMobile ? 100 : 60}vw;
+	width: 100vw;
 	height: 5vh;	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	position: absolute;
-	bottom: 5vh;
+	top: 80%;
 `
 const Circle = styled.img`
 	margin: 10px;
 `
+
+// const Arrow = styled.img`
+//   width: 2vw;
+//   &:hover {
+//       background: ${props => props.src? '#500' : '#555'};
+//     }
+//   z-index: 1;
+//   position: absloute;
+//   right: 95vw;
+//   top: 95vh;
+// `
+
+const MobileContainer = styled.div`
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({img_src}) => img_src});
+	width: 100vw;
+	height: 40vh;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+`
+
+// const LeftArrow = styled.img`
+// 	transform: rotate(180deg);
+// 	width: 5vw;
+// 	z-index: 1;
+// 	position: absolute;
+// 	top: 52.5vh;
+// 	left: 5vw;
+// `
+// const RightArrow = styled.img`
+// 	width: 5vw;
+// 	z-index: 1;
+// 	position: absolute;
+// 	top: 52.5vh;
+// 	right: 5vw;
+// `
+
+
 
 class ImageBoxSlider extends Component {
 
@@ -186,20 +206,21 @@ class ImageBoxSlider extends Component {
 		// let leftArrow =  <Arrow /> 
 		// let rightArrow = <Arrow /> 
 		// if (!this.state.leftDisabled)
-			let leftArrow = <Arrow src={black_arrow} onClick={this.onLeft}/> 
+			let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
 		// if (!this.state.rightDisabled)
-			let rightArrow = <Arrow src={black_arrow} onClick={this.onRight} right/> 
+			let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
 
-		if (this.state.isMobile){
-			n = 1
-			boxes = this.props.data.map ( (data,i) => 
-				<MobileArticleBox description={data.description}  left = {i*100}
-			 	title= {data.title} author={data.author} url={data.url} key = {i}/>)
-			// if (!this.state.leftDisabled)
-				leftArrow = <LeftArrow src={white_arrow} onClick={this.onLeft}/> 
-			// if (!this.state.rightDisabled)
-				rightArrow = <RightArrow src={white_arrow} onClick={this.onRight}/> 
-		}
+		// if (this.state.isMobile){
+		// 	n = 1
+		// 	boxes = this.props.data.map ( (data,i) => 
+		// 		<MobileArticleBox description={data.description}  left = {i*100}
+		// 	 	title= {data.title} author={data.author} url={data.url} key = {i}/>)
+			
+		// 	// if (!this.state.leftDisabled)
+		// 		leftArrow = <LeftArrow src={white_arrow} onClick={this.onLeft}/> 
+		// 	// if (!this.state.rightDisabled)
+		// 		rightArrow = <RightArrow src={white_arrow} onClick={this.onRight}/> 
+		// }
 
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)
@@ -214,22 +235,7 @@ class ImageBoxSlider extends Component {
 		[
 	      <MobileAndTablet>
 	        <div >
-	        	<MobileContainer img_src = {this.props.data[this.state.box_index].img_src}>
-					<BoxPanel translateValue = {this.state.box_index*(-100)}>
-						{boxes}		
-					</BoxPanel>
-					{leftArrow}
-					{rightArrow}
-					<CircleContainer isMobile> {circles} </CircleContainer> 
-				</MobileContainer>
-				
-				
-			</div>
-	      </MobileAndTablet>,
-	      
-	      <Desktop>
-			<div>
-				<ImageContainer>
+	        	<ImageContainer>
 					{leftArrow}
 					<BoxPanel translateValue = {this.state.box_index*(-19)}>
 						{boxes}		
@@ -237,6 +243,23 @@ class ImageBoxSlider extends Component {
 					{rightArrow}
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 
+				
+				
+			</div>
+	      </MobileAndTablet>,
+	      
+	      <Desktop>
+			<div style={{position: "relative"}}>
+				{leftArrow}
+				<ImageContainer>
+					
+					<BoxPanel translateValue = {this.state.box_index*(-40)}>
+						{boxes}		
+					</BoxPanel>
+					
+					<CircleContainer> {circles} </CircleContainer> 
+				</ImageContainer>
+				{rightArrow}
 			</div>
 		  </Desktop>
         ]
