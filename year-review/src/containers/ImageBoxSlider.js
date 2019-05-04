@@ -4,10 +4,13 @@ import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 import Article from '../components/Article'
 import MobileArticleBox from '../components/MobileArticleBox'
+import ScrollArrow from '../components/ScrollArrow'
+
 import white_arrow from '../assets/right_arrow.svg'
 import black_arrow from '../assets/left_arrow.svg'
 import filledCircle from '../assets/filledCircle.png'
 import emptyCircle from '../assets/emptyCircle.png'
+
 
 const number = 2
 
@@ -17,7 +20,8 @@ const ImageContainer = styled.div`
 	width: 80vw;	
 	overflow: hidden;
 	diplay: flex;
-	position: relative;
+	position: absolute;
+	top: 10vh;
 	left: 10vw;
 `
 
@@ -32,8 +36,8 @@ const Arrow = styled.img`
   	z-index: 1;
   	transform: ${props => props.left ? "rotate(180deg)" : ""};
   	position: absolute;
+  	top: 10vh;
   	left: ${props => props.left ? "3vw" : "97vw"};
-	top: 90%;
 `
 
 const CircleContainer = styled.div`
@@ -44,7 +48,7 @@ const CircleContainer = styled.div`
 	align-items: center;
 	text-align: center;
 	position: absolute;
-	top: 80%;
+	top: 30vh;
 `
 const Circle = styled.img`
 	margin: 10px;
@@ -225,7 +229,7 @@ class ImageBoxSlider extends Component {
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)
 					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
-				else if (i<this.props.data.length-n+1)
+				else if (i<this.props.data.length/n)
 					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
 				return
 			}
@@ -234,16 +238,15 @@ class ImageBoxSlider extends Component {
 		return (
 		[
 	      <MobileAndTablet>
-	        <div >
-	        	<ImageContainer>
-					{leftArrow}
-					<BoxPanel translateValue = {this.state.box_index*(-19)}>
-						{boxes}		
+	        <div style={{position: "relative"}}>
+	        	{leftArrow}
+				{rightArrow}
+				<ImageContainer>
+					<BoxPanel translateValue = {this.state.box_index*(-80)}>
+						{boxes}		 
 					</BoxPanel>
-					{rightArrow}
 				</ImageContainer>
-				<CircleContainer> {circles} </CircleContainer> 
-				
+				<CircleContainer> {circles} </CircleContainer> 	
 				
 			</div>
 	      </MobileAndTablet>,
@@ -251,15 +254,14 @@ class ImageBoxSlider extends Component {
 	      <Desktop>
 			<div style={{position: "relative"}}>
 				{leftArrow}
-				<ImageContainer>
-					
-					<BoxPanel translateValue = {this.state.box_index*(-40)}>
-						{boxes}		
-					</BoxPanel>
-					
-					<CircleContainer> {circles} </CircleContainer> 
-				</ImageContainer>
 				{rightArrow}
+				<ImageContainer>
+					<BoxPanel translateValue = {this.state.box_index*(-80)}>
+						{boxes}		 
+					</BoxPanel>
+				</ImageContainer>
+				<CircleContainer> {circles} </CircleContainer> 	
+				<ScrollArrow />
 			</div>
 		  </Desktop>
         ]

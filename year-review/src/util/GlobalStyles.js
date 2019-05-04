@@ -67,6 +67,7 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 300;
     font-style: italic;
     scroll-behavior: smooth;
+    background: #222430;
   }
   body,
   button {
@@ -77,43 +78,57 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Branding', sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 6rem;
-    letter-spacing: .2rem;
+    font-size: 8rem;
+    letter-spacing: .3rem;
     margin: 0;
+    @media only screen and (max-width: 767px) {
+      font-size: 4rem;
+    }
   }
   h2 {
     font-family: 'Branding', sans-serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 3rem;
+    font-size: 5rem;
+    letter-spacing: .2rem;
     margin: 0;
+    @media only screen and (max-width: 767px) {
+      font-size: 3rem;
+    }
   }
   h3 {
     font-family: 'Branding', sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 3rem;
+    letter-spacing: .2rem;
     margin: 0;
+    @media only screen and (max-width: 767px) {
+      font-size: 2rem;
+    }
   }
   h4 {
     font-family: 'Branding', sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 0;
+    @media only screen and (max-width: 767px) {
+      font-size: 1.5rem;
+    }
   }
   h5 {
     font-family: 'Branding', sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0;
   }
   h6 {
     font-family: 'Branding', sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0;
   }
   p {

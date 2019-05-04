@@ -14,6 +14,7 @@ import HomePage from '../components/HomePage.js';
 import ExpandingColumns from '../components/ExpandingColumns';
 import Footer from '../components/Footer.js';
 import FooterHome from '../components/FooterHome.js';
+import SpectrumSlider from '../components/SpectrumSlider.js';
 
 // Data for testing
 
@@ -130,6 +131,9 @@ storiesOf('HomePage', module).add('HomePage',() => <HomePage img_src={test_wide_
 
 // Test ExpandingColumns
 // storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
+
+// Test Generic Panel Layout
+storiesOf('Spectrum', module).add("ArticleSlider",() => <SpectrumSlider data = {opinion_data}/>)
 
 // Test Footer
 storiesOf('Footer', module).add("Footer",() => <Footer />)

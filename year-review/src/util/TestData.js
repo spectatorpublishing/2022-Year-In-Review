@@ -1,5 +1,5 @@
 export const test_img = "https://placekitten.com/301/301"
-export const test_img2 = "https://placekitten.com/300/400"
+export const test_img2 = "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"
 export const test_url = "http://cs.columbia.edu"
 const test_wide_pic = "https://picsum.photos/1500/800"
 

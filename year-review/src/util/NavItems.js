@@ -32,3 +32,12 @@ export const NavItems = [
     "link": "/spectrum"
   },
 ];
+
+const Home = [
+  {
+    "name": "Year In Review",
+    "link": "/"
+  }
+];
+
+export const NavItemsWithHome = Home.concat(NavItems);

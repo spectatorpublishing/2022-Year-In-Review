@@ -33,9 +33,6 @@ const MobileContainer = styled.div`
 
 const Arrow = styled.img`
   width: 2vw;
-  &:hover {
-      background: ${props => props.src? '#500' : '#555'};
-    }
   z-index: 1;
   position: absloute;
   right: 95vw;
@@ -70,9 +67,9 @@ let BottomContainer = styled.div`
   background-color: ${props => props.theme.indigo};
 `
 
-let ImageBoxSliderContainer = styled.div`
+// let ImageBoxSliderContainer = styled.div`
 
-`
+// `
 
 let head_style = {
 	textAlign: 'left',
@@ -157,11 +154,7 @@ export default class GenericPanelLayout extends Component {
 
         <BottomContainer isMobile = {this.state.isMobile}>
           <h3 style = {mobile_head_style}>{this.props.data.title}</h3>
-          
-          <ImageBoxSliderContainer>
-            <ImageBoxSlider data = {this.props.data.article_box_data} handleClick = {this.handleClick} selected = {this.state.selected}/>
-          </ImageBoxSliderContainer>
-          <Arrow src={scrollArrow} onClick = {handleClick}/>
+          <ImageBoxSlider data = {this.props.data.article_box_data} handleClick = {this.handleClick} selected = {this.state.selected}/>
         </BottomContainer>
       </MobileAndTablet>,
       
@@ -174,7 +167,6 @@ export default class GenericPanelLayout extends Component {
 
         <BottomContainer>
             <ImageBoxSlider data = {this.props.data.article_box_data} handleClick = {this.handleClick} selected = {this.state.selected}/>
-            <Arrow src={scrollArrow} onClick = {handleClick}/>
         </BottomContainer>
       </div>
       </Desktop>

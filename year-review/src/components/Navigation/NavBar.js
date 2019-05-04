@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { withRouter } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
 import styled from 'styled-components';
+import Crown from '../../assets/Crown.js';
 
 let NavContainer = styled.div `
   background-color: ${props => props.theme.black};
@@ -19,18 +20,20 @@ let NavContainer = styled.div `
   `}
 `
 
+let TransparentContainer = styled(NavContainer)`
+  background-color: transparent;
+  position: absolute;
+  z-index: 19;
+`
+
 let LogoContainer = styled.div`
   width: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 `
 
 let MenuContainer = styled.div`
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-right: vw;
   width: 70%;
 `
 
@@ -41,28 +44,61 @@ let MenuRow = styled.div`
   justify-content: space-between;
 `
 
+let MenuBtn = styled.input`
+  display: none;
+`
+
+let MenuColumn = styled.div`
+  align-items: center;
+  background-color: ${props => props.transparent ? (props.theme.indigo) : props.theme.black};
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  position: absolute;
+  transform: ${props => !props.transparent && `translateY(calc(48px - 1px))`};
+  right: 0;
+  transition: width 0.2s ease-out;
+  z-index: 20;
+
+  ${MenuBtn}:checked ~ & {
+    width: 50vw;
+    height: ${props => props.transparent ? `calc(100vh - 4rem)` : `calc(100vh - 48px - 4rem)`};
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+`
+
 let MenuLink = styled(NavLink)`
   color: ${props => props.theme.white};
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 
-    :hover {
-      color: ${props => props.theme.blue};
-    }
-
-    :focus {
-      color: ${props => props.theme.blue};
-    }
-
-    &.navLinkActive {
-      color: ${props => props.theme.blue};
-    }
-
-  ${({ mobile }) => !!mobile && `
+  ${({ mobile }) => mobile && `
     border: none;
-    margin: 4vh 0 0 0;
+    opacity: 0;
+    transition: opacity 0s;
   `}
+
+  ${MenuBtn}:checked ~ ${MenuColumn} & {
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
+  }
+
+  :hover {
+    color: ${props => props.theme.blue};
+  }
+
+  :focus {
+    color: ${props => props.theme.blue};
+  }
+
+  &.navLinkActive {
+    color: ${props => props.theme.blue};
+  }
 `
 
 let MenuScrollLink = styled(NavHashLink)`
@@ -72,6 +108,18 @@ let MenuScrollLink = styled(NavHashLink)`
   text-decoration: none;
   text-transform: uppercase;
 
+  ${({ mobile }) => mobile && `
+    border: none;
+    margin: 4vh 0 0 0;
+    opacity: 0;
+    transition: opacity 0s;
+  `}
+
+  ${MenuBtn}:checked ~ ${MenuColumn} & {
+    opacity: 1;
+    transition: width 0.2s ease-out;
+  }
+
   :hover {
     color: ${props => props.theme.blue};
   }
@@ -79,40 +127,11 @@ let MenuScrollLink = styled(NavHashLink)`
   &.navLinkActive {
     color: ${props => props.theme.blue};
   }
-
-  ${({ mobile }) => !!mobile && `
-    border: none;
-    margin: 4vh 0 0 0;
-  `}
 `
 
 let NavBuffer = styled.div`
   height: 48px;
   width: 100%;
-`
-
-let MenuColumn = styled.div`
-  align-items: center;
-  background-color: ${props => props.theme.black};
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 0;
-  overflow: hidden;
-  position: absolute;
-  transform: translateY(calc(48px - 1px));
-  right: 0;
-  transition: width 0.2s ease-out;
-  z-index: 1;
-`
-
-let MenuBtn = styled.input`
-  display: none;
-
-  &:checked ~ ${MenuColumn} {
-    width: 50vw;
-    height: calc(100vh - 48px)
-  }
 `
 
 let MenuIcon = styled.label`
@@ -122,6 +141,7 @@ let MenuIcon = styled.label`
   width: 10%;
   margin-left: auto;
   user-select: none;
+  z-index: 21;
 `
 
 let NavIcon = styled.span`
@@ -171,12 +191,27 @@ let NavIcon = styled.span`
   }
 `
 
-let DesktopItem = styled.h4`
+let DesktopItem = styled.h5`
   color: inherit;
 `
 
 let MobileItem = styled.h3`
   color: inherit;
+  text-shadow: ${props => props.theme.shadow};
+`
+
+let CrownWrapper = styled.a`
+  width: 20%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  ${props => !props.scrolling &&
+    `top: 0;
+    left: 0;`
+  }
+  z-index: 22;
 `
 
 
@@ -209,7 +244,9 @@ class NavBar extends Component {
   }
 
   handleCheckboxChange(e) {
+    console.log("handleCheckboxChange()");
     this.setState({ checkedForMobile: e.target.checked });
+    console.log(this.state.checkedForMobile);
   }
 
   forceClose() {
@@ -221,7 +258,13 @@ class NavBar extends Component {
   }
 
   getActiveSection(section) {
-    return this.props.history.location.hash.slice(1) === section;
+    return this.props.location.hash.slice(1) === section;
+  }
+  
+  updateTitle(match, name) {
+    if (match) {
+      document.title = name + " | 2018-19 Year In Review";
+    }
   }
 
   getMenuItems(isMobile, isScrolling) {
@@ -247,6 +290,7 @@ class NavBar extends Component {
         mobile={isMobile ? 1 : 0} // work around for react-router link not playing nice with non-standard attributes
         to={item.link}
         activeClassName={"navLinkActive"}
+        isActive={(match, location) => this.updateTitle(match, item.name)}
         onClick={this.forceClose}
       >
         {isMobile ? <MobileItem>{item.name}</MobileItem> : <DesktopItem>{item.name}</DesktopItem>}
@@ -270,39 +314,49 @@ class NavBar extends Component {
       <React.Fragment>
         <MenuBtn 
           type="checkbox" 
-          id="menu-btn" 
+          id={this.props.isScrolling ? "scrolling-menu-btn" : "menu-btn"}
+          data-checked={this.state.checkedForMobile}
           checked={this.state.checkedForMobile}
           onChange={this.handleCheckboxChange}
+          transparent={this.props.transparent}
         />
-        <MenuIcon htmlFor="menu-btn">
+        <MenuIcon htmlFor={this.props.isScrolling ? "scrolling-menu-btn" : "menu-btn"}>
           <NavIcon></NavIcon>
         </MenuIcon>
-        <MenuColumn>
+        <MenuColumn transparent={this.props.transparent}>
           {this.getMenuItems(isMobile, this.props.isScrolling)}
-          <MenuLink
-            key={this.props.menuItems.length}
-            styled={{isMobile}}
-            mobile={isMobile ? 1 : 0} // work around for react-router link not playing nice with non-standard attributes
-            as="a"
-            href="https://www.columbiaspectator.com/"
-            target="_blank"
-            onClick={this.forceClose}
-          >
-            Crown
-          </MenuLink>
         </MenuColumn>
       </React.Fragment>
     );
+
+    const navbar = (
+      <React.Fragment>
+        {!this.props.hideCrown && (
+        <LogoContainer>
+          <CrownWrapper 
+            href="https://www.columbiaspectator.com/" 
+            target="_blank"
+            scrolling={""+(this.props.isScrolling || !this.props.hideCrown)}
+          >
+            <Crown />
+          </CrownWrapper>
+        </LogoContainer>
+        )}
+        {isMobile ? mobileMenu : (!this.props.transparent && desktopMenu) }
+      </React.Fragment>
+    );
+
     return (
       <div>
+        {this.props.transparent ?
+        <TransparentContainer fixed={this.props.fixed}>
+          {navbar}
+        </TransparentContainer>
+        :
         <NavContainer fixed={this.props.fixed}>
-          <LogoContainer>
-            <Link to="/">
-              Crown
-            </Link>
-          </LogoContainer>
-          {isMobile ? mobileMenu : desktopMenu}
+          {navbar}
         </NavContainer>
+        }
         {this.props.fixed && <NavBuffer></NavBuffer>}
       </div>
     );
