@@ -12,7 +12,7 @@ const Title = styled.h5`
     font-size: 1.2rem;
     padding: 5px;
     @media (max-width: 991px){
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 `
 
@@ -25,7 +25,7 @@ const Container = styled.div`
 
     @media (max-width: 991px) {
         width: 75vw;
-        height: 22vh;
+        height: 17vh;
     }
 
 `
