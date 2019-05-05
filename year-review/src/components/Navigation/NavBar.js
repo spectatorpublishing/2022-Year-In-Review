@@ -310,7 +310,7 @@ class NavBar extends Component {
       </React.Fragment>
     );
 
-    const mobileText = this.props.fixed? <h3 style={{color: "white"}}> {this.props.location.hash.slice(1)} </h3>:null
+    const mobileText = this.props.fixed? <h4 style={{color: "white"}}> {this.props.location.hash.slice(1)} </h4>:null
     const mobileMenu = (
       <React.Fragment>
         {mobileText}

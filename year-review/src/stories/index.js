@@ -76,11 +76,12 @@ const image_slider_data =
 const flip_data = [
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
-	author: "Ben1",
+	author: "Ben James",
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
 },
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
@@ -88,7 +89,8 @@ const flip_data = [
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
 },
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
@@ -96,7 +98,8 @@ const flip_data = [
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
 },
 ]
 
@@ -131,7 +134,7 @@ storiesOf('HomePage', module).add('HomePage',() => <HomePage img_src={test_wide_
 // storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
 
 // Test Generic Panel Layout
-storiesOf('Spectrum', module).add("ArticleSlider",() => <SpectrumSlider data = {opinion_data}/>)
+storiesOf('Spectrum', module).add("ArticleSlider",() => <SpectrumSlider data = {image_slider_data}/>)
 
 let ArticleData = [
 	"Why does my cat love this fucking box",
