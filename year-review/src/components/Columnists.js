@@ -1,15 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-import { MobileAndTablet, Desktop } from 'react-responsive-simple';
+import { Mobile, ResponsiveComponent } from 'react-responsive-simple';
+import read_more from '../assets/ReadMoreWhite.svg'
+
 
 const Flipcard = styled.div`
-  @media only screen and (max-width: 991px){
+  @media only screen and (max-width: 767px){
     width: 50vw;
     height: 50vw;
 
   }
 
-  @media only screen and (min-width:992px){
+  @media only screen and (min-width: 768px){
     width: 25vw;
     height: 25vw; 
     perspective: 1000px;
@@ -57,17 +59,17 @@ const Back = styled.div`
 
 const FrontAuthor = styled.h1`
   text-align: left;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 140px;
-  font-size: 40px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 13vw;
+  font-size: 4vw;
   color: white;
 
-  @media only screen and (max-width: 991px){
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 100px;
-    font-size: 30px;
+  @media only screen and (max-width: 767px){
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 25vw;
+    font-size: 9vw;
   }
   
 `;
@@ -77,17 +79,17 @@ const Title = styled.h4`
   text-align: left;
   color: white;
 
-  @media only screen and (min-width:992px){
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 5px;
+  @media only screen and (min-width: 768px){
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 3vw;
+
   }
 
-  @media only screen and (max-width: 991px){
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 10px;
-    font-size: 40px;
+  @media only screen and (max-width: 767px){
+    margin-left: 8vw;
+    margin-right: 8vw;
+    font-size: 8vw;
   }
 
  
@@ -96,8 +98,8 @@ const Title = styled.h4`
 const Header = styled.div`
   text-align: left;
   font-size: small;
-  margin-right: 20px;
-  margin-top: 20px;
+  margin-right: 2vw;
+  margin-top: 2vw;
   display: flex;
   color: white;
 `;
@@ -106,33 +108,29 @@ const Body = styled.div`
   text-align: left;
   color: white;
 
-  @media only screen and (min-width:992px){
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  @media only screen and (min-width: 768px){
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
   }
 
-  @media only screen and (max-width: 991px){
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 20px;
+  @media only screen and (max-width: 767px){
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    font-size: 5vw;
   }
 
 `;
 
 const Section = styled.h5`
-  @media only screen and (min-width:992px){
-    font-size: small;
-  }
-
   color: white;
+  font-size: small;
 
-  @media only screen and (max-width: 991px){
-    margin-top: 30px;
-    font-size: 20px;
+  @media only screen and (max-width: 767px){
+    margin-top: 10vw;
   }
 
 `;
@@ -140,16 +138,15 @@ const Section = styled.h5`
 const Author = styled.h5`
   padding-right: 5px;
   color: white;
+  font-size: small;
   
-  @media only screen and (min-width:992px){
-    margin-left: 20px;
-    font-size: small;
+  @media only screen and (min-width: 768px){
+    margin-left: 2vw;
   }
 
-  @media only screen and (max-width: 991px){
-    margin-top: 30px;
-    font-size: 20px;
-    margin-left: 30px;
+  @media only screen and (max-width: 767px){
+    margin-top: 10vw;
+    margin-left: 8vw;
   }
 
 `;
@@ -157,19 +154,33 @@ const Author = styled.h5`
 const Grid = styled.div`
     display: grid;
 
-    @media only screen and (min-width:992px){
+    @media only screen and (min-width:768px){
         grid-template-columns: 25% 25% 25% 25%;
         grid-auto-rows: 50%; 
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        grid-column-gap: 0vw;
+        grid-row-gap: 0vw;
     }
 
-    @media only screen and (max-width: 991px){
+    @media only screen and (max-width: 767px){
         grid-template-columns: 50% 50%;
         grid-template-rows: 50vw; 
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        grid-column-gap: 0vw;
+        grid-row-gap: 0vw;
     }
+`;
+
+const Link = styled.a`
+`;
+
+const Logo = styled.img`
+@media only screen and (min-width:768px){
+  left: 50%
+  margin-right: -50%
+}
+
+@media only screen and (max-width: 767px){
+  margin-left: 65vw;
+}
 
 `;
 
@@ -188,7 +199,7 @@ const MobileBack = styled.div`
   opacity: ${({shown}) => shown ? "100" : "0"};
   transition: all .3s ease;
   -webkit-transition: all .3s ease;
-  margin-top: -20px;
+  margin-top: -2vw;
 
 `
 
@@ -207,6 +218,7 @@ const ImageBox = (props) => {
             </Header>
             <Title>{props.data.title}</Title> 
             <Body>{props.data.body}</Body> 
+            <Link href = {props.data.url}><Logo src = {read_more} alt = "readmore"/></Link>
           </Back>
         </Inner>
       </Flipcard>
@@ -275,6 +287,7 @@ export default class Columnists extends React.Component {
           </Header>
           <Title>{data.title}</Title> 
           <Body>{data.body}</Body> 
+          <Link href = {data.url}><Logo src = {read_more} alt = "readmore"/></Link>
         </MobileBack>
 
      
@@ -286,7 +299,8 @@ export default class Columnists extends React.Component {
             <Section>{this.props.data[i+1].section}</Section>
           </Header>
           <Title>{this.props.data[i+1].title}</Title> 
-          <Body>{this.props.data[i+1].body}</Body> 
+          <Body>{this.props.data[i+1].body} </Body> 
+          <Link href = {this.props.data[i+1].url}><Logo src = {read_more} alt = "readmore"/></Link>
         </MobileBack>
 
       return (<div>{grid}{back1}{back2}</div> )
@@ -297,15 +311,15 @@ export default class Columnists extends React.Component {
 
     return (
       [
-        <MobileAndTablet>
+        <Mobile>
           <div>
             {mobile}
           </div>
-        </MobileAndTablet>,
+        </Mobile>,
           
-        <Desktop>
+        <ResponsiveComponent min={768}>
           <Grid>{desktop}</Grid>
-        </Desktop>
+        </ResponsiveComponent>
       ]
     )
   }
