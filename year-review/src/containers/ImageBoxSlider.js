@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import styled from 'styled-components'
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
-import Article from '../components/Article'
+import Article from '../components/ArticleBox'
 import MobileArticleBox from '../components/MobileArticleBox'
 import ScrollArrow from '../components/ScrollArrow'
 
@@ -23,6 +23,9 @@ const ImageContainer = styled.div`
 	position: absolute;
 	top: 5vh;
 	left: 10vw;
+	@media (max-width: 991px){
+        top: 0vh;
+    }
 `
 const MobileArticleContainer = styled.div`
 	width: 80vw;
@@ -53,6 +56,9 @@ const CircleContainer = styled.div`
 	text-align: center;
 	position: absolute;
 	top: 30vh;
+	@media (max-width: 991px){
+        top: 35vh;
+    }
 `
 const Circle = styled.img`
 	margin: 10px;

@@ -15,14 +15,14 @@ const Container = styled.div`
 
 const TopContainer = styled.div`
   width: 100vw;
-  height: ${props => props.isMobile? '40vh' : '60vh'};
+  height: ${props => props.isMobile? '30vh' : '60vh'};
   float: top;
   background-image: url(${({img_src}) => img_src});
 `
 
 const BottomContainer = styled.div`
 	width: 100vw;
-	height: ${props => props.isMobile? '60vh' : '40vh'};
+	height: ${props => props.isMobile? '70vh' : '40vh'};
 	float: bottom;
   background-color: ${props => props.theme.indigo};
 `
@@ -38,6 +38,7 @@ const MobileHead = styled.h3`
   padding: 4vh 0vw 2vh 8vw;
   color: white;
   width: 80vw;
+  text-size: 10px;
 `
 
 const Subtitle = styled.p`

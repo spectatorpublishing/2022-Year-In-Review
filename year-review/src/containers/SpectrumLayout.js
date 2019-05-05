@@ -17,7 +17,7 @@ const ImageContainer = styled.div`
 	height: 100vh;
 	display: flex;
 	overflow: hidden;
-	position: relative;
+	position: relati ve;
 `
 const BoxPanel = styled.div`
 	display: flex;
@@ -52,6 +52,7 @@ const Circle = styled.img`
 
 const SpectrumWrapper = styled.div`
 	witdth: 100vw;
+  height: 100vh;
 `;
 
 class SpectrumLayout extends Component {
@@ -163,11 +164,12 @@ class SpectrumLayout extends Component {
 		
 		let articles = this.props.data.article_box_data.map ( (data,i) => {
 			return(
-			<div>
+			<SpectrumWrapper>
 				<h3>title={this.props.title}</h3>
 				<p>description={this.props.description}</p>
 				<SpectrumSlider title= {data.title} url={data.url} img_src={data.img_src} key = {i}/>	
-			</div>)
+			</SpectrumWrapper>
+      )
 			}
 		)
 		
@@ -187,11 +189,7 @@ class SpectrumLayout extends Component {
 	      </MobileAndTablet>,
 	      
 	      <Desktop>
-			<SpectrumWrapper>
-	        <SpectrumSlider>
-				{articles}
-			</SpectrumSlider>
-			</SpectrumWrapper>
+				    {articles}
 	      </Desktop>
 	      ]
 	    )
