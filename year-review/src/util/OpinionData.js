@@ -1,5 +1,5 @@
 // Data for Expanding Columns
-export const opinion_data = [
+export const opinion_sections = [
 	{
 		img_src: "https://images.unsplash.com/photo-1466129646777-494b376a670c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
 		name: "Op-Eds",

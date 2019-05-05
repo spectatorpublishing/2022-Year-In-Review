@@ -4,7 +4,33 @@ export const test_img = "https://images.unsplash.com/photo-1517732306149-e8f829e
 export const test_url = "http://cs.columbia.edu"
 const test_wide_pic = "https://picsum.photos/1500/800"
 
-//Data for Photo Essay Box
+export const opinion_data = [
+{
+	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
+	author: "Ben1",
+	section: "| YOU HAVE MY WORD",
+	back_image: "https://placekitten.com/301/301",
+	title: "Disconnected from death",
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+},
+{
+	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
+	author: "Ben2",
+	section: "| YOU HAVE MY WORD",
+	back_image: "https://placekitten.com/301/301",
+	title: "Disconnected from death",
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+},
+{
+	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
+	author: "Ben3",
+	section: "| YOU HAVE MY WORD",
+	back_image: "https://placekitten.com/301/301",
+	title: "Disconnected from death",
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+},
+]
+
 export const photo_data = [
 	{
 		title: "Observing Affection",
@@ -24,7 +50,7 @@ export const photo_data = [
 	}
 ]
 
-export const opinion_data = [
+export const opinion_sections = [
 	{
 		img_src: test_img2,
 		title: "Op-ED",
