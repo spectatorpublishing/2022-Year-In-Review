@@ -1,5 +1,45 @@
 const data = {
+    
     "News": {
+        sections: 
+        [
+          {
+            "name": " CITY REPORTING",
+            "link": "#CITY REPORTING"
+          },
+          {
+            "name": " ACADEMICS REPORTING",
+            "link": "#ACADEMICS REPORTING"
+          },
+          {
+            "name": " STUDENT LIFE REPORTING",
+            "link": "#STUDENT LIFE REPORTING"
+          },
+          {
+            "name": " BEST ESSAYS1",
+            "link": "#BEST ESSAYS1"
+          },
+          {
+            "name": " CITY REPORTING2",
+            "link": "#CITY REPORTING2"
+          },
+          {
+            "name": " ACADEMICS REPORTING3",
+            "link": "#ACADEMICS REPORTING3"
+          },
+          {
+            "name": " STUDENT LIFE REPORTING4",
+            "link": "#STUDENT LIFE REPORTING4"
+          },
+          {
+            "name": " CITY REPORTING5",
+            "link": "#CITY REPORTING5"
+          },
+          {
+            "name": " ACADEMICS REPORTING6",
+            "link": "#ACADEMICS REPORTING6"
+          }
+        ],
         "blurb": "From faculty sexual misconduct to administrative shifts within the School of General Studies, Spectator’s news team has compiled coverage of some of the top storylines that have driven student, faculty, and administrative discourse on campus. Below, find some of the most talked-about and top investigative stories from the past year:",
         "items": [
             {
