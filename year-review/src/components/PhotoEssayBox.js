@@ -53,10 +53,9 @@ class PhotoEssayBox extends Component{
     render(){
         const grid = this.props.data.map((data, i) => {
 			return (
-                <Box to={data.link} onClick = {() => this.handleClick(data.link)}>
+                <Box to={data.link} onClick = {() => window.open(data.link, "_self")}>
                     <Text>{data.title}</Text>
 	    		</Box>
-	    		
     		)
 		});
 
