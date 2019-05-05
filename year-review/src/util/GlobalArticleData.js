@@ -419,6 +419,160 @@ const data = {
                 "link": "https://www.columbiaspectator.com/spectrum/2019/04/12/five-questions-to-ask-yourself-before-coming-to-columbia/"
             }]
         }]
+    },
+    "Opinion": {
+        "blurb": "Within the opinion pages of Spectator, members of the Columbia community help reflect the conversations we’re having in our classrooms, dorm rooms, clubs, and dining halls. The content within this section is meant to help contextualize our experiences here as they relate to the most pressing and vulnerable topics our community grapples with.",
+        "items": [{
+            "name": "OP-EDS",
+            "img": "",
+            "blurb": "Over the past year, we have heard from you on issues ranging from union bargaining, studying abroad, the college admissions scandal, to the #MeToo movement, study spaces on campus, and more. Whether it be protesting Barnard’s dining hall food providers or engaging in discourse on the Core, the Op Eds section is where your voice is heard. ",
+            "articles": [{
+                "title": "GenderFuck and the defense of trans joy",
+                "author": "Mo Crist",
+                "link": "https://www.columbiaspectator.com/opinion/2018/11/09/genderfuck-and-the-defense-of-trans-joy/"
+            }, 
+            {
+                "title": "A minority abroad",
+                "author": "Toqa Badran",
+                "link": "https://www.columbiaspectator.com/opinion/2018/12/10/a-minority-abroad/"
+            },
+            {
+                "title": "Ponte las pilas",
+                "author": "Milagro Chavez-Cisneros",
+                "link": "https://www.columbiaspectator.com/opinion/2019/04/11/ponte-las-pilas/"
+            }, 
+            {
+                "title": "Stop exploiting my narrative ",
+                "author": "Cat Marie Sposato",
+                "link": "https://www.columbiaspectator.com/opinion/2018/09/21/stop-exploiting-my-narrative/"
+            }, 
+            {
+                "title": "Sexual Respect in the #MeToo landscape ",
+                "author": "Suzanne Goldberg",
+                "link": "https://www.columbiaspectator.com/opinion/2018/09/26/sexual-respect-in-the-metoo-landscape/"
+            }, 
+            {
+                "title": "Barnard Dining misses the (Ara) Mark",
+                "author": "Barnard No Aramark",
+                "link": "https://www.columbiaspectator.com/opinion/2018/11/13/barnard-dining-misses-the-aramark/"
+            }, 
+            {
+                "title": "When institutions fail: Doing more for undocumented students",
+                "author": "Dafne Murillo and Ximena Ospina Vargas",
+                "link": "https://www.columbiaspectator.com/opinion/2018/12/05/when-institutions-fail-doing-more-for-undocumented-students-3/"
+            }, 
+            {
+                "title": "No Space for Hate",
+                "author": "Kwolanne Felix",
+                "link": "https://www.columbiaspectator.com/opinion/2019/03/07/no-space-for-hate/"
+            }, 
+            {
+                "title": "Holding science accountable for upholding white supremacy",
+                "author": "Madeleine Leibovitch",
+                "link": "https://www.columbiaspectator.com/opinion/2018/12/12/holding-science-accountable-for-upholding-white-supremacy/"
+            }, 
+            {
+                "title": "Why we teach Toni Morrison in January ",
+                "author": "Sarah Arkebauer and Rosa Schneider",
+                "link": "https://www.columbiaspectator.com/opinion/2019/02/12/why-we-teach-toni-morrison-in-january/"
+            }, 
+            {
+                "title": "Justice at the Core ",
+                "author": "Tommy Song",
+                "link": "https://www.columbiaspectator.com/opinion/2019/01/28/justice-at-the-core/"
+            }, 
+            {
+                "title": "Being bankrupt, barren and broke at Barnard ",
+                "author": "Kaoutar Afif",
+                "link": "https://www.columbiaspectator.com/opinion/2018/09/17/being-bankrupt-barren-and-broke-at-barnard/"
+            }, 
+            {
+                "title": "The Dean and I ",
+                "author": "Arielle Isack",
+                "link": "https://www.columbiaspectator.com/opinion/2018/09/20/the-dean-and-i/"
+            }, 
+            {
+                "title": "Misled, not misinformed",
+                "author": "Cobie-Ray Jonson",
+                "link": "https://www.columbiaspectator.com/opinion/2018/10/09/misled-not-misinformed/"
+            }, 
+            {
+                "title": "It’s time to stop ignoring Muslim needs on campus ",
+                "author": "Zawareen Zakaria",
+                "link": "https://www.columbiaspectator.com/opinion/2018/10/05/its-time-to-stop-ignoring-muslim-needs-on-campus/"
+            }]
+        }, 
+        {
+            "name": "LOVE, ACTUALIZED",
+            "img": "",
+            "blurb": "Spectator Opinion section’s ongoing series on love, dating, sex, and relationships and all the ways that these manifest at Columbia. In these pieces, students have covered everything from romantic love to love between sisters to loving yourself. ",
+            "articles": [{
+                "title": "To the only white boy I’ve loved before",
+                "author": "Kyra Ann Dawkins",
+                "link": "https://www.columbiaspectator.com/opinion/2018/09/20/to-the-only-white-boy-ive-loved-before/"
+            }, 
+            {
+                "title": "Dealing with distance",
+                "author": "Kayla Streiber",
+                "link": "https://www.columbiaspectator.com/opinion/2018/09/27/dealing-with-distance/"
+            },
+            {
+                "title": "A more obvious love",
+                "author": "Carolina Dalia Gonzalez",
+                "link": "https://www.columbiaspectator.com/opinion/2018/10/04/a-more-obvious-love/"
+            },
+            {
+                "title": "I only argue when I love you",
+                "author": "Sanjay Paul",
+                "link": "https://www.columbiaspectator.com/opinion/2018/10/18/i-only-argue-when-i-love-you/"
+            },
+            {
+                "title": "Fetishization for Dummies: Columbia Edition",
+                "author": "Ivanna C. Rodriguez-Rojas",
+                "link": "https://www.columbiaspectator.com/opinion/2018/11/01/fetishization-for-dummies-columbia-edition/"
+            },
+            {
+                "title": "How to sister from a distance",
+                "author": "Natalia Queenan",
+                "link": "https://www.columbiaspectator.com/opinion/2018/11/08/love-actualized-how-to-sister-from-a-distance/"
+            },
+            {
+                "title": "To the man who let me rewrite my life",
+                "author": "Nate Eckman",
+                "link": "https://www.columbiaspectator.com/opinion/2019/02/27/to-the-man-who-let-me-rewrite-my-life/"
+            },
+            {
+                "title": "Searching for Leying",
+                "author": "Julia Yao",
+                "link": "https://www.columbiaspectator.com/opinion/2019/03/14/searching-for-leying/"
+            }]
+        }, 
+        {
+            "name": "Discourse & Debate",
+            "img": "",
+            "blurb": "Our bimonthly platform in which a small group of contributors to engage with important questions and issues relevant to campus life. Over the past year, contributors have reckoned with questions of sexual assault, wealth disparity, Columbia’s stress culture, and the role of the University Senate. ",
+            "articles": [{
+                "title": "Discourse & Debate: How do Columbia’s wealth demographics affect student life?",
+                "author": "UFON UMANAH, JEREMY MACK, TIFFANY DIMM, JIMMY QUINN, AND TOVA RICARDO",
+                "link": "https://www.columbiaspectator.com/opinion/2018/10/16/discourse-debate-how-do-columbias-wealth-demographics-affect-student-life/"
+            }, 
+            {
+                "title": "Discourse & Debate: Should Columbia ban Greek life?",
+                "author": "UFON UMANAH, JEREMY MACK, TIFFANY DIMM, JIMMY QUINN, AND TOVA RICARDO",
+                "link": "https://www.columbiaspectator.com/opinion/2018/11/13/discourse-debate-should-columbia-ban-greek-life/"
+            }, 
+            {
+                "title": "Discourse & Debate: Whose responsibility is it to facilitate conversations on sensitive topics in the classroom?",
+                "author": "JEMIMA FREGENE, KAYLA ABRAMS, AND LANA AWADALLAH",
+                "link": "https://www.columbiaspectator.com/main/2019/02/20/discourse-and-debate-whose-responsibility-is-it-to-facilitate-conversations-on-sensitive-topics-in-the-classroom/"
+            }, 
+            {
+                "title": "Discourse & Debate: How neurodiverse is Columbia?",
+                "author": "JEMIMA FREGENE, KAYLA ABRAMS, AND LANA AWADALLAH",
+                "link": "https://www.columbiaspectator.com/opinion/2019/04/24/discourse-and-debate-how-neurodiverse-is-columbia/"
+            }]
+        }
+    ]
     }
 }
 export default data;
