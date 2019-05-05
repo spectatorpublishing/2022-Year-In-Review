@@ -1,3 +1,4 @@
+export const test_img3 = "https://placekitten.com/962/1096"
 export const test_img2 = "https://placekitten.com/301/301"
 export const test_img = "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"
 export const test_url = "http://cs.columbia.edu"
@@ -74,27 +75,27 @@ export const spectrum_data =
 				{
 					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
 					url: test_url,
-					img_src: test_img
+					img_src: test_img3
 				},
 				{
-					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of colortitle: Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of colortitl",
 					url: test_url,
-					img_src: test_img
-				},
-				{
-					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
-					url: test_url,
-					img_src: test_img
+					img_src: test_img3
 				},
 				{
 					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
 					url: test_url,
-					img_src: test_img
+					img_src: test_img3
 				},
 				{
 					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
 					url: test_url,
-					img_src: test_img
+					img_src: test_img3
+				},
+				{
+					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+					url: test_url,
+					img_src: test_img3
 				},
 			],
 		},
@@ -106,27 +107,27 @@ export const spectrum_data =
 				{
 					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
 					url: test_url,
-					img_src: test_img
+					img_src: test_img3
 				},
 				{
-					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of colortitle: Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of colortitle",
 					url: test_url,
-					img_src: test_img
-				},
-				{
-					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
-					url: test_url,
-					img_src: test_img
+					img_src: test_img3
 				},
 				{
 					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
 					url: test_url,
-					img_src: test_img
+					img_src: test_img3
 				},
 				{
 					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
 					url: test_url,
-					img_src: test_img
+					img_src: test_img3
+				},
+				{
+					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+					url: test_url,
+					img_src: test_img3
 				},
 			],
 		},
@@ -138,27 +139,27 @@ export const spectrum_data =
 				{
 					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
 					url: test_url,
-					img_src: test_img
+					img_src: test_img3
 				},
 				{
-					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of colortitle: Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of colortitle",
 					url: test_url,
-					img_src: test_img
-				},
-				{
-					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
-					url: test_url,
-					img_src: test_img
+					img_src: test_img3
 				},
 				{
 					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
 					url: test_url,
-					img_src: test_img
+					img_src: test_img3
 				},
 				{
 					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
 					url: test_url,
-					img_src: test_img
+					img_src: test_img3
+				},
+				{
+					title: "Racist harassment, anti-Semitic graffiti incite discussion of campus safety for students of color",
+					url: test_url,
+					img_src: test_img3
 				},
 			],
 		},

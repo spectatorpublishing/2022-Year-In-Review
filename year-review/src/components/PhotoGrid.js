@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import ImageBox from './ImageBox/ImageBox'
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 const Grid = styled.div`
@@ -23,10 +22,9 @@ const Grid = styled.div`
 `;
 
 function PhotoGrid(props){
-    const grid = props.data.map((data, i) => <ImageBox key={i} data={data}/>);
     return (
 		<div>
-			<Grid>{grid}</Grid>
+
 		</div>
     ); 
  

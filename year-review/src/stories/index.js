@@ -8,7 +8,7 @@ import ImageBoxSlider from '../containers/ImageBoxSlider';
 import SportSlide from '../components/SportSlide.js';
 import SportsSlideShow from '../containers/SportsSlideShow';
 import PhotoGrid from '../components/PhotoGrid.js';
-import ImageBox from '../components/ImageBox/ImageBox';
+import Columnists from '../components/Columnists';
 import GenericPanelLayout from '../containers/GenericPanelLayout';
 import HomePage from '../components/HomePage.js';
 import ExpandingColumns from '../components/ExpandingColumns';
@@ -75,27 +75,27 @@ const image_slider_data =
 const flip_data = [
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
-	author: "Ben LaZebnik",
+	author: "Ben1",
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
 },
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
-	author: "Ben LaZebnik",
+	author: "Ben2",
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
 },
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
-	author: "Ben LaZebnik",
+	author: "Ben3",
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world and thus have a tendency to see the end goal as material wealth..."
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
 },
 ]
 
@@ -118,10 +118,7 @@ storiesOf('SportsSlideShow', module).add('SportSlide', () => <SportSlide title="
 storiesOf('SportsSlideShow', module).add('SportsSlideShow', () => (<SportsSlideShow data = {sports_slider_data} />))
 
 //Test PhotoGrid
-storiesOf('PhotoGrid', module).add('PhotoPanel', () => <PhotoGrid data={flip_data} />)
-
-//Test Flip Image-Box
-storiesOf('PhotoGrid', module).add('Photo', () => <ImageBox data = {flip_data[0]}/>)
+storiesOf('PhotoGrid', module).add('PhotoPanel', () => <Columnists data={flip_data} />)
 
 // Test Generic Panel Layout
 storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanelLayout data = {NewsTestData.image_and_text[0]}/>)
