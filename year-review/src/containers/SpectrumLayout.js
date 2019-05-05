@@ -16,7 +16,7 @@ const ImageContainer = styled.div`
 	height: 100vh;
 	display: flex;
 	overflow: hidden;
-	position: relative;
+	position: relati ve;
 `
 const BoxPanel = styled.div`
 	display: flex;
@@ -170,7 +170,7 @@ class SpectrumLayout extends Component {
 	      </MobileAndTablet>,
 	      
 	      <Desktop>
-	        
+	        	
 	      </Desktop>
 	      ]
 	    )
