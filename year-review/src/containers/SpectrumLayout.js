@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 import SpectrumSlide from '../components/SpectrumSlide'
+import SpectrumSlider from '../components/SpectrumSlider'
 
 import white_arrow from '../assets/right_arrow.svg'
 import black_arrow from '../assets/left_arrow.svg'
@@ -48,6 +49,11 @@ const CircleContainer = styled.div`
 const Circle = styled.img`
 	margin: 10px;
 `
+
+const SpectrumWrapper = styled.div`
+	witdth: 100vw;
+  height: 100vh;
+`;
 
 class SpectrumLayout extends Component {
 
@@ -155,6 +161,19 @@ class SpectrumLayout extends Component {
 		let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
 		let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
 		// mobile components-finished
+		
+		let articles = this.props.data.article_box_data.map ( (data,i) => {
+			return(
+			<SpectrumWrapper>
+				<h3>title={this.props.title}</h3>
+				<p>description={this.props.description}</p>
+				<SpectrumSlider title= {data.title} url={data.url} img_src={data.img_src} key = {i}/>	
+			</SpectrumWrapper>
+      )
+			}
+		)
+		
+
 
 		return (
 	      [
@@ -170,7 +189,7 @@ class SpectrumLayout extends Component {
 	      </MobileAndTablet>,
 	      
 	      <Desktop>
-	        	
+				    {articles}
 	      </Desktop>
 	      ]
 	    )

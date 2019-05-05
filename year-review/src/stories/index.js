@@ -134,7 +134,7 @@ storiesOf('HomePage', module).add('HomePage',() => <HomePage img_src={test_wide_
 // storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
 
 // Test Generic Panel Layout
-storiesOf('Spectrum', module).add("ArticleSlider",() => <SpectrumSlider data = {opinion_data}/>)
+storiesOf('Spectrum', module).add("ArticleSlider",() => <SpectrumSlider data = {image_slider_data}/>)
 
 let ArticleData = [
 	"Why does my cat love this fucking box",
