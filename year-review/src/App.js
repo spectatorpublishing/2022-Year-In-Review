@@ -7,10 +7,10 @@ import { GlobalStyles, Theme } from "./util/GlobalStyles";
 
 import HomeContainer from './containers/HomeContainer'
 import NewsContainer from './containers/NewsContainer'
-import PhotoContainer from './containers/PhotoContainer'
 import OpinionContainer from './containers/OpinionContainer'
 import SportsContainer from './containers/SportsContainer'
 import EyeContainer from './containers/EyeContainer'
+import PhotoContainer from './containers/PhotoContainer'
 import DesignContainer from './containers/DesignContainer'
 import AEContainer from './containers/AEContainer'
 import SpectrumContainer from './containers/SpectrumContainer'
@@ -29,7 +29,7 @@ class App extends Component {
     const news = () => <NewsContainer NavItems = {news_data.sections} SliderData = {news_data.image_and_text} IntroPage = {test_img} />
     const opinion = () => <OpinionContainer />
     const eye = () => <EyeContainer NavItems = {news_data.sections} SliderData = {news_data.image_and_text} />
-    const photo = () => <PhotoContainer photo_data = {photo_data}/>
+    const photo = () => <PhotoContainer />
     const design = () => <DesignContainer />
     const sports = () => <SportsContainer SportsData = {sports_slider_data} />
     const ane = () => <AEContainer />
