@@ -177,7 +177,6 @@ class ImageBoxSlider extends Component {
 					<MobileArticleContainer key = {i}>
 						<Article title= {data.title} author={data.author} url = {data.url}
 							description={data.description} img_src={data.img_src} />
-						{article2}
 					</MobileArticleContainer>
 				)
 			})
