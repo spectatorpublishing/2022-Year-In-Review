@@ -7,8 +7,9 @@ const Contain = styled.div`
     flex-flow: row wrap;
     width: 93%;
     padding-top: 5vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 `
 
 const Box = styled.section`
@@ -21,6 +22,11 @@ const Box = styled.section`
     background: #3EAADB;
     padding-bottom: 22%;
     position: relative;
+
+    @media only screen and (max-width: 992px){
+        width: 40%;
+        padding-bottom: 40%;
+    }
 `
 
 const Text = styled.h4`
@@ -29,10 +35,14 @@ const Text = styled.h4`
     position: absolute;
     margin-left: 10%;
     margin-bottom: 10%;
-    margin-right: 23%;
+    margin-right: 25%;
     bottom: 0;
     left: 0;
     font-weight: bold;
+
+    @media only screen and (max-width: 992px){
+        font-size: 4vw;
+    }
 `
 
 class PhotoEssayBox extends Component{
