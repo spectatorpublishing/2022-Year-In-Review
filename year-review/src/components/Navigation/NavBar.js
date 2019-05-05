@@ -310,8 +310,10 @@ class NavBar extends Component {
       </React.Fragment>
     );
 
+    const mobileText = this.props.fixed? <h3 style={{color: "white"}}> {this.props.location.hash.slice(1)} </h3>:null
     const mobileMenu = (
       <React.Fragment>
+        {mobileText}
         <MenuBtn 
           type="checkbox" 
           id={this.props.isScrolling ? "scrolling-menu-btn" : "menu-btn"}
@@ -341,6 +343,7 @@ class NavBar extends Component {
             <Crown />
           </CrownWrapper>
         </LogoContainer>
+
         )}
         {isMobile ? mobileMenu : (!this.props.transparent && desktopMenu) }
       </React.Fragment>
