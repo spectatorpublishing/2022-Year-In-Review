@@ -10,7 +10,7 @@ class SportsContainer extends Component {
   render() {
     return (
       <React.Fragment>
-          <PageIntro title="SPORTS" description={this.props.blurb} img_src={img_src}/>
+          <PageIntro title="SPORTS" description={this.props.data.blurb} img_src={img_src}/>
           <SportsSlideShow data = {this.props.data.items} />
       </React.Fragment>
       
