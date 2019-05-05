@@ -15,8 +15,8 @@ const Grid = styled.div`
     @media only screen and (max-width: 991px){
         grid-template-columns: 50% 50%;
         grid-auto-rows: 50vw; 
-        grid-column-gap: 3px;
-        grid-row-gap: 3px;
+        grid-column-gap: 0px;
+        grid-row-gap:0px;
     }
 
 `;

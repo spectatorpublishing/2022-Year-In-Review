@@ -75,10 +75,21 @@ const FrontAuthor = styled.h1`
 
 const Title = styled.h4`
   text-align: left;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 5px;
   color: white;
+
+  @media only screen and (min-width:992px){
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  @media only screen and (max-width: 991px){
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 40px;
+  }
+
  
 `;
 
@@ -93,23 +104,53 @@ const Header = styled.div`
 
 const Body = styled.div`
   text-align: left;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 20px;
   color: white;
+
+  @media only screen and (min-width:992px){
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  @media only screen and (max-width: 991px){
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
 `;
 
 const Section = styled.h5`
-  font-size: small;
+  @media only screen and (min-width:992px){
+    font-size: small;
+  }
+
   color: white;
+
+  @media only screen and (max-width: 991px){
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
 `;
 
 const Author = styled.h5`
-  margin-left: 20px;
   padding-right: 5px;
   color: white;
-  font-size: small;
+  
+  @media only screen and (min-width:992px){
+    margin-left: 20px;
+    font-size: small;
+  }
+
+  @media only screen and (max-width: 991px){
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
 
 `;
 
@@ -125,15 +166,15 @@ const Grid = styled.div`
 
     @media only screen and (max-width: 991px){
         grid-template-columns: 50% 50%;
-        grid-auto-rows: 50vw; 
-        grid-column-gap: 3px;
-        grid-row-gap: 3px;
+        grid-template-rows: 50vw; 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
     }
 
 `;
 
 const MobileBox = styled.div`
- background-image: ${({shadowed}) => !shadowed ? "" : "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) )," } url(${({front_image}) => front_image});
+  background-image: ${({shadowed}) => !shadowed ? "" : "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) )," } url(${({front_image}) => front_image});
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -147,7 +188,8 @@ const MobileBack = styled.div`
   opacity: ${({shown}) => shown ? "100" : "0"};
   transition: all .3s ease;
   -webkit-transition: all .3s ease;
-  margin: 0px;
+  margin-top: -20px;
+
 `
 
 const ImageBox = (props) => {
