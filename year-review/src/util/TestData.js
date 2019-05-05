@@ -1,4 +1,4 @@
-export const test_img3 = "https://placekitten.com/962/1096"
+export const test_img3 = "https://placekitten.com/962/1596"
 export const test_img2 = "https://placekitten.com/301/301"
 export const test_img = "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"
 export const test_url = "http://cs.columbia.edu"
@@ -344,36 +344,37 @@ export const news_data =
 	]
 }
 
+const dummy = "Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary."
 export const sports_slider_data = 
 [
 	{
 		title: "Title1",
 		author: "Author1",
-		url: test_url,
-		img_src: test_wide_pic
+		text: dummy,
+		img_src: test_img3
 	},
 	{
 		title: "Title2",
 		author: "Author2",
-		url: test_url,
-		img_src: test_wide_pic
+		text: dummy,
+		img_src: test_img3
 	},
 	{
 		title: "Title3",
 		author: "Author3",
-		url: test_url,
-		img_src: test_wide_pic
+		text: dummy,
+		img_src: test_img3
 	},
 	{
 		title: "Title4",
 		author: "Author4",
-		url: test_url,
-		img_src: test_wide_pic
+		text: dummy,
+		img_src: test_img3
 	},
 	{
 		title: "Title5",
 		author: "Author5",
-		url: test_url,
-		img_src: test_wide_pic
+		text: dummy,
+		img_src: test_img3
 	},
 ]
