@@ -15,14 +15,14 @@ const Container = styled.div`
 
 const TopContainer = styled.div`
   width: 100vw;
-  height: ${props => props.isMobile? '30vh' : '60vh'};
+  height: ${props => props.isMobile? '40vh' : '60vh'};
   float: top;
   background-image: url(${({img_src}) => img_src});
 `
 
 const BottomContainer = styled.div`
 	width: 100vw;
-	height: ${props => props.isMobile? '70vh' : '40vh'};
+	height: ${props => props.isMobile? '60vh' : '40vh'};
 	float: bottom;
   background-color: ${props => props.theme.indigo};
 `
@@ -85,23 +85,23 @@ export default class GenericPanelLayout extends Component {
     return (
       [
       <MobileAndTablet>
-        <TopContainer img_src = {this.props.data.img_src} isMobile = {this.state.isMobile} />
+        <TopContainer img_src = {this.props.data.img} isMobile = {this.state.isMobile} />
 
         <BottomContainer isMobile = {this.state.isMobile}>
           <MobileHead>{this.props.data.title}</MobileHead>
-          <ImageBoxSlider data = {this.props.data.article_box_data}/>
+          <ImageBoxSlider data = {this.props.data.articles}/>
         </BottomContainer>
       </MobileAndTablet>,
       
       <Desktop>
         <Container>
-          <TopContainer img_src = {this.props.data.img_src}>
+          <TopContainer img_src = {this.props.data.img}>
               <Head>{this.props.data.title}</Head>
               <Subtitle>{this.props.data.description}</Subtitle>
           </TopContainer>
 
           <BottomContainer>
-              <ImageBoxSlider data = {this.props.data.article_box_data}/>
+              <ImageBoxSlider data = {this.props.data.articles}/>
           </BottomContainer>
         </Container>
       </Desktop>

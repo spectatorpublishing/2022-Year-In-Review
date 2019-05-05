@@ -15,11 +15,12 @@ import DesignContainer from './containers/DesignContainer'
 import AEContainer from './containers/AEContainer'
 import SpectrumContainer from './containers/SpectrumContainer'
 
-import NavBar from './components/Navigation/NavBar'
+import NavBar from './components/Navigation/NavBar' 
 import Footer from './components/Footer'
 
 import { test_img } from "./util/TestData";
 import { spectrum_data, photo_data, opinion_data, news_data, sports_slider_data } from './util/TestData'
+import data from './util/GlobalArticleData'
 import { NavItems, NavItemsWithHome } from "./util/NavItems";
 
 class App extends Component {
@@ -27,13 +28,13 @@ class App extends Component {
   render() {
     const home = () => <HomeContainer /> 
     const news = () => <NewsContainer NavItems = {news_data.sections} SliderData = {news_data.image_and_text} IntroPage = {test_img} />
-    const opinion = () => <OpinionContainer />
-    const eye = () => <EyeContainer NavItems = {news_data.sections} SliderData = {news_data.image_and_text} />
+    const opinion = () => <OpinionContainer data={data.Opinion}/>
+    const eye = () => <EyeContainer data = {data.Eye}/>
     const photo = () => <PhotoContainer photo_data = {photo_data}/>
     const design = () => <DesignContainer />
-    const sports = () => <SportsContainer SportsData = {sports_slider_data} />
-    const ane = () => <AEContainer />
-    const spectrum = () => <SpectrumContainer NavItems = {spectrum_data.sections} SliderData = {spectrum_data.image_and_text} />
+    const sports = () => <SportsContainer data = {data.Sports} />
+    const ane = () => <AEContainer data = {data["A&E"]}/>
+    const spectrum = () => <SpectrumContainer data = {data.Spectrum} />
 
     return (
       <ThemeProvider theme={Theme}>

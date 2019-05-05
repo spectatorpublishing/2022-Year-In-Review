@@ -3,12 +3,13 @@ import styled from 'styled-components'
 
 const Article = styled.div`
   margin: 0vw;
+  
 `
 const Image = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${({img_src}) => img_src});
 	width: 100vw;
-	height: 100vh;
-	object-fit: cover;
+  height: 100vh;
+	background-size: cover;
 `
 const Title = styled.h3`
 	textAlign: left;
@@ -68,7 +69,7 @@ const slide = (props) =>{
   return (
     <Article>
         <Image {...props}>
-            <Title>{props.title}</Title>
+            <Title>{props.title.toUpperCase()}</Title>
             <Author>BY {props.author.toUpperCase()}</Author>
             <Text> 
               <p style={{width: "75vw"}}>

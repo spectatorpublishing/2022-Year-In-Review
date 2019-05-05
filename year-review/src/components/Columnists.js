@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Mobile, ResponsiveComponent } from 'react-responsive-simple';
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import read_more from '../assets/ReadMoreWhite.svg'
 
 
@@ -311,15 +311,15 @@ export default class Columnists extends React.Component {
 
     return (
       [
-        <Mobile>
+        <MobileAndTablet>
           <div>
             {mobile}
           </div>
-        </Mobile>,
+        </MobileAndTablet>,
           
-        <ResponsiveComponent min={768}>
+        <Desktop>
           <Grid>{desktop}</Grid>
-        </ResponsiveComponent>
+        </Desktop>
       ]
     )
   }

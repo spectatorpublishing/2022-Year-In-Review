@@ -9,6 +9,7 @@ import filledCircle from '../assets/filledCircleWhite.svg'
 import emptyCircle from '../assets/emptyCircleWhite.svg'
 
 const n = 1
+const author = "anonymous"
 
 const ImageContainer = styled.div`
 	background: #555;
@@ -126,8 +127,8 @@ class SportsSlideShow extends Component {
 
 	render(){
 		let boxes = this.props.data.map ( (data,i) => 
-			<SportSlide text = {data.text} title= {data.title} author={data.author} 
-			url={data.url} img_src={data.img_src} key = {i}/>
+			<SportSlide text = {data.blurb} title= {data.name} author={author} 
+			img_src={data.img} key = {i}/>
 		)
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)

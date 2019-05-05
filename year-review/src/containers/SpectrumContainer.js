@@ -9,21 +9,19 @@ const description = "Most undergraduates will only experience a small sliver of 
 const img_src = "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"
 
 class SpectrumContainer extends Component {
-
+ 
   constructor() {
       super()
   }
-
+ 
   render() { 
     return (
       <React.Fragment>
-        <div onWheel = {this.handleWheel}>
-          <PageIntro title="SPECTRUM" description={description} img_src={img_src}/>
-          <ScrollingNavBar menuItems={this.props.NavItems}>
-            {this.props.SliderData.map((data, i) => 
-              <SpectrumLayout key={i} data = {this.props.SliderData[i]} />)}
+          <PageIntro title="SPECTRUM" description={this.props.data.blurb} img_src={img_src}/>
+          <ScrollingNavBar menuItems={this.props.data.sections}>
+            {this.props.data.items.map((data, i) => 
+              <SpectrumLayout key={i} data = {this.props.data.items[i]} />)}
           </ScrollingNavBar> 
-        </div>
       </React.Fragment>
     );
   }
