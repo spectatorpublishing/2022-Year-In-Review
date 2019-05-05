@@ -128,13 +128,17 @@ const Grid = styled.div`
     }
 
     @media only screen and (max-width: 991px){
-        grid-template-columns: 50% 50%;
-        grid-auto-rows: 50vw; 
+        grid-template-columns: calc(50% - 3px) calc(50% - 3px);
+        grid-auto-rows: calc(50vw - 3px); 
         grid-column-gap: 3px;
         grid-row-gap: 3px;
     }
 
 `;
+
+const GridRow = styled.div`
+  ${({expanded}) => !expanded && `height: 50vw;`}
+`
 
 const MobileBox = styled.div`
   background-image: ${({shadowed}) => shadowed && "linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) )," } url(${({front_image}) => front_image});
@@ -153,6 +157,9 @@ const MobileBack = styled.div`
   -webkit-transition: height .3s ease;
   margin: 0px;
 `
+const ArticleLink = styled.a`
+  text-decoration: none;
+`
 
 const ImageBox = (props) => {
   return (
@@ -162,14 +169,16 @@ const ImageBox = (props) => {
           <Front {...props.data}>
             <FrontAuthor>{props.data.author}</FrontAuthor>
           </Front>
-          <Back {...props.data} onClick={props.goToLink}>
-            <Header>
-              <Author>{props.data.author}</Author>
-              <Section>{props.data.section}</Section>
-            </Header>
-            <Title>{props.data.title}</Title> 
-            <Body>{props.data.body}</Body> 
-          </Back>
+          <ArticleLink href={props.data.link} target="_blank">
+            <Back {...props.data}>
+              <Header>
+                <Author>{props.data.author}</Author>
+                <Section>{props.data.section}</Section>
+              </Header>
+              <Title>{props.data.title}</Title> 
+              <Body>{props.data.body}</Body> 
+            </Back>
+          </ArticleLink>
         </Inner>
       </Flipcard>
     </div>
@@ -230,26 +239,30 @@ export default class PhotoGrid extends React.Component {
       let grid = <Grid>{front1}{front2}</Grid>
 
       let back1 = 
-        <MobileBack {...data} onClick={this.props.goToLink} shown={this.state.toggle_control[i]}>
-          <Header>
-            <Author>{data.author}</Author>
-            <Section>{data.section}</Section>
-          </Header>
-          <Title>{data.title}</Title> 
-          <Body>{data.body}</Body> 
-        </MobileBack>
+        <ArticleLink href={data.link} target="_blank">
+          <MobileBack {...data} shown={this.state.toggle_control[i]}>
+            <Header>
+              <Author>{data.author}</Author>
+              <Section>{data.section}</Section>
+            </Header>
+            <Title>{data.title}</Title> 
+            <Body>{data.body}</Body> 
+          </MobileBack>
+        </ArticleLink>
 
       let back2 = i === this.props.data.length-1 ? null : 
-        <MobileBack {...this.props.data[i+1]} onClick={this.props.goToLink} shown={this.state.toggle_control[i+1]}>
-          <Header>
-            <Author>{this.props.data[i+1].author}</Author>
-            <Section>{this.props.data[i+1].section}</Section>
-          </Header>
-          <Title>{this.props.data[i+1].title}</Title> 
-          <Body>{this.props.data[i+1].body}</Body> 
-        </MobileBack>
+        <ArticleLink href={this.props.data[i+1].link} target="_blank">
+          <MobileBack {...this.props.data[i+1]} shown={this.state.toggle_control[i+1]}>
+            <Header>
+              <Author>{this.props.data[i+1].author}</Author>
+              <Section>{this.props.data[i+1].section}</Section>
+            </Header>
+            <Title>{this.props.data[i+1].title}</Title> 
+            <Body>{this.props.data[i+1].body}</Body> 
+          </MobileBack>
+        </ArticleLink>
 
-      return (<div key={i}>{grid}{back1}{back2}</div> )
+      return (<GridRow expanded={this.state.selected} key={i}>{grid}{back1}{back2}</GridRow> )
     })
 
     const desktop = this.props.data.map((data, i) => <ImageBox key={i} data={data}/>);
