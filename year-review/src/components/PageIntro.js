@@ -8,6 +8,7 @@ let TempTitle = styled.h1`
   z-index: 2;
   position: relative;
   font-size: 12em;
+  margin-top: 0.7em;
 `
 
 let TempHeader = styled.div`
@@ -15,8 +16,6 @@ let TempHeader = styled.div`
   width: 100vw;
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
   background-image: url(${props => props.img_src});
   background-position: center;
   background-size: cover;
@@ -39,7 +38,7 @@ const TitleBlurb = styled.p`
   margin-left: 50px;
   margin-right: 50px;
   color: white;
-  margin-top: 1vh;
+  margin-top: 18em;
   text-align: center;
   z-index: 2;
   position: relative;
