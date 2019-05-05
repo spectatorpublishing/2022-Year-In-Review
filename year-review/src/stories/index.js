@@ -15,6 +15,7 @@ import ExpandingColumns from '../components/ExpandingColumns';
 import Footer from '../components/Footer.js';
 import FooterHome from '../components/FooterHome.js';
 import SpectrumSlider from '../components/SpectrumSlider.js';
+import ArticleBox from '../components/ArticleBox.js';
 
 // Data for testing
 
@@ -75,11 +76,12 @@ const image_slider_data =
 const flip_data = [
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
-	author: "Ben1",
+	author: "Ben James",
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
 },
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
@@ -87,7 +89,8 @@ const flip_data = [
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
 },
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
@@ -95,7 +98,8 @@ const flip_data = [
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
 },
 ]
 
@@ -130,7 +134,15 @@ storiesOf('HomePage', module).add('HomePage',() => <HomePage img_src={test_wide_
 // storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
 
 // Test Generic Panel Layout
-storiesOf('Spectrum', module).add("ArticleSlider",() => <SpectrumSlider data = {opinion_data}/>)
+storiesOf('Spectrum', module).add("ArticleSlider",() => <SpectrumSlider data = {image_slider_data}/>)
+
+let ArticleData = [
+	"Why does my cat love this fucking box",
+	"Arsalaan Ansari",
+	"https://mtdata.ru/u7/photo53A0/20946911428-0/original.jpg#20946911428",
+	"https://www.google.com"
+]
+storiesOf('ArticleBox', module).add('ArticleBox', () => <ArticleBox title={ArticleData[0]} author={ArticleData[1]} image={ArticleData[2]} url={ArticleData[3]} /> )
 
 // Test Footer
 storiesOf('Footer', module).add("Footer",() => <Footer />)

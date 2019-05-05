@@ -7,11 +7,13 @@ const test_wide_pic = "https://picsum.photos/1500/800"
 export const opinion_data = [
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
-	author: "Ben1",
+	author: "Ben James",
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
+
 },
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
@@ -19,7 +21,9 @@ export const opinion_data = [
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
+
 },
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
@@ -27,7 +31,9 @@ export const opinion_data = [
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
+
 },
 ]
 
