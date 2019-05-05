@@ -6,8 +6,8 @@ import SpectrumSlide from '../components/SpectrumSlide'
 
 import white_arrow from '../assets/right_arrow.svg'
 import black_arrow from '../assets/left_arrow.svg'
-import filledCircle from '../assets/filledCircle.png'
-import emptyCircle from '../assets/emptyCircle.png'
+import filledCircle from '../assets/filledCircle.svg'
+import emptyCircle from '../assets/emptyCircle.svg'
 
 const mobileSize = 992
 
@@ -16,7 +16,7 @@ const ImageContainer = styled.div`
 	height: 100vh;
 	display: flex;
 	overflow: hidden;
-	position: relative;
+	position: relati ve;
 `
 const BoxPanel = styled.div`
 	display: flex;
@@ -170,7 +170,7 @@ class SpectrumLayout extends Component {
 	      </MobileAndTablet>,
 	      
 	      <Desktop>
-	        
+	        	
 	      </Desktop>
 	      ]
 	    )

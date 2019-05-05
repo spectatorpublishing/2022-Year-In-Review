@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
+
 import SportSlide from '../components/SportSlide'
-import left_arrow from '../assets/left_arrow.svg'
-import right_arrow from '../assets/right_arrow.svg'
-import filledCircle from '../assets/filledCircle.png'
-import emptyCircle from '../assets/emptyCircle.png'
+
+import white_arrow from '../assets/right_arrow.svg'
+import black_arrow from '../assets/left_arrow.svg'
+import filledCircle from '../assets/filledCircleWhite.svg'
+import emptyCircle from '../assets/emptyCircleWhite.svg'
 
 const n = 1
 
@@ -21,31 +23,19 @@ const BoxPanel = styled.div`
 	transform: translate(${props => props.translateValue}vw);
     transition: transform ease-out 0.45s;
 `
-const LeftArrow = styled.img`
-  width: 2vw;
-  &:hover {
-      background: ${props => props.src? '#500' : '#555'};
-    }
-  z-index: 1;
-  position: relative;
-  left: 5vw;
-  bottom: 5vw;
-`
-const RightArrow = styled.img`
-  width: 2vw;
-  &:hover {
-      background: ${props => props.src? '#500' : '#555'};
-    }
-  z-index: 1;
-  position: relative;
-  right: 5vw;
-  bottom: 5vw;
+const Arrow = styled.img`
+	width: 2vw;
+  	z-index: 1;
+  	transform: ${props => props.left ? "rotate(180deg)" : ""};
+  	position: absolute;
+  	top: 50vh;
+  	left: ${props => props.left ? "3vw" : "97vw"};
 `
 
 const CircleContainer = styled.div`
 	width: 100vw;	
 	height: 5vh;
-	background: #555;
+	background: ${props => props.theme.black};
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -73,6 +63,8 @@ class SportsSlideShow extends Component {
 	}
 
 	onLeft(){
+		if (this.state.leftDisabled)
+			return 
 		let current_index = this.state.box_index - 1
 		let current_circle = this.state.circle_index -1 
 		this.setState({
@@ -94,6 +86,8 @@ class SportsSlideShow extends Component {
 	}
 
 	onRight(){
+		if (this.state.rightDisabled)
+			return 
 		let current_index = this.state.box_index + 1
 		let current_circle = this.state.circle_index + 1 
 		this.setState({
@@ -132,7 +126,7 @@ class SportsSlideShow extends Component {
 
 	render(){
 		let boxes = this.props.data.map ( (data,i) => 
-			<SportSlide title= {data.title} author={data.author} 
+			<SportSlide text = {data.text} title= {data.title} author={data.author} 
 			url={data.url} img_src={data.img_src} key = {i}/>
 		)
 		let circles = this.props.data.map ( (_, i) => {
@@ -143,17 +137,17 @@ class SportsSlideShow extends Component {
 			}
 		)
 
-		let leftArrow =  this.state.leftDisabled ? null : <LeftArrow src={left_arrow} onClick={this.onLeft}/> 
-		let rightArrow = this.state.rightDisabled ? null : <RightArrow src={right_arrow} onClick={this.onRight}/> 
+		let leftArrow =   <Arrow src={white_arrow} onClick={this.onLeft} left/> 
+		let rightArrow =  <Arrow src={white_arrow} onClick={this.onRight}/> 
 
 		return (
-			<div>
+			<div style={{position: "relative"}}>
+				{leftArrow}
+				{rightArrow}
 				<ImageContainer>
-					{leftArrow}
 					<BoxPanel translateValue = {this.state.box_index*(-100)}>
 						{boxes}		
 					</BoxPanel>
-					{rightArrow}
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 
 			</div>
