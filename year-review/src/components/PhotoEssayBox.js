@@ -47,14 +47,14 @@ const Text = styled.h4`
 
 class PhotoEssayBox extends Component{
     handleClick(link) {
-		this.props.history.push(link)
+        this.props.history.push(link)
 	}
     
     render(){
         const grid = this.props.data.map((data, i) => {
 			return (
-                <Box onClick = {() => this.handleClick(data.link)}>
-	                <Text>{data.title}</Text>
+                <Box to={data.link} onClick = {() => this.handleClick(data.link)}>
+                    <Text>{data.title}</Text>
 	    		</Box>
 	    		
     		)

@@ -34,19 +34,19 @@ export const opinion_data = [
 export const photo_data = [
 	{
 		title: "Observing Affection",
-		link: './affection'
+		link: "https://www.merriam-webster.com/dictionary/affection"
 	},
 	{
 		title: "The first day of the graduate student union strike",
-		link: './strike'
+		link: "https://en.wikipedia.org/wiki/Strike_action"
 	},
 	{
 		title: "The Great Columbia Snowball Fight of 2018",
-		link: './snowball'
+		link: "https://www.multiplication.com/games/play/snowball-fight"
 	},
 	{
 		title: "The March For Our Lives",
-		link: './march'
+		link: "https://en.wikipedia.org/wiki/March"
 	}
 ]
 
