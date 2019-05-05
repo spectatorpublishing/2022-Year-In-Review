@@ -32,6 +32,8 @@ const Container = styled.div`
 
 const Image = styled.div`
         background-image: url(${({img_src}) => img_src});
+        background-position: center;
+        background-size: cover;
         margin-right: 1rem;
         width: 15vw;
         height: 100%;
