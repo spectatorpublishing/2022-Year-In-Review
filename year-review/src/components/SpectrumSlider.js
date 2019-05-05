@@ -26,11 +26,15 @@ const LeftArrow = styled(ArrowL)`
 	position: absolute;
 	top: 50vh;
 	left: 5vw;
+	z-index: 5;
 `;
 
 const Contain = styled.div`
+width: 100vw;
 display: flex;
 flex-direction: row;
+transform: translate(${({translateValue}) => translateValue}vw);
+
 `;
 
 const Column = styled.div`
@@ -46,8 +50,7 @@ const ColumnWrapper = styled.div`
 	display: flex;
 	width: 100vw;
 	overflow: hidden;
-	transform: translate(${props => props.translateValue})vw;
-
+	position: relative;
 
 `;
 
@@ -63,8 +66,9 @@ class SpectrumSlider extends Component{
 		super(props);
 	
 		this.state = {
-		  index: 0,
-		  width: window.innerWidth
+			index: 0,
+			leftDisabled: true,
+			rightDisabled: false,
 		}
 
 		this.handleLeftArrowClick = this.handleLeftArrowClick.bind(this);
@@ -72,41 +76,49 @@ class SpectrumSlider extends Component{
 	  }
 
 	handleLeftArrowClick() {
+
 		if (this.state.index > 0) {
 			this.setState({ index: this.state.index - 1});
 		} 
 		else {
-			this.setState({ index: this.props.media.length - 1});
+			this.setState({ index: this.props.data.article_box_data.length - 4});
+
 		}
 	}
 
 	handleRightArrowClick() {
-		if (this.state.index + 1 < this.props.media.length) {
+		if (this.state.index + 4 < this.props.data.article_box_data.length) {
 			this.setState({ index: this.state.index + 1 });
+
 		} 
 		else {
 			this.setState({ index: 0 });
+
 		}
+
+		console.log(this.state.index)
 	}
 
 	render(){
-		const grid = this.props.data.map((data, i) => {
+		const grid = this.props.data.article_box_data.map((data, i) => {
 			return (
-				<>
-				<Column img_src={data.img_src} key={i} index={i} 
-					onClick = {() => this.handleClick(data.link)}>
-						<Title>{data.title}</Title>
-				</Column>
-				<>
+				
+					<Column img_src={data.img_src} key={i} index={i} 
+						onClick = {() => this.handleClick(data.link)}>
+							<Title>{data.title}</Title>
+					</Column>
+				
 			)
 		});
 
 		return (
-		  <div>  
-				<LeftArrow onClick={() => this.handleLeftArrowClick} />
-				<Contain> {grid}</Contain>	
-				<RightArrow onClick={() => this.handleRightArrowClick} />
-			</div>	
+			<ColumnWrapper>
+				
+				
+					<Contain translateValue={this.state.index*(-25)}> {grid}</Contain>
+					<LeftArrow onClick={this.handleLeftArrowClick} />
+					<RightArrow onClick={this.handleRightArrowClick} />
+			</ColumnWrapper>		
 
 		);
 	} 

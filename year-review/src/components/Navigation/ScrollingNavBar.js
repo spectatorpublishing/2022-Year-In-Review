@@ -28,6 +28,14 @@ class ScrollingNav extends Component {
   }
 
   componentDidMount() {
+    if (this.scrollRef.current) {
+      let targetTop = document.scrollingElement.scrollTop;
+      let refTop = this.scrollRef.current.offsetTop;
+      let initialFixed =  targetTop > refTop;
+      if (this.state.fixed !== initialFixed) {
+        this.setState({ fixed: !this.state.fixed });
+      }
+    }
     window.addEventListener('scroll', this.handleScroll);
   }
 
@@ -54,20 +62,22 @@ class ScrollingNav extends Component {
     }
 
     /* NAVBAR ACTIVE */
-    let nextActiveSection;
-    for (let i = 0; i < this.props.menuItems.length; i++) {
-      let section = this.props.menuItems[i];
-      let currentRef = this.menuItemRefs[section.name];
-      
-      if (targetTop < currentRef.current.offsetTop - 150) {
-        break;
+    if (!this.props.noContent) {
+      let nextActiveSection;
+      for (let i = 0; i < this.props.menuItems.length; i++) {
+        let section = this.props.menuItems[i];
+        let currentRef = this.menuItemRefs[section.name];
+        
+        if (targetTop < currentRef.current.offsetTop - 150) {
+          break;
+        }
+        nextActiveSection = section.link.slice(1);
       }
-      nextActiveSection = section.link.slice(1);
-    }
 
-    let currentActiveSection = this.props.history.location.hash.slice(1);
-    if (nextActiveSection && nextActiveSection !== currentActiveSection) {
-      this.props.history.push("#" + nextActiveSection);
+      let currentActiveSection = this.props.history.location.hash.slice(1);
+      if (nextActiveSection && nextActiveSection !== currentActiveSection) {
+        this.props.history.push("#" + nextActiveSection);
+      }
     }
   }
 
@@ -84,10 +94,19 @@ class ScrollingNav extends Component {
   }
 
   render() {
+    let noContentNavbar = (<React.Fragment>
+      <NavBar fixed={this.state.fixed} menuItems={this.props.menuItems}/>
+      {this.props.children}
+    </React.Fragment>)
+
+    let contentNavbar = (<React.Fragment>
+      <NavBar fixed={this.state.fixed} menuItems={this.props.menuItems} isScrolling />
+      {this.getChildrenScrollerTargets()}
+    </React.Fragment>)
+
     return (
       <ScrollerTarget ref={this.scrollRef}>
-        <NavBar fixed={this.state.fixed} menuItems={this.props.menuItems} isScrolling />
-        {this.getChildrenScrollerTargets()}
+        {this.props.noContent ? noContentNavbar : contentNavbar}
       </ScrollerTarget>
     );
   }

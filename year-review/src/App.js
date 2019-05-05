@@ -1,45 +1,55 @@
 import React, { Component } from 'react';
 import {Route, Switch} from 'react-router-dom';
-import { MemoryRouter } from 'react-router';
+import { withRouter } from 'react-router'
 import { ThemeProvider } from "styled-components";
-
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import { GlobalStyles, Theme } from "./util/GlobalStyles";
 
+import HomeContainer from './containers/HomeContainer'
 import NewsContainer from './containers/NewsContainer'
+import PhotoContainer from './containers/PhotoContainer'
+import OpinionContainer from './containers/OpinionContainer'
 import SportsContainer from './containers/SportsContainer'
+import EyeContainer from './containers/EyeContainer'
+import DesignContainer from './containers/DesignContainer'
+import AEContainer from './containers/AEContainer'
+import SpectrumContainer from './containers/SpectrumContainer'
+
 import NavBar from './components/Navigation/NavBar'
-import ExpandingColumns from './components/ExpandingColumns'
-import PhotoEssayBox from './components/PhotoEssayBox'
+import Footer from './components/Footer'
 
 import { test_img } from "./util/TestData";
-import { photo_data, opinion_data, NewsTestData, sports_slider_data } from './util/TestData'
-import { NavItems } from "./util/NavItems";
+import { spectrum_data, photo_data, opinion_data, news_data, sports_slider_data } from './util/TestData'
+import { NavItems, NavItemsWithHome } from "./util/NavItems";
 
 class App extends Component {
 
   render() {
-    const home = () => <h1> Home </h1>
-    const news = () => <NewsContainer NavItems = {NewsTestData.sections} SliderData = { NewsTestData.image_and_text } intro_img = {test_img} />
-    const opinion = () => <ExpandingColumns data = {opinion_data}/>
-    const eye = () => <h1> Eye </h1>
-    const photo = () => <PhotoEssayBox data = {photo_data} />
-    const design = () => <h1> Design </h1>
-    const sports = () => <SportsContainer NavItems = {NavItems} SportsData = {sports_slider_data} />
-    const ane = () => <h1> A&E </h1>
-    const spectrum = () => <h1> Spectrum </h1>
-
-    const oped = () => <h1> Op_ed </h1>
-    const column = () => <h1>  column </h1>
-    const love = () => <h1>  love </h1>
-    const debate = () => <h1>  debate </h1>
+    const home = () => <HomeContainer /> 
+    const news = () => <NewsContainer NavItems = {news_data.sections} SliderData = {news_data.image_and_text} IntroPage = {test_img} />
+    const opinion = () => <OpinionContainer />
+    const eye = () => <EyeContainer NavItems = {news_data.sections} SliderData = {news_data.image_and_text} />
+    const photo = () => <PhotoContainer photo_data = {photo_data}/>
+    const design = () => <DesignContainer />
+    const sports = () => <SportsContainer SportsData = {sports_slider_data} />
+    const ane = () => <AEContainer />
+    const spectrum = () => <SpectrumContainer NavItems = {spectrum_data.sections} SliderData = {spectrum_data.image_and_text} />
 
     return (
       <ThemeProvider theme={Theme}>
         <main>
           <GlobalStyles />
-          <MemoryRouter>
             <React.Fragment>
-              <NavBar menuItems={NavItems} />
+              <Desktop>
+                {this.props.location.pathname === "/" ?
+                  <NavBar menuItems={NavItems} transparent hideCrown/>
+                :
+                  <NavBar menuItems={NavItems} />
+                }
+              </Desktop>
+              <MobileAndTablet>
+                <NavBar menuItems={NavItemsWithHome} transparent/>
+              </MobileAndTablet>
               <Switch>
                 <Route exact path="/" component={home} />
                 <Route exact path="/news" component={news} />
@@ -50,20 +60,15 @@ class App extends Component {
                 <Route exact path="/sports" component={sports} />
                 <Route exact path="/arts-and-entertainment" component={ane} />
                 <Route exact path="/spectrum" component={spectrum} />
-
-                <Route exact path="/column" component={column} />
-                <Route exact path="/oped" component={oped} />
-                <Route exact path="/love-actualized" component={love} />
-                <Route exact path="/discourse-and-debate" component={debate} />
               </Switch>
+              <Footer />
             </React.Fragment>
-          </MemoryRouter>
         </main>
       </ThemeProvider>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
 
 

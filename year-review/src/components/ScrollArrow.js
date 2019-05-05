@@ -9,8 +9,8 @@ const Arrow = styled.img`
     }
   z-index: 1;
   position: absolute;
-  right: 10%;
-  bottom: 10%;
+  left: 95%;
+  top: 30vh;
 `
 const handleClick = () => {
   window.scrollTo(0, 0)

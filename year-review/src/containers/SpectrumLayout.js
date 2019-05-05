@@ -1,21 +1,23 @@
 import React, {Component} from 'react';
 import styled from 'styled-components'
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
-import SportSlide from '../components/SportSlide'
+import SpectrumSlide from '../components/SpectrumSlide'
+import SpectrumSlider from '../components/SpectrumSlider'
 
 import white_arrow from '../assets/right_arrow.svg'
 import black_arrow from '../assets/left_arrow.svg'
-import filledCircle from '../assets/filledCircleWhite.svg'
-import emptyCircle from '../assets/emptyCircleWhite.svg'
+import filledCircle from '../assets/filledCircle.svg'
+import emptyCircle from '../assets/emptyCircle.svg'
 
-const n = 1
+const mobileSize = 992
 
 const ImageContainer = styled.div`
-	background: #555;
 	width: 100vw;
-	height: 95vh;
+	height: 100vh;
 	display: flex;
 	overflow: hidden;
+	position: relative;
 `
 const BoxPanel = styled.div`
 	display: flex;
@@ -23,6 +25,7 @@ const BoxPanel = styled.div`
 	transform: translate(${props => props.translateValue}vw);
     transition: transform ease-out 0.45s;
 `
+
 const Arrow = styled.img`
 	width: 2vw;
   	z-index: 1;
@@ -35,18 +38,23 @@ const Arrow = styled.img`
 const CircleContainer = styled.div`
 	width: 100vw;	
 	height: 5vh;
-	background: ${props => props.theme.black};
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	position: absolute;
+	top: 85vh;
 `
 
 const Circle = styled.img`
 	margin: 10px;
 `
 
-class SportsSlideShow extends Component {
+const SpectrumWrapper = styled.div`
+	witdth: 100vw;
+`;
+
+class SpectrumLayout extends Component {
 
 	constructor() {
 	    super()
@@ -59,12 +67,25 @@ class SportsSlideShow extends Component {
 		box_index: 0,
 		circle_index: 0,
 		leftDisabled: true,
-		rightDisabled: false
+		rightDisabled: false,
+		isMobile: window.innerWidth <= mobileSize,
 	}
+
+	componentWillMount() {
+	    window.addEventListener("resize", this.handleWindowSizeChange);
+	}
+
+	componentWillUnmount() {
+	    window.removeEventListener("resize", this.handleWindowSizeChange);
+	}
+
+	handleWindowSizeChange = () => {
+	    this.setState({ isMobile: window.innerWidth <= mobileSize });
+	};
 
 	onLeft(){
 		if (this.state.leftDisabled)
-			return 
+			return
 		let current_index = this.state.box_index - 1
 		let current_circle = this.state.circle_index -1 
 		this.setState({
@@ -77,7 +98,7 @@ class SportsSlideShow extends Component {
 				leftDisabled: true
 			})
 		}
-		if (current_index === this.props.data.length-n-1){
+		if (current_index === this.props.data.article_box_data.length-2){
 			this.setState({
 				rightDisabled: false
 			})
@@ -87,15 +108,14 @@ class SportsSlideShow extends Component {
 
 	onRight(){
 		if (this.state.rightDisabled)
-			return 
+			return
 		let current_index = this.state.box_index + 1
 		let current_circle = this.state.circle_index + 1 
 		this.setState({
 			box_index: current_index,
 			circle_index: current_circle
 		})
-
-		if (current_index === this.props.data.length-n){
+		if (current_index === this.props.data.article_box_data.length-1){
 			this.setState({
 				rightDisabled: true
 			})
@@ -110,10 +130,10 @@ class SportsSlideShow extends Component {
 	onCircle = (i) => {
 		let leftDisabled = false
 		let rightDisabled = false
-		if (i===this.props.data.length-3){
+		if (i === this.props.data.article_box_data.length-1){
 		 	rightDisabled = true
 		}
-		else if (i===0)
+		else if (i === 0)
 			leftDisabled = true
 
 		this.setState({
@@ -125,34 +145,57 @@ class SportsSlideShow extends Component {
 	}
 
 	render(){
-		let boxes = this.props.data.map ( (data,i) => 
-			<SportSlide text = {data.text} title= {data.title} author={data.author} 
-			url={data.url} img_src={data.img_src} key = {i}/>
+
+		// mobile components
+		let boxes = this.props.data.article_box_data.map ( (data,i) => 
+			<SpectrumSlide title= {data.title} url={data.url} img_src={data.img_src} key = {i}/>
 		)
-		let circles = this.props.data.map ( (_, i) => {
+		let circles = this.props.data.article_box_data.map ( (_, i) => {
 				if (i===this.state.circle_index)
 					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
 				else 
 					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
 			}
 		)
+		let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
+		let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
+		// mobile components-finished
+		
+		let articles = this.props.data.article_box_data.map ( (data,i) => {
+			return(
+			<div>
+				<h3>title={this.props.title}</h3>
+				<p>description={this.props.description}</p>
+				<SpectrumSlider title= {data.title} url={data.url} img_src={data.img_src} key = {i}/>	
+			</div>)
+			}
+		)
+		
 
-		let leftArrow =   <Arrow src={white_arrow} onClick={this.onLeft} left/> 
-		let rightArrow =  <Arrow src={white_arrow} onClick={this.onRight}/> 
 
 		return (
-			<div style={{position: "relative"}}>
+	      [
+	      <MobileAndTablet>
+	        <ImageContainer>
 				{leftArrow}
 				{rightArrow}
-				<ImageContainer>
-					<BoxPanel translateValue = {this.state.box_index*(-100)}>
-						{boxes}		
-					</BoxPanel>
-				</ImageContainer>
+				<BoxPanel translateValue = {this.state.box_index*(-100)}>
+					{boxes}		
+				</BoxPanel>
 				<CircleContainer> {circles} </CircleContainer> 
-			</div>
-		)
+			</ImageContainer>
+	      </MobileAndTablet>,
+	      
+	      <Desktop>
+			<SpectrumWrapper>
+	        <SpectrumSlider>
+				{articles}
+			</SpectrumSlider>
+			</SpectrumWrapper>
+	      </Desktop>
+	      ]
+	    )
 	}
 }
 
-export default SportsSlideShow
+export default SpectrumLayout

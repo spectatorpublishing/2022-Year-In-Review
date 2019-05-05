@@ -1,78 +1,66 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
-import { lightbox } from 'styled-components';
 import scroll from '../assets/scroll.svg';
 
-const Image = styled.div`
-  background-image: url(${({img_src}) => img_src});
-  height: 100vh;
+let TempTitle = styled.h1`
+  color: ${props => props.theme.white};
+  text-shadow: ${props => props.theme.shadow};
+  z-index: 2;
+  position: absolute;
+  font-size: 12em;
+`
+
+let TempHeader = styled.div`
+  height: 95vh;
   width: 100vw;
-  `;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(${props => props.img_src});
+  background-position: center;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 
-const Heading1 = styled.h1`
-  font-size: 100px;
-  padding-top: 140px;
+  &::after {
+    content: "";
+    background: ${props => props.theme.indigo};
+    opacity: 0.3;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+  }
+`
+
+const TitleBlurb = styled.p`
+  font-size: 20px;
+  font-weight: 25;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  margin-top: 30vh;
   text-align: center;
-  color: ${props => props.theme.white};
-  `;
+  z-index: 2;
+`;
 
-const Text1 = styled.p`
-  font-size: 15px;
-  text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  color: ${props => props.theme.white};
-  `;
+class PageIntro extends Component {
 
-const Title2 = styled.h1`
-  font-size: 100px;
-  text-align: center;
-  padding-top: 80px;
-  color: ${props => props.theme.white};
-  `;
+  constructor() {
+      super()
+  }
 
-const Text2 = styled.p`
-  font-size: 15px;
-  text-align: center;
-  padding-top: 40px;
-  color: ${props => props.theme.white};
-  `;
-
-// const Image = styled.div`
-//   background-image: url(${({img_src}) => img_src});
-//   height: 50vh;
-//   `;
-// const Background = styled.div`
-//   background: lightblue;
-//   height: 45vh;
-//   `;
-const Logo = styled.img`
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  margin-top: 100px;
-  `;
-
-const Background = styled.div`
-  background: ${props => props.theme.indigo};
-  height: 100vh;
-  width: 100vw;
-  `;
-
-const pageIntro = (props) =>{
-  return (
-    <div>
-        <Image {...props}>
-          <Heading1>{props.title1}</Heading1>
-          <Text1>{props.text1}</Text1>
-        </Image>
-        <Background>
-        <Title2>{props.title2}</Title2>
-        <Text2>{props.text2}</Text2>  
-        </Background>    
-    </div>
-  );
+  render() {
+    return (
+      <React.Fragment>
+        <TempHeader {...this.props}>
+          <TempTitle>{this.props.title}</TempTitle>
+          <TitleBlurb>
+              {this.props.description}
+          </TitleBlurb>
+        </TempHeader>
+      </React.Fragment>
+    );
+  }
 }
 
-export default pageIntro;
+export default PageIntro;

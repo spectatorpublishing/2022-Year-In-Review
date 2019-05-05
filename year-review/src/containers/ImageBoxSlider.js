@@ -4,65 +4,55 @@ import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 import Article from '../components/Article'
 import MobileArticleBox from '../components/MobileArticleBox'
+import ScrollArrow from '../components/ScrollArrow'
+
 import white_arrow from '../assets/right_arrow.svg'
 import black_arrow from '../assets/left_arrow.svg'
-import filledCircle from '../assets/filledCircle.png'
-import emptyCircle from '../assets/emptyCircle.png'
+import filledCircle from '../assets/filledCircle.svg'
+import emptyCircle from '../assets/emptyCircle.svg'
 
-const number = 3
+
+const n = 2
 
 const mobileSize = 992
 
 const ImageContainer = styled.div`
-	width: 60vw;	
-	display: flex;
+	width: 80vw;	
 	overflow: hidden;
+	diplay: flex;
+	position: absolute;
+	top: 5vh;
+	left: 10vw;
 `
-const MobileContainer = styled.div`
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({img_src}) => img_src});
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	overflow: hidden;
-	position: relative;
+const MobileArticleContainer = styled.div`
+	width: 80vw;
+	height: 50vh;
 `
+
 const BoxPanel = styled.div` 
 	display: flex;
-	width: ${props => props.isMobile ? 100 : 57}vw;
+	width: 80vw;
 	transform: translate(${props => props.translateValue}vw);
     transition: transform ease-out 0.45s;
 `
 const Arrow = styled.img`
-	width: 20px;
+	width: 2vw;
   	z-index: 1;
-  	outline: none;
-  	transform: ${props => props.right ? "rotate(180deg)" : ""};
+  	transform: ${props => props.left ? "rotate(180deg)" : ""};
+  	position: absolute;
+  	top: 15vh;
+  	left: ${props => props.left ? "3vw" : "97vw"};
 `
 
-const LeftArrow = styled.img`
-	transform: rotate(180deg);
-	width: 5vw;
-	z-index: 1;
-	position: absolute;
-	top: 52.5vh;
-	left: 5vw;
-`
-const RightArrow = styled.img`
-	width: 5vw;
-	z-index: 1;
-	position: absolute;
-	top: 52.5vh;
-	right: 5vw;
-`
 const CircleContainer = styled.div`
-	width: ${props => props.isMobile ? 100 : 60}vw;
+	width: 100vw;
 	height: 5vh;	
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	position: absolute;
-	bottom: 5vh;
+	top: 30vh;
 `
 const Circle = styled.img`
 	margin: 10px;
@@ -100,9 +90,6 @@ class ImageBoxSlider extends Component {
 	onLeft(){
 		if (this.state.leftDisabled)
 			return
-		let n = number
-		if (this.state.isMobile)
-			n = 1
 		let current_index = this.state.box_index - 1
 		let current_circle = this.state.circle_index -1 
 		this.setState({
@@ -115,7 +102,7 @@ class ImageBoxSlider extends Component {
 				leftDisabled: true
 			})
 		}
-		if (current_index === this.props.data.length-n-1){
+		if (current_index === Math.floor(this.props.data.length/n)-1){
 			this.setState({
 				rightDisabled: false
 			})
@@ -126,17 +113,13 @@ class ImageBoxSlider extends Component {
 	onRight(){
 		if (this.state.rightDisabled)
 			return
-		let n = number
-		if (this.state.isMobile)
-			n = 1
 		let current_index = this.state.box_index + 1
 		let current_circle = this.state.circle_index + 1 
 		this.setState({
 			box_index: current_index,
 			circle_index: current_circle
 		})
-
-		if (current_index === this.props.data.length-n){
+		if (current_index === Math.floor(this.props.data.length/n)){
 			this.setState({
 				rightDisabled: true
 			})
@@ -149,12 +132,9 @@ class ImageBoxSlider extends Component {
 	}
 
 	onCircle = (i) => {
-		let n = number
-		if (this.state.isMobile)
-			n = 1
 		let leftDisabled = false
 		let rightDisabled = false
-		if (i === this.props.data.length-n){
+		if (i === Math.floor(this.props.data.length/n)){
 		 	rightDisabled = true
 		}
 		else if (i === 0)
@@ -169,74 +149,70 @@ class ImageBoxSlider extends Component {
 	}
 
 	render(){
-		let n = number
-		let boxes = this.props.data.map ( (data,i) => {
-				if (this.props.selected === i){
-					return (<Article 
-					onClick = {() => this.props.handleClick(i)}
-					img_src={data.img_src} selected key = {i}/>)
-				} else {
-					return (<Article title= {data.title} author={data.author} 
-					onClick = {() => this.props.handleClick(i)} 
-					description={data.description} img_src={data.img_src} key = {i}/>)
-				}
-			}
-		)
+		let boxes = this.props.data.map ( (data,i) => 
+			<Article title= {data.title} author={data.author} 
+				onClick = {() => this.props.handleClick(i)} 
+				description={data.description} img_src={data.img_src} key = {i}/>)
 
-		// let leftArrow =  <Arrow /> 
-		// let rightArrow = <Arrow /> 
-		// if (!this.state.leftDisabled)
-			let leftArrow = <Arrow src={black_arrow} onClick={this.onLeft}/> 
-		// if (!this.state.rightDisabled)
-			let rightArrow = <Arrow src={black_arrow} onClick={this.onRight} right/> 
+		let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
+		let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
 
 		if (this.state.isMobile){
-			n = 1
-			boxes = this.props.data.map ( (data,i) => 
-				<MobileArticleBox description={data.description}  left = {i*100}
-			 	title= {data.title} author={data.author} url={data.url} key = {i}/>)
-			// if (!this.state.leftDisabled)
-				leftArrow = <LeftArrow src={white_arrow} onClick={this.onLeft}/> 
-			// if (!this.state.rightDisabled)
-				rightArrow = <RightArrow src={white_arrow} onClick={this.onRight}/> 
+			boxes = this.props.data.map ( (data,i) => {
+				if (i % 2 === 1)
+					return null
+				let article2 = null
+				if (i !== this.props.data.length-1){
+					let data2 = this.props.data[i+1]
+					article2 = <Article title= {data2.title} author={data2.author} url = {data2.url}
+							description={data2.description} img_src={data2.img_src} />
+				}
+				return (
+					<MobileArticleContainer key = {i}>
+						<Article title= {data.title} author={data.author} url = {data.url}
+							description={data.description} img_src={data.img_src} />
+						{article2}
+					</MobileArticleContainer>
+				)
+			})
 		}
 
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)
 					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
-				else if (i<this.props.data.length-n+1)
+				else if (i<this.props.data.length/n)
 					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
-				return
+				return null
 			}
 		)
 
 		return (
 		[
 	      <MobileAndTablet>
-	        <div >
-	        	<MobileContainer img_src = {this.props.data[this.state.box_index].img_src}>
-					<BoxPanel translateValue = {this.state.box_index*(-100)}>
-						{boxes}		
+	        <div style={{position: "relative"}}>
+	        	{leftArrow}
+				{rightArrow}
+				<ImageContainer>
+					<BoxPanel translateValue = {this.state.box_index*(-80)}>
+						{boxes}		 
 					</BoxPanel>
-					{leftArrow}
-					{rightArrow}
-					<CircleContainer isMobile> {circles} </CircleContainer> 
-				</MobileContainer>
-				
-				
+				</ImageContainer>
+				<CircleContainer> {circles} </CircleContainer> 
+				<ScrollArrow />	
 			</div>
 	      </MobileAndTablet>,
 	      
 	      <Desktop>
-			<div>
+			<div style={{position: "relative"}}>
+				{leftArrow}
+				{rightArrow}
 				<ImageContainer>
-					{leftArrow}
-					<BoxPanel translateValue = {this.state.box_index*(-19)}>
-						{boxes}		
+					<BoxPanel translateValue = {this.state.box_index*(-80)}>
+						{boxes}		 
 					</BoxPanel>
-					{rightArrow}
 				</ImageContainer>
-				<CircleContainer> {circles} </CircleContainer> 
+				<CircleContainer> {circles} </CircleContainer> 	
+				<ScrollArrow />
 			</div>
 		  </Desktop>
         ]

@@ -6,11 +6,10 @@ const Contain = styled.div`
     display: flex;  
     flex-flow: row wrap;
     width: 93%;
-    height: 50vw;
     padding-top: 5vw;
     margin-left: 5vw;
     margin-right: 5vw;
-    position: absolute;  
+     
 `
 
 const Box = styled.section`
@@ -44,8 +43,7 @@ class PhotoEssayBox extends Component{
     render(){
         const grid = this.props.data.map((data, i) => {
 			return (
-                <Box 
-                onClick = {() => this.handleClick(data.link)}>
+                <Box onClick = {() => this.handleClick(data.link)}>
 	                <Text>{data.title}</Text>
 	    		</Box>
 	    		

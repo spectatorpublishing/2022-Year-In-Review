@@ -1,179 +1,142 @@
 import React, { Component } from 'react';
-import styled from 'styled-components'
-import {NavLink} from 'react-router-dom'
-import Background from '../assets/homepg1500x800.png'
-import whitemasthead from '../assets/whitemasthead.png'
-import downarrow from '../assets/white-down-arrow-icon.png'
-import FooterHome from './FooterHome.js'
+import styled from 'styled-components';
+import Background from '../assets/homepg1500x800.png';
+import whitemasthead from '../assets/whitemasthead.png';
+import downarrow from '../assets/white-down-arrow-icon.png';
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
-// let HomePageImg= styled.div`
-//     background-image: url(${({img_src}) => img_src});
-//     height: 100vh;
-//     width: 100%;
-//     border: solid black 1px;
-// `
 
-let HomePageContainer= styled.div`
-    background-image: url(${Background});
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    border: solid black 1px;
-    position: relative;
-`;
+let MobileContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
+`
+let HomePageContainer= styled(MobileContainer)`
+  background-image: url(${Background});
+  background-size: cover;
+  display: flex;
+`
 let LeftDiv = styled.div`
-	width: 50%;
-	height: 65vh; 
-	float: left;
-  position: relative;
-  top: 5vh;
-  padding-left: 5vw;
-  margin-left: 5vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-start;
-`;
-
+`
 let LeftTitleDiv = styled.div`
-	width: 70%;
-	height: 60vh; 
-  position: relative;
-  top: 4vh;
-  // display: flex;
-  // justify-content: space-evenly;
-  // align-items: flex-start;
-`;
-
-let YearDiv = styled.div`
-  width: 100%;
-	height: 8vh; 
-  position: relative;
-  top: 5vh;
-  // display: flex;
-  // justify-content: space-evenly;
-  // align-items: flex-start;
-`;
-
-let Year = styled.h2`
-  color: ${props => props.theme.white};
-`;
-
+  margin-left: 10vw;
+`
 let LeftTitle = styled.h1`
+  word-spacing: 100vw;
+  line-height: 7rem;
   color: ${props => props.theme.white};
-  font-size: 17.5vh;
-
-`;
-
+  text-shadow: ${props => props.theme.shadow};
+`
+let MobileLeftTitle = styled(LeftTitle)`
+  margin-top: 1rem;
+  line-height: 4rem;
+`
+let YearDiv = styled.div`
+  margin-left: 10vw;
+`
+let Year = styled.h3`
+  color: ${props => props.theme.white};
+  text-shadow: ${props => props.theme.shadow};
+`
 let RightDiv = styled.div`
-	width: 30%;
-  height: 65vh;
-	float: right;
-  position: relative;
-  top: 15vh;
-  // border: 1px solid black;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;;
   align-items: flex-end;
   padding-right: 5vw;
   margin-right: 5vw;
-`;
-
-let SectionTitleDiv = styled.div`
-  padding: 0.3rem;
 `
-
+let SectionTitleDiv = styled.a`
+  text-decoration: none;
+`
 let SectionTitle = styled.h3`
   color: ${props => props.theme.white};
-  font-size: 5.5vh;
+  text-shadow: ${props => props.theme.shadow};
   
   &:hover {
     color: ${props => props.theme.blue};
     cursor: pointer;
   }
-`;
-
-const SpecLogo = styled.img`
+`
+let LogoDiv = styled.a`
+  position: absolute;
+  margin: 5vh 10vw;
+  z-index: 1;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+`
+let SpecLogo = styled.img`
   height: 25px;
-  margin-top: 10vh;
-`;
-
-const DownArrow = styled.img`
+`
+let DownArrow = styled.img`
   height: 40px;
-`;
+  position: absolute;
+  bottom: 2rem;
+`
 
-let HomePageContainer2= styled.div`
-    // background-image: url(${Background});
-    background-color: skyblue;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    border: solid black 1px;
-    position: relative;
-`;
+export default class HomePage extends Component {
+  constructor(props){
+    super(props);
 
-// const Image = styled.div`
-//   background-image: url(${({img_src}) => img_src});
-// 	width: 150px;
-// 	height: 150px;
-// 	object-fit: cover;
-// `
-const Title = styled.h3`
-	margin-top: -3px;
-`;
+    this.getSections = this.getSections.bind(this);
+  }
 
-const homePage = (props) =>{
-  return (
-    <div>
-    <HomePageContainer>
-        <LeftDiv>
-          <SpecLogo src={whitemasthead}/>
-          <YearDiv>
-            <Year>2018 - 2019</Year>
-          </YearDiv>
-          <LeftTitleDiv>
-            <LeftTitle>
-              YEAR IN REVIEW
-            </LeftTitle>
-          </LeftTitleDiv>
-        </LeftDiv>
-        
-        <RightDiv>
-          <SectionTitleDiv><SectionTitle>NEWS</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>OPINION</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>THE EYE</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>PHOTO</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>DESIGN</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>SPORTS</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>A&amp;E</SectionTitle></SectionTitleDiv>
-          <SectionTitleDiv><SectionTitle>SPECTRUM</SectionTitle></SectionTitleDiv>
-          <DownArrow src={downarrow} />
-        </RightDiv>
-        
-    </HomePageContainer>
+  getSections() {
+    return this.props.menuItems.map((e, i) => 
+      <SectionTitleDiv key={i} href={e.link}>
+        <SectionTitle>{e.name}</SectionTitle>
+      </SectionTitleDiv>
+    );
+  }
 
-    <HomePageContainer2>
+  render() {
+    return (
+      <React.Fragment>
+        <MobileAndTablet>
+          <MobileContainer>
+            <HomePageContainer>
+              <LeftDiv>
+                <YearDiv>
+                  <Year>2018 - 2019</Year>
+                </YearDiv>
+                <LeftTitleDiv>
+                  <MobileLeftTitle>
+                    YEAR IN REVIEW
+                  </MobileLeftTitle>
+                </LeftTitleDiv>
+              </LeftDiv>
+            </HomePageContainer>
+          </MobileContainer>
+        </MobileAndTablet>
 
-    </HomePageContainer2>
-    </div>
-  );
+        <Desktop>
+          <LogoDiv href="https://www.columbiaspectator.com/" target="_blank">
+            <SpecLogo src={whitemasthead}/>
+          </LogoDiv>
+          <HomePageContainer>
+            <LeftDiv>
+              <YearDiv>
+                <Year>2018 - 2019</Year>
+              </YearDiv>
+              <LeftTitleDiv>
+                <LeftTitle>
+                  YEAR IN REVIEW
+                </LeftTitle>
+              </LeftTitleDiv>
+            </LeftDiv>
+            
+            <RightDiv>
+              {this.getSections()}
+              <DownArrow src={downarrow} />
+            </RightDiv>
+          </HomePageContainer>
+        </Desktop>
+      </React.Fragment>
+    );
+  }
 }
-
-export default homePage;
-
-
-// export default class HomePage extends Component {
-//     constructor(props) {
-//       super(props);
-  
-//       this.state = { };
-//     }
-  
-//     render() {
-//       return (
-//         <HomePageImg>
-//         </HomePageImg>
-//       );
-//     }
-//   }
