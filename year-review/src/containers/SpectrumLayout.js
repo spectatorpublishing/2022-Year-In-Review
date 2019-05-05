@@ -17,7 +17,7 @@ const ImageContainer = styled.div`
 	height: 100vh;
 	display: flex;
 	overflow: hidden;
-	position: relati ve;
+	position: relative;
 `
 const BoxPanel = styled.div`
 	display: flex;
@@ -99,7 +99,7 @@ class SpectrumLayout extends Component {
 				leftDisabled: true
 			})
 		}
-		if (current_index === this.props.data.article_box_data.length-2){
+		if (current_index === this.props.data.articles-2){
 			this.setState({
 				rightDisabled: false
 			})
@@ -116,7 +116,7 @@ class SpectrumLayout extends Component {
 			box_index: current_index,
 			circle_index: current_circle
 		})
-		if (current_index === this.props.data.article_box_data.length-1){
+		if (current_index === this.props.data.articles.length-1){
 			this.setState({
 				rightDisabled: true
 			})
@@ -131,7 +131,7 @@ class SpectrumLayout extends Component {
 	onCircle = (i) => {
 		let leftDisabled = false
 		let rightDisabled = false
-		if (i === this.props.data.article_box_data.length-1){
+		if (i === this.props.data.articles.length-1){
 		 	rightDisabled = true
 		}
 		else if (i === 0)
@@ -148,10 +148,10 @@ class SpectrumLayout extends Component {
 	render(){
 
 		// mobile components
-		let boxes = this.props.data.article_box_data.map ( (data,i) => 
-			<SpectrumSlide title= {data.title} url={data.url} img_src={data.img_src} key = {i}/>
+		let boxes = this.props.data.articles.map ( (data,i) => 
+			<SpectrumSlide title= {data.title} url={data.link} author={data.author} img_src={data.img_src} key = {i}/>
 		)
-		let circles = this.props.data.article_box_data.map ( (_, i) => {
+		let circles = this.props.data.articles.map ( (_, i) => {
 				if (i===this.state.circle_index)
 					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
 				else 
@@ -161,19 +161,6 @@ class SpectrumLayout extends Component {
 		let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
 		let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
 		// mobile components-finished
-		
-		let articles = this.props.data.article_box_data.map ( (data,i) => {
-			return(
-			<SpectrumWrapper>
-				<h3>title={this.props.title}</h3>
-				<p>description={this.props.description}</p>
-				<SpectrumSlider title= {data.title} url={data.url} img_src={data.img_src} key = {i}/>	
-			</SpectrumWrapper>
-      )
-			}
-		)
-		
-
 
 		return (
 	      [
@@ -189,7 +176,13 @@ class SpectrumLayout extends Component {
 	      </MobileAndTablet>,
 	      
 	      <Desktop>
-				    {articles}
+				<SpectrumWrapper>
+				<div style={{height: "20vh", marginLeft: "5vw",marginRight: "5vw"}}>
+					<h3 style={{paddingTop: "5vh"}}>{this.props.data.name}</h3>
+					<p style={{paddingTop: "2vh"}}>{this.props.data.blurb}</p>
+				</div>
+				<SpectrumSlider data = {this.props.data.articles}/>	
+			</SpectrumWrapper>
 	      </Desktop>
 	      ]
 	    )

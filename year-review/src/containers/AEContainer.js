@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
+import GenericPanelLayout from './GenericPanelLayout';
 import PageIntro from '../components/PageIntro'
 
 const description = "Most undergraduates will only experience a small sliver of Columbia's history during their time here; current students just lived through a year for the record books. As the University marked the fiftieth anniversary of the 1968 protests that redined its identity, campus was roiled by a new series of student protests."
@@ -16,6 +18,10 @@ class AEContainer extends Component {
     return (
       <React.Fragment>
         <PageIntro title="A&E" description={description} img_src={img_src}/>
+        <ScrollingNavBar menuItems={this.props.data.sections}>
+            {this.props.data.items.map((data, i) => 
+              <GenericPanelLayout key={i} data = {this.props.data.items[i]} />)}
+          </ScrollingNavBar> 
       </React.Fragment>
     );
   }

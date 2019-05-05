@@ -1,5 +1,24 @@
 const data = {
     "Eye": {
+        sections: 
+        [
+          {
+            "name": " CITY REPORTING",
+            "link": "#CITY REPORTING"
+          },
+          {
+            "name": " ACADEMICS REPORTING",
+            "link": "#ACADEMICS REPORTING"
+          },
+          {
+            "name": " STUDENT LIFE REPORTING",
+            "link": "#STUDENT LIFE REPORTING"
+          },
+          {
+            "name": " BEST ESSAYS",
+            "link": "#BEST ESSAYS"
+          }
+        ],
         "blurb": "As Spectator’s long-form magazine, The Eye has spent the past year pursuing rigorous, thorough, and empathetic journalism. Through character driven stories with an emphasis on voice and style, we have sought to engage with, inform, and challenge the Columbia community—to evoke something within you, our readers. Put simply: to read an Eye piece is to feel, to think critically, and to draw closer to those who share our spaces. ",
         "items": [{
                 "name": "HIGHLIGHTS IN CITY REPORTING",
@@ -143,6 +162,29 @@ const data = {
         ]
     },
     "A&E": {
+        sections: 
+        [
+          {
+            "name": "Bacchanal",
+            "link": "Bacchanal"
+          },
+          {
+            "name": "fashion, film, and literature ",
+            "link": "fashion, film, and literature "
+          },
+          {
+            "name": "technology, student entrepreneurs, and a postmodern artist ",
+            "link": "technology, student entrepreneurs, and a postmodern artist "
+          },
+          {
+            "name": "arts",
+            "link": "arts"
+          },
+          {
+            "name": "Out with the old, in with the new",
+            "link": "Out with the old, in with the new"
+          }
+        ],
         "blurb": "Arts & Entertainment strives to provide a space in which to critically discuss arts at Columbia, to give the Columbia community a closer look into the inner workings of the arts world, and to inform the community of the different types of arts and entertainment happening on campus.",
         "items": [{
             "name": "Bacchanal’s theme, ‘Bacchanal is Canceled,’ nearly becomes self-fulfilling with slew of pranks and conflicting announcements",
@@ -293,6 +335,25 @@ const data = {
     },
     "Spectrum":
     {
+        sections: 
+        [
+          {
+            "name": "Bacchanal",
+            "link": "Bacchanal"
+          },
+          {
+            "name": "fashion, film, and literature ",
+            "link": "fashion, film, and literature "
+          },
+          {
+            "name": "technology, student entrepreneurs, and a postmodern artist ",
+            "link": "technology, student entrepreneurs, and a postmodern artist "
+          },
+          {
+            "name": "arts",
+            "link": "arts"
+          }, 
+        ],
         "blurb": "Between the spectrum of experiences, stories, narratives, and struggles we all hold, Spectrum hopes to be a guiding, unifying, and comforting presence for students to find sense of belonging and community on campus. Amongst the complexity and turmoil of student life, self-care and self-love against all odds remain a consistent thread this year.",
         "items": [{
             "name": "Breaking down Columbia…",

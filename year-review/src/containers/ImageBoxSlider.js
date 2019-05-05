@@ -57,7 +57,7 @@ const CircleContainer = styled.div`
 	position: absolute;
 	top: 30vh;
 	@media (max-width: 991px){
-        top: 35vh;
+        top: 45vh;
     }
 `
 const Circle = styled.img`
@@ -157,8 +157,8 @@ class ImageBoxSlider extends Component {
 	render(){
 		let boxes = this.props.data.map ( (data,i) => 
 			<Article title= {data.title} author={data.author} 
-				onClick = {() => this.props.handleClick(i)} 
-				description={data.description} img_src={data.img_src} key = {i}/>)
+				onClick = {() => this.props.handleClick(i)} url={data.link}
+				img_src={data.img} key = {i}/>)
 
 		let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
 		let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
@@ -170,13 +170,13 @@ class ImageBoxSlider extends Component {
 				let article2 = null
 				if (i !== this.props.data.length-1){
 					let data2 = this.props.data[i+1]
-					article2 = <Article title= {data2.title} author={data2.author} url = {data2.url}
-							description={data2.description} img_src={data2.img_src} />
+					article2 = <Article title= {data2.title} author={data2.author} url = {data2.link}
+							img_src={data2.img} />
 				}
 				return (
 					<MobileArticleContainer key = {i}>
-						<Article title= {data.title} author={data.author} url = {data.url}
-							description={data.description} img_src={data.img_src} />
+						<Article title= {data.title} author={data.author} url = {data.link}
+							img_src={data.img} />
 						{article2}
 					</MobileArticleContainer>
 				)
@@ -204,7 +204,7 @@ class ImageBoxSlider extends Component {
 					</BoxPanel>
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 
-				<ScrollArrow />	
+				<ScrollArrow mobile/>	
 			</div>
 	      </MobileAndTablet>,
 	      
