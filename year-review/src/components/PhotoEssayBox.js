@@ -3,13 +3,12 @@ import { withRouter } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Contain = styled.div`
-    display: flex;  
+    display: flex;
     flex-flow: row wrap;
     width: 93%;
     padding-top: 5vw;
     margin-left: 5vw;
     margin-right: 5vw;
-     
 `
 
 const Box = styled.section`
@@ -24,7 +23,8 @@ const Box = styled.section`
     position: relative;
 `
 
-const Text = styled.h3`
+const Text = styled.h4`
+    font-size: 2vw;
     color: white;
     position: absolute;
     margin-left: 10%;
