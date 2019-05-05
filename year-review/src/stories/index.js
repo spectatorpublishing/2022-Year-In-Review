@@ -37,6 +37,13 @@ const image_slider_data =
 		img_src: test_wide_pic
 	},
 	{
+		title: "Title1",
+		author: "Author1",
+		description: "something valuable",
+		url: test_url,
+		img_src: test_wide_pic
+	},
+	{
 		title: "Title2",
 		author: "Author2",
 		description: "something valuable",
@@ -127,7 +134,7 @@ storiesOf('HomePage', module).add('HomePage',() => <HomePage img_src={test_wide_
 // storiesOf('ExpandingColumns', module).add("ExpandingColumns",() => <ExpandingColumns data = {opinion_data}/>)
 
 // Test Generic Panel Layout
-storiesOf('Spectrum', module).add("ArticleSlider",() => <SpectrumSlider data = {opinion_data}/>)
+storiesOf('Spectrum', module).add("ArticleSlider",() => <SpectrumSlider data = {image_slider_data}/>)
 
 // Test Footer
 storiesOf('Footer', module).add("Footer",() => <Footer />)
