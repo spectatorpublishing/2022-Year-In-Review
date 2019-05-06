@@ -38,13 +38,12 @@ let TempHeader = styled.div`
     position: absolute;
   }
 `
-
-const TitleBlurb = styled.p`
-  font-size: 23px;
+const TitleBlurb = styled.h4`
   font-weight: 25;
   color: white;
   margin-top: 3rem;
   text-align: center;
+  text-shadow: ${props => props.theme.shadow};
   z-index: 2;
   position: relative;
   margin-left: 15rem;
