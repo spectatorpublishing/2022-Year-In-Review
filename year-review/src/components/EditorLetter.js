@@ -65,7 +65,7 @@ const TitleBlurb = styled.p`
 `;
 
 const MobileBlurb = styled.p `
-  font-size: 0.7rem;
+  font-size: 0.7git rem;
   color: white;
   white-space: pre-line;
   padding: 15px;

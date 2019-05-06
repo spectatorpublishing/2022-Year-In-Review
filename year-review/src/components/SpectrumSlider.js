@@ -64,6 +64,8 @@ const Title = styled.h4`
 	color: white;
 `;
 
+
+
 class SpectrumSlider extends Component{
 	constructor(props) {
 		super(props);
@@ -103,7 +105,7 @@ class SpectrumSlider extends Component{
 		const grid = this.props.data.map((data, i) => {
 			return (
 			<Column img_src={data.img} key={i} index={i} 
-				onClick = {() => this.handleClick(data.link)}>
+				onClick = {() => window.open(data.link, "_blank")}>
 					<Title>{data.title}</Title>
 			</Column>
 			)
