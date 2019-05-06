@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Mobile, Desktop } from 'react-responsive-simple';
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 
 const Article = styled.div`
@@ -87,7 +87,7 @@ const articlebox = (props) => {
             </Container>
         </Article>
         </Desktop>,
-        <Mobile>
+        <MobileAndTablet>
         <Article>
             <Container onClick={() => window.open(props.url, "_blank")}>
               <Image img_src ={props.img_src}></Image>
@@ -97,7 +97,7 @@ const articlebox = (props) => {
                 </Text>
             </Container>
         </Article>
-        </Mobile>
+        </MobileAndTablet>
         ]
     );
 }

@@ -1,23 +1,22 @@
 import React from 'react';
 import styled from 'styled-components'
-import arrow from '../assets/hamburger.svg'
+import arrow from '../assets/white-down-arrow-icon.png'
 
 const Arrow = styled.img`
-  width: 2vw;
-  &:hover {
-      background: ${props => props.src? '#500' : '#555'};
-    }
+  width: 5vw;
   z-index: 1;
   position: absolute;
-  left: 95%;
-  top: 35vh;
+  left: 90%;
+  top: ${props => props.mobile? '35vh' : '30vh'};
+  transform: rotate(180deg)
 `
 const handleClick = () => {
   window.scrollTo(0, 0)
 }
 
-const scrollArrow = () =>{
-  return <Arrow src={arrow} onClick = {handleClick}/>
+const scrollArrow = (props) =>{
+  return <Arrow {...
+props} src={arrow} onClick = {handleClick}/>
 }
 
 export default scrollArrow

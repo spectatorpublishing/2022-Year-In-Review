@@ -149,7 +149,7 @@ class SpectrumLayout extends Component {
 
 		// mobile components
 		let boxes = this.props.data.articles.map ( (data,i) => 
-			<SpectrumSlide title= {data.title} url={data.link} author={data.author} img_src={data.img_src} key = {i}/>
+			<SpectrumSlide title= {data.title} url={data.link} author={data.author} img_src={data.img} key = {i}/>
 		)
 		let circles = this.props.data.articles.map ( (_, i) => {
 				if (i===this.state.circle_index)
