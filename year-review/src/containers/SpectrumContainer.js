@@ -16,13 +16,13 @@ class SpectrumContainer extends Component {
  
   render() { 
     return (
-      <React.Fragment>
+      <div style={{ background: "white"}}>
           <PageIntro title="SPECTRUM" description={this.props.data.blurb} img_src={img_src}/>
           <ScrollingNavBar menuItems={this.props.data.sections}>
             {this.props.data.items.map((data, i) => 
               <SpectrumLayout key={i} data = {this.props.data.items[i]} />)}
           </ScrollingNavBar> 
-      </React.Fragment>
+      </div>
     );
   }
 }

@@ -48,7 +48,8 @@ const Column = styled.div`
 	display: flex;
 	width: 25vw;
 	height: 75vh;
-	background-image: url(${({img_src}) => img_src});
+	background-size: cover;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(${({img_src}) => img_src});
 	text-align: center;
   background-position: center;
 `;
@@ -60,6 +61,7 @@ const Title = styled.h4`
 	width: 25vw;
 	padding: 2vw;
 	top: 20%;
+	color: white;
 `;
 
 class SpectrumSlider extends Component{

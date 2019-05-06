@@ -72,9 +72,8 @@ const slide = (props) =>{
             <Title>{props.title.toUpperCase()}</Title>
             <Author>BY {props.author.toUpperCase()}</Author>
             <Text> 
-              <p style={{width: "75vw"}}>
-                {props.text}
-              </p> 
+              {props.text.map((data,_) => <p style={{width: "75vw"}}>{data}</p> )}
+              
             </Text>
         </Image>
     </Article>
