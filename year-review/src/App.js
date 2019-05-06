@@ -27,7 +27,7 @@ class App extends Component {
 
   render() {
     const home = () => <HomeContainer /> 
-    const news = () => <NewsContainer NavItems = {news_data.sections} SliderData = {news_data.image_and_text} IntroPage = {test_img} />
+    const news = () => <NewsContainer data = {data.News} />
     const opinion = () => <OpinionContainer data={data.Opinion}/>
     const eye = () => <EyeContainer data = {data.Eye}/>
     const photo = () => <PhotoContainer photo_data = {photo_data}/>
