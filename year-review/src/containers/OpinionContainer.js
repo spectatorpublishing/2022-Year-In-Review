@@ -23,8 +23,15 @@ export default class OpinionContainer extends Component {
 
           <ExpandingColumns data = {opinion_sections}/>
           <ScrollingNavBar menuItems={opinion_sections}>
-            {this.props.data.items.map((data, i) => 
-              <GenericPanelLayout key={i} data = {this.props.data.items[i]} />)}
+            <div>
+              <GenericPanelLayout data={this.props.data.items[0]} />
+            </div>
+            <div style={{height: "100vh"}}>
+              <GenericPanelLayout data={this.props.data.items[1]} />
+            </div>
+            <div style={{height: "100vh"}}>
+              <GenericPanelLayout data={this.props.data.items[2]} />
+            </div>
             <div>
               <h3 style={{color: "white"}}>Columnists: Fall 2018</h3>
               <PhotoGrid data={opinion_data} flip />
