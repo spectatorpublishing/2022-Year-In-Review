@@ -39,6 +39,7 @@ const MobileHead = styled.h3`
   color: white;
   width: 80vw;
   text-size: 10px;
+  font-size: 1.5rem;
 `
 
 const Subtitle = styled.p`
