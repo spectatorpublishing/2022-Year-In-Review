@@ -30,9 +30,9 @@ export default class OpinionContainer extends Component {
             </div>
             <div>
               <h3 style={{color: "white"}}>Columnists: Fall 2018</h3>
-              <PhotoGrid data={opinion_data} />)
+              <PhotoGrid data={opinion_data} flip />)
               <h3 style={{color: "white"}}>Columnists: Spring 2019</h3>
-              <PhotoGrid data={opinion_data} />)
+              <PhotoGrid data={opinion_data} flip />)
             </div>
             <div style={{background: "url(https://images.unsplash.com/photo-1479030160180-b1860951d696?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)", width: "100vw", height: "100vh",}}>
               <h3 style={{color: "white"}}>Discourse &amp; Debate</h3>

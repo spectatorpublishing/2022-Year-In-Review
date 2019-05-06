@@ -195,7 +195,7 @@ class Lightbox extends Component {
   render() {
     let title = this.props.media[this.state.index].title;
     let description = this.props.media[this.state.index].description;
-    let articleUrl = this.props.media[this.state.index].url;
+    let articleUrl = this.props.media[this.state.index].link;
     return (
       <FullScreenContainer>
         <MobileAndTablet>
@@ -208,7 +208,7 @@ class Lightbox extends Component {
               <LeftArrow onClick={this.handleLeftArrowClick} />
               <ImageContainer>
                 <Image 
-                  src={this.props.media[this.state.index].imgUrl}
+                  src={this.props.media[this.state.index].front_image}
                   altText={this.props.media[this.state.index].altText}
                 >
                 </Image>
@@ -232,12 +232,12 @@ class Lightbox extends Component {
         </MobileAndTablet>
 
         <Desktop>
-          <LightboxContainer imageUrl={this.props.media[this.state.index].imgUrl}>
+          <LightboxContainer imageUrl={this.props.media[this.state.index].front_image}>
             <PreviewContainer>
               <LeftArrow onClick={this.handleLeftArrowClick} />
               <ImageContainer>
                 <Image 
-                  src={this.props.media[this.state.index].imgUrl}
+                  src={this.props.media[this.state.index].front_image}
                   altText={this.props.media[this.state.index].altText}
                 >
                 </Image>

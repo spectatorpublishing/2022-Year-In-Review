@@ -12,15 +12,20 @@ const Flipcard = styled.div`
   @media only screen and (min-width:992px){
     width: 25vw;
     height: 25vw; 
+
+    ${({flip}) => flip && `
     perspective: 1000px;
     -webkit-perspective: 1000px;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
-    transition: transform 0.8s;
+    transition: transform 0.5s;
+    `}
 
-    :hover{
+    :hover {
+      ${({flip}) => flip && `
       -webkit-transform: rotateY(180deg);
       transform: rotateY(180deg);
+      `}
   	}
   }
 
@@ -36,13 +41,19 @@ const Inner = styled.div`
 
 const Front = styled.div`
   background-image: url(${({front_image}) => front_image});
+  transition: background-image .3s ease;
   background-size: cover;
   position: absolute;
   height: 100%;
   width: 100%;
   backface-visibility: hidden;
 `;
-
+const Card = styled(Front)`
+  &:hover {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({front_image}) => front_image});
+    transition: background-image .3s ease;
+  }
+`
 const Back = styled.div`
   background-image: url(${({back_image}) => back_image});
   background-size: cover;
@@ -55,12 +66,11 @@ const Back = styled.div`
   width: 100%;
 `;
 
-const FrontAuthor = styled.h1`
+const FrontAuthor = styled.h4`
   text-align: left;
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 140px;
-  font-size: 40px;
   color: ${props => props.theme.white};
   text-shadow: ${props => props.theme.shadow};
   opacity: ${({shadowed}) => shadowed && "0.4"};
@@ -69,17 +79,23 @@ const FrontAuthor = styled.h1`
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 100px;
-    font-size: 30px;
   }
-  
-`;
+`
+const CardAuthor = styled(FrontAuthor)`
+  opacity: 0;
+  transition: opacity .3s ease;
 
-
+  ${Card}:hover & {
+    opacity: 1;
+    transition: opacity .3s ease;
+  }
+`
 const Title = styled.h4`
   text-align: left;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 5px;
+  line-height: 1em;
   color: ${props => props.theme.white};
   text-shadow: ${props => props.theme.shadow};
 `;
@@ -102,19 +118,16 @@ const Body = styled.div`
   color: ${props => props.theme.white};
 `;
 
-const Section = styled.h5`
-  font-size: small;
+const Section = styled.h6`
   color: ${props => props.theme.white};
   text-shadow: ${props => props.theme.shadow};
 `;
 
-const Author = styled.h5`
+const Author = styled.h6`
   margin-left: 20px;
   padding-right: 5px;
   color: ${props => props.theme.white};
   text-shadow: ${props => props.theme.shadow};
-  font-size: small;
-
 `;
 
 const Grid = styled.div`
@@ -159,26 +172,37 @@ const MobileBack = styled.div`
 `
 const ArticleLink = styled.a`
   text-decoration: none;
+  display: flex;
+  width: 100%;
+  height: 100%;
 `
 
 const ImageBox = (props) => {
   return (
     <div>
-      <Flipcard>
+      <Flipcard flip={props.flip}>
         <Inner>
-          <Front {...props.data}>
-            <FrontAuthor>{props.data.author}</FrontAuthor>
-          </Front>
-          <ArticleLink href={props.data.link} target="_blank">
-            <Back {...props.data}>
-              <Header>
-                <Author>{props.data.author}</Author>
-                <Section>{props.data.section}</Section>
-              </Header>
-              <Title>{props.data.title}</Title> 
-              <Body>{props.data.body}</Body> 
-            </Back>
-          </ArticleLink>
+          {props.flip ? (
+          <React.Fragment>
+            <Front {...props.data}>
+              <FrontAuthor>{props.data.author}</FrontAuthor>
+            </Front>
+            <ArticleLink href={props.data.link} target="_blank">
+              <Back {...props.data}>
+                <Header>
+                  <Author>{props.data.author}</Author>
+                  <Section>{props.data.section}</Section>
+                </Header>
+                <Title>{props.data.title}</Title> 
+                <Body>{props.data.body}</Body> 
+              </Back>
+            </ArticleLink>
+          </React.Fragment>
+          ) : (
+            <Card {...props.data}>
+              <CardAuthor>By {props.data.author}</CardAuthor>
+            </Card>
+          )}
         </Inner>
       </Flipcard>
     </div>
@@ -224,19 +248,25 @@ export default class PhotoGrid extends React.Component {
       
       let shadow = this.state.selected && !this.state.toggle_control[i]
 
+      let handleClick = this.props.flip ? ()=>this.handleClick(i) : null;
       let front1 = 
-      <MobileBox {...data} shadowed={shadow} onClick={()=>this.handleClick(i)}>
+      <MobileBox {...data} shadowed={shadow} onClick={handleClick}>
         <FrontAuthor shadowed={shadow}>{data.author}</FrontAuthor>
       </MobileBox>
 
       shadow = this.state.selected && !this.state.toggle_control[i+1]
 
+      handleClick = this.props.flip ? ()=>this.handleClick(i+1) : null;
       let front2 = i===this.props.data.length-1 ? null : 
-      <MobileBox {...this.props.data[i+1]} shadowed={shadow} onClick={()=>this.handleClick(i+1)}>
+      <MobileBox {...this.props.data[i+1]} shadowed={shadow} onClick={handleClick}>
         <FrontAuthor shadowed={shadow}>{this.props.data[i+1].author}</FrontAuthor>
       </MobileBox>
 
       let grid = <Grid>{front1}{front2}</Grid>
+      
+      if (!this.props.flip) {
+        return <GridRow key={i}>{grid}</GridRow>
+      }
 
       let back1 = 
         <ArticleLink href={data.link} target="_blank">
@@ -265,7 +295,7 @@ export default class PhotoGrid extends React.Component {
       return (<GridRow expanded={this.state.selected} key={i}>{grid}{back1}{back2}</GridRow> )
     })
 
-    const desktop = this.props.data.map((data, i) => <ImageBox key={i} data={data}/>);
+    const desktop = this.props.data.map((data, i) => <ImageBox flip={this.props.flip} key={i} data={data}/>);
 
     return (
       <React.Fragment>
