@@ -19,6 +19,7 @@ const TopContainer = styled.div`
   height: ${props => props.isMobile? '40vh' : '60vh'};
   float: top;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${({img_src}) => img_src});
+  background-position: center;
 `
 
 const BottomContainer = styled.div`
