@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Mobile, Desktop } from 'react-responsive-simple';
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 
 const Article = styled.div`
@@ -90,19 +90,20 @@ const articlebox = (props) => {
                 </Text>
             </Container>
         </Article>
-        </Desktop>
-        <Mobile>
-        <Article>
-            <Container href={props.url} target="_blank">
-              <Image img_src ={props.img_src}></Image>
-                <Text>
-                    <Title>{props.title}</Title>
-                    <Desc>{props.author}</Desc>
-                </Text>
-            </Container>
-        </Article>
-        </Mobile>
-        </React.Fragment>
+        </Desktop>,
+
+        <MobileAndTablet>
+            <Article>
+                <Container onClick={() => window.open(props.url, "_blank")}>
+                  <Image img_src ={props.img_src}></Image>
+                    <Text>
+                        <Title>{props.title}</Title>
+                        <Desc>{props.author}</Desc>
+                    </Text>
+                </Container>
+            </Article>
+        </MobileAndTablet>
+        ]
     );
 }
 

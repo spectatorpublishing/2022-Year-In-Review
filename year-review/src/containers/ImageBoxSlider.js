@@ -41,7 +41,7 @@ const BoxPanel = styled.div`
 const Arrow = styled.img`
 	width: 2vw;
   	z-index: 1;
-  	transform: ${props => props.left ? "rotate(180deg)" : ""};
+  	transform: ${props => !props.left ? "":"rotate(180deg)"};
   	position: absolute;
   	top: 15vh;
   	left: ${props => props.left ? "3vw" : "97vw"};
@@ -204,9 +204,9 @@ class ImageBoxSlider extends Component {
 					</BoxPanel>
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 
-				<ScrollArrow mobile/>	
+				<ScrollArrow mobile/>
 			</div>
-	      </MobileAndTablet>,
+	      </MobileAndTablet>, 
 	      
 	      <Desktop>
 			<div style={{position: "relative"}}>
