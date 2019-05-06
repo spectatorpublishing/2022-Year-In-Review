@@ -92,9 +92,9 @@ let ArticleLink = styled.a`
 let Title = styled.h4`
   color: ${props => props.theme.white};
   text-transform: uppercase;
-  height: 25vh;
+  height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 
   &:hover {
     color: ${props => props.theme.blue};
