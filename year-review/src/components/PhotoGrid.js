@@ -12,11 +12,11 @@ const Flipcard = styled.div`
   @media only screen and (min-width:992px){
     width: 25vw;
     height: 25vw; 
-
+    margin: 0;
     ${({flip}) => flip && `
     perspective: 1000px;
     -webkit-perspective: 1000px;
-    transform-style: preserve-3d;
+    transform-style: preserve-3d; 
     -webkit-transform-style: preserve-3d;
     transition: transform 0.5s;
     `}
@@ -132,7 +132,7 @@ const Author = styled.h6`
 
 const Grid = styled.div`
     display: grid;
-
+    height: 65vh;
     @media only screen and (min-width:992px){
         grid-template-columns: 25% 25% 25% 25%;
         grid-auto-rows: 50%; 

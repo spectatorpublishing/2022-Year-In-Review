@@ -125,7 +125,7 @@ class ImageBoxSlider extends Component {
 			box_index: current_index,
 			circle_index: current_circle
 		})
-		if (current_index === Math.floor(this.props.data.length/n)){
+		if (current_index === Math.ceil(this.props.data.length/n)-1){
 			this.setState({
 				rightDisabled: true
 			})

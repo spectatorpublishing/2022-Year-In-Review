@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import arrow from '../assets/white-down-arrow-icon.png'
-import read_more from '../assets/ReadMoreWhite.svg'
+import read_more from '../assets/readmore.svg'
 
 const Article = styled.div`
   margin: 0vw;
