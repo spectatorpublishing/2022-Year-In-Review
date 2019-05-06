@@ -17,7 +17,7 @@ const TopContainer = styled.div`
   width: 100vw;
   height: ${props => props.isMobile? '40vh' : '60vh'};
   float: top;
-  background-image: url(${({img_src}) => img_src});
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${({img_src}) => img_src});
 `
 
 const BottomContainer = styled.div`
@@ -88,7 +88,7 @@ export default class GenericPanelLayout extends Component {
         <TopContainer img_src = {this.props.data.img} isMobile = {this.state.isMobile} />
 
         <BottomContainer isMobile = {this.state.isMobile}>
-          <MobileHead>{this.props.data.title}</MobileHead>
+          <MobileHead>{this.props.data.name}</MobileHead>
           <ImageBoxSlider data = {this.props.data.articles}/>
         </BottomContainer>
       </MobileAndTablet>,
@@ -96,8 +96,8 @@ export default class GenericPanelLayout extends Component {
       <Desktop>
         <Container>
           <TopContainer img_src = {this.props.data.img}>
-              <Head>{this.props.data.title}</Head>
-              <Subtitle>{this.props.data.description}</Subtitle>
+              <Head>{this.props.data.name}</Head>
+              <Subtitle>{this.props.data.blurb}</Subtitle>
           </TopContainer>
 
           <BottomContainer>
