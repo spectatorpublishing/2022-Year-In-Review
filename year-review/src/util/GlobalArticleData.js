@@ -409,7 +409,7 @@ const data = {
         "blurb": "From faculty sexual misconduct to administrative shifts within the School of General Studies, Spectator’s news team has compiled coverage of some of the top storylines that have driven student, faculty, and administrative discourse on campus. Below, find some of the most talked-about and top investigative stories from the past year:",
         "items": [
             {
-                "name": "Columbia faces onslaught of sexual misconduct allegations, litigation against faculty and administrators",
+                "name": "Columbia faces onslaught of sexual misconduct allegations",
                 "img": "",
                 "blurb": "The summer saw Columbia face a high-profile lawsuit involving a former business school faculty member and a senior professor in her department, resulting in a million-dollar settlement. The fall semester began with another shocking lawsuit against the former dean of students in the School of General Studies, who was removed from his post soon after University administrators became aware of his misconduct, Columbia said in a statement. Around that time, a business school student publicly spoke out about allegations against a classmate, and claimed that she was not given proper accommodations and forced to see him unless she adjusted her own daily schedule. Behind the scenes, Columbia’s handling of allegations, particularly those against tenured faculty, proved to be unimaginably complex—many of those accused or found guilty remain on campus, facing few sanctions, and even continuing to teach students.",
                 "articles": [
@@ -477,7 +477,7 @@ const data = {
                 ]
             },
             {
-                "name": "Multiple incidents of hate crimes, racist harassment incite discussion of campus safety for students of color",
+                "name": "Hate crimes, racist harassment incite discussion of campus safety",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OAP5KY7RONBWXKVHSXOM74MFJY.jpg",
                 "blurb": "After a series of incidents involving racist, and particularly anti-black, harassment on Columbia and Barnard’s campuses, hundreds of students called into question the University’s role in responding to bias as an academic institution. Many pointed to the Core Curriculum as a means of spreading white supremacist ideologies, while others also referenced both Columbia and Barnard’s failure in explicitly labeling various incidents as racist. Further, citing a lack of transparency from the University writ large, students of color emphasized that it often does not feel as though administrators are on their side.",
                 "articles": [
@@ -520,7 +520,7 @@ const data = {
                 ]
             },
             {
-                "name": "Push for faculty diversity and equity grows, but financial shortages slow progress on perennial concerns",
+                "name": "Push for faculty diversity grows, but financial shortages slow progress",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NMAJDV44ONDJHKNYEZ7N6NLJB4.jpg",
                 "blurb": "The semester started with a landmark decision—the official approval of Columbia’s first African American and African Diaspora studies department, a significant move in increasing dedication to diversity in academia. With the release of a whopping 145-page report on the status of female and underrepresented minority faculty members within Arts and Sciences, the Policy Planning Committee continued to spark conversation across the University regarding racism, harassment, and discrimination in academia. Though Columbia as a university has dedicated $185 million in funds to hiring diverse faculty, the report showed that departments will require substantial cultural and policy-level change in order to rectify disparities caused by lack of resources for faculty childcare and nonexistent grievance procedures to report instances of harassment, among other issues. As Provost John Coatsworth is set to step down at the end of June, questions regarding resources for faculty, pipeline programs for diversity, and faculty benefits will be transferred to a new administrator for the first time in nearly a decade.",
                 "articles": [
@@ -557,7 +557,7 @@ const data = {
                 ]
             },
             {
-                "name": "Columbia and Barnard struggle to achieve vision of socioeconomic diversity",
+                "name": "Columbia and Barnard struggle to achieve vision of socioeconomic diversity ",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YP4TF6HLF5HWVNMJ44SP5ESU3U.jpg",
                 "blurb": "",
                 "articles": [
@@ -594,7 +594,7 @@ const data = {
                 ]
             },
             {
-                "name": "Barnard surges forward under President Sian Beilock alongside new team of administrators",
+                "name": "Barnard surges forward under President Sian Beilock, new administrators",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EKD3OT64JBF2JDN4EMXBQSLCC4.jpg",
                 "blurb": "",
                 "articles": [
@@ -668,7 +668,7 @@ const data = {
                 ]
             },
             {
-                "name": "In an increasingly crowded city, Columbia faces growing pains and an undeniable need to expand",
+                "name": "In an increasingly crowded city, Columbia faces growing pains",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OEFZY3NDTFCQNHY2RG5LU4KOTE.jpg",
                 "blurb": "",
                 "articles": [
@@ -699,7 +699,7 @@ const data = {
                 ]
             },
             {
-                "name": "Student government faces divisions from inside and out, draws increased scrutiny with unusual entrance into spotlight",
+                "name": "Student government faces draws scrutiny with unusual entrance into spotlight",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/64ROH3NG7BDRDGGTUQPGHLPKGE.jpg",
                 "blurb": "Though student representatives cite significant frustrations regarding their relationship with administrators and faculty, particularly within the University-wide Senate, CCSC in particular has recently established a stronger presence among the student body writ large. The Boycott, Divestment and Sanctions movement returned to the council spotlight, inciting threats of resignation from representatives during a four-hour-long debate that culminated in an unprecedented secret ballot vote. Four representatives ultimately did resign following weeks of controversy surrounding election violations and lack of transparency surrounding the Columbia Elections Commission. ",
                 "articles": [
@@ -1581,7 +1581,8 @@ const data = {
             }
         ]
     },
-    "Design": {
+    "Design": 
+    {
         "blurb": "Upholding Spec's mandate as a visuals-first publication, Design has widened the ways Spec reports with innovative graphics, illustrations, data stories, and interactive media. From content in collaboration with Opinion to The Eye, Design hopes to showcase the diverse talents that its staff possess and tell engaging stories in ways that words cannot.",
         "items": [{
             "name": "Data Visualization",
@@ -1612,8 +1613,163 @@ const data = {
                     "img": ""
                 }
             ]
+        },{
+            "name": "Graphics",
+            "items": [{
+                "img_square": "Up against the invincible: Side-stepping the system",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TEWQNU54EJF25F2FRN33AVKTYE.jpg",
+                "caption": "Despite the filing a report against a member of faculty for sexual misconduct, the final result is that they still retain access to campus.",
+                "storyurl": "https://www.columbiaspectator.com/news-features/2019/04/11/up-against-the-invincible-side-stepping-the-system/",
+                "contributor": "Jason Kao / Senior Staff Designer"
+            }, {
+                "img_square": "What Is Columbia Doing With Your Data?",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FDW7V6YKA5GO7C22XJPLOT7JUE.jpg",
+                "caption": "These two life cycles of student data show that the law does not differentiate between electronic and paper data, resulting in holes within the lifecycle of virtual data protection under FERPA. GDPR, on the other hand, is tighter on security of the owner of the data.",
+                "storyurl": "https://www.columbiaspectator.com/the-eye/2019/03/01/what-is-columbia-doing-with-your-data/",
+                "contributor": "Jason Kao / Senior Staff Designer"
+            }, {
+                "img_square": "University insurance rate doubled over last fiscal year, in part due to influx of lawsuits",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PXKURAEQH5CGNJQRZZIBR3LUDA.jpg",
+                "caption": "Columbia University's insurance rate has almost doubled from the 2017 fiscal year, rising to 23.7 million in the 2018 fiscal year. This is a 95.2 percent increase.",
+                "storyurl": "https://www.columbiaspectator.com/news/2019/04/04/university-insurance-rate-doubled-over-last-fiscal-year-in-part-due-to-influx-of-lawsuits-2/",
+                "contributor": "Raeedah Wahid / Staff Designer"
+            }, {
+                "img_square": "A Cap on Credits, a Shift in Culture",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LUYDGQQUKZGV3OC37ZXPZQSLX4.jpg",
+                "caption": "Barnard College implemented an 18 credit cap, which effectively lowered the number of students completely over 18 credits by seven percent between fall 2015 and fall 2017.",
+                "storyurl": "https://www.columbiaspectator.com/the-eye/2019/03/25/a-cap-on-credits-a-shift-in-culture/",
+                "contributor": "Raeedah Wahid / Staff Designer"
+            }, {
+                "img_square": "How Have Local Hiring Targets Shaped Columbia’s Manhattanville Construction Site?",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HAO3WHUT7ZCVLCZMV4ZLFPAKLY.png",
+                "caption": "Despite the commitment expressed in the Community Benefits Agreement to give at least 40 percent of the working hours and at least 35 percent of the construction spending to minorities, women, and local subcontractors, the statistics show that this in fact did not happen.",
+                "storyurl": "https://www.columbiaspectator.com/the-eye/2019/02/06/how-have-local-hiring-targets-shaped-columbias-manhattanville-construction-site/",
+                "contributor": "Xixi Wang / Staff Designer"
+            }, {
+                "img_square": "The Constitution of a Community",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AVBZBHEK6VB3HCQIE66K3NQC5Y.jpg",
+                "caption": "In \"How victims choose to report sexual assault\", the majority of the reported sexual assault data reports that the instances are either not labeled as such or told to a friend.",
+                "storyurl": "https://www.columbiaspectator.com/eye-lead/2019/02/24/the-constitution-of-a-community-why-student-clubs-are-starting-to-take-sexual-violence-response-into-their-own-hands/",
+                "contributor": "Spencer Bruce / Staff Designer"
+            }, {
+                "img_square": "How Can Barnard Help Cultivate Community for its FGLI Students?",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QXGAQTGIHFDQVIDF2U63O5ZN54.jpg",
+                "caption": "According to a New York Times report, 65 percent of Barnard's student body come from families who rank in the top 20 percent of income earners nationwide, 20 percent come from the bottom 60 percent of earners, and 6.6 percent come from the bottom 20 percent of earners.",
+                "storyurl": "https://www.columbiaspectator.com/the-eye/2019/02/26/how-can-barnard-help-cultivate-community-for-its-fgli-students/",
+                "contributor": "Sofìa Sánchez-Zárate / Staff Designer"
+            }, {
+                "img_square": "CC, SEAS tuition to be most expensive in the nation at over $62,000",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NVLNRLVLUZB57LB3YQD7NXNSLA.jpg",
+                "caption": "While tuition across the Ivy League has increased somewhat consistently since 2006, Columbia's tuition remains at the top, reaching $62,000 for the 2019-2020 academic school year.",
+                "storyurl": "https://www.columbiaspectator.com/news/2019/05/02/cc-seas-tuition-to-be-most-expensive-in-the-nation-at-over-62000/",
+                "contributor": "Xixi Wang / Staff Designer"
+            }, {
+                "img_square": "Close to 40 percent of non-joint or dual-program GS students experience food insecurity, survey shows",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EP4JYN5XGZCL5AGMSGBWSZWA3A.jpg",
+                "caption": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "storyurl": "https://www.columbiaspectator.com/news/2019/03/28/close-to-40-percent-of-non-joint-or-dual-program-gs-students-experience-food-insecurity-survey-shows/",
+                "contributor": "Laurel Kim / Senior Staff Designer"
+            }]
+        }, {
+            "name": "Illustrations",
+            "items": [{
+                "img_square": "I created columbia buy sell memes",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2VNEOYU2VZCOBKM62M7ARCIDVM.gif",
+                "caption": "An outline of Columbia's campus map is layered on top of a scrolling Facebook feed consisting of columbia buy sell memes.",
+                "storyurl": "https://www.columbiaspectator.com/opinion/2019/02/15/i-created-columbia-buy-sell-memes/",
+                "contributor": "Helen Yang / Staff Illustrator"
+            }, {
+                "img_square": "Maruchan culture",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TA7HYAKC2ZAYFEOPB7FEKSM26Y.jpg",
+                "caption": "Instant ramen is tied to college culture because it's so cheap - anyone could afford to buy cups and cups of these dried noodles, which is depicted in this illustration.",
+                "storyurl": "https://www.columbiaspectator.com/opinion/2019/02/25/maruchan-culture/",
+                "contributor": "Elizabeth Nichols / Staff Illustrator"
+            }, {
+                "img_square": "In defense of Black American culture",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/MSKNSCS2IRDQJDFWSDP4AK7ABY.png",
+                "caption": "This piece focused on Black American culture mentions Beyoncé, who is drawn digitally on an old television set, the backlights shining through her flowing hair.",
+                "storyurl": "https://www.columbiaspectator.com/opinion/2019/03/15/in-defense-of-black-american-culture/",
+                "contributor": "Sookeun Jung / Staff Illustrator"
+            }, {
+                "img_square": "I just want to read about bacteria",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DUF65QRGMRDVXG4Y76INFPBCUA.png",
+                "caption": "I just want to read about bacteria",
+                "storyurl": "https://www.columbiaspectator.com/opinion/2019/03/14/i-just-want-to-read-about-bacteria/",
+                "contributor": "Lilly Kwon / Staff Illustrator"
+            }, {
+                "img_square": "EC is a death trap. Why do we continue to venerate it?",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/H7HTBRCE6ZEZ3K3H3HSR6P2YIA.jpg",
+                "caption": "EC is a death trap. Why do we continue to venerate it?",
+                "storyurl": "https://www.columbiaspectator.com/opinion/2019/02/19/ec-is-a-death-trap-why-do-we-continue-to-venerate-it/",
+                "contributor": "Charlotte Force / Staff Illustrator"
+            }, {
+                "img_square": "Columbia’s “sustainable development” needs Indigenous perspectives",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G7L47BNTYFH37MTOKROAWVHF7U.png",
+                "caption": "Columbia’s “sustainable development” needs Indigenous perspectives",
+                "storyurl": "https://www.columbiaspectator.com/opinion/2019/01/25/columbias-sustainable-development-needs-indigenous-perspectives/",
+                "contributor": "Daniela Casalino / Staff Illustrator"
+            }, {
+                "img_square": "Why do we think poor students can’t have nice things?",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VIGEOPL3GNFBVMCRCXNRPSZ5LU.jpg",
+                "caption": "Why do we think poor students can’t have nice things?",
+                "storyurl": "https://www.columbiaspectator.com/opinion/2019/03/07/why-do-we-think-poor-students-cant-have-nice-things/",
+                "contributor": "Sam Wilcox / Staff Illustrator"
+            }, {
+                "img_square": "In my search for the one, I found the ones",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EB5AZIJSEVD3FEKFHVH2RS36MQ.gif",
+                "caption": "In my search for the one, I found the ones",
+                "storyurl": "https://www.columbiaspectator.com/opinion/2019/02/13/in-my-search-for-the-one-i-found-the-ones/",
+                "contributor": "Tassneen Bashir / Senior Staff Illustrator"
+            }, {
+                "img_square": "To the sport I loved before",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EB7DLIKU3RALLPIWTZZWNIPLVU.jpg",
+                "caption": "To the sport I loved before",
+                "storyurl": "https://www.columbiaspectator.com/opinion/2019/04/11/to-the-sport-i-loved-before-2/",
+                "contributor": "Rebecca Holloway / Staff Illustrator"
+            }, {
+                "img_square": "8 Productive ways to procrastinate studying",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TNHS64YNXNDFLCUBGQRMNY4WKU.png",
+                "caption": "8 Productive ways to procrastinate studying",
+                "storyurl": "https://www.columbiaspectator.com/spectrum/2019/02/28/8-productive-ways-to-procrastinate-studying/",
+                "contributor": "Ara Uhr / Staff Illustrator"
+            }, {
+                "img_square": "What romance movie are you based on your major?",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UM3XDVG6U5CERONYNMY3BD23QA.jpg",
+                "caption": "What romance movie are you based on your major?",
+                "storyurl": "https://www.columbiaspectator.com/spectrum/2019/02/18/what-romance-movie-are-you-based-on-your-major/?fb_comment_id=2146237845433892_2153963004661376",
+                "contributor": "Sachi Thomsen / Staff Illustrator"
+            }, {
+                "img_square": "A Little Village, Its Boundaries, and Its Stewards",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/MG2JY57RI5BVPMZU64WWJJSKKY.JPG",
+                "caption": "In Certain Science and Engineering Fields, Sex Diversity Among Graduate Students Is Stagnating. In Others, It’s Getting Worse.",
+                "storyurl": "https://www.columbiaspectator.com/the-eye/2019/02/13/a-little-village-its-boundaries-and-its-stewards/",
+                "contributor": "Claire Easton / Staff Illustrator"
+            }, {
+                "img_square": "Officially Epileptic",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JTEAAYU3U5GERBYPLAK65MVAGE.gif",
+                "caption": "Officially Epileptic",
+                "storyurl": "https://www.columbiaspectator.com/the-eye/2019/02/25/officially-epileptic/",
+                "contributor": "Brenda Huang / Senior Staff Illustrator"
+            }, {
+                "img_square": "Meet Me On the Lighted Path",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ME335UDYZREDFCU3V63LCS2MVQ.png",
+                "caption": "Meet Me On the Lighted Path",
+                "storyurl": "https://www.columbiaspectator.com/the-eye/2019/02/19/meet-me-on-the-lighted-path/",
+                "contributor": "Avigail Borah / Staff Illustrator"
+            }, {
+                "img_square": "Your token mentally stable woman",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SKKUY446T5A5ZEWW5A5XNA22WY.jpg",
+                "caption": "Your token mentally stable woman",
+                "storyurl": "https://www.columbiaspectator.com/opinion/2019/02/22/your-token-mentally-stable-woman/",
+                "contributor": "Aaron Jackson and Sookeun Jung / Staff Illustrators"
+            }, {
+                "img_square": "An ode to “yeet”",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SUUSTO3UVVHKZLYDQKT4HPKRDE.png",
+                "caption": "An ode to “yeet”",
+                "storyurl": "https://www.columbiaspectator.com/opinion/2019/04/02/an-ode-to-yeet/",
+                "contributor": "Beatrice Lintner / Staff Illustrator"
+            }, ]
         }]
-
     }
 }
 export default data;
