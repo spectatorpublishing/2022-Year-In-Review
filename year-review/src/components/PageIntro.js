@@ -10,10 +10,8 @@ let TempTitle = styled.h1`
   z-index: 2;
   position: relative;
   font-size: 12em;
-  margin-top: 0.7em;
   @media (max-width: 991px){
         font-size: 6rem;
-        background-color: red;
   }
 `
 
@@ -21,10 +19,13 @@ let TempHeader = styled.div`
   height: 95vh;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   background-image: url(${props => props.img_src});
   background-position: center;
   background-size: cover;
   background-color: blue;
+  justify-content: center;
+  align-items: center;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 
@@ -39,21 +40,16 @@ let TempHeader = styled.div`
 `
 
 const TitleBlurb = styled.p`
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 25;
-  margin-left: 50px;
-  margin-right: 50px;
   color: white;
-  margin-top: 18em;
+  margin-top: 3rem;
   text-align: center;
   z-index: 2;
   position: relative;
-  @media (max-width: 991px){
-        margin-left: 0px;
-        margin-right: 0px;
-        font-size: 6rem;
-        background-color: red;
-  }
+  margin-left: 15rem;
+  margin-right: 15rem;
+
   
 `;
 
