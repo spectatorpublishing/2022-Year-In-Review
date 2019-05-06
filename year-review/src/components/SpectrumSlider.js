@@ -1,107 +1,121 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
-import { ReactComponent as Arrow } from '../assets/right_arrow.svg';
+import { ReactComponent as ArrowR } from '../assets/right_arrow.svg';
+import { ReactComponent as ArrowL } from '../assets/left_arrow.svg';
 
-const RightArrow = styled(Arrow)`
-  & path {
+const RightArrow = styled(ArrowL)`
+	transform: rotate(180deg);
+	& path {
     stroke: ${props => props.theme.transparentWhite};
   }
-
   &:hover path {
     stroke: ${props => props.theme.white};
-  }
+	}
+	position: absolute;
+	top: 50vh;
+	left: 90vw;
 `;
-const LeftArrow = styled(RightArrow)`
-  transform: rotate(180deg);
+
+const LeftArrow = styled(ArrowL)`
+	& path {
+		stroke: ${props => props.theme.transparentWhite};
+	}
+	&:hover path {
+		stroke: ${props => props.theme.white};
+	}
+	position: absolute;
+	top: 50vh;
+	left: 5vw;
+	z-index: 5;
+`;
+
+const ColumnWrapper = styled.div`
+	display: flex;
+	width: 100vw;
+	overflow: hidden;
+	position: relative;
+
 `;
 
 const Contain = styled.div`
-display: flex;
-flex-direction: row;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	transform: translate(${({translateValue}) => translateValue}vw);
 `;
 
 const Column = styled.div`
 	display: flex;
 	width: 25vw;
-	height: 100vh;
-	background-image: url(${({img_src}) => img_src});
+	height: 75vh;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(${({img_src}) => img_src});
 	text-align: center;
-    background-position: center;
-`
+  background-position: center;
+`;
 
-const Title = styled.h3`
+const Title = styled.h4`
 	margin-top: 3px;
 	color: black;
 	position: relative;
+	width: 25vw;
+	padding: 2vw;
 	top: 20%;
-`
+	color: white;
+`;
 
 class SpectrumSlider extends Component{
 	constructor(props) {
 		super(props);
 	
 		this.state = {
-		  index: this.props.index || 0,
-		  width: window.innerWidth
+			index: 0,
+			leftDisabled: true,
+			rightDisabled: false,
 		}
 
 		this.handleLeftArrowClick = this.handleLeftArrowClick.bind(this);
 		this.handleRightArrowClick = this.handleRightArrowClick.bind(this);
-	  }  
+	  }
 
-	handleClick(link) {
-		this.props.history.push(link)
+	handleLeftArrowClick() {
+
+		if (this.state.index > 0) {
+			this.setState({ index: this.state.index - 1});
+		} 
+		else {
+			this.setState({ index: this.props.data.length - 4});
+
+		}
 	}
 
-	handleKeyDown(e) {
-		switch (e.key) {
-		  case "ArrowLeft":
-			this.handleLeftArrowClick();
-			break;
-		  case "ArrowRight":
-			this.handleRightArrowClick();
-			break;
-		  case "Escape":
-			this.props.onCloyarse();
-			break;
-		  default:
-			break;
-		}
-	  }
+	handleRightArrowClick() {
+		if (this.state.index + 4 < this.props.data.length) {
+			this.setState({ index: this.state.index + 1 });
 
-	  handleLeftArrowClick() {
-		if (this.state.index > 0) {
-		  this.setState({ index: this.state.index - 1});
-		} else {
-		  this.setState({ index: this.props.media.length - 1});
+		} 
+		else {
+			this.setState({ index: 0 });
 		}
-	  }
-	
-	  handleRightArrowClick() {
-		if (this.state.index + 1 < this.props.media.length) {
-		  this.setState({ index: this.state.index + 1 });
-		} else {
-		  this.setState({ index: 0 });
-		}
-	  }
+	}
 
 	render(){
 		const grid = this.props.data.map((data, i) => {
 			return (
-				<Column img_src={data.img_src} key={i} index={i} 
-		    		onClick = {() => this.handleClick(data.link)}>
-	                <Title>{data.title}</Title>
-	    		</Column>
-	    		
-    		)
+			<Column img_src={data.img} key={i} index={i} 
+				onClick = {() => this.handleClick(data.link)}>
+					<Title>{data.title}</Title>
+			</Column>
+			)
 		});
 
 		return (
-			<div>
-		    <LeftArrow onClick={this.handleLeftArrowClick} /> 
-				<Contain>{grid}</Contain> 
-			<RightArrow onClick={this.handleRightArrowClick} />
-			</div>
+			<ColumnWrapper>
+				<Contain translateValue={this.state.index*(-25)}> {grid}</Contain>
+				<LeftArrow onClick={this.handleLeftArrowClick} />
+				<RightArrow onClick={this.handleRightArrowClick} />
+			</ColumnWrapper>		
+
 		);
 	} 
     
@@ -109,64 +123,3 @@ class SpectrumSlider extends Component{
 }
 export default SpectrumSlider;
 
-// constructor(props) {
-// 	super(props);
-
-// 	this.state = {
-// 	  index: this.props.index || 0,
-// 	  width: window.innerWidth
-// 	}
-
-// 	this.handleKeyDown = this.handleKeyDown.bind(this);
-// 	this.handleWindowSizeChange = this.handleWindowSizeChange.bind(this);
-// 	this.handleLeftArrowClick = this.handleLeftArrowClick.bind(this);
-// 	this.handleRightArrowClick = this.handleRightArrowClick.bind(this);
-//   }
-
-// componentDidMount() {
-// 	window.addEventListener("resize", this.handleWindowSizeChange);
-// 	window.addEventListener("keydown", this.handleKeyDown);
-// }
-
-// componentWillUnmount() {
-// 	window.removeEventListener("resize", this.handleWindowSizeChange);
-// 	window.removeEventListener("keydown", this.handleKeyDown);
-// }
-
-// handleKeyDown(e) {
-// 	switch (e.key) {
-// 		case "ArrowLeft":
-// 		this.handleLeftArrowClick();
-// 		break;
-// 	case "ArrowRight":
-// 		this.handleRightArrowClick();
-// 		break;
-// 	case "Escape":
-// 		this.props.onClose();
-// 		break;
-// 	default:
-// 	break;
-// 	}
-// }
-
-// handleWindowSizeChange() {
-// 	this.setState({ width: window.innerWidth });
-// }
-
-// handleLeftArrowClick() {
-// 	if (this.state.index > 0) {
-// 		this.setState({ index: this.state.index - 1});
-// 	} 
-// 	else {
-// 		this.setState({ index: this.props.media.length - 1});
-// 	}
-// }
-
-// handleRightArrowClick() {
-// 	if (this.state.index + 1 < this.props.media.length) {
-// 		this.setState({ index: this.state.index + 1 });
-// 	} 
-// 	else {
-// 		this.setState({ index: 0 });
-// 	}
-// }

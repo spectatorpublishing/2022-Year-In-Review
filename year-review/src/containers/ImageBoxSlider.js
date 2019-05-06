@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import styled from 'styled-components'
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
-import Article from '../components/Article'
+import Article from '../components/ArticleBox'
 import MobileArticleBox from '../components/MobileArticleBox'
 import ScrollArrow from '../components/ScrollArrow'
 
 import white_arrow from '../assets/right_arrow.svg'
 import black_arrow from '../assets/left_arrow.svg'
-import filledCircle from '../assets/filledCircle.png'
-import emptyCircle from '../assets/emptyCircle.png'
+import filledCircle from '../assets/filledCircle.svg'
+import emptyCircle from '../assets/emptyCircle.svg'
 
 
 const n = 2
@@ -23,6 +23,9 @@ const ImageContainer = styled.div`
 	position: absolute;
 	top: 5vh;
 	left: 10vw;
+	@media (max-width: 991px){
+        top: 0vh;
+    }
 `
 const MobileArticleContainer = styled.div`
 	width: 80vw;
@@ -53,6 +56,9 @@ const CircleContainer = styled.div`
 	text-align: center;
 	position: absolute;
 	top: 30vh;
+	@media (max-width: 991px){
+        top: 45vh;
+    }
 `
 const Circle = styled.img`
 	margin: 10px;
@@ -151,8 +157,8 @@ class ImageBoxSlider extends Component {
 	render(){
 		let boxes = this.props.data.map ( (data,i) => 
 			<Article title= {data.title} author={data.author} 
-				onClick = {() => this.props.handleClick(i)} 
-				description={data.description} img_src={data.img_src} key = {i}/>)
+				onClick = {() => this.props.handleClick(i)} url={data.link}
+				img_src={data.img} key = {i}/>)
 
 		let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
 		let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
@@ -164,13 +170,13 @@ class ImageBoxSlider extends Component {
 				let article2 = null
 				if (i !== this.props.data.length-1){
 					let data2 = this.props.data[i+1]
-					article2 = <Article title= {data2.title} author={data2.author} url = {data2.url}
-							description={data2.description} img_src={data2.img_src} />
+					article2 = <Article title= {data2.title} author={data2.author} url = {data2.link}
+							img_src={data2.img} />
 				}
 				return (
 					<MobileArticleContainer key = {i}>
-						<Article title= {data.title} author={data.author} url = {data.url}
-							description={data.description} img_src={data.img_src} />
+						<Article title= {data.title} author={data.author} url = {data.link}
+							img_src={data.img} />
 						{article2}
 					</MobileArticleContainer>
 				)
@@ -198,7 +204,7 @@ class ImageBoxSlider extends Component {
 					</BoxPanel>
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 
-				<ScrollArrow />	
+				<ScrollArrow mobile/>	
 			</div>
 	      </MobileAndTablet>,
 	      

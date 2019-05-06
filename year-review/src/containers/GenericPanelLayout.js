@@ -17,7 +17,7 @@ const TopContainer = styled.div`
   width: 100vw;
   height: ${props => props.isMobile? '40vh' : '60vh'};
   float: top;
-  background-image: url(${({img_src}) => img_src});
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${({img_src}) => img_src});
 `
 
 const BottomContainer = styled.div`
@@ -38,6 +38,8 @@ const MobileHead = styled.h3`
   padding: 4vh 0vw 2vh 8vw;
   color: white;
   width: 80vw;
+  text-size: 10px;
+  font-size: 1.5rem;
 `
 
 const Subtitle = styled.p`
@@ -84,23 +86,23 @@ export default class GenericPanelLayout extends Component {
     return (
       [
       <MobileAndTablet>
-        <TopContainer img_src = {this.props.data.img_src} isMobile = {this.state.isMobile} />
+        <TopContainer img_src = {this.props.data.img} isMobile = {this.state.isMobile} />
 
         <BottomContainer isMobile = {this.state.isMobile}>
-          <MobileHead>{this.props.data.title}</MobileHead>
-          <ImageBoxSlider data = {this.props.data.article_box_data}/>
+          <MobileHead>{this.props.data.name}</MobileHead>
+          <ImageBoxSlider data = {this.props.data.articles}/>
         </BottomContainer>
       </MobileAndTablet>,
       
       <Desktop>
         <Container>
-          <TopContainer img_src = {this.props.data.img_src}>
-              <Head>{this.props.data.title}</Head>
-              <Subtitle>{this.props.data.description}</Subtitle>
+          <TopContainer img_src = {this.props.data.img}>
+              <Head>{this.props.data.name}</Head>
+              <Subtitle>{this.props.data.blurb}</Subtitle>
           </TopContainer>
 
           <BottomContainer>
-              <ImageBoxSlider data = {this.props.data.article_box_data}/>
+              <ImageBoxSlider data = {this.props.data.articles}/>
           </BottomContainer>
         </Container>
       </Desktop>

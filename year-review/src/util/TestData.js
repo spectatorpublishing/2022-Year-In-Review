@@ -1,4 +1,4 @@
-export const test_img3 = "https://placekitten.com/962/1096"
+export const test_img3 = "https://placekitten.com/962/1596"
 export const test_img2 = "https://placekitten.com/301/301"
 export const test_img = "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"
 export const test_url = "http://cs.columbia.edu"
@@ -7,11 +7,13 @@ const test_wide_pic = "https://picsum.photos/1500/800"
 export const opinion_data = [
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
-	author: "Ben1",
+	author: "Ben James",
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
+
 },
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
@@ -19,7 +21,9 @@ export const opinion_data = [
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
+
 },
 {
 	front_image: "http://www.availableideas.com/wp-content/uploads/2015/07/flowers-wallpapers-hd-desktop-beautiful-back-grounds.jpg",
@@ -27,26 +31,28 @@ export const opinion_data = [
 	section: "| YOU HAVE MY WORD",
 	back_image: "https://placekitten.com/301/301",
 	title: "Disconnected from death",
-	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world"
+	body: "colleges like columbia-and most of modern society-are wrapped up with the concerns of the physical world",
+	url: "https://www.columbiaspectator.com/"
+
 },
 ]
 
 export const photo_data = [
 	{
 		title: "Observing Affection",
-		link: './affection'
+		link: "https://www.merriam-webster.com/dictionary/affection"
 	},
 	{
 		title: "The first day of the graduate student union strike",
-		link: './strike'
+		link: "https://en.wikipedia.org/wiki/Strike_action"
 	},
 	{
 		title: "The Great Columbia Snowball Fight of 2018",
-		link: './snowball'
+		link: "https://www.multiplication.com/games/play/snowball-fight"
 	},
 	{
 		title: "The March For Our Lives",
-		link: './march'
+		link: "https://en.wikipedia.org/wiki/March"
 	}
 ]
 
@@ -344,36 +350,37 @@ export const news_data =
 	]
 }
 
+const dummy = "Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary.Efficient honorificabilitudinitatibus cross-media information without floccinaucinihilipilification cross-media value. Quickly maximize timely deliverables for real-time schemas plenipotentiary."
 export const sports_slider_data = 
 [
 	{
 		title: "Title1",
 		author: "Author1",
-		url: test_url,
-		img_src: test_wide_pic
+		text: dummy,
+		img_src: test_img3
 	},
 	{
 		title: "Title2",
 		author: "Author2",
-		url: test_url,
-		img_src: test_wide_pic
+		text: dummy,
+		img_src: test_img3
 	},
 	{
 		title: "Title3",
 		author: "Author3",
-		url: test_url,
-		img_src: test_wide_pic
+		text: dummy,
+		img_src: test_img3
 	},
 	{
 		title: "Title4",
 		author: "Author4",
-		url: test_url,
-		img_src: test_wide_pic
+		text: dummy,
+		img_src: test_img3
 	},
 	{
 		title: "Title5",
 		author: "Author5",
-		url: test_url,
-		img_src: test_wide_pic
+		text: dummy,
+		img_src: test_img3
 	},
 ]

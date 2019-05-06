@@ -15,6 +15,7 @@ import ExpandingColumns from '../components/ExpandingColumns';
 import Footer from '../components/Footer.js';
 import FooterHome from '../components/FooterHome.js';
 import SpectrumSlider from '../components/SpectrumSlider.js';
+import ArticleBox from '../components/ArticleBox.js';
 
 // Data for testing
 
@@ -221,7 +222,15 @@ storiesOf('ImageBoxSlider', module).add("GenericPanelLayout",() => <GenericPanel
 storiesOf('HomePage', module).add('HomePage',() => <HomePage img_src={test_wide_pic}/>)
 
 // Test Generic Panel Layout
-storiesOf('Spectrum', module).add("ArticleSlider",() => <SpectrumSlider data = {opinion_data}/>)
+storiesOf('Spectrum', module).add("ArticleSlider",() => <SpectrumSlider data = {image_slider_data}/>)
+
+let ArticleData = [
+	"Why does my cat love this fucking box",
+	"Arsalaan Ansari",
+	"https://mtdata.ru/u7/photo53A0/20946911428-0/original.jpg#20946911428",
+	"https://www.google.com"
+]
+storiesOf('ArticleBox', module).add('ArticleBox', () => <ArticleBox title={ArticleData[0]} author={ArticleData[1]} image={ArticleData[2]} url={ArticleData[3]} /> )
 
 // Test Footer
 storiesOf('Footer', module).add("Footer",() => <Footer />)
