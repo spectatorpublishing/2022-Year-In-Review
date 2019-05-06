@@ -75,7 +75,7 @@ const Desc = styled.div`
 
 const articlebox = (props) => {
     return (
-        [
+        <React.Fragment>
         <Desktop>
         <Article>
             <Container onClick={() => window.open(props.url, "_blank")}>
@@ -86,7 +86,7 @@ const articlebox = (props) => {
                 </Text>
             </Container>
         </Article>
-        </Desktop>,
+        </Desktop>
         <Mobile>
         <Article>
             <Container onClick={() => window.open(props.url, "_blank")}>
@@ -98,7 +98,7 @@ const articlebox = (props) => {
             </Container>
         </Article>
         </Mobile>
-        ]
+        </React.Fragment>
     );
 }
 
