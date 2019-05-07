@@ -288,7 +288,7 @@ class NavBar extends Component {
         key={i}
         styled={{isMobile}}
         mobile={isMobile ? 1 : 0} // work around for react-router link not playing nice with non-standard attributes
-        to={item.link}
+        to={"/2018-year-review" + item.link}
         activeClassName={"navLinkActive"}
         isActive={(match, location) => this.updateTitle(match, item.name)}
         onClick={this.forceClose}
