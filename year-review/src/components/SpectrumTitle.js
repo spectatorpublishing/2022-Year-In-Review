@@ -78,7 +78,7 @@ const SpectrumBubbleWrapper = styled.div`
 
 const SpectrumTitleWrapper = styled.div`
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 48px);
 `
 
 const StyledSpectrumBubble = styled.div`

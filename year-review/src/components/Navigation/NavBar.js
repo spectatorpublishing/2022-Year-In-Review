@@ -315,7 +315,7 @@ class NavBar extends Component {
 
     const mobileMenu = (
       <React.Fragment>
-        {this.props.fixed && <MobileText>{this.props.location.hash.slice(1).toUpperCase()}</MobileText>}
+        {this.props.fixed && <MobileText>{this.props.location.hash.slice(1).replace(/-+/g, " ").toUpperCase()}</MobileText>}
         <MenuBtn 
           type="checkbox" 
           id={this.props.isScrolling ? "scrolling-menu-btn" : "menu-btn"}
