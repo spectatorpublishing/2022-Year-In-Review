@@ -738,20 +738,20 @@ const data = {
         sections: 
         [
           {
-            "name": " CITY REPORTING",
-            "link": "#CITY REPORTING"
+            "name": " CITY",
+            "link": "#CITY"
           },
           {
-            "name": " ACADEMICS REPORTING",
-            "link": "#ACADEMICS REPORTING"
+            "name": " ACADEMICS",
+            "link": "#ACADEMICS"
           },
           {
-            "name": " STUDENT LIFE REPORTING",
-            "link": "#STUDENT LIFE REPORTING"
+            "name": " STUDENT LIFE",
+            "link": "#STUDENT LIFE"
           },
           {
-            "name": " BEST ESSAYS",
-            "link": "#BEST ESSAYS"
+            "name": " ESSAYS",
+            "link": "#ESSAYS"
           }
         ],
         "blurb": "As Spectator’s long-form magazine, The Eye has spent the past year pursuing rigorous, thorough, and empathetic journalism. Through character driven stories with an emphasis on voice and style, we have sought to engage with, inform, and challenge the Columbia community—to evoke something within you, our readers. Put simply: to read an Eye piece is to feel, to think critically, and to draw closer to those who share our spaces. ",

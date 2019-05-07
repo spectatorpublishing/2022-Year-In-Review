@@ -12,7 +12,6 @@ const Flipcard = styled.div`
   @media only screen and (min-width:992px){
     width: 25vw;
     height: 25vw; 
-    margin: 0;
     ${({flip}) => flip && `
     perspective: 1000px;
     -webkit-perspective: 1000px;
@@ -134,12 +133,11 @@ const Author = styled.h6`
 
 const Grid = styled.div`
     display: grid;
-    height: 65vh;
     @media only screen and (min-width:992px){
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-auto-rows: 50%; 
+        grid-template-columns: 25% 25% 25% 25%; 
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+        height: 25vh;
     }
 
     @media only screen and (max-width: 991px){
@@ -181,7 +179,6 @@ const ArticleLink = styled.a`
 
 const ImageBox = (props) => {
   return (
-    <div>
       <Flipcard flip={props.flip}>
         <Inner>
           {props.flip ? (
@@ -207,7 +204,6 @@ const ImageBox = (props) => {
           )}
         </Inner>
       </Flipcard>
-    </div>
   )
 }
 
