@@ -733,7 +733,7 @@ const data = {
         ]
     },
     "Eye": {
-        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ARDEZFQQZBGDXHNWV445HYDE7Y.jpg",
+        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ADENF3WRVFB6ZDHNC3ZEOGZPWE.jpg",
         sections: 
         [
           {
@@ -1291,11 +1291,11 @@ const data = {
         ]
     },
     "Opinion": {
-        "img": "",
+        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CAIX72WKZVGTDOGNIGL4JTWGAA.jpg",
         "blurb": "Within the opinion pages of Spectator, members of the Columbia community help reflect the conversations we’re having in our classrooms, dorm rooms, clubs, and dining halls. The content within this section is meant to help contextualize our experiences here as they relate to the most pressing and vulnerable topics our community grapples with.",
         "items": [{
                 "name": "OP-EDS",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/G3QRJBUXHJD5JCLBQF3QZ5I52I.jpg",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G3QRJBUXHJD5JCLBQF3QZ5I52I.jpg",
                 "blurb": "Over the past year, we have heard from you on issues ranging from union bargaining, studying abroad, the college admissions scandal, to the #MeToo movement, study spaces on campus, and more. Whether it be protesting Barnard’s dining hall food providers or engaging in discourse on the Core, the Op Eds section is where your voice is heard. ",
                 "articles": [{
                         "title": "GenderFuck and the defense of trans joy",
@@ -1445,7 +1445,7 @@ const data = {
             },
             {
                 "name": "Discourse & Debate",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TXOX2S4IYREBBOD5BH4DXST2VU.png",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4EGFXX6ILJAPTM5QU72C3AFUE4.png",
                 "blurb": "Our bimonthly platform in which a small group of contributors to engage with important questions and issues relevant to campus life. Over the past year, contributors have reckoned with questions of sexual assault, wealth disparity, Columbia’s stress culture, and the role of the University Senate. ",
                 "articles": [{
                         "title": "Discourse & Debate: How do Columbia’s wealth demographics affect student life?",
@@ -1475,7 +1475,7 @@ const data = {
             },
             {
                 "name": "Columns",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4EGFXX6ILJAPTM5QU72C3AFUE4.png",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TXOX2S4IYREBBOD5BH4DXST2VU.png",
                 "items": [{
                     "title": "Opening the box of smelly dumplings",
                     "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JW6DJYNU7ZDBRFWIZTN63PEOFQ.jpg",

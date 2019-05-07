@@ -87,28 +87,24 @@ class SpectrumSlider extends Component{
 	handleLeftArrowClick() {
 		if (this.state.leftDisabled)
 			return
-		if (this.state.index > 0) {
-			this.setState({ index: this.state.index - 1});
-		} 
-		else {
+		const cur = this.state.index-1
+		if (cur === 0)
 			this.setState({leftDisabled: true});
-		}
-		if (this.state.index === this.props.data.length-4)
+		if (cur === this.props.data.length-5)
 			this.setState({ rightDisabled: false});
+		this.setState({ index: this.state.index - 1});
 	}
 
 	handleRightArrowClick() {
 		if (this.state.rightDisabled)
 			return
-		if (this.state.index + 4 < this.props.data.length) {
-			this.setState({ index: this.state.index + 1 });
-
-		} 
-		else {
+		const cur = this.state.index+1
+		if (cur === this.props.data.length-4) {
 			this.setState({ rightDisabled: true});
 		}
-		if (this.state.index === 1)
+		if (cur === 1)
 			this.setState({ leftDisabled: false});
+		this.setState({ index: cur });
 	}
 
 	render(){
@@ -121,11 +117,14 @@ class SpectrumSlider extends Component{
 			)
 		});
 
+		const leftArrow = this.state.leftDisabled? null: <LeftArrow onClick={this.handleLeftArrowClick} />
+		const rightArrow = this.state.rightDisabled? null: <RightArrow onClick={this.handleRightArrowClick} />
+
 		return (
 			<ColumnWrapper>
 				<Contain translateValue={this.state.index*(-25)}> {grid}</Contain>
-				<LeftArrow onClick={this.handleLeftArrowClick} />
-				<RightArrow onClick={this.handleRightArrowClick} />
+				{leftArrow}
+				{rightArrow}
 			</ColumnWrapper>		
 
 		);
