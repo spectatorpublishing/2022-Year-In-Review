@@ -28,7 +28,7 @@ const Container = styled.a`
 
     @media (max-width: 991px) {
         width: 75vw;
-        height: 18vh;
+        min-height: 18vh;
     }
 
 `
@@ -71,13 +71,9 @@ const Desc = styled.div`
     font-size: 0.8rem;
     padding: 5px;
     overflow:hidden;
-    @media(max-width: 991px){
-        padding: 1px;
-    }
     text-overflow: ellipsis;
 
 `
-
 
 
 
