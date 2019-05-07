@@ -4,6 +4,12 @@ import styled, { keyframes } from 'styled-components';
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import ButtonToHome from "./ButtonToHome.js";
 
+let YIRButton = styled.div`
+  position: absolute;
+  z-index: 10;
+  top: calc(5vh + 48px);
+  left: 5vw;
+`
 
 let YIRButton = styled.div`
   position: absolute;
@@ -148,6 +154,9 @@ export default class SpectrumTitle extends React.Component {
                         {bubbles}
                     </SpectrumBubbleWrapper>
                     <TempHeader>
+                    <YIRButton>
+                        <ButtonToHome />
+                    </YIRButton>
                         <TempTitle>{this.props.title}</TempTitle>
                         <TitleBlurb>
                             {this.props.description}
