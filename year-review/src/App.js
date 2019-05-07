@@ -52,15 +52,14 @@ class App extends Component {
               </MobileAndTablet>
               <Switch>
                 <Route exact path="/" component={home} />
-                <Route exact path="/2018-year-review" component={home} />
-                <Route exact path="/2018-year-review/news" component={news} />
-                <Route exact path="/2018-year-review/opinion" component={opinion} />
-                <Route exact path="/2018-year-review/eye" component={eye} />
-                <Route exact path="/2018-year-review/photo" component={photo} />
-                <Route exact path="/2018-year-review/design" component={design} />
-                <Route exact path="/2018-year-review/sports" component={sports} />
-                <Route exact path="/2018-year-review/arts-and-entertainment" component={ane} />
-                <Route exact path="/2018-year-review/spectrum" component={spectrum} />
+                <Route exact path="/news" component={news} />
+                <Route exact path="/opinion" component={opinion} />
+                <Route exact path="/eye" component={eye} />
+                <Route exact path="/photo" component={photo} />
+                <Route exact path="/design" component={design} />
+                <Route exact path="/sports" component={sports} />
+                <Route exact path="/arts-and-entertainment" component={ane} />
+                <Route exact path="/spectrum" component={spectrum} />
               </Switch>
               <Footer />
             </React.Fragment>

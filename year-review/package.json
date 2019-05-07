@@ -2,7 +2,6 @@
   "name": "year-review",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://spectatorpublishing.github.io/2018-year-review/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -20,8 +19,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,7 +36,6 @@
     "@storybook/addon-links": "^5.0.6",
     "@storybook/addons": "^5.0.6",
     "@storybook/react": "^5.0.6",
-    "babel-loader": "^8.0.5",
-    "gh-pages": "^2.0.1"
+    "babel-loader": "^8.0.5"
   }
 }

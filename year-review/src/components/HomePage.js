@@ -88,7 +88,7 @@ export default class HomePage extends Component {
 
   getSections() {
     return this.props.menuItems.map((e, i) => 
-      <SectionTitleDiv key={i} href={"/2018-year-review" + e.link}>
+      <SectionTitleDiv key={i} href={e.link}>
         <SectionTitle>{e.name}</SectionTitle>
       </SectionTitleDiv>
     );
