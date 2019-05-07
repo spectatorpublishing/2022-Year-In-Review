@@ -67,7 +67,7 @@ class PhotoContainer extends Component {
 	render() {
     return (
       <React.Fragment>
-        <PageIntro title="PHOTO" description={this.props.data.blurb} img_src={img_src}/>
+        <PageIntro title="PHOTO" description={this.props.data.blurb} img_src={this.props.data.img}/>
         <PhotoGrid data={this.props.data.items.Photos} openLightbox={this.openLightbox}/>
 				{this.state.lightboxActive && <Lightbox
 					index={this.state.lightboxIndex} 

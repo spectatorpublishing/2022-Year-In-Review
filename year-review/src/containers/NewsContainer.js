@@ -62,7 +62,7 @@ class NewsContainer extends Component {
     return (
       <React.Fragment>
         <div onWheel = {this.handleWheel}>
-          <PageIntro title="NEWS" description={this.props.data.blurb} img_src={img_src}/>
+          <PageIntro title="NEWS" description={this.props.data.blurb} img_src={this.props.data.img}/>
           <ScrollingNavBar menuItems={this.props.data.sections}>
             {this.props.data.items.map((data, i) => 
               <GenericPanelLayout key={i} data = {this.props.data.items[i]} />)}

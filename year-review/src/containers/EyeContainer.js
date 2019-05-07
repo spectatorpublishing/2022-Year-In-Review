@@ -32,7 +32,7 @@ class EyeContainer extends Component {
     return (
       <React.Fragment>
         <div>
-          <PageIntro title="THE EYE" description={this.props.data.blurb} img_src={img_src}/>
+          <PageIntro title="THE EYE" description={this.props.data.blurb} img_src={this.props.data.img}/>
           <EditorLetter letter={letterFromTheEditor}/>
           <ScrollingNavBar menuItems={this.props.data.sections}>
             {this.props.data.items.map((data, i) => 
