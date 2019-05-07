@@ -14,6 +14,7 @@ const Container = styled.div`
 
 const TopContainer = styled.div`
   width: 100vw;
+  height: 80vh;
   float: top;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${({img_src}) => img_src});
   background-position: center;
