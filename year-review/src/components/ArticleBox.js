@@ -9,7 +9,7 @@ const Article = styled.div`
 `
 const Title = styled.h5`
     font-weight:bold;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     padding: 5px;
     @media (max-width: 991px){
         font-size: 0.8rem;
@@ -33,7 +33,7 @@ const Container = styled.a`
 `
 
 const Image = styled.div`
-        background-image: url(${({img_src}) => img_src});
+        background-image: url(${({ img_src }) => img_src});
         background-position: center;
         background-size: cover;
         margin-right: 0.5rem;
@@ -74,6 +74,10 @@ const Desc = styled.div`
 
 `
 
+
+
+
+
 const articlebox = (props) => {
     return (
         <React.Fragment>
@@ -101,7 +105,6 @@ const articlebox = (props) => {
                 </Article>
             </MobileAndTablet>
         </React.Fragment>
-
     );
 }
 
