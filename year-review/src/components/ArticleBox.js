@@ -91,7 +91,7 @@ const articlebox = (props) => {
                 </Text>
             </Container>
         </Article>
-        </Desktop>,
+        </Desktop>
 
         <MobileAndTablet>
             <Article>
@@ -104,7 +104,7 @@ const articlebox = (props) => {
                 </Container>
             </Article>
         </MobileAndTablet>
-        ]
+        </React.Fragment>
     );
 }
 
