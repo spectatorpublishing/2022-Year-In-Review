@@ -66,13 +66,14 @@ const Author = styled.p`
 // `
 
 const slide = (props) =>{
+  console.log(props.text);
   return (
     <Article>
         <Image {...props}>
             <Title>{props.title.toUpperCase()}</Title>
             <Author>BY {props.author.toUpperCase()}</Author>
             <Text> 
-              {props.text.map((data,_) => <p style={{width: "75vw"}}>{data}</p> )}
+              {props.text.map((data,_) => <div><p style={{width: "75vw"}}>{data}</p><br/></div> )}
               
             </Text>
         </Image>
