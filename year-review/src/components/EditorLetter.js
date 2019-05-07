@@ -11,8 +11,8 @@ let LetterContain = styled.div`
   flex-direction: column;
   justify-content: space-around;
   position: relative;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 `
 
 let MobileContain = styled.div`
@@ -25,7 +25,7 @@ let MobileContain = styled.div`
 
 `
 
-let TempLetter = styled.h1`
+let TempLetter = styled.h2`
   height: 15%;
   width: 80%;
   max-width: 999px;
