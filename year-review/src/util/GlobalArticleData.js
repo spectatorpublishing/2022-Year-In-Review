@@ -941,7 +941,7 @@ const data = {
         ],
         "blurb": "Arts & Entertainment strives to provide a space in which to critically discuss arts at Columbia, to give the Columbia community a closer look into the inner workings of the arts world, and to inform the community of the different types of arts and entertainment happening on campus.",
         "items": [{
-                "name": "Bacchanal’s theme, ‘Bacchanal is Canceled,’ nearly becomes self-fulfilling with slew of pranks and conflicting announcements",
+                "name": "Bacchanal issues slew of pranks and conflicting announcements",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg",
                 "blurb": "Bacchanal season started like all of those in years past, with the Battle of the Bands competition, which this year voted Oswald Fresh as the student opener. However, the annual concert quickly took an unconventional turn when, at the Bacchanal Committee’s first-ever press conference, they announced that there would be no headliner. In what was later revealed to be a weeklong prank, the Committee claimed that a headliner was canceled due to a “certain sports media group” leaking information about the concert. The headliner turned out to be Grammy-nominated artist SOPHIE, who became the concert on the steps’ first openly transgender headliner, and part of its first all-womxn lineup. ",
                 "articles": [{
@@ -977,7 +977,7 @@ const data = {
                 ]
             },
             {
-                "name": "Columbia finds new ways of engaging student in politics through fashion, film, and literature ",
+                "name": "Students engage in politics through fashion, film, literature",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N6IIVSBTMJAOZH36RBK62YWVEM.jpg",
                 "blurb": "The arts have always served as a platform to express political ideas, passions, and frustrations, and this year Columbia became a hub for such expressions, especially when it came to helping rally young voters. Voting Week, Columbia’s largest event revolving around civic engagement, introduced a fashion show for the first time as part of their initiative to register and engage student voters. From student efforts to local political figures, First Lady of New York City Chirlane McCray brought her Book Club initiative to Barnard, where she and President Sian Beilock welcomed writer Nana-Ama Danquah to discuss her writing about mental health. In the celebrity-filled weekend of the Athena Film Festival, Congresswoman Alexandria Ocasio-Cortez attended the premiere of “Knock Down the House.”  She was among a number of political figures highlighted at the festival, including Justice Ruth Bader Ginsburg, whose daughter, Columbia Law School Professor Jane Ginsburg, joined a panel discussing her mother’s work at the screening of “On the Basis of Sex.” ",
                 "articles": [{
@@ -1007,7 +1007,7 @@ const data = {
                 ]
             },
             {
-                "name": "New technology, student entrepreneurs, and a postmodern artist push boundaries in the arts ",
+                "name": "Boundaries are pushed in the arts across the field",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EF2H3AUDTFC6JMB7QAEMDADQKA.jpg",
                 "blurb": "While art is seen as an infinitely creative discipline, there can be unforeseen boundaries and technological limitations that hold it back. Many of these limitations were transcended this year like never before, starting with the work of renowned filmmaker and choreographer Yvonne Rainer, this year’s Lida A. Orzeck ’68 Distinguished Artist-in-Residence, who played a key role in the development of postmodern dance. At the Athena Film Festival, Virtual Reality Sessions let festival-goers experience film through VR, joining other fast-growing film industries in shaping the future of cinema. Although Athena only happens once a year, students will now be able to access groundbreaking technology year-round with the opening of Barnard’s Movement Lab, an innovative space for research across several disciplines. In addition, technical spectacles in theater improved dramatically. Colony Collapse, a production by the Barnard Theatre Department, featured a twenty-foot honeycomb made of recycled steel, scrap plywood and used cardboard from Barnard Dining Services. Combined with complex lighting rigs and sound effects, tech took center stage in this production. And while technology can help us push boundaries in the arts, so can visionary leaders. Zehra Naqvi, CC ’21, and her sister Sophia, CC ’23, are redefining what it means to be fashion entrepreneurs, having launched their line of empowering t-shirts at the age of 15 and 13, respectively. ",
                 "articles": [{
@@ -1043,7 +1043,7 @@ const data = {
                 ]
             },
             {
-                "name": "The arts were held accountable for their history of colonization, racism, and exclusion as students and professionals took steps to deinstitutionalize their fields ",
+                "name": "Arts held accountable for history of colonization, racism, exclusion",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PF7YKDVHW5D25FSAUAJKVODEFE.jpg",
                 "blurb": "The definition of the arts at Columbia, which has historically revolved around the Western canon, is being expanded, diversified, and critiqued by exhibitions, performances, and panels. “Posing Modernity” opened at the Wallach Gallery before moving to the Musée d’Orsay in Paris. Faculty gathered to talk about arts restitution both in the United States and in France, and the CEO of Gucci attempted to explain away the fashion brand’s blackface scandal. Black femme artists took the spotlight at Bold, Beautiful, Black, at Barnard. And a Columbia professor joined New York’s Heartbeat Opera to use an elitist art form to advocate for justice. ",
                 "articles": [{
@@ -1079,7 +1079,7 @@ const data = {
                 ]
             },
             {
-                "name": "Out with the old, in with the new: Once again, the shifting food and drink landscape around Columbia has evolved",
+                "name": "Food and drink landscape evolves around campus",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/T3KICP7M7BDDJGG47R4FBAELNI.jpg",
                 "blurb": "The Morningside Heights community saw new eateries and drinkeries popped up around campus, replacing old favorites. Former restaurant Artopolis, formerly known for its flatbread and wines, transformed into The New York Basics, a patisserie and breakfast café. While the owners remain the same, the interior and menu saw a complete rehaul that looks to target a new market. Amigos, Mexican restaurant and location of the famous $20 bottomless margaritas, became e’s BAR, a board game and retro watering hole that serves diner-style foods. As replacements seemed to dominate  the Columbia food scene, a Joe Coffee’s sprung up in the Journalism School where  UP used to be, marking the franchise’s third location in Morningside Heights.",
                 "articles": [{
