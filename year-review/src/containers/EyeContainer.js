@@ -5,6 +5,7 @@ import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
 import GenericPanelLayout from './GenericPanelLayout';
 import PageIntro from '../components/PageIntro'
 import EditorLetter from '../components/EditorLetter'
+import ButtonToHome from '../components/ButtonToHome'
 
 const img_src = "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"
 
@@ -25,12 +26,14 @@ class EyeContainer extends Component {
 
   constructor() {
       super()
+
   }
 
   render() {
     return (
       <React.Fragment>
         <div>
+          <ButtonToHome />
           <PageIntro title="THE EYE" description={this.props.data.blurb} img_src={img_src}/>
           <EditorLetter letter={letterFromTheEditor}/>
           <ScrollingNavBar menuItems={this.props.data.sections}>
