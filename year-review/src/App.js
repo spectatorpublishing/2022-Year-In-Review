@@ -19,7 +19,6 @@ import NavBar from './components/Navigation/NavBar'
 import Footer from './components/Footer'
 import ScrollArrow from './components/ScrollArrow'
 
-import { test_img } from "./util/TestData";
 import data from './util/GlobalArticleData'
 import { NavItems, NavItemsWithHome } from "./util/NavItems";
 

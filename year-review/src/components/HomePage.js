@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Background from '../assets/homepg1500x800.png';
 import whitemasthead from '../assets/whitemasthead.png';
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import "react-responsive-carousel/lib/styles/carousel.css";
@@ -121,7 +120,7 @@ export default class HomePage extends Component {
               >
                   {HomepagePhotos.map((el, i)=>
                     <div key={i}>
-                      <img src={el} />
+                      <img src={el} alt="carousel-i"/>
                     </div>
                   )}
                 </Carousel>
@@ -157,7 +156,7 @@ export default class HomePage extends Component {
               >
                   {HomepagePhotos.map((el, i)=>
                     <div key={i}>
-                      <img src={el} />
+                      <img src={el} alt="carousel-i"/>
                     </div>
                   )}
                 </Carousel>

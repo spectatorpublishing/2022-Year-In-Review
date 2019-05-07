@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import scroll from '../assets/scroll.svg';
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import ButtonToHome from "./ButtonToHome.js";
 
@@ -85,11 +84,6 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 
 
 class PageIntro extends Component {
-
-  constructor() {
-      super()
-  }
-
   render() {
     return ([
       <Desktop>

@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import arrow from '../assets/white-down-arrow-icon.png'
 import read_more from '../assets/readmore.svg'
 
 const Article = styled.div`
@@ -19,15 +18,6 @@ const Title = styled.h3`
 	top: 40vh;
   color: white;
   padding: 0vh 10vw;
-`
-
-const Arrow = styled.img`
-  width: 6vw;
-  z-index: 1;
-  position: absolute;
-  left: 90%;
-  top: 90%;
-  transform: rotate(180deg);
 `
 
 const Logo = styled.img`

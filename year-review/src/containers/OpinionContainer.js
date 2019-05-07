@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 
 import ExpandingColumns from '../components/ExpandingColumns';
 import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
@@ -15,25 +14,6 @@ const letter = "There’s an essay by Joan Didion called “Goodbye to All That�
 \n\nWithin the opinion section, students, faculty, professors, and administrators have responded to and written about how Columbia deals with sexual assault, the virulent acts of racism our campus has grappled with, the college admissions scandal, and so much more. Our job is not to report what’s going on, but to give members of this community a chance and a platform to reflect on it. We hope that the following pages, in many ways, help do just that. \
 \n\nSo now, it’s time to say goodbye to all that—for summer at least. "
 
-
-const LogoWrapper = styled.div`
-  position: sticky;
-  top: 120px;
-  height: 0;
-  z-index: 10;
-
-`
-
-const Logo = styled.h6`
-  background-color: #494949;
-  opacity: 0.8;
-  display: inline-block;
-  margin-left: 30px;
-  padding: 10px;
-  color: white;
-  border: 2px solid white;
-  border-radius: 5px;
-`
 
 export default class OpinionContainer extends Component {
 
@@ -55,7 +35,7 @@ export default class OpinionContainer extends Component {
               <GenericPanelLayout data={this.props.data.items[2]} />
             </div>
             <div>
-              <h3 style={{"height":"5vh"}}></h3>
+              <div style={{"height":"5vh"}}></div>
               <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}>Column</h3>
               <PhotoGrid data={this.props.data.items[3].items} flip />
             </div>

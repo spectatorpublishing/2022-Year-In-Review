@@ -83,10 +83,11 @@ const Desc = styled.div`
 
 
 const articlebox = (props) => {
+    let mobileTitle = null
     if(props.title.length >= 105){
-        var mobileTitle = props.title.substring(0,100) + "...";
+        mobileTitle = props.title.substring(0,100) + "...";
     }else{
-        var mobileTitle = props.title;
+        mobileTitle = props.title;
     }
     return (
         <React.Fragment>
