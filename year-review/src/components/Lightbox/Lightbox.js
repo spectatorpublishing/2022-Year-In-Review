@@ -21,6 +21,9 @@ let FullScreenContainer = styled.div`
   width: 100vw;
   height: 100vh;
   display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 100;
   background-color: ${props => props.theme.indigo};
 `
 let LightboxContainer = styled(FullScreenContainer)`
