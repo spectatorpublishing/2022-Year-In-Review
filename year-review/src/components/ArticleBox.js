@@ -9,7 +9,7 @@ const Article = styled.div`
 `
 const Title = styled.h5`
     font-weight:bold;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 5px;
     @media (max-width: 991px){
         font-size: 0.8rem;
@@ -36,7 +36,7 @@ const Image = styled.div`
         background-image: url(${({img_src}) => img_src});
         background-position: center;
         background-size: cover;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
         width: 15vw;
         height: 100%;
 		object-fit: contain;
@@ -52,9 +52,9 @@ const Image = styled.div`
 `
 const Text = styled.div`
     width: 20vw;
-    margin-top: 1rem;
     flex: 1 1 auto;
     padding: 10px;
+    overflow: hidden;
     @media(max-width: 991px){
         padding: 0px;
         margin-top: 0.7rem;
@@ -66,6 +66,7 @@ const Text = styled.div`
 const Desc = styled.div`
     font-size: 0.8rem;
     padding: 5px;
+    overflow:hidden;
     @media(max-width: 991px){
         padding: 1px;
     }
@@ -73,37 +74,34 @@ const Desc = styled.div`
 
 `
 
-
-
-
-
 const articlebox = (props) => {
     return (
-        [
-        <Desktop>
-            <Article>
-                <Container href={props.url} target="_blank">
-                  <Image img_src ={props.img_src}></Image>
-                    <Text>
-                        <Title>{props.title}</Title>
-                        <Desc>{props.author}</Desc>
-                    </Text>
-                </Container>
-            </Article>
-        </Desktop>,
+        <React.Fragment>
+            <Desktop>
+                <Article>
+                    <Container href={props.url} target="_blank">
+                        <Image img_src={props.img_src}></Image>
+                        <Text>
+                            <Title>{props.title}</Title>
+                            <Desc>{props.author}</Desc>
+                        </Text>
+                    </Container>
+                </Article>
+            </Desktop>
 
-        <MobileAndTablet>
-            <Article>
-                <Container onClick={() => window.open(props.url, "_blank")}>
-                  <Image img_src ={props.img_src}></Image>
-                    <Text>
-                        <Title>{props.title}</Title>
-                        <Desc>{props.author}</Desc>
-                    </Text>
-                </Container>
-            </Article>
-        </MobileAndTablet>
-        ]
+            <MobileAndTablet>
+                <Article>
+                    <Container onClick={() => window.open(props.url, "_blank")}>
+                        <Image img_src={props.img_src}></Image>
+                        <Text>
+                            <Title>{props.title}</Title>
+                            <Desc>{props.author}</Desc>
+                        </Text>
+                    </Container>
+                </Article>
+            </MobileAndTablet>
+        </React.Fragment>
+
     );
 }
 

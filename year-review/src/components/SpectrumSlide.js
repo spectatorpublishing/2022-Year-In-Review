@@ -32,10 +32,14 @@ const Arrow = styled.img`
 
 const Logo = styled.img`
   display: block;
-  width: 20vw;
+  width: 15vw;
   position: absolute;
-
   left: -15vw;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 0px;
+  padding-right: -2px;
 `
   
 const Link = styled.a`
