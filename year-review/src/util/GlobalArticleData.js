@@ -1291,7 +1291,7 @@ const data = {
         ]
     },
     "Opinion": {
-        "img": "",
+        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CAIX72WKZVGTDOGNIGL4JTWGAA.jpg",
         "blurb": "Within the opinion pages of Spectator, members of the Columbia community help reflect the conversations we’re having in our classrooms, dorm rooms, clubs, and dining halls. The content within this section is meant to help contextualize our experiences here as they relate to the most pressing and vulnerable topics our community grapples with.",
         "items": [{
                 "name": "OP-EDS",
