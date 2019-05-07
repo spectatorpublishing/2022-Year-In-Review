@@ -136,10 +136,10 @@ const Author = styled.h5`
 const Grid = styled.div`
     display: grid;
     @media only screen and (min-width:992px){
-        grid-template-columns: 25% 25% 25% 25%; 
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-auto-rows: 25vw; 
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        height: 25vh;
     }
 
     @media only screen and (max-width: 991px){
