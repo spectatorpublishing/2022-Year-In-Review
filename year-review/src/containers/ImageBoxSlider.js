@@ -4,7 +4,6 @@ import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 import Article from '../components/ArticleBox'
 import MobileArticleBox from '../components/MobileArticleBox'
-import ScrollArrow from '../components/ScrollArrow'
 
 import white_arrow from '../assets/right_arrow.svg'
 import black_arrow from '../assets/left_arrow.svg'
@@ -204,7 +203,6 @@ class ImageBoxSlider extends Component {
 					</BoxPanel>
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 
-				<ScrollArrow mobile/>
 			</div>
 	      </MobileAndTablet>, 
 	      
@@ -218,7 +216,6 @@ class ImageBoxSlider extends Component {
 					</BoxPanel>
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 	
-				<ScrollArrow />
 			</DesktopContainer>
 		  </Desktop>
         ]

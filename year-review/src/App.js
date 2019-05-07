@@ -17,6 +17,7 @@ import SpectrumContainer from './containers/SpectrumContainer'
 
 import NavBar from './components/Navigation/NavBar' 
 import Footer from './components/Footer'
+import ScrollArrow from './components/ScrollArrow'
 
 import { test_img } from "./util/TestData";
 import data from './util/GlobalArticleData'
@@ -62,6 +63,7 @@ class App extends Component {
                 <Route exact path="/spectrum" component={spectrum} />
               </Switch>
               <Footer />
+              <ScrollArrow />
             </React.Fragment>
         </main>
       </ThemeProvider>

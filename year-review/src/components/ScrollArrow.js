@@ -5,18 +5,44 @@ import arrow from '../assets/white-down-arrow-icon.png'
 const Arrow = styled.img`
   width: 5vw;
   z-index: 1;
-  position: absolute;
+  position: fixed;
   left: 90%;
-  top: ${props => props.mobile? '35vh' : '30vh'};
-  transform: rotate(180deg)
+  bottom: ${props => props.mobile ? '5vh' : '10vh'};
+  transform: rotate(180deg);
 `
-const handleClick = () => {
-  window.scrollTo(0, 0)
-}
 
-const scrollArrow = (props) =>{
-  return <Arrow {...
-props} src={arrow} onClick = {handleClick}/>
-}
+export default class ScrollArrow extends React.Component {
+  constructor(props) {
+    super(props);
+    
+    this.state = {
+      visible: false
+    };
 
-export default scrollArrow
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+  
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll() {
+    if (window.scrollY > 48 && !this.state.visible) {
+      this.setState({visible: true});
+    }
+    if (window.scrollY <= 48 && this.state.visible) {
+      this.setState({visible: false});
+    }
+  }
+
+  scrollToTop() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    return [this.state.visible && <Arrow src={arrow} onClick={this.scrollToTop}/>]
+  }
+}

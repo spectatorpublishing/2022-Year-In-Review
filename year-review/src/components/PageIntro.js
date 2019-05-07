@@ -16,7 +16,7 @@ let TempTitle = styled.h1`
 `
 
 let TempHeader = styled.div`
-  height: 95vh;
+  height: calc(100vh - 48px);
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -70,7 +70,7 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   content: "";
   background: ${props => props.theme.indigo};
   opacity: 0.3;
-  height: 100vh;
+  height: calc(100vh - 48px);
   width: 100vw;
   position: absolute;
 }

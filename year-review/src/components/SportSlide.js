@@ -8,7 +8,7 @@ const Article = styled.div`
 const Image = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${({img_src}) => img_src});
 	width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 48px);
 	background-size: cover;
 `
 const Title = styled.h3`

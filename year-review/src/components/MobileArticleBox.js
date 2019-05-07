@@ -4,7 +4,7 @@ import read_more from '../assets/hamburger.svg'
 
 const Article = styled.div`
   position: absolute; 
-  height: 100vh;
+  height: calc(100vh - 48px);
   text-align: left;
   align-items: center;
   top: 30%;
