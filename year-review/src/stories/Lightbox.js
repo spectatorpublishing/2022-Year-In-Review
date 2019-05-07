@@ -20,6 +20,7 @@ let sampleMedia = [
   },
   {
     front_image: "https://images.unsplash.com/photo-1509845350455-fb0c36048db1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    title: "The Playa Mayor / Main Square",
     description: "The Plaza Mayor (English: Main Square) is a major public space in the heart of Madrid, the capital of Spain. It was once the centre of Old Madrid. It was first built (1580–1619) during the Habsburg period of Philip III's reign. Only a few Spanish blocks away is another famous plaza, the Puerta del Sol. The Plaza Mayor is for the people of Madrid and tourists to shop, walk around, eat, and enjoy the outdoors.",
     link: "https://unsplash.com/photos/OO0_7yJa-s0",
     author: "Victor Garcia"

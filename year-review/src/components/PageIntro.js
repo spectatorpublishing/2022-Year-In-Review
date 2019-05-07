@@ -61,7 +61,7 @@ margin-top: 0.7em;`
 
 
 let MobileHeader = styled.div`
-height: 75vh;
+height: 100vh;
 width: 100vw;
 display: flex;
 justify-content: center;
@@ -77,7 +77,7 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   content: "";
   background: ${props => props.theme.indigo};
   opacity: 0.3;
-  height: calc(100vh - 48px);
+  height: 100vh;
   width: 100vw;
   position: absolute;
 }
