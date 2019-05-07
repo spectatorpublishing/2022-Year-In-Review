@@ -243,10 +243,6 @@ export default class PhotoGrid extends React.Component {
     this.setState({toggle_control: new_control, selected: selected})
   }
 
-  openLightbox(index) {
-    console.log(index);
-  }
-
   render(){
     const mobile = this.props.data.map((data, i) =>{
       if (i % 2 === 1)
@@ -254,7 +250,7 @@ export default class PhotoGrid extends React.Component {
       
       let shadow = this.state.selected && !this.state.toggle_control[i]
 
-      let handleClick = this.props.flip ? () => this.handleClick(i) : () => this.openLightbox(i);
+      let handleClick = this.props.flip ? () => this.handleClick(i) : () => this.props.openLightbox(i);
       let front1 = 
       <MobileBox {...data} shadowed={shadow} onClick={handleClick}>
         <FrontAuthor shadowed={shadow}>{data.author}</FrontAuthor>
@@ -262,7 +258,7 @@ export default class PhotoGrid extends React.Component {
 
       shadow = this.state.selected && !this.state.toggle_control[i+1]
 
-      handleClick = this.props.flip ? ()=>this.handleClick(i+1) : () => this.openLightbox(i+1);
+      handleClick = this.props.flip ? ()=>this.handleClick(i+1) : () => this.props.openLightbox(i+1);
       let front2 = i===this.props.data.length-1 ? null : 
       <MobileBox {...this.props.data[i+1]} shadowed={shadow} onClick={handleClick}>
         <FrontAuthor shadowed={shadow}>{this.props.data[i+1].author}</FrontAuthor>
@@ -302,7 +298,7 @@ export default class PhotoGrid extends React.Component {
     })
 
     const desktop = this.props.data.map((data, i) => 
-      <ImageBox flip={this.props.flip} key={i} index={i} data={data} handleClick={!this.props.flip && this.openLightbox}/>
+      <ImageBox flip={this.props.flip} key={i} index={i} data={data} handleClick={!this.props.flip && this.props.openLightbox}/>
     );
 
     return (
