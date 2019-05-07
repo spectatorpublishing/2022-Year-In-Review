@@ -366,7 +366,7 @@ const data = {
             }],
             "Photo_Essays": {
                 "name": "Photo Essays",
-                "img": "",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WWRNGQBQJRAX3OWVS6TFX7NUDU.jpg",
                 "blurb": "",
                 "articles": [
                     {
