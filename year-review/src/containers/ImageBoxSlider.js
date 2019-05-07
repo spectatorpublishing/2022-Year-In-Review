@@ -37,15 +37,18 @@ const Arrow = styled.img`
   	z-index: 1;
   	transform: ${props => !props.left ? "":"rotate(180deg)"};
   	position: relative;
-	top: 13vh;
+	top: 23vh;
 	left: ${props => props.left ? "4vw" : "90vw"};
-	opacity: 0.5;
+	opacity: ${({disabled}) => disabled ? "0" : "0.5"};
 	transition: opacity ease .3s;
 	
-	&:hover {
-		${({disabled}) => !disabled && `opacity: 1;`}
-		transition: opacity ease .3s;
-	}
+    @media(min-width: 992px){
+		top: 15vh;
+		&:hover {
+			${({disabled}) => !disabled && `opacity: 1;`}
+			transition: opacity ease .3s;
+		}
+    }
 `
 
 const CircleContainer = styled.div`
