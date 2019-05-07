@@ -1768,7 +1768,7 @@ const data = {
     },
     "Design": 
     {
-        "img": "",
+        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VIGEOPL3GNFBVMCRCXNRPSZ5LU.jpg",
     	sections: 
         [
           {
@@ -1788,7 +1788,7 @@ const data = {
         "items": [{
             "name": "Data Visualization",
             "img": "",
-            "blurb": "",
+            "blurb": "Graphics is expanding Spec’s report, telling stories that interweave data visualization, interactive graphics, data journalism, programming, and writing. We’ve kicked off this spring with data stories on financial aid inequities, subway fares, and graduate student diversity.",
             "articles": [{
                     "title": "MTA transit fares are set to increase as 5 percent bonus is eliminated. Here’s why.",
                     "author": "Isabel Wong and Raeedah Wahid",
