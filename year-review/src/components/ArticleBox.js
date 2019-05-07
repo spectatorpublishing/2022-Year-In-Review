@@ -27,7 +27,7 @@ const Container = styled.a`
 
     @media (max-width: 991px) {
         width: 75vw;
-        height: 17vh;
+        height: 18vh;
     }
 
 `
@@ -79,6 +79,11 @@ const Desc = styled.div`
 
 
 const articlebox = (props) => {
+    if(props.title.length >= 105){
+        var mobileTitle = props.title.substring(0,100) + "...";
+    }else{
+        var mobileTitle = props.title;
+    }
     return (
         <React.Fragment>
             <Desktop>
@@ -98,7 +103,7 @@ const articlebox = (props) => {
                     <Container onClick={() => window.open(props.url, "_blank")}>
                         <Image img_src={props.img_src}></Image>
                         <Text>
-                            <Title>{props.title}</Title>
+                            <Title>{mobileTitle}</Title>
                             <Desc>{props.author}</Desc>
                         </Text>
                     </Container>

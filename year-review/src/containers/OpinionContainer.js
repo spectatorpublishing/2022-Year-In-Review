@@ -47,10 +47,10 @@ export default class OpinionContainer extends Component {
             <div>
               <GenericPanelLayout data={this.props.data.items[0]} />
             </div>
-            <div style={{height: "100vh"}}>
+            <div>
               <GenericPanelLayout data={this.props.data.items[1]} />
             </div>
-            <div style={{height: "100vh"}}>
+            <div>
               <GenericPanelLayout data={this.props.data.items[2]} />
             </div>
             <div>
