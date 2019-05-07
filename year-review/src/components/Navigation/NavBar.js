@@ -63,7 +63,7 @@ let MenuColumn = styled.div`
   z-index: 20;
 
   ${MenuBtn}:checked ~ & {
-    width: 50vw;
+    width: 60vw;
     height: ${props => props.transparent ? `calc(100vh + 1px - 3rem)` : `calc(100vh - 47px - 3rem)`};
     padding: 0 2rem 3rem 2rem;
     display: flex;
