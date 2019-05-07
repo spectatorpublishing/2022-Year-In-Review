@@ -88,6 +88,12 @@ const Line = styled.h5`
     margin: 0;
  }
 `;
+const MobileRole = styled(Role)`
+ padding-left: 0;
+`;
+const MobileLine = styled(Line)`
+ flex-direction: column;
+`
 const Border = styled.div`
     margin-top: 30px;
     margin-bottom: 20px;
@@ -125,8 +131,8 @@ class EditorLetter extends Component {
             <MobileLetter> Dear Readers, </MobileLetter>
             <MobileBlurb>{letter}</MobileBlurb>
             <Border><SectionDivider/></Border>
-            <Line>Katherine Gerberich, <Role>Editor in Chief, President</Role></Line> 
-            <Line>Rahil Kamath, <Role>Managing Editor, Vice President</Role></Line> 
+            <MobileLine>Katherine Gerberich, <MobileRole>Editor in Chief, President</MobileRole></MobileLine> 
+            <MobileLine>Rahil Kamath, <MobileRole>Managing Editor, Vice President</MobileRole></MobileLine> 
           </MobileContain>
         </MobileAndTablet>
       </React.Fragment>
