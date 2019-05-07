@@ -12,7 +12,7 @@ const n = 1
 const ImageContainer = styled.div`
 	background: #555;
 	width: 100vw;
-	height: calc(100vh - 48px);
+	height: 100vh;
 	display: flex;
 	overflow: hidden;
 `
@@ -23,22 +23,27 @@ const BoxPanel = styled.div`
     transition: transform ease-out 0.45s;
 `
 const Arrow = styled.img`
-	width: 2vw;
+	width: 3vw;
   	z-index: 1;
   	transform: ${props => props.left ? "rotate(180deg)" : ""};
   	position: absolute;
   	top: 50vh;
-  	left: ${props => props.left ? "3vw" : "97vw"};
+  	${props => props.left ? "left" : "right"}: 3vw;
 `
 
 const CircleContainer = styled.div`
 	width: 100vw;	
 	height: 5vh;
-	background: ${props => props.theme.black};
+    position: absolute;
+    transform: translateY(-7vh);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+
+	@media only screen and (max-width: 991px){
+	transform: translateY(-12vh);
+	}
 `
 
 const Circle = styled.img`
