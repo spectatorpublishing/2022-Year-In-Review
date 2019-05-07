@@ -22,7 +22,8 @@ const Column = styled.a`
     background-size: cover;
 	width: ${props => props.hover === -1? '25%' : props.index === props.hover? '55%' : "15%"};
 	filter: ${props => props.hover === -1? 'grayscale(0%)' : props.index === props.hover ? 'grayscale(0%)' : 'grayscale(100%)'};
-	@media only screen and (max-width: 992px){
+	@media only screen and (max-width: 991px){
+		filter: ${props => props.hover === -1? 'grayscale(0%)' : props.index === props.hover ? 'grayscale(0%)' : 'grayscale(0%)'};
 		width: ${props => props.hover === -1? '100%' : props.index === props.hover? '100%' : "100%"};
 	}
 `

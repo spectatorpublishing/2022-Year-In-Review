@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import scroll from '../assets/scroll.svg';
-import { Mobile, Desktop } from 'react-responsive-simple';
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 
 let TempTitle = styled.h1`
@@ -104,7 +104,7 @@ class PageIntro extends Component {
           </TitleBlurb>
         </TempHeader>
       </React.Fragment></Desktop>,
-      <Mobile>
+      <MobileAndTablet>
         <React.Fragment>
           <MobileHeader {...this.props}>
             <MobileTitle>
@@ -113,7 +113,7 @@ class PageIntro extends Component {
           </MobileHeader>
 
         </React.Fragment>
-      </Mobile>
+      </MobileAndTablet>
       ]
     );
   }

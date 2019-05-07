@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 import ImageBoxSlider from './ImageBoxSlider';
-import scrollArrow from '../assets/hamburger.svg'
+import ScrollArrow from '../components/ScrollArrow'
 
 const mobileSize = 992
 
