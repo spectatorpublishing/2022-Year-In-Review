@@ -51,7 +51,8 @@ const Circle = styled.img`
 `
 
 const SpectrumWrapper = styled.div`
-	witdth: 100vw;
+	width: 100vw;
+	  background: white;
   	height: calc(100vh - 48px);
 `;
 
