@@ -19,7 +19,6 @@ import NavBar from './components/Navigation/NavBar'
 import Footer from './components/Footer'
 
 import { test_img } from "./util/TestData";
-import { spectrum_data, photo_data, opinion_data, news_data, sports_slider_data } from './util/TestData'
 import data from './util/GlobalArticleData'
 import { NavItems, NavItemsWithHome } from "./util/NavItems";
 
@@ -30,8 +29,8 @@ class App extends Component {
     const news = () => <NewsContainer data = {data.News} />
     const opinion = () => <OpinionContainer data={data.Opinion}/>
     const eye = () => <EyeContainer data = {data.Eye}/>
-    const photo = () => <PhotoContainer photo_data = {photo_data}/>
-    const design = () => <DesignContainer />
+    const photo = () => <PhotoContainer data = {data.Photos}/>
+    const design = () => <DesignContainer data = {data.Design} />
     const sports = () => <SportsContainer data = {data.Sports} />
     const ane = () => <AEContainer data = {data["A&E"]}/>
     const spectrum = () => <SpectrumContainer data = {data.Spectrum} />

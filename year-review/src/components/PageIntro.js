@@ -20,23 +20,12 @@ let TempHeader = styled.div`
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background-image: url(${props => props.img_src});
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${props => props.img_src});
   background-position: center;
   background-size: cover;
   background-color: blue;
   justify-content: center;
   align-items: center;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
-
-  &::after {
-    content: "";
-    background: ${props => props.theme.indigo};
-    opacity: 0.3;
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-  }
 `
 
 const TitleBlurb = styled.p`

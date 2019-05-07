@@ -74,37 +74,34 @@ const Desc = styled.div`
 
 `
 
-
-
-
-
 const articlebox = (props) => {
     return (
         <React.Fragment>
-        <Desktop>
-        <Article>
-            <Container href={props.url} target="_blank">
-              <Image img_src ={props.img_src}></Image>
-                <Text>
-                    <Title>{props.title}</Title>
-                    <Desc>{props.author}</Desc>
-                </Text>
-            </Container>
-        </Article>
-        </Desktop>
+            <Desktop>
+                <Article>
+                    <Container href={props.url} target="_blank">
+                        <Image img_src={props.img_src}></Image>
+                        <Text>
+                            <Title>{props.title}</Title>
+                            <Desc>{props.author}</Desc>
+                        </Text>
+                    </Container>
+                </Article>
+            </Desktop>
 
-        <MobileAndTablet>
-            <Article>
-                <Container onClick={() => window.open(props.url, "_blank")}>
-                  <Image img_src ={props.img_src}></Image>
-                    <Text>
-                        <Title>{props.title}</Title>
-                        <Desc>{props.author}</Desc>
-                    </Text>
-                </Container>
-            </Article>
-        </MobileAndTablet>
+            <MobileAndTablet>
+                <Article>
+                    <Container onClick={() => window.open(props.url, "_blank")}>
+                        <Image img_src={props.img_src}></Image>
+                        <Text>
+                            <Title>{props.title}</Title>
+                            <Desc>{props.author}</Desc>
+                        </Text>
+                    </Container>
+                </Article>
+            </MobileAndTablet>
         </React.Fragment>
+
     );
 }
 
