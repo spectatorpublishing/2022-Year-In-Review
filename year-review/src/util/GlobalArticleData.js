@@ -1660,6 +1660,7 @@ const data = {
         "blurb": "Sports dives deep into the world of Columbia Athletics, providing important coverage that not only conveys what happens at every game but captures the more humanizing stories behind the coaches, players, and teams who make each game worthwhile. From football’s back to back winning seasons, to the end of a 37-year era for legendary men’s tennis head coach Bid Goswami, 2019 was a year to remember for Columbia.",
         "items": [{
                 "name": "Football",
+                "author": "Harris Walker",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Z4AHBIJBMFEUNEBXIY2AMPXG4I.jpg",
                 "blurb": ["After a 2017 season that saw the team go 8-2, football’s most successful record in 21 years, injuries decimated the Lions in 2018. Despite the setbacks, however, the 2015 hire of head coach Al Bagnoli appears to be paying off, as the team’s 6-4 finish marked the first time in 56 years that it had a winning record two seasons in a row.",
                     "The injuries began piling up during the first game of the season against Central Connecticut State. Star junior wideout Josh Wainwright, who was elected captain for the upcoming season, suffered a torn ACL, which sidelined him for the duration of the season. After a 2017 season in which he broke Columbia’s record for most receiving yards in an individual season, hauling in 1,001 yards, Wainwright gained only 46 yards this season.",
@@ -1672,6 +1673,7 @@ const data = {
             },
             {
                 "name": "Men’s Basketball",
+                "author": "Harris Walker",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G2BHNCJ7SNF6TAZB527KQD2ZTM.jpg",
                 "blurb": ["Despite entering the season with an uncertain rotation following the departure of four key contributors following the 2017-2018 season, the men’s basketball team slightly improved their record, finishing 10-18, up from 8-19 last year. However, the team fared no better this season in Ivy play than in regular season play, rounding out the year with a 5-9 record in each.",
                     "The departures, particularly those of forwards Jaron Faulds and Lukas Meisner, left the team with only one traditional big man on the roster, 6-foot-10-inch junior forward Patrick Tapé. While third-year head coach Jim Engles chose to go with a smaller lineup at the beginning of the season, starting 6-foot-7-inch, 200-pound sophomore Randy Brumant and 6-foot-7-inch, 240-pound first-year Ike Nweke, Tapé was given more time as the season progressed. It became clear early on that the lack of an interior presence allowed Columbia’s opponents to score inside seemingly at will. Engles’ adjustment paid off, as Tapé was selected as an honorable mention for the All-Ivy team.",
@@ -1682,6 +1684,7 @@ const data = {
             },
             {
                 "name": "Women’s Basketball:",
+                "author": "Harris Walker",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/XBXCMSOJFNCCLEYO3NADARIVTA.jpg",
                 "blurb": ["In the three years under head coach Megan Griffith, CC ’07, the Lions have struggled to find their rhythm, finishing with just eight wins for a second consecutive season. Their 8-19 record overall gives them a 0.296 winning percentage, a slight improvement over their 8-21 finish in 2017-2018.",
                     "In their first season without program legend Camille Zimmerman, the school’s all-time leader in both points and rebounds, the Lions struggled to achieve consistent scoring. This was particularly true in matchups within the Ivy League, in which the Light Blue went 4-10.",
@@ -1693,6 +1696,7 @@ const data = {
             },
             {
                 "name": "Fencing",
+                "author": "Harris Walker",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LHTVASZE5JGZHGEUB3U3PLPELU.jpg",
                 "blurb": [
                     "The fencing team continued their winning ways while passing the torch to a new generation of younger players that should keep the team in consideration for the national title for years to come.",
@@ -1704,6 +1708,7 @@ const data = {
             },
             {
                 "name": "Men’s tennis",
+                "author": "Elizabeth Karpen",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4GYFXMNEHNGLRM5RMHVLQHQD5Y.jpg",
                 "blurb": [
                     "The 2018-2019 men’s tennis team will go down in school history as one of the best that Columbia has ever seen. The team won its sixth consecutive Ivy League title一its first title outright since 2016一in a narrow defeat of Cornell.",
@@ -1722,6 +1727,7 @@ const data = {
             },
             {
                 "name": "Women’s tennis",
+                "author": "Elizabeth Karpen",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5CE6RSGIXZC7FKTIMNT2WGFTZQ.jpg",
                 "blurb": ["The Light Blue finished its season with the program’s second-highest win ratio. The team managed a record of 15-4, 4-3 Ivy for the dual season. While having the same Ivy record as last year, the Lions, ranked as high as No. 34, fell from third in the Ivy League to fourth. ",
                     "While unable to clinch the Ancient Eight crown, the Light Blue had a plethora of individual successes. Sophomore Jennifer Kerr was awarded First Team All-Ivy League honors while first-year Akanksha Bhan took Second Team All-Ivy League honors. Bhan and sophomore Paulina Ferrari were also awarded Second Team All-Ivy honors in doubles. ",
@@ -1734,6 +1740,7 @@ const data = {
             },
             {
                 "name": "Men’s Soccer",
+                "author": "Elizabeth Karpen",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/XYOLBMWPM5HWBEJFK3QF2J2PME.jpg",
                 "blurb": [
                     "The Lions came into this season with high hopes. Despite the loss of midfielder Haris Stamboulidis—who signed with Aris Thessaloniki F.C. of the Super League Greece and decided to sit his senior season out—the team did not lack fresh talent; former assistant coach Ken Pollard was promoted to associate head coach, Jefferson Baum, CC ’08, came on as assistant coach, and seven first-years joined the ranks.",
@@ -1749,6 +1756,7 @@ const data = {
             },
             {
                 "name": "Women’s Soccer",
+                "author": "Elizabeth Karpen",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WZPK5XLQ5BEPTPDNZEFEAQ4TVI.jpg",
                 "blurb": ["The start of the Lions’ season was marked by strong performances from its first-year players. In the first match of the season against Fordham, first-years Talia Tyler and midfielder Mallaika Tomar both scored the first goals of their college careers. Tyler’s goal was so instrumental in the game that she was awarded Ivy League Rookie of the Week. After shutting out Fordham 3-0, the Lions were unable to replicate their success with three consecutive losses against Rider, Hofstra, and Georgetown. ",
                     "However, in the Light Blue’s Ivy opener against Cornell, the team managed to come back from a 1-0 deficit against the Big Red’s when senior forward Emma Anderson scored the equalizer in the 87th minute and junior midfielder Maddie Temares tucked away the game-winning shot in double overtime. The Lions’ wins at Cornell and Brown led to the team reaching the number one spot of the Ivy League table. ",
