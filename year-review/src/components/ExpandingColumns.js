@@ -7,7 +7,7 @@ const Contain = styled.div`
     display: flex;  
   	flex-flow: row wrap;
   	width: 100vw;
-  	height: 100vh;
+  	height: calc(100vh - 48px);
 `;
 
 const Column = styled.a`

@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 import ImageBoxSlider from './ImageBoxSlider';
-import ScrollArrow from '../components/ScrollArrow'
 
 const mobileSize = 992
 
@@ -14,10 +13,11 @@ const Container = styled.div`
 
 const TopContainer = styled.div`
   width: 100vw;
-  height: 80vh;
+  height: 100%;
   float: top;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${({img_src}) => img_src});
   background-position: center;
+  background-size: cover;
 
   @media (max-width: 991px){
     height: 40vh;
@@ -32,33 +32,31 @@ const BottomContainer = styled.div`
 `
 
 const Head = styled.h3`
-	textAlign: left;
 	padding: 12vh 2vw 4vh 8vw;
   text-shadow: ${props => props.theme.shadow};
   color: white;
   width: 60vw;
+  line-height: 100%;
 `
 const MobileHead = styled.h3`
-  textAlign: left;
   padding: 4vh 0vw 2vh 8vw;
   text-shadow: ${props => props.theme.shadow};
   color: white;
   width: 80vw;
   text-size: 10px;
   font-size: 1.5rem;
+  line-height: 100%;
 `
 
 const Subtitle = styled.p`
   font-size: 1.2rem;
-  textAlign: left;
   text-shadow: ${props => props.theme.shadow};
-  padding: 0vh 0vw 4vh 8vw;
+  padding: 0vh 0vw 12vh 8vw;
   color: white;
   width: 60vw;
 ` 
 
 const MobileSubtitle = styled.p`
-  textAlign: left;
   padding: 0vh 0vw 4vh 8vw;
   text-shadow: ${props => props.theme.shadow};
   color: white;
