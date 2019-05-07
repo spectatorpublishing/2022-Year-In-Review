@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import Background from '../assets/homepg1500x800.png';
 import whitemasthead from '../assets/whitemasthead.png';
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
+import "react-responsive-carousel/lib/styles/carousel.css";
+import { Carousel } from 'react-responsive-carousel';
+import HomepagePhotos from '../util/HomepagePhotos'
 
 
 let MobileContainer = styled.div`
@@ -10,9 +13,8 @@ let MobileContainer = styled.div`
   height: calc(100vh - 48px);
 `
 let HomePageContainer= styled(MobileContainer)`
-  background-image: url(${Background});
-  background-size: cover;
   display: flex;
+  background-size: cover;
 `
 let LeftDiv = styled.div`
   display: flex;
@@ -73,6 +75,16 @@ let SpecLogo = styled.img`
   height: 25px;
 `
 
+let CarouselWrapper = styled.div`
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  @media(max-width:992px){
+    margin-left: -50vh;
+    width: 150vh;
+  }
+`
+
 export default class HomePage extends Component {
   constructor(props){
     super(props);
@@ -94,6 +106,24 @@ export default class HomePage extends Component {
         <MobileAndTablet>
           <MobileContainer>
             <HomePageContainer>
+            <CarouselWrapper>
+              <Carousel
+                showArrows={false}
+                showStatus={false}
+                showThumbs={false}
+                autoPlay={true}
+                infiniteLoop={true}
+                interval={2000}
+                showIndicators={false}
+                width={"100%"}
+              >
+                  {HomepagePhotos.map((el, i)=>
+                    <div key={i}>
+                      <img src={el} />
+                    </div>
+                  )}
+                </Carousel>
+              </CarouselWrapper>
               <LeftDiv>
                 <YearDiv>
                   <Year>2018 - 2019</Year>
@@ -112,6 +142,24 @@ export default class HomePage extends Component {
           <LogoDiv href="https://www.columbiaspectator.com/" target="_blank">
             <SpecLogo src={whitemasthead}/>
           </LogoDiv>
+          <CarouselWrapper>
+              <Carousel
+                showArrows={false}
+                showStatus={false}
+                showThumbs={false}
+                autoPlay={true}
+                infiniteLoop={true}
+                interval={2000}
+                showIndicators={false}
+                width={"100%"}
+              >
+                  {HomepagePhotos.map((el, i)=>
+                    <div key={i}>
+                      <img src={el} />
+                    </div>
+                  )}
+                </Carousel>
+              </CarouselWrapper>
           <HomePageContainer>
             <LeftDiv>
               <YearDiv>
