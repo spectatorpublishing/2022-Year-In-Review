@@ -408,7 +408,7 @@ const data = {
         "blurb": "From faculty sexual misconduct to administrative shifts within the School of General Studies, Spectator’s news team has compiled coverage of some of the top storylines that have driven student, faculty, and administrative discourse on campus. Below, find some of the most talked-about and top investigative stories from the past year:",
         "items": [{
                 "name": "Columbia faces onslaught of sexual misconduct allegations",
-                "img": "",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N7HZME5DGVGQHDD4AIJ3ANG3LQ.jpg",
                 "blurb": "The summer saw Columbia face a high-profile lawsuit involving a former business school faculty member and a senior professor in her department, resulting in a million-dollar settlement. The fall semester began with another shocking lawsuit against the former dean of students in the School of General Studies, who was removed from his post soon after University administrators became aware of his misconduct, Columbia said in a statement. Around that time, a business school student publicly spoke out about allegations against a classmate, and claimed that she was not given proper accommodations and forced to see him unless she adjusted her own daily schedule. Behind the scenes, Columbia’s handling of allegations, particularly those against tenured faculty, proved to be unimaginably complex—many of those accused or found guilty remain on campus, facing few sanctions, and even continuing to teach students.",
                 "articles": [{
                         "title": "Up against the invincible: A professor was convicted of sexual misconduct. Why is he still on campus? ",
@@ -438,7 +438,7 @@ const data = {
             },
             {
                 "name": "Columbia agrees to bargain with the graduate student union in landmark decision, ending years of back-and-forth",
-                "img": "",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5N6I7QDU7JHNVOSBIBGKBT7JQI.jpg",
                 "blurb": "Since 2016, the graduate student union and the University have engaged in a tense legal battle, marked by months of protests, petitions, threats of legal action, and a weeklong strike that left students without teaching and research assistants a week before finals. In lieu of Columbia’s unwillingness to budge, the union announced that it would strike again in December 2018—a postdoctoral union had also formed and been verified at this time—to increase pressure on the University. Finally, days before the strike was authorized to begin, University President Lee Bollinger announced that Columbia would bargain with both unions, under the condition that they sign a bargaining framework including a no-strike provision until April 2020. The bargaining framework has since proven a significant point of contention for the graduate student union.",
                 "articles": [{
                         "title": "Graduate student and postdoctoral unions officially begin negotiations with Columbia",

@@ -19,17 +19,13 @@ const mobileSize = 992
 const ImageContainer = styled.div`
 	width: 80vw;	
 	overflow: hidden;
-	diplay: flex;
-	position: absolute;
-	top: 5vh;
+	display: flex;
+	position: relative;
 	left: 10vw;
-	@media (max-width: 991px){
-        top: 0vh;
-    }
+	
 `
 const MobileArticleContainer = styled.div`
 	width: 80vw;
-	height: 50vh;
 `
 
 const BoxPanel = styled.div` 
@@ -43,7 +39,7 @@ const Arrow = styled.img`
   	z-index: 1;
   	transform: ${props => !props.left ? "":"rotate(180deg)"};
   	position: absolute;
-  	top: 15vh;
+	top: 10vh;
   	left: ${props => props.left ? "3vw" : "97vw"};
 `
 
@@ -54,7 +50,6 @@ const CircleContainer = styled.div`
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	position: absolute;
 	top: 30vh;
 	@media (max-width: 991px){
         top: 45vh;
@@ -62,6 +57,11 @@ const CircleContainer = styled.div`
 `
 const Circle = styled.img`
 	margin: 10px;
+`
+
+const DesktopContainer = styled.div`
+	padding-top: 20px;
+	padding-bottom: 20spx;
 `
 
 class ImageBoxSlider extends Component {
@@ -209,7 +209,7 @@ class ImageBoxSlider extends Component {
 	      </MobileAndTablet>, 
 	      
 	      <Desktop>
-			<div style={{position: "relative"}}>
+			<DesktopContainer>
 				{leftArrow}
 				{rightArrow}
 				<ImageContainer>
@@ -219,7 +219,7 @@ class ImageBoxSlider extends Component {
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 	
 				<ScrollArrow />
-			</div>
+			</DesktopContainer>
 		  </Desktop>
         ]
 		)
