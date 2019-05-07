@@ -66,6 +66,7 @@ const CircleContainer = styled.div`
 	align-items: center;
 	text-align: center;
 	top: 30vh;
+	padding-bottom: 20px;
 	@media (max-width: 991px){
         top: 45vh;
     }

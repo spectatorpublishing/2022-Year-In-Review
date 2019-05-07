@@ -892,7 +892,7 @@ const data = {
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G2RF2ZLZGFATTNF53IA27HE4WQ.jpg",
                 "blurb": "",
                 "articles": [{
-                        "title": "Party Foul: The Rise of Alcohol Discipline at Columbi",
+                        "title": "Party Foul: The Rise of Alcohol Discipline at Columbia",
                         "author": "Sophia Cornell",
                         "link": "https://www.columbiaspectator.com/eye-lead/2019/04/11/party-foul-the-rise-of-alcohol-discipline-at-columbia-3/",
                         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4PV254V5FVBUDCVKNKDO2JF43A.jpg"
