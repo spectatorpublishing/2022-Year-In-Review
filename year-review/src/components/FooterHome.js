@@ -8,6 +8,7 @@ const Background = styled.div`
     color: ${props => props.theme.white};
     padding-top: 5%;
     padding-left: 20%;
+    padding-bottom: 5%;
     `;
 
 const Column = styled.div`
