@@ -56,14 +56,14 @@ const SpectrumWrapper = styled.div`
 `;
 
 const Header = styled.div`
-	height: 30vh;
-	padding: 5vh 5vw;
+	padding: 5vh 10vw;
 	background: ${props => props.theme.white};
 `
 const Title = styled.h3`
 `
 const Blurb = styled.p`
-	padding-top: 2vh;
+	padding-top: 1rem;
+	line-height: 150%;
 `
 
 class SpectrumLayout extends Component {
