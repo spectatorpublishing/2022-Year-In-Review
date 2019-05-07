@@ -115,7 +115,7 @@ export default class HomePage extends Component {
                 showThumbs={false}
                 autoPlay={true}
                 infiniteLoop={true}
-                interval={2000}
+                interval={4000}
                 showIndicators={false}
                 width={"100%"}
               >
@@ -151,7 +151,7 @@ export default class HomePage extends Component {
                 showThumbs={false}
                 autoPlay={true}
                 infiniteLoop={true}
-                interval={2000}
+                interval={4000}
                 showIndicators={false}
                 width={"100%"}
               >
