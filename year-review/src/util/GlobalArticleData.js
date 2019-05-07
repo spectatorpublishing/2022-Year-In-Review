@@ -564,7 +564,7 @@ const data = {
                         "title": "Lower-income undergraduate students are paying more and more to attend Columbia; wealthier students are paying less and less, federal data shows",
                         "author": "Jason Kao",
                         "link": "https://www.columbiaspectator.com/news/net-price-inequity/",
-                        "img": ""
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5WK2NUBKVZDBDHZC5SD6QPSNLE.png"
                     },
                     {
                         "title": "Barnard students blindsided by unexpected charges at Primary Care",
@@ -786,7 +786,7 @@ const data = {
                         "title": "The West Harlem Community Benefits Agreement Landing Page",
                         "author": "The Eye Staff",
                         "link": "https://www.columbiaspectator.com/eye/2018/cba-landing-page/",
-                        "img": ""
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ELVBZPTI5BCUJBB2AX5K2NF6S4.png"
                     }
                 ]
             },
@@ -798,7 +798,7 @@ const data = {
                         "title": "In Certain Science and Engineering Fields, Sex Diversity Among Graduate Students Is Stagnating. In Others, It’s Getting Worse.",
                         "author": "Jason Kao",
                         "link": "https://www.columbiaspectator.com/eye-lead/graduate-sex-diversity/",
-                        "img": ""
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DKP6MDOIXFBTTMNISAXA4FQFLY.jpg"
                     },
                     {
                         "title": "What Is Columbia Doing With Your Data?",
@@ -1791,19 +1791,19 @@ const data = {
                         "title": "Lower-income undergraduate students are paying more and more to attend Columbia; wealthier students are paying less and less, federal data shows",
                         "author": "Jason Kao",
                         "link": "https://www.columbiaspectator.com/news/net-price-inequity/",
-                        "img": ""
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5WK2NUBKVZDBDHZC5SD6QPSNLE.png"
                     },
                     {
                         "title": "Librarians, Scholars, and Spies: How a Trove of Chinese Ancestral Records Found Refuge on Columbia’s Shelves",
                         "author": "Victoria Li and Jason Kao",
                         "link": "https://www.columbiaspectator.com/eye/2019/03/26/genealogy/",
-                        "img": ""
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KJCRXDTAK5BBRFLGDKJUPJ6RCY.jpg"
                     },
                     {
                         "title": "In Certain Science and Engineering Fields, Sex Diversity Among Graduate Students Is Stagnating. In Others, It’s Getting Worse.",
                         "author": "Jason Kao",
                         "link": "https://www.columbiaspectator.com/eye-lead/graduate-sex-diversity/",
-                        "img": ""
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DKP6MDOIXFBTTMNISAXA4FQFLY.jpg"
                     }
                 ]
             },
