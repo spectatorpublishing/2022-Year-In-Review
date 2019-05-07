@@ -2,8 +2,6 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 import { ReactComponent as ArrowR } from '../assets/right_arrow.svg';
 import { ReactComponent as ArrowL } from '../assets/left_arrow.svg';
-import filledCircle from '../assets/filledCircle.svg'
-import emptyCircle from '../assets/emptyCircle.svg'
 
 const n=4
 
@@ -72,20 +70,6 @@ const Title = styled.h4`
 	color: white;
 `;
 
-const CircleContainer = styled.div`
-	width: 100vw;
-	height: 5vh;	
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	position: absolute;
-	top: 90vh;
-`
-const Circle = styled.img`
-	margin: 10px;
-`
-
 class SpectrumSlider extends Component{
 	constructor(props) {
 		super(props);
@@ -103,40 +87,27 @@ class SpectrumSlider extends Component{
 	handleLeftArrowClick() {
 		if (this.state.leftDisabled)
 			return
-		if (this.state.index > 0) {
-			this.setState({ index: this.state.index - 1});
-		} 
-		else {
+		const cur = this.state.index-1
+		if (cur === 0)
 			this.setState({leftDisabled: true});
-		}
-		if (this.state.index === this.props.data.length-4)
+		if (cur === this.props.data.length-5)
 			this.setState({ rightDisabled: false});
+		this.setState({ index: this.state.index - 1});
 	}
 
 	handleRightArrowClick() {
 		if (this.state.rightDisabled)
 			return
-		if (this.state.index + 4 < this.props.data.length) {
-			this.setState({ index: this.state.index + 1 });
-
-		} 
-		else {
+		const cur = this.state.index+1
+		if (cur === this.props.data.length-4) {
 			this.setState({ rightDisabled: true});
 		}
-		if (this.state.index === 1)
+		if (cur === 1)
 			this.setState({ leftDisabled: false});
+		this.setState({ index: cur });
 	}
 
 	render(){
-		let circles = this.props.data.map ( (_, i) => {
-				if (i===this.state.circle_index)
-					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
-				else if (i<this.props.data.length/n)
-					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
-				return null
-			}
-		)
-
 		const grid = this.props.data.map((data, i) => {
 			return (
 			<Column href={data.link} target="_blank"  img_src={data.img} key={i} index={i} 
@@ -146,11 +117,14 @@ class SpectrumSlider extends Component{
 			)
 		});
 
+		const leftArrow = this.state.leftDisabled? null: <LeftArrow onClick={this.handleLeftArrowClick} />
+		const rightArrow = this.state.rightDisabled? null: <RightArrow onClick={this.handleRightArrowClick} />
+
 		return (
 			<ColumnWrapper>
 				<Contain translateValue={this.state.index*(-25)}> {grid}</Contain>
-				<LeftArrow onClick={this.handleLeftArrowClick} />
-				<RightArrow onClick={this.handleRightArrowClick} />
+				{leftArrow}
+				{rightArrow}
 			</ColumnWrapper>		
 
 		);

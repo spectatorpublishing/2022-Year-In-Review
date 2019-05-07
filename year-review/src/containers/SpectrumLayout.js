@@ -7,8 +7,8 @@ import SpectrumSlider from '../components/SpectrumSlider'
 
 import white_arrow from '../assets/right_arrow.svg'
 import black_arrow from '../assets/left_arrow.svg'
-import filledCircle from '../assets/filledCircle.svg'
-import emptyCircle from '../assets/emptyCircle.svg'
+import filledCircle from '../assets/filledCircleWhite.svg'
+import emptyCircle from '../assets/emptyCircleWhite.svg'
 
 const mobileSize = 992
 
@@ -169,8 +169,8 @@ class SpectrumLayout extends Component {
 					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
 			}
 		)
-		let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
-		let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
+		let leftArrow = this.state.leftDisabled ? null: <Arrow src={white_arrow} onClick={this.onLeft} left/> 
+		let rightArrow = this.state.rightDisabled ? null: <Arrow src={white_arrow} onClick={this.onRight}/> 
 		// mobile components-finished
 
 		return (

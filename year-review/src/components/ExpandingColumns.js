@@ -50,6 +50,7 @@ class ExpandingColumns extends Component {
 	    super()
 	    this.onHover = this.onHover.bind(this)
 	    this.onStopHover = this.onStopHover.bind(this)
+	    this.handleClick = this.handleClick.bind(this)
 	}
 
 	state = {
@@ -61,11 +62,15 @@ class ExpandingColumns extends Component {
 			hover: i
 		})
 	}
-
+ 
 	onStopHover() {
 		this.setState({
 			hover: -1
 		})
+	}
+
+	handleClick(link){
+		 this.props.history.push(link);
 	}
 
 	render(){
@@ -75,7 +80,7 @@ class ExpandingColumns extends Component {
 					hover={this.state.hover}
 					onMouseEnter={() => this.onHover(i)}
 					onMouseLeave={this.onStopHover}
-					href={"opinion"+data.link}
+					onClick={() => this.handleClick(data.link)}
 				>
 					<MobileAndTablet>
 						<TitleMobile>{data.name}</TitleMobile>

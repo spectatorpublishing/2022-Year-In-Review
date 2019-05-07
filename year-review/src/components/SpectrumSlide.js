@@ -49,16 +49,11 @@ const Link = styled.a`
   top: 70%;
 `
 
-const handleClick = () => {
-  window.scrollTo(0, 0)
-}
-
 const slide = (props) =>{
   return (
     <Article>
         <Image {...props}>
             <Title>{props.title}</Title>
-            <Arrow src={arrow} onClick = {handleClick}/>
             <Link href={props.url}><Logo src={read_more} alt="readmore"/> </Link>
         </Image>
     </Article>

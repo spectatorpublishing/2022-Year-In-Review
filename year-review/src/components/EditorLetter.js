@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Mobile, Desktop } from 'react-responsive-simple';
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 
 let LetterContain = styled.div`
@@ -21,8 +21,6 @@ let MobileContain = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-
 `
 
 let TempLetter = styled.h2`
@@ -71,6 +69,42 @@ const MobileBlurb = styled.p`
   padding: 15px;
 
 `
+const Role = styled.div`
+ color: ${props => props.theme.transparentWhite};
+ padding-left: 0.5rem;
+
+`;
+const Line = styled.h5`
+   color: ${props => props.theme.white};
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem 0;
+
+   @media only screen and (max-width: 991px){
+    padding: 15px 15px;
+    font-size: 1em;
+    margin: 0;
+ }
+`;
+const Border = styled.div`
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: black;
+    width: 69.211px;
+    border-width: 2pt;
+    float: left;
+    @media only screen and (max-width: 991px){
+      padding: 15px 10vw 5px 10vw;
+      margin: 0;
+   }
+`
+const SectionDivider = styled.hr`
+  height: 1px;
+  color: ${props => props.theme.white};
+  background-color: ${props => props.theme.white};
+  border: none;
+`
+
 
 class EditorLetter extends Component {
 
@@ -85,13 +119,18 @@ class EditorLetter extends Component {
           <LetterContain>
             <TempLetter> LETTER FROM THE EDITOR </TempLetter>
             <TitleBlurb>{this.props.letter}</TitleBlurb>
+            <Border><SectionDivider/></Border>
+            <Line>{this.props.author}, <Role>{this.props.role}</Role></Line> 
           </LetterContain>
         </Desktop>
-        <Mobile><MobileContain>
+
+        <MobileAndTablet><MobileContain>
         </MobileContain>
           <MobileLetter>LETTER FROM THE EDITOR</MobileLetter>
           <MobileBlurb>{this.props.letter}</MobileBlurb>
-        </Mobile>
+          
+          <Line>{this.props.author}, <Role>{this.props.role}</Role></Line> 
+        </MobileAndTablet>
       </React.Fragment>
     );
   }

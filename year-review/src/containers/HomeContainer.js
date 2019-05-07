@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import HomePage from '../components/HomePage.js';
 import ScrollingNavBar from "../components/Navigation/ScrollingNavBar.js";
 import FooterHome from '../components/FooterHome'
+import ReaderLetter from '../components/ReaderLetter'
 import { NavItems } from "../util/NavItems.js";
 
 export default class HomeContainer extends Component {
@@ -14,7 +15,7 @@ export default class HomeContainer extends Component {
     return (
       <React.Fragment>
           <HomePage menuItems={NavItems} />
-          <ScrollingNavBar menuItems={NavItems} noContent />
+          <ReaderLetter/>
           <FooterHome/>
       </React.Fragment>
     );

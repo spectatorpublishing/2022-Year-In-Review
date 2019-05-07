@@ -62,8 +62,8 @@ class EyeContainer extends Component {
     return (
       <React.Fragment>
         <div>
-          <PageIntro title="THE EYE" description={this.props.data.blurb} img_src={img_src}/>
-          <EditorLetter letter={letterFromTheEditor}/>
+          <PageIntro title="THE EYE" description={this.props.data.blurb} img_src={this.props.data.img}/>
+          <EditorLetter letter={letterFromTheEditor} author="Julian Shen-Berro" role="Managing Editor of The Eye"/>
           <ScrollingNavBar menuItems={this.props.data.sections}>
             {this.props.data.items.map((data, i) => 
               <GenericPanelLayout key={i} data = {this.props.data.items[i]} />)}
