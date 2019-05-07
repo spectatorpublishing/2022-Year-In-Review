@@ -22,6 +22,7 @@ const Box = styled.section`
     background: #3EAADB;
     padding-bottom: 22%;
     position: relative;
+    cursor: pointer;
 
     @media only screen and (max-width: 992px){
         width: 40%;

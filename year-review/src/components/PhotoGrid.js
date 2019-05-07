@@ -51,6 +51,7 @@ const Front = styled.div`
   backface-visibility: hidden;
 `;
 const Card = styled(Front)`
+  cursor: pointer;
   &:hover {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({front_image}) => front_image});
     background-size: cover;

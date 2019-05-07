@@ -33,6 +33,7 @@ const BoxPanel = styled.div`
     transition: transform ease-out 0.45s;
 `
 const Arrow = styled.img`
+	cursor: pointer;
 	width: 2vw;
   	z-index: 1;
   	transform: ${props => !props.left ? "":"rotate(180deg)"};
@@ -72,6 +73,7 @@ const CircleContainer = styled.div`
     }
 `
 const Circle = styled.img`
+  cursor: pointer;
 	margin: 10px;
 	opacity: 0.5;
 	
