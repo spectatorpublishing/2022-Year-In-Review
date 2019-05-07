@@ -49,7 +49,10 @@ class App extends Component {
                 }
               </Desktop>
               <MobileAndTablet>
-                <NavBar menuItems={NavItemsWithHome} transparent/>
+                {this.props.location.pathname === "/spectrum"
+                  ? <NavBar menuItems={NavItemsWithHome}/> 
+                  : <NavBar menuItems={NavItemsWithHome} transparent/>
+                }
               </MobileAndTablet>
               <Switch>
                 <Route exact path="/" component={home} />

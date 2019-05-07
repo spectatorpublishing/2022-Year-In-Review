@@ -1121,12 +1121,12 @@ const data = {
 
     "Spectrum": {
         sections: [{
-                "name": "Mental Health",
-                "link": "#mental-health"
+                "name": "Breaking Down Columbia",
+                "link": "#breaking-down-columbia"
             },
             {
-                "name": "Exploring NYC",
-                "link": "#exploring-new-york-city"
+                "name": "Out of the Bubble",
+                "link": "#out-of-the-bubble"
             },
             {
                 "name": "Lifestyle",
