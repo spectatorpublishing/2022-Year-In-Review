@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
 import SpectrumLayout from './SpectrumLayout';
-import PageIntro from '../components/PageIntro'
+import SpectrumTitle from '../components/SpectrumTitle'
 import ButtonToHome from '../components/ButtonToHome'
 
 const description = "Most undergraduates will only experience a small sliver of Columbia's history during their time here; current students just lived through a year for the record books. As the University marked the fiftieth anniversary of the 1968 protests that redined its identity, campus was roiled by a new series of student protests."
@@ -17,9 +17,9 @@ class SpectrumContainer extends Component {
  
   render() { 
     return (
-      <div style={{ background: "white"}}>
+      <div>
           <ButtonToHome />
-          <PageIntro title="SPECTRUM" description={this.props.data.blurb} img_src={img_src}/>
+          <SpectrumTitle title="SPECTRUM" description={this.props.data.blurb} img_src={img_src}/>
           <ScrollingNavBar menuItems={this.props.data.sections}>
             {this.props.data.items.map((data, i) => 
               <SpectrumLayout key={i} data = {this.props.data.items[i]} />)}

@@ -85,23 +85,20 @@ class PageIntro extends Component {
 
   render() {
     return ([
-      <Desktop><React.Fragment>
+      <Desktop>
         <TempHeader {...this.props}>
           <TempTitle>{this.props.title}</TempTitle>
           <TitleBlurb>
               {this.props.description}
           </TitleBlurb>
         </TempHeader>
-      </React.Fragment></Desktop>,
+      </Desktop>,
       <MobileAndTablet>
-        <React.Fragment>
           <MobileHeader {...this.props}>
             <MobileTitle>
               {this.props.title}
             </MobileTitle>
           </MobileHeader>
-
-        </React.Fragment>
       </MobileAndTablet>
       ]
     );

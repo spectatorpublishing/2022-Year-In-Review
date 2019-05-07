@@ -16,6 +16,7 @@ import Footer from '../components/Footer.js';
 import FooterHome from '../components/FooterHome.js';
 import SpectrumSlider from '../components/SpectrumSlider.js';
 import ArticleBox from '../components/ArticleBox.js';
+import SpectrumTitle from '../components/SpectrumTitle';
 
 // Data for testing
 
@@ -244,3 +245,5 @@ storiesOf('Expanding Columns', module)
 		</MemoryRouter>
 	))
 	.add("Expanding Columns",() => <ExpandingColumns data = {opinion_sections}/>)
+
+storiesOf('Spectrum Title', module).add("Spectrum Title",() => <SpectrumTitle title="title" description="blurb"/>)
