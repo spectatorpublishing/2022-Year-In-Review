@@ -9,12 +9,11 @@ import filledCircle from '../assets/filledCircleWhite.svg'
 import emptyCircle from '../assets/emptyCircleWhite.svg'
 
 const n = 1
-const author = "anonymous"
 
 const ImageContainer = styled.div`
 	background: #555;
 	width: 100vw;
-	height: 95vh;
+	height: calc(100vh - 48px);
 	display: flex;
 	overflow: hidden;
 `
@@ -127,7 +126,7 @@ class SportsSlideShow extends Component {
 
 	render(){
 		let boxes = this.props.data.map ( (data,i) => 
-			<SportSlide text = {data.blurb} title= {data.name} author={author} 
+			<SportSlide text = {data.blurb} title= {data.name} author={data.author} 
 			img_src={data.img} key = {i}/>
 		)
 		let circles = this.props.data.map ( (_, i) => {

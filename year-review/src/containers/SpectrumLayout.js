@@ -14,7 +14,7 @@ const mobileSize = 992
 
 const ImageContainer = styled.div`
 	width: 100vw;
-	height: 100vh;
+	height: calc(100vh - 48px);
 	display: flex;
 	overflow: hidden;
 	position: relative;
@@ -52,8 +52,8 @@ const Circle = styled.img`
 
 const SpectrumWrapper = styled.div`
 	width: 100vw;
-	  height: 100vh;
 	  background: white;
+  	height: calc(100vh - 48px);
 `;
 
 class SpectrumLayout extends Component {
