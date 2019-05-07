@@ -1,602 +1,612 @@
-const data = {
+{
     "Photos": {
         "img": "",
-        "blurb": "Photography captures that which can’t be put to words—a moment, a feeling, a second which might otherwise go unnoticed. In the past year, our photographers traveled from the corners of Low Library to dorm rooms to the edges of West Harlem and the Manhattanville campus. They photographed administrators and community meetings, student protests and CCSC meetings, football games and the odd politician—all in search of the split seconds that make up our campus. As we look back on a year’s worth of photos, we emerge with a picture of what our campus looks like: at times divided, at times united, but always ours. ",
-        "items": {
-            "Photos": [{
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YLUWI75FZZFOLJ35NEFJ5ETVNY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QIVHFBGWWZDQVFEHJJHWY2N45E.jpg",
-                "decsription": "In the 102nd annual Pulitzer Prize ceremony, Kendrick Lamar became the first ever rapper to be awarded the Pulitzer for Music, which he earned for his 2017 album, DAMN. The award was presented by University President Lee Bollinger.",
-                "link": "https://www.columbiaspectator.com/news/2018/05/30/102nd-annual-pulitzer-prize-award-ceremony-features-columbia-alum-jodi-kantor-star-rapper-kendrick-lamar/",
-                "author": "Michael Edmonson / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6KK3COTDHVFBXCJLY5RMNAYBW4.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ARNB5HF7FZHVXARCROXH2BTMD4.jpg",
-                "decsription": "Katie Cooke, CC ’19, music director for Columbia University New Opera Workshop, plans to obtain a graduate degree in music education at Teachers College, so she can share her passion for classical music with the next generation.",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/09/13/katie-cooke-wants-to-bring-a-love-of-music-to-the-next-generation-from-the-podium/",
-                "author": "Trinity Lester/Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IM2WICG6DJE2JEOQUCGEFWUTRQ.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/IM2WICG6DJE2JEOQUCGEFWUTRQ.jpg",
-                "decsription": "Many New York City public high school students see attending Columbia as impossible until someone from their school actually gets in or a counselor visits, but high school college counselors have had a hard time establishing relationships with Columbia admissions representatives due to their lack of recruitment from these schools. Hifza Shaukat, CC’ 21, said that, without communication from a Columbia representative, students at her high school often reach out to her, as she remains their only touchpoint at Columbia.",
-                "link": "https: //www.columbiaspectator.com/news/2018/09/20/off-the-radar-at-public-schools-where-columbia-doesnt-recruit-applicants-face-uphill-battle/",
-                "author": "Cherrie Zheng/Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PSVOFZTUU5G6LG4QMXPPLQ7MBY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/K5YDIULNMNGAFLA3CAJYFX4P3E.jpg",
-                "decsription": "Supreme Court Justice Ruth Bader Ginsburg, Law ’59, speaks at a panel at Columbia Law School, giving advice to aspiring law students and highlighting the difficulties she faced as a woman in a male-dominated field. The panel was hosted by the Law School in honor of the 25th anniversary of Ginsburg’s appointment to the Supreme Court.",
-                "link": "https://www.columbiaspectator.com/news/2018/09/24/justice-ruth-bader-ginsburg-returned-to-columbia-and-gave-advice-to-aspiring-law-students/",
-                "author": "Natalie Tischler/ Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HC5AHA35CNCEVDAH6OWUPQPOUY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FV5VXOBRYNBVFKMGRB2NV2JSEY.jpg",
-                "decsription": "The Columbia Kingsmen, one of Columbia’s two all-male acapella groups, rehearse in a classroom on campus. The group celebrated its 70th anniversary this year and released its seventh studio album. Founded in 1948, the Kingsmen have carved out a distinguished legacy, performing everywhere from Carnegie Hall to The Ed Sullivan Show, and embarking on numerous international tours in the past.",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/09/25/kingsmen-look-back-on-over-70-years-of-history-at-columbia/",
-                "author": "Kirill Buskirk/ Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/B5X3DY7OPBHR7CMSJQCPW65PHQ.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4SHMBN7HHNFQHPKKFCPBT46XRE.jpg",
-                "decsription": "University President Lee Bollinger greets guests at the opening of the Forum in September. The Forum was the third building to open on the Manhattanville campus.",
-                "link": "https://www.columbiaspectator.com/news/2018/09/27/the-forum-columbias-third-manhattanville-building-opens-on-new-campus/",
-                "author": "Anna Beloborodova / Columbia Daily Spectator."
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4K6A3OZ44VCDVGAGJ5UUGI4HBA.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4ZB7DKMI6FFNNDHDS7Y6SMDDLM.jpg",
-                "decsription": "Mold is just one of the slew of facilities issues East Campus Residence Hall faced in September. Issues concerning the physical state of the building are not new, however, as they have been reported hundreds of times since the building was first erected.",
-                "link": "https://www.columbiaspectator.com/news/2018/09/27/decades-of-disrepair-east-campus-woes-date-back-to-buildings-construction/",
-                "author": "Arielle Shternfeld / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5NHH5ZD24BFE5EZ5B3ZN6HTNMY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AQQG7WZHMBGJZLUS3MFNHEGYZQ.jpg",
-                "decsription": "Madeleine Albright, former Secretary of State, speaks with economics professor, Jan Svejnar, at the World Leaders Forum in September. In her speech, she warned against the rise of authoritarian nationalism across the globe. The World Leaders Forum is an annual event, which brings renowned political leaders and policymakers to campus.",
-                "link": "https://www.columbiaspectator.com/news/2018/09/28/former-secretary-of-state-madeleine-albright-honors-first-czech-republic-president-vaclav-havel-at-world-leaders-forum/",
-                "author": "Athena Chin /Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YZXTQ3PHMRGCZJ2FD6PEQW3VYE.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NMAJDV44ONDJHKNYEZ7N6NLJB4.jpg",
-                "decsription": "The University Senate unanimously votes in favor of establishing a department of African-American and African Diaspora studies at the monthly plenary in September.",
-                "link": "https://www.columbiaspectator.com/news/2018/09/28/with-unanimous-vote-university-senate-approves-new-african-american-and-african-diaspora-studies-department/",
-                "author": "Lula O'Donnell/Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N7TQQ5X4EFCCRORH4YXCKOYMLI.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KIYIO4HM5JB43I3XIQJBOPHKLA.jpg",
-                "decsription": "Sylvia Tyler sits in her home on West 138th Street and Amsterdam Avenue. Tyler is a member of the HDFC Coalition, which was formed in 1992 to advocate for Housing Development Fund Corporations where the city fell short.",
-                "link": "https://www.columbiaspectator.com/the-eye/2018/09/26/affordable-co-ops-in-harlem-are-facing-foreclosures-columbia-may-be-able-to-help/",
-                "author": "Natalie Tischler / Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2PHHVL5OBBEPHG3MOTAZWOZH7U.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CSJ4AJQACVA3HAFJQFZN456TNU.jpg",
-                "decsription": "Students embraced one another as demonstrators shared personal stories of experiences of sexual harassment and assault during protests against then-Supreme Court-nominee Brett Kavanaugh.",
-                "link": "https://www.columbiaspectator.com/news/2018/10/05/columbia-law-professors-join-calls-to-cancel-kavanaugh-as-student-protests-target-scotus-nominee/",
-                "author": "Rya Inman / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7JRRFB7DYRCLXIORYTI3LPTQI4.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EUBJPB6WZVHR3OG3O67QCPKKXM.jpg",
-                "decsription": "Naomi Goldberg Haas leads stretches in Dances for a Variable Population, a West Harlem Development Corporation-funded nonprofit that aims to combat loneliness and unfitness in seniors with group dance classes in communal locations like libraries and senior centers.",
-                "link": "https://www.columbiaspectator.com/the-eye/2018/10/08/ten-years-ago-columbia-pledged-76-million-to-local-nonprofits-what-happens-when-it-runs-out/",
-                "author": "Arielle Shternfeld / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SMMPQNJ6X5FITGRM6X4XVK4424.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AHWFCV3LIZFRXI77TZI7MLS5DY.jpg",
-                "decsription": "Senior defender Taylor Penn takes a free kick during a game against Princeton in October.",
-                "link": "?",
-                "author": "Eliot Olson / Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C2WCHN7FF5ADNKCV4QONFMNALE.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/H3GOHYDMGBCD3GKI75SMUOVE6M.jpg",
-                "decsription": "Pat Lilly, the manager of visitor services at Columbia’s Forum building, walks down the stairs from her office. She was hired by the Columbia Employment Information Center as part of a Columbia Initiative in the West Harlem Community Benefits Agreement.",
-                "link": "https://www.columbiaspectator.com/the-eye/2018/10/25/a-columbia-initiative-has-placed-hundreds-in-university-jobs-but-many-local-residents-have-never-heard-of-it/",
-                "author": "Gabi Levy / Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CMUWRH2GRJDM5PHZTVQT3PHYBA.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JUWAB4MUCNFQFPQZR4PHBTSGQM.jpg",
-                "decsription": "Sandra Goldstein Lehnert, CC ’19, advocates for undergraduate students to show solidarity for union protests. In October, the graduate student union announced their plans to strike indefinitely during the week before final exams if the University did not agree to bargain. In November, just weeks before the projected strike, President Bollinger announced that they would begin the bargaining process.",
-                "link": "https://www.columbiaspectator.com/news/2018/11/01/grad-student-union-announces-plans-for-indefinite-strike-beginning-in-december/",
-                "author": "Arielle Shternfeld / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2MX2WNW64NCZTGAXTXIZ35MKKE.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/E6Z3YTJMTNBSXKY373M6ZTMGZQ.jpg",
-                "decsription": "Actors perform the Columbia University Players’ production of The Great Gatsby. The key players behind the scenes including directors, producers, costume designers, a lighting designer, set designer, sound designer, and a tech director played a central role in the show’s success.",
-                "link": "https://www.columbiaspectator.com/eye-lead/2018/10/31/behind-the-creative-curtain/",
-                "author": "Elza Bouhassira / Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RTF5FKITH5HFJNFRSSDVI7RLGE.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CFGICWUEMJBUBMWFNFUIZ55EFI.jpg",
-                "decsription": "A performer dances with her skirt in the closing celebration of Latinx Heritage Month. The annual event, which celebrated a richly diverse community that finds empowerment both in its shared ancestry and divergent identities, featured dance, fashion, food, and more.",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/11/02/latinx-heritage-month-concludes-with-celebration-of-fashion-nature-and-the-latinx-identity/",
-                "author": "Lula O'Donnell/Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UWP7M2UYAJGDBEP6WAL5C7ROME.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SUVDTOGIWBEVTBCOGBD6N53AVA.jpg",
-                "decsription": "Kosta Karakashyan’s documentary \"Waiting for Color\" is the culmination of 18 years of dance experience and highlights the ongoing struggle of gay men against the government’s anti-gay purges in the Russian republic of Chechnya.",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/11/01/kosta-karakashyan-cc-19-on-his-new-dance-documentary-and-the-continued-struggle-of-the-lgbtq-community-in-chechnya/",
-                "author": "Cherrie Zheng/Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/L6QQGOIPHRF4TIDHNQKGLAC2OA.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GUOAU7QEOVAKVHGBRMV7ZV7UYI.jpeg",
-                "decsription": "First-year quarterback Ty Lenhart searches downfield for an open reciever during his first career start at Harvard in November. The Lions lost 52-18 after a strong first half in the windy game versus the Crimson.",
-                "link": "https://www.columbiaspectator.com/sports/2018/11/03/football-blown-away-by-harvard-52-18/",
-                "author": "KJ Mulam / Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CUQBJTESIRDI5BALWEBLAWPWBY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5DKOU3PAVVFDHAFLDOJPJG4JAY.jpg",
-                "decsription": "The women’s field hockey team plays against Cornell, winning 2-0, earning its third consecutive win of the season in October. The team ended this year’s season 8-9, 2-5 Ivy.",
-                "link": "https://www.columbiaspectator.com/sports/2018/10/02/field-hockey-tops-cornell-remains-undefeated-in-ivy-play/",
-                "author": "Lola Lafia / Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VGKDA6YAZND7TDK4OHWUWWWGQE.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GG2WP6PK45G6HKSN2EX5DPV6FM.jpg",
-                "decsription": "Myeonhu Kim, CC ’20, works out a problem on a blackboard in preparation for the 80th Annual William Lowell Putnam Mathematical Competition. Putnam is the preeminent undergraduate math competition in North America. In 2018 Columbia came in 4th place for the first time since 1957.",
-                "link": "https://www.columbiaspectator.com/the-eye/2018/11/13/meet-the-rockstars-on-columbias-competition-math-team/",
-                "author": "Gabi Levy / Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DOCLADSBHBCI5N56J2RGHS56OM.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IC5XT7PXBZCLNGXKD6KEQMTJV4.jpg",
-                "decsription": "A brain in the office of Peter Balsam, director of the neuroscience and behavior program at Barnard. Barnard neuroscience majors responded to a student-initiated survey and expressed the need for improvement in their major curriculum, course accessibility, and community.",
-                "link": "https://www.columbiaspectator.com/the-eye/2018/11/15/growing-together-the-student-effort-to-change-barnards-neuroscience-program/",
-                "author": "Lula O’Donnell / Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NUYLWG2Y75HTXJ7SMWUB5PWYWM.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2XJI6A6SDFGFZOLXLWOSEUY7UQ.jpg",
-                "decsription": "Junior guard Mike Smith dribbles down the court in a narrow game against Fordham. The Lions lost in a close game, 70-69 , but they fought hard for the rest of the season.",
-                "link": "https://www.columbiaspectator.com/sports/2018/11/20/mens-basketball-suffers-narrow-70-69-defeat-to-fordham-remains-winless-to-start-the-season/",
-                "author": "Caroline Dailey / SSP"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DROQNVVNHZDL5KBW325PH6JFWU.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/MP44MNI3QJCELIQNRX5MHAIIIM.jpg",
-                "decsription": "A performer at The Cotton Club strikes a pose. The Cotton Club, a jazz and supper club on 125th Street, proudly remains a landmark despite Columbia’s Manhattanville expansion",
-                "link": "https://www.columbiaspectator.com/the-eye/2018/11/20/the-ivy-league-and-the-cotton-club/",
-                "author": "Yasmine Akki / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RCHWYRSWNZHRFMOONKIWEP4RFQ.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TLYYTSDLYZBVFGHEZWGMOFYXU4.jpg",
-                "decsription": "The men’s swim team competes at a meet in November. Columbia men’s and women’s swimming and diving teams lost to undefeated Harvard, contributing to a string of Ivy losses in the 2018-2019 season.",
-                "link": "https://www.columbiaspectator.com/sports/2018/11/20/mens-and-womens-swimming-and-diving-fall-to-harvard-continuing-string-of-ivy-losses/",
-                "author": "Rya Inman / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/M4NCIZ4IYZDKPGVGQGHPVJCLQM.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6Z42LII4INDNNPZRZE63J4UFHM.jpg",
-                "decsription": "The office of Jewish professor Elizabeth Midlarsky, who teaches and researches the Holocaust at Columbia Teachers College, was vandalized with swastikas and anti-Semitic slurs in November.",
-                "link": "https://www.columbiaspectator.com/news/2018/11/29/teachers-college-professors-office-vandalized-with-anti-semitic-graffiti/",
-                "author": "Rya Inman/ Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DOMRUOKZL5A6PMQAVRVXLBLLBY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IABTMX6DRNBDLMTNNP7UD5GZBY.jpg",
-                "decsription": "Students perform in Orchesis’ fall semester showcase, where over 140 dancers took the stage backed by the music of Bruno Mars, Sam Smith, and Ed Sheeran, among others. The theme of the end-of-semester show was ‘Versace on the FloOrchesis.’",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/12/10/orchesis-hits-the-floorchesis-at-semesterly-performance/",
-                "author": "Elza Bouhassira/ Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7GUIQSMFM5AYXKP2NEHCRXLIO4.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/W7C3QDVUKBEFLDJC2LO27KXV6Q.jpg",
-                "decsription": "Andrew Rodriguez, CC ’20, walks on Columbia’s campus. In January of 2017 Rodriguez began to help lead mental health reform, which is materialized through Columbia’s JED partnership.",
-                "link": "https://www.columbiaspectator.com/news/2018/12/21/a-seat-at-the-table-how-student-led-mental-health-reform-has-begun-to-materialize-through-columbias-jed-partnership-five-years-later-3/",
-                "author": "Gabi Levy / Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IL7TBM2FNNDX3BOWSX4BBGMEJI.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QRDMF2ABDRGH7DV7WXJLTDYGXE.jpg",
-                "decsription": "Governor of New York Andrew Cuomo calls for the codification of abortion rights into New York state law and promotes the Reproductive Health Act at a rally held at Barnard. He was joined by former Secretary of State, New York senator, and 2016 Democratic presidential candidate Hillary Clinton, whose remarks centered around the legacy of women’s rights advocacy in New York.",
-                "link": "https://www.columbiaspectator.com/news/2019/01/07/hillary-clinton-cuomo-call-for-decriminalization-of-abortion-in-new-york-at-rally-at-barnard/",
-                "author": "Caroline Dailey/ Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G24P5UE66JBPDCSFVGRD56TQDQ.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SEIKRCUWYZCTHHWQPN6ZTEXMKA.jpg",
-                "decsription": "New York Congresswoman Alexandria Ocasio-Cortez waves at the audience during a discussion at Riverside Church. At the event, she and author Ta-Nehisi Coates discussed political activism at a speaker series honoring Martin Luther King Jr., sponsored by Blackout for Human Rights.",
-                "link": "https://www.columbiaspectator.com/news/2019/01/22/alexandria-ocasio-cortez-ta-nehisi-coates-discuss-legacy-of-dr-king-at-riverside-church-event/",
-                "author": "Gabi Levy/CDS"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NCKGPWVM3FDN7C6TDIY6RUHTQE.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7GAXQSUWDJHIPAEK6VERGLCL7Y.jpg",
-                "decsription": "Jemima Fregene sits for a portrait in the John Jay lounge. Fregene describes the ways in which the Core fails to have productive and meaningful conversations in the classroom in her piece “A slice of modern racism.”",
-                "link": "https://www.columbiaspectator.com/opinion/2019/01/23/a-slice-of-modern-racism/",
-                "author": "Lola Lafia / CDS"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BMDK34T2INAWFFFYGDSSNXPG4U.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IJZKD7JZBZHVPPUBEHNXQLXPNM.jpg",
-                "decsription": "Kai Tinsley, the current president of National Society of Black Engineers chapter at Columbia, writes about the pursuit of excellence on campus in his piece “A burden worth sharing,” ultimately asserting that excellence may only be realized sustainably in community, not isolation.",
-                "link": "https://www.columbiaspectator.com/opinion/2019/01/23/a-burden-worth-sharing/",
-                "author": "Margaret Maguire / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4HQPVESCYVGZNMO3H37M2TFHSE.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZPBSL76QPBCEZHC3H56AAH2DI4.jpg",
-                "decsription": "The First Lady of New York, Chirlane McCray, talks to a student at a Gracie Book Club event in January. McCray was introduced by President Beilock to discuss the club’s focus on mental health at its first event of 2019, held at Barnard College.",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/01/30/author-meri-nana-ama-danquah-discusses-depression-racial-stereotypes-during-first-lady-of-new-yorks-book-club-event-at-barnard/",
-                "author": "Lula O’Donnell / Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NG4OA4IYDNB7NNBF5IEIPBBZ4U.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/M533M7NR7BDVXC6FOBKKIIHZDU.jpg",
-                "decsription": "A cheerleader rallies the crowd before the start of the men’s game. Men’s and women’s basketball both battled Penn in back-to-back games at home in Levien Gymnasium.",
-                "link": "https://www.facebook.com/columbiaspectator/photos/a.10157125085909914/10157125085989914/?type=3&theater",
-                "author": "Rya Inman / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UU7MW4WA6JGGPLDJ4DCVP3LK4E.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PUAIQ26TZRAIFECKJF2JWZT6DA.jpg",
-                "decsription": "The men’s team was edged out in a tight 72-70 game against Penn at its home game on February 2nd. Here, junior forward Patrick Tapé soars into a layup.",
-                "link": "https://www.facebook.com/columbiaspectator/photos/a.10157125085909914/10157125085914914/?type=3&theater",
-                "author": "(Rya Inman / Senior Staff Photographer)"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EPE7W5OZV5ACLC2FIZA4UBAUCY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KZ2QG2YZLVH3ZEQHUIF5BFUJVY.jpg",
-                "decsription": "Michael Grant, GS ’21, sits in the General Studies Lounge. The Lounge in Lewisohn Hall is a unique space exclusively for GS students and provides a secure and comfortable environment for students.",
-                "link": "https://www.columbiaspectator.com/photo-essay/2019/02/13/in-focus-for-the-love-of-the-lounge/",
-                "author": "Elza Bouhassira/ Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/E5BLOY2SB5DTPJS4VI3WFJ6NVA.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TOLZGMB6MZE6TAK2BN2USWR3AQ.jpg",
-                "decsription": "Valerie Adams, a construction worker at Columbia’s Manhattanville construction site looks on at Lenfest Center for the Arts which she helped build. Columbia has set hiring targets aimed at increasing the number of minority, women, and local workers at the Manhattanville campus construction site—but those targets are more complicated than they might seem.",
-                "link": "https://www.columbiaspectator.com/the-eye/2019/02/06/how-have-local-hiring-targets-shaped-columbias-manhattanville-construction-site/",
-                "author": "Lola Lafia / CDS"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HUCK47AOHBB7FNYEV4KA3ZFG4Q.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UYMBUBDLABGPHDMKYSFKY6WIQI.jpg",
-                "decsription": "Sophomore forward Randy Brumant dunks the ball in close home game against Yale, where the Lions lost 70-64.",
-                "link": "https://www.instagram.com/p/BuBpX-HgNiP/",
-                "author": "Eliot Olson / Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/57I4Q2577JEFZBX7KGHMY7LT5U.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/K5NO25EARNEZHHJOXTWXVJEECU.jpg",
-                "decsription": "Karen Green sits for a portrait in her office. Green is a librarian in Butler Library; her position as the Columbia curator for cartoons and comics was created specifically for her. The collection involves over 10,000 pieces in than span twelve different languages.",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/19/karen-green-medievalist-librarian-turned-comic-and-cartoon-curator/",
-                "author": "Natalie Tischler/Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5553TS7NXFFQRGP3ETLJ5LZGS4.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LEDJIEOR7JGR3EXNOQ2I6UAXYE.jpg",
-                "decsription": "The MaMa Project, a satellite project of Orchesis, presented “Terraform,” a student-choreographed performance inspired by the Japanese art form of Kintsugi.",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/26/mama-projects-terraform-threads-its-choreography-with-gold/",
-                "author": "Kirill Buskirk/ Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/T4XBRXVYUJDSZD54RNLK4TAXVI.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5B2R56VNBJEP5DYSOMGQMIPGYM.jpg",
-                "decsription": "Justin Henry, the creator of Beauty Deconstructed, does his makeup in his room. Beauty Deconstructed is a makeup group dedicated to opening up the dialogue to about beauty in an accessible way, allowing students to think about who defines this concept and how it perpetuates systems of oppression.",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/27/justin-henry-is-redefining-beauty-one-face-at-a-time/",
-                "author": "Arielle Shternfeld / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/63K6WDOZVJDO3KKZQF4COAZB5U.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5NDT26FWXVHRLHMQE3C3GC5IR4.jpg",
-                "decsription": "Kwolanne Felix, CC ’22, sits for a portrait. Felix was part of a group of primarily black students harassed by a white student spouting white supremacist rhetoric outside Butler Library on Dec. 9.",
-                "link": "https://www.columbiaspectator.com/eye-lead/2019/02/28/hate-happens-at-columbia-how-does-the-university-respond/",
-                "author": "Rya Inman / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/662FDJY67ZB4FODO33CXUMU4R4.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G2RF2ZLZGFATTNF53IA27HE4WQ.jpg",
-                "decsription": "Sara Morales, BC ’21, stands in front of the Cuban flag in her dorm room. Morales makes her room this cozy because she wants it to be a place where her fellow first-generation and/or low-income (FGLI) students can come, feel safe, and break down.",
-                "link": "https://www.columbiaspectator.com/the-eye/2019/02/26/how-can-barnard-help-cultivate-community-for-its-fgli-students/",
-                "author": "Lula O’Donnell / Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BXH3B4CXH5EMTEQLM6NCAJJQUQ.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CEY67EQKBRAA5G2WN3ASOGQISA.jpg",
-                "decsription": "Business School student Katie Brehm sits in front of Uris Hall. Brehm filed a no-contact directive against her alleged rapist, yet continued to see him in her daily life at Columbia. Brehm plans to leave Columbia because of the exhausting process required to incite positive change and lack of guarantee that there will be any.",
-                "link": "https://www.columbiaspectator.com/news/2019/03/02/she-has-a-no-contact-directive-against-her-alleged-rapist-why-do-they-still-cross-paths-12/",
-                "author": "Kirill Buskirk/Staff photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENU24V3N4FDYTLNZ2P72C5PQ4Y.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5OSNGJKDLZDRTGGVVKL6UZDPVM.jpg",
-                "decsription": "Athena Film Festival attendees listen to a panel discussion about the #TimesUp movement. The festival is an annual event at Barnard that celebrates women’s accomplishments in the film industry and draws a crowd of activists, actors and artists from across the nation.",
-                "link": "https://www.columbiaspectator.com/photo-essay/2019/03/05/in-focus-awards-actors-and-activists-at-athena-film-festival-2/",
-                "author": "Aliya Schneider / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SX2B4JWCWRBLHPQHDZVUJGXLXE.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KSWVMTYVFVEO7ACDNM7XHKCUCA.jpg",
-                "decsription": "A student uses The Movement Lab, located in Barnard’s Milstein Center. The lab is part performance space and part laboratory, created with the intention to merge movement, the arts, and technology.",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/08/barnards-movement-lab-is-a-groundbreaking-research-space-but-its-still-finding-its-identity/",
-                "author": "Margaret Maguire / Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Z6XOYALMCZHUDN7VXLC5KNWCWE.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YFS4MKWG4BE77FUJFCNKDPKXQQ.jpg",
-                "decsription": "Junior forward Patrick Tapé reaches for a ball in a game against Harvard. Harvard defeated Columbia 83-81 in overtime on March 9, closing out the regular season with a competitive spirit. It was the final home game for seniors Quinton Adlesh, who was a top scorer, Peter Barba, and CJ Davis.",
-                "link": "https://www.instagram.com/p/Bu1WIlngPpx/?utm_source=ig_web_button_share_sheet",
-                "author": "Natalie Guerra/Senior Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/54N45MHFV5GHBBDPF4MWPYACIA.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/64ROH3NG7BDRDGGTUQPGHLPKGE.jpg",
-                "decsription": "Students look in to a Columbia College Student Council four-hour meeting that attracted over 150 spectators, saw two student representatives threaten to quit the council, and drew tears from attendees; they shot down a referendum to gauge student support for the Boycott, Divestment and Sanctions movement via an anonymous vote in March.",
-                "link": "https://www.columbiaspectator.com/news/2019/03/11/ccsc-votes-down-bds-referendum-by-secret-ballot-following-4-hours-of-tense-debate-2/",
-                "author": "Beatrice Shlansky / CDs"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J7KWYJJPSVHO3OYOQ4UN5T3FSM.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LBVXRJIJWFGURLSMKCAATVXQWY.jpg",
-                "decsription": "A sunset reflection of St. Paul's Chapel from Low Library. Elisabeth McLaughlin’s photo essay, “a love letter to light,” encourages us all to slow down and look more profoundly at our surroundings, for “light breathes life into our everyday landscapes, even when they seem absent of it.”",
-                "link": "https://www.columbiaspectator.com/photo-essay/2019/03/14/in-focus-a-love-letter-to-light/",
-                "author": "Elisabeth McLaughlin / Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/X4YE5YITXRDZXOKCH73AXWWAFI.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6RVM54TAVZCLLF2KIDEK4VWYEU.jpg",
-                "decsription": "Students rally on Low Steps as part of a Global Climate Strike in March. Nearly 200 people were present as part of a global movement to call for urgent political action on climate change.",
-                "link": "https://www.columbiaspectator.com/news/2019/03/15/columbia-students-join-global-climate-strikes-call-for-urgent-political-action/",
-                "author": "Elza Bouhassira/Staff Photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7LKEENACQFDHRONADTVUIMWRGY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5KXB5F6DCNEPHDOOAYAXOGN4IE.jpg",
-                "decsription": "Lloyd Knight, a principal dancer of the Martha Graham Dance Company, performs a tribute to Marcellus Blount, a former literary scholar and professor, in Low Library. Former students and colleagues gathered in Low to celebrate the life of Blount, who shaped the University’s commitment to academic diversity for more than three decades and who passed away last May.",
-                "link": "https://www.columbiaspectator.com/news/2019/03/27/a-year-after-his-passing-marcellus-blount-remembered-for-shaping-columbias-institutional-commitment-to-diversity/",
-                "author": "Caroline Dailey / senior staff photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LKS5OCATCJEJNM3HHL5TETBAUI.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UTMVWG4ESJHXRCXRUJN7YUTX4Y.jpg",
-                "decsription": "Panelists, including Jelani Cobb, Charlayne Hunter-Gault and Ta-Nehisi Coates, discuss the evolving role of journalism in covering and engaging with the current political climate at a Journalism School event entitled Born Free and Equal: A Symposium on Journalism and Human Rights.",
-                "link": "https://www.columbiaspectator.com/news/2019/04/02/panelists-including-ta-nehisi-coates-discuss-role-of-journalism-in-human-and-civil-rights-at-j-school-symposium/",
-                "author": "Kirill Buskirk / Staff photographer"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PONOGM5WO5ANDFB4IWOHTAXL7E.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QCXT6B3QONBTBG4EJUROH3SLMA.jpg",
-                "decsription": "Rina Sawayama performs at Bacchanal 2019. The concert featured the annual concert’s first ever all-womxn lineup, including Tierra Whack and SOPHIE in addition to Sawayama. Oswald Fresh was the student opener following his win at Battle of the Bands.",
-                "link": "https://www.columbiaspectator.com/photo-essay/2019/04/08/in-focus-scenes-from-the-55th-bacchanallawn-parties-and-an-all-womxn-lineup/",
-                "author": "Yasmine Akki / senior staff photog"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R25EOQ6VMNFSFBUP6N6UI3Z2UE.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ANHFV4P2BFFUBHPP2IQUAPOTKQ.jpg",
-                "decsription": "Members of the Columbia University Ballet Ensemble perform in “Don Quixote.” The ballet is an interpretation of the traditional story of Don Quixote and is danced by students of varying experience levels who are all passionate about the art.",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/04/15/cubes-don-quixote-weaves-whimsy-and-beauty-displays-talents-of-all-inclusive-dance-group/",
-                "author": "Auden Barbour / CDS"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/URA75HEC6FCDFJDXOKCD7HFTZY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CFPUYNGPEZDSLA7SV4DWG4GSA4.jpg",
-                "decsription": "Students sit on Low Steps to enjoy the festivities of Hungama, a traditional South Asian wedding ceremony held by Organization of Pakistani Students at Columbia University in conjunction with NYU’s Pakistani Students Association. This year’s Hungama was the first to feature both straight and queer couples.",
-                "link": "https://www.columbiaspectator.com/photo-essay/2019/04/15/in-focus-a-wedding-on-low-steps/",
-                "author": "Gabi Levy / CDS"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4II6BIVY7NDM7JEHSBUL4QRQOY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4KNCEWA7IBGIPMJ3HGQGWGYTVI.jpg",
-                "decsription": "The Barnard Greenhouse in April. Barnard for 100% Renewable Energy’s e-board published this op-ed, calling for Barnard to commit to 100% renewable energy sources as a necessary climate action.",
-                "link": "https://www.columbiaspectator.com/opinion/2019/04/18/a-call-for-100-renewable-energy-at-barnard/",
-                "author": "Lila Gaffney / CDS"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/75HAGUUXQJDE7GZ4P5FJBRYKKY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/B2PG2IBMMFHQNDUAZBS7CXZNDQ.jpg",
-                "decsription": "First-year defensive back Jordan Colbert runs back an interception as his teammates get out in front to block. The Spring Game was the last opportunity for head coach Al Bagnoli to analyze strengths and weaknesses before the team breaks for summer.",
-                "link": "https://www.columbiaspectator.com/photo-essay/2019/04/22/in-focus-football-takes-the-field-at-annual-spring-game/",
-                "author": "Guglielmo Vedovotto / Columbia Daily Spectator"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SWFXPVSN4JAYPAED7U2GGL446A.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5HKPWFTXBZGLXEDMSEZKHE3E2Y.jpg",
-                "decsription": "Eleanor Johnson, English professor, sits for a portrait with her two children, Emmy and Jojo. Professors at Columbia pay upward of $120,000 annually on childcare, but the University caps childcare benefits at $3,000. This lack of adequate assistance can push faculty into debt and dire situations, hurting course offerings, office hours availability, research output and faculty success.",
-                "link": "https://www.columbiaspectator.com/news/2019/04/25/your-professor-pays-more-for-childcare-than-you-do-for-tuition-4-faculty-explain-what-this-means-for-their-lives-and-your-education/",
-                "author": "Arielle Shternfeld / SSP"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3GI6DNLFD5CUJNBYKPWJRUBRVY.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EA5Z2HXNQFHWBCCZ5CJ7LZQCVU.jpg",
-                "decsription": "George and Amal Clooney, founders of the Clooney Foundation for Justice, unveiled TrialWatch, an initiative focused on monitoring and reporting on trials around the world that pose a high risk of human rights violations, at Columbia Law School in April. At the event, the Clooneys were joined by the President of Microsoft Brad Smith, President of the American Bar Association Bob Carlson, former United Nations High Commissioner for Human Rights Zeid Ra’ad Al Hussein, and University President Lee Bollinger in a panel moderated by New York Times columnist Nicholas Kristof.",
-                "link": "https://www.columbiaspectator.com/news/2019/04/26/clooney-foundation-unveils-human-rights-monitoring-initiative-trialwatch-in-partnership-with-columbia-law-school/",
-                "author": "Yasmine Akki / senior staff photog"
-            }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QIPA6G35KVGQPMC33N2BQNPGFQ.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C2PD73JOYBAWJCJDUD4UODD4FM.jpg",
-                "decsription": "The Men’s tennis team jumps in joy after they claimed their sixth consecutive Ivy League title in April. The match was an especially memorable one as it marked the final regular season home match of head coach Bid Goswami’s illustrious 37-year career.",
-                "link": "https://www.columbiaspectator.com/sports/2019/04/29/mens-tennis-claims-sixth-straight-ivy-title-outright-with-narrow-victory-over-cornell/",
-                "author": "Caroline Dailey / senior staff photographer"
-            }]
-        }
-    },
+		"blurb": "Photography captures that which can’t be put to words—a moment, a feeling, a second which might otherwise go unnoticed. In the past year, our photographers traveled from the corners of Low Library to dorm rooms to the edges of West Harlem and the Manhattanville campus. They photographed administrators and community meetings, student protests and CCSC meetings, football games and the odd politician—all in search of the split seconds that make up our campus. As we look back on a year’s worth of photos, we emerge with a picture of what our campus looks like: at times divided, at times united, but always ours. ",
+		"items": {
+            "Photos":[
+                {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YLUWI75FZZFOLJ35NEFJ5ETVNY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QIVHFBGWWZDQVFEHJJHWY2N45E.jpg",
+			"decsription": "In the 102nd annual Pulitzer Prize ceremony, Kendrick Lamar became the first ever rapper to be awarded the Pulitzer for Music, which he earned for his 2017 album, DAMN. The award was presented by University President Lee Bollinger.",
+			"link": "https://www.columbiaspectator.com/news/2018/05/30/102nd-annual-pulitzer-prize-award-ceremony-features-columbia-alum-jodi-kantor-star-rapper-kendrick-lamar/",
+			"author": "Michael Edmonson / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6KK3COTDHVFBXCJLY5RMNAYBW4.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ARNB5HF7FZHVXARCROXH2BTMD4.jpg",
+			"decsription": "Katie Cooke, CC ’19, music director for Columbia University New Opera Workshop, plans to obtain a graduate degree in music education at Teachers College, so she can share her passion for classical music with the next generation.",
+			"link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/09/13/katie-cooke-wants-to-bring-a-love-of-music-to-the-next-generation-from-the-podium/",
+			"author": "Trinity Lester/Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IM2WICG6DJE2JEOQUCGEFWUTRQ.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/IM2WICG6DJE2JEOQUCGEFWUTRQ.jpg",
+			"decsription": "Many New York City public high school students see attending Columbia as impossible until someone from their school actually gets in or a counselor visits, but high school college counselors have had a hard time establishing relationships with Columbia admissions representatives due to their lack of recruitment from these schools. Hifza Shaukat, CC’ 21, said that, without communication from a Columbia representative, students at her high school often reach out to her, as she remains their only touchpoint at Columbia.",
+			"link": "https: //www.columbiaspectator.com/news/2018/09/20/off-the-radar-at-public-schools-where-columbia-doesnt-recruit-applicants-face-uphill-battle/",
+			"author": "Cherrie Zheng/Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PSVOFZTUU5G6LG4QMXPPLQ7MBY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/K5YDIULNMNGAFLA3CAJYFX4P3E.jpg",
+			"decsription": "Supreme Court Justice Ruth Bader Ginsburg, Law ’59, speaks at a panel at Columbia Law School, giving advice to aspiring law students and highlighting the difficulties she faced as a woman in a male-dominated field. The panel was hosted by the Law School in honor of the 25th anniversary of Ginsburg’s appointment to the Supreme Court.",
+			"link": "https://www.columbiaspectator.com/news/2018/09/24/justice-ruth-bader-ginsburg-returned-to-columbia-and-gave-advice-to-aspiring-law-students/",
+			"author": "Natalie Tischler/ Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HC5AHA35CNCEVDAH6OWUPQPOUY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FV5VXOBRYNBVFKMGRB2NV2JSEY.jpg",
+			"decsription": "The Columbia Kingsmen, one of Columbia’s two all-male acapella groups, rehearse in a classroom on campus. The group celebrated its 70th anniversary this year and released its seventh studio album. Founded in 1948, the Kingsmen have carved out a distinguished legacy, performing everywhere from Carnegie Hall to The Ed Sullivan Show, and embarking on numerous international tours in the past.",
+			"link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/09/25/kingsmen-look-back-on-over-70-years-of-history-at-columbia/",
+			"author": "Kirill Buskirk/ Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/B5X3DY7OPBHR7CMSJQCPW65PHQ.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4SHMBN7HHNFQHPKKFCPBT46XRE.jpg",
+			"decsription": "University President Lee Bollinger greets guests at the opening of the Forum in September. The Forum was the third building to open on the Manhattanville campus.",
+			"link": "https://www.columbiaspectator.com/news/2018/09/27/the-forum-columbias-third-manhattanville-building-opens-on-new-campus/",
+			"author": "Anna Beloborodova / Columbia Daily Spectator."
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4K6A3OZ44VCDVGAGJ5UUGI4HBA.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4ZB7DKMI6FFNNDHDS7Y6SMDDLM.jpg",
+			"decsription": "Mold is just one of the slew of facilities issues East Campus Residence Hall faced in September. Issues concerning the physical state of the building are not new, however, as they have been reported hundreds of times since the building was first erected.",
+			"link": "https://www.columbiaspectator.com/news/2018/09/27/decades-of-disrepair-east-campus-woes-date-back-to-buildings-construction/",
+			"author": "Arielle Shternfeld / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5NHH5ZD24BFE5EZ5B3ZN6HTNMY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AQQG7WZHMBGJZLUS3MFNHEGYZQ.jpg",
+			"decsription": "Madeleine Albright, former Secretary of State, speaks with economics professor, Jan Svejnar, at the World Leaders Forum in September. In her speech, she warned against the rise of authoritarian nationalism across the globe. The World Leaders Forum is an annual event, which brings renowned political leaders and policymakers to campus.",
+			"link": "https://www.columbiaspectator.com/news/2018/09/28/former-secretary-of-state-madeleine-albright-honors-first-czech-republic-president-vaclav-havel-at-world-leaders-forum/",
+			"author": "Athena Chin /Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YZXTQ3PHMRGCZJ2FD6PEQW3VYE.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NMAJDV44ONDJHKNYEZ7N6NLJB4.jpg",
+			"decsription": "The University Senate unanimously votes in favor of establishing a department of African-American and African Diaspora studies at the monthly plenary in September.",
+			"link": "https://www.columbiaspectator.com/news/2018/09/28/with-unanimous-vote-university-senate-approves-new-african-american-and-african-diaspora-studies-department/",
+			"author": "Lula O'Donnell/Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N7TQQ5X4EFCCRORH4YXCKOYMLI.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KIYIO4HM5JB43I3XIQJBOPHKLA.jpg",
+			"decsription": "Sylvia Tyler sits in her home on West 138th Street and Amsterdam Avenue. Tyler is a member of the HDFC Coalition, which was formed in 1992 to advocate for Housing Development Fund Corporations where the city fell short.",
+			"link": "https://www.columbiaspectator.com/the-eye/2018/09/26/affordable-co-ops-in-harlem-are-facing-foreclosures-columbia-may-be-able-to-help/",
+			"author": "Natalie Tischler / Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2PHHVL5OBBEPHG3MOTAZWOZH7U.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CSJ4AJQACVA3HAFJQFZN456TNU.jpg",
+			"decsription": "Students embraced one another as demonstrators shared personal stories of experiences of sexual harassment and assault during protests against then-Supreme Court-nominee Brett Kavanaugh.",
+			"link": "https://www.columbiaspectator.com/news/2018/10/05/columbia-law-professors-join-calls-to-cancel-kavanaugh-as-student-protests-target-scotus-nominee/",
+			"author": "Rya Inman / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7JRRFB7DYRCLXIORYTI3LPTQI4.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EUBJPB6WZVHR3OG3O67QCPKKXM.jpg",
+			"decsription": "Naomi Goldberg Haas leads stretches in Dances for a Variable Population, a West Harlem Development Corporation-funded nonprofit that aims to combat loneliness and unfitness in seniors with group dance classes in communal locations like libraries and senior centers.",
+			"link": "https://www.columbiaspectator.com/the-eye/2018/10/08/ten-years-ago-columbia-pledged-76-million-to-local-nonprofits-what-happens-when-it-runs-out/",
+			"author": "Arielle Shternfeld / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SMMPQNJ6X5FITGRM6X4XVK4424.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AHWFCV3LIZFRXI77TZI7MLS5DY.jpg",
+			"decsription": "Senior defender Taylor Penn takes a free kick during a game against Princeton in October.",
+			"link": "?",
+			"author": "Eliot Olson / Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C2WCHN7FF5ADNKCV4QONFMNALE.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/H3GOHYDMGBCD3GKI75SMUOVE6M.jpg",
+			"decsription": "Pat Lilly, the manager of visitor services at Columbia’s Forum building, walks down the stairs from her office. She was hired by the Columbia Employment Information Center as part of a Columbia Initiative in the West Harlem Community Benefits Agreement.",
+			"link": "https://www.columbiaspectator.com/the-eye/2018/10/25/a-columbia-initiative-has-placed-hundreds-in-university-jobs-but-many-local-residents-have-never-heard-of-it/",
+			"author": "Gabi Levy / Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CMUWRH2GRJDM5PHZTVQT3PHYBA.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JUWAB4MUCNFQFPQZR4PHBTSGQM.jpg",
+			"decsription": "Sandra Goldstein Lehnert, CC ’19, advocates for undergraduate students to show solidarity for union protests. In October, the graduate student union announced their plans to strike indefinitely during the week before final exams if the University did not agree to bargain. In November, just weeks before the projected strike, President Bollinger announced that they would begin the bargaining process.",
+			"link": "https://www.columbiaspectator.com/news/2018/11/01/grad-student-union-announces-plans-for-indefinite-strike-beginning-in-december/",
+			"author": "Arielle Shternfeld / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2MX2WNW64NCZTGAXTXIZ35MKKE.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/E6Z3YTJMTNBSXKY373M6ZTMGZQ.jpg",
+			"decsription": "Actors perform the Columbia University Players’ production of The Great Gatsby. The key players behind the scenes including directors, producers, costume designers, a lighting designer, set designer, sound designer, and a tech director played a central role in the show’s success.",
+			"link": "https://www.columbiaspectator.com/eye-lead/2018/10/31/behind-the-creative-curtain/",
+			"author": "Elza Bouhassira / Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RTF5FKITH5HFJNFRSSDVI7RLGE.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CFGICWUEMJBUBMWFNFUIZ55EFI.jpg",
+			"decsription": "A performer dances with her skirt in the closing celebration of Latinx Heritage Month. The annual event, which celebrated a richly diverse community that finds empowerment both in its shared ancestry and divergent identities, featured dance, fashion, food, and more.",
+			"link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/11/02/latinx-heritage-month-concludes-with-celebration-of-fashion-nature-and-the-latinx-identity/",
+			"author": "Lula O'Donnell/Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UWP7M2UYAJGDBEP6WAL5C7ROME.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SUVDTOGIWBEVTBCOGBD6N53AVA.jpg",
+			"decsription": "Kosta Karakashyan’s documentary \"Waiting for Color\" is the culmination of 18 years of dance experience and highlights the ongoing struggle of gay men against the government’s anti-gay purges in the Russian republic of Chechnya.",
+			"link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/11/01/kosta-karakashyan-cc-19-on-his-new-dance-documentary-and-the-continued-struggle-of-the-lgbtq-community-in-chechnya/",
+			"author": "Cherrie Zheng/Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/L6QQGOIPHRF4TIDHNQKGLAC2OA.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GUOAU7QEOVAKVHGBRMV7ZV7UYI.jpeg",
+			"decsription": "First-year quarterback Ty Lenhart searches downfield for an open reciever during his first career start at Harvard in November. The Lions lost 52-18 after a strong first half in the windy game versus the Crimson.",
+			"link": "https://www.columbiaspectator.com/sports/2018/11/03/football-blown-away-by-harvard-52-18/",
+			"author": "KJ Mulam / Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CUQBJTESIRDI5BALWEBLAWPWBY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5DKOU3PAVVFDHAFLDOJPJG4JAY.jpg",
+			"decsription": "The women’s field hockey team plays against Cornell, winning 2-0, earning its third consecutive win of the season in October. The team ended this year’s season 8-9, 2-5 Ivy.",
+			"link": "https://www.columbiaspectator.com/sports/2018/10/02/field-hockey-tops-cornell-remains-undefeated-in-ivy-play/",
+			"author": "Lola Lafia / Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VGKDA6YAZND7TDK4OHWUWWWGQE.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GG2WP6PK45G6HKSN2EX5DPV6FM.jpg",
+			"decsription": "Myeonhu Kim, CC ’20, works out a problem on a blackboard in preparation for the 80th Annual William Lowell Putnam Mathematical Competition. Putnam is the preeminent undergraduate math competition in North America. In 2018 Columbia came in 4th place for the first time since 1957.",
+			"link": "https://www.columbiaspectator.com/the-eye/2018/11/13/meet-the-rockstars-on-columbias-competition-math-team/",
+			"author": "Gabi Levy / Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DOCLADSBHBCI5N56J2RGHS56OM.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IC5XT7PXBZCLNGXKD6KEQMTJV4.jpg",
+			"decsription": "A brain in the office of Peter Balsam, director of the neuroscience and behavior program at Barnard. Barnard neuroscience majors responded to a student-initiated survey and expressed the need for improvement in their major curriculum, course accessibility, and community.",
+			"link": "https://www.columbiaspectator.com/the-eye/2018/11/15/growing-together-the-student-effort-to-change-barnards-neuroscience-program/",
+			"author": "Lula O’Donnell / Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NUYLWG2Y75HTXJ7SMWUB5PWYWM.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2XJI6A6SDFGFZOLXLWOSEUY7UQ.jpg",
+			"decsription": "Junior guard Mike Smith dribbles down the court in a narrow game against Fordham. The Lions lost in a close game, 70-69 , but they fought hard for the rest of the season.",
+			"link": "https://www.columbiaspectator.com/sports/2018/11/20/mens-basketball-suffers-narrow-70-69-defeat-to-fordham-remains-winless-to-start-the-season/",
+			"author": "Caroline Dailey / SSP"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DROQNVVNHZDL5KBW325PH6JFWU.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/MP44MNI3QJCELIQNRX5MHAIIIM.jpg",
+			"decsription": "A performer at The Cotton Club strikes a pose. The Cotton Club, a jazz and supper club on 125th Street, proudly remains a landmark despite Columbia’s Manhattanville expansion",
+			"link": "https://www.columbiaspectator.com/the-eye/2018/11/20/the-ivy-league-and-the-cotton-club/",
+			"author": "Yasmine Akki / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RCHWYRSWNZHRFMOONKIWEP4RFQ.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TLYYTSDLYZBVFGHEZWGMOFYXU4.jpg",
+			"decsription": "The men’s swim team competes at a meet in November. Columbia men’s and women’s swimming and diving teams lost to undefeated Harvard, contributing to a string of Ivy losses in the 2018-2019 season.",
+			"link": "https://www.columbiaspectator.com/sports/2018/11/20/mens-and-womens-swimming-and-diving-fall-to-harvard-continuing-string-of-ivy-losses/",
+			"author": "Rya Inman / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/M4NCIZ4IYZDKPGVGQGHPVJCLQM.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6Z42LII4INDNNPZRZE63J4UFHM.jpg",
+			"decsription": "The office of Jewish professor Elizabeth Midlarsky, who teaches and researches the Holocaust at Columbia Teachers College, was vandalized with swastikas and anti-Semitic slurs in November.",
+			"link": "https://www.columbiaspectator.com/news/2018/11/29/teachers-college-professors-office-vandalized-with-anti-semitic-graffiti/",
+			"author": "Rya Inman/ Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DOMRUOKZL5A6PMQAVRVXLBLLBY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IABTMX6DRNBDLMTNNP7UD5GZBY.jpg",
+			"decsription": "Students perform in Orchesis’ fall semester showcase, where over 140 dancers took the stage backed by the music of Bruno Mars, Sam Smith, and Ed Sheeran, among others. The theme of the end-of-semester show was ‘Versace on the FloOrchesis.’",
+			"link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/12/10/orchesis-hits-the-floorchesis-at-semesterly-performance/",
+			"author": "Elza Bouhassira/ Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7GUIQSMFM5AYXKP2NEHCRXLIO4.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/W7C3QDVUKBEFLDJC2LO27KXV6Q.jpg",
+			"decsription": "Andrew Rodriguez, CC ’20, walks on Columbia’s campus. In January of 2017 Rodriguez began to help lead mental health reform, which is materialized through Columbia’s JED partnership.",
+			"link": "https://www.columbiaspectator.com/news/2018/12/21/a-seat-at-the-table-how-student-led-mental-health-reform-has-begun-to-materialize-through-columbias-jed-partnership-five-years-later-3/",
+			"author": "Gabi Levy / Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IL7TBM2FNNDX3BOWSX4BBGMEJI.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QRDMF2ABDRGH7DV7WXJLTDYGXE.jpg",
+			"decsription": "Governor of New York Andrew Cuomo calls for the codification of abortion rights into New York state law and promotes the Reproductive Health Act at a rally held at Barnard. He was joined by former Secretary of State, New York senator, and 2016 Democratic presidential candidate Hillary Clinton, whose remarks centered around the legacy of women’s rights advocacy in New York.",
+			"link": "https://www.columbiaspectator.com/news/2019/01/07/hillary-clinton-cuomo-call-for-decriminalization-of-abortion-in-new-york-at-rally-at-barnard/",
+			"author": "Caroline Dailey/ Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G24P5UE66JBPDCSFVGRD56TQDQ.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SEIKRCUWYZCTHHWQPN6ZTEXMKA.jpg",
+			"decsription": "New York Congresswoman Alexandria Ocasio-Cortez waves at the audience during a discussion at Riverside Church. At the event, she and author Ta-Nehisi Coates discussed political activism at a speaker series honoring Martin Luther King Jr., sponsored by Blackout for Human Rights.",
+			"link": "https://www.columbiaspectator.com/news/2019/01/22/alexandria-ocasio-cortez-ta-nehisi-coates-discuss-legacy-of-dr-king-at-riverside-church-event/",
+			"author": "Gabi Levy/CDS"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NCKGPWVM3FDN7C6TDIY6RUHTQE.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7GAXQSUWDJHIPAEK6VERGLCL7Y.jpg",
+			"decsription": "Jemima Fregene sits for a portrait in the John Jay lounge. Fregene describes the ways in which the Core fails to have productive and meaningful conversations in the classroom in her piece “A slice of modern racism.”",
+			"link": "https://www.columbiaspectator.com/opinion/2019/01/23/a-slice-of-modern-racism/",
+			"author": "Lola Lafia / CDS"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BMDK34T2INAWFFFYGDSSNXPG4U.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IJZKD7JZBZHVPPUBEHNXQLXPNM.jpg",
+			"decsription": "Kai Tinsley, the current president of National Society of Black Engineers chapter at Columbia, writes about the pursuit of excellence on campus in his piece “A burden worth sharing,” ultimately asserting that excellence may only be realized sustainably in community, not isolation.",
+			"link": "https://www.columbiaspectator.com/opinion/2019/01/23/a-burden-worth-sharing/",
+			"author": "Margaret Maguire / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4HQPVESCYVGZNMO3H37M2TFHSE.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZPBSL76QPBCEZHC3H56AAH2DI4.jpg",
+			"decsription": "The First Lady of New York, Chirlane McCray, talks to a student at a Gracie Book Club event in January. McCray was introduced by President Beilock to discuss the club’s focus on mental health at its first event of 2019, held at Barnard College.",
+			"link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/01/30/author-meri-nana-ama-danquah-discusses-depression-racial-stereotypes-during-first-lady-of-new-yorks-book-club-event-at-barnard/",
+			"author": "Lula O’Donnell / Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NG4OA4IYDNB7NNBF5IEIPBBZ4U.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/M533M7NR7BDVXC6FOBKKIIHZDU.jpg",
+			"decsription": "A cheerleader rallies the crowd before the start of the men’s game. Men’s and women’s basketball both battled Penn in back-to-back games at home in Levien Gymnasium.",
+			"link": "https://www.facebook.com/columbiaspectator/photos/a.10157125085909914/10157125085989914/?type=3&theater",
+			"author": "Rya Inman / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UU7MW4WA6JGGPLDJ4DCVP3LK4E.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PUAIQ26TZRAIFECKJF2JWZT6DA.jpg",
+			"decsription": "The men’s team was edged out in a tight 72-70 game against Penn at its home game on February 2nd. Here, junior forward Patrick Tapé soars into a layup.",
+			"link": "https://www.facebook.com/columbiaspectator/photos/a.10157125085909914/10157125085914914/?type=3&theater",
+			"author": "(Rya Inman / Senior Staff Photographer)"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EPE7W5OZV5ACLC2FIZA4UBAUCY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KZ2QG2YZLVH3ZEQHUIF5BFUJVY.jpg",
+			"decsription": "Michael Grant, GS ’21, sits in the General Studies Lounge. The Lounge in Lewisohn Hall is a unique space exclusively for GS students and provides a secure and comfortable environment for students.",
+			"link": "https://www.columbiaspectator.com/photo-essay/2019/02/13/in-focus-for-the-love-of-the-lounge/",
+			"author": "Elza Bouhassira/ Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/E5BLOY2SB5DTPJS4VI3WFJ6NVA.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TOLZGMB6MZE6TAK2BN2USWR3AQ.jpg",
+			"decsription": "Valerie Adams, a construction worker at Columbia’s Manhattanville construction site looks on at Lenfest Center for the Arts which she helped build. Columbia has set hiring targets aimed at increasing the number of minority, women, and local workers at the Manhattanville campus construction site—but those targets are more complicated than they might seem.",
+			"link": "https://www.columbiaspectator.com/the-eye/2019/02/06/how-have-local-hiring-targets-shaped-columbias-manhattanville-construction-site/",
+			"author": "Lola Lafia / CDS"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HUCK47AOHBB7FNYEV4KA3ZFG4Q.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UYMBUBDLABGPHDMKYSFKY6WIQI.jpg",
+			"decsription": "Sophomore forward Randy Brumant dunks the ball in close home game against Yale, where the Lions lost 70-64.",
+			"link": "https://www.instagram.com/p/BuBpX-HgNiP/",
+			"author": "Eliot Olson / Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/57I4Q2577JEFZBX7KGHMY7LT5U.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/K5NO25EARNEZHHJOXTWXVJEECU.jpg",
+			"decsription": "Karen Green sits for a portrait in her office. Green is a librarian in Butler Library; her position as the Columbia curator for cartoons and comics was created specifically for her. The collection involves over 10,000 pieces in than span twelve different languages.",
+			"link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/19/karen-green-medievalist-librarian-turned-comic-and-cartoon-curator/",
+			"author": "Natalie Tischler/Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5553TS7NXFFQRGP3ETLJ5LZGS4.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LEDJIEOR7JGR3EXNOQ2I6UAXYE.jpg",
+			"decsription": "The MaMa Project, a satellite project of Orchesis, presented “Terraform,” a student-choreographed performance inspired by the Japanese art form of Kintsugi.",
+			"link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/26/mama-projects-terraform-threads-its-choreography-with-gold/",
+			"author": "Kirill Buskirk/ Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/T4XBRXVYUJDSZD54RNLK4TAXVI.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5B2R56VNBJEP5DYSOMGQMIPGYM.jpg",
+			"decsription": "Justin Henry, the creator of Beauty Deconstructed, does his makeup in his room. Beauty Deconstructed is a makeup group dedicated to opening up the dialogue to about beauty in an accessible way, allowing students to think about who defines this concept and how it perpetuates systems of oppression.",
+			"link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/27/justin-henry-is-redefining-beauty-one-face-at-a-time/",
+			"author": "Arielle Shternfeld / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/63K6WDOZVJDO3KKZQF4COAZB5U.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5NDT26FWXVHRLHMQE3C3GC5IR4.jpg",
+			"decsription": "Kwolanne Felix, CC ’22, sits for a portrait. Felix was part of a group of primarily black students harassed by a white student spouting white supremacist rhetoric outside Butler Library on Dec. 9.",
+			"link": "https://www.columbiaspectator.com/eye-lead/2019/02/28/hate-happens-at-columbia-how-does-the-university-respond/",
+			"author": "Rya Inman / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/662FDJY67ZB4FODO33CXUMU4R4.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G2RF2ZLZGFATTNF53IA27HE4WQ.jpg",
+			"decsription": "Sara Morales, BC ’21, stands in front of the Cuban flag in her dorm room. Morales makes her room this cozy because she wants it to be a place where her fellow first-generation and/or low-income (FGLI) students can come, feel safe, and break down.",
+			"link": "https://www.columbiaspectator.com/the-eye/2019/02/26/how-can-barnard-help-cultivate-community-for-its-fgli-students/",
+			"author": "Lula O’Donnell / Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BXH3B4CXH5EMTEQLM6NCAJJQUQ.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CEY67EQKBRAA5G2WN3ASOGQISA.jpg",
+			"decsription": "Business School student Katie Brehm sits in front of Uris Hall. Brehm filed a no-contact directive against her alleged rapist, yet continued to see him in her daily life at Columbia. Brehm plans to leave Columbia because of the exhausting process required to incite positive change and lack of guarantee that there will be any.",
+			"link": "https://www.columbiaspectator.com/news/2019/03/02/she-has-a-no-contact-directive-against-her-alleged-rapist-why-do-they-still-cross-paths-12/",
+			"author": "Kirill Buskirk/Staff photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENU24V3N4FDYTLNZ2P72C5PQ4Y.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5OSNGJKDLZDRTGGVVKL6UZDPVM.jpg",
+			"decsription": "Athena Film Festival attendees listen to a panel discussion about the #TimesUp movement. The festival is an annual event at Barnard that celebrates women’s accomplishments in the film industry and draws a crowd of activists, actors and artists from across the nation.",
+			"link": "https://www.columbiaspectator.com/photo-essay/2019/03/05/in-focus-awards-actors-and-activists-at-athena-film-festival-2/",
+			"author": "Aliya Schneider / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SX2B4JWCWRBLHPQHDZVUJGXLXE.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KSWVMTYVFVEO7ACDNM7XHKCUCA.jpg",
+			"decsription": "A student uses The Movement Lab, located in Barnard’s Milstein Center. The lab is part performance space and part laboratory, created with the intention to merge movement, the arts, and technology.",
+			"link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/08/barnards-movement-lab-is-a-groundbreaking-research-space-but-its-still-finding-its-identity/",
+			"author": "Margaret Maguire / Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Z6XOYALMCZHUDN7VXLC5KNWCWE.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YFS4MKWG4BE77FUJFCNKDPKXQQ.jpg",
+			"decsription": "Junior forward Patrick Tapé reaches for a ball in a game against Harvard. Harvard defeated Columbia 83-81 in overtime on March 9, closing out the regular season with a competitive spirit. It was the final home game for seniors Quinton Adlesh, who was a top scorer, Peter Barba, and CJ Davis.",
+			"link": "https://www.instagram.com/p/Bu1WIlngPpx/?utm_source=ig_web_button_share_sheet",
+			"author": "Natalie Guerra/Senior Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/54N45MHFV5GHBBDPF4MWPYACIA.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/64ROH3NG7BDRDGGTUQPGHLPKGE.jpg",
+			"decsription": "Students look in to a Columbia College Student Council four-hour meeting that attracted over 150 spectators, saw two student representatives threaten to quit the council, and drew tears from attendees; they shot down a referendum to gauge student support for the Boycott, Divestment and Sanctions movement via an anonymous vote in March.",
+			"link": "https://www.columbiaspectator.com/news/2019/03/11/ccsc-votes-down-bds-referendum-by-secret-ballot-following-4-hours-of-tense-debate-2/",
+			"author": "Beatrice Shlansky / CDs"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J7KWYJJPSVHO3OYOQ4UN5T3FSM.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LBVXRJIJWFGURLSMKCAATVXQWY.jpg",
+			"decsription": "A sunset reflection of St. Paul's Chapel from Low Library. Elisabeth McLaughlin’s photo essay, “a love letter to light,” encourages us all to slow down and look more profoundly at our surroundings, for “light breathes life into our everyday landscapes, even when they seem absent of it.”",
+			"link": "https://www.columbiaspectator.com/photo-essay/2019/03/14/in-focus-a-love-letter-to-light/",
+			"author": "Elisabeth McLaughlin / Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/X4YE5YITXRDZXOKCH73AXWWAFI.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6RVM54TAVZCLLF2KIDEK4VWYEU.jpg",
+			"decsription": "Students rally on Low Steps as part of a Global Climate Strike in March. Nearly 200 people were present as part of a global movement to call for urgent political action on climate change.",
+			"link": "https://www.columbiaspectator.com/news/2019/03/15/columbia-students-join-global-climate-strikes-call-for-urgent-political-action/",
+			"author": "Elza Bouhassira/Staff Photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7LKEENACQFDHRONADTVUIMWRGY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5KXB5F6DCNEPHDOOAYAXOGN4IE.jpg",
+			"decsription": "Lloyd Knight, a principal dancer of the Martha Graham Dance Company, performs a tribute to Marcellus Blount, a former literary scholar and professor, in Low Library. Former students and colleagues gathered in Low to celebrate the life of Blount, who shaped the University’s commitment to academic diversity for more than three decades and who passed away last May.",
+			"link": "https://www.columbiaspectator.com/news/2019/03/27/a-year-after-his-passing-marcellus-blount-remembered-for-shaping-columbias-institutional-commitment-to-diversity/",
+			"author": "Caroline Dailey / senior staff photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LKS5OCATCJEJNM3HHL5TETBAUI.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UTMVWG4ESJHXRCXRUJN7YUTX4Y.jpg",
+			"decsription": "Panelists, including Jelani Cobb, Charlayne Hunter-Gault and Ta-Nehisi Coates, discuss the evolving role of journalism in covering and engaging with the current political climate at a Journalism School event entitled Born Free and Equal: A Symposium on Journalism and Human Rights.",
+			"link": "https://www.columbiaspectator.com/news/2019/04/02/panelists-including-ta-nehisi-coates-discuss-role-of-journalism-in-human-and-civil-rights-at-j-school-symposium/",
+			"author": "Kirill Buskirk / Staff photographer"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PONOGM5WO5ANDFB4IWOHTAXL7E.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QCXT6B3QONBTBG4EJUROH3SLMA.jpg",
+			"decsription": "Rina Sawayama performs at Bacchanal 2019. The concert featured the annual concert’s first ever all-womxn lineup, including Tierra Whack and SOPHIE in addition to Sawayama. Oswald Fresh was the student opener following his win at Battle of the Bands.",
+			"link": "https://www.columbiaspectator.com/photo-essay/2019/04/08/in-focus-scenes-from-the-55th-bacchanallawn-parties-and-an-all-womxn-lineup/",
+			"author": "Yasmine Akki / senior staff photog"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R25EOQ6VMNFSFBUP6N6UI3Z2UE.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ANHFV4P2BFFUBHPP2IQUAPOTKQ.jpg",
+			"decsription": "Members of the Columbia University Ballet Ensemble perform in “Don Quixote.” The ballet is an interpretation of the traditional story of Don Quixote and is danced by students of varying experience levels who are all passionate about the art.",
+			"link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/04/15/cubes-don-quixote-weaves-whimsy-and-beauty-displays-talents-of-all-inclusive-dance-group/",
+			"author": "Auden Barbour / CDS"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/URA75HEC6FCDFJDXOKCD7HFTZY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CFPUYNGPEZDSLA7SV4DWG4GSA4.jpg",
+			"decsription": "Students sit on Low Steps to enjoy the festivities of Hungama, a traditional South Asian wedding ceremony held by Organization of Pakistani Students at Columbia University in conjunction with NYU’s Pakistani Students Association. This year’s Hungama was the first to feature both straight and queer couples.",
+			"link": "https://www.columbiaspectator.com/photo-essay/2019/04/15/in-focus-a-wedding-on-low-steps/",
+			"author": "Gabi Levy / CDS"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4II6BIVY7NDM7JEHSBUL4QRQOY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4KNCEWA7IBGIPMJ3HGQGWGYTVI.jpg",
+			"decsription": "The Barnard Greenhouse in April. Barnard for 100% Renewable Energy’s e-board published this op-ed, calling for Barnard to commit to 100% renewable energy sources as a necessary climate action.",
+			"link": "https://www.columbiaspectator.com/opinion/2019/04/18/a-call-for-100-renewable-energy-at-barnard/",
+			"author": "Lila Gaffney / CDS"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/75HAGUUXQJDE7GZ4P5FJBRYKKY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/B2PG2IBMMFHQNDUAZBS7CXZNDQ.jpg",
+			"decsription": "First-year defensive back Jordan Colbert runs back an interception as his teammates get out in front to block. The Spring Game was the last opportunity for head coach Al Bagnoli to analyze strengths and weaknesses before the team breaks for summer.",
+			"link": "https://www.columbiaspectator.com/photo-essay/2019/04/22/in-focus-football-takes-the-field-at-annual-spring-game/",
+			"author": "Guglielmo Vedovotto / Columbia Daily Spectator"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SWFXPVSN4JAYPAED7U2GGL446A.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5HKPWFTXBZGLXEDMSEZKHE3E2Y.jpg",
+			"decsription": "Eleanor Johnson, English professor, sits for a portrait with her two children, Emmy and Jojo. Professors at Columbia pay upward of $120,000 annually on childcare, but the University caps childcare benefits at $3,000. This lack of adequate assistance can push faculty into debt and dire situations, hurting course offerings, office hours availability, research output and faculty success.",
+			"link": "https://www.columbiaspectator.com/news/2019/04/25/your-professor-pays-more-for-childcare-than-you-do-for-tuition-4-faculty-explain-what-this-means-for-their-lives-and-your-education/",
+			"author": "Arielle Shternfeld / SSP"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3GI6DNLFD5CUJNBYKPWJRUBRVY.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EA5Z2HXNQFHWBCCZ5CJ7LZQCVU.jpg",
+			"decsription": "George and Amal Clooney, founders of the Clooney Foundation for Justice, unveiled TrialWatch, an initiative focused on monitoring and reporting on trials around the world that pose a high risk of human rights violations, at Columbia Law School in April. At the event, the Clooneys were joined by the President of Microsoft Brad Smith, President of the American Bar Association Bob Carlson, former United Nations High Commissioner for Human Rights Zeid Ra’ad Al Hussein, and University President Lee Bollinger in a panel moderated by New York Times columnist Nicholas Kristof.",
+			"link": "https://www.columbiaspectator.com/news/2019/04/26/clooney-foundation-unveils-human-rights-monitoring-initiative-trialwatch-in-partnership-with-columbia-law-school/",
+			"author": "Yasmine Akki / senior staff photog"
+		}, {
+			"front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QIPA6G35KVGQPMC33N2BQNPGFQ.jpg",
+			"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C2PD73JOYBAWJCJDUD4UODD4FM.jpg",
+			"decsription": "The Men’s tennis team jumps in joy after they claimed their sixth consecutive Ivy League title in April. The match was an especially memorable one as it marked the final regular season home match of head coach Bid Goswami’s illustrious 37-year career.",
+			"link": "https://www.columbiaspectator.com/sports/2019/04/29/mens-tennis-claims-sixth-straight-ivy-title-outright-with-narrow-victory-over-cornell/",
+			"author": "Caroline Dailey / senior staff photographer"
+        }]
+    }
+	},
     "News": {
         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OEFZY3NDTFCQNHY2RG5LU4KOTE.jpg",
-        sections: [{
-                "name": "Tenure",
-                "link": "#Tenure"
-            },
-            {
-                "name": "Union",
-                "link": "#Union"
-            },
-            {
-                "name": "Safety",
-                "link": "#Safety"
-            },
-            {
-                "name": "Diversity",
-                "link": "#Diversity"
-            },
-            {
-                "name": "Money",
-                "link": "#Money"
-            },
-            {
-                "name": "Administrators",
-                "link": "#Administrators"
-            },
-            {
-                "name": "GS",
-                "link": "#GS"
-            },
-            {
-                "name": "Space",
-                "link": "#Space"
-            },
-            {
-                "name": "Government",
-                "link": "#Government"
-            }
+        sections: 
+        [
+          {
+            "name": " CITY REPORTING",
+            "link": "#CITY REPORTING"
+          },
+          {
+            "name": " ACADEMICS REPORTING",
+            "link": "#ACADEMICS REPORTING"
+          },
+          {
+            "name": " STUDENT LIFE REPORTING",
+            "link": "#STUDENT LIFE REPORTING"
+          },
+          {
+            "name": " BEST ESSAYS1",
+            "link": "#BEST ESSAYS1"
+          },
+          {
+            "name": " CITY REPORTING2",
+            "link": "#CITY REPORTING2"
+          },
+          {
+            "name": " ACADEMICS REPORTING3",
+            "link": "#ACADEMICS REPORTING3"
+          },
+          {
+            "name": " STUDENT LIFE REPORTING4",
+            "link": "#STUDENT LIFE REPORTING4"
+          },
+          {
+            "name": " CITY REPORTING5",
+            "link": "#CITY REPORTING5"
+          },
+          {
+            "name": " ACADEMICS REPORTING6",
+            "link": "#ACADEMICS REPORTING6"
+          }
         ],
         "blurb": "From faculty sexual misconduct to administrative shifts within the School of General Studies, Spectator’s news team has compiled coverage of some of the top storylines that have driven student, faculty, and administrative discourse on campus. Below, find some of the most talked-about and top investigative stories from the past year:",
-        "items": [{
+        "items": [
+            {
                 "name": "Columbia faces onslaught of sexual misconduct allegations",
                 "img": "",
                 "blurb": "The summer saw Columbia face a high-profile lawsuit involving a former business school faculty member and a senior professor in her department, resulting in a million-dollar settlement. The fall semester began with another shocking lawsuit against the former dean of students in the School of General Studies, who was removed from his post soon after University administrators became aware of his misconduct, Columbia said in a statement. Around that time, a business school student publicly spoke out about allegations against a classmate, and claimed that she was not given proper accommodations and forced to see him unless she adjusted her own daily schedule. Behind the scenes, Columbia’s handling of allegations, particularly those against tenured faculty, proved to be unimaginably complex—many of those accused or found guilty remain on campus, facing few sanctions, and even continuing to teach students.",
-                "articles": [{
+                "articles": [
+                    {
                         "title": "Up against the invincible: A professor was convicted of sexual misconduct. Why is he still on campus? ",
                         "author": "Karen Xia and Khadija Hussain",
-                        "link": "https://www.columbiaspectator.com/news-features/2019/04/11/up-against-the-invincible-a-professor-was-convicted-of-sexual-misconduct-why-is-he-still-on-campus-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N7HZME5DGVGQHDD4AIJ3ANG3LQ.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news-features/2019/04/11/up-against-the-invincible-a-professor-was-convicted-of-sexual-misconduct-why-is-he-still-on-campus-2/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N7HZME5DGVGQHDD4AIJ3ANG3LQ.jpg"                    },
                     {
                         "title": "She has a no contact directive against her alleged rapist. Why do they still cross paths?",
                         "author": "Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/04/university-insurance-rate-doubled-over-last-fiscal-year-in-part-due-to-influx-of-lawsuits-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PXKURAEQH5CGNJQRZZIBR3LUDA.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/04/04/university-insurance-rate-doubled-over-last-fiscal-year-in-part-due-to-influx-of-lawsuits-2/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PXKURAEQH5CGNJQRZZIBR3LUDA.jpg"                    },
                     {
                         "title": "Amended lawsuit against former GS dean Tom Harford alleges Columbia knew of dean’s history of harassment",
                         "author": "Karen Xia",
-                        "link": "https://www.columbiaspectator.com/news/2019/01/18/amended-lawsuit-against-former-gs-dean-tom-harford-alleges-columbia-knew-of-deans-history-of-harassment",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HOYGWHXHSZHPJD6LLGZUPA5DGE.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/01/18/amended-lawsuit-against-former-gs-dean-tom-harford-alleges-columbia-knew-of-deans-history-of-harassment"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HOYGWHXHSZHPJD6LLGZUPA5DGE.jpg"                    },
                     {
                         "title": "Business School professor, Columbia found liable in former professor’s sexual harassment suit",
                         "author": "Karen Xia",
-                        "link": "https://www.columbiaspectator.com/news/2018/07/26/business-school-professor-columbia-found-liable-in-former-professors-sexual-harassment-suit/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5TXI7XMM75ACXI3L4K62XEDSVU.jpg"
-                    }
+                        "link": "https://www.columbiaspectator.com/news/2018/07/26/business-school-professor-columbia-found-liable-in-former-professors-sexual-harassment-suit/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5TXI7XMM75ACXI3L4K62XEDSVU.jpg"                    }
                 ]
             },
             {
                 "name": "Columbia agrees to bargain with the graduate student union in landmark decision, ending years of back-and-forth",
                 "img": "",
                 "blurb": "Since 2016, the graduate student union and the University have engaged in a tense legal battle, marked by months of protests, petitions, threats of legal action, and a weeklong strike that left students without teaching and research assistants a week before finals. In lieu of Columbia’s unwillingness to budge, the union announced that it would strike again in December 2018—a postdoctoral union had also formed and been verified at this time—to increase pressure on the University. Finally, days before the strike was authorized to begin, University President Lee Bollinger announced that Columbia would bargain with both unions, under the condition that they sign a bargaining framework including a no-strike provision until April 2020. The bargaining framework has since proven a significant point of contention for the graduate student union.",
-                "articles": [{
+                "articles": [
+                    {
                         "title": "Graduate student and postdoctoral unions officially begin negotiations with Columbia",
                         "author": "Harris Walker",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/26/graduate-student-and-postdoctoral-unions-officially-begin-negotiations-with-columbia/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CYH4GPSNK5HLNLPKAEWFPH4MYM.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/02/26/graduate-student-and-postdoctoral-unions-officially-begin-negotiations-with-columbia/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CYH4GPSNK5HLNLPKAEWFPH4MYM.jpg"                    },
                     {
                         "title": "Newly elected graduate student bargaining committee to emphasize social justice in negotiations with Columbia",
                         "author": "Harris Walker",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/18/newly-elected-graduate-student-bargaining-committee-to-emphasize-social-justice-in-negotiations-with-columbia/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/X3FUGENALNCU3BJMAXZ3Q7B5A4.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/02/18/newly-elected-graduate-student-bargaining-committee-to-emphasize-social-justice-in-negotiations-with-columbia/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/X3FUGENALNCU3BJMAXZ3Q7B5A4.jpg"                    },
                     {
                         "title": "With Columbia bargaining framework on the table, graduate students remain divided on whether to negotiate",
                         "author": "Karen Xia",
-                        "link": "https://www.columbiaspectator.com/news/2018/11/22/with-columbia-bargaining-framework-on-the-table-graduate-students-remain-divided-on-whether-to-negotiate/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/I6HEMP4MRFBYRKRUKSA4WHZ3CM.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2018/11/22/with-columbia-bargaining-framework-on-the-table-graduate-students-remain-divided-on-whether-to-negotiate/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/I6HEMP4MRFBYRKRUKSA4WHZ3CM.jpg"                    },
                     {
                         "title": "Columbia to bargain with grad student union, ending years-long struggle over union recognition",
                         "author": "Rahil Kamath and Karen Xia",
-                        "link": "https://www.columbiaspectator.com/main/2018/11/19/columbia-to-bargain-with-grad-student-union-ending-years-long-struggle-over-union-recognition-3/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JRU7LYRVUFDZHEOZDJEWZGV5AA.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/main/2018/11/19/columbia-to-bargain-with-grad-student-union-ending-years-long-struggle-over-union-recognition-3/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JRU7LYRVUFDZHEOZDJEWZGV5AA.jpg"                    },
                     {
                         "title": "Grad student union announces plans for indefinite strike beginning in December",
                         "author": "Harris Walker",
-                        "link": "https://www.columbiaspectator.com/news/2018/11/01/grad-student-union-announces-plans-for-indefinite-strike-beginning-in-december/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AF3UHYAVWRCJLBQQE533OKU3LE.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2018/11/01/grad-student-union-announces-plans-for-indefinite-strike-beginning-in-december/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AF3UHYAVWRCJLBQQE533OKU3LE.jpg"                    },
                 ]
             },
             {
                 "name": "Hate crimes, racist harassment incite discussion of campus safety",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OAP5KY7RONBWXKVHSXOM74MFJY.jpg",
                 "blurb": "After a series of incidents involving racist, and particularly anti-black, harassment on Columbia and Barnard’s campuses, hundreds of students called into question the University’s role in responding to bias as an academic institution. Many pointed to the Core Curriculum as a means of spreading white supremacist ideologies, while others also referenced both Columbia and Barnard’s failure in explicitly labeling various incidents as racist. Further, citing a lack of transparency from the University writ large, students of color emphasized that it often does not feel as though administrators are on their side.",
-                "articles": [{
+                "articles": [
+                    {
                         "title": "Demands for transparency and equitable campus security erupt following Barnard Public Safety viral video",
                         "author": "Marianna Najman-Franks",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/18/demands-for-transparency-and-equitable-campus-security-erupt-following-barnard-public-safety-viral-video/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VUII2WXMNVHFPMQFYH5W26XWYM.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/04/18/demands-for-transparency-and-equitable-campus-security-erupt-following-barnard-public-safety-viral-video/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VUII2WXMNVHFPMQFYH5W26XWYM.jpg"                    },
                     {
                         "title": "Black Columbia student physically restrained on countertop by Barnard Public Safety requesting to see CUID",
                         "author": "Marianna Najman-Franks",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/12/black-columbia-student-physically-restrained-on-countertop-by-barnard-public-safety-requesting-to-see-cuid/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OAP5KY7RONBWXKVHSXOM74MFJY.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/04/12/black-columbia-student-physically-restrained-on-countertop-by-barnard-public-safety-requesting-to-see-cuid/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OAP5KY7RONBWXKVHSXOM74MFJY.jpg"                    },
                     {
                         "title": "Columbia says it abides by federal law for reporting hate crimes. Students and experts argue that compliance is not always enough. ",
                         "author": "Grace El-Fishawy",
-                        "link": "https://www.columbiaspectator.com/news/2019/01/29/columbia-says-it-abides-by-federal-law-for-reporting-hate-crimes-students-and-experts-argue-that-compliance-is-not-always-enough/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/V7GH7ETZ3RHXPDKSZAKCTZ6NXY.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/01/29/columbia-says-it-abides-by-federal-law-for-reporting-hate-crimes-students-and-experts-argue-that-compliance-is-not-always-enough/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/V7GH7ETZ3RHXPDKSZAKCTZ6NXY.jpg"                    },
                     {
                         "title": "Carman Hall residence vandalized with anti-black slur in early December",
                         "author": "Karen Xia and Khadija Hussain",
-                        "link": "https://www.columbiaspectator.com/news/2018/12/18/carman-hall-vandalized-with-anti-black-slur-in-early-december/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/S2XK2EVJYJEMFEYTQB4I6VPGTE.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2018/12/18/carman-hall-vandalized-with-anti-black-slur-in-early-december/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/S2XK2EVJYJEMFEYTQB4I6VPGTE.jpg"                    },
                     {
                         "title": "Students of color harassed outside Butler by Columbia sophomore spewing racist, white supremacist rhetoric",
                         "author": "Elina Arbo",
-                        "link": "https://www.columbiaspectator.com/news/2018/12/10/students-of-color-harassed-outside-butler-by-columbia-sophomore-spewing-racist-white-supremacist-rhetoric/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DORLV5BS3BBVBP3XT2G4AY2HWE.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2018/12/10/students-of-color-harassed-outside-butler-by-columbia-sophomore-spewing-racist-white-supremacist-rhetoric/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DORLV5BS3BBVBP3XT2G4AY2HWE.jpg"                    },
                     {
                         "title": "Columbia Teachers College professor’s office vandalized with swastikas, anti-Semitic slurs",
                         "author": "Karen Xia",
-                        "link": "https://www.columbiaspectator.com/news/2018/11/29/teachers-college-professors-office-vandalized-with-anti-semitic-graffiti/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6Z42LII4INDNNPZRZE63J4UFHM.jpg"
-                    }
+                        "link": "https://www.columbiaspectator.com/news/2018/11/29/teachers-college-professors-office-vandalized-with-anti-semitic-graffiti/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6Z42LII4INDNNPZRZE63J4UFHM.jpg"                    }
                 ]
             },
             {
                 "name": "Push for faculty diversity grows, but financial shortages slow progress",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NMAJDV44ONDJHKNYEZ7N6NLJB4.jpg",
                 "blurb": "The semester started with a landmark decision—the official approval of Columbia’s first African American and African Diaspora studies department, a significant move in increasing dedication to diversity in academia. With the release of a whopping 145-page report on the status of female and underrepresented minority faculty members within Arts and Sciences, the Policy Planning Committee continued to spark conversation across the University regarding racism, harassment, and discrimination in academia. Though Columbia as a university has dedicated $185 million in funds to hiring diverse faculty, the report showed that departments will require substantial cultural and policy-level change in order to rectify disparities caused by lack of resources for faculty childcare and nonexistent grievance procedures to report instances of harassment, among other issues. As Provost John Coatsworth is set to step down at the end of June, questions regarding resources for faculty, pipeline programs for diversity, and faculty benefits will be transferred to a new administrator for the first time in nearly a decade.",
-                "articles": [{
+                "articles": [
+                    {
                         "title": "Your professors pay more for childcare than you do for tuition. 4 of them explain what this means for their lives, and your education.",
                         "author": "Noah Percy",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/25/your-professor-pays-more-for-childcare-than-you-do-for-tuition-4-faculty-explain-what-this-means-for-their-lives-and-your-education/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5HKPWFTXBZGLXEDMSEZKHE3E2Y.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/04/25/your-professor-pays-more-for-childcare-than-you-do-for-tuition-4-faculty-explain-what-this-means-for-their-lives-and-your-education/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5HKPWFTXBZGLXEDMSEZKHE3E2Y.jpg"                    },
                     {
                         "title": "Senate passes resolution to create and document bylaws, including guidelines for faculty grievances",
                         "author": "Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/08/senate-passes-resolution-to-create-and-document-bylaws-including-guidelines-for-faculty-grievances/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VU4IBS6FUZBSRCX47NNCDYQ45E.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/04/08/senate-passes-resolution-to-create-and-document-bylaws-including-guidelines-for-faculty-grievances/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VU4IBS6FUZBSRCX47NNCDYQ45E.jpg"                    },
                     {
                         "title": "How 4 faculty helped create Columbia’s first African American and African Diaspora studies department",
                         "author": "Shubham Saharan and Madison Andrus",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/25/how-4-faculty-helped-create-columbias-first-african-american-and-african-diaspora-studies-department-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/XQJ4XNEE4VCBJHD3MSW6KYBLSE.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/02/25/how-4-faculty-helped-create-columbias-first-african-american-and-african-diaspora-studies-department-2/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/XQJ4XNEE4VCBJHD3MSW6KYBLSE.jpg"                    },
                     {
                         "title": "Columbia has $185 million in dedicated funds. Why is hiring diverse faculty still so difficult?",
                         "author": "Karen Xia and Noah Percy",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/01/columbia-has-185-million-in-dedicated-funds-why-is-hiring-diverse-faculty-still-so-difficult-9/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JJJ44ZJW4NERLFYRBJI42GRTEU.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/02/01/columbia-has-185-million-in-dedicated-funds-why-is-hiring-diverse-faculty-still-so-difficult-9/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JJJ44ZJW4NERLFYRBJI42GRTEU.jpg"                    },
                     {
                         "title": "New report highlights “concerning disparities” along race, gender lines within Columbia faculty",
                         "author": "Harris Walker and Mihika Nadig",
-                        "link": "https://www.columbiaspectator.com/news/2018/10/18/new-report-highlights-concerning-disparities-along-race-gender-lines-within-columbia-faculty/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HAMP3SIR4NAXVJKWF4DAWSEIGY.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2018/10/18/new-report-highlights-concerning-disparities-along-race-gender-lines-within-columbia-faculty/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HAMP3SIR4NAXVJKWF4DAWSEIGY.jpg"                    },
                 ]
             },
             {
                 "name": "Columbia and Barnard struggle to achieve vision of socioeconomic diversity ",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YP4TF6HLF5HWVNMJ44SP5ESU3U.jpg",
                 "blurb": "",
-                "articles": [{
+                "articles": [
+                    {
                         "title": "Barnard pushes to grow alumni engagement as financial aid fundraising remains millions short of goal",
                         "author": "Heather Leopere",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/14/barnard-pushes-to-grow-alumni-engagement-as-financial-aid-fundraising-remains-millions-short-of-goal-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JD4V6HINEFEYDCSWNEDC63MH6E.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/02/14/barnard-pushes-to-grow-alumni-engagement-as-financial-aid-fundraising-remains-millions-short-of-goal-2/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JD4V6HINEFEYDCSWNEDC63MH6E.jpg"                    },
                     {
                         "title": "Lower-income undergraduate students are paying more and more to attend Columbia; wealthier students are paying less and less, federal data shows",
                         "author": "Jason Kao",
-                        "link": "https://www.columbiaspectator.com/news/net-price-inequity/",
-                        "img": ""
-                    },
+                        "link": "https://www.columbiaspectator.com/news/net-price-inequity/"
+,
+"img": ""                    },
                     {
                         "title": "Barnard students blindsided by unexpected charges at Primary Care",
                         "author": "Susu Rawwagah",
-                        "link": "https://www.columbiaspectator.com/news/2018/09/27/barnard-students-blindsided-by-unexpected-charges-at-primary-care/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YCMPBLHRZVAUBE2Q4PF4FYFCDI.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2018/09/27/barnard-students-blindsided-by-unexpected-charges-at-primary-care/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YCMPBLHRZVAUBE2Q4PF4FYFCDI.jpg"                    },
                     {
                         "title": "Off the radar: At public schools where Columbia doesn’t recruit, applicants face uphill battle",
                         "author": "Khadjia Hussain",
-                        "link": "https://www.columbiaspectator.com/news/2018/09/20/off-the-radar-at-public-schools-where-columbia-doesnt-recruit-applicants-face-uphill-battle/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YP4TF6HLF5HWVNMJ44SP5ESU3U.jpg"
-                    },
+                        "link":"https://www.columbiaspectator.com/news/2018/09/20/off-the-radar-at-public-schools-where-columbia-doesnt-recruit-applicants-face-uphill-battle/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YP4TF6HLF5HWVNMJ44SP5ESU3U.jpg"                    },
                     {
                         "title": "Nearly half of Barnard courses fail to list textbook prices in violation of federal law",
                         "author": "Susu Rawwagah",
-                        "link": "https://www.columbiaspectator.com/news/2018/09/19/nearly-half-of-barnard-courses-fail-to-list-textbook-prices-in-violation-of-federal-law/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J374VWJQCVHQ3ERAZJPNGX4MRE.jpg"
-                    },
-                    {
-                        "title": "CC, SEAS tuition to be most expensive in the nation at over $62,000",
-                        "author": "SHUBHAM SAHARAN",
-                        "link": "https://www.columbiaspectator.com/news/2019/05/02/cc-seas-tuition-to-be-most-expensive-in-the-nation-at-over-62000/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NVLNRLVLUZB57LB3YQD7NXNSLA.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2018/09/19/nearly-half-of-barnard-courses-fail-to-list-textbook-prices-in-violation-of-federal-law/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J374VWJQCVHQ3ERAZJPNGX4MRE.jpg"                    },
+{
+    "title": "CC, SEAS tuition to be most expensive in the nation at over $62,000",
+    "author": "SHUBHAM SAHARAN",
+    "link": "https://www.columbiaspectator.com/news/2019/05/02/cc-seas-tuition-to-be-most-expensive-in-the-nation-at-over-62000/",
+    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NVLNRLVLUZB57LB3YQD7NXNSLA.jpg"
+},
                 ]
             },
             {
                 "name": "Barnard surges forward under President Sian Beilock, new administrators",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EKD3OT64JBF2JDN4EMXBQSLCC4.jpg",
                 "blurb": "The abrupt departure of former President Debora Spar led to significant shifts in administrative direction within Barnard, including a new permanent dean of college, director of the Athena Center, and the completion of the Milstein Center for Teaching and Learning. Though certain initiatives involving faculty diversity saw slowed progress, the college made significant strides in hiring administrators for the coming year.",
-                "articles": [{
+                "articles": [
+                    {
                         "title": "Barnard names Ariana González Stokas, TC ’10, as inaugural Vice President for Diversity, Equity and Inclusion",
                         "author": "HEATHER LOEPERE",
                         "link": "https://www.columbiaspectator.com/news/2019/05/02/barnard-names-ariana-gonzalez-stokas-tc-10-as-inaugural-vice-president-for-diversity-equity-and-inclusion/",
@@ -605,151 +615,156 @@ const data = {
                     {
                         "title": "The next director of the Athena Center: Umbreen Bhatti, BC ’00, lawyer, journalist, media innovator",
                         "author": "Marianna Najman-Franks",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/25/the-next-director-of-the-athena-center-umbreen-bhatti-bc-00-lawyer-journalist-and-social-media-mogul/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C2BSPFVCMRHJPEXC4VL3LUAL2E.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/04/25/the-next-director-of-the-athena-center-umbreen-bhatti-bc-00-lawyer-journalist-and-social-media-mogul/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C2BSPFVCMRHJPEXC4VL3LUAL2E.jpg"                    },
                     {
                         "title": "Barnard names Leslie Grinage as Dean of the College",
                         "author": "Heather Loepere and Marianna Najman-Franks",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/08/barnard-names-leslie-grinage-as-dean-of-the-college/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BYS62WUCZJCFRC7OXDFKXNE3IU.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/04/08/barnard-names-leslie-grinage-as-dean-of-the-college/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BYS62WUCZJCFRC7OXDFKXNE3IU.jpg"                    },
                     {
                         "title": "Finalists for Barnard VP of Diversity, Equity, and Inclusion to visit campus this week",
                         "author": "Valentina Rojas-Posada",
-                        "link": "https://www.columbiaspectator.com/news/2019/03/11/finalists-for-barnard-vp-of-diversity-equity-and-inclusion-to-visit-campus-this-week/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/F2S4LG4R3BC5JLCXY4TU56LZEE.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/03/11/finalists-for-barnard-vp-of-diversity-equity-and-inclusion-to-visit-campus-this-week/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/F2S4LG4R3BC5JLCXY4TU56LZEE.jpg"                    },
                     {
                         "title": "With limited involvement from adjuncts, Barnard diversity initiatives fail to reach full potential",
                         "author": "Shubham Saharan",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/13/with-limited-involvement-from-adjuncts-barnard-diversity-initiatives-fail-to-reach-full-potential/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7EZZPV3HZFFEXDI2RKJQ6YPGMM.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/02/13/with-limited-involvement-from-adjuncts-barnard-diversity-initiatives-fail-to-reach-full-potential/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7EZZPV3HZFFEXDI2RKJQ6YPGMM.jpg"                    },
                     {
                         "title": "Milstein Center opens at Barnard after 3 years of construction",
                         "author": "Ainsley Bandrowski",
-                        "link": "https://www.columbiaspectator.com/news/2018/09/05/milstein-center-opens-at-barnard-after-3-years-of-construction/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EKD3OT64JBF2JDN4EMXBQSLCC4.jpg"
-                    }
+                        "link": "https://www.columbiaspectator.com/news/2018/09/05/milstein-center-opens-at-barnard-after-3-years-of-construction/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EKD3OT64JBF2JDN4EMXBQSLCC4.jpg"                    }
                 ]
             },
             {
                 "name": "School of General Studies faces year of transition under new dean",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HOYGWHXHSZHPJD6LLGZUPA5DGE.jpg",
                 "blurb": "With the death of a beloved dean, changes of decades-old registration policies, and the sudden removal of a prominent campus administrator, General Studies saw a number of shifts over the course of this academic year. Unable to provide need-blind financial aid, the school’s students have faced perennial issues regarding food security, lack of housing, and other unfulfilled financial needs, concerns that Dean Lisa Rosen-Metsch has promised to address head on.",
-                "articles": [{
+                "articles": [
+                    {
                         "title": "At GS, known for close relationships between students and administrators, dean’s removal raises new concerns",
                         "author": "Emma James and Ariana Nakhla",
-                        "link": "https://www.columbiaspectator.com/news/2018/10/15/at-gs-known-for-close-relationships-between-students-and-administrators-deans-removal-raises-new-concerns/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HOYGWHXHSZHPJD6LLGZUPA5DGE.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2018/10/15/at-gs-known-for-close-relationships-between-students-and-administrators-deans-removal-raises-new-concerns/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HOYGWHXHSZHPJD6LLGZUPA5DGE.jpg"                    },
                     {
                         "title": "Columbia ends decade-old debt exemption policy for GS student veterans, threatening registration",
                         "author": "Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2018/11/15/columbia-ends-decade-old-debt-exemption-policy-for-gs-student-veterans-threatening-registration/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/H5LEJSZODFBPZJMMWS6ONEHHIM.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2018/11/15/columbia-ends-decade-old-debt-exemption-policy-for-gs-student-veterans-threatening-registration/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/H5LEJSZODFBPZJMMWS6ONEHHIM.jpg"                    },
                     {
                         "title": "Fundraising, financial aid, and female veteran support: GS Dean Lisa Rosen-Metsch’s first year at the helm",
                         "author": "Karen Xia",
-                        "link": "https://www.columbiaspectator.com/news/2018/12/21/fundraising-financial-aid-and-female-veteran-support-gs-dean-lisa-rosen-metschs-first-year-at-the-helm/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CKXOXJVJNFGODLNJ5E6AMEV45E.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2018/12/21/fundraising-financial-aid-and-female-veteran-support-gs-dean-lisa-rosen-metschs-first-year-at-the-helm/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CKXOXJVJNFGODLNJ5E6AMEV45E.jpg"                    },
                     {
                         "title": "Peter Awn, whose compassion and charisma shaped the identity of GS, has died",
                         "author": "Karen Xia and Emma James",
-                        "link": "https://www.columbiaspectator.com/news-features/2019/02/18/peter-awn-whose-compassion-and-charisma-shaped-the-identity-of-gs-has-died-3/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7INBDAVAQREFDMG5NEWMGB7WHM.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news-features/2019/02/18/peter-awn-whose-compassion-and-charisma-shaped-the-identity-of-gs-has-died-3/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7INBDAVAQREFDMG5NEWMGB7WHM.jpg"                    },
                     {
                         "title": "Close to 40 percent of non-joint or dual-program GS students experience food insecurity, survey shows",
                         "author": "Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2019/03/28/close-to-40-percent-of-non-joint-or-dual-program-gs-students-experience-food-insecurity-survey-shows/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EP4JYN5XGZCL5AGMSGBWSZWA3A.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/03/28/close-to-40-percent-of-non-joint-or-dual-program-gs-students-experience-food-insecurity-survey-shows/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EP4JYN5XGZCL5AGMSGBWSZWA3A.jpg"                    },
                 ]
             },
             {
                 "name": "In an increasingly crowded city, Columbia faces growing pains",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OEFZY3NDTFCQNHY2RG5LU4KOTE.jpg",
                 "blurb": "Even as Columbia creeps into West Harlem with over 1.2 million square feet of Manhattanville campus, University faculty and administrators are calling for more. The undergraduate population grows significantly each year, requiring an increase in course offerings and usable classroom space, yet faculty cite that neither seem to be available. As need begins to outpace available resource, academic weeks begin to lengthen, and administrators turn to renovations of on campus space—namely Uris Hall—for potential solutions. ",
-                "articles": [{
+                "articles": [
+                    {
                         "title": "Long-awaited proposal for Uris renovations reveal details of expansive space overhaul",
                         "author": "Noah Percy and Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2019/03/07/long-awaited-proposal-for-uris-renovations-reveal-details-of-expansive-space-overhaul-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CXQZYZ6GSVFATFHR3S4HL6E7AM.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/03/07/long-awaited-proposal-for-uris-renovations-reveal-details-of-expansive-space-overhaul-2/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CXQZYZ6GSVFATFHR3S4HL6E7AM.jpg"                    },
                     {
                         "title": "“No solution in sight”: Classroom shortage grows, promising to lengthen academic week",
                         "author": "Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/13/no-solution-is-in-sight-classroom-shortage-grows-promises-to-lengthen-academic-week/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DTDVQLHJS5H3LCPERSGQHUXPFE.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/02/13/no-solution-is-in-sight-classroom-shortage-grows-promises-to-lengthen-academic-week/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DTDVQLHJS5H3LCPERSGQHUXPFE.jpg"                    },
                     {
                         "title": "‘The space is embarrassing:’ Outdated facilities leave bio labs without basic necessities",
                         "author": "Ariana Nakhla",
-                        "link": "https://www.columbiaspectator.com/news/2018/10/04/the-space-is-embarrassing-outdated-facilities-leave-bio-labs-without-basic-necessities/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KHS52LCMQJGI3J6TZK56NKOPOE.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2018/10/04/the-space-is-embarrassing-outdated-facilities-leave-bio-labs-without-basic-necessities/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KHS52LCMQJGI3J6TZK56NKOPOE.jpg"                    },
                     {
                         "title": "The Forum, Columbia’s third Manhattanville building, opens on new campus",
                         "author": "Grace El-Fishawy",
-                        "link": "https://www.columbiaspectator.com/news/2018/09/27/the-forum-columbias-third-manhattanville-building-opens-on-new-campus/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DROMCMX7HZHPZKVRT2MAZPWXKE.jpg"
-                    }
+                        "link": "https://www.columbiaspectator.com/news/2018/09/27/the-forum-columbias-third-manhattanville-building-opens-on-new-campus/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DROMCMX7HZHPZKVRT2MAZPWXKE.jpg"                    }
                 ]
             },
             {
                 "name": "Student government faces draws scrutiny with unusual entrance into spotlight",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/64ROH3NG7BDRDGGTUQPGHLPKGE.jpg",
                 "blurb": "Though student representatives cite significant frustrations regarding their relationship with administrators and faculty, particularly within the University-wide Senate, CCSC in particular has recently established a stronger presence among the student body writ large. The Boycott, Divestment and Sanctions movement returned to the council spotlight, inciting threats of resignation from representatives during a four-hour-long debate that culminated in an unprecedented secret ballot vote. Four representatives ultimately did resign following weeks of controversy surrounding election violations and lack of transparency surrounding the Columbia Elections Commission. ",
-                "articles": [{
+                "articles": [
+                    {
                         "title": "Ambiguity around CEC elections rules fuel weeklong controversy between candidates, divides council ",
                         "author": "Valeria Escobar and Madison Andrus",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/18/ambiguity-around-cec-elections-rules-fuel-weeklong-controversy-between-candidates-divides-council/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3MCM2FOB2ZBNZLSEGGILLOJ2WY.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/04/18/ambiguity-around-cec-elections-rules-fuel-weeklong-controversy-between-candidates-divides-council/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3MCM2FOB2ZBNZLSEGGILLOJ2WY.jpg"                    },
                     {
                         "title": "4 students resign from CCSC following a failed impeachment vote",
                         "author": "Madison Andrus",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/15/4-students-resign-from-ccsc-following-a-failed-impeachment-vote/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BDAQFHFYUFAKPNBTDKOXBKW24U.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/04/15/4-students-resign-from-ccsc-following-a-failed-impeachment-vote/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BDAQFHFYUFAKPNBTDKOXBKW24U.jpg"                    },
                     {
                         "title": "CCSC votes down BDS referendum by secret ballot following 4 hours of tense debate",
                         "author": "Emma Buzbee",
-                        "link": "https://www.columbiaspectator.com/news/2019/03/11/ccsc-votes-down-bds-referendum-by-secret-ballot-following-4-hours-of-tense-debate-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/64ROH3NG7BDRDGGTUQPGHLPKGE.jpg"
-                    },
+                        "link": "https://www.columbiaspectator.com/news/2019/03/11/ccsc-votes-down-bds-referendum-by-secret-ballot-following-4-hours-of-tense-debate-2/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/64ROH3NG7BDRDGGTUQPGHLPKGE.jpg"                    },
                     {
                         "title": "Behind closed doors: Pivotal University Senate actions hidden from public eye",
                         "author": "Ashleigh Garrison",
-                        "link": "https://www.columbiaspectator.com/news/2018/12/06/behind-closed-doors-pivotal-university-senate-actions-hidden-from-public-eye-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4PDIKA52DBG2DDLLZOIDCUVK6E.jpg"
-                    }
+                        "link": "https://www.columbiaspectator.com/news/2018/12/06/behind-closed-doors-pivotal-university-senate-actions-hidden-from-public-eye-2/"
+,
+"img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4PDIKA52DBG2DDLLZOIDCUVK6E.jpg"                    }
                 ]
             }
         ]
     },
     "Eye": {
         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ARDEZFQQZBGDXHNWV445HYDE7Y.jpg",
-        sections: [{
-                "name": "CITY",
-                "link": "#CITY"
-            },
-            {
-                "name": "ACADEMICS",
-                "link": "#ACADEMICS"
-            },
-            {
-                "name": "STUDENT LIFE",
-                "link": "#STUDENT LIFE"
-            },
-            {
-                "name": "ESSAYS",
-                "link": "#ESSAYS"
-            }
+        sections: 
+        [
+          {
+            "name": " CITY REPORTING",
+            "link": "#CITY REPORTING"
+          },
+          {
+            "name": " ACADEMICS REPORTING",
+            "link": "#ACADEMICS REPORTING"
+          },
+          {
+            "name": " STUDENT LIFE REPORTING",
+            "link": "#STUDENT LIFE REPORTING"
+          },
+          {
+            "name": " BEST ESSAYS",
+            "link": "#BEST ESSAYS"
+          }
         ],
         "blurb": "As Spectator’s long-form magazine, The Eye has spent the past year pursuing rigorous, thorough, and empathetic journalism. Through character driven stories with an emphasis on voice and style, we have sought to engage with, inform, and challenge the Columbia community—to evoke something within you, our readers. Put simply: to read an Eye piece is to feel, to think critically, and to draw closer to those who share our spaces. ",
         "items": [{
@@ -918,30 +933,32 @@ const data = {
     },
     "A&E": {
         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ANHFV4P2BFFUBHPP2IQUAPOTKQ.jpg",
-        sections: [{
-                "name": "Bacchanal",
-                "link": "#Bacchanal"
-            },
-            {
-                "name": "Politics ",
-                "link": "#Politics"
-            },
-            {
-                "name": "#Technology",
-                "link": "#Ttechnology"
-            },
-            {
-                "name": "Deinstitutionalization",
-                "link": "#Deinstitutionalization"
-            },
-            {
-                "name": "New Eateries",
-                "link": "#New-Eateries"
-            }
+        sections: 
+        [
+          {
+            "name": "Bacchanal",
+            "link": "Bacchanal"
+          },
+          {
+            "name": "fashion, film, and literature ",
+            "link": "fashion, film, and literature "
+          },
+          {
+            "name": "technology, student entrepreneurs, and a postmodern artist ",
+            "link": "technology, student entrepreneurs, and a postmodern artist "
+          },
+          {
+            "name": "arts",
+            "link": "arts"
+          },
+          {
+            "name": "Out with the old, in with the new",
+            "link": "Out with the old, in with the new"
+          }
         ],
         "blurb": "Arts & Entertainment strives to provide a space in which to critically discuss arts at Columbia, to give the Columbia community a closer look into the inner workings of the arts world, and to inform the community of the different types of arts and entertainment happening on campus.",
         "items": [{
-                "name": "Bacchanal issues slew of pranks and conflicting announcements",
+                "name": "Bacchanal’s theme, ‘Bacchanal is Canceled,’ nearly becomes self-fulfilling with slew of pranks and conflicting announcements",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg",
                 "blurb": "Bacchanal season started like all of those in years past, with the Battle of the Bands competition, which this year voted Oswald Fresh as the student opener. However, the annual concert quickly took an unconventional turn when, at the Bacchanal Committee’s first-ever press conference, they announced that there would be no headliner. In what was later revealed to be a weeklong prank, the Committee claimed that a headliner was canceled due to a “certain sports media group” leaking information about the concert. The headliner turned out to be Grammy-nominated artist SOPHIE, who became the concert on the steps’ first openly transgender headliner, and part of its first all-womxn lineup. ",
                 "articles": [{
@@ -977,7 +994,7 @@ const data = {
                 ]
             },
             {
-                "name": "Students engage in politics through fashion, film, literature",
+                "name": "Columbia finds new ways of engaging student in politics through fashion, film, and literature ",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N6IIVSBTMJAOZH36RBK62YWVEM.jpg",
                 "blurb": "The arts have always served as a platform to express political ideas, passions, and frustrations, and this year Columbia became a hub for such expressions, especially when it came to helping rally young voters. Voting Week, Columbia’s largest event revolving around civic engagement, introduced a fashion show for the first time as part of their initiative to register and engage student voters. From student efforts to local political figures, First Lady of New York City Chirlane McCray brought her Book Club initiative to Barnard, where she and President Sian Beilock welcomed writer Nana-Ama Danquah to discuss her writing about mental health. In the celebrity-filled weekend of the Athena Film Festival, Congresswoman Alexandria Ocasio-Cortez attended the premiere of “Knock Down the House.”  She was among a number of political figures highlighted at the festival, including Justice Ruth Bader Ginsburg, whose daughter, Columbia Law School Professor Jane Ginsburg, joined a panel discussing her mother’s work at the screening of “On the Basis of Sex.” ",
                 "articles": [{
@@ -1007,7 +1024,7 @@ const data = {
                 ]
             },
             {
-                "name": "Boundaries are pushed in the arts across the field",
+                "name": "New technology, student entrepreneurs, and a postmodern artist push boundaries in the arts ",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EF2H3AUDTFC6JMB7QAEMDADQKA.jpg",
                 "blurb": "While art is seen as an infinitely creative discipline, there can be unforeseen boundaries and technological limitations that hold it back. Many of these limitations were transcended this year like never before, starting with the work of renowned filmmaker and choreographer Yvonne Rainer, this year’s Lida A. Orzeck ’68 Distinguished Artist-in-Residence, who played a key role in the development of postmodern dance. At the Athena Film Festival, Virtual Reality Sessions let festival-goers experience film through VR, joining other fast-growing film industries in shaping the future of cinema. Although Athena only happens once a year, students will now be able to access groundbreaking technology year-round with the opening of Barnard’s Movement Lab, an innovative space for research across several disciplines. In addition, technical spectacles in theater improved dramatically. Colony Collapse, a production by the Barnard Theatre Department, featured a twenty-foot honeycomb made of recycled steel, scrap plywood and used cardboard from Barnard Dining Services. Combined with complex lighting rigs and sound effects, tech took center stage in this production. And while technology can help us push boundaries in the arts, so can visionary leaders. Zehra Naqvi, CC ’21, and her sister Sophia, CC ’23, are redefining what it means to be fashion entrepreneurs, having launched their line of empowering t-shirts at the age of 15 and 13, respectively. ",
                 "articles": [{
@@ -1043,7 +1060,7 @@ const data = {
                 ]
             },
             {
-                "name": "Arts held accountable for history of colonization, racism, exclusion",
+                "name": "The arts were held accountable for their history of colonization, racism, and exclusion as students and professionals took steps to deinstitutionalize their fields ",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PF7YKDVHW5D25FSAUAJKVODEFE.jpg",
                 "blurb": "The definition of the arts at Columbia, which has historically revolved around the Western canon, is being expanded, diversified, and critiqued by exhibitions, performances, and panels. “Posing Modernity” opened at the Wallach Gallery before moving to the Musée d’Orsay in Paris. Faculty gathered to talk about arts restitution both in the United States and in France, and the CEO of Gucci attempted to explain away the fashion brand’s blackface scandal. Black femme artists took the spotlight at Bold, Beautiful, Black, at Barnard. And a Columbia professor joined New York’s Heartbeat Opera to use an elitist art form to advocate for justice. ",
                 "articles": [{
@@ -1079,7 +1096,7 @@ const data = {
                 ]
             },
             {
-                "name": "Food and drink landscape evolves around campus",
+                "name": "Out with the old, in with the new: Once again, the shifting food and drink landscape around Columbia has evolved",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/T3KICP7M7BDDJGG47R4FBAELNI.jpg",
                 "blurb": "The Morningside Heights community saw new eateries and drinkeries popped up around campus, replacing old favorites. Former restaurant Artopolis, formerly known for its flatbread and wines, transformed into The New York Basics, a patisserie and breakfast café. While the owners remain the same, the interior and menu saw a complete rehaul that looks to target a new market. Amigos, Mexican restaurant and location of the famous $20 bottomless margaritas, became e’s BAR, a board game and retro watering hole that serves diner-style foods. As replacements seemed to dominate  the Columbia food scene, a Joe Coffee’s sprung up in the Journalism School where  UP used to be, marking the franchise’s third location in Morningside Heights.",
                 "articles": [{
@@ -1117,23 +1134,26 @@ const data = {
         ]
     },
 
-    "Spectrum": {
-        sections: [{
-                "name": "Bacchanal",
-                "link": "Bacchanal"
-            },
-            {
-                "name": "fashion, film, and literature ",
-                "link": "fashion, film, and literature "
-            },
-            {
-                "name": "technology, student entrepreneurs, and a postmodern artist ",
-                "link": "technology, student entrepreneurs, and a postmodern artist "
-            },
-            {
-                "name": "arts",
-                "link": "arts"
-            },
+    "Spectrum":
+    {
+        sections: 
+        [
+          {
+            "name": "Bacchanal",
+            "link": "Bacchanal"
+          },
+          {
+            "name": "fashion, film, and literature ",
+            "link": "fashion, film, and literature "
+          },
+          {
+            "name": "technology, student entrepreneurs, and a postmodern artist ",
+            "link": "technology, student entrepreneurs, and a postmodern artist "
+          },
+          {
+            "name": "arts",
+            "link": "arts"
+          }, 
         ],
         "blurb": "Between the spectrum of experiences, stories, narratives, and struggles we all hold, Spectrum hopes to be a guiding, unifying, and comforting presence for students to find sense of belonging and community on campus. Amongst the complexity and turmoil of student life, self-care and self-love against all odds remain a consistent thread this year.",
         "items": [{
@@ -1759,54 +1779,57 @@ const data = {
             }
         ]
     },
-    "Design": {
+    "Design": 
+    {
         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VIGEOPL3GNFBVMCRCXNRPSZ5LU.jpg",
-        sections: [{
-                "name": " Data Visualization",
-                "link": "#DataVisualization"
-            },
-            {
-                "name": " Graphics",
-                "link": "#Graphics"
-            },
-            {
-                "name": " Illustrations",
-                "link": "#Illustrations"
-            }
+    	sections: 
+        [
+          {
+            "name": " Data Visualization",
+            "link": "#DataVisualization"
+          },
+          {
+            "name": " Graphics",
+            "link": "#Graphics"
+          },
+          {
+            "name": " Illustrations",
+            "link": "#Illustrations"
+          }
         ],
         "blurb": "Upholding Spec's mandate as a visuals-first publication, Design has widened the ways Spec reports with innovative graphics, illustrations, data stories, and interactive media. From content in collaboration with Opinion to The Eye, Design hopes to showcase the diverse talents that its staff possess and tell engaging stories in ways that words cannot.",
         "items": [{
-                "name": "Data Visualization",
-                "img": "",
-                "blurb": "Graphics is expanding Spec’s report, telling stories that interweave data visualization, interactive graphics, data journalism, programming, and writing. We’ve kicked off this spring with data stories on financial aid inequities, subway fares, and graduate student diversity.",
-                "articles": [{
-                        "title": "MTA transit fares are set to increase as 5 percent bonus is eliminated. Here’s why.",
-                        "author": "Isabel Wong and Raeedah Wahid",
-                        "link": "https://www.columbiaspectator.com/data-visualization/2019/03/14/mta-transit-fares-are-set-to-increase-as-5-percent-bonus-is-eliminated-heres-why/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3343P2RSSNDU3DXQERBFNTLIKI.jpg"
-                    },
-                    {
-                        "title": "Lower-income undergraduate students are paying more and more to attend Columbia; wealthier students are paying less and less, federal data shows",
-                        "author": "Jason Kao",
-                        "link": "https://www.columbiaspectator.com/news/net-price-inequity/",
-                        "img": ""
-                    },
-                    {
-                        "title": "Librarians, Scholars, and Spies: How a Trove of Chinese Ancestral Records Found Refuge on Columbia’s Shelves",
-                        "author": "Victoria Li and Jason Kao",
-                        "link": "https://www.columbiaspectator.com/eye/2019/03/26/genealogy/",
-                        "img": ""
-                    },
-                    {
-                        "title": "In Certain Science and Engineering Fields, Sex Diversity Among Graduate Students Is Stagnating. In Others, It’s Getting Worse.",
-                        "author": "Jason Kao",
-                        "link": "https://www.columbiaspectator.com/eye-lead/graduate-sex-diversity/",
-                        "img": ""
-                    }
-                ]
-            },
-            //"Graphics",
-            [{
+            "name": "Data Visualization",
+            "img": "",
+            "blurb": "Graphics is expanding Spec’s report, telling stories that interweave data visualization, interactive graphics, data journalism, programming, and writing. We’ve kicked off this spring with data stories on financial aid inequities, subway fares, and graduate student diversity.",
+            "articles": [{
+                    "title": "MTA transit fares are set to increase as 5 percent bonus is eliminated. Here’s why.",
+                    "author": "Isabel Wong and Raeedah Wahid",
+                    "link": "https://www.columbiaspectator.com/data-visualization/2019/03/14/mta-transit-fares-are-set-to-increase-as-5-percent-bonus-is-eliminated-heres-why/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3343P2RSSNDU3DXQERBFNTLIKI.jpg"
+                },
+                {
+                    "title": "Lower-income undergraduate students are paying more and more to attend Columbia; wealthier students are paying less and less, federal data shows",
+                    "author": "Jason Kao",
+                    "link": "https://www.columbiaspectator.com/news/net-price-inequity/",
+                    "img": ""
+                },
+                {
+                    "title": "Librarians, Scholars, and Spies: How a Trove of Chinese Ancestral Records Found Refuge on Columbia’s Shelves",
+                    "author": "Victoria Li and Jason Kao",
+                    "link": "https://www.columbiaspectator.com/eye/2019/03/26/genealogy/",
+                    "img": ""
+                },
+                {
+                    "title": "In Certain Science and Engineering Fields, Sex Diversity Among Graduate Students Is Stagnating. In Others, It’s Getting Worse.",
+                    "author": "Jason Kao",
+                    "link": "https://www.columbiaspectator.com/eye-lead/graduate-sex-diversity/",
+                    "img": ""
+                }
+            ]
+        },
+        //"Graphics",
+        [	{
                 "img_square": "Up against the invincible: Side-stepping the system",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TEWQNU54EJF25F2FRN33AVKTYE.jpg",
                 "description": "Despite the filing a report against a member of faculty for sexual misconduct, the final result is that they still retain access to campus.",
@@ -1861,8 +1884,8 @@ const data = {
                 "link": "https://www.columbiaspectator.com/news/2019/03/28/close-to-40-percent-of-non-joint-or-dual-program-gs-students-experience-food-insecurity-survey-shows/",
                 "author": "Laurel Kim / Senior Staff Designer"
             }],
-            // Illustrations
-            [{
+       // Illustrations
+        [	{
                 "img_square": "I created columbia buy sell memes",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2VNEOYU2VZCOBKM62M7ARCIDVM.gif",
                 "description": "An outline of Columbia's campus map is layered on top of a scrolling Facebook feed consisting of columbia buy sell memes.",
@@ -1962,5 +1985,3 @@ const data = {
         ]
     }
 }
-
-export default data;
