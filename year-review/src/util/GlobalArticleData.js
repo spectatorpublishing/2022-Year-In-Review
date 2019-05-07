@@ -735,20 +735,20 @@ const data = {
     "Eye": {
         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ARDEZFQQZBGDXHNWV445HYDE7Y.jpg",
         sections: [{
-                "name": " CITY REPORTING",
-                "link": "#CITY REPORTING"
+                "name": "CITY",
+                "link": "#CITY"
             },
             {
-                "name": " ACADEMICS REPORTING",
-                "link": "#ACADEMICS REPORTING"
+                "name": "ACADEMICS",
+                "link": "#ACADEMICS"
             },
             {
-                "name": " STUDENT LIFE REPORTING",
-                "link": "#STUDENT LIFE REPORTING"
+                "name": "STUDENT LIFE",
+                "link": "#STUDENT LIFE"
             },
             {
-                "name": " BEST ESSAYS",
-                "link": "#BEST ESSAYS"
+                "name": "ESSAYS",
+                "link": "#ESSAYS"
             }
         ],
         "blurb": "As Spectator’s long-form magazine, The Eye has spent the past year pursuing rigorous, thorough, and empathetic journalism. Through character driven stories with an emphasis on voice and style, we have sought to engage with, inform, and challenge the Columbia community—to evoke something within you, our readers. Put simply: to read an Eye piece is to feel, to think critically, and to draw closer to those who share our spaces. ",
@@ -920,23 +920,23 @@ const data = {
         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ANHFV4P2BFFUBHPP2IQUAPOTKQ.jpg",
         sections: [{
                 "name": "Bacchanal",
-                "link": "Bacchanal"
+                "link": "#Bacchanal"
             },
             {
-                "name": "fashion, film, and literature ",
-                "link": "fashion, film, and literature "
+                "name": "Politics ",
+                "link": "#Politics"
             },
             {
-                "name": "technology, student entrepreneurs, and a postmodern artist ",
-                "link": "technology, student entrepreneurs, and a postmodern artist "
+                "name": "#Technology",
+                "link": "#Ttechnology"
             },
             {
-                "name": "arts",
-                "link": "arts"
+                "name": "Deinstitutionalization",
+                "link": "#Deinstitutionalization"
             },
             {
-                "name": "Out with the old, in with the new",
-                "link": "Out with the old, in with the new"
+                "name": "New Eateries",
+                "link": "#New-Eateries"
             }
         ],
         "blurb": "Arts & Entertainment strives to provide a space in which to critically discuss arts at Columbia, to give the Columbia community a closer look into the inner workings of the arts world, and to inform the community of the different types of arts and entertainment happening on campus.",
