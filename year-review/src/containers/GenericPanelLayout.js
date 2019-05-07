@@ -9,35 +9,42 @@ const mobileSize = 992
 
 const Container = styled.div`
   width: 100vw;
-  height: 100vh;
   postion: relative;
-  
 `
 
 const TopContainer = styled.div`
   width: 100vw;
-  height: ${props => props.isMobile? '40vh' : '60vh'};
   float: top;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${({img_src}) => img_src});
   background-position: center;
+
+
+  @media (max-width: 991px){
+    height: 60vh;
+  }
 `
 
 const BottomContainer = styled.div`
 	width: 100vw;
-	height: ${props => props.isMobile? '70vh' : '40vh'};
+  height: 50vh;
 	float: bottom;
   background-color: ${props => props.theme.indigo};
+  @media (max-width: 991px){
+    height: 40vh;
+  }
 `
 
 const Head = styled.h3`
 	textAlign: left;
 	padding: 12vh 2vw 4vh 8vw;
+  text-shadow: ${props => props.theme.shadow};
   color: white;
   width: 60vw;
 `
 const MobileHead = styled.h3`
   textAlign: left;
   padding: 4vh 0vw 2vh 8vw;
+  text-shadow: ${props => props.theme.shadow};
   color: white;
   width: 80vw;
   text-size: 10px;
@@ -45,7 +52,9 @@ const MobileHead = styled.h3`
 `
 
 const Subtitle = styled.p`
+  font-size: 1.2rem;
   textAlign: left;
+  text-shadow: ${props => props.theme.shadow};
   padding: 0vh 0vw 4vh 8vw;
   color: white;
   width: 60vw;
@@ -54,6 +63,7 @@ const Subtitle = styled.p`
 const MobileSubtitle = styled.p`
   textAlign: left;
   padding: 0vh 0vw 4vh 8vw;
+  text-shadow: ${props => props.theme.shadow};
   color: white;
   width: 80vw;
 ` 
