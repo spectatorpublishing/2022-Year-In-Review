@@ -2,11 +2,15 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 import { ReactComponent as ArrowR } from '../assets/right_arrow.svg';
 import { ReactComponent as ArrowL } from '../assets/left_arrow.svg';
+import filledCircle from '../assets/filledCircle.svg'
+import emptyCircle from '../assets/emptyCircle.svg'
 
-const RightArrow = styled(ArrowL)`
-	transform: rotate(180deg);
+const n=4
+
+const RightArrow = styled(ArrowR)`
+	
 	& path {
-    stroke: ${props => props.theme.transparentWhite};
+    stroke: ${props => props.theme.white};
   }
   &:hover path {
     stroke: ${props => props.theme.white};
@@ -16,9 +20,10 @@ const RightArrow = styled(ArrowL)`
 	left: 90vw;
 `;
 
-const LeftArrow = styled(ArrowL)`
+const LeftArrow = styled(ArrowR)`
+	transform: rotate(180deg);
 	& path {
-		stroke: ${props => props.theme.transparentWhite};
+		stroke: ${props => props.theme.white};
 	}
 	&:hover path {
 		stroke: ${props => props.theme.white};
@@ -42,12 +47,13 @@ const Contain = styled.div`
 	display: flex;
 	flex-direction: row;
 	transform: translate(${({translateValue}) => translateValue}vw);
+	transition: transform ease-out 0.45s;
 `;
 
 const Column = styled.a`
 	display: flex;
 	width: 25vw;
-	height: 75vh;
+	height: 70vh;
 	background-size: cover;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(${({img_src}) => img_src});
 	text-align: center;
@@ -66,7 +72,19 @@ const Title = styled.h4`
 	color: white;
 `;
 
-
+const CircleContainer = styled.div`
+	width: 100vw;
+	height: 5vh;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: absolute;
+	top: 90vh;
+`
+const Circle = styled.img`
+	margin: 10px;
+`
 
 class SpectrumSlider extends Component{
 	constructor(props) {
@@ -83,27 +101,42 @@ class SpectrumSlider extends Component{
 	  }
 
 	handleLeftArrowClick() {
-
+		if (this.state.leftDisabled)
+			return
 		if (this.state.index > 0) {
 			this.setState({ index: this.state.index - 1});
 		} 
 		else {
-			this.setState({ index: this.props.data.length - 4});
-
+			this.setState({leftDisabled: true});
 		}
+		if (this.state.index === this.props.data.length-4)
+			this.setState({ rightDisabled: false});
 	}
 
 	handleRightArrowClick() {
+		if (this.state.rightDisabled)
+			return
 		if (this.state.index + 4 < this.props.data.length) {
 			this.setState({ index: this.state.index + 1 });
 
 		} 
 		else {
-			this.setState({ index: 0 });
+			this.setState({ rightDisabled: true});
 		}
+		if (this.state.index === 1)
+			this.setState({ leftDisabled: false});
 	}
 
 	render(){
+		let circles = this.props.data.map ( (_, i) => {
+				if (i===this.state.circle_index)
+					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
+				else if (i<this.props.data.length/n)
+					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
+				return null
+			}
+		)
+
 		const grid = this.props.data.map((data, i) => {
 			return (
 			<Column href={data.link} target="_blank"  img_src={data.img} key={i} index={i} 
