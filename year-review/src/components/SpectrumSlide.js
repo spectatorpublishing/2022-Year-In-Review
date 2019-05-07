@@ -47,8 +47,10 @@ const Link = styled.a`
   position: absolute;
   top: 80%;
   right: 10%;
-  color: white;
-  font-size: 25px;
+`
+const ReadMore = styled.h4`
+  color: ${props => props.theme.blue};
+  text-shadow: ${props => props.theme.shadow};
 `
 
 const slide = (props) =>{
@@ -56,7 +58,7 @@ const slide = (props) =>{
     <Article>
         <Image {...props}>
             <Title>{props.title}</Title>
-            <Link href={props.url}>Read More</Link>
+            <Link href={props.url}><ReadMore>Read More</ReadMore></Link>
         </Image>
     </Article>
   );
