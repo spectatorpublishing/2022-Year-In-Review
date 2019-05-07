@@ -29,7 +29,7 @@ let TempHeader = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${props => props.img_src});
   background-position: center;
   background-size: cover;
-  background-color: blue;
+  background-color: ${props => props.theme.indigo};
   justify-content: center;
   align-items: center;
 `
