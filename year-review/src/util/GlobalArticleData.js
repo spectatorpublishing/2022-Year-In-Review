@@ -734,22 +734,24 @@ const data = {
     },
     "Eye": {
         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ARDEZFQQZBGDXHNWV445HYDE7Y.jpg",
-        sections: [{
-                "name": "CITY",
-                "link": "#CITY"
-            },
-            {
-                "name": "ACADEMICS",
-                "link": "#ACADEMICS"
-            },
-            {
-                "name": "STUDENT LIFE",
-                "link": "#STUDENT LIFE"
-            },
-            {
-                "name": "ESSAYS",
-                "link": "#ESSAYS"
-            }
+        sections: 
+        [
+          {
+            "name": " CITY",
+            "link": "#CITY"
+          },
+          {
+            "name": " ACADEMICS",
+            "link": "#ACADEMICS"
+          },
+          {
+            "name": " STUDENT LIFE",
+            "link": "#STUDENT LIFE"
+          },
+          {
+            "name": " ESSAYS",
+            "link": "#ESSAYS"
+          }
         ],
         "blurb": "As Spectator’s long-form magazine, The Eye has spent the past year pursuing rigorous, thorough, and empathetic journalism. Through character driven stories with an emphasis on voice and style, we have sought to engage with, inform, and challenge the Columbia community—to evoke something within you, our readers. Put simply: to read an Eye piece is to feel, to think critically, and to draw closer to those who share our spaces. ",
         "items": [{
@@ -1476,179 +1478,179 @@ const data = {
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4EGFXX6ILJAPTM5QU72C3AFUE4.png",
                 "items": [{
                     "title": "Opening the box of smelly dumplings",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JW6DJYNU7ZDBRFWIZTN63PEOFQ.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JW6DJYNU7ZDBRFWIZTN63PEOFQ.jpg",
-                    "caption": "“It was the little things that instilled a sense of self-hatred in me growing up: how none of the white kids could understand my parents’ accent or my small eyes and flat face; how I was expected to be good at math (I’m not); how they would look at the smelly dumplings in my Tupperware with disgust, and I would bury them at the bottom of my backpack, face burning hot with shame.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/09/24/opening-the-box-of-smelly-dumplings/",
-                    "contributor": "Chop Suey | Victoria Hou"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JW6DJYNU7ZDBRFWIZTN63PEOFQ.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JW6DJYNU7ZDBRFWIZTN63PEOFQ.jpg",
+                    "title": "“It was the little things that instilled a sense of self-hatred in me growing up: how none of the white kids could understand my parents’ accent or my small eyes and flat face; how I was expected to be good at math (I’m not); how they would look at the smelly dumplings in my Tupperware with disgust, and I would bury them at the bottom of my backpack, face burning hot with shame.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/09/24/opening-the-box-of-smelly-dumplings/",
+                    "author": "Chop Suey | Victoria Hou"
                 }, {
                     "title": "It’s just disordered eating",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7DW6KY22FFTXMCVW775DECW4I.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7DW6KY22FFTXMCVW775DECW4I.jpg",
-                    "caption": "It’s just disordered eating“Many of the traits that helped us get into Columbia—a drive for excellence, high levels of self-discipline, a sense that we can determine the outcome of any project we put our minds to, and all those other fun Type A personality traits—are also the traits that, given the right circumstances, allow students to develop disordered eating with varying ranges of severity.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/09/26/its-just-disordered-eating-2/",
-                    "contributor": "I Do Indeed Give a F*** about the Oxford Comma | Sarah Fornshell"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7DW6KY22FFTXMCVW775DECW4I.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7DW6KY22FFTXMCVW775DECW4I.jpg",
+                    "title": "It’s just disordered eating“Many of the traits that helped us get into Columbia—a drive for excellence, high levels of self-discipline, a sense that we can determine the outcome of any project we put our minds to, and all those other fun Type A personality traits—are also the traits that, given the right circumstances, allow students to develop disordered eating with varying ranges of severity.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/09/26/its-just-disordered-eating-2/",
+                    "author": "I Do Indeed Give a F*** about the Oxford Comma | Sarah Fornshell"
                 }, {
                     "title": "Peace at the eleventh (therapeutic) hour",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VJUOERXVV5ECNHIPYC2PA7MP6U.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VJUOERXVV5ECNHIPYC2PA7MP6U.jpg",
-                    "caption": "“Implicitly saying I need help to pay for insurance to Columbia didn’t feel amazing, either. But it did work. Naturally, I am now an eager help-needer, because asking for help has only strengthened me.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/12/05/peace-at-the-eleventh-therapeutic-hour/",
-                    "contributor": "The Bitching Hour | Harmony Graziano"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VJUOERXVV5ECNHIPYC2PA7MP6U.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VJUOERXVV5ECNHIPYC2PA7MP6U.jpg",
+                    "title": "“Implicitly saying I need help to pay for insurance to Columbia didn’t feel amazing, either. But it did work. Naturally, I am now an eager help-needer, because asking for help has only strengthened me.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/12/05/peace-at-the-eleventh-therapeutic-hour/",
+                    "author": "The Bitching Hour | Harmony Graziano"
                 }, {
                     "title": "On personal tragedy in the public space",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2BJ7JBTK6VCE7OX26ZXSWP7CYI.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2BJ7JBTK6VCE7OX26ZXSWP7CYI.jpg",
-                    "caption": "“Back in Parkland, our new reality is an unspoken and constantly looming presence. We are all anxious, we are all paranoid, and, therefore, this fact of our lives does not have to be explained. Here in the Barnard and Columbia community, on the other hand, my restless behavior and strange phobias are exactly that: strange.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/09/13/on-personal-tragedy-in-the-public-space/",
-                    "contributor": "Debbie Downer | Isabelle Robinson"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2BJ7JBTK6VCE7OX26ZXSWP7CYI.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2BJ7JBTK6VCE7OX26ZXSWP7CYI.jpg",
+                    "title": "“Back in Parkland, our new reality is an unspoken and constantly looming presence. We are all anxious, we are all paranoid, and, therefore, this fact of our lives does not have to be explained. Here in the Barnard and Columbia community, on the other hand, my restless behavior and strange phobias are exactly that: strange.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/09/13/on-personal-tragedy-in-the-public-space/",
+                    "author": "Debbie Downer | Isabelle Robinson"
                 }, {
                     "title": "Bargaining towards acceptance",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OVEYVGU2JBCLNJQ3SOR2W7PATA.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OVEYVGU2JBCLNJQ3SOR2W7PATA.jpg",
-                    "caption": "“The right to negotiate cannot be disputed, it seems to me, unless one opposes collective bargaining in general. The students seeking to bargain perform much work vital to the operation of their respective universities and should be treated accordingly.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/09/13/bargaining-towards-acceptance/",
-                    "contributor": "Alethophilia | Shane Brasil-Wadsworth"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OVEYVGU2JBCLNJQ3SOR2W7PATA.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OVEYVGU2JBCLNJQ3SOR2W7PATA.jpg",
+                    "title": "“The right to negotiate cannot be disputed, it seems to me, unless one opposes collective bargaining in general. The students seeking to bargain perform much work vital to the operation of their respective universities and should be treated accordingly.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/09/13/bargaining-towards-acceptance/",
+                    "author": "Alethophilia | Shane Brasil-Wadsworth"
                 }, {
                     "title": "Yes, I Juul. Mind your business. ",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RFQU6XEJLRDKXA5ZHNWG276K7A.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RFQU6XEJLRDKXA5ZHNWG276K7A.jpg",
-                    "caption": "“I don’t blame people for wanting a hit. Juulia’s LED strobe light shines out like a beacon of hope in the dark corners of the Columbia bar scene. I’ve become Juulius Caesar and everyone—even those I least suspect—wants a piece. Et tu, Brute?”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/09/28/yes-i-juul-mind-your-business/",
-                    "contributor": "A Girl and her Juul | Anna Lokey"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RFQU6XEJLRDKXA5ZHNWG276K7A.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RFQU6XEJLRDKXA5ZHNWG276K7A.jpg",
+                    "title": "“I don’t blame people for wanting a hit. Juulia’s LED strobe light shines out like a beacon of hope in the dark corners of the Columbia bar scene. I’ve become Juulius Caesar and everyone—even those I least suspect—wants a piece. Et tu, Brute?”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/09/28/yes-i-juul-mind-your-business/",
+                    "author": "A Girl and her Juul | Anna Lokey"
                 }, {
                     "title": "It takes a village",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Y626ZB4HTVBAZFURTW5VW5KB3Q.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Y626ZB4HTVBAZFURTW5VW5KB3Q.jpg",
-                    "caption": "“Students and employees alike, we are surrounded by resilient people here and back home. The pride I see within their hearts and their eyes is something I will hold on to forever; don’t deprive yourself of the power of witnessing that pride. Those moments have the capability of reminding you of the village that it took to get you here.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/09/17/it-takes-a-village/",
-                    "contributor": "Tex-Mex Near You | Maria Castillo"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Y626ZB4HTVBAZFURTW5VW5KB3Q.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Y626ZB4HTVBAZFURTW5VW5KB3Q.jpg",
+                    "title": "“Students and employees alike, we are surrounded by resilient people here and back home. The pride I see within their hearts and their eyes is something I will hold on to forever; don’t deprive yourself of the power of witnessing that pride. Those moments have the capability of reminding you of the village that it took to get you here.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/09/17/it-takes-a-village/",
+                    "author": "Tex-Mex Near You | Maria Castillo"
                 }, {
                     "title": "When words aren’t enough",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/B6RNHORFG5GPTOPN36RGGQU3SU.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/B6RNHORFG5GPTOPN36RGGQU3SU.jpg",
-                    "caption": "“In moments like these, I have realized that nothing will ever be enough. Not the emails, the copy-pasted condolences, or the litany of phone numbers thrown our way again and again for us to call. Not even my own words will bring me the “The End” that I desperately crave.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/10/19/when-words-arent-enough/",
-                    "contributor": "The Lyricism of Marginality | Amy Gong Liu"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/B6RNHORFG5GPTOPN36RGGQU3SU.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/B6RNHORFG5GPTOPN36RGGQU3SU.jpg",
+                    "title": "“In moments like these, I have realized that nothing will ever be enough. Not the emails, the copy-pasted condolences, or the litany of phone numbers thrown our way again and again for us to call. Not even my own words will bring me the “The End” that I desperately crave.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/10/19/when-words-arent-enough/",
+                    "author": "The Lyricism of Marginality | Amy Gong Liu"
                 }, {
                     "title": "On quitting track and running from who I thought I’d always be",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LXE2HLEOIFBNVOEB7SKMXOLGEY.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LXE2HLEOIFBNVOEB7SKMXOLGEY.jpg",
-                    "caption": "“After two years of competing for the Columbia track team, two years of working the hardest I ever have at something just to be let down again and again, two years of crying to my parents over every holiday break and wishing my college years away, I decided to quit the one thing I thought would give me what I wanted most: to belong.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/09/19/on-quitting-track-and-running-from-who-i-thought-id-always-be/",
-                    "contributor": "Distance May Vary | Nora May McSorley"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LXE2HLEOIFBNVOEB7SKMXOLGEY.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LXE2HLEOIFBNVOEB7SKMXOLGEY.jpg",
+                    "title": "“After two years of competing for the Columbia track team, two years of working the hardest I ever have at something just to be let down again and again, two years of crying to my parents over every holiday break and wishing my college years away, I decided to quit the one thing I thought would give me what I wanted most: to belong.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/09/19/on-quitting-track-and-running-from-who-i-thought-id-always-be/",
+                    "author": "Distance May Vary | Nora May McSorley"
                 }, {
                     "title": "Explore the world beyond the ivy-covered walls",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/E266HXM2OVEOFGPPS3JDGUY6JU.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/E266HXM2OVEOFGPPS3JDGUY6JU.jpg",
-                    "caption": "“Choosing not to engage with Harlem’s current community only increases tension between Columbia and Harlem by perpetuating the impression that we’re just a bunch of out-of-touch Ivy Leaguers who are too apathetic to care about Columbia’s impact on Harlem.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/11/12/explore-the-world-beyond-the-ivy-covered-walls/",
-                    "contributor": "Past the Present | Noah Kulick"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/E266HXM2OVEOFGPPS3JDGUY6JU.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/E266HXM2OVEOFGPPS3JDGUY6JU.jpg",
+                    "title": "“Choosing not to engage with Harlem’s current community only increases tension between Columbia and Harlem by perpetuating the impression that we’re just a bunch of out-of-touch Ivy Leaguers who are too apathetic to care about Columbia’s impact on Harlem.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/11/12/explore-the-world-beyond-the-ivy-covered-walls/",
+                    "author": "Past the Present | Noah Kulick"
                 }, {
                     "title": "CPS is here for you—in three weeks",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SOYHFVU2TBENXCNOASVNCAOJMU.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SOYHFVU2TBENXCNOASVNCAOJMU.jpg",
-                    "caption": "“When you’re mentally unstable, it’s easy to doubt yourself and believe that everything you’re feeling is in your head. Giving someone who has expressed a need for help such a long wait time not only gives that person the chance to cancel their appointment, but also forces the Columbia administration to rely on the fact that students will show up to their far-off appointments.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/10/18/cps-is-here-for-youin-three-weeks/",
-                    "contributor": "Wholesome Content | Katie Santamaria"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SOYHFVU2TBENXCNOASVNCAOJMU.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SOYHFVU2TBENXCNOASVNCAOJMU.jpg",
+                    "title": "“When you’re mentally unstable, it’s easy to doubt yourself and believe that everything you’re feeling is in your head. Giving someone who has expressed a need for help such a long wait time not only gives that person the chance to cancel their appointment, but also forces the Columbia administration to rely on the fact that students will show up to their far-off appointments.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/10/18/cps-is-here-for-youin-three-weeks/",
+                    "author": "Wholesome Content | Katie Santamaria"
                 }, {
                     "title": "Open your doors for others on Thanksgiving",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DBL3MWCR5VFAVJH25TO2VN3JQM.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DBL3MWCR5VFAVJH25TO2VN3JQM.jpg",
-                    "caption": "“Although Thanksgiving is meant to bring communities together, Thanksgiving break only shows them how left out of the community they really are.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2018/11/16/open-your-doors-for-others-on-thanksgiving/",
-                    "contributor": "Different Places, Different People, Different Perspectives | Kevin Petersen"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DBL3MWCR5VFAVJH25TO2VN3JQM.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DBL3MWCR5VFAVJH25TO2VN3JQM.jpg",
+                    "title": "“Although Thanksgiving is meant to bring communities together, Thanksgiving break only shows them how left out of the community they really are.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2018/11/16/open-your-doors-for-others-on-thanksgiving/",
+                    "author": "Different Places, Different People, Different Perspectives | Kevin Petersen"
                 }, {
                     "title": "Not like the other sell-outs",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PJOCD2HXBRAEJI6QIUG7SHOQFU.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PJOCD2HXBRAEJI6QIUG7SHOQFU.jpg",
-                    "caption": "“I think I always knew that, at least in the short run, I’d have to “sell out.” For most of my life, my family has lived paycheck to paycheck. We were fortunate in that we had food on the table and clothes on our backs, but our financial situation, particularly once my parents split, wasn’t always stable. We were generally comfortable and happy, and that was enough.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/03/05/not-like-the-other-sell-outs/",
-                    "contributor": "A Pinch of Salt | Laura Salgado"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PJOCD2HXBRAEJI6QIUG7SHOQFU.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PJOCD2HXBRAEJI6QIUG7SHOQFU.jpg",
+                    "title": "“I think I always knew that, at least in the short run, I’d have to “sell out.” For most of my life, my family has lived paycheck to paycheck. We were fortunate in that we had food on the table and clothes on our backs, but our financial situation, particularly once my parents split, wasn’t always stable. We were generally comfortable and happy, and that was enough.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/03/05/not-like-the-other-sell-outs/",
+                    "author": "A Pinch of Salt | Laura Salgado"
                 }, {
                     "title": "Community college students need not apply",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WOKJFWLTZNE3DAF426QEQN2BZU.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WOKJFWLTZNE3DAF426QEQN2BZU.jpg",
-                    "caption": "“Everyone has their own unique stories about getting their Columbia acceptance, and mine is that I cried and then baked myself a cake. All the struggles that pointed me toward community college in the first place finally felt justified.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/02/11/community-college-students-need-not-apply/",
-                    "contributor": "Pressure Cooker | Melissa Cook"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WOKJFWLTZNE3DAF426QEQN2BZU.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WOKJFWLTZNE3DAF426QEQN2BZU.jpg",
+                    "title": "“Everyone has their own unique stories about getting their Columbia acceptance, and mine is that I cried and then baked myself a cake. All the struggles that pointed me toward community college in the first place finally felt justified.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/02/11/community-college-students-need-not-apply/",
+                    "author": "Pressure Cooker | Melissa Cook"
                 }, {
                     "title": "Ok ladies now let’s masturbate",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KXOOUJZAVVHHZDDKUP22NVN4UY.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KXOOUJZAVVHHZDDKUP22NVN4UY.jpg",
-                    "caption": "“If you’re not having relations with a Columbia str8boi, first of all, congratulations. But seriously, no matter who it is, another person can never know what you like more than you do. The key to having great sex is having great masturbation experiences. Honestly, sounds like a win-win to me.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/03/29/ok-ladies-now-lets-masturbate/",
-                    "contributor": "A Girl and her Juul | Anna Lokey"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KXOOUJZAVVHHZDDKUP22NVN4UY.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KXOOUJZAVVHHZDDKUP22NVN4UY.jpg",
+                    "title": "“If you’re not having relations with a Columbia str8boi, first of all, congratulations. But seriously, no matter who it is, another person can never know what you like more than you do. The key to having great sex is having great masturbation experiences. Honestly, sounds like a win-win to me.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/03/29/ok-ladies-now-lets-masturbate/",
+                    "author": "A Girl and her Juul | Anna Lokey"
                 }, {
                     "title": "Is it a “privilege” to go to Columbia?",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AO7BPB5J75AM3GVWOJRUJ26DT4.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AO7BPB5J75AM3GVWOJRUJ26DT4.jpg",
-                    "caption": "“It’s wrong to imply that students from non-privileged backgrounds don’t have a place at Columbia by calling it a “privilege” to study here. Non-privileged students earned their spots and almost certainly worked (and continue to work) harder than everyone else while doing so.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/04/16/is-it-a-privilege-to-go-to-columbia/",
-                    "contributor": "Fly on the Wall | Austin Dean"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AO7BPB5J75AM3GVWOJRUJ26DT4.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AO7BPB5J75AM3GVWOJRUJ26DT4.jpg",
+                    "title": "“It’s wrong to imply that students from non-privileged backgrounds don’t have a place at Columbia by calling it a “privilege” to study here. Non-privileged students earned their spots and almost certainly worked (and continue to work) harder than everyone else while doing so.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/04/16/is-it-a-privilege-to-go-to-columbia/",
+                    "author": "Fly on the Wall | Austin Dean"
                 }, {
                     "title": "Some admissions about admissions",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VXZYC2UM7NBCFH354JCJQGW3KA.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VXZYC2UM7NBCFH354JCJQGW3KA.jpg",
-                    "caption": "“At a campus constantly prodding, dissecting, and celebrating identity, my own approach to definition has largely been one of silence, of conflict avoidance. I don’t have the language—in either Portuguese or English and certainly not in Spanish—to insert myself into any of the ongoing conversations.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/03/27/some-admissions-about-admissions/",
-                    "contributor": "The Tatler | Hannah Barbosa Cesnik"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VXZYC2UM7NBCFH354JCJQGW3KA.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VXZYC2UM7NBCFH354JCJQGW3KA.jpg",
+                    "title": "“At a campus constantly prodding, dissecting, and celebrating identity, my own approach to definition has largely been one of silence, of conflict avoidance. I don’t have the language—in either Portuguese or English and certainly not in Spanish—to insert myself into any of the ongoing conversations.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/03/27/some-admissions-about-admissions/",
+                    "author": "The Tatler | Hannah Barbosa Cesnik"
                 }, {
                     "title": "Your token black sorority woman",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Q6WUSCDQSNEU5BJFUSQRTDAYLQ.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Q6WUSCDQSNEU5BJFUSQRTDAYLQ.jpg",
-                    "caption": "“Like I said, I joined Greek life in spite of, not disregarding, its history with racism. It’s a decision that I choose to make every day, one I wouldn’t be choosing if I found myself in a community that refused to learn from the past and hold their members to even higher standards.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/02/07/your-token-black-sorority-woman/",
-                    "contributor": "Your Token [Blank] Woman | Eileen Moudou"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Q6WUSCDQSNEU5BJFUSQRTDAYLQ.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Q6WUSCDQSNEU5BJFUSQRTDAYLQ.jpg",
+                    "title": "“Like I said, I joined Greek life in spite of, not disregarding, its history with racism. It’s a decision that I choose to make every day, one I wouldn’t be choosing if I found myself in a community that refused to learn from the past and hold their members to even higher standards.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/02/07/your-token-black-sorority-woman/",
+                    "author": "Your Token [Blank] Woman | Eileen Moudou"
                 }, {
                     "title": "Envisioning a future as gay as Barnard",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NFETIQTJ2ZBZDCTWUAMKOCWK7Q.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NFETIQTJ2ZBZDCTWUAMKOCWK7Q.jpg",
-                    "caption": "“Listening to my sister casually chat about maybe being bisexual or lesbian made me realize that she is in a far better place than I was, and her ability to question her sexuality without discomfort is a mark of confidence in herself that I lacked.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/04/03/envisioning-a-future-as-gay-as-barnard/",
-                    "contributor": "High Entropy | Liza Casella"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NFETIQTJ2ZBZDCTWUAMKOCWK7Q.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NFETIQTJ2ZBZDCTWUAMKOCWK7Q.jpg",
+                    "title": "“Listening to my sister casually chat about maybe being bisexual or lesbian made me realize that she is in a far better place than I was, and her ability to question her sexuality without discomfort is a mark of confidence in herself that I lacked.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/04/03/envisioning-a-future-as-gay-as-barnard/",
+                    "author": "High Entropy | Liza Casella"
                 }, {
                     "title": "Lo que Barnard y Columbia pueden hacer para ayudar a los niños más vulnerables",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/REJGFYENKNESTKPXP4WE7XMK2I.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/REJGFYENKNESTKPXP4WE7XMK2I.jpg",
-                    "caption": "“Quería trabajar con esta organización porque de niña tuve mis propios encuentros con el sistema de bienestar infantil. Aunque yo no fui alejada de mi familia (hecho que por sí mismo representa un privilegio), deseaba hacer algo, a pesar de que no fuera mucho, para hacer que el proceso fuera menos traumatizante para otros niños.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/04/17/lo-que-barnard-y-columbia-pueden-hacer-para-ayudar-a-los-ninos-mas-vulnerables/",
-                    "contributor": "Spec sin Barreras | Daphnie Ordóñez"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/REJGFYENKNESTKPXP4WE7XMK2I.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/REJGFYENKNESTKPXP4WE7XMK2I.jpg",
+                    "title": "“Quería trabajar con esta organización porque de niña tuve mis propios encuentros con el sistema de bienestar infantil. Aunque yo no fui alejada de mi familia (hecho que por sí mismo representa un privilegio), deseaba hacer algo, a pesar de que no fuera mucho, para hacer que el proceso fuera menos traumatizante para otros niños.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/04/17/lo-que-barnard-y-columbia-pueden-hacer-para-ayudar-a-los-ninos-mas-vulnerables/",
+                    "author": "Spec sin Barreras | Daphnie Ordóñez"
                 }, {
                     "title": "Why do we think poor students can’t have nice things?",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5KWTRHEBMRGW7GA4QACPCKV7ZU.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5KWTRHEBMRGW7GA4QACPCKV7ZU.jpg",
-                    "caption": "“Notions of poverty at Columbia involve a basic understanding that poor students are overall not destitute, counteracted by a highly fictitious illusion that poor people’s belongings must always be less than what is considered “best.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/03/07/why-do-we-think-poor-students-cant-have-nice-things/",
-                    "contributor": "A Persistent Flaw | Gabriel Franco"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5KWTRHEBMRGW7GA4QACPCKV7ZU.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5KWTRHEBMRGW7GA4QACPCKV7ZU.jpg",
+                    "title": "“Notions of poverty at Columbia involve a basic understanding that poor students are overall not destitute, counteracted by a highly fictitious illusion that poor people’s belongings must always be less than what is considered “best.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/03/07/why-do-we-think-poor-students-cant-have-nice-things/",
+                    "author": "A Persistent Flaw | Gabriel Franco"
                 }, {
                     "title": "Barnard’s obsession with tortured artistry",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BDAGE66MXJBJXIDBL74BD735EI.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BDAGE66MXJBJXIDBL74BD735EI.jpg",
-                    "caption": "“As a gendered space distinct from the larger umbrella of Columbia, I think that Barnard puts pressure on many students to occupy the role of a 4.0-GPA-having, Ratrock-featured, beautifully tormented artist.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/03/14/barnards-obsession-with-tortured-artistry/",
-                    "contributor": "On the In-Between | Hana Rivers"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BDAGE66MXJBJXIDBL74BD735EI.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BDAGE66MXJBJXIDBL74BD735EI.jpg",
+                    "title": "“As a gendered space distinct from the larger umbrella of Columbia, I think that Barnard puts pressure on many students to occupy the role of a 4.0-GPA-having, Ratrock-featured, beautifully tormented artist.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/03/14/barnards-obsession-with-tortured-artistry/",
+                    "author": "On the In-Between | Hana Rivers"
                 }, {
                     "title": "The short view on finance recruiting",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6JAB6MB7PRFR3NMX3UMLPY3DNE.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6JAB6MB7PRFR3NMX3UMLPY3DNE.jpg",
-                    "caption": "“This concern about the trajectory of our culture and education, not those reflexively woke platitudes about the immorality of financial markets, forms the basis of my skepticism about the Ivy League to Wall Street pipeline. The whole conversation about “selling out” is egregiously overdone.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/03/29/the-short-view-on-finance-recruiting/",
-                    "contributor": "Short Views | Jimmy Quinn"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6JAB6MB7PRFR3NMX3UMLPY3DNE.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6JAB6MB7PRFR3NMX3UMLPY3DNE.jpg",
+                    "title": "“This concern about the trajectory of our culture and education, not those reflexively woke platitudes about the immorality of financial markets, forms the basis of my skepticism about the Ivy League to Wall Street pipeline. The whole conversation about “selling out” is egregiously overdone.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/03/29/the-short-view-on-finance-recruiting/",
+                    "author": "Short Views | Jimmy Quinn"
                 }, {
                     "title": "The People of Color problem",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EUGNH3QL6RBN7OGD73TLWLUXRY.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EUGNH3QL6RBN7OGD73TLWLUXRY.jpg",
-                    "caption": "“On a campus where so many students place #BlackLivesMatter into their social media handles, why is it so hard to say the word “Black,” even when discrimination happens to Black students on campus? When anti-Blackness occurs, call it what it is: anti-Blackness.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/02/15/the-people-of-color-problem/",
-                    "contributor": "The King has Spoken | Colby King"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EUGNH3QL6RBN7OGD73TLWLUXRY.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EUGNH3QL6RBN7OGD73TLWLUXRY.jpg",
+                    "title": "“On a campus where so many students place #BlackLivesMatter into their social media handles, why is it so hard to say the word “Black,” even when discrimination happens to Black students on campus? When anti-Blackness occurs, call it what it is: anti-Blackness.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/02/15/the-people-of-color-problem/",
+                    "author": "The King has Spoken | Colby King"
                 }, {
                     "title": "A mi mamá",
-                    "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7EG54IJEM5BQLLBEMC5F3JEWUE.jpg",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7EG54IJEM5BQLLBEMC5F3JEWUE.jpg",
-                    "caption": "“Because of my name, I didn’t contest when I was lumped in with the white kids because I didn’t know how to articulate what I was feeling. It’s not that my family was not a part of the neo-colonist history of Hawaii (we were), but my identity was a bit more nuanced than my name suggested. I only started reflecting more deeply on the situation when I came to Columbia, where identity is discussed more often than in other places.”",
-                    "storyurl": "https://www.columbiaspectator.com/opinion/2019/03/15/a-mi-mama/",
-                    "contributor": "Christina’s World | Christina Hill"
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7EG54IJEM5BQLLBEMC5F3JEWUE.jpg",
+                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7EG54IJEM5BQLLBEMC5F3JEWUE.jpg",
+                    "title": "“Because of my name, I didn’t contest when I was lumped in with the white kids because I didn’t know how to articulate what I was feeling. It’s not that my family was not a part of the neo-colonist history of Hawaii (we were), but my identity was a bit more nuanced than my name suggested. I only started reflecting more deeply on the situation when I came to Columbia, where identity is discussed more often than in other places.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/03/15/a-mi-mama/",
+                    "author": "Christina’s World | Christina Hill"
                 }, ]
             }
         ]

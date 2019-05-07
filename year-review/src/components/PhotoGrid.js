@@ -12,7 +12,6 @@ const Flipcard = styled.div`
   @media only screen and (min-width:992px){
     width: 25vw;
     height: 25vw; 
-    margin: 0;
     ${({flip}) => flip && `
     perspective: 1000px;
     -webkit-perspective: 1000px;
@@ -55,7 +54,7 @@ const Card = styled(Front)`
   }
 `
 const Back = styled.div`
-  background-image: url(${({back_image}) => back_image});
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${({back_image}) => back_image});
   background-size: cover;
   color: ${props => props.theme.white};
   position: absolute;
@@ -96,7 +95,7 @@ const Title = styled.h4`
   text-align: left;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 5px;
+  margin-top: 20px;
   line-height: 1em;
   color: ${props => props.theme.white};
   text-shadow: ${props => props.theme.shadow};
@@ -111,7 +110,7 @@ const Header = styled.div`
   color: ${props => props.theme.white};
 `;
 
-const Body = styled.div`
+const Body = styled.p`
   text-align: left;
   margin-left: 20px;
   margin-right: 20px;
@@ -120,12 +119,14 @@ const Body = styled.div`
   color: ${props => props.theme.white};
 `;
 
-const Section = styled.h6`
+const Section = styled.h5`
+  font-size: 1em;
   color: ${props => props.theme.white};
   text-shadow: ${props => props.theme.shadow};
 `;
 
-const Author = styled.h6`
+const Author = styled.h5`
+  font-size: 1em;
   margin-left: 20px;
   padding-right: 5px;
   color: ${props => props.theme.white};
@@ -134,12 +135,11 @@ const Author = styled.h6`
 
 const Grid = styled.div`
     display: grid;
-    height: 65vh;
     @media only screen and (min-width:992px){
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-auto-rows: 50%; 
+        grid-template-columns: 25% 25% 25% 25%; 
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+        height: 25vh;
     }
 
     @media only screen and (max-width: 991px){
@@ -162,7 +162,7 @@ const MobileBox = styled.div`
   width: 100%;
 `
 const MobileBack = styled.div`
-  background-image: url(${({back_image}) => back_image});
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${({back_image}) => back_image});
   background-size: cover;
   color: ${props => props.theme.white};
   height:  ${({shown}) => shown ? 100:0}vw;
@@ -181,7 +181,6 @@ const ArticleLink = styled.a`
 
 const ImageBox = (props) => {
   return (
-    <div>
       <Flipcard flip={props.flip}>
         <Inner>
           {props.flip ? (
@@ -193,10 +192,9 @@ const ImageBox = (props) => {
               <Back {...props.data}>
                 <Header>
                   <Author>{props.data.author}</Author>
-                  <Section>{props.data.section}</Section>
                 </Header>
-                <Title>{props.data.title}</Title> 
-                <Body>{props.data.body}</Body> 
+                <Title>{props.data.section}</Title> 
+                <Body>{props.data.title}</Body> 
               </Back>
             </ArticleLink>
           </React.Fragment>
@@ -207,7 +205,6 @@ const ImageBox = (props) => {
           )}
         </Inner>
       </Flipcard>
-    </div>
   )
 }
 
@@ -279,10 +276,9 @@ export default class PhotoGrid extends React.Component {
           <MobileBack {...data} shown={this.state.toggle_control[i]}>
             <Header>
               <Author>{data.author}</Author>
-              <Section>{data.section}</Section>
             </Header>
-            <Title>{data.title}</Title> 
-            <Body>{data.body}</Body> 
+            <Title>{data.section}</Title> 
+            <Body>{data.title}</Body> 
           </MobileBack>
         </ArticleLink>
 
@@ -291,10 +287,9 @@ export default class PhotoGrid extends React.Component {
           <MobileBack {...this.props.data[i+1]} shown={this.state.toggle_control[i+1]}>
             <Header>
               <Author>{this.props.data[i+1].author}</Author>
-              <Section>{this.props.data[i+1].section}</Section>
             </Header>
-            <Title>{this.props.data[i+1].title}</Title> 
-            <Body>{this.props.data[i+1].body}</Body> 
+            <Title>{this.props.data[i+1].section}</Title> 
+            <Body>{this.props.data[i+1].title}</Body> 
           </MobileBack>
         </ArticleLink>
 

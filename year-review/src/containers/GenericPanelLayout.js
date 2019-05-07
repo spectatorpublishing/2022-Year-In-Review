@@ -17,10 +17,10 @@ const TopContainer = styled.div`
   float: top;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${({img_src}) => img_src});
   background-position: center;
-
+  height: 50vh;
 
   @media (max-width: 991px){
-    height: 60vh;
+    height: 40vh;
   }
 `
 
@@ -30,7 +30,7 @@ const BottomContainer = styled.div`
 	float: bottom;
   background-color: ${props => props.theme.indigo};
   @media (max-width: 991px){
-    height: 40vh;
+    height: 60vh;
   }
 `
 
