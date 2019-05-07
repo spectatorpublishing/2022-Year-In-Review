@@ -39,6 +39,7 @@ storiesOf('Lightbox', module)
       media={sampleMedia} 
       authorLabel="photographer"
       onClose={fakeOnClose}
+      lightboxActive={true}
     />
   );
   
