@@ -2,8 +2,6 @@ import React, {Component} from 'react'
 import styled from 'styled-components'
 import { ReactComponent as ArrowR } from '../assets/right_arrow.svg';
 import { ReactComponent as ArrowL } from '../assets/left_arrow.svg';
-import filledCircle from '../assets/filledCircle.svg'
-import emptyCircle from '../assets/emptyCircle.svg'
 
 const n=4
 
@@ -72,20 +70,6 @@ const Title = styled.h4`
 	color: white;
 `;
 
-const CircleContainer = styled.div`
-	width: 100vw;
-	height: 5vh;	
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	position: absolute;
-	top: 90vh;
-`
-const Circle = styled.img`
-	margin: 10px;
-`
-
 class SpectrumSlider extends Component{
 	constructor(props) {
 		super(props);
@@ -128,15 +112,6 @@ class SpectrumSlider extends Component{
 	}
 
 	render(){
-		let circles = this.props.data.map ( (_, i) => {
-				if (i===this.state.circle_index)
-					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
-				else if (i<this.props.data.length/n)
-					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
-				return null
-			}
-		)
-
 		const grid = this.props.data.map((data, i) => {
 			return (
 			<Column href={data.link} target="_blank"  img_src={data.img} key={i} index={i} 
