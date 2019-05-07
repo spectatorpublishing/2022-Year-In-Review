@@ -86,7 +86,7 @@ const Line = styled.h5`
   margin: 0.5rem 0;
    @media only screen and (max-width: 991px){
     padding: 0px 10vw 15px 10vw;
-    font-size: 0.8em;
+    font-size: 1em;
     margin: 0;
  }
 `;

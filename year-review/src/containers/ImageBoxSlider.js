@@ -42,6 +42,14 @@ const Arrow = styled.img`
 	opacity: ${({disabled}) => disabled ? "0" : "0.5"};
 	transition: opacity ease .3s;
 	
+	& path {
+	  stroke: ${props => props.theme.transparentWhite};
+	}
+
+	&:hover path {
+	  stroke: ${props => props.theme.white};
+	}
+
     @media(min-width: 992px){
 		top: 15vh;
 		&:hover {
