@@ -39,7 +39,8 @@ let TempHeader = styled.div`
   }
 `
 
-const TitleBlurb = styled.h4`
+const TitleBlurb = styled.p`
+  font-size: 1.5rem;
   font-weight: 25;
   color: white;
   margin-top: 3rem;
