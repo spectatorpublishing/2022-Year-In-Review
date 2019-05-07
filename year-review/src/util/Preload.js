@@ -13,20 +13,24 @@ class PreloadProvider extends Component {
   }
 
   preloadImage(...images) {
-    document.addEventListener('DOMContentLoaded', () => images.forEach(image => {
-      if (!this.preloadedLinks.includes(image)) {
-        this.result = this.result.then(() =>
-          console.debug(`Preloading ${image}`),
-          new Promise(res => {
-            let img = new Image()
-            img.onload = () => res()
-            img.src = image
-            this.preloaded.push(img)
-            this.preloadedLinks.push(image)
-          })
-        )
-      }
-    }))
+    if (document.readyState !== "loading") {
+      images.forEach(image => {
+        if (!this.preloadedLinks.includes(image)) {
+          this.result = this.result.then(() =>
+            (console.debug(`Preloading ${image}`),
+            new Promise(res => {
+              console.log("test")
+              let img = new Image()
+              img.onload = () => res()
+              img.src = image
+              this.preloaded.push(img)
+              this.preloadedLinks.push(image)
+            }))
+          )
+        }
+      })
+    }
+    else document.addEventListener('DOMContentLoaded', () => this.preloadImage(...images))
   }
 
   render() {
@@ -36,4 +40,4 @@ class PreloadProvider extends Component {
   }
 }
 
-export {PreloadProvider as default, PreloadContext}
+export { PreloadProvider as default, PreloadContext }
