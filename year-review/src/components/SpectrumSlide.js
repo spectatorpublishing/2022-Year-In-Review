@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import arrow from '../assets/white-down-arrow-icon.png'
-import read_more from '../assets/readmore.svg'
 
 const Article = styled.div`
   margin: 0vw;
@@ -29,24 +28,14 @@ const Arrow = styled.img`
   top: 90%;
   transform: rotate(180deg);
 `
-
-const Logo = styled.img`
-  display: block;
-  width: 15vw;
-  position: absolute;
-  left: -15vw;
-  border: 2px solid white;
-  border-radius: 5px;
-  padding-top: 5px;
-  padding-left: 0px;
-  padding-right: -2px;
-`
   
 const Link = styled.a`
   text-decoration: none;
   position: absolute;
-  left: 80vw;
-  top: 70%;
+  top: 80%;
+  right: 10%;
+  color: white;
+  font-size: 25px;
 `
 
 const slide = (props) =>{
@@ -54,7 +43,7 @@ const slide = (props) =>{
     <Article>
         <Image {...props}>
             <Title>{props.title}</Title>
-            <Link href={props.url}><Logo src={read_more} alt="readmore"/> </Link>
+            <Link href={props.url}>Read More</Link>
         </Image>
     </Article>
   );
