@@ -13,7 +13,7 @@ let MobileContainer = styled.div`
   height: 100vh;
 `
 let HomePageContainer= styled(MobileContainer)`
-  height: calc(100vh - 48px);
+  max-height: 65vw;
   display: flex;
   background-size: cover;
 `

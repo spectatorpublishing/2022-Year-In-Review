@@ -43,7 +43,6 @@ let TempLetter = styled.h2`
   position: relative;
 `
 const TitleBlurb = styled.p`
-  font-size: .9em;
   font-weight: 25;
   width: 80%; 
   // margin-left: 5vw;
@@ -65,7 +64,6 @@ let MobileLetter = styled.h3`
 `
 
 const MobileBlurb = styled.p`
-  font-size: 1rem;
   color: white;
   white-space: pre-line;
   padding: 15px 10vw;

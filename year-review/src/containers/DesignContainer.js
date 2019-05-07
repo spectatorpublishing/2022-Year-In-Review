@@ -41,9 +41,13 @@ class DesignContainer extends Component {
 	        <GenericPanelLayout data = {this.props.data.items[0]} />)}
     	</div>
     	<div>
+    		<div style={{"height":"5vh"}}></div>
+              <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}>GRAPHICS</h3>
 	        <PhotoGrid data={this.props.data.items[1]} openLightbox={this.openGraphicsLightbox}/>
 	    </div>
     	<div>
+    		<div style={{"height":"5vh"}}></div>
+              <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}>ILLUSTRATIONS</h3>
 	        <PhotoGrid data={this.props.data.items[2]} openLightbox={this.openIllustrationsLightbox}/>
 	     </div>
         </ScrollingNavBar>

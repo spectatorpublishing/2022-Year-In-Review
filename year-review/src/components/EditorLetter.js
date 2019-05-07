@@ -49,7 +49,6 @@ let MobileLetter = styled.h3`
 `
 
 const TitleBlurb = styled.p`
-  font-size: .9em;
   font-weight: 25;
   width: 80%;
   // margin-left: 5vw;

@@ -84,6 +84,7 @@ const FrontAuthor = styled.h4`
   opacity: ${({shadowed}) => shadowed && "0.4"};
 
   @media only screen and (max-width: 991px){
+    margin-top: 30px;
     font-size: 1.2rem;
     margin-left: 8px;
     margin-right: 8px;
@@ -121,9 +122,16 @@ const Body = styled.p`
   text-align: left;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+  font-size: 0.9em;
   color: ${props => props.theme.white};
+  @media only screen and (max-width: 991px){
+        margin-top: 10px;
+        margin-bottom: 10%;
+        font-size: 1.1em;
+        font-weight: 12;
+  }
 `;
 
 const Author = styled.h5`
@@ -185,7 +193,7 @@ const ArticleLink = styled.a`
 
   @media only screen and (max-width: 991px){
     text-align: right;
-    margin-left: 85%;
+    margin-left: 65%;
   }
 
 `
