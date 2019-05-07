@@ -4,7 +4,6 @@ import { Mobile, Desktop } from 'react-responsive-simple';
 
 
 let LetterContain = styled.div`
-  height: 150vh;
   width: 100%;
   // margin-top: 5vw;
   margin-left: 10vw;
@@ -12,6 +11,8 @@ let LetterContain = styled.div`
   flex-direction: column;
   justify-content: space-around;
   position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
 `
 
 let MobileContain = styled.div`
