@@ -21,8 +21,7 @@ const ImageContainer = styled.div`
 	overflow: hidden;
 	display: flex;
 	position: relative;
-	left: 10vw;
-	
+	left: 9vw;
 `
 const MobileArticleContainer = styled.div`
 	width: 80vw;
@@ -38,9 +37,9 @@ const Arrow = styled.img`
 	width: 2vw;
   	z-index: 1;
   	transform: ${props => !props.left ? "":"rotate(180deg)"};
-  	position: absolute;
-	top: 10vh;
-  	left: ${props => props.left ? "3vw" : "97vw"};
+  	position: relative;
+	top: 13vh;
+  	left: ${props => props.left ? "4vw" : "90vw"};
 `
 
 const CircleContainer = styled.div`
