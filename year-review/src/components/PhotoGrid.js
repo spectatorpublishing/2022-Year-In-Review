@@ -77,9 +77,9 @@ const FrontAuthor = styled.h4`
   opacity: ${({shadowed}) => shadowed && "0.4"};
 
   @media only screen and (max-width: 991px){
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 100px;
+    font-size: 1.2rem;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 `
 const CardAuthor = styled(FrontAuthor)`
@@ -136,10 +136,10 @@ const Author = styled.h5`
 const Grid = styled.div`
     display: grid;
     @media only screen and (min-width:992px){
-        grid-template-columns: 25% 25% 25% 25%; 
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-auto-rows: 25vw; 
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        height: 25vh;
     }
 
     @media only screen and (max-width: 991px){
@@ -160,6 +160,7 @@ const MobileBox = styled.div`
   background-size: cover;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 `
 const MobileBack = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${({back_image}) => back_image});
@@ -240,10 +241,6 @@ export default class PhotoGrid extends React.Component {
     this.setState({toggle_control: new_control, selected: selected})
   }
 
-  openLightbox(index) {
-    console.log(index);
-  }
-
   render(){
     const mobile = this.props.data.map((data, i) =>{
       if (i % 2 === 1)
@@ -251,7 +248,7 @@ export default class PhotoGrid extends React.Component {
       
       let shadow = this.state.selected && !this.state.toggle_control[i]
 
-      let handleClick = this.props.flip ? () => this.handleClick(i) : () => this.openLightbox(i);
+      let handleClick = this.props.flip ? () => this.handleClick(i) : () => this.props.openLightbox(i);
       let front1 = 
       <MobileBox {...data} shadowed={shadow} onClick={handleClick}>
         <FrontAuthor shadowed={shadow}>{data.author}</FrontAuthor>
@@ -259,7 +256,7 @@ export default class PhotoGrid extends React.Component {
 
       shadow = this.state.selected && !this.state.toggle_control[i+1]
 
-      handleClick = this.props.flip ? ()=>this.handleClick(i+1) : () => this.openLightbox(i+1);
+      handleClick = this.props.flip ? ()=>this.handleClick(i+1) : () => this.props.openLightbox(i+1);
       let front2 = i===this.props.data.length-1 ? null : 
       <MobileBox {...this.props.data[i+1]} shadowed={shadow} onClick={handleClick}>
         <FrontAuthor shadowed={shadow}>{this.props.data[i+1].author}</FrontAuthor>
@@ -297,7 +294,7 @@ export default class PhotoGrid extends React.Component {
     })
 
     const desktop = this.props.data.map((data, i) => 
-      <ImageBox flip={this.props.flip} key={i} index={i} data={data} handleClick={!this.props.flip && this.openLightbox}/>
+      <ImageBox flip={this.props.flip} key={i} index={i} data={data} handleClick={!this.props.flip && this.props.openLightbox}/>
     );
 
     return (

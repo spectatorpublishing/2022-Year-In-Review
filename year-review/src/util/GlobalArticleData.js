@@ -1,6 +1,6 @@
 const data = {
     "Photos": {
-        "img": "",
+        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GG2WP6PK45G6HKSN2EX5DPV6FM.jpg",
         "blurb": "Photography captures that which can’t be put to words—a moment, a feeling, a second which might otherwise go unnoticed. In the past year, our photographers traveled from the corners of Low Library to dorm rooms to the edges of West Harlem and the Manhattanville campus. They photographed administrators and community meetings, student protests and CCSC meetings, football games and the odd politician—all in search of the split seconds that make up our campus. As we look back on a year’s worth of photos, we emerge with a picture of what our campus looks like: at times divided, at times united, but always ours. ",
         "items": {
             "Photos": [{
@@ -17,7 +17,7 @@ const data = {
                 "author": "Trinity Lester/Senior Staff Photographer"
             }, {
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IM2WICG6DJE2JEOQUCGEFWUTRQ.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/IM2WICG6DJE2JEOQUCGEFWUTRQ.jpg",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IM2WICG6DJE2JEOQUCGEFWUTRQ.jpg",
                 "decsription": "Many New York City public high school students see attending Columbia as impossible until someone from their school actually gets in or a counselor visits, but high school college counselors have had a hard time establishing relationships with Columbia admissions representatives due to their lack of recruitment from these schools. Hifza Shaukat, CC’ 21, said that, without communication from a Columbia representative, students at her high school often reach out to her, as she remains their only touchpoint at Columbia.",
                 "link": "https: //www.columbiaspectator.com/news/2018/09/20/off-the-radar-at-public-schools-where-columbia-doesnt-recruit-applicants-face-uphill-battle/",
                 "author": "Cherrie Zheng/Staff Photographer"

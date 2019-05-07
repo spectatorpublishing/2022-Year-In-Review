@@ -5,6 +5,7 @@ import PageIntro from '../components/PageIntro';
 import PhotoGrid from '../components/PhotoGrid.js';
 import GenericPanelLayout from './GenericPanelLayout';
 import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
+import Lightbox from '../components/Lightbox/Lightbox'
 import ButtonToHome from '../components/ButtonToHome'
 
 const description = "Most undergraduates will only experience a small sliver of Columbia's history during their time here; current students just lived through a year for the record books. As the University marked the fiftieth anniversary of the 1968 protests that redined its identity, campus was roiled by a new series of student protests."
@@ -50,6 +51,30 @@ let sampleMedia = [
 ];
 
 class DesignContainer extends Component {
+	constructor(props){
+		super(props)
+		this.state={
+			graphicsLightboxActive: false,
+			illustrationsLightboxActive: false,
+			lightboxIndex: 0
+		}
+		this.closeGraphicsLightbox = this.closeGraphicsLightbox.bind(this)
+		this.openGraphicsLightbox = this.openGraphicsLightbox.bind(this)
+		this.closeIllustrationsLightbox = this.closeIllustrationsLightbox.bind(this)
+		this.openIllustrationsLightbox = this.openIllustrationsLightbox.bind(this)
+	}
+	closeIllustrationsLightbox(){
+		this.setState({"illustrationsLightboxActive": false})
+	}
+	closeGraphicsLightbox(){
+		this.setState({"graphicsLightboxActive": false})
+	}
+	openIllustrationsLightbox(i){
+		this.setState({"illustrationsLightboxActive": true, "lightboxIndex": i})
+	}
+	openGraphicsLightbox(i){
+		this.setState({"graphicsLightboxActive": true, "lightboxIndex": i})
+	}
 
   render() {
     return (
@@ -61,12 +86,24 @@ class DesignContainer extends Component {
 	        <GenericPanelLayout data = {this.props.data.items[0]} />)}
     	</div>
     	<div>
-	        <PhotoGrid data={this.props.data.items[1]}/>
+	        <PhotoGrid data={this.props.data.items[1]} openLightbox={this.openGraphicsLightbox}/>
 	    </div>
     	<div>
-	        <PhotoGrid data={this.props.data.items[2]}/>
+	        <PhotoGrid data={this.props.data.items[2]} openLightbox={this.openIllustrationsLightbox}/>
 	     </div>
         </ScrollingNavBar>
+				{this.state.illustrationsLightboxActive && <Lightbox
+					index={this.state.lightboxIndex} 
+					media={this.props.data.items[2]} 
+					authorLabel="contributor"
+					onClose={this.closeIllustrationsLightbox}>
+				</Lightbox>}
+				{this.state.graphicsLightboxActive && <Lightbox
+					index={this.state.lightboxIndex} 
+					media={this.props.data.items[1]} 
+					authorLabel="contributor"
+					onClose={this.closeGraphicsLightbox}>
+				</Lightbox>}
       </React.Fragment>
     );
   }

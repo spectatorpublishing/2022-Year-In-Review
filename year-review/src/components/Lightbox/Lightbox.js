@@ -21,6 +21,9 @@ let FullScreenContainer = styled.div`
   width: 100vw;
   height: 100vh;
   display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 100;
   background-color: ${props => props.theme.indigo};
 `
 let LightboxContainer = styled(FullScreenContainer)`
@@ -196,6 +199,7 @@ class Lightbox extends Component {
     let title = this.props.media[this.state.index].title;
     let description = this.props.media[this.state.index].description;
     let articleUrl = this.props.media[this.state.index].link;
+    let fullSizeImg = this.props.media[this.state.index].img ? this.props.media[this.state.index].img : this.props.media[this.state.index].front_image
     return (
       <FullScreenContainer>
         <MobileAndTablet>
@@ -208,7 +212,7 @@ class Lightbox extends Component {
               <LeftArrow onClick={this.handleLeftArrowClick} />
               <ImageContainer>
                 <Image 
-                  src={this.props.media[this.state.index].front_image}
+                  src={fullSizeImg}
                   altText={this.props.media[this.state.index].altText}
                 >
                 </Image>
@@ -237,7 +241,7 @@ class Lightbox extends Component {
               <LeftArrow onClick={this.handleLeftArrowClick} />
               <ImageContainer>
                 <Image 
-                  src={this.props.media[this.state.index].front_image}
+                  src={fullSizeImg}
                   altText={this.props.media[this.state.index].altText}
                 >
                 </Image>
