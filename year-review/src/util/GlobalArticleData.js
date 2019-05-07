@@ -370,39 +370,39 @@ const data = {
         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OEFZY3NDTFCQNHY2RG5LU4KOTE.jpg",
         sections: [{
                 "name": "Tenure",
-                "link": "#Tenure"
+                "link": "#tenure"
             },
             {
                 "name": "Union",
-                "link": "#Union"
+                "link": "#union"
             },
             {
                 "name": "Safety",
-                "link": "#Safety"
+                "link": "#safety"
             },
             {
                 "name": "Diversity",
-                "link": "#Diversity"
+                "link": "#diversity"
             },
             {
                 "name": "Money",
-                "link": "#Money"
+                "link": "#money"
             },
             {
                 "name": "Administrators",
-                "link": "#Administrators"
+                "link": "#administrators"
             },
             {
                 "name": "GS",
-                "link": "#GS"
+                "link": "#gs"
             },
             {
                 "name": "Space",
-                "link": "#Space"
+                "link": "#space"
             },
             {
                 "name": "Government",
-                "link": "#Government"
+                "link": "#government"
             }
         ],
         "blurb": "From faculty sexual misconduct to administrative shifts within the School of General Studies, Spectator’s news team has compiled coverage of some of the top storylines that have driven student, faculty, and administrative discourse on campus. Below, find some of the most talked-about and top investigative stories from the past year:",
@@ -737,20 +737,20 @@ const data = {
         sections: 
         [
           {
-            "name": " CITY",
-            "link": "#CITY"
+            "name": "City",
+            "link": "#city"
           },
           {
-            "name": " ACADEMICS",
-            "link": "#ACADEMICS"
+            "name": "Academics",
+            "link": "#academics"
           },
           {
-            "name": " STUDENT LIFE",
-            "link": "#STUDENT LIFE"
+            "name": "Student Life",
+            "link": "#student-life"
           },
           {
-            "name": " ESSAYS",
-            "link": "#ESSAYS"
+            "name": "Essays",
+            "link": "#essays"
           }
         ],
         "blurb": "As Spectator’s long-form magazine, The Eye has spent the past year pursuing rigorous, thorough, and empathetic journalism. Through character driven stories with an emphasis on voice and style, we have sought to engage with, inform, and challenge the Columbia community—to evoke something within you, our readers. Put simply: to read an Eye piece is to feel, to think critically, and to draw closer to those who share our spaces. ",
@@ -922,23 +922,23 @@ const data = {
         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ANHFV4P2BFFUBHPP2IQUAPOTKQ.jpg",
         sections: [{
                 "name": "Bacchanal",
-                "link": "#Bacchanal"
+                "link": "#bacchanal"
             },
             {
                 "name": "Politics ",
-                "link": "#Politics"
+                "link": "#politics"
             },
             {
-                "name": "#Technology",
-                "link": "#Ttechnology"
+                "name": "Technology",
+                "link": "#technology"
             },
             {
                 "name": "Deinstitutionalization",
-                "link": "#Deinstitutionalization"
+                "link": "#deinstitutionalization"
             },
             {
                 "name": "New Eateries",
-                "link": "#New-Eateries"
+                "link": "#new-eateries"
             }
         ],
         "blurb": "Arts & Entertainment strives to provide a space in which to critically discuss arts at Columbia, to give the Columbia community a closer look into the inner workings of the arts world, and to inform the community of the different types of arts and entertainment happening on campus.",
@@ -1121,20 +1121,20 @@ const data = {
 
     "Spectrum": {
         sections: [{
-                "name": "Bacchanal",
-                "link": "Bacchanal"
+                "name": "Mental Health",
+                "link": "#mental-health"
             },
             {
-                "name": "fashion, film, and literature ",
-                "link": "fashion, film, and literature "
+                "name": "Exploring NYC",
+                "link": "#exploring-new-york-city"
             },
             {
-                "name": "technology, student entrepreneurs, and a postmodern artist ",
-                "link": "technology, student entrepreneurs, and a postmodern artist "
+                "name": "Lifestyle",
+                "link": "#lifestyle"
             },
             {
-                "name": "arts",
-                "link": "arts"
+                "name": "Required Reading",
+                "link": "#required-reading"
             },
         ],
         "blurb": "Between the spectrum of experiences, stories, narratives, and struggles we all hold, Spectrum hopes to be a guiding, unifying, and comforting presence for students to find sense of belonging and community on campus. Amongst the complexity and turmoil of student life, self-care and self-love against all odds remain a consistent thread this year.",
