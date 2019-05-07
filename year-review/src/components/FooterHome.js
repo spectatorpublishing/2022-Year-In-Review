@@ -44,14 +44,14 @@ const footerHome = (props) =>{
         <Names>
           <Column>
             <RoleHeading>Designed By</RoleHeading>
-            <Line>Shannon Hui, <Role>Lead Product Designer</Role></Line> 
+            <Line>Shannon Hui, <Role>Product Manager</Role></Line> 
             <Line>David Wang, <Role>Product Designer</Role></Line> 
             <Line>Kevin Li, <Role>Head of Product</Role></Line> 
           </Column>
 
           <Column>
             <RoleHeading>Developed By</RoleHeading>
-            <Line>David Li, <Role>Lead Developer</Role></Line> 
+            <Line>David Li, <Role>Engineering Manager</Role></Line> 
             <Line>Amina Assal, <Role>Developer</Role></Line> 
             <Line>Julie Song, <Role>Developer</Role></Line> 
             <Line>Stacy Tao, <Role>Developer</Role></Line> 
