@@ -17,7 +17,7 @@ const data = {
                 "author": "Trinity Lester/Senior Staff Photographer"
             }, {
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IM2WICG6DJE2JEOQUCGEFWUTRQ.jpg",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/IM2WICG6DJE2JEOQUCGEFWUTRQ.jpg",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IM2WICG6DJE2JEOQUCGEFWUTRQ.jpg",
                 "decsription": "Many New York City public high school students see attending Columbia as impossible until someone from their school actually gets in or a counselor visits, but high school college counselors have had a hard time establishing relationships with Columbia admissions representatives due to their lack of recruitment from these schools. Hifza Shaukat, CC’ 21, said that, without communication from a Columbia representative, students at her high school often reach out to her, as she remains their only touchpoint at Columbia.",
                 "link": "https: //www.columbiaspectator.com/news/2018/09/20/off-the-radar-at-public-schools-where-columbia-doesnt-recruit-applicants-face-uphill-battle/",
                 "author": "Cherrie Zheng/Staff Photographer"

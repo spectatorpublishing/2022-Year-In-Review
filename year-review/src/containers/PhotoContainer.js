@@ -50,22 +50,31 @@ class PhotoContainer extends Component {
 	constructor(props){
 		super(props)
 		this.state={
-			lightboxActive: true,
+			lightboxActive: false,
 			lightboxIndex: 0
 		}
+		this.closeLightbox = this.closeLightbox.bind(this)
+		this.openLightbox = this.openLightbox.bind(this)
 	}
+
+	closeLightbox(){
+		this.setState({"lightboxActive": false})
+	}
+	openLightbox(i){
+		this.setState({"lightboxActive": true, "lightboxIndex": i})
+	}
+
 	render() {
-	let closeLightbox = () => this.setState({"lightboxActive": false})
 	let openLightbox = (i) => this.setState({"lightboxActive": true, "lightboxIndex": i})
     return (
       <React.Fragment>
         <PageIntro title="PHOTO" description={this.props.data.blurb} img_src={img_src}/>
-        <PhotoGrid data={this.props.data.items.Photos} openLightbox={openLightbox}/>
+        <PhotoGrid data={this.props.data.items.Photos} openLightbox={this.openLightbox}/>
 				{this.state.lightboxActive && <Lightbox
 					index={this.state.lightboxIndex} 
 					media={this.props.data.items.Photos} 
 					authorLabel="photographer"
-					onClose={closeLightbox}>
+					onClose={this.closeLightbox}>
 				</Lightbox>
 				}
       </React.Fragment>

@@ -199,6 +199,7 @@ class Lightbox extends Component {
     let title = this.props.media[this.state.index].title;
     let description = this.props.media[this.state.index].description;
     let articleUrl = this.props.media[this.state.index].link;
+    let fullSizeImg = this.props.media[this.state.index].img ? this.props.media[this.state.index].img : this.props.media[this.state.index].front_image
     return (
       <FullScreenContainer>
         <MobileAndTablet>
@@ -211,7 +212,7 @@ class Lightbox extends Component {
               <LeftArrow onClick={this.handleLeftArrowClick} />
               <ImageContainer>
                 <Image 
-                  src={this.props.media[this.state.index].front_image}
+                  src={fullSizeImg}
                   altText={this.props.media[this.state.index].altText}
                 >
                 </Image>
@@ -240,7 +241,7 @@ class Lightbox extends Component {
               <LeftArrow onClick={this.handleLeftArrowClick} />
               <ImageContainer>
                 <Image 
-                  src={this.props.media[this.state.index].front_image}
+                  src={fullSizeImg}
                   altText={this.props.media[this.state.index].altText}
                 >
                 </Image>
