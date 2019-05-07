@@ -172,13 +172,22 @@ const MobileBack = styled.div`
   opacity: ${({shown}) => shown ? "100" : "0"};
   transition: height .3s ease;
   -webkit-transition: height .3s ease;
-  margin: 0px;
+ 
 `
 const ArticleLink = styled.a`
   text-decoration: none;
-  display: flex;
-  width: 100%;
-  height: 100%;
+  color: white;
+
+  @media only screen and (min-width:992px){
+    margin-left: 50%;
+    margin-right: auto;
+  }
+
+  @media only screen and (max-width: 991px){
+    text-align: right;
+    margin-left: 85%;
+  }
+
 `
 
 const ImageBox = (props) => {
@@ -190,15 +199,14 @@ const ImageBox = (props) => {
             <Front {...props.data}>
               <FrontAuthor>{props.data.author}</FrontAuthor>
             </Front>
-            <ArticleLink href={props.data.link} target="_blank">
-              <Back {...props.data}>
+            <Back {...props.data}>
                 <Header>
                   <Author>{props.data.author}</Author>
                 </Header>
                 <Title>{props.data.section}</Title> 
                 <Body>{props.data.title}</Body> 
-              </Back>
-            </ArticleLink>
+                <ArticleLink href={props.data.url} target="_blank">Read More</ArticleLink>
+            </Back>  
           </React.Fragment>
           ) : (
             <Card {...props.data} onClick={() => props.handleClick(props.index)}>
@@ -270,26 +278,24 @@ export default class PhotoGrid extends React.Component {
       }
 
       let back1 = 
-        <ArticleLink href={data.link} target="_blank">
           <MobileBack {...data} shown={this.state.toggle_control[i]}>
             <Header>
               <Author>{data.author}</Author>
             </Header>
             <Title>{data.section}</Title> 
             <Body>{data.title}</Body> 
+            <ArticleLink href={data.url} target="_blank">Read More</ArticleLink>
           </MobileBack>
-        </ArticleLink>
 
       let back2 = i === this.props.data.length-1 ? null : 
-        <ArticleLink href={this.props.data[i+1].link} target="_blank">
           <MobileBack {...this.props.data[i+1]} shown={this.state.toggle_control[i+1]}>
             <Header>
               <Author>{this.props.data[i+1].author}</Author>
             </Header>
             <Title>{this.props.data[i+1].section}</Title> 
             <Body>{this.props.data[i+1].title}</Body> 
+            <ArticleLink href={this.props.data[i+1].url} target="_blank">Read More</ArticleLink>
           </MobileBack>
-        </ArticleLink>
 
       return (<GridRow expanded={this.state.selected} key={i}>{grid}{back1}{back2}</GridRow> )
     })

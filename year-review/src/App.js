@@ -17,6 +17,7 @@ import SpectrumContainer from './containers/SpectrumContainer'
 
 import NavBar from './components/Navigation/NavBar' 
 import Footer from './components/Footer'
+import ScrollArrow from './components/ScrollArrow'
 
 import { test_img } from "./util/TestData";
 import data from './util/GlobalArticleData'
@@ -48,7 +49,10 @@ class App extends Component {
                 }
               </Desktop>
               <MobileAndTablet>
-                <NavBar menuItems={NavItemsWithHome} transparent/>
+                {this.props.location.pathname === "/spectrum"
+                  ? <NavBar menuItems={NavItemsWithHome}/> 
+                  : <NavBar menuItems={NavItemsWithHome} transparent/>
+                }
               </MobileAndTablet>
               <Switch>
                 <Route exact path="/" component={home} />
@@ -62,6 +66,7 @@ class App extends Component {
                 <Route exact path="/spectrum" component={spectrum} />
               </Switch>
               <Footer />
+              <ScrollArrow />
             </React.Fragment>
         </main>
       </ThemeProvider>

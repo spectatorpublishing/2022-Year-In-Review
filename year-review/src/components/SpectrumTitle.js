@@ -2,11 +2,17 @@ import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components';
 
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
+import ButtonToHome from "./ButtonToHome.js";
 
+let YIRButton = styled.div`
+  position: absolute;
+  z-index: 10;
+  top: calc(5vh + 48px);
+  left: 5vw;
+`
 
 let TempTitle = styled.h1`
   color: ${props => props.theme.black};
-  text-shadow: ${props => props.theme.shadow};
   z-index: 2;
   position: relative;
   font-size: 12em;
@@ -30,7 +36,6 @@ const TitleBlurb = styled.p`
   color: ${props => props.theme.black};
   margin-top: 3rem;
   text-align: center;
-  text-shadow: ${props => props.theme.shadow};
   z-index: 2;
   position: relative;
   margin-left: 15rem;
@@ -41,10 +46,9 @@ const TitleBlurb = styled.p`
 
 let MobileTitle = styled.h1`
 color: ${props => props.theme.black};
-text-shadow: ${props => props.theme.shadow};
 z-index: 2;
 position: relative;
-font-size: 5rem;
+font-size: 4rem;
 padding: 15px;
 margin-top: 0.7em;`
 
@@ -63,13 +67,18 @@ const floatToTop = (radius) => keyframes`
     to {top: -${radius}vw;}
 `
 
-const SpectrumTitleWrapper = styled.div`
+const SpectrumBubbleWrapper = styled.div`
     position: absolute;
     z-index: -1;
     width: 100vw;
     height: 100vh;
     background-color: white;
     overflow: hidden;
+`
+
+const SpectrumTitleWrapper = styled.div`
+    width: 100vw;
+    height: 100vh;
 `
 
 const StyledSpectrumBubble = styled.div`
@@ -130,25 +139,32 @@ export default class SpectrumTitle extends React.Component {
         return(
             <React.Fragment>
             <Desktop>
+                <YIRButton>
+                    <ButtonToHome />
+                </YIRButton>
                 <SpectrumTitleWrapper>
-                    {bubbles}
+                    <SpectrumBubbleWrapper>
+                        {bubbles}
+                    </SpectrumBubbleWrapper>
+                    <TempHeader>
+                        <TempTitle>{this.props.title}</TempTitle>
+                        <TitleBlurb>
+                            {this.props.description}
+                        </TitleBlurb>
+                    </TempHeader>
                 </SpectrumTitleWrapper>
-                <TempHeader>
-                    <TempTitle>{this.props.title}</TempTitle>
-                    <TitleBlurb>
-                        {this.props.description}
-                    </TitleBlurb>
-                </TempHeader>
             </Desktop>
             <MobileAndTablet>
                 <SpectrumTitleWrapper>
-                    {bubbles}
+                    <SpectrumBubbleWrapper>
+                        {bubbles}
+                    </SpectrumBubbleWrapper>
+                    <MobileHeader>
+                        <MobileTitle>
+                        {this.props.title}
+                        </MobileTitle>
+                    </MobileHeader>
                 </SpectrumTitleWrapper>
-                <MobileHeader>
-                    <MobileTitle>
-                    {this.props.title}
-                    </MobileTitle>
-                </MobileHeader>
             </MobileAndTablet>
             </React.Fragment>
         )

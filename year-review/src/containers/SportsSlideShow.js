@@ -13,7 +13,7 @@ const n = 1
 const ImageContainer = styled.div`
 	background: #555;
 	width: 100vw;
-	height: 95vh;
+	height: calc(100vh - 48px);
 	display: flex;
 	overflow: hidden;
 `

@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Background from '../assets/homepg1500x800.png';
 import whitemasthead from '../assets/whitemasthead.png';
-import downarrow from '../assets/white-down-arrow-icon.png';
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 
 let MobileContainer = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 48px);
 `
 let HomePageContainer= styled(MobileContainer)`
   background-image: url(${Background});
@@ -73,11 +72,6 @@ let LogoDiv = styled.a`
 let SpecLogo = styled.img`
   height: 25px;
 `
-let DownArrow = styled.img`
-  height: 40px;
-  position: absolute;
-  bottom: 2rem;
-`
 
 export default class HomePage extends Component {
   constructor(props){
@@ -132,7 +126,6 @@ export default class HomePage extends Component {
             
             <RightDiv>
               {this.getSections()}
-              <DownArrow src={downarrow} />
             </RightDiv>
           </HomePageContainer>
         </Desktop>

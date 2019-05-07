@@ -24,6 +24,7 @@ const Container = styled.a`
     height: 20vh;
     text-decoration: none;
     color: black;
+    box-shadow: ${props => props.theme.shadow};
 
     @media (max-width: 991px) {
         width: 75vw;
@@ -36,6 +37,8 @@ const Image = styled.div`
         background-image: url(${({ img_src }) => img_src});
         background-position: center;
         background-size: cover;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
         margin-right: 0.5rem;
         width: 15vw;
         height: 100%;
@@ -52,12 +55,13 @@ const Image = styled.div`
 `
 const Text = styled.div`
     width: 20vw;
-    flex: 1 1 auto;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 100%;
     overflow: hidden;
+
     @media(max-width: 991px){
-        padding: 0px;
-        margin-top: 0.7rem;
         width: 40vw;
     }    
 
