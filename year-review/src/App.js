@@ -54,7 +54,7 @@ class App extends Component {
                   : <NavBar menuItems={NavItemsWithHome} transparent/>
                 }
               </MobileAndTablet>
-              <Switch>
+              <Switch onUpdate={() => console.log("update")} >
                 <Route exact path="/" component={home} />
                 <Route exact path="/news" component={news} />
                 <Route exact path="/opinion" component={opinion} />
