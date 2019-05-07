@@ -17,7 +17,7 @@ class AEContainer extends Component {
   render() {
     return (
       <React.Fragment>
-        <PageIntro title="A&E" description={description} img_src={img_src}/>
+        <PageIntro title="A&E" description={this.props.data.blurb} img_src={img_src}/>
         <ScrollingNavBar menuItems={this.props.data.sections}>
             {this.props.data.items.map((data, i) => 
               <GenericPanelLayout key={i} data = {this.props.data.items[i]} />)}

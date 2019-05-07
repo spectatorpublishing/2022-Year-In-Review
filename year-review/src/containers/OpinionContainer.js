@@ -37,7 +37,7 @@ export default class OpinionContainer extends Component {
   render() {
     return (
       <React.Fragment>
-          <PageIntro title="OPINION" description={description} img_src={img_src}/>
+          <PageIntro title="OPINION" description={this.props.data.blurb} img_src={img_src}/>
           <EditorLetter/>
 
           <ExpandingColumns data = {opinion_sections}/>
@@ -45,10 +45,10 @@ export default class OpinionContainer extends Component {
             <div>
               <GenericPanelLayout data={this.props.data.items[0]} />
             </div>
-            <div style={{height: "calc(100vh - 48px)"}}>
+            <div>
               <GenericPanelLayout data={this.props.data.items[1]} />
             </div>
-            <div style={{height: "calc(100vh - 48px)"}}>
+            <div>
               <GenericPanelLayout data={this.props.data.items[2]} />
             </div>
             <div>
