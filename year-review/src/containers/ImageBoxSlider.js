@@ -22,9 +22,7 @@ const ImageContainer = styled.div`
 	display: flex;
 	position: relative;
 	left: 10vw;
-	@media (max-width: 991px){
-        top: 0vh;
-    }
+	
 `
 const MobileArticleContainer = styled.div`
 	width: 80vw;
@@ -63,7 +61,7 @@ const Circle = styled.img`
 
 const DesktopContainer = styled.div`
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 20spx;
 `
 
 class ImageBoxSlider extends Component {

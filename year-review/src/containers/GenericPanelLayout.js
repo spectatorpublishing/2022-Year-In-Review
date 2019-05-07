@@ -27,9 +27,7 @@ const BottomContainer = styled.div`
 	width: 100vw;
 	float: bottom;
   background-color: ${props => props.theme.indigo};
-  @media (max-width: 991px){
-    height: 60vh;
-  }
+  
 `
 
 const Head = styled.h3`
