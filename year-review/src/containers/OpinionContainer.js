@@ -15,10 +15,7 @@ const description = "Most undergraduates will only experience a small sliver of 
 const img_src = "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"
 
 export default class OpinionContainer extends Component {
-  componentDidMount(){
-    window.scrollTo(0, 0)
-  }
-  
+
   render() {
     return (
       <React.Fragment>

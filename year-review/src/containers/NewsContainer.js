@@ -16,10 +16,6 @@ class NewsContainer extends Component {
       this.handleWheel = this.handleWheel.bind(this)
   }
 
-  componentDidMount(){
-    window.scrollTo(0, 0)
-  }
-  
   handleWheel(e){
     // let curY = window.window.pageYOffset
     // let height = window.innerHeight
