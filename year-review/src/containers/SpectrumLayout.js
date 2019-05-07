@@ -177,8 +177,8 @@ class SpectrumLayout extends Component {
 	      
 	      <Desktop>
 				<SpectrumWrapper>
-				<div style={{height: "20vh", marginLeft: "5vw",marginRight: "5vw"}}>
-					<h3 style={{paddingTop: "5vh"}}>{this.props.data.name}</h3>
+				<div style={{height: "30vh", marginLeft: "5vw",marginRight: "5vw"}}>
+					<h3 style={{paddingTop: "6vh"}}>{this.props.data.name}</h3>
 					<p style={{paddingTop: "2vh"}}>{this.props.data.blurb}</p>
 				</div>
 				<SpectrumSlider data = {this.props.data.articles}/>	

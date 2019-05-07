@@ -68,9 +68,11 @@ const Back = styled.div`
 
 const FrontAuthor = styled.h4`
   text-align: left;
+  vertical-align: middle;
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: 140px;
+  margin-top: 10vh;
+  font-size: 1.7em;
   color: ${props => props.theme.white};
   text-shadow: ${props => props.theme.shadow};
   opacity: ${({shadowed}) => shadowed && "0.4"};
