@@ -39,7 +39,7 @@ export default class OpinionContainer extends Component {
     return (
       <React.Fragment>
           <ButtonToHome />
-          <PageIntro title="OPINION" description={description} img_src={img_src}/>
+          <PageIntro title="OPINION" description={this.props.data.blurb} img_src={img_src}/>
           <EditorLetter/>
 
           <ExpandingColumns data = {opinion_sections}/>
