@@ -1,14 +1,21 @@
 import React from 'react';
 import styled from 'styled-components'
+import { MobileAndTablet, Desktop } from 'react-responsive-simple'
 import arrow from '../assets/white-down-arrow-icon.png'
 
-const Arrow = styled.img`
-  width: 5vw;
+let Arrow = styled.img`
   z-index: 1;
   position: fixed;
-  left: 90%;
-  bottom: ${props => props.mobile ? '5vh' : '10vh'};
+  width: 60px;
+  right: 10vh;
+  bottom: 10vh;
   transform: rotate(180deg);
+`
+
+let MobileArrow = styled(Arrow)`
+  width: 48px;
+  right: 5vw;
+  bottom: 5vw;
 `
 
 export default class ScrollArrow extends React.Component {
@@ -43,6 +50,15 @@ export default class ScrollArrow extends React.Component {
   }
 
   render() {
-    return [this.state.visible && <Arrow src={arrow} onClick={this.scrollToTop}/>]
+    return this.state.visible && (
+      <React.Fragment>  
+        <MobileAndTablet>
+          <MobileArrow src={arrow} onClick={this.scrollToTop}/>
+        </MobileAndTablet>
+        <Desktop>
+          <Arrow src={arrow} onClick={this.scrollToTop}/>
+        </Desktop>
+      </React.Fragment>
+    );
   }
 }
