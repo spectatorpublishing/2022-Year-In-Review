@@ -28,6 +28,7 @@ const Arrow = styled.img`
   left: 90%;
   top: 90%;
   transform: rotate(180deg);
+`
 
 const Logo = styled.img`
   display: block;
