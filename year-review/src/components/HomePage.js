@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import Background from '../assets/homepg1500x800.png';
 import whitemasthead from '../assets/whitemasthead.png';
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
+import { NavHashLink } from 'react-router-hash-link';
+
 
 
 let MobileContainer = styled.div`
@@ -48,7 +50,7 @@ let RightDiv = styled.div`
   padding-right: 5vw;
   margin-right: 5vw;
 `
-let SectionTitleDiv = styled.a`
+let SectionTitleDiv = styled(NavHashLink)`
   text-decoration: none;
 `
 let SectionTitle = styled.h3`
@@ -81,8 +83,9 @@ export default class HomePage extends Component {
   }
 
   getSections() {
+    
     return this.props.menuItems.map((e, i) => 
-      <SectionTitleDiv key={i} href={e.link}>
+      <SectionTitleDiv key={i} to= {e.link}>
         <SectionTitle>{e.name}</SectionTitle>
       </SectionTitleDiv>
     );

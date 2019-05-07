@@ -52,9 +52,9 @@ const footerHome = (props) =>{
           <Column>
             <RoleHeading>Developed By</RoleHeading>
             <Line>David Li, <Role>Lead Developer</Role></Line> 
-            <Line>Stacy Tao, <Role>Developer</Role></Line> 
             <Line>Amina Assal, <Role>Developer</Role></Line> 
             <Line>Julie Song, <Role>Developer</Role></Line> 
+            <Line>Stacy Tao, <Role>Developer</Role></Line> 
           </Column>
           <Column>
             <RoleHeading>&nbsp;</RoleHeading>

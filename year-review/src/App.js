@@ -42,7 +42,7 @@ class App extends Component {
           <GlobalStyles />
             <React.Fragment>
               <Desktop>
-                {this.props.location.pathname === "/" ?
+                {this.props.location.pathname === "/2018-year-review" ?
                   <NavBar menuItems={NavItems} transparent hideCrown/>
                 :
                   <NavBar menuItems={NavItems} />
