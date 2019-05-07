@@ -364,56 +364,61 @@ const data = {
                 "link": "https://www.columbiaspectator.com/sports/2019/04/29/mens-tennis-claims-sixth-straight-ivy-title-outright-with-narrow-victory-over-cornell/",
                 "author": "Caroline Dailey / Senior Staff Photographer"
             }],
-            "Photo Essays": [
-                {
-                    "title": "In Focus: #CancelKavanaugh demonstration draws over 200 protesters to Low Steps",
-                    "author": "Athena Chin",
-                    "link": "https://www.columbiaspectator.com/photo-essay/2018/10/08/in-focus-cancelkavanaugh-draws-over-200-protesters-to-low-steps/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CSJ4AJQACVA3HAFJQFZN456TNU.jpg"
-                },
-                {
-                    "title": "In Focus: For the love of the lounge",
-                    "author": "Elza Bouhassira",
-                    "link": "https://www.columbiaspectator.com/photo-essay/2019/02/13/in-focus-for-the-love-of-the-lounge/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5V3OLPDJL5BUVM3ULU7FXKYIT4.jpg"
-                },
-                {
-                    "title": "In Focus: Awards, actors and activists at Athena Film Festival",
-                    "author": "Aliya Schneider, Cherrie Zheng, Kirill Buskirk, Lula O'Donnell, and Rya Inman",
-                    "link": "https://www.columbiaspectator.com/photo-essay/2019/03/05/in-focus-awards-actors-and-activists-at-athena-film-festival-2/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5OSNGJKDLZDRTGGVVKL6UZDPVM.jpg"
-                },
-                {
-                    "title": "In Focus: A love letter to light",
-                    "author": "Elisabeth McLaughlin",
-                    "link": "https://www.columbiaspectator.com/photo-essay/2019/03/14/in-focus-a-love-letter-to-light/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WWRNGQBQJRAX3OWVS6TFX7NUDU.jpg"
-                },
-                {
-                    "title": "In Focus: Scenes from the 55th Bacchanal—lawn parties and an all-womxn lineup",
-                    "author": "Yasmine Akki",
-                    "link": "https://www.columbiaspectator.com/photo-essay/2019/04/08/in-focus-scenes-from-the-55th-bacchanallawn-parties-and-an-all-womxn-lineup/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QCXT6B3QONBTBG4EJUROH3SLMA.jpg"
-                },
-                {
-                    "title": "In Focus: A wedding on Low Steps",
-                    "author": "Gabi Levy",
-                    "link": "https://www.columbiaspectator.com/photo-essay/2019/04/15/in-focus-a-wedding-on-low-steps/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2XAJF6ZWABGCRLTRUE7KQICT3U.jpg"
-                },
-                {
-                    "title": "In Focus: Football takes the field at annual Spring Game",
-                    "author": "Guglielmo Vedovotto",
-                    "link": "https://www.columbiaspectator.com/photo-essay/2019/04/22/in-focus-football-takes-the-field-at-annual-spring-game/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2TJNITD27ZHNDMRJJPQUSTQNCA.jpg"
-                },
-                {
-                    "title": "In Focus: My senior spring bucket list",
-                    "author": "Elza Bouhassira",
-                    "link": "https://www.columbiaspectator.com/photo-essay/2019/05/03/in-focus-my-senior-spring-bucket-list/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/23QPQIRCLVFV7FSFLJUSPEABUI.jpg"
-                },
-            ]
+            "Photo_Essays": {
+                "name": "Photo Essays",
+                "img": "",
+                "blurb": "",
+                "articles": [
+                    {
+                        "title": "In Focus: #CancelKavanaugh demonstration draws over 200 protesters to Low Steps",
+                        "author": "Athena Chin",
+                        "link": "https://www.columbiaspectator.com/photo-essay/2018/10/08/in-focus-cancelkavanaugh-draws-over-200-protesters-to-low-steps/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CSJ4AJQACVA3HAFJQFZN456TNU.jpg"
+                    },
+                    {
+                        "title": "In Focus: For the love of the lounge",
+                        "author": "Elza Bouhassira",
+                        "link": "https://www.columbiaspectator.com/photo-essay/2019/02/13/in-focus-for-the-love-of-the-lounge/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5V3OLPDJL5BUVM3ULU7FXKYIT4.jpg"
+                    },
+                    {
+                        "title": "In Focus: Awards, actors and activists at Athena Film Festival",
+                        "author": "Aliya Schneider, Cherrie Zheng, Kirill Buskirk, Lula O'Donnell, and Rya Inman",
+                        "link": "https://www.columbiaspectator.com/photo-essay/2019/03/05/in-focus-awards-actors-and-activists-at-athena-film-festival-2/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5OSNGJKDLZDRTGGVVKL6UZDPVM.jpg"
+                    },
+                    {
+                        "title": "In Focus: A love letter to light",
+                        "author": "Elisabeth McLaughlin",
+                        "link": "https://www.columbiaspectator.com/photo-essay/2019/03/14/in-focus-a-love-letter-to-light/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WWRNGQBQJRAX3OWVS6TFX7NUDU.jpg"
+                    },
+                    {
+                        "title": "In Focus: Scenes from the 55th Bacchanal—lawn parties and an all-womxn lineup",
+                        "author": "Yasmine Akki",
+                        "link": "https://www.columbiaspectator.com/photo-essay/2019/04/08/in-focus-scenes-from-the-55th-bacchanallawn-parties-and-an-all-womxn-lineup/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QCXT6B3QONBTBG4EJUROH3SLMA.jpg"
+                    },
+                    {
+                        "title": "In Focus: A wedding on Low Steps",
+                        "author": "Gabi Levy",
+                        "link": "https://www.columbiaspectator.com/photo-essay/2019/04/15/in-focus-a-wedding-on-low-steps/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2XAJF6ZWABGCRLTRUE7KQICT3U.jpg"
+                    },
+                    {
+                        "title": "In Focus: Football takes the field at annual Spring Game",
+                        "author": "Guglielmo Vedovotto",
+                        "link": "https://www.columbiaspectator.com/photo-essay/2019/04/22/in-focus-football-takes-the-field-at-annual-spring-game/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2TJNITD27ZHNDMRJJPQUSTQNCA.jpg"
+                    },
+                    {
+                        "title": "In Focus: My senior spring bucket list",
+                        "author": "Elza Bouhassira",
+                        "link": "https://www.columbiaspectator.com/photo-essay/2019/05/03/in-focus-my-senior-spring-bucket-list/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/23QPQIRCLVFV7FSFLJUSPEABUI.jpg"
+                    },
+                ]
+            }
         }
     },
     "News": {
