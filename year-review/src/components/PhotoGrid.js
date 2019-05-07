@@ -78,9 +78,9 @@ const FrontAuthor = styled.h4`
   opacity: ${({shadowed}) => shadowed && "0.4"};
 
   @media only screen and (max-width: 991px){
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 100px;
+    font-size: 1.2rem;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 `
 const CardAuthor = styled(FrontAuthor)`
@@ -160,6 +160,7 @@ const MobileBox = styled.div`
   background-size: cover;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 `
 const MobileBack = styled.div`
   background-image: url(${({back_image}) => back_image});
