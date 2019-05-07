@@ -7,7 +7,7 @@ import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 let MobileContainer = styled.div`
   width: 100vw;
-  height: calc(100vh - 48px);
+  height: 100vh;
 `
 let HomePageContainer= styled(MobileContainer)`
   background-image: url(${Background});
