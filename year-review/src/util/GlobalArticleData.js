@@ -593,6 +593,12 @@ const data = {
                         "link": "https://www.columbiaspectator.com/news/2018/09/19/nearly-half-of-barnard-courses-fail-to-list-textbook-prices-in-violation-of-federal-law/"
 ,
 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J374VWJQCVHQ3ERAZJPNGX4MRE.jpg"                    },
+{
+    "title": "CC, SEAS tuition to be most expensive in the nation at over $62,000",
+    "author": "SHUBHAM SAHARAN",
+    "link": "https://www.columbiaspectator.com/news/2019/05/02/cc-seas-tuition-to-be-most-expensive-in-the-nation-at-over-62000/",
+    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NVLNRLVLUZB57LB3YQD7NXNSLA.jpg"
+},
                 ]
             },
             {
@@ -600,6 +606,12 @@ const data = {
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EKD3OT64JBF2JDN4EMXBQSLCC4.jpg",
                 "blurb": "",
                 "articles": [
+                    {
+                        "title": "Barnard names Ariana González Stokas, TC ’10, as inaugural Vice President for Diversity, Equity and Inclusion",
+                        "author": "HEATHER LOEPERE",
+                        "link": "https://www.columbiaspectator.com/news/2019/05/02/barnard-names-ariana-gonzalez-stokas-tc-10-as-inaugural-vice-president-for-diversity-equity-and-inclusion/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4C2MFRZLZ5AKDC7JWDDGZO5NTE.jpg"
+                    },
                     {
                         "title": "The next director of the Athena Center: Umbreen Bhatti, BC ’00, lawyer, journalist, media innovator",
                         "author": "Marianna Najman-Franks",
@@ -1301,7 +1313,7 @@ const data = {
         "blurb": "Within the opinion pages of Spectator, members of the Columbia community help reflect the conversations we’re having in our classrooms, dorm rooms, clubs, and dining halls. The content within this section is meant to help contextualize our experiences here as they relate to the most pressing and vulnerable topics our community grapples with.",
         "items": [{
                 "name": "OP-EDS",
-                "img": "",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/G3QRJBUXHJD5JCLBQF3QZ5I52I.jpg",
                 "blurb": "Over the past year, we have heard from you on issues ranging from union bargaining, studying abroad, the college admissions scandal, to the #MeToo movement, study spaces on campus, and more. Whether it be protesting Barnard’s dining hall food providers or engaging in discourse on the Core, the Op Eds section is where your voice is heard. ",
                 "articles": [{
                         "title": "GenderFuck and the defense of trans joy",
@@ -1397,7 +1409,7 @@ const data = {
             },
             {
                 "name": "LOVE, ACTUALIZED",
-                "img": "",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AIZLIXGDGFAGFGAR5L2HHISRZM.png",
                 "blurb": "Spectator Opinion section’s ongoing series on love, dating, sex, and relationships and all the ways that these manifest at Columbia. In these pieces, students have covered everything from romantic love to love between sisters to loving yourself. ",
                 "articles": [{
                         "title": "To the only white boy I’ve loved before",
@@ -1451,7 +1463,7 @@ const data = {
             },
             {
                 "name": "Discourse & Debate",
-                "img": "",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TXOX2S4IYREBBOD5BH4DXST2VU.png",
                 "blurb": "Our bimonthly platform in which a small group of contributors to engage with important questions and issues relevant to campus life. Over the past year, contributors have reckoned with questions of sexual assault, wealth disparity, Columbia’s stress culture, and the role of the University Senate. ",
                 "articles": [{
                         "title": "Discourse & Debate: How do Columbia’s wealth demographics affect student life?",
@@ -1481,6 +1493,7 @@ const data = {
             },
             {
                 "name": "Columns",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4EGFXX6ILJAPTM5QU72C3AFUE4.png",
                 "items": [{
                     "title": "Opening the box of smelly dumplings",
                     "img_square": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JW6DJYNU7ZDBRFWIZTN63PEOFQ.jpg",
