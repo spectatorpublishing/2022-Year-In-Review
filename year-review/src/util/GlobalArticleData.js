@@ -1121,20 +1121,20 @@ const data = {
 
     "Spectrum": {
         sections: [{
-                "name": "Bacchanal",
-                "link": "Bacchanal"
+                "name": "Breaking Down Columbia",
+                "link": "#Breaking Down Columbia"
             },
             {
-                "name": "fashion, film, and literature ",
-                "link": "fashion, film, and literature "
+                "name": "Out of the Bubble",
+                "link": "#Out of the Bubble"
             },
             {
-                "name": "technology, student entrepreneurs, and a postmodern artist ",
-                "link": "technology, student entrepreneurs, and a postmodern artist "
+                "name": "Lifestyle",
+                "link": "#Lifestyle"
             },
             {
-                "name": "arts",
-                "link": "arts"
+                "name": "Required Reading",
+                "link": "#Required Reading"
             },
         ],
         "blurb": "Between the spectrum of experiences, stories, narratives, and struggles we all hold, Spectrum hopes to be a guiding, unifying, and comforting presence for students to find sense of belonging and community on campus. Amongst the complexity and turmoil of student life, self-care and self-love against all odds remain a consistent thread this year.",

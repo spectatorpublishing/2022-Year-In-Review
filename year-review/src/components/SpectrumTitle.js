@@ -44,7 +44,7 @@ color: ${props => props.theme.black};
 text-shadow: ${props => props.theme.shadow};
 z-index: 2;
 position: relative;
-font-size: 5rem;
+font-size: 4rem;
 padding: 15px;
 margin-top: 0.7em;`
 
@@ -63,13 +63,18 @@ const floatToTop = (radius) => keyframes`
     to {top: -${radius}vw;}
 `
 
-const SpectrumTitleWrapper = styled.div`
+const SpectrumBubbleWrapper = styled.div`
     position: absolute;
     z-index: -1;
     width: 100vw;
     height: 100vh;
     background-color: white;
     overflow: hidden;
+`
+
+const SpectrumTitleWrapper = styled.div`
+    width: 100vw;
+    height: 100vh;
 `
 
 const StyledSpectrumBubble = styled.div`
@@ -131,24 +136,28 @@ export default class SpectrumTitle extends React.Component {
             <React.Fragment>
             <Desktop>
                 <SpectrumTitleWrapper>
-                    {bubbles}
+                    <SpectrumBubbleWrapper>
+                        {bubbles}
+                    </SpectrumBubbleWrapper>
+                    <TempHeader>
+                        <TempTitle>{this.props.title}</TempTitle>
+                        <TitleBlurb>
+                            {this.props.description}
+                        </TitleBlurb>
+                    </TempHeader>
                 </SpectrumTitleWrapper>
-                <TempHeader>
-                    <TempTitle>{this.props.title}</TempTitle>
-                    <TitleBlurb>
-                        {this.props.description}
-                    </TitleBlurb>
-                </TempHeader>
             </Desktop>
             <MobileAndTablet>
                 <SpectrumTitleWrapper>
-                    {bubbles}
+                    <SpectrumBubbleWrapper>
+                        {bubbles}
+                    </SpectrumBubbleWrapper>
+                    <MobileHeader>
+                        <MobileTitle>
+                        {this.props.title}
+                        </MobileTitle>
+                    </MobileHeader>
                 </SpectrumTitleWrapper>
-                <MobileHeader>
-                    <MobileTitle>
-                    {this.props.title}
-                    </MobileTitle>
-                </MobileHeader>
             </MobileAndTablet>
             </React.Fragment>
         )

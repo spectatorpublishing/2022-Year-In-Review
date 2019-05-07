@@ -51,8 +51,9 @@ const Circle = styled.img`
 `
 
 const SpectrumWrapper = styled.div`
-	witdth: 100vw;
-  	height: 100vh;
+	width: 100vw;
+	  height: 100vh;
+	  background: white;
 `;
 
 class SpectrumLayout extends Component {
