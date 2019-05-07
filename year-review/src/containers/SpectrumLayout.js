@@ -169,8 +169,8 @@ class SpectrumLayout extends Component {
 					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
 			}
 		)
-		let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
-		let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
+		let leftArrow = this.state.leftDisabled ? null: <Arrow src={white_arrow} onClick={this.onLeft} left/> 
+		let rightArrow = this.state.rightDisabled ? null: <Arrow src={white_arrow} onClick={this.onRight}/> 
 		// mobile components-finished
 
 		return (
