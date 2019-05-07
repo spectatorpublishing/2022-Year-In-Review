@@ -29,6 +29,7 @@ let FullScreenContainer = styled.div`
 let LightboxContainer = styled(FullScreenContainer)`
   background-image: url(${props => props.imageUrl});
   background-position: right;
+  background-size: cover;
   flex-direction: row;
 `
 let LightboxMobileContainer = styled(FullScreenContainer)`
@@ -95,7 +96,7 @@ let ArticleLink = styled.a`
 let Title = styled.h4`
   color: ${props => props.theme.white};
   text-transform: uppercase;
-  height: 100%;
+  margin-bottom: 1rem;
   display: flex;
   align-items: flex-start;
 
