@@ -553,7 +553,7 @@ const data = {
             {
                 "name": "Columbia and Barnard struggle to achieve vision of socioeconomic diversity ",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YP4TF6HLF5HWVNMJ44SP5ESU3U.jpg",
-                "blurb": "",
+                "blurb": "While both Columbia and Barnard tout a commitment to socioeconomic diversity, statistics show great disparities between this vision and reality. More than half of Barnard students are from the top 10 percent of America’s income levels, while Columbia continues to accept more students from the top 1 percent than from the bottom 20, according to data from the NYT. Through increased fundraising and alumni engagement, Barnard administrators said that the college hopes to meet greater student need, but hidden costs—particularly in relation to textbooks and health services—spark calls from students for greater attention to basic resources. In overlooking public schools in its own backyard and failing to expand its recruitment efforts, Columbia fails to address diversity at its root.",
                 "articles": [{
                         "title": "Barnard pushes to grow alumni engagement as financial aid fundraising remains millions short of goal",
                         "author": "Heather Leopere",
