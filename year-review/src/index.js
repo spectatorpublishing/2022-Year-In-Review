@@ -5,7 +5,7 @@ import { HashRouter as Router } from "react-router-dom";
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router>
     <App />
   </Router>
 );
