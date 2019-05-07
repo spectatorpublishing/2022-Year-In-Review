@@ -110,11 +110,6 @@ const SectionDivider = styled.hr`
 `
 
 class EditorLetter extends Component {
-
-  constructor() {
-    super()
-  }
-
   render() {
     return (
       <React.Fragment>

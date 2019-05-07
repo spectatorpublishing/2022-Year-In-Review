@@ -4,6 +4,7 @@ import { MobileAndTablet, Desktop } from 'react-responsive-simple'
 import arrow from '../assets/white-down-arrow-icon.png'
 
 let Arrow = styled.img`
+  cursor: pointer;
   z-index: 25;
   position: fixed;
   width: 60px;

@@ -51,6 +51,7 @@ const Front = styled.div`
   backface-visibility: hidden;
 `;
 const Card = styled(Front)`
+  cursor: pointer;
   &:hover {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({front_image}) => front_image});
     background-size: cover;
@@ -123,12 +124,6 @@ const Body = styled.p`
   margin-top: 10px;
   margin-bottom: 20px;
   color: ${props => props.theme.white};
-`;
-
-const Section = styled.h5`
-  font-size: 1em;
-  color: ${props => props.theme.white};
-  text-shadow: ${props => props.theme.shadow};
 `;
 
 const Author = styled.h5`

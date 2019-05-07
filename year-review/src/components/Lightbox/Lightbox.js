@@ -6,6 +6,7 @@ import { ReactComponent as Arrow } from "../../assets/right_arrow.svg";
 import { ReactComponent as Cross } from "../../assets/x.svg";
 
 let RightArrow = styled(Arrow)`
+  cursor: pointer;
   & path {
     stroke: ${props => props.theme.transparentWhite};
   }
@@ -15,6 +16,7 @@ let RightArrow = styled(Arrow)`
   }
 `
 let LeftArrow = styled(RightArrow)`
+  cursor: pointer;
   transform: rotate(180deg);
 `
 let FullScreenContainer = styled.div`
@@ -76,6 +78,7 @@ let CloseContainerMobile = styled(CloseContainer)`
   height: initial;
 `
 let CloseButton = styled(Cross)`
+  cursor: pointer;
   & path {
     stroke: ${props => props.theme.transparentWhite};
   }

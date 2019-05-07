@@ -56,23 +56,7 @@ const Subtitle = styled.p`
   width: 60vw;
 ` 
 
-const MobileSubtitle = styled.p`
-  padding: 0vh 0vw 4vh 8vw;
-  text-shadow: ${props => props.theme.shadow};
-  color: white;
-  width: 80vw;
-` 
-
-const Link = styled.a`
-  text-decoration: none;
-  color: ${props => props.theme.black};
-`
-
 export default class GenericPanelLayout extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   state = { 
       isMobile: window.innerWidth <= mobileSize,
   }
