@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import { Mobile, Desktop } from 'react-responsive-simple';
+import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 
 let LetterContain = styled.div`
@@ -87,11 +87,11 @@ class EditorLetter extends Component {
             <TitleBlurb>{this.props.letter}</TitleBlurb>
           </LetterContain>
         </Desktop>
-        <Mobile><MobileContain>
+        <MobileAndTablet><MobileContain>
         </MobileContain>
           <MobileLetter>LETTER FROM THE EDITOR</MobileLetter>
           <MobileBlurb>{this.props.letter}</MobileBlurb>
-        </Mobile>
+        </MobileAndTablet>
       </React.Fragment>
     );
   }

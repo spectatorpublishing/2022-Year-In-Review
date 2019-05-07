@@ -64,8 +64,8 @@ let MenuColumn = styled.div`
 
   ${MenuBtn}:checked ~ & {
     width: 50vw;
-    height: ${props => props.transparent ? `calc(100vh - 4rem)` : `calc(100vh - 48px - 4rem)`};
-    padding: 2rem;
+    height: ${props => props.transparent ? `calc(100vh + 1px - 3rem)` : `calc(100vh - 47px - 3rem)`};
+    padding: 0 2rem 3rem 2rem;
     display: flex;
     justify-content: space-evenly;
   }
@@ -110,7 +110,6 @@ let MenuScrollLink = styled(NavHashLink)`
 
   ${({ mobile }) => mobile && `
     border: none;
-    margin: 4vh 0 0 0;
     opacity: 0;
     transition: opacity 0s;
   `}
@@ -195,7 +194,7 @@ let DesktopItem = styled.h5`
   color: inherit;
 `
 
-let MobileItem = styled.h3`
+let MobileItem = styled.h4`
   color: inherit;
   text-shadow: ${props => props.theme.shadow};
 `
@@ -214,6 +213,10 @@ let CrownWrapper = styled.a`
   z-index: 22;
 `
 
+let MobileText = styled.h5`
+  margin-top: 10px;
+  color: ${props => props.theme.white};
+`
 
 class NavBar extends Component {
   constructor(props) {
@@ -310,10 +313,9 @@ class NavBar extends Component {
       </React.Fragment>
     );
 
-    const mobileText = this.props.fixed? <h5 style={{marginTop:"10px",color: "white"}}> {this.props.location.hash.slice(1).toUpperCase()} </h5>:null
     const mobileMenu = (
       <React.Fragment>
-        {mobileText}
+        {this.props.fixed && <MobileText>{this.props.location.hash.slice(1).toUpperCase()}</MobileText>}
         <MenuBtn 
           type="checkbox" 
           id={this.props.isScrolling ? "scrolling-menu-btn" : "menu-btn"}
