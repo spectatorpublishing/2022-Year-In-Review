@@ -20,14 +20,14 @@ let LetterContain = styled.div`
   position: relative;
   padding-top: 15px;
   padding-bottom: 30px;
-  background-color: ${props => props.theme.blue};
+  background-color: ${props => props.theme.black};
 `
 
 let MobileContain = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: ${props => props.theme.blue};
+  background-color: ${props => props.theme.black};
 
 `
 
