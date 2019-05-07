@@ -1,9 +1,6 @@
 import React, {Component} from 'react'
 import styled from 'styled-components'
 import { ReactComponent as ArrowR } from '../assets/right_arrow.svg';
-import { ReactComponent as ArrowL } from '../assets/left_arrow.svg';
-
-const n=4
 
 const RightArrowContainer = styled.div`
 	position: absolute;

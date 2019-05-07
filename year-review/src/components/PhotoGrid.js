@@ -126,12 +126,6 @@ const Body = styled.p`
   color: ${props => props.theme.white};
 `;
 
-const Section = styled.h5`
-  font-size: 1em;
-  color: ${props => props.theme.white};
-  text-shadow: ${props => props.theme.shadow};
-`;
-
 const Author = styled.h5`
   font-size: 1em;
   margin-left: 20px;

@@ -6,8 +6,6 @@ import GenericPanelLayout from './GenericPanelLayout';
 import PageIntro from '../components/PageIntro'
 import EditorLetter from '../components/EditorLetter'
 
-const img_src = "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"
-
 let ParagraphBr = styled.br`
   line-height: 200%;
 `
@@ -52,12 +50,6 @@ const letterFromTheEditor = <React.Fragment>Dear readers,
 
 
 class EyeContainer extends Component {
-
-  constructor() {
-      super()
-
-  }
-
   render() {
     return (
       <React.Fragment>

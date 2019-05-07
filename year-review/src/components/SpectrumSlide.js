@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import arrow from '../assets/white-down-arrow-icon.png'
+import read_more from '../assets/readmore.svg'
 
 const Article = styled.div`
   margin: 0vw;
@@ -27,6 +28,17 @@ const Arrow = styled.img`
   left: 90%;
   top: 90%;
   transform: rotate(180deg);
+
+const Logo = styled.img`
+  display: block;
+  width: 15vw;
+  position: absolute;
+  left: -15vw;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 0px;
+  padding-right: -2px;
 `
   
 const Link = styled.a`
