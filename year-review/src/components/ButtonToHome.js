@@ -8,6 +8,14 @@ const Logo = styled.h6`
   color: ${props => props.theme.white};
   border: 2px solid ${props => props.theme.white}22;
   border-radius: 1rem;
+  cursor: pointer;
+  transition: all ease .3s;
+
+  &:hover {
+    background-color: ${props => props.theme.black};
+    border: 2px solid ${props => props.theme.white}88;
+    transition: all ease .3s;
+  }
 `
 
 class ButtonToHome extends Component {
