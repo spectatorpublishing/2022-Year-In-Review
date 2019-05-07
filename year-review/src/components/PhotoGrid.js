@@ -172,7 +172,7 @@ const MobileBack = styled.div`
   opacity: ${({shown}) => shown ? "100" : "0"};
   transition: height .3s ease;
   -webkit-transition: height .3s ease;
- 
+  overflow: hidden; 
 `
 const ArticleLink = styled.a`
   text-decoration: none;
