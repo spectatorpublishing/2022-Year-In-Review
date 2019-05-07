@@ -11,8 +11,6 @@ const letter =
 
 
 let LetterContain = styled.div`
-  width: 100%;
-  // margin-top: 5vw;
   padding-left: 10vw;
   display: flex;
   flex-direction: column;
@@ -31,7 +29,7 @@ let MobileContain = styled.div`
 
 `
 
-let TempLetter = styled.h1`
+let TempLetter = styled.h2`
   height: 15%;
   width: 80%;
   max-width: 999px;
