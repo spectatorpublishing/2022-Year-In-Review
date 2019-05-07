@@ -48,8 +48,8 @@ let sampleMedia = [
 class PhotoContainer extends Component {render() {
     return (
       <React.Fragment>
-        <PageIntro title="PHOTO" description={description} img_src={img_src}/>
-        <PhotoGrid data={sampleMedia}/>
+        <PageIntro title="PHOTO" description={this.props.data.blurb} img_src={img_src}/>
+        <PhotoGrid data={this.props.data.items.Photos}/>
       </React.Fragment>
     );
   }
