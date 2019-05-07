@@ -105,6 +105,7 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     @media only screen and (max-width: 767px) {
       font-size: 2rem;
+      letter-spacing: .1rem;
     }
   }
   h4 {

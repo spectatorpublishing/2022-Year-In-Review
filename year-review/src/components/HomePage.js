@@ -6,11 +6,12 @@ import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import "react-responsive-carousel/lib/styles/carousel.css";
 import { Carousel } from 'react-responsive-carousel';
 import HomepagePhotos from '../util/HomepagePhotos'
+import { NavHashLink } from 'react-router-hash-link';
 
 
 let MobileContainer = styled.div`
   width: 100vw;
-  height: calc(100vh - 48px);
+  height: 100vh;
 `
 let HomePageContainer= styled(MobileContainer)`
   display: flex;
@@ -50,7 +51,7 @@ let RightDiv = styled.div`
   padding-right: 5vw;
   margin-right: 5vw;
 `
-let SectionTitleDiv = styled.a`
+let SectionTitleDiv = styled(NavHashLink)`
   text-decoration: none;
 `
 let SectionTitle = styled.h3`
@@ -93,8 +94,9 @@ export default class HomePage extends Component {
   }
 
   getSections() {
+    
     return this.props.menuItems.map((e, i) => 
-      <SectionTitleDiv key={i} href={e.link}>
+      <SectionTitleDiv key={i} to= {e.link}>
         <SectionTitle>{e.name}</SectionTitle>
       </SectionTitleDiv>
     );
