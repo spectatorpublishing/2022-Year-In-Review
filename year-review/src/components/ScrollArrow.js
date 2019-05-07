@@ -5,9 +5,9 @@ import arrow from '../assets/white-down-arrow-icon.png'
 const Arrow = styled.img`
   width: 5vw;
   z-index: 1;
-  position: absolute;
+  position: relative;
   left: 90%;
-  top: ${props => props.mobile? '35vh' : '30vh'};
+  top: ${props => props.mobile? '-5vh' : '-5vh'};
   transform: rotate(180deg)
 `
 const handleClick = () => {
