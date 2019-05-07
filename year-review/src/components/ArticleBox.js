@@ -16,12 +16,14 @@ const Title = styled.h5`
     }
 `
 
-const Container = styled.div`
+const Container = styled.a`
     background-color: white;
     border-radius: 5px;
     display: flex;
     width: 35vw;
     height: 20vh;
+    text-decoration: none;
+    color: black;
 
     @media (max-width: 991px) {
         width: 75vw;
@@ -52,7 +54,9 @@ const Text = styled.div`
     width: 20vw;
     margin-top: 1rem;
     flex: 1 1 auto;
+    padding: 10px;
     @media(max-width: 991px){
+        padding: 0px;
         margin-top: 0.7rem;
         width: 40vw;
     }    
@@ -78,7 +82,7 @@ const articlebox = (props) => {
         [
         <Desktop>
             <Article>
-                <Container onClick={() => window.open(props.url, "_blank")}>
+                <Container href={props.url} target="_blank">
                   <Image img_src ={props.img_src}></Image>
                     <Text>
                         <Title>{props.title}</Title>
