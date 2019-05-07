@@ -15,6 +15,10 @@ const description = "Most undergraduates will only experience a small sliver of 
 const img_src = "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80"
 
 export default class OpinionContainer extends Component {
+  componentDidMount(){
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     return (
       <React.Fragment>
@@ -33,10 +37,9 @@ export default class OpinionContainer extends Component {
               <GenericPanelLayout data={this.props.data.items[2]} />
             </div>
             <div>
-              <h3 style={{color: "white"}}>Columnists: Fall 2018</h3>
-              <PhotoGrid data={opinion_data} flip />
-              <h3 style={{color: "white"}}>Columnists: Spring 2019</h3>
-              <PhotoGrid data={opinion_data} flip />
+              <h3 style={{"height":"5vh"}}></h3>
+              <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}>Column</h3>
+              <PhotoGrid data={this.props.data.items[3].items} flip />
             </div>
           </ScrollingNavBar>
       </React.Fragment>

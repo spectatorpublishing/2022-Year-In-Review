@@ -45,7 +45,12 @@ let sampleMedia = [
 	  author: "Victor Garcia"
 	}
 ];
-class PhotoContainer extends Component {render() {
+class PhotoContainer extends Component {
+	componentDidMount(){
+	    window.scrollTo(0, 0)
+	  }
+  
+	render() {
     return (
       <React.Fragment>
         <PageIntro title="PHOTO" description={this.props.data.blurb} img_src={img_src}/>

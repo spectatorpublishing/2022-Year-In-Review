@@ -27,6 +27,10 @@ class EyeContainer extends Component {
       super()
   }
 
+  componentDidMount(){
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     return (
       <React.Fragment>

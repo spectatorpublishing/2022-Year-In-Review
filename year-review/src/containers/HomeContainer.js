@@ -5,6 +5,10 @@ import ScrollingNavBar from "../components/Navigation/ScrollingNavBar.js";
 import { NavItems } from "../util/NavItems.js";
 
 export default class HomeContainer extends Component {
+  componentDidMount(){
+    window.scrollTo(0, 0)
+  }
+  
   render() {
     return (
       <React.Fragment>
