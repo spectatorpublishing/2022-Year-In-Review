@@ -4,12 +4,11 @@ import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
 import Article from '../components/ArticleBox'
 import MobileArticleBox from '../components/MobileArticleBox'
-import ScrollArrow from '../components/ScrollArrow'
 
 import white_arrow from '../assets/right_arrow.svg'
 import black_arrow from '../assets/left_arrow.svg'
-import filledCircle from '../assets/filledCircle.svg'
-import emptyCircle from '../assets/emptyCircle.svg'
+import filledCircle from '../assets/filledCircleWhite.svg'
+import emptyCircle from '../assets/emptyCircleWhite.svg'
 
 
 const n = 2
@@ -38,8 +37,18 @@ const Arrow = styled.img`
   	z-index: 1;
   	transform: ${props => !props.left ? "":"rotate(180deg)"};
   	position: relative;
-	top: 13vh;
-  	left: ${props => props.left ? "4vw" : "90vw"};
+	top: 23vh;
+	left: ${props => props.left ? "4vw" : "90vw"};
+	opacity: ${({disabled}) => disabled ? "0" : "0.5"};
+	transition: opacity ease .3s;
+	
+    @media(min-width: 992px){
+		top: 15vh;
+		&:hover {
+			${({disabled}) => !disabled && `opacity: 1;`}
+			transition: opacity ease .3s;
+		}
+    }
 `
 
 const CircleContainer = styled.div`
@@ -56,11 +65,16 @@ const CircleContainer = styled.div`
 `
 const Circle = styled.img`
 	margin: 10px;
+	opacity: 0.5;
+	
+	&:hover {
+		${({disabled}) => !disabled && `opacity: 1;`}
+		transition: opacity ease .3s;
+	}
 `
 
 const DesktopContainer = styled.div`
-	padding-top: 20px;
-	padding-bottom: 20spx;
+	padding-bottom: 20px;
 `
 
 class ImageBoxSlider extends Component {
@@ -159,8 +173,8 @@ class ImageBoxSlider extends Component {
 				onClick = {() => this.props.handleClick(i)} url={data.link}
 				img_src={data.img} key = {i}/>)
 
-		let leftArrow = <Arrow src={white_arrow} onClick={this.onLeft} left/> 
-		let rightArrow = <Arrow src={white_arrow} onClick={this.onRight}/> 
+		let leftArrow = <Arrow src={white_arrow} disabled={this.state.leftDisabled} onClick={this.onLeft} left/> 
+		let rightArrow = <Arrow src={white_arrow} disabled={this.state.rightDisabled} onClick={this.onRight}/> 
 
 		if (this.state.isMobile){
 			boxes = this.props.data.map ( (data,i) => {
@@ -184,9 +198,9 @@ class ImageBoxSlider extends Component {
 
 		let circles = this.props.data.map ( (_, i) => {
 				if (i===this.state.circle_index)
-					return <Circle src = {filledCircle} onClick={ () => this.onCircle(i)} key={i}/>
+					return <Circle src={filledCircle} disabled={true} onClick={() => this.onCircle(i)} key={i}/>
 				else if (i<this.props.data.length/n)
-					return <Circle src = {emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
+					return <Circle src={emptyCircle} onClick={() => this.onCircle(i)} key={i}/>
 				return null
 			}
 		)
@@ -203,7 +217,6 @@ class ImageBoxSlider extends Component {
 					</BoxPanel>
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 
-				<ScrollArrow mobile/>
 			</div>
 	      </MobileAndTablet>, 
 	      
@@ -217,7 +230,6 @@ class ImageBoxSlider extends Component {
 					</BoxPanel>
 				</ImageContainer>
 				<CircleContainer> {circles} </CircleContainer> 	
-				<ScrollArrow />
 			</DesktopContainer>
 		  </Desktop>
         ]

@@ -2,7 +2,14 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import scroll from '../assets/scroll.svg';
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
+import ButtonToHome from "./ButtonToHome.js";
 
+let YIRButton = styled.div`
+  position: absolute;
+  z-index: 10;
+  top: calc(5vh + 48px);
+  left: 5vw;
+`
 
 let TempTitle = styled.h1`
   color: ${props => props.theme.white};
@@ -16,7 +23,7 @@ let TempTitle = styled.h1`
 `
 
 let TempHeader = styled.div`
-  height: 95vh;
+  height: calc(100vh - 48px);
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -70,7 +77,7 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   content: "";
   background: ${props => props.theme.indigo};
   opacity: 0.3;
-  height: 100vh;
+  height: calc(100vh - 48px);
   width: 100vw;
   position: absolute;
 }
@@ -87,6 +94,9 @@ class PageIntro extends Component {
     return ([
       <Desktop><React.Fragment>
         <TempHeader {...this.props}>
+          <YIRButton>
+            <ButtonToHome />
+          </YIRButton>
           <TempTitle>{this.props.title}</TempTitle>
           <TitleBlurb>
               {this.props.description}
