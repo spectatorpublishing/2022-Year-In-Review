@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled, { keyframes } from 'styled-components';
 
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
@@ -127,14 +127,11 @@ class SpectrumBubble extends React.Component {
 }
 
 export default class SpectrumTitle extends React.Component {
-    constructor(props){
-      super(props)
-    }
-
     render(){
         let bubbles = []
         spectrum_colors.map((el, i) => {
             bubbles.push(<SpectrumBubble key={i} color={el.color} radius={el.radius} left={el.left} duration={el.duration}/>)
+            return null
         })
         return(
             <React.Fragment>

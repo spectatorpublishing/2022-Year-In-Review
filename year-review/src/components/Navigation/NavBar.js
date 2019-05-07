@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { withRouter } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
 import styled from 'styled-components';
