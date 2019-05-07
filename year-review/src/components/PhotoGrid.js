@@ -12,15 +12,16 @@ const Flipcard = styled.div`
   @media only screen and (min-width:992px){
     width: 25vw;
     height: 25vw; 
-    ${({flip}) => flip && `
-    perspective: 1000px;
-    -webkit-perspective: 1000px;
-    transform-style: preserve-3d; 
-    -webkit-transform-style: preserve-3d;
-    transition: transform 0.5s;
-    `}
+    .inner {${({flip}) => flip && `
+      perspective: 1000px;
+      -webkit-perspective: 1000px;
+      transform-style: preserve-3d; 
+      -webkit-transform-style: preserve-3d;
+      transition: transform 0.5s;
+      `}
+    }
 
-    :hover {
+    :hover .inner{
       ${({flip}) => flip && `
       -webkit-transform: rotateY(180deg);
       transform: rotateY(180deg);
@@ -183,7 +184,7 @@ const ArticleLink = styled.a`
 const ImageBox = (props) => {
   return (
       <Flipcard flip={props.flip}>
-        <Inner>
+        <Inner className="inner">
           {props.flip ? (
           <React.Fragment>
             <Front {...props.data}>
