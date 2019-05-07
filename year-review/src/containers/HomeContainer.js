@@ -16,7 +16,6 @@ export default class HomeContainer extends Component {
       <React.Fragment>
           <HomePage menuItems={NavItems} />
           <ReaderLetter/>
-          <ScrollingNavBar menuItems={NavItems} noContent />
           <FooterHome/>
       </React.Fragment>
     );

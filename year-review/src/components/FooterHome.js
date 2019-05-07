@@ -13,32 +13,33 @@ const Names = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  @media only screen and (max-width: 991px){
+  @media only screen and (max-width: 767px){
     margin: 0 5vw;
 `
 const Heading = styled.h3`
   text-align: center;
   padding: 1rem 0;
-  @media only screen and (max-width: 991px){
+  @media only screen and (max-width: 767px){
     font-size: 1.8em;
  }
 `
 const Column = styled.div`
   padding-top: 1rem;
-  @media only screen and (max-width: 991px){
+  padding-left: 1em;
+  @media only screen and (max-width: 767px){
     padding-left: 0.5rem;
  }
 `;
 const RoleHeading = styled.h4`
   margin: 0.8rem 0;
-  @media only screen and (max-width: 991px){
+  @media only screen and (max-width: 767px){
     font-size: 1em;
  }
 `
 const Role = styled.div`
  color: ${props => props.theme.transparentWhite};
  padding-left: 0.5rem;
- @media only screen and (max-width: 991px){
+ @media only screen and (max-width: 767px){
     padding-left: 0;
  }
 `;
@@ -46,7 +47,7 @@ const Line = styled.h5`
   display: flex;
   flex-direction: row;
   margin: 0.5rem 0;
-  @media only screen and (max-width: 991px){
+  @media only screen and (max-width: 767px){
     //padding: 0px 10vw 15px 10vw;
     font-size: 1em;
     //margin: 0;
