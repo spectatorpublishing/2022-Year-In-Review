@@ -1683,7 +1683,7 @@ const data = {
                 ]
             },
             {
-                "name": "Women’s Basketball:",
+                "name": "Women’s Basketball",
                 "author": "Harris Walker",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/XBXCMSOJFNCCLEYO3NADARIVTA.jpg",
                 "blurb": ["In the three years under head coach Megan Griffith, CC ’07, the Lions have struggled to find their rhythm, finishing with just eight wins for a second consecutive season. Their 8-19 record overall gives them a 0.296 winning percentage, a slight improvement over their 8-21 finish in 2017-2018.",
