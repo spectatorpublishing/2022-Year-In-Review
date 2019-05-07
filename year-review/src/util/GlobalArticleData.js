@@ -266,7 +266,7 @@ const data = {
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CEY67EQKBRAA5G2WN3ASOGQISA.jpg",
                 "description": "Business School student Katie Brehm sits in front of Uris Hall. Brehm filed a no-contact directive against her alleged rapist, yet continued to see him in her daily life at Columbia. Brehm plans to leave Columbia because of the exhausting process required to incite positive change and lack of guarantee that there will be any.",
                 "link": "https://www.columbiaspectator.com/news/2019/03/02/she-has-a-no-contact-directive-against-her-alleged-rapist-why-do-they-still-cross-paths-12/",
-                "author": "Kirill Buskirk / Staff photographer"
+                "author": "Kirill Buskirk / Staff Photographer"
             }, {
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENU24V3N4FDYTLNZ2P72C5PQ4Y.jpg",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5OSNGJKDLZDRTGGVVKL6UZDPVM.jpg",
@@ -308,7 +308,7 @@ const data = {
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5KXB5F6DCNEPHDOOAYAXOGN4IE.jpg",
                 "description": "Lloyd Knight, a principal dancer of the Martha Graham Dance Company, performs a tribute to Marcellus Blount, a former literary scholar and professor, in Low Library. Former students and colleagues gathered in Low to celebrate the life of Blount, who shaped the University’s commitment to academic diversity for more than three decades and who passed away last May.",
                 "link": "https://www.columbiaspectator.com/news/2019/03/27/a-year-after-his-passing-marcellus-blount-remembered-for-shaping-columbias-institutional-commitment-to-diversity/",
-                "author": "Caroline Dailey / senior staff photographer"
+                "author": "Caroline Dailey / Staff Photographer"
             }, {
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LKS5OCATCJEJNM3HHL5TETBAUI.jpg",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UTMVWG4ESJHXRCXRUJN7YUTX4Y.jpg",
@@ -320,7 +320,7 @@ const data = {
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QCXT6B3QONBTBG4EJUROH3SLMA.jpg",
                 "description": "Rina Sawayama performs at Bacchanal 2019. The concert featured the annual concert’s first ever all-womxn lineup, including Tierra Whack and SOPHIE in addition to Sawayama. Oswald Fresh was the student opener following his win at Battle of the Bands.",
                 "link": "https://www.columbiaspectator.com/photo-essay/2019/04/08/in-focus-scenes-from-the-55th-bacchanallawn-parties-and-an-all-womxn-lineup/",
-                "author": "Yasmine Akki / senior staff photog"
+                "author": "Yasmine Akki / Senior Staff Photographer"
             }, {
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R25EOQ6VMNFSFBUP6N6UI3Z2UE.jpg",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ANHFV4P2BFFUBHPP2IQUAPOTKQ.jpg",
@@ -356,13 +356,13 @@ const data = {
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EA5Z2HXNQFHWBCCZ5CJ7LZQCVU.jpg",
                 "description": "George and Amal Clooney, founders of the Clooney Foundation for Justice, unveiled TrialWatch, an initiative focused on monitoring and reporting on trials around the world that pose a high risk of human rights violations, at Columbia Law School in April. At the event, the Clooneys were joined by the President of Microsoft Brad Smith, President of the American Bar Association Bob Carlson, former United Nations High Commissioner for Human Rights Zeid Ra’ad Al Hussein, and University President Lee Bollinger in a panel moderated by New York Times columnist Nicholas Kristof.",
                 "link": "https://www.columbiaspectator.com/news/2019/04/26/clooney-foundation-unveils-human-rights-monitoring-initiative-trialwatch-in-partnership-with-columbia-law-school/",
-                "author": "Yasmine Akki / senior staff photog"
+                "author": "Yasmine Akki / Senior Staff Photographer"
             }, {
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QIPA6G35KVGQPMC33N2BQNPGFQ.jpg",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C2PD73JOYBAWJCJDUD4UODD4FM.jpg",
                 "description": "The Men’s tennis team jumps in joy after they claimed their sixth consecutive Ivy League title in April. The match was an especially memorable one as it marked the final regular season home match of head coach Bid Goswami’s illustrious 37-year career.",
                 "link": "https://www.columbiaspectator.com/sports/2019/04/29/mens-tennis-claims-sixth-straight-ivy-title-outright-with-narrow-victory-over-cornell/",
-                "author": "Caroline Dailey / senior staff photographer"
+                "author": "Caroline Dailey / Senior Staff Photographer"
             }]
         }
     },
