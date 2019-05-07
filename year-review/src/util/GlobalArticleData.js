@@ -212,7 +212,7 @@ const data = {
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PUAIQ26TZRAIFECKJF2JWZT6DA.jpg",
                 "description": "The men’s team was edged out in a tight 72-70 game against Penn at its home game on February 2nd. Here, junior forward Patrick Tapé soars into a layup.",
                 "link": "https://www.facebook.com/columbiaspectator/photos/a.10157125085909914/10157125085914914/?type=3&theater",
-                "author": "(Rya Inman / Senior Staff Photographer)"
+                "author": "Rya Inman / Senior Staff Photographer"
             }, {
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EPE7W5OZV5ACLC2FIZA4UBAUCY.jpg",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KZ2QG2YZLVH3ZEQHUIF5BFUJVY.jpg",
@@ -298,7 +298,7 @@ const data = {
                 "link": "https://www.columbiaspectator.com/photo-essay/2019/03/14/in-focus-a-love-letter-to-light/",
                 "author": "Elisabeth McLaughlin / Staff Photographer"
             }, {
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/X4YE5YITXRDZXOKCH73AXWWAFI.jpg",
+                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6RVM54TAVZCLLF2KIDEK4VWYEU.jpg",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6RVM54TAVZCLLF2KIDEK4VWYEU.jpg",
                 "description": "Students rally on Low Steps as part of a Global Climate Strike in March. Nearly 200 people were present as part of a global movement to call for urgent political action on climate change.",
                 "link": "https://www.columbiaspectator.com/news/2019/03/15/columbia-students-join-global-climate-strikes-call-for-urgent-political-action/",
