@@ -41,6 +41,8 @@ const Inner = styled.div`
 
 const Front = styled.div`
   background-image: url(${({front_image}) => front_image});
+  background-size: cover;
+  background-position: center;
   transition: background-image .3s ease;
   background-size: cover;
   position: absolute;
@@ -51,12 +53,15 @@ const Front = styled.div`
 const Card = styled(Front)`
   &:hover {
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({front_image}) => front_image});
+    background-size: cover;
+    background-position: center;
     transition: background-image .3s ease;
   }
 `
 const Back = styled.div`
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${({back_image}) => back_image});
   background-size: cover;
+  background-position: center;
   color: ${props => props.theme.white};
   position: absolute;
   backface-visibility: hidden;

@@ -733,7 +733,7 @@ const data = {
         ]
     },
     "Eye": {
-        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ARDEZFQQZBGDXHNWV445HYDE7Y.jpg",
+        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ADENF3WRVFB6ZDHNC3ZEOGZPWE.jpg",
         sections: 
         [
           {

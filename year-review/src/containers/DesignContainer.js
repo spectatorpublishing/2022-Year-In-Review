@@ -78,7 +78,7 @@ class DesignContainer extends Component {
   render() {
     return (
       <React.Fragment>
-        <PageIntro title="DESIGN" description={this.props.data.blurb} img_src={img_src}/>
+        <PageIntro title="DESIGN" description={this.props.data.blurb} img_src={this.props.data.img}/>
         <ScrollingNavBar menuItems={this.props.data.sections}>
         <div>
 	        <GenericPanelLayout data = {this.props.data.items[0]} />)}
