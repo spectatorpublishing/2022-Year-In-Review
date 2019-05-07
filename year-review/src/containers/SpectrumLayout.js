@@ -52,9 +52,19 @@ const Circle = styled.img`
 
 const SpectrumWrapper = styled.div`
 	width: 100vw;
-	  background: white;
-  	height: calc(100vh - 48px);
+  	height: 100%;
 `;
+
+const Header = styled.div`
+	padding: 5vh 10vw;
+	background: ${props => props.theme.white};
+`
+const Title = styled.h3`
+`
+const Blurb = styled.p`
+	padding-top: 1rem;
+	line-height: 150%;
+`
 
 class SpectrumLayout extends Component {
 
@@ -178,10 +188,10 @@ class SpectrumLayout extends Component {
 	      
 	      <Desktop>
 				<SpectrumWrapper>
-				<div style={{height: "30vh", marginLeft: "5vw",marginRight: "5vw"}}>
-					<h3 style={{paddingTop: "6vh"}}>{this.props.data.name}</h3>
-					<p style={{paddingTop: "2vh"}}>{this.props.data.blurb}</p>
-				</div>
+				<Header>
+					<Title>{this.props.data.name}</Title>
+					<Blurb>{this.props.data.blurb}</Blurb>
+				</Header>
 				<SpectrumSlider data = {this.props.data.articles}/>	
 			</SpectrumWrapper>
 	      </Desktop>

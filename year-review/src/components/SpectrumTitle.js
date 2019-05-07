@@ -13,7 +13,6 @@ let YIRButton = styled.div`
 
 let TempTitle = styled.h1`
   color: ${props => props.theme.black};
-  text-shadow: ${props => props.theme.shadow};
   z-index: 2;
   position: relative;
   font-size: 12em;
@@ -37,7 +36,6 @@ const TitleBlurb = styled.p`
   color: ${props => props.theme.black};
   margin-top: 3rem;
   text-align: center;
-  text-shadow: ${props => props.theme.shadow};
   z-index: 2;
   position: relative;
   margin-left: 15rem;
@@ -48,7 +46,6 @@ const TitleBlurb = styled.p`
 
 let MobileTitle = styled.h1`
 color: ${props => props.theme.black};
-text-shadow: ${props => props.theme.shadow};
 z-index: 2;
 position: relative;
 font-size: 4rem;
@@ -142,14 +139,14 @@ export default class SpectrumTitle extends React.Component {
         return(
             <React.Fragment>
             <Desktop>
+                <YIRButton>
+                    <ButtonToHome />
+                </YIRButton>
                 <SpectrumTitleWrapper>
                     <SpectrumBubbleWrapper>
                         {bubbles}
                     </SpectrumBubbleWrapper>
                     <TempHeader>
-                    <YIRButton>
-                        <ButtonToHome />
-                    </YIRButton>
                         <TempTitle>{this.props.title}</TempTitle>
                         <TitleBlurb>
                             {this.props.description}
