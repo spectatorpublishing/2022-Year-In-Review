@@ -24,6 +24,7 @@ let LeftDiv = styled.div`
   align-items: flex-start;
   @media(max-width:991px){
     margin-top: 40vh;
+    margin-left: 40vh;
   }
 `
 let LeftTitleDiv = styled.div`
@@ -79,6 +80,14 @@ let SpecLogo = styled.img`
   height: 25px;
 `
 
+const Wrapper = styled.div`
+  @media(max-width:991px){
+    margin-left: -54vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+`
+
 let CarouselWrapper = styled.div`
   position: absolute;
   z-index: -1;
@@ -86,6 +95,7 @@ let CarouselWrapper = styled.div`
   @media(max-width:991px){
     margin-left: -50vh;
     width: 150vh;
+    overflow: hidden;
   }
 `
 
@@ -111,6 +121,7 @@ export default class HomePage extends Component {
         <MobileAndTablet>
           <MobileContainer>
             <HomePageContainer>
+            <Wrapper>
             <CarouselWrapper>
               <Carousel
                 showArrows={false}
@@ -129,6 +140,7 @@ export default class HomePage extends Component {
                   )}
                 </Carousel>
               </CarouselWrapper>
+              </Wrapper>
               <LeftDiv>
                 <YearDiv>
                   <Year>2018 - 2019</Year>
