@@ -22,6 +22,9 @@ let LeftDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  @media(max-width:991px){
+    margin-top: 40vh;
+  }
 `
 let LeftTitleDiv = styled.div`
   margin-left: 10vw;
@@ -80,7 +83,7 @@ let CarouselWrapper = styled.div`
   position: absolute;
   z-index: -1;
   width: 100vw;
-  @media(max-width:992px){
+  @media(max-width:991px){
     margin-left: -50vh;
     width: 150vh;
   }
