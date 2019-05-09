@@ -30,6 +30,8 @@ let TempLetter = styled.h2`
   color: ${props => props.theme.white};
   display: flex;
   align-text: justify;
+  line-height: 90%;
+  margin-bottom: 3rem;
   background-color: ${props => props.theme.indigo};
   align-items: left;
   margin-right: 10vw;
