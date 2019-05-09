@@ -42,10 +42,6 @@ const letterFromTheEditor = <React.Fragment>Dear readers,
   As we set our sights on summer after a year of looking elsewhere, we leave knowing a little better what our university and our community look like. Whether the next four months bring you a life-changing trek in the Himalayas, or a life-affirming experience in the field you’ve dreamed of, or, possibly, just an internship at Goldman Sachs, we can only hope that we’ve made an impact on the way you see campus—that everything we have researched, reported, and written has challenged you to look at Columbia through the same eyes that we do: lovingly and critically and carefully.
   <ParagraphBr />
   See you next year,
-  <br />
-  Julian Shen-Berro
-  <br />
-  Managing Editor of The Eye
   </React.Fragment>
 
 
