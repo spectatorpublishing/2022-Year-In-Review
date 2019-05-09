@@ -619,7 +619,7 @@ const data = {
                         "title": "Lower-income undergraduate students are paying more and more to attend Columbia; wealthier students are paying less and less, federal data shows",
                         "author": "Jason Kao",
                         "link": "https://www.columbiaspectator.com/news/net-price-inequity/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5WK2NUBKVZDBDHZC5SD6QPSNLE.png"
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ICKHGSYXBVGD5HKSYFFDM5B2NQ.png"
                     },
                     {
                         "title": "Barnard students blindsided by unexpected charges at Primary Care",
@@ -1854,7 +1854,7 @@ const data = {
                         "title": "Lower-income undergraduate students are paying more and more to attend Columbia; wealthier students are paying less and less, federal data shows",
                         "author": "Jason Kao",
                         "link": "https://www.columbiaspectator.com/news/net-price-inequity/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5WK2NUBKVZDBDHZC5SD6QPSNLE.png"
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ICKHGSYXBVGD5HKSYFFDM5B2NQ.png"
                     },
                     {
                         "title": "Librarians, Scholars, and Spies: How a Trove of Chinese Ancestral Records Found Refuge on Columbia’s Shelves",
