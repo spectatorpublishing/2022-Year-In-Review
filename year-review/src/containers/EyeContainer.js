@@ -7,7 +7,7 @@ import PageIntro from '../components/PageIntro'
 import EditorLetter from '../components/EditorLetter'
 
 let ParagraphBr = styled.br`
-  line-height: 200%;
+  line-height: 250%;
 `
 
 let A = styled.a`
