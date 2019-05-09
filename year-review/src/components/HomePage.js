@@ -24,7 +24,6 @@ let LeftDiv = styled.div`
   align-items: flex-start;
   @media(max-width:991px){
     margin-top: 40vh;
-    margin-left: 40vh;
   }
 `
 let LeftTitleDiv = styled.div`
@@ -82,20 +81,23 @@ let SpecLogo = styled.img`
 
 const Wrapper = styled.div`
   @media(max-width:991px){
-    margin-left: -54vh;
-    width: 100vw;
-    overflow: hidden;
   }
 `
 
-let CarouselWrapper = styled.div`
+let CarouselWrapperWrapper = styled.div`
   position: absolute;
   z-index: -1;
   width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+`
+
+let CarouselWrapper = styled.div`
+  position: relative;
+  width: 100vw;
   @media(max-width:991px){
-    margin-left: -50vh;
     width: 150vh;
-    overflow: hidden;
+    margin-left: -50vh;
   }
 `
 
@@ -122,24 +124,26 @@ export default class HomePage extends Component {
           <MobileContainer>
             <HomePageContainer>
             <Wrapper>
-            <CarouselWrapper>
-              <Carousel
-                showArrows={false}
-                showStatus={false}
-                showThumbs={false}
-                autoPlay={true}
-                infiniteLoop={true}
-                interval={4000}
-                showIndicators={false}
-                width={"100%"}
-              >
-                  {HomepagePhotos.map((el, i)=>
-                    <div key={i}>
-                      <img src={el} alt="carousel-i"/>
-                    </div>
-                  )}
-                </Carousel>
-              </CarouselWrapper>
+              <CarouselWrapperWrapper>
+              <CarouselWrapper>
+                <Carousel
+                  showArrows={false}
+                  showStatus={false}
+                  showThumbs={false}
+                  autoPlay={true}
+                  infiniteLoop={true}
+                  interval={4000}
+                  showIndicators={false}
+                  width={"100%"}
+                >
+                    {HomepagePhotos.map((el, i)=>
+                      <div key={i}>
+                        <img src={el} alt="carousel-i"/>
+                      </div>
+                    )}
+                  </Carousel>
+                </CarouselWrapper>
+              </CarouselWrapperWrapper>
               </Wrapper>
               <LeftDiv>
                 <YearDiv>
