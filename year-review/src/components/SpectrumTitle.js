@@ -22,7 +22,7 @@ let TempTitle = styled.h1`
 `
 
 let TempHeader = styled.div`
-  height: 95vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -71,14 +71,15 @@ const SpectrumBubbleWrapper = styled.div`
     position: absolute;
     z-index: -1;
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 48px);
     background-color: white;
     overflow: hidden;
 `
 
 const SpectrumTitleWrapper = styled.div`
     width: 100vw;
-    height: calc(100vh - 48px);
+    height: 100vh;
+    overflow: hidden;
 `
 
 const StyledSpectrumBubble = styled.div`

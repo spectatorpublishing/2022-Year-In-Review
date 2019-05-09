@@ -74,6 +74,9 @@ export const GlobalStyles = createGlobalStyle`
     color: ${props => props.theme.black};
     margin: 0;
   }
+  main {
+    overflow: hidden;
+  }
   h1 {
     font-family: 'Branding', sans-serif;
     font-weight: 900;

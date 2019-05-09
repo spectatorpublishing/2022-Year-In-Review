@@ -473,9 +473,9 @@ const data = {
                     },
                     {
                         "title": "She has a no contact directive against her alleged rapist. Why do they still cross paths?",
-                        "author": "Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/04/university-insurance-rate-doubled-over-last-fiscal-year-in-part-due-to-influx-of-lawsuits-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PXKURAEQH5CGNJQRZZIBR3LUDA.jpg"
+                        "author": "Karen Xia",
+                        "link": "https://www.columbiaspectator.com/news/2019/03/02/she-has-a-no-contact-directive-against-her-alleged-rapist-why-do-they-still-cross-paths-12/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CEY67EQKBRAA5G2WN3ASOGQISA.jpg"
                     },
                     {
                         "title": "Amended lawsuit against former GS dean Tom Harford alleges Columbia knew of dean’s history of harassment",
@@ -619,7 +619,7 @@ const data = {
                         "title": "Lower-income undergraduate students are paying more and more to attend Columbia; wealthier students are paying less and less, federal data shows",
                         "author": "Jason Kao",
                         "link": "https://www.columbiaspectator.com/news/net-price-inequity/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5WK2NUBKVZDBDHZC5SD6QPSNLE.png"
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ICKHGSYXBVGD5HKSYFFDM5B2NQ.png"
                     },
                     {
                         "title": "Barnard students blindsided by unexpected charges at Primary Care",
@@ -1854,7 +1854,7 @@ const data = {
                         "title": "Lower-income undergraduate students are paying more and more to attend Columbia; wealthier students are paying less and less, federal data shows",
                         "author": "Jason Kao",
                         "link": "https://www.columbiaspectator.com/news/net-price-inequity/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5WK2NUBKVZDBDHZC5SD6QPSNLE.png"
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ICKHGSYXBVGD5HKSYFFDM5B2NQ.png"
                     },
                     {
                         "title": "Librarians, Scholars, and Spies: How a Trove of Chinese Ancestral Records Found Refuge on Columbia’s Shelves",

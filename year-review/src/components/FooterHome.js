@@ -15,42 +15,47 @@ const Names = styled.div`
   justify-content: space-evenly;
   @media only screen and (max-width: 767px){
     margin: 0 5vw;
+    flex-direction: column;
 `
 const Heading = styled.h3`
   text-align: center;
-  padding: 1rem 0;
+  margin: 1rem;
   @media only screen and (max-width: 767px){
     font-size: 1.8em;
  }
 `
 const Column = styled.div`
-  padding-top: 1rem;
-  padding-left: 1em;
+  margin-top: 1rem;
+  margin-left: 1em;
   @media only screen and (max-width: 767px){
-    padding-left: 0.5rem;
+    margin-top: 0;
+    width: 50%;
  }
 `;
+const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+`
 const RoleHeading = styled.h4`
-  margin: 0.8rem 0;
+  margin: 1rem 0;
   @media only screen and (max-width: 767px){
-    font-size: 1em;
+    margin: 1rem 5vw 0 5vw;
+    text-align: center;
  }
 `
 const Role = styled.div`
  color: ${props => props.theme.transparentWhite};
- padding-left: 0.5rem;
+ margin-left: 0.5rem;
  @media only screen and (max-width: 767px){
-    padding-left: 0;
+    margin-left: 0;
  }
 `;
 const Line = styled.h5`
   display: flex;
   flex-direction: row;
-  margin: 0.5rem 0;
+  margin-top: 0.5rem;
   @media only screen and (max-width: 767px){
-    //padding: 0px 10vw 15px 10vw;
     font-size: 1em;
-    //margin: 0;
  }
 `;
 
@@ -118,38 +123,68 @@ const footerHome = (props) =>{
 
         <Mobile>
           <Names>
-          <Column>
-            <RoleHeading>Designed By</RoleHeading>
+            
+          <RoleHeading>Designed By</RoleHeading>
+          <Row>
+            <Column>
             <Line>Shannon Hui,</Line> 
             <Role>Product Manager</Role>
+            </Column>
+            <Column>
             <Line>David Wang,</Line> 
             <Role>Product Designer</Role>
+            </Column>
+          </Row>
+          <Row continuation={true} >
+            <Column>
             <Line>Kevin Li,</Line> 
             <Role>Head of Product</Role>
-          </Column>
-
-          <Column>
-            <RoleHeading>Developed By</RoleHeading>
+            </Column>
+            <Column>
+            </Column>
+          </Row>
+          
+          <RoleHeading>Developed By</RoleHeading>
+          <Row>
+            <Column>
             <Line>Yulong Li,</Line> 
             <Role>Engineering Manager</Role>
+            </Column>
+            <Column>
             <Line>Amina Assal,</Line> 
             <Role>Developer</Role>
+            </Column>
+          </Row>
+          <Row continuation={true} >
+            <Column>
             <Line>Julie Song,</Line> 
             <Role>Developer</Role>
+            </Column>
+            <Column>
             <Line>Stacy Tao,</Line> 
             <Role>Developer</Role>
-          </Column>
-          <Column>
-            <RoleHeading>&nbsp;</RoleHeading>
+            </Column>
+          </Row>
+          <Row continuation={true} >
+            <Column>
             <Line>Wendy Wang,</Line> 
             <Role>Developer</Role>
+            </Column>
+            <Column>
             <Line>Yunsu Kim,</Line> 
             <Role>Developer</Role>
+            </Column>
+          </Row>
+          <Row continuation={true} >
+            <Column>
             <Line>Daniel Kim,</Line> 
             <Role>Developer</Role>
+            </Column>
+            <Column>
             <Line>Arsalaan Ansari,</Line> 
             <Role>Head of Engineering</Role>
-          </Column>
+            </Column>
+          </Row>
         </Names>
         </Mobile>
 
