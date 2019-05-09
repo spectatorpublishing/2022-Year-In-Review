@@ -82,16 +82,39 @@ clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 }
 `
 
+let EyeLogo = styled.img`
+  height: 8rem;
+  width: auto;
+`
+
+let MobileEyeLogo = styled.img`
+  height: 3rem;
+  width: auto;
+`
+
+let MobileSpan = styled.span`
+  letter-spacing: 0;
+`
 
 class PageIntro extends Component {
   render() {
+    let isEye = this.props.title.toUpperCase() === "THE EYE";
+
     return ([
       <Desktop>
         <TempHeader {...this.props}>
           <YIRButton>
             <ButtonToHome />
           </YIRButton>
-          <TempTitle>{this.props.title}</TempTitle>
+          <TempTitle>
+            <span>
+              {isEye && <EyeLogo 
+                src="https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J4UANNLBCVB67HGQOFHU5R6FRU.png" 
+                alt="The Eye logo"
+              />}
+              {this.props.title}
+            </span>
+          </TempTitle>
           <TitleBlurb>
               {this.props.description}
           </TitleBlurb>
@@ -100,7 +123,13 @@ class PageIntro extends Component {
       <MobileAndTablet>
           <MobileHeader {...this.props}>
             <MobileTitle>
-              {this.props.title}
+              <MobileSpan>
+                {isEye && <MobileEyeLogo 
+                  src="https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J4UANNLBCVB67HGQOFHU5R6FRU.png" 
+                  alt="The Eye logo"
+                />}
+                {this.props.title}
+              </MobileSpan>
             </MobileTitle>
           </MobileHeader>
       </MobileAndTablet>
