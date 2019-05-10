@@ -1828,7 +1828,7 @@ const data = {
         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VIGEOPL3GNFBVMCRCXNRPSZ5LU.jpg",
         sections: [{
                 "name": " Data Visualization",
-                "link": "#DataVisualization"
+                "link": "#Data-Visualization"
             },
             {
                 "name": " Graphics",
