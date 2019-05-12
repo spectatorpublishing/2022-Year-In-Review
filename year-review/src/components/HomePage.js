@@ -24,6 +24,7 @@ let LeftDiv = styled.div`
   align-items: flex-start;
   @media(max-width:991px){
     margin-top: 40vh;
+    margin-left: -20vw;
   }
 `
 let LeftTitleDiv = styled.div`
@@ -81,23 +82,23 @@ let SpecLogo = styled.img`
 
 const Wrapper = styled.div`
   @media(max-width:991px){
+    width: 100vw;
+    overflow: hidden;
   }
 `
 
-let CarouselWrapperWrapper = styled.div`
+let CarouselWrapper = styled.div`
   position: absolute;
   z-index: -1;
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-`
-
-let CarouselWrapper = styled.div`
-  position: relative;
-  width: 100vw;
   @media(max-width:991px){
-    width: 150vh;
-    margin-left: -50vh;
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    & * {
+      height: 100%;
+      object-fit: cover;
+    }
   }
 `
 
@@ -124,26 +125,24 @@ export default class HomePage extends Component {
           <MobileContainer>
             <HomePageContainer>
             <Wrapper>
-              <CarouselWrapperWrapper>
-              <CarouselWrapper>
-                <Carousel
-                  showArrows={false}
-                  showStatus={false}
-                  showThumbs={false}
-                  autoPlay={true}
-                  infiniteLoop={true}
-                  interval={4000}
-                  showIndicators={false}
-                  width={"100%"}
-                >
-                    {HomepagePhotos.map((el, i)=>
-                      <div key={i}>
-                        <img src={el} alt="carousel-i"/>
-                      </div>
-                    )}
-                  </Carousel>
-                </CarouselWrapper>
-              </CarouselWrapperWrapper>
+            <CarouselWrapper>
+              <Carousel
+                showArrows={false}
+                showStatus={false}
+                showThumbs={false}
+                autoPlay={true}
+                infiniteLoop={true}
+                interval={4000}
+                showIndicators={false}
+                width={"100%"}
+              >
+                  {HomepagePhotos.map((el, i)=>
+                    <div key={i}>
+                      <img src={el} alt="carousel-i"/>
+                    </div>
+                  )}
+                </Carousel>
+              </CarouselWrapper>
               </Wrapper>
               <LeftDiv>
                 <YearDiv>
