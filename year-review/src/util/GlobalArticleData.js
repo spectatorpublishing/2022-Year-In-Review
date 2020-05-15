@@ -2038,6 +2038,40 @@ const data = {
             }
             ]
         ]
+    },
+    "Covid": {
+        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JQWMSIYH3RFARAAOBOIOQXTK2I.jpg",
+        sections: [{
+                "name": "University Finances",
+                "link": "#university-finances"
+            },
+            {
+                "name": "Residents",
+                "link": "#residents"
+            },
+            {
+                "name": "Local Businesses",
+                "link": "#local-businesses"
+            },
+            {
+                "name": "Diversity",
+                "link": "#diversity"
+            },
+            {
+                "name": "Students",
+                "link": "#students"
+            }
+        ],
+        "blurb": "As Columbia grapples with the effects of COVID-19, its expansive role beyond promoting academic excellence has become strikingly clear. The University holds the power to shape the resources of its surrounding communities, and as an Ivy League institution and multi-billion-dollar corporation, its policies set precedents for institutions across the nation. Amid the struggle for healthcare access and financial security, Columbia wielded great influence over how students, faculty, and the West Harlem community has grappled with the effects of a public health crisis.",
+        "items": [{
+            "name": "Columbia braces for financial fallout as it grapples with response to pandemic",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3QRZ6JIRS5CZXG4WOPPXHBTIE4.jpg",
+                "blurb": "At the beginning of March, students were told to evacuate campus. Classes were moved online and students frantically left the city—the same city that would soon become the epicenter of the COVID-19 outbreak in the United States. And while the news came as a shock to many, public health experts say the University, along with other universities across the country, responded too slowly to the pandemic due to national mixed messaging and lack of accountability. Spectator’s graphics team compiled announcements from Ivy League and international universities. Its findings: U.S. schools failed to respond to the outbreak in a timely manner, responding slower than the international schools that faced outbreaks sooner.",
+                "articles": [{
+
+                }]
+
+        }],
     }
 }
 
