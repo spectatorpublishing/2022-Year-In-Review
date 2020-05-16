@@ -422,49 +422,29 @@ const data = {
         }
     },
     "News": {
-        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OEFZY3NDTFCQNHY2RG5LU4KOTE.jpg",
+        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JQWMSIYH3RFARAAOBOIOQXTK2I.jpg",
         sections: [{
-                "name": "Tenure",
-                "link": "#tenure"
+                "name": "Administration",
+                "link": "#administration"
             },
             {
-                "name": "Union",
-                "link": "#union"
+                "name": "Tessa Majors",
+                "link": "#tessa-majors"
             },
             {
-                "name": "Safety",
-                "link": "#safety"
+                "name": "Businesses",
+                "link": "#businesses"
             },
             {
-                "name": "Diversity",
-                "link": "#diversity"
+                "name": "Barnard",
+                "link": "#barnard"
             },
-            {
-                "name": "Money",
-                "link": "#money"
-            },
-            {
-                "name": "Administrators",
-                "link": "#administrators"
-            },
-            {
-                "name": "GS",
-                "link": "#gs"
-            },
-            {
-                "name": "Space",
-                "link": "#space"
-            },
-            {
-                "name": "Government",
-                "link": "#government"
-            }
         ],
-        "blurb": "From faculty sexual misconduct to administrative shifts within the School of General Studies, Spectator’s news team has compiled coverage of some of the top storylines that have driven student, faculty, and administrative discourse on campus. Below, find some of the most talked-about and top investigative stories from the past year:",
+        "blurb": "Universities are far more than just places for intellectual enrichment. They hold the power and influence to enact consequential change. Students, investors, staff, and administrators all have perspectives—some conflicting—of how Columbia should act as an Ivy League institution, multi-billion-dollar corporation, and ground-breaking research university. Spectator’s news team has compiled coverage of some of the top storylines that have driven discourse on and around campus. Below, find some of the most talked-about and top investigative stories from the past year:",
         "items": [{
-                "name": "Columbia faces onslaught of sexual misconduct allegations",
+                "name": "As higher-ed grapples with budget shortfalls, Columbia shapes the role of an educational institution",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N7HZME5DGVGQHDD4AIJ3ANG3LQ.jpg",
-                "blurb": "The summer saw Columbia face a high-profile lawsuit involving a former business school faculty member and a senior professor in her department, resulting in a million-dollar settlement. The fall semester began with another shocking lawsuit against the former dean of students in the School of General Studies, who was removed from his post soon after University administrators became aware of his misconduct, Columbia said in a statement. Around that time, a business school student publicly spoke out about allegations against a classmate, and claimed that she was not given proper accommodations and forced to see him unless she adjusted her own daily schedule. Behind the scenes, Columbia’s handling of allegations, particularly those against tenured faculty, proved to be unimaginably complex—many of those accused or found guilty remain on campus, facing few sanctions, and even continuing to teach students.",
+                "blurb": "As a university, Columbia must consider the ethics of offering academic programs with little job marketability. As a corporation, it must grapple with the challenges of receiving donations from those who create the same problems that Columbia’s research seeks to solve. As an institution spreading into neighboring communities in Morningside Heights and Manhattanville, it must understand its obligation to the people who have been displaced for the sake of an academic haven. And as Columbia is all of these things and more, there are millions of affiliates that contribute to the University community—but who deserves compensation for their labor?",
                 "articles": [{
                         "title": "Up against the invincible: A professor was convicted of sexual misconduct. Why is he still on campus? ",
                         "author": "Karen Xia and Khadija Hussain",
@@ -492,7 +472,7 @@ const data = {
                 ]
             },
             {
-                "name": "Columbia agrees to bargain with the graduate student union in landmark decision, ending years of back-and-forth",
+                "name": "University role in public safety called into question following death of Tessa Majors",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5N6I7QDU7JHNVOSBIBGKBT7JQI.jpg",
                 "blurb": "Since 2016, the graduate student union and the University have engaged in a tense legal battle, marked by months of protests, petitions, threats of legal action, and a weeklong strike that left students without teaching and research assistants a week before finals. In lieu of Columbia’s unwillingness to budge, the union announced that it would strike again in December 2018—a postdoctoral union had also formed and been verified at this time—to increase pressure on the University. Finally, days before the strike was authorized to begin, University President Lee Bollinger announced that Columbia would bargain with both unions, under the condition that they sign a bargaining framework including a no-strike provision until April 2020. The bargaining framework has since proven a significant point of contention for the graduate student union.",
                 "articles": [{
@@ -528,9 +508,9 @@ const data = {
                 ]
             },
             {
-                "name": "Hate crimes, racist harassment incite discussion of campus safety",
+                "name": "Businesses confront the effects of Columbia’s expansion",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OAP5KY7RONBWXKVHSXOM74MFJY.jpg",
-                "blurb": "After a series of incidents involving racist, and particularly anti-black, harassment on Columbia and Barnard’s campuses, hundreds of students called into question the University’s role in responding to bias as an academic institution. Many pointed to the Core Curriculum as a means of spreading white supremacist ideologies, while others also referenced both Columbia and Barnard’s failure in explicitly labeling various incidents as racist. Further, citing a lack of transparency from the University writ large, students of color emphasized that it often does not feel as though administrators are on their side.",
+                "blurb": "Ongoing construction for the buildings for Columbia Business School on the Manhattanville campus has left local businesses in a dire state. Two businesses closed down, and others report revenue declines of 30 percent. Over the years, the University has come under scrutiny for turning a blind eye to the community, and while it has contractual obligations, many community leaders say they are not enough.",
                 "articles": [{
                         "title": "Demands for transparency and equitable campus security erupt following Barnard Public Safety viral video",
                         "author": "Marianna Najman-Franks",
@@ -570,9 +550,9 @@ const data = {
                 ]
             },
             {
-                "name": "Push for faculty diversity grows, but financial shortages slow progress",
+                "name": "Barnard faces heat from workers’ unions, public safety",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NMAJDV44ONDJHKNYEZ7N6NLJB4.jpg",
-                "blurb": "The semester started with a landmark decision—the official approval of Columbia’s first African American and African Diaspora studies department, a significant move in increasing dedication to diversity in academia. With the release of a whopping 145-page report on the status of female and underrepresented minority faculty members within Arts and Sciences, the Policy Planning Committee continued to spark conversation across the University regarding racism, harassment, and discrimination in academia. Though Columbia as a university has dedicated $185 million in funds to hiring diverse faculty, the report showed that departments will require substantial cultural and policy-level change in order to rectify disparities caused by lack of resources for faculty childcare and nonexistent grievance procedures to report instances of harassment, among other issues. As Provost John Coatsworth is set to step down at the end of June, questions regarding resources for faculty, pipeline programs for diversity, and faculty benefits will be transferred to a new administrator for the first time in nearly a decade.",
+                "blurb": "When six Barnard Public Safety officers physically restrained Alexander McNab, CC ’19, against a counter in the Milstein Center for failing to show identification at the Barnard gates last spring, students and administrators alike called for a thorough review of the college’s campus safety policies. As it makes changes to these policies, however, the college has faced criticism from employees who say that they don’t see a need for the same changes. Meanwhile, years of back-and-forth involving unannounced policy changes, contract violations, and skyrocketing legal fees have worsened tensions between Barnard and the union that represents over 200 employees of the college—including public safety, dining, and housekeeping.",
                 "articles": [{
                         "title": "Your professors pay more for childcare than you do for tuition. 4 of them explain what this means for their lives, and your education.",
                         "author": "Noah Percy",
@@ -605,186 +585,6 @@ const data = {
                     },
                 ]
             },
-            {
-                "name": "Columbia and Barnard struggle to achieve vision of socioeconomic diversity ",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YP4TF6HLF5HWVNMJ44SP5ESU3U.jpg",
-                "blurb": "While both Columbia and Barnard tout a commitment to socioeconomic diversity, statistics show great disparities between this vision and reality. More than half of Barnard students are from the top 10 percent of America’s income levels, while Columbia continues to accept more students from the top 1 percent than from the bottom 20, according to data from the NYT. Through increased fundraising and alumni engagement, Barnard administrators said that the college hopes to meet greater student need, but hidden costs—particularly in relation to textbooks and health services—spark calls from students for greater attention to basic resources. In overlooking public schools in its own backyard and failing to expand its recruitment efforts, Columbia fails to address diversity at its root.",
-                "articles": [{
-                        "title": "Barnard pushes to grow alumni engagement as financial aid fundraising remains millions short of goal",
-                        "author": "Heather Leopere",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/14/barnard-pushes-to-grow-alumni-engagement-as-financial-aid-fundraising-remains-millions-short-of-goal-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JD4V6HINEFEYDCSWNEDC63MH6E.jpg"
-                    },
-                    {
-                        "title": "Lower-income undergraduate students are paying more and more to attend Columbia; wealthier students are paying less and less, federal data shows",
-                        "author": "Jason Kao",
-                        "link": "https://www.columbiaspectator.com/news/net-price-inequity/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ICKHGSYXBVGD5HKSYFFDM5B2NQ.png"
-                    },
-                    {
-                        "title": "Barnard students blindsided by unexpected charges at Primary Care",
-                        "author": "Susu Rawwagah",
-                        "link": "https://www.columbiaspectator.com/news/2018/09/27/barnard-students-blindsided-by-unexpected-charges-at-primary-care/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YCMPBLHRZVAUBE2Q4PF4FYFCDI.jpg"
-                    },
-                    {
-                        "title": "Off the radar: At public schools where Columbia doesn’t recruit, applicants face uphill battle",
-                        "author": "Khadjia Hussain",
-                        "link": "https://www.columbiaspectator.com/news/2018/09/20/off-the-radar-at-public-schools-where-columbia-doesnt-recruit-applicants-face-uphill-battle/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YP4TF6HLF5HWVNMJ44SP5ESU3U.jpg"
-                    },
-                    {
-                        "title": "Nearly half of Barnard courses fail to list textbook prices in violation of federal law",
-                        "author": "Susu Rawwagah",
-                        "link": "https://www.columbiaspectator.com/news/2018/09/19/nearly-half-of-barnard-courses-fail-to-list-textbook-prices-in-violation-of-federal-law/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J374VWJQCVHQ3ERAZJPNGX4MRE.jpg"
-                    },
-                    {
-                        "title": "CC, SEAS tuition to be most expensive in the nation at over $62,000",
-                        "author": "SHUBHAM SAHARAN",
-                        "link": "https://www.columbiaspectator.com/news/2019/05/02/cc-seas-tuition-to-be-most-expensive-in-the-nation-at-over-62000/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NVLNRLVLUZB57LB3YQD7NXNSLA.jpg"
-                    },
-                ]
-            },
-            {
-                "name": "Barnard surges forward under President Sian Beilock, new administrators",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EKD3OT64JBF2JDN4EMXBQSLCC4.jpg",
-                "blurb": "The abrupt departure of former President Debora Spar led to significant shifts in administrative direction within Barnard, including a new permanent dean of college, director of the Athena Center, and the completion of the Milstein Center for Teaching and Learning. Though certain initiatives involving faculty diversity saw slowed progress, the college made significant strides in hiring administrators for the coming year.",
-                "articles": [{
-                        "title": "Barnard names Ariana González Stokas, TC ’10, as inaugural Vice President for Diversity, Equity and Inclusion",
-                        "author": "HEATHER LOEPERE",
-                        "link": "https://www.columbiaspectator.com/news/2019/05/02/barnard-names-ariana-gonzalez-stokas-tc-10-as-inaugural-vice-president-for-diversity-equity-and-inclusion/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4C2MFRZLZ5AKDC7JWDDGZO5NTE.jpg"
-                    },
-                    {
-                        "title": "The next director of the Athena Center: Umbreen Bhatti, BC ’00, lawyer, journalist, media innovator",
-                        "author": "Marianna Najman-Franks",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/25/the-next-director-of-the-athena-center-umbreen-bhatti-bc-00-lawyer-journalist-and-social-media-mogul/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C2BSPFVCMRHJPEXC4VL3LUAL2E.jpg"
-                    },
-                    {
-                        "title": "Barnard names Leslie Grinage as Dean of the College",
-                        "author": "Heather Loepere and Marianna Najman-Franks",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/08/barnard-names-leslie-grinage-as-dean-of-the-college/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BYS62WUCZJCFRC7OXDFKXNE3IU.jpg"
-                    },
-                    {
-                        "title": "Finalists for Barnard VP of Diversity, Equity, and Inclusion to visit campus this week",
-                        "author": "Valentina Rojas-Posada",
-                        "link": "https://www.columbiaspectator.com/news/2019/03/11/finalists-for-barnard-vp-of-diversity-equity-and-inclusion-to-visit-campus-this-week/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/F2S4LG4R3BC5JLCXY4TU56LZEE.jpg"
-                    },
-                    {
-                        "title": "With limited involvement from adjuncts, Barnard diversity initiatives fail to reach full potential",
-                        "author": "Shubham Saharan",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/13/with-limited-involvement-from-adjuncts-barnard-diversity-initiatives-fail-to-reach-full-potential/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7EZZPV3HZFFEXDI2RKJQ6YPGMM.jpg"
-                    },
-                    {
-                        "title": "Milstein Center opens at Barnard after 3 years of construction",
-                        "author": "Ainsley Bandrowski",
-                        "link": "https://www.columbiaspectator.com/news/2018/09/05/milstein-center-opens-at-barnard-after-3-years-of-construction/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EKD3OT64JBF2JDN4EMXBQSLCC4.jpg"
-                    }
-                ]
-            },
-            {
-                "name": "School of General Studies faces year of transition under new dean",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HOYGWHXHSZHPJD6LLGZUPA5DGE.jpg",
-                "blurb": "With the death of a beloved dean, changes of decades-old registration policies, and the sudden removal of a prominent campus administrator, General Studies saw a number of shifts over the course of this academic year. Unable to provide need-blind financial aid, the school’s students have faced perennial issues regarding food security, lack of housing, and other unfulfilled financial needs, concerns that Dean Lisa Rosen-Metsch has promised to address head on.",
-                "articles": [{
-                        "title": "At GS, known for close relationships between students and administrators, dean’s removal raises new concerns",
-                        "author": "Emma James and Ariana Nakhla",
-                        "link": "https://www.columbiaspectator.com/news/2018/10/15/at-gs-known-for-close-relationships-between-students-and-administrators-deans-removal-raises-new-concerns/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HOYGWHXHSZHPJD6LLGZUPA5DGE.jpg"
-                    },
-                    {
-                        "title": "Columbia ends decade-old debt exemption policy for GS student veterans, threatening registration",
-                        "author": "Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2018/11/15/columbia-ends-decade-old-debt-exemption-policy-for-gs-student-veterans-threatening-registration/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/H5LEJSZODFBPZJMMWS6ONEHHIM.jpg"
-                    },
-                    {
-                        "title": "Fundraising, financial aid, and female veteran support: GS Dean Lisa Rosen-Metsch’s first year at the helm",
-                        "author": "Karen Xia",
-                        "link": "https://www.columbiaspectator.com/news/2018/12/21/fundraising-financial-aid-and-female-veteran-support-gs-dean-lisa-rosen-metschs-first-year-at-the-helm/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CKXOXJVJNFGODLNJ5E6AMEV45E.jpg"
-                    },
-                    {
-                        "title": "Peter Awn, whose compassion and charisma shaped the identity of GS, has died",
-                        "author": "Karen Xia and Emma James",
-                        "link": "https://www.columbiaspectator.com/news-features/2019/02/18/peter-awn-whose-compassion-and-charisma-shaped-the-identity-of-gs-has-died-3/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7INBDAVAQREFDMG5NEWMGB7WHM.jpg"
-                    },
-                    {
-                        "title": "Close to 40 percent of non-joint or dual-program GS students experience food insecurity, survey shows",
-                        "author": "Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2019/03/28/close-to-40-percent-of-non-joint-or-dual-program-gs-students-experience-food-insecurity-survey-shows/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EP4JYN5XGZCL5AGMSGBWSZWA3A.jpg"
-                    },
-                ]
-            },
-            {
-                "name": "In an increasingly crowded city, Columbia faces growing pains",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OEFZY3NDTFCQNHY2RG5LU4KOTE.jpg",
-                "blurb": "Even as Columbia creeps into West Harlem with over 1.2 million square feet of Manhattanville campus, University faculty and administrators are calling for more. The undergraduate population grows significantly each year, requiring an increase in course offerings and usable classroom space, yet faculty cite that neither seem to be available. As need begins to outpace available resource, academic weeks begin to lengthen, and administrators turn to renovations of on campus space—namely Uris Hall—for potential solutions. ",
-                "articles": [{
-                        "title": "Long-awaited proposal for Uris renovations reveal details of expansive space overhaul",
-                        "author": "Noah Percy and Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2019/03/07/long-awaited-proposal-for-uris-renovations-reveal-details-of-expansive-space-overhaul-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CXQZYZ6GSVFATFHR3S4HL6E7AM.jpg"
-                    },
-                    {
-                        "title": "“No solution in sight”: Classroom shortage grows, promising to lengthen academic week",
-                        "author": "Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/13/no-solution-is-in-sight-classroom-shortage-grows-promises-to-lengthen-academic-week/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DTDVQLHJS5H3LCPERSGQHUXPFE.jpg"
-                    },
-                    {
-                        "title": "‘The space is embarrassing:’ Outdated facilities leave bio labs without basic necessities",
-                        "author": "Ariana Nakhla",
-                        "link": "https://www.columbiaspectator.com/news/2018/10/04/the-space-is-embarrassing-outdated-facilities-leave-bio-labs-without-basic-necessities/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KHS52LCMQJGI3J6TZK56NKOPOE.jpg"
-                    },
-                    {
-                        "title": "The Forum, Columbia’s third Manhattanville building, opens on new campus",
-                        "author": "Grace El-Fishawy",
-                        "link": "https://www.columbiaspectator.com/news/2018/09/27/the-forum-columbias-third-manhattanville-building-opens-on-new-campus/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DROMCMX7HZHPZKVRT2MAZPWXKE.jpg"
-                    }
-                ]
-            },
-            {
-                "name": "Student government faces draws scrutiny with unusual entrance into spotlight",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/64ROH3NG7BDRDGGTUQPGHLPKGE.jpg",
-                "blurb": "Though student representatives cite significant frustrations regarding their relationship with administrators and faculty, particularly within the University-wide Senate, CCSC in particular has recently established a stronger presence among the student body writ large. The Boycott, Divestment and Sanctions movement returned to the council spotlight, inciting threats of resignation from representatives during a four-hour-long debate that culminated in an unprecedented secret ballot vote. Four representatives ultimately did resign following weeks of controversy surrounding election violations and lack of transparency surrounding the Columbia Elections Commission. ",
-                "articles": [{
-                        "title": "Ambiguity around CEC elections rules fuel weeklong controversy between candidates, divides council ",
-                        "author": "Valeria Escobar and Madison Andrus",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/18/ambiguity-around-cec-elections-rules-fuel-weeklong-controversy-between-candidates-divides-council/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3MCM2FOB2ZBNZLSEGGILLOJ2WY.jpg"
-                    },
-                    {
-                        "title": "4 students resign from CCSC following a failed impeachment vote",
-                        "author": "Madison Andrus",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/15/4-students-resign-from-ccsc-following-a-failed-impeachment-vote/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BDAQFHFYUFAKPNBTDKOXBKW24U.jpg"
-                    },
-                    {
-                        "title": "CCSC votes down BDS referendum by secret ballot following 4 hours of tense debate",
-                        "author": "Emma Buzbee",
-                        "link": "https://www.columbiaspectator.com/news/2019/03/11/ccsc-votes-down-bds-referendum-by-secret-ballot-following-4-hours-of-tense-debate-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/64ROH3NG7BDRDGGTUQPGHLPKGE.jpg"
-                    },
-                    {
-                        "title": "Behind closed doors: Pivotal University Senate actions hidden from public eye",
-                        "author": "Ashleigh Garrison",
-                        "link": "https://www.columbiaspectator.com/news/2018/12/06/behind-closed-doors-pivotal-university-senate-actions-hidden-from-public-eye-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4PDIKA52DBG2DDLLZOIDCUVK6E.jpg"
-                    }
-                ]
-            }
         ]
     },
     "Eye": {
