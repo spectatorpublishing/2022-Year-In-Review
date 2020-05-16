@@ -1,5 +1,9 @@
 export const NavItems = [
   {
+    "name": "COVID19",
+    "link": "/covid"
+  },
+  {
     "name": "News",
     "link": "/news"
   },
@@ -15,10 +19,10 @@ export const NavItems = [
     "name": "Photo",
     "link": "/photo"
   },
-  {
-    "name": "Design",
-    "link": "/design"
-  },
+  // {
+  //   "name": "Design",
+  //   "link": "/design"
+  // },
   {
     "name": "Sports",
     "link": "/sports"

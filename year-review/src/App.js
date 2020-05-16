@@ -37,7 +37,7 @@ class App extends Component {
     const sports = () => <SportsContainer data = {data.Sports} />
     const ane = () => <AEContainer data = {data["A&E"]}/>
     const spectrum = () => <SpectrumContainer data = {data.Spectrum} />
-    const covid = () => <COVIDContainer data = {data.Covid} />
+    const covid = () => <COVIDContainer data = {data.News} />
 
     return (
       <PreloadProvider>
