@@ -1146,12 +1146,12 @@ const data = {
         ]
     },
     "Opinion": {
-        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CAIX72WKZVGTDOGNIGL4JTWGAA.jpg",
-        "blurb": "Within the opinion pages of Spectator, members of the Columbia community help reflect the conversations we’re having in our classrooms, dorm rooms, clubs, and dining halls. The content within this section is meant to help contextualize our experiences here as they relate to the most pressing and vulnerable topics our community grapples with.",
+        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SLKRYBOP4FHWVABUCFXNPNIDGU.gif",
+        "blurb": "The editorial pages of the Spectator provide a comprehensive look into the most pressing, vulnerable topics affecting the Columbia community. This content aims not only to engage the reader but also to further discussion and catalyze action.",
         "items": [{
                 "name": "OP-EDS",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G3QRJBUXHJD5JCLBQF3QZ5I52I.jpg",
-                "blurb": "Over the past year, we have heard from you on issues ranging from union bargaining, studying abroad, the college admissions scandal, to the #MeToo movement, study spaces on campus, and more. Whether it be protesting Barnard’s dining hall food providers or engaging in discourse on the Core, the Op Eds section is where your voice is heard. ",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4UACPP7UIFEYHHSUR5QKSNDOHA.jpeg",
+                "blurb": "From pieces that expose the effects of Columbia’s impact on gentrification and the University’s policies surrounding sexual assault to articles that highlight restorative justice in the wake of Barnard first-year Tessa Majors’ death and COVID-19-induced discrimination, op-eds are your conduit for interpreting justice.",
                 "articles": [{
                         "title": "GenderFuck and the defense of trans joy",
                         "author": "Mo Crist",
@@ -1245,9 +1245,9 @@ const data = {
                 ]
             },
             {
-                "name": "LOVE, ACTUALIZED",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AIZLIXGDGFAGFGAR5L2HHISRZM.png",
-                "blurb": "Spectator Opinion section’s ongoing series on love, dating, sex, and relationships and all the ways that these manifest at Columbia. In these pieces, students have covered everything from romantic love to love between sisters to loving yourself. ",
+                "name": "[100 words]",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4KTNFECJOFAR5FGXFHTDDNZV74.jpg",
+                "blurb": "Opinion’s new project, [100 words], aims to publish our readers’ concise and engaging 100-word responses to some of the most pressing questions affecting our community.",
                 "articles": [{
                         "title": "To the only white boy I’ve loved before",
                         "author": "Kyra Ann Dawkins",
@@ -1300,8 +1300,8 @@ const data = {
             },
             {
                 "name": "Discourse & Debate",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4EGFXX6ILJAPTM5QU72C3AFUE4.png",
-                "blurb": "Our bimonthly platform in which a small group of contributors to engage with important questions and issues relevant to campus life. Over the past year, contributors have reckoned with questions of sexual assault, wealth disparity, Columbia’s stress culture, and the role of the University Senate. ",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TFDXCK62ENG65LVAS46KI6F35Y.png",
+                "blurb": "Our Discourse and Debate platform allows a small group of contributors to engage with important questions and issues relevant to our campus community. In the past year, we grappled with issues ranging from our curriculum and identity-based discrimination to Columbia’s COVID-19 response and the morality of our presence in New York City.",
                 "articles": [{
                         "title": "Discourse & Debate: How do Columbia’s wealth demographics affect student life?",
                         "author": "Ufon Umanah, Jeremy Mack, Tiffany Dimm, Jimmy Quinn, and Tova Ricardo",
@@ -1330,105 +1330,105 @@ const data = {
             },
             {
                 "name": "Columns",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TXOX2S4IYREBBOD5BH4DXST2VU.png",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QUBVGUVW2RGWRN75ZBAZD5TAKM.jpg",
                 "items": [{
-                    "title": "Opening the box of smelly dumplings",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JW6DJYNU7ZDBRFWIZTN63PEOFQ.jpg",
+                    "title": "Did you read the subtitles?",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/45KHUSK4SVBPRDMMULGIACKHZA.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/S2662Y4XSRHLRLAVSOZQSONXQ4.png",
-                    "title": "“It was the little things that instilled a sense of self-hatred in me growing up: how none of the white kids could understand my parents’ accent or my small eyes and flat face; how I was expected to be good at math (I’m not); how they would look at the smelly dumplings in my Tupperware with disgust, and I would bury them at the bottom of my backpack, face burning hot with shame.”",
+                    "title": "“The fact that the urgent messages of class delivered by “Parasite” have become increasingly faint in light of endless memes of Joon Ho posing his statuettes to make out is symptomatic of the greater triviality of Asian culture on campus. Beyond our food, music, and fashion, how seriously is our community willing to confront what it truly means to be Asian?”",
                     "url": "https://www.columbiaspectator.com/opinion/2018/09/24/opening-the-box-of-smelly-dumplings/",
-                    "author": "Chop Suey | Victoria Hou"
+                    "author": "Kimchi Fridge | Philip Jang"
                 }, {
-                    "title": "It’s just disordered eating",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7DW6KY22FFTXMCVW775DECW4I.jpg",
+                    "title": "Columbia should allow economics majors to graduate early to help insurance companies exploit sick patients",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3ADCVQI2ZNF23PQZBDDVVBXUEQ.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PCDD6JNWRJGYVEZ2Z72OOHDX7A.jpg",
-                    "title": "It’s just disordered eating“Many of the traits that helped us get into Columbia—a drive for excellence, high levels of self-discipline, a sense that we can determine the outcome of any project we put our minds to, and all those other fun Type A personality traits—are also the traits that, given the right circumstances, allow students to develop disordered eating with varying ranges of severity.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2018/09/26/its-just-disordered-eating-2/",
-                    "author": "I Do Indeed Give a F*** about the Oxford Comma | Sarah Fornshell"
+                    "title": "“Anyway, I think it’d be nice if New York City cheered from windows and rooftops for us, just like they do for those medical workers. It’d really warm my heart if New Yorkers of all ages recognized the moral sacrifices we have to make every day to ensure that the people benefitting from this crisis are benefitting even more. Seriously! What would the world look like if people actually paid reasonable prices for their healthcare like they do in all the other developed countries in the world? We need to make sure that doesn’t happen.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2020/04/28/columbia-should-allow-economics-majors-to-graduate-early-to-help-insurance-companies-exploit-sick-patients/",
+                    "author": "The Retired Sellout | Canwen Xu"
                 }, {
-                    "title": "Peace at the eleventh (therapeutic) hour",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VJUOERXVV5ECNHIPYC2PA7MP6U.jpg",
+                    "title": "My existence isn’t always resistance (and that’s OK)",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6WJJGMAPDRFDPLMPDKFIIJHJNQ.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EC7SCIMBUNAJLM5LKRF6IIL2BM.png",
-                    "title": "“Implicitly saying I need help to pay for insurance to Columbia didn’t feel amazing, either. But it did work. Naturally, I am now an eager help-needer, because asking for help has only strengthened me.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2018/12/05/peace-at-the-eleventh-therapeutic-hour/",
-                    "author": "The Bitching Hour | Harmony Graziano"
+                    "title": "“What I hate more than that has been the co-opting of black movements and the continued simplification of what it means to be revolutionary. The pre-professional blacks are not revolutionary. Wearing a t-shirt that says “Black by Popular Demand” which you paid $30 for is not revolutionary. Afropunk tickets are not revolutionary. A bunch of black people simply standing together is not revolutionary. Stop trying to make it revolutionary. It doesn’t have to be. Black is not innately revolutionary.That’s simplistic.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/10/02/my-existence-isnt-always-resistance-and-thats-ok/",
+                    "author": "Transatlantic Trade | Sabina Jones"
                 }, {
-                    "title": "On personal tragedy in the public space",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2BJ7JBTK6VCE7OX26ZXSWP7CYI.jpg",
+                    "title": "Unpacking our campus through Kobe Bryant's legacy",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N7JQUOC7LBHWJAE7PF22HQNDPQ.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CSHPFKTJNZEGPO7Q2PXJXFVWMA.jpg",
-                    "title": "“Back in Parkland, our new reality is an unspoken and constantly looming presence. We are all anxious, we are all paranoid, and, therefore, this fact of our lives does not have to be explained. Here in the Barnard and Columbia community, on the other hand, my restless behavior and strange phobias are exactly that: strange.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2018/09/13/on-personal-tragedy-in-the-public-space/",
-                    "author": "Debbie Downer | Isabelle Robinson"
+                    "title": "“By acknowledging the complex realities of Kobe Bryant’s past, I am able to question why I had trouble with the idea that successful, talented, and “good” people are capable of perpetrating sexual violence. On our campus, nearly one in four students experience sexual violence after matriculating to Columbia, with women, non-binary, trans, and queer students being especially vulnerable. Yet the answer to who the perpetrators are seems to elude us in public discourse.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2020/02/26/unpacking-our-campus-through-kobe-bryants-legacy/",
+                    "author": "Intersectionali-Tea | Kwolanne Felix"
                 }, {
-                    "title": "Bargaining towards acceptance",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OVEYVGU2JBCLNJQ3SOR2W7PATA.jpg",
+                    "title": "Don't throw out my Legos",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GP5OPLHUWZDBREN26HXCQOKYDE.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UQ2VNLNPGVARJO72ATRJ3BTQPA.jpg",
-                    "title": "“The right to negotiate cannot be disputed, it seems to me, unless one opposes collective bargaining in general. The students seeking to bargain perform much work vital to the operation of their respective universities and should be treated accordingly.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2018/09/13/bargaining-towards-acceptance/",
-                    "author": "Alethophilia | Shane Brasil-Wadsworth"
+                    "title": "“All I’ve really been doing is hoping that at the end of this, even if I do eventually leave the house, I don’t abandon my desire to redefine home and space with my family. All I can ask is that I have a space to call my own within that because I want to move out, but I don’t want to move on. Don’t throw out my legos just yet.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2020/04/03/dont-throw-out-my-legos/",
+                    "author": "This is Not a Swan Song | Zawareen Zakaria"
                 }, {
-                    "title": "Yes, I Juul. Mind your business. ",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RFQU6XEJLRDKXA5ZHNWG276K7A.jpg",
+                    "title": "Being free in COVID-19",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OLBBZMHB2RG37K54RIPEGR2MFY.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZGRN6FVDU5GZZCLBLPPJIPXMBY.jpg",
-                    "title": "“I don’t blame people for wanting a hit. Juulia’s LED strobe light shines out like a beacon of hope in the dark corners of the Columbia bar scene. I’ve become Juulius Caesar and everyone—even those I least suspect—wants a piece. Et tu, Brute?”",
-                    "url": "https://www.columbiaspectator.com/opinion/2018/09/28/yes-i-juul-mind-your-business/",
-                    "author": "A Girl and her Juul | Anna Lokey"
+                    "title": "“With most students away from campus, I’ve now strangely found myself in the perfect situation to push my gendered boundaries, as my social anxiety has lost its most common triggers. I’ve taken advantage of the opportunity, finally incorporating more overtly femme clothing—like skirts and dresses—into my regular warm-day rotations. It has honestly felt incredible wearing clothing that I have eyed for ages but been too afraid to try because of traditional gender roles. I am lucky that I can chase that feeling as a distraction from the current world situation.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2020/04/12/being-free-in-covid-19/",
+                    "author": "Gender Troubles | Danielle Kempf"
                 }, {
-                    "title": "It takes a village",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Y626ZB4HTVBAZFURTW5VW5KB3Q.jpg",
-                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RSUR4PPYWVBBDJDQ67POS5E3EY.jpg",
-                    "title": "“Students and employees alike, we are surrounded by resilient people here and back home. The pride I see within their hearts and their eyes is something I will hold on to forever; don’t deprive yourself of the power of witnessing that pride. Those moments have the capability of reminding you of the village that it took to get you here.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2018/09/17/it-takes-a-village/",
-                    "author": "Tex-Mex Near You | Maria Castillo"
+                    "title": "The restorative benefits of banana bread",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2IXCYB4WQBDT3DXR5JXX4BAGIA.jpg",
+                    "back_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OIRNLNI7ANA2ZGAFA2UJXSAOK4.png",
+                    "title": "“Domesticity shouldn’t be gendered. I learned how to cook in my dad’s kitchen, with our family. He showed me how to mix cinnamon and vanilla into beaten eggs, and fry soaked bread delicately in a pan greased with whipped Breakstone’s Butter. My dad has the same energy as Liam Neeson’s character in “Taken,” yet he knows how to build a family. He knows how to make a space feel like home.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2020/02/19/the-restorative-benefits-of-banana-bread/",
+                    "author": "Sugar, spice, and amateur advice | Natalia Queenan"
                 }, {
-                    "title": "When words aren’t enough",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/B6RNHORFG5GPTOPN36RGGQU3SU.jpg",
+                    "title": "COVID-19 has urged seniors to focus on what they’ve lost. Here’s a different perspective",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YPE5VXXAGVCRFHCXMB4SFW7FB4.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EO2Y4C766FDHDJQTHKJA6OAKNY.jpg",
-                    "title": "“In moments like these, I have realized that nothing will ever be enough. Not the emails, the copy-pasted condolences, or the litany of phone numbers thrown our way again and again for us to call. Not even my own words will bring me the “The End” that I desperately crave.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2018/10/19/when-words-arent-enough/",
-                    "author": "The Lyricism of Marginality | Amy Gong Liu"
+                    "title": "“If I could go back and change my class year (perhaps kicking my way out of the womb prematurely to make it with the class of 2019), I truly would not. I’ve witnessed my peers plant seeds of growth. I’ve seen how our shaky beginning in fall 2016 reaped activists who always resiliently advocate for justice despite adversity. I’ve witnessed them create, innovate, and heal together, and I know now that we have the capacity to continue to do this wherever we are in the future.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2020/04/07/covid-19-has-urged-seniors-to-focus-on-what-theyve-lost-heres-a-different-perspective/",
+                    "author": "Shot of Espresso | Rasha Biary"
                 }, {
-                    "title": "On quitting track and running from who I thought I’d always be",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LXE2HLEOIFBNVOEB7SKMXOLGEY.jpg",
+                    "title": "Dear Asian members of the Columbia community",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/I7IDY27VJNBLDGL4DTLC6LQKHY.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/H47SRY26DJHMVJYZNZAOA53GHI.jpg",
-                    "title": "“After two years of competing for the Columbia track team, two years of working the hardest I ever have at something just to be let down again and again, two years of crying to my parents over every holiday break and wishing my college years away, I decided to quit the one thing I thought would give me what I wanted most: to belong.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2018/09/19/on-quitting-track-and-running-from-who-i-thought-id-always-be/",
-                    "author": "Distance May Vary | Nora May McSorley"
+                    "title": "“The hints were out there for us all to see. Where my boyhood neighbors spray-painted “FUCK THE ARABS” on my family’s driveway, our peers at Columbia scribble “Wuhan Isolation Area” in Chinese in Butler. Where friends from my childhood avoided me, undoubtedly on the advice of suspicious parents, hate is today manifested in Asian children being stabbed (yes with a knife).”",
+                    "url": "https://www.columbiaspectator.com/opinion/2020/04/10/dear-chinese-students-from-your-muslim-peer/",
+                    "author": "The Native | Mohammad Salhut"
                 }, {
-                    "title": "Explore the world beyond the ivy-covered walls",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/E266HXM2OVEOFGPPS3JDGUY6JU.jpg",
+                    "title": "What does it mean to kiss my fraternity brother?",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AI3G6WZASRFTXHPAZGBGCBZQQI.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3CAXNT6CMRFQ7OKXLQILL2O5XE.jpg",
-                    "title": "“Choosing not to engage with Harlem’s current community only increases tension between Columbia and Harlem by perpetuating the impression that we’re just a bunch of out-of-touch Ivy Leaguers who are too apathetic to care about Columbia’s impact on Harlem.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2018/11/12/explore-the-world-beyond-the-ivy-covered-walls/",
-                    "author": "Past the Present | Noah Kulick"
+                    "title": "“It’s easy to get absorbed in the endless checklist of our lives, but as my cursor blinks back at me, I get lost imagining the sequence that always repeats when winter break rolls around. Scanning my ticket and boarding the plane that will take me to where I have always called home. Walking past families bustling to their gates with their young children in tow, I sometimes wonder if these families ever consider where else their children might call home someday.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2020/02/24/home-is-out-there/",
+                    "author": "Colon, Closed Parentheses | Prem Thakker"
                 }, {
-                    "title": "CPS is here for you—in three weeks",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SOYHFVU2TBENXCNOASVNCAOJMU.jpg",
+                    "title": "What does it mean to kiss my fraternity brother?",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RAF6532FX5B5FNGELJAMQMUTUY.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JXZUI24UAVB6DNBLMICPKQ665I.gif",
-                    "title": "“When you’re mentally unstable, it’s easy to doubt yourself and believe that everything you’re feeling is in your head. Giving someone who has expressed a need for help such a long wait time not only gives that person the chance to cancel their appointment, but also forces the Columbia administration to rely on the fact that students will show up to their far-off appointments.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2018/10/18/cps-is-here-for-youin-three-weeks/",
-                    "author": "Wholesome Content | Katie Santamaria"
+                    "title": "“But why do I ask this question? We live in a society, and that society associates certain behaviors with certain labels by convention. Yet donning the label “gay,” awarded by one practice, inevitably shapes all future action. Therefore, my question indicates the pressures that move us toward certain labels shape our expressions of love, and, at worst, erode the love itself. To anchor ourselves amid these pressures, we ought to fully imbue each kiss with meaning and never kiss without it.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2020/04/09/what-does-it-mean-to-kiss-my-fraternity-brother/",
+                    "author": "Minded Moment | Theodore Michaels"
                 }, {
-                    "title": "Open your doors for others on Thanksgiving",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DBL3MWCR5VFAVJH25TO2VN3JQM.jpg",
+                    "title": "Man in Hungarian Pastry Shop writes MFA thesis based on you",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IUQIYOW6GVA4RELQSXA27MJCJU.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZTQMW5E6YVH2DHG4JXZSSKYUG4.jpg",
-                    "title": "“Although Thanksgiving is meant to bring communities together, Thanksgiving break only shows them how left out of the community they really are.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2018/11/16/open-your-doors-for-others-on-thanksgiving/",
-                    "author": "Different Places, Different People, Different Perspectives | Kevin Petersen"
+                    "title": "“Although you have long, straight brown hair, Elliot has elected to give the character dyed blue hair that “misbehaves” and “falls softly like rain” across your face. Your order of chocolate cake and chai tea has become a metaphor for your character’s existential dread—a dread that can only be alleviated by falling in love with the male protagonist, a character coincidentally also named Elliot.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/11/06/man-in-hungarian-pastry-shop-writes-mfa-thesis-based-on-you/",
+                    "author": "The Invisible Hand | Venice Ohleyer"
                 }, {
-                    "title": "Not like the other sell-outs",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PJOCD2HXBRAEJI6QIUG7SHOQFU.jpg",
+                    "title": "An uncomfortable faith",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PTDE2UJFQVAPVCRK5LM5BGOBTQ.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FRVTW25JENCWPLPMPXDAQQRLPQ.jpg",
-                    "title": "“I think I always knew that, at least in the short run, I’d have to “sell out.” For most of my life, my family has lived paycheck to paycheck. We were fortunate in that we had food on the table and clothes on our backs, but our financial situation, particularly once my parents split, wasn’t always stable. We were generally comfortable and happy, and that was enough.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/03/05/not-like-the-other-sell-outs/",
-                    "author": "A Pinch of Salt | Laura Salgado"
+                    "title": "“Three years removed from mandatory morning prayer, it’s an understatement that religion is more difficult for me at Columbia. The everyday details of my life have become everything. Big-picture thoughts get sidelined for my hourly schedule, list of potential lunchtimes, and all the tiny things I can perfectly arrange.”",
+                    "url": "https://www.columbiaspectator.com/section-lead/2019/09/20/an-uncomfortable-faith/",
+                    "author": "The Art of Unset | Sabina Maurer"
                 }, {
-                    "title": "Community college students need not apply",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WOKJFWLTZNE3DAF426QEQN2BZU.jpg",
+                    "title": "Sorority sandals",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MMJG64VIZZFHJAN64C2LMSYOWM.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KP6BLFGI2FER3GRIEXA2PXREWU.jpg",
-                    "title": "“Everyone has their own unique stories about getting their Columbia acceptance, and mine is that I cried and then baked myself a cake. All the struggles that pointed me toward community college in the first place finally felt justified.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/02/11/community-college-students-need-not-apply/",
-                    "author": "Pressure Cooker | Melissa Cook"
+                    "title": "“What I found to be true is that more than anything, 3aib has evolved to become a defense mechanism against things we fear or don’t understand. The whirlwind of values and principles that I was held to under 3aib are no more than indiscriminate fire. I was living a life guided by a fabricated moral standard that society was improvising, simply out of fear of being judged by the alternative.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/10/01/sorority-sandals/",
+                    "author": "Here’s the Shai | Lana Awadallah"
                 }, {
                     "title": "Ok ladies now let’s masturbate",
                     "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KXOOUJZAVVHHZDDKUP22NVN4UY.jpg",

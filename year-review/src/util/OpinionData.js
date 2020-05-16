@@ -1,22 +1,22 @@
 // Data for Expanding Columns
 export const opinion_sections = [
 	{
-		img_src: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G3QRJBUXHJD5JCLBQF3QZ5I52I.jpg",
+		img_src: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4UACPP7UIFEYHHSUR5QKSNDOHA.jpeg",
 		name: "Op-Eds",
 		link: "#opeds"
 	},
 	{
-		img_src: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AIZLIXGDGFAGFGAR5L2HHISRZM.png",
-		name: "Love Actualized",
-		link: "#love-actualized"
+		img_src: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4KTNFECJOFAR5FGXFHTDDNZV74.jpg",
+		name: "[100 words]",
+		link: "#100-words"
 	},
 	{
-		img_src: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4EGFXX6ILJAPTM5QU72C3AFUE4.png",
+		img_src: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TFDXCK62ENG65LVAS46KI6F35Y.png",
 		name: "Discourse & Debate",
 		link: "#discourse-and-debate"
 	},
 	{
-		img_src: "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TXOX2S4IYREBBOD5BH4DXST2VU.png",
+		img_src: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QUBVGUVW2RGWRN75ZBAZD5TAKM.jpg",
 		name: "Columns",
 		link: "#columns"
 	},
