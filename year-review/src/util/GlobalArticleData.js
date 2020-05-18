@@ -1430,82 +1430,68 @@ const data = {
                     "url": "https://www.columbiaspectator.com/opinion/2019/10/01/sorority-sandals/",
                     "author": "Here’s the Shai | Lana Awadallah"
                 }, {
-                    "title": "Ok ladies now let’s masturbate",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KXOOUJZAVVHHZDDKUP22NVN4UY.jpg",
+                    "title": "On the pleasures of being a ghost",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TJM6AJFEGZCMHJKXTGY5DJDDPA.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QBQJHTMKKFHERNUYEJ33EQEVN4.jpeg",
-                    "title": "“If you’re not having relations with a Columbia str8boi, first of all, congratulations. But seriously, no matter who it is, another person can never know what you like more than you do. The key to having great sex is having great masturbation experiences. Honestly, sounds like a win-win to me.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/03/29/ok-ladies-now-lets-masturbate/",
-                    "author": "A Girl and her Juul | Anna Lokey"
+                    "title": "“When I walk around Columbia at night—when I walk around New York at night—I don’t register my body as I would during the day. I don’t really register my body at all. When the lights from the dorm room windows light up, when the streets become deserted of people, I focus on the material world around me, on the city itself.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/10/28/on-the-pleasures-of-being-a-ghost/",
+                    "author": "Functioning Incorrectly | Sam Wilcox"
                 }, {
-                    "title": "Is it a “privilege” to go to Columbia?",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AO7BPB5J75AM3GVWOJRUJ26DT4.jpg",
+                    "title": "Ask Alma: How do I deal with distance post-graduation?",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PC5CFUV24VCX3GWJHCBZG4TKUE.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LX56TMCL4RB4ZKUMCAEXF5DHRU.jpg",
-                    "title": "“It’s wrong to imply that students from non-privileged backgrounds don’t have a place at Columbia by calling it a “privilege” to study here. Non-privileged students earned their spots and almost certainly worked (and continue to work) harder than everyone else while doing so.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/04/16/is-it-a-privilege-to-go-to-columbia/",
-                    "author": "Fly on the Wall | Austin Dean"
+                    "title": "“This isn’t to say you need to be more “optimistic” about graduating. Nothing I could tell you would lessen fears about the great abyss of post-grad that awaits you. I find there is a node of great peace amid the general chaos of change, and something really exciting about living through the end.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/11/08/ask-alma-how-do-i-deal-with-distance-post-graduation/",
+                    "author": "Ask Alma | Alma Mater"
                 }, {
-                    "title": "Some admissions about admissions",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VXZYC2UM7NBCFH354JCJQGW3KA.jpg",
+                    "title": "Respeck on my Check",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7JILKDI3QFE6NMVAWTCW2DPEVE.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TCUULJX57FALXPQOV6ZGBBORO4.png",
-                    "title": "“At a campus constantly prodding, dissecting, and celebrating identity, my own approach to definition has largely been one of silence, of conflict avoidance. I don’t have the language—in either Portuguese or English and certainly not in Spanish—to insert myself into any of the ongoing conversations.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/03/27/some-admissions-about-admissions/",
-                    "author": "The Tatler | Hannah Barbosa Cesnik"
+                    "title": "“I have started to accept that at Columbia, I can direct my focus on thriving rather than surviving. I can think deeper about abstract qualities of my life, like what legacy I want to leave behind, what plan I have for the future while preserving my state of happiness, and what ideas I want to bring to life.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/11/08/respeck-on-my-check/",
+                    "author": "Getting Coffee with Yasna | Yasna Vismale"
                 }, {
-                    "title": "Your token black sorority woman",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Q6WUSCDQSNEU5BJFUSQRTDAYLQ.jpg",
+                    "title": "Some thoughts on John Jay beef stew, scallion rice, and celery",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OYAUFRHIJNCLNAHL2VY73ALTRI.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RTRTRFN3VZE2TFOYMEP3AT62NM.jpg",
-                    "title": "“Like I said, I joined Greek life in spite of, not disregarding, its history with racism. It’s a decision that I choose to make every day, one I wouldn’t be choosing if I found myself in a community that refused to learn from the past and hold their members to even higher standards.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/02/07/your-token-black-sorority-woman/",
-                    "author": "Your Token [Blank] Woman | Eileen Moudou"
+                    "title": "“I’m incredibly thankful for Columbia’s dining halls. They give me a space to enjoy a meal while faced with the pressure and chaos of life at school, and to stay as long as I want until I finish. They are safe havens for me, places where I can make my own choices, but still find the menus online whenever I want to plan my meals.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/09/26/some-thoughts-on-john-jay-beef-stew-scallion-rice-and-celery/",
+                    "author": "Food, Fear, and Filth | Emma Gometz"
                 }, {
                     "title": "Envisioning a future as gay as Barnard",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NFETIQTJ2ZBZDCTWUAMKOCWK7Q.jpg",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2HCFTGGT7RCMJFQZLWVLC6R7ZU.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PLTLCBMUSJAWXP6QLQZQVHC47Q.png",
-                    "title": "“Listening to my sister casually chat about maybe being bisexual or lesbian made me realize that she is in a far better place than I was, and her ability to question her sexuality without discomfort is a mark of confidence in herself that I lacked.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/04/03/envisioning-a-future-as-gay-as-barnard/",
-                    "author": "High Entropy | Liza Casella"
+                    "title": "“All these pieces of me are beautiful and breathtaking. All these pieces of me incite a resounding, “What if I’m actually gorgeous?”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/10/09/my-parts-are-beautiful-but-am-i/",
+                    "author": "Please Remove Your Shoes | Kalena Chiu"
                 }, {
-                    "title": "Lo que Barnard y Columbia pueden hacer para ayudar a los niños más vulnerables",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/REJGFYENKNESTKPXP4WE7XMK2I.jpg",
+                    "title": "It’s time to end milk-shaming at Columbia",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/I4CSNGXN45BY7M2HSK73PR6VCA.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KDKIWSRRY5B3PO5BQBCII5IHLI.jpg",
-                    "title": "“Quería trabajar con esta organización porque de niña tuve mis propios encuentros con el sistema de bienestar infantil. Aunque yo no fui alejada de mi familia (hecho que por sí mismo representa un privilegio), deseaba hacer algo, a pesar de que no fuera mucho, para hacer que el proceso fuera menos traumatizante para otros niños.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/04/17/lo-que-barnard-y-columbia-pueden-hacer-para-ayudar-a-los-ninos-mas-vulnerables/",
-                    "author": "Spec sin Barreras | Daphnie Ordóñez"
+                    "title": "“If you don’t drink milk, you can still make a difference! When you see someone with a glass, don’t shame their decision. Celebrate it. Recognize your own anti-milk bias and try to unlearn it. If Columbia students created the problem, Columbia students can fix it.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/09/19/its-time-to-end-milk-shaming-at-columbia/",
+                    "author": "The Small Pond | Jacob Kaplan"
                 }, {
-                    "title": "Why do we think poor students can’t have nice things?",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5KWTRHEBMRGW7GA4QACPCKV7ZU.jpg",
+                    "title": "A column for someone who can’t read",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DABUGW4HOVBAXGAASZ33LIRWK4.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VIGEOPL3GNFBVMCRCXNRPSZ5LU.jpg",
-                    "title": "“Notions of poverty at Columbia involve a basic understanding that poor students are overall not destitute, counteracted by a highly fictitious illusion that poor people’s belongings must always be less than what is considered “best.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/03/07/why-do-we-think-poor-students-cant-have-nice-things/",
-                    "author": "A Persistent Flaw | Gabriel Franco"
+                    "title": "“I think about my abuela, who was denied an education for the same reason that wealthy American women were allowed to walk through the Barnard gates at some point, and I wonder what we can do as a school to one day completely liberate ourselves from the rigid gender roles that our society promotes. For now, I’ll be happy with the fact that I make my abuela proud every day as I get closer to obtaining my degree and how thrilled she’ll be when she hears she’s the star of my first column.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/09/24/a-column-for-someone-who-cant-read/",
+                    "author": "Found in Translation | Daphnie Ordoñez"
                 }, {
-                    "title": "Barnard’s obsession with tortured artistry",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/BDAGE66MXJBJXIDBL74BD735EI.jpg",
+                    "title": "Dique amor propio",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4XFVTXMD6VCLDCTUC64VUW6NK4.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RJRJWG7TJNCYVBSQ5AOIRWVGCA.gif",
-                    "title": "“As a gendered space distinct from the larger umbrella of Columbia, I think that Barnard puts pressure on many students to occupy the role of a 4.0-GPA-having, Ratrock-featured, beautifully tormented artist.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/03/14/barnards-obsession-with-tortured-artistry/",
-                    "author": "On the In-Between | Hana Rivers"
+                    "title": "“El amor propio se trata de reservar una parte de nuestro tiempo para nosotros mismos. No se manifiesta en la misma manera para todxs. Es un proceso de conocer nuestros límites y respetarlos, de hacerle caso a nuestros cuerpos y mentes cuando nos piden un descanso y de priorizarnos a nosotros mismos.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/11/18/dique-amor-propio/",
+                    "author": "E-Spec-taculo | Milagro Chavez-Cisneros"
                 }, {
-                    "title": "The short view on finance recruiting",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6JAB6MB7PRFR3NMX3UMLPY3DNE.jpg",
+                    "title": "My spiral into depression",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KT6NUMMRW5FYFBLX2JKJZZS7SI.jpg",
                     "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/F34KSCYWNZF5VNKONAMQ7QKDP4.png",
-                    "title": "“This concern about the trajectory of our culture and education, not those reflexively woke platitudes about the immorality of financial markets, forms the basis of my skepticism about the Ivy League to Wall Street pipeline. The whole conversation about “selling out” is egregiously overdone.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/03/29/the-short-view-on-finance-recruiting/",
-                    "author": "Short Views | Jimmy Quinn"
-                }, {
-                    "title": "The People of Color problem",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EUGNH3QL6RBN7OGD73TLWLUXRY.jpg",
-                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/L7EMZENZLJA2XNCA7NZYVXEBDQ.jpg",
-                    "title": "“On a campus where so many students place #BlackLivesMatter into their social media handles, why is it so hard to say the word “Black,” even when discrimination happens to Black students on campus? When anti-Blackness occurs, call it what it is: anti-Blackness.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/02/15/the-people-of-color-problem/",
-                    "author": "The King has Spoken | Colby King"
-                }, {
-                    "title": "A mi mamá",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7EG54IJEM5BQLLBEMC5F3JEWUE.jpg",
-                    "back_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/U2VE7HATJVBDPIV3LTPVW2DPTM.png",
-                    "title": "“Because of my name, I didn’t contest when I was lumped in with the white kids because I didn’t know how to articulate what I was feeling. It’s not that my family was not a part of the neo-colonist history of Hawaii (we were), but my identity was a bit more nuanced than my name suggested. I only started reflecting more deeply on the situation when I came to Columbia, where identity is discussed more often than in other places.”",
-                    "url": "https://www.columbiaspectator.com/opinion/2019/03/15/a-mi-mama/",
-                    "author": "Christina’s World | Christina Hill"
+                    "title": "“The thing that bewildered me the most about depression before going to therapy for a while was the disorientating peaks and troughs. I remember having breakfast with a friend during the lowest point of my first spiral and telling him how I was feeling. He told me ardently, urgently, that things do get better, no matter how empty I was feeling at the time. And I remember looking at him dead in the eyes and not believing a word that he said. I remember thinking that things could never get better, that he couldn’t understand. But here I am now. He was right.”",
+                    "url": "https://www.columbiaspectator.com/opinion/2019/09/30/my-spiral-into-depression/",
+                    "author": "View from the Seven | Liberty Martin"
                 }, ]
             }
         ]
