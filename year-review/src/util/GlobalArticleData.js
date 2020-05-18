@@ -774,33 +774,37 @@ const data = {
         ]
     },
     "A&E": {
-        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ANHFV4P2BFFUBHPP2IQUAPOTKQ.jpg",
+        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7YQAUCXS7BFHBBQZNURY7PNW7A.jpg",
         sections: [{
+                "name": "Visual Art",
+                "link": "#visual-art"
+            },
+            {
                 "name": "Bacchanal",
                 "link": "#bacchanal"
             },
             {
-                "name": "Politics ",
-                "link": "#politics"
+                "name": "Climate Change",
+                "link": "#climate-change"
             },
             {
-                "name": "Technology",
-                "link": "#technology"
+                "name": "Gender Equity",
+                "link": "#gender-equity"
             },
             {
-                "name": "Deinstitutionalization",
-                "link": "#deinstitutionalization"
-            },
+                "name": "Exclusion",
+                "link": "#exclusion"
+            }, 
             {
-                "name": "New Eateries",
-                "link": "#new-eateries"
+                "name": "Culture & Cuisine",
+                "link": "#culture-cuisine"
             }
         ],
-        "blurb": "Arts & Entertainment strives to provide a space in which to critically discuss arts at Columbia, to give the Columbia community a closer look into the inner workings of the arts world, and to inform the community of the different types of arts and entertainment happening on campus.",
+        "blurb": "Arts & Entertainment strives to analyze and investigate Columbia’s arts scene to hold it accountable to being the best it can be. We provide a space to critically discuss the arts at Columbia and aim to promote engagement with the arts by showing every reader why the arts should matter to them.",
         "items": [{
-                "name": "Bacchanal issues slew of pranks and conflicting announcements",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg",
-                "blurb": "Bacchanal season started like all of those in years past, with the Battle of the Bands competition, which this year voted Oswald Fresh as the student opener. However, the annual concert quickly took an unconventional turn when, at the Bacchanal Committee’s first-ever press conference, they announced that there would be no headliner. In what was later revealed to be a weeklong prank, the Committee claimed that a headliner was canceled due to a “certain sports media group” leaking information about the concert. The headliner turned out to be Grammy-nominated artist SOPHIE, who became the concert on the steps’ first openly transgender headliner, and part of its first all-womxn lineup. ",
+                "name": "Virtual art is a silver lining of social distancing",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AKYVZ4W2D5CSZEO4Y4GXD4SBRI.jpg",
+                "blurb": "In lieu of crowded theaters, art galleries, and dance studios, Columbia artists found innovative ways to create and share art despite social distancing. Visual arts senior thesis students reimagined how art is exhibited in a digital space. The show went on for senior thesis students in the theater department, who adapted their productions for an exhilarating livestream format. And Columbia dancers took advantage of a slew of online resources that made New York’s elite dance scene more accessible than ever.",
                 "articles": [{
                         "title": "Oswald Fresh takes the crown at Bacchanal’s Battle of the Bands",
                         "author": "Lee Alexander",
@@ -834,9 +838,9 @@ const data = {
                 ]
             },
             {
-                "name": "Students engage in politics through fashion, film, literature",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N6IIVSBTMJAOZH36RBK62YWVEM.jpg",
-                "blurb": "The arts have always served as a platform to express political ideas, passions, and frustrations, and this year Columbia became a hub for such expressions, especially when it came to helping rally young voters. Voting Week, Columbia’s largest event revolving around civic engagement, introduced a fashion show for the first time as part of their initiative to register and engage student voters. From student efforts to local political figures, First Lady of New York City Chirlane McCray brought her Book Club initiative to Barnard, where she and President Sian Beilock welcomed writer Nana-Ama Danquah to discuss her writing about mental health. In the celebrity-filled weekend of the Athena Film Festival, Congresswoman Alexandria Ocasio-Cortez attended the premiere of “Knock Down the House.”  She was among a number of political figures highlighted at the festival, including Justice Ruth Bader Ginsburg, whose daughter, Columbia Law School Professor Jane Ginsburg, joined a panel discussing her mother’s work at the screening of “On the Basis of Sex.” ",
+                "name": "Bacchanal moves first off campus, then to Instagram Live",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2N4EXYXPRFABFNK3EVMHQBPO7E.jpg",
+                "blurb": "Last year, the Bacchanal Committee announced that the annual concert was canceled as part of a prank on the student body. This year, of course, Bacchanal was actually canceled in light of the COVID-19 outbreak. The concert would have taken place off campus at Terminal 5, a decision which sparked debate about the role of Bacchanal in cultivating community on campus. While we didn’t get to see whether the move would have been a success, student musicians rallied on Instagram Live to create a digital substitute for the spring tradition.",
                 "articles": [{
                         "title": "Voting Week ‘stitching together’ style and politics at identity-based fashion show ",
                         "author": "Isabela Espadas Barros Leal",
@@ -864,9 +868,9 @@ const data = {
                 ]
             },
             {
-                "name": "Boundaries are pushed in the arts across the field",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EF2H3AUDTFC6JMB7QAEMDADQKA.jpg",
-                "blurb": "Technological boundaries in the arts were transcended this year like never before, starting with the work of renowned filmmaker and choreographer Yvonne Rainer, this year’s Lida A. Orzeck ’68 Distinguished Artist-in-Residence, who played a key role in the development of postmodern dance. At the Athena Film Festival, Virtual Reality Sessions let festival-goers experience film through VR, joining other fast-growing film industries in shaping the future of cinema. Students will now be able to access groundbreaking technology year-round with the opening of Barnard’s Movement Lab, an innovative space for research across several disciplines. In addition, technical spectacles in theater improved dramatically. Colony Collapse, a production by the Barnard Theatre Department, combined complex lighting rigs and sound effects with a twenty-foot honeycomb made of recycled steel, scrap plywood and used cardboard from Barnard Dining Services. Visionary leaders Zehra Naqvi, CC ’21, and her sister Sophia, CC ’23, are pushing the boundaries of fashion entrepreneurship, having launched their line of empowering t-shirts at the age of 15 and 13, respectively. ",
+                "name": "Artists take action to protect the planet",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2DIAWM46NVGN7MIFZIT3OX4HSQ.jpg",
+                "blurb": "As the climate crisis demands ever more urgent action, artists have used their works to illustrate the emergency and foster appreciation for Earth’s natural resources. Daan Roosegaarde’s immersive light installation WATERLICHT captured the power of water and cautioned against the dangers of rising sea levels. At the LeRoy Neiman Gallery, Yann Toma’s exhibit “Capitalocene” called on corporations to take responsibility for protecting the environment. As the world around us moves toward fast fashion, we looked at how Columbia students and faculty are challenging the industry and practicing sustainability in keeping with the University’s climate action plan.",
                 "articles": [{
                         "title": "In Barnard’s ‘Colony Collapse,’ technical details awe, set a new standard for college theatre ",
                         "author": "Samuel Jones",
@@ -900,9 +904,9 @@ const data = {
                 ]
             },
             {
-                "name": "Arts held accountable for history of colonization, racism, exclusion",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PF7YKDVHW5D25FSAUAJKVODEFE.jpg",
-                "blurb": "The definition of the arts at Columbia, which has historically revolved around the Western canon, is being expanded, diversified, and critiqued by exhibitions, performances, and panels. “Posing Modernity” opened at the Wallach Gallery before moving to the Musée d’Orsay in Paris. Faculty gathered to talk about arts restitution both in the United States and in France, and the CEO of Gucci attempted to explain away the fashion brand’s blackface scandal. Black femme artists took the spotlight at Bold, Beautiful, Black, at Barnard. And a Columbia professor joined New York’s Heartbeat Opera to use an elitist art form to advocate for justice. ",
+                "name": "Artists work toward gender equity on stage, on screen, and behind the scenes",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GXCAYYSN5RBHXFXW5TFNURHQJA.jpg",
+                "blurb": "From film to dance and literature, artists challenged us to work toward gender equity. At this year’s Athena Film Festival, stories of unseen women were made stunningly visible on screen. The Butler Banner emblazoned the names of eight female authors above Plato’s and Aristotle’s on Butler Library’s façade. Behind the scenes, artists continued to fight for equity. Women who spoke out against Harvey Weinstein and Russell Simmons discussed the trajectory of the #MeToo movement in the film and music industries. On the opening night of “West Side Story,” protesters rallied outside a Broadway theater to show support for Alexandra Waterbury, GS ’21, who accused one of the show’s lead actors of sexual harassment. And at “Black, Here, and Queer,” student artists brought intersectional identities to the forefront of the conversation.",
                 "articles": [{
                         "title": "“Posing Modernity” at Wallach gallery reimagines the black female historical narrative",
                         "author": "Ruba Nadar and Esterah Brown",
@@ -936,9 +940,45 @@ const data = {
                 ]
             },
             {
-                "name": "Food and drink landscape evolves around campus",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/T3KICP7M7BDDJGG47R4FBAELNI.jpg",
-                "blurb": "The Morningside Heights community saw new eateries and drinkeries popped up around campus, replacing old favorites. Former restaurant Artopolis, formerly known for its flatbread and wines, transformed into The New York Basics, a patisserie and breakfast café. While the owners remain the same, the interior and menu saw a complete rehaul that looks to target a new market. Amigos, Mexican restaurant and location of the famous $20 bottomless margaritas, became e’s BAR, a board game and retro watering hole that serves diner-style foods. As replacements seemed to dominate  the Columbia food scene, a Joe Coffee’s sprung up in the Journalism School where  UP used to be, marking the franchise’s third location in Morningside Heights.",
+                "name": "Across the board, artists reckon with history, confront a legacy of exclusion",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/T6QTHVFJ6NC4XJO5EEAD3JCCPA.jpg",
+                "blurb": "This year, renowned artists came to campus to start conversations around diversity and inclusion. Pulitzer Prize-winning playwright Suzan-Lori Parks, whose play “Father Comes Home From the Wars” was added to the Literature Humanities syllabus on the 100th anniversary of the Core Curriculum, spoke about exploring the contemporary Black experience through literature. Jay-Z discussed racial injustice at an event for the new department of African American and African diaspora studies. Student artists then grappled with racism, colonization, and exclusion in their own works. The Black Theatre Ensemble created space for Black stories in a predominantly white theater scene. The Barnard theater department’s well-meaning production of “Men on Boats” couldn’t overcome a script steeped in disturbing historical context. And the Chinese Students Club slashed stereotypes at its annual Lunar Gala fashion show in the face of discrimination against Asian students in the wake of COVID-19.",
+                "articles": [{
+                        "title": "Artopolis owners go back to Basics to target new market ",
+                        "author": "Gia Kim",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/01/29/artopolis-owners-go-back-to-basics-to-target-new-market/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/XPVLZOZBYBEGROL4CWRGIOCJGU.jpg"
+                    },
+                    {
+                        "title": "Artopolis renamed The New York Basics, unveils revamped menu, refurbished interior ",
+                        "author": "Isabela Espadas Barros Leal",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/01/23/artopolis-renamed-the-new-york-basics-unveils-revamped-menu-refurbished/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DCWWAAC4S5DN7IWF3QAH2PRJUA.jpg"
+                    },
+                    {
+                        "title": "A first look at e’s Bar, the pub replacing Amigo’s on Broadway",
+                        "author": "Isabela Espadas Barros Leal",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/08/27/a-first-look-at-es-bar-the-pub-replacing-amigos-on-broadway/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/U46GOYVXWRAVNJACGJ77CXNW2I.jpg"
+                    },
+                    {
+                        "title": "E’s Bar officially opened for business",
+                        "author": "Samuel Jones",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/10/23/es-bar-has-officially-opened-for-business/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EMZUOUXQQFAXDCVQBG43KEVT3U.jpg"
+                    },
+                    {
+                        "title": "Up Coffee replaced by campus’ third Joe Coffee location ",
+                        "author": "Sarah Beckley",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2018/09/06/up-coffee-replaced-by-campus-third-joe-coffee-location/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/T3KICP7M7BDDJGG47R4FBAELNI.jpg"
+                    }
+                ]
+            }, 
+            {
+                "name": "Local restaurants serve up food and drink, culture and history",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IKNVGNOI2BEO7ETNZ7T5AHW63Q.jpg",
+                "blurb": "Beyond covering local restaurant openings and closures, our Food & Drink beat delved into the culture and history behind some of the lively eateries woven into the fabric of West Harlem’s culinary scene. Some highlights include a feature on Dinosaur BBQ’s signature “slow and low” cuisine; a spotlight on hidden gem Doaba Deli; a peek inside Showman’s, Harlem’s longest-standing jazz club; and a tour of Little Senegal, a home for West African food and culture on the Upper West Side.",
                 "articles": [{
                         "title": "Artopolis owners go back to Basics to target new market ",
                         "author": "Gia Kim",
