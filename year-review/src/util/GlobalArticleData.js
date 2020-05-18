@@ -1951,275 +1951,157 @@ const data = {
             [{
                 "title": "The U.S. and Ivy League schools were late to respond to COVID-19. Data shows international universities did better.",
                 "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/M4TCLJU2TZACDCC5PO6LEUYFXI.gif",
-                "description": "Despite the filing a report against a member of faculty for sexual misconduct, the final result is that they still retain access to campus.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better/",
                 "author": "By the Spectator Graphics team"
             }, {
                 "title": "Columbia tuition rates are among the highest in the country. Is it worth it?",
                 "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HWD2N3NA4FGJBESGVSQHRCYQRU.gif",
-                "description": "These two life cycles of student data show that the law does not differentiate between electronic and paper data, resulting in holes within the lifecycle of virtual data protection under FERPA. GDPR, on the other hand, is tighter on security of the owner of the data.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2020/01/23/columbia-tuition-rates-are-among-the-highest-in-the-country-is-it-worth-it/",
                 "author": "By Jason Kao"
             }, {
                 "title": "Who funds Bacchanal? A look at how the money moves",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UOJDCCWOKBFZVLVQTJFXNICDEY.png",
-                "description": "Columbia University's insurance rate has almost doubled from the 2017 fiscal year, rising to 23.7 million in the 2018 fiscal year. This is a 95.2 percent increase.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/19/who-funds-bacchanal-a-look-at-how-the-money-moves/",
                 "author": "Graphics by Jessica Li"
             }, {
                 "title": "Decades of Uncertainty: A visual history of the linguistics major through the Spec archives",
                 "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KQG7XJPX75AKRI6RS7QDOTM3SU.gif",
-                "description": "Barnard College implemented an 18 credit cap, which effectively lowered the number of students completely over 18 credits by seven percent between fall 2015 and fall 2017.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2019/10/18/linguistics-major-visual-history/",
                 "author": "By Jason Kao and Seyla Phan"
             }, {
                 "title": "With classroom space shortage, Morningside Heights campus forced to expand boundaries",
                 "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/M4TCLJU2TZACDCC5PO6LEUYFXI.gif",
-                "description": "Despite the commitment expressed in the Community Benefits Agreement to give at least 40 percent of the working hours and at least 35 percent of the construction spending to minorities, women, and local subcontractors, the statistics show that this in fact did not happen.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2019/09/19/with-classroom-space-shortage-morningside-heights-campus-forced-to-expand-boundaries/",
                 "author": "By the Spectator Graphics team"
             }, {
                 "title": "Segregation exposes Black residents to health risks. Hospitals are disincentivized from treating them",
                 "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CFHDLHBZKBERZEZC36EELCZAUI.gif",
-                "description": "In \"How victims choose to report sexual assault\", the majority of the reported sexual assault data reports that the instances are either not labeled as such or told to a friend.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2020/04/18/segregation-exposes-black-residents-to-health-risks-hospitals-are-disincentivized-from-treating-them/",
                 "author": "Data analysis and graphics by Mike Fu and Raeedah Wahid | Visual production by Hong Sen Du"
             }, {
                 "title": "With classroom space shortage, Morningside Heights campus forced to expand boundaries",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
-                "description": "According to a New York Times report, 65 percent of Barnard's student body come from families who rank in the top 20 percent of income earners nationwide, 20 percent come from the bottom 60 percent of earners, and 6.6 percent come from the bottom 20 percent of earners.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2019/09/19/with-classroom-space-shortage-morningside-heights-campus-forced-to-expand-boundaries/",
                 "author": "Data analysis and graphics by Jason Kao"
             }, {
                 "title": "As the pandemic rages on, Columbia braces for widespread financial fallout",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
-                "description": "While tuition across the Ivy League has increased somewhat consistently since 2006, Columbia's tuition remains at the top, reaching $62,000 for the 2019-2020 academic school year.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2020/04/16/as-the-pandemic-rages-on-columbia-braces-for-widespread-financial-fallout/",
                 "author": "Data reporting and graphics by Jessica Li"
             }, {
                 "title": "West Harlem residents fall under the most at risk groups for contracting COVID. High poverty rates will make recovery an uphill battle",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2020/04/13/west-harlem-residents-fall-under-the-most-at-risk-groups-for-contracting-covid-high-poverty-rates-will-make-recovery-an-uphill-battle/",
                 "author": "Visual production by Jason Kao and Jun Yi Zhang | Graphics by Luke Dobrović"
             },
             {
                 "title": "[100 words]: We asked how COVID-19 has impacted students’ lives.",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/opinion/2020/03/29/100-words-we-asked-how-covid-19-has-impacted-students-lives-here-are-their-responses/",
                 "author": "Visual production by Hong Sen Du and Raeedah Wahid"
             }, 
             {
                 "title": "Uncertainty Looms as Student Jobs are Disappearing During the Great Lockdown",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown/",
                 "author": "Data analysis and interactives by Jason Kao and Charlotte Li"
             }, 
             {
                 "title": "Community members see long-awaited safety improvements to Morningside Park in aftermath of Majors’ death",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UYJHXMLRP5BY3LZKKQHK6R4M5Y.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2020/01/30/community-members-see-long-awaited-safety-improvements-to-morningside-park-in-aftermath-of-majors-death/",
                 "author": "Data reporting and visualization by Charlotte Li"
             },
             {
                 "title": "A space built for the community, the Forum remains inaccessible to local residents",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OC4QIMFHRNCX5FETN4XJAJXM4Q.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2020/02/06/the-forums-design-prevents-west-harlem-residents-from-occupying-a-space-built-for-the-community/",
                 "author": "Architectural rendering by Jun Yi Zhang"
             },
             {
                 "title": "A decade in athletics: The men’s tennis team’s greatest generation never ended",
                 "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QU2DX2FX3BFEPOKXVPRI3JZUZU.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/sports/2020/03/30/a-decade-in-athletics-the-mens-tennis-teams-greatest-generation-never-ended/",
                 "author": "Graphic by Natalie Guerra"
             },
             {
                 "title": "“Landlords are waiting to pounce”: COVID-19 casts grim future for renters confronted by wave of evictions",
                 "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/REEM6K5BFVHYDA2N23KIL3Y4PU.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2020/04/28/landlords-are-waiting-to-pounce-covid-19-casts-grim-future-for-renters-confronted-by-wave-of-evictions/",
                 "author": "Graphic by Jessica Li"
             },
             {
                 "title": "“They don’t follow the rules”: Inside Barnard’s broken relationship with its employee union",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VP5UMBAUNNDJNE6Z5GBIOKZPLQ.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2019/10/17/they-dont-follow-the-rules-inside-barnards-broken-relationship-with-its-employee-union/",
                 "author": "Graphic by Kelly Pu"
             },
             {
                 "title": "‘The next chapter’: Despite history of alumni apathy, Bollinger-era initiatives drive newfound culture of engagement",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4E3VGN4BF5HT5EHHDZEI45DCSQ.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2019/10/31/the-next-chapter-despite-history-of-alumni-apathy-bollinger-era-initiatives-drive-newfound-culture-of-engagement/",
                 "author": "Graphic by Charlotte Li"
             },
             {
                 "title": "Stacking up: Where do Columbia’s contributions to the community rank among its Ivy peers?",
                 "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5XBKZ4TJU5FMPB2SLZDZ3DPDBU.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/sports/2020/04/28/a-decade-in-athletics-track-and-field-crosses-a-threshold-after-a-century-with-little-momentum/",
                 "author": "Data reporting by Stephanie Lai | Graphics by Fiorella Alessandra Chacon"
             },
             {
                 "title": "Student Groups Search for Space on a Crowded Campus. A Recently Open Brownstone is the Answer for One",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DSWK23FDMNE7ROXWVBQ2AVZUTI.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/the-eye/2020/02/13/student-groups-search-for-space-on-a-crowded-campus-a-recently-open-brownstone-is-the-answer-for-one/",
                 "author": "Graphic by Jun Yi Zhang"
             },
             {
                 "title": "Students and Faculty Say Gender-Based Harassment and Discrimination at Columbia is Systemic. Why Are They Turning Away From the System Built to Address It?",
                 "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DSWK23FDMNE7ROXWVBQ2AVZUTI.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/eye-lead/2019/11/15/students-and-faculty-say-gender-based-harassment-and-discrimination-at-columbia-is-systemic-why-are-they-turning-away-from-the-system-built-to-address-it/",
                 "author": "Visual production and graphic by Jason Kao"
             },
             {
                 "title": "As Majors’ case awaits trial, experts say public urgency has led to unfair treatment of youth suspects",
                 "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FSXAG5N75NAIRG5ULL3MUYAK7M.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2020/03/25/as-majors-case-awaits-trial-experts-say-public-urgency-has-led-to-unfair-treatment-of-youth-suspects/",
                 "author": "Graphic by Jason Kao"
             },
             {
                 "title": "Over a fourth of West Harlem did not self-report in the 2010 census. COVID-19 could make numbers worse",
                 "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7V7J6OIRAFFX7AK2ZU4ZFUP6AQ.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/news/2020/04/02/over-a-fourth-of-west-harlem-was-not-self-reported-in-the-2010-census-covid-19-could-make-numbers-worse/",
                 "author": "Graphic by Ivana Moore"
             },
             {
                 "title": "“It put Columbia on the map”: Lightweight rowing’s irreverent Instagram helps promote culture, pull in recruits",
                 "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3PK6XZSPRBACXP6V5FHLUIUCPE.png",
-                "description": "According to a survey conducted by GS administration in spring 2018, a total of 35 percent of GS students experience high or very high food insecurity across the undergraduate, dual B.A. and postbac premed programs.",
+                "description": "",
                 "link": "https://www.columbiaspectator.com/sports/2020/04/24/it-put-columbia-on-the-map-lightweight-rowings-irreverent-instagram-helps-promote-culture-pull-in-recruits/",
                 "author": "Data reporting by Clara Ence Morse and Kelly Pu | Graphics by Kelly Pu"
             }
-        
-        
-        
-        
-        
-        
-        
             ],
-            // Illustrations
-            [{
-                "title": "I created columbia buy sell memes",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2VNEOYU2VZCOBKM62M7ARCIDVM.gif",
-                "description": "An outline of Columbia's campus map is layered on top of a scrolling Facebook feed consisting of columbia buy sell memes.",
-                "link": "https://www.columbiaspectator.com/opinion/2019/02/15/i-created-columbia-buy-sell-memes/",
-                "author": "Helen Yang / Staff Illustrator"
-            }, {
-                "title": "Maruchan culture",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TA7HYAKC2ZAYFEOPB7FEKSM26Y.jpg",
-                "description": "Instant ramen is tied to college culture because it's so cheap - anyone could afford to buy cups and cups of these dried noodles, which is depicted in this illustration.",
-                "link": "https://www.columbiaspectator.com/opinion/2019/02/25/maruchan-culture/",
-                "author": "Elizabeth Nichols / Staff Illustrator"
-            }, {
-                "title": "In defense of Black American culture",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/MSKNSCS2IRDQJDFWSDP4AK7ABY.png",
-                "description": "This piece focused on Black American culture mentions Beyoncé, who is drawn digitally on an old television set, the backlights shining through her flowing hair.",
-                "link": "https://www.columbiaspectator.com/opinion/2019/03/15/in-defense-of-black-american-culture/",
-                "author": "Sookeun Jung / Staff Illustrator"
-            }, {
-                "title": "I just want to read about bacteria",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DUF65QRGMRDVXG4Y76INFPBCUA.png",
-                // "description": "I just want to read about bacteria",
-                "link": "https://www.columbiaspectator.com/opinion/2019/03/14/i-just-want-to-read-about-bacteria/",
-                "author": "Lilly Kwon / Staff Illustrator"
-            }, {
-                "title": "EC is a death trap. Why do we continue to venerate it?",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/H7HTBRCE6ZEZ3K3H3HSR6P2YIA.jpg",
-                // "description": "EC is a death trap. Why do we continue to venerate it?",
-                "link": "https://www.columbiaspectator.com/opinion/2019/02/19/ec-is-a-death-trap-why-do-we-continue-to-venerate-it/",
-                "author": "Charlotte Force / Staff Illustrator"
-            }, {
-                "title": "Columbia’s “sustainable development” needs Indigenous perspectives",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G7L47BNTYFH37MTOKROAWVHF7U.png",
-                // "description": "Columbia’s “sustainable development” needs Indigenous perspectives",
-                "link": "https://www.columbiaspectator.com/opinion/2019/01/25/columbias-sustainable-development-needs-indigenous-perspectives/",
-                "author": "Daniela Casalino / Staff Illustrator"
-            }, {
-                "title": "Why do we think poor students can’t have nice things?",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VIGEOPL3GNFBVMCRCXNRPSZ5LU.jpg",
-                // "description": "Why do we think poor students can’t have nice things?",
-                "link": "https://www.columbiaspectator.com/opinion/2019/03/07/why-do-we-think-poor-students-cant-have-nice-things/",
-                "author": "Sam Wilcox / Staff Illustrator"
-            }, {
-                "title": "In my search for the one, I found the ones",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EB5AZIJSEVD3FEKFHVH2RS36MQ.gif",
-                // "description": "In my search for the one, I found the ones",
-                "link": "https://www.columbiaspectator.com/opinion/2019/02/13/in-my-search-for-the-one-i-found-the-ones/",
-                "author": "Tassneen Bashir / Senior Staff Illustrator"
-            }, {
-                "title": "To the sport I loved before",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EB7DLIKU3RALLPIWTZZWNIPLVU.jpg",
-                // "description": "To the sport I loved before",
-                "link": "https://www.columbiaspectator.com/opinion/2019/04/11/to-the-sport-i-loved-before-2/",
-                "author": "Rebecca Holloway / Staff Illustrator"
-            }, {
-                "title": "8 Productive ways to procrastinate studying",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TNHS64YNXNDFLCUBGQRMNY4WKU.png",
-                // "description": "8 Productive ways to procrastinate studying",
-                "link": "https://www.columbiaspectator.com/spectrum/2019/02/28/8-productive-ways-to-procrastinate-studying/",
-                "author": "Ara Uhr / Staff Illustrator"
-            }, {
-                "title": "What romance movie are you based on your major?",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UM3XDVG6U5CERONYNMY3BD23QA.jpg",
-                // "description": "What romance movie are you based on your major?",
-                "link": "https://www.columbiaspectator.com/spectrum/2019/02/18/what-romance-movie-are-you-based-on-your-major/?fb_comment_id=2146237845433892_2153963004661376",
-                "author": "Sachi Thomsen / Staff Illustrator"
-            }, {
-                "title": "A Little Village, Its Boundaries, and Its Stewards",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/MG2JY57RI5BVPMZU64WWJJSKKY.JPG",
-                // "description": "In Certain Science and Engineering Fields, Sex Diversity Among Graduate Students Is Stagnating. In Others, It’s Getting Worse.",
-                "link": "https://www.columbiaspectator.com/the-eye/2019/02/13/a-little-village-its-boundaries-and-its-stewards/",
-                "author": "Claire Easton / Staff Illustrator"
-            }, {
-                "title": "Officially Epileptic",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JTEAAYU3U5GERBYPLAK65MVAGE.gif",
-                // "description": "Officially Epileptic",
-                "link": "https://www.columbiaspectator.com/the-eye/2019/02/25/officially-epileptic/",
-                "author": "Brenda Huang / Senior Staff Illustrator"
-            }, {
-                "title": "Meet Me On the Lighted Path",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ME335UDYZREDFCU3V63LCS2MVQ.png",
-                // "description": "Meet Me On the Lighted Path",
-                "link": "https://www.columbiaspectator.com/the-eye/2019/02/19/meet-me-on-the-lighted-path/",
-                "author": "Avigail Borah / Staff Illustrator"
-            }, {
-                "title": "Your token mentally stable woman",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SKKUY446T5A5ZEWW5A5XNA22WY.jpg",
-                // "description": "Your token mentally stable woman",
-                "link": "https://www.columbiaspectator.com/opinion/2019/02/22/your-token-mentally-stable-woman/",
-                "author": "Aaron Jackson and Sookeun Jung / Staff Illustrators"
-            }, {
-                "title": "An ode to “yeet”",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SUUSTO3UVVHKZLYDQKT4HPKRDE.png",
-                // "description": "An ode to “yeet”",
-                "link": "https://www.columbiaspectator.com/opinion/2019/04/02/an-ode-to-yeet/",
-                "author": "Beatrice Lintner / Staff Illustrator"
-            }, 
-            {
-                "title": "The People of Color problem",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/L7EMZENZLJA2XNCA7NZYVXEBDQ.jpg",
-                "link": "https://www.columbiaspectator.com/opinion/2019/02/15/the-people-of-color-problem/",
-                "author": "Vera Wang / Staff Illustrator"
-            },
-            {
-                "title": "5 podcasts we are listening to this month",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JDDG5WE5PVCQ5DGQS2ISBVZOKU.jpg",
-                "link": "https://www.columbiaspectator.com/spectrum/2019/02/21/5-podcasts-we-are-listening-to-this-month/",
-                "author": "Stephanie Koo / Staff Illustrator"
-            }
-            ]
         ]
     }
 }

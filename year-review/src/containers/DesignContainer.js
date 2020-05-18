@@ -54,13 +54,11 @@ class DesignContainer extends Component {
 				{this.state.illustrationsLightboxActive && <Lightbox
 					index={this.state.lightboxIndex} 
 					media={this.props.data.items[2]} 
-					authorLabel="contributor"
 					onClose={this.closeIllustrationsLightbox}>
 				</Lightbox>}
 				{this.state.graphicsLightboxActive && <Lightbox
 					index={this.state.lightboxIndex} 
 					media={this.props.data.items[1]} 
-					authorLabel="contributor"
 					onClose={this.closeGraphicsLightbox}>
 				</Lightbox>}
       </React.Fragment>

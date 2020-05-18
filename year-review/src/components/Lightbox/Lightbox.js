@@ -234,7 +234,7 @@ class Lightbox extends Component {
             }
 
             <CreditContainer>
-              <Credit>{this.props.authorLabel}: {this.props.media[this.state.index].author}</Credit>
+              <Credit>{this.props.media[this.state.index].author}</Credit>
             </CreditContainer>
           </LightboxMobileContainer>
         </MobileAndTablet>
@@ -270,7 +270,7 @@ class Lightbox extends Component {
               </TitleContainer>
 
               <CreditContainer>
-                <Credit>{this.props.authorLabel}: {this.props.media[this.state.index].author}</Credit>
+                <Credit>{this.props.media[this.state.index].author}</Credit>
               </CreditContainer>
             </CaptionContainer>
           </LightboxContainer>
