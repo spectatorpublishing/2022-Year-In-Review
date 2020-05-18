@@ -1055,27 +1055,27 @@ const data = {
 
     "Spectrum": {
         sections: [{
-                "name": "Breaking Down Columbia",
-                "link": "#breaking-down-columbia"
+                "name": "The Columbia Rundown",
+                "link": "#the-columbia-rundown"
             },
             {
-                "name": "Out of the Bubble",
-                "link": "#out-of-the-bubble"
+                "name": "Life After Columbia",
+                "link": "#life-after-columbia"
             },
             {
-                "name": "Lifestyle",
-                "link": "#lifestyle"
+                "name": "Feeling Festive",
+                "link": "#feeling-festive"
             },
             {
-                "name": "Required Reading",
-                "link": "#required-reading"
+                "name": "Finding Community During COVID-19",
+                "link": "#finding-community-during-covid19"
             },
         ],
         "blurb": "Between the spectrum of experiences, stories, narratives, and struggles we all hold, Spectrum hopes to be a guiding, unifying, and comforting presence for students to find sense of belonging and community on campus. Amongst the complexity and turmoil of student life, self-care and self-love against all odds remain a consistent thread this year.",
         "items": [{
-                "name": "Breaking down Columbia…",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HMHFTTTGGZGQVOUWG33ZAN22HQ.JPG",
-                "blurb": "A perennial theme that has troubled generations of Columbia students is the feeling of isolation in this institution and city, both of which can be extremely competitive and demanding, especially to people who have left home and are learning to be independent for the first time. Though these resources and tips of mental health, self-care, and ways to feel belonged are not onetime remedies, we hope they provide some solace and direction in moments of confusion. ",
+                "name": "The Columbia Rundown",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NZIZFSCUVRCDJM6LF32XMUZDTE.jpg",
+                "blurb": "Spectrum’s mission is to be your big sibling on campus and make your life at Columbia a little bit easier and a little bit more fun. It is easy to feel lost at Columbia, so we made it our mission to help by giving you a crash course on being a student at the Universityand in New York City.",
                 "articles": [{
                         "title": "Self-care and when to reach out: Prioritizing your mental health",
                         "author": "Abhishek Hariharan",
@@ -1109,9 +1109,9 @@ const data = {
                 ]
             },
             {
-                "name": "Getting out of the bubble…",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4ON5FXZSF5EG3NXI74YHB6IUYU.jpg",
-                "blurb": "What’s Columbia without New York City? Despite the fact that we all know that we are living in one of the greatest cities in the world, weekend and weekend again, we find ourselves stuck in the MoHi bubble. All the museums, festivals, concerts, and opportunities to get involved are all waiting for you to be explored and become a part of your memories and time here. Hop on a train downtown, or take a extended stroll with your friends; be this city’s guest.",
+                "name": "Life After Columbia",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XHW5H5ZK6NA4NB3RSWEH443YYQ.jpg",
+                "blurb": "The open waters of life after college are daunting for even the most prepared sailors, but you’re not alone in your voyage across the stormy seas. This year, we investigated how students can plan their professional careers by going straight to the sources. Both Beyond Barnard and the Center for Career Education sat down with us to discuss their most frequently asked questions, their biggest pieces of advice, and the resources the University provides for us.",
                 "articles": [{
                         "title": "10 places in NYC you should explore this spring",
                         "author": "Lina Bennani Karim",
@@ -1145,9 +1145,9 @@ const data = {
                 ]
             },
             {
-                "name": "Guide to lifestyle…",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VX7V423PEVBSHMRA6HDOUANCVA.png",
-                "blurb": "From Friends, to Gossip Girl, to Seinfeld, there are endless TV shows and sitcoms that seem to show a specific New York state of mind. While we do want to make sure you are living your best life here and provide you with tips and ways in which you can better your lifestyle, we also want to say that there is no such thing as a singular New York or Columbia lifestyle. However, decluttering, becoming more environmentally conscious, or getting more sleep are still good habits to follow.",
+                "name": "Feeling Festive",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Z6X7F5KBDJGQJMEUVZGL4JKT5U.jpg",
+                "blurb": "You can go to numerous parties, from Homecoming to Halloween, throughout the academic year. Our articles provided inspiration for costume ideas, themed recipes, and events that you could visit around the city to supplement your festivities.",
                 "articles": [{
                         "title": "Declutter your physical, mental, and digital spaces like Marie Kondo",
                         "author": "Lina Bennani Karim",
@@ -1181,9 +1181,9 @@ const data = {
                 ]
             },
             {
-                "name": "Required Reading…",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CGFH3WFNSNDP5J3X5VAKI2QJDA.gif",
-                "blurb": "For all the prospective and incoming student readers out there, we see you! Before you get to truly join this community, there are nuts and bolts you need to learn and understand, like the Barnard-Columbia relationship, the typical routines of a Columbia student, or the reasons why you are committing your next four years here. Not your usual required reading, we hope these insights from within are more fun than the Iliad that you are trying to cram through in the last couple weeks of summer. ",
+                "name": "Finding Community During COVID-19",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TW6SDEWIVRF4NLL7RKXZ5QVRPI.jpg",
+                "blurb": "Our school year was interrupted by COVID-19, and it is important to remember that you are not alone. Though this pandemic has affected all of us differently, navigating a virtual school life is a first for all of us. Spectrum sought to help you navigate this new world with our tried-and-true blend of humor, sincerity, and practicality.",
                 "articles": [{
                         "title": "Barnumbia 101: The relationship roadmap",
                         "author": "Tian Griffin",
