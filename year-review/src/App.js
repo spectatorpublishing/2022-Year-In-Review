@@ -39,6 +39,7 @@ class App extends Component {
     const ane = () => <AEContainer data = {data["A&E"]}/>
     const spectrum = () => <SpectrumContainer data = {data.Spectrum} />
     const covid = () => <COVIDContainer data = {data.News} />
+    const graphics = () => <GraphicsContainer data = {data.Graphics} />
 
     return (
       <PreloadProvider>
@@ -74,6 +75,7 @@ class App extends Component {
                         <Route exact path="/arts-and-entertainment" component={ane} />
                         <Route exact path="/spectrum" component={spectrum} />
                         <Route exact path="/covid" component={covid} />
+                        <Route exact path="/graphics" component={graphics} />
                       </Switch>
                       <Footer />
                       <ScrollArrow />

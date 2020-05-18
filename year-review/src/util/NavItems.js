@@ -35,6 +35,10 @@ export const NavItems = [
     "name": "Spectrum",
     "link": "/spectrum"
   },
+  {
+    "name": "Design",
+    "link": "/design"
+  },
 ];
 
 const Home = [
