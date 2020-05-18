@@ -218,7 +218,7 @@ const ImageBox = (props) => {
           </React.Fragment>
           ) : (
             <Card {...props.data} onClick={() => props.handleClick(props.index)}>
-              <CardAuthor>By {props.data.author}</CardAuthor>
+              <CardAuthor>{props.data.author}</CardAuthor>
             </Card>
           )}
         </Inner>
