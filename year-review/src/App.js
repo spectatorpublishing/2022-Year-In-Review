@@ -15,6 +15,7 @@ import DesignContainer from './containers/DesignContainer'
 import AEContainer from './containers/AEContainer'
 import SpectrumContainer from './containers/SpectrumContainer'
 import COVIDContainer from './containers/COVIDContainer'
+import GraphicsContainer from './containers/GraphicsContainer'
 
 import NavBar from './components/Navigation/NavBar' 
 import Footer from './components/Footer'

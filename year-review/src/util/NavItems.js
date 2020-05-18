@@ -19,10 +19,10 @@ export const NavItems = [
     "name": "Photo",
     "link": "/photo"
   },
-  // {
-  //   "name": "Design",
-  //   "link": "/design"
-  // },
+  {
+    "name": "Graphics",
+    "link": "/graphics"
+  },
   {
     "name": "Sports",
     "link": "/sports"

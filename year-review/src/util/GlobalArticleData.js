@@ -592,12 +592,12 @@ const data = {
         sections: 
         [
           {
-            "name": "City",
-            "link": "#city"
-          },
-          {
             "name": "Academics",
             "link": "#academics"
+          },
+          {
+            "name": "Community",
+            "link": "#community"
           },
           {
             "name": "Student Life",
@@ -606,12 +606,16 @@ const data = {
           {
             "name": "Essays",
             "link": "#essays"
+          },
+          {
+            "name": "The Ear",
+            "link": "#the-ear"
           }
         ],
         "blurb": "As Spectator’s long-form magazine, The Eye has spent the past year pursuing rigorous, thorough, and empathetic journalism. Through character driven stories with an emphasis on voice and style, we have sought to engage with, inform, and challenge the Columbia community—to evoke something within you, our readers. Put simply: to read an Eye piece is to feel, to think critically, and to draw closer to those who share our spaces. ",
         "items": [{
-                "name": "HIGHLIGHTS IN CITY REPORTING",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/T327ICK2CFFSZD72S6TJYXTSMU.jpg",
+                "name": "HIGHLIGHTS IN ACADEMICS REPORTING",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TDO6A3HQAFFLLADP3BMPW3OPEI.png",
                 "blurb": "",
                 "articles": [{
                         "title": "In the 1980s, Columbia Ran a Homeless Shelter. What Are We Doing Now?",
@@ -646,8 +650,8 @@ const data = {
                 ]
             },
             {
-                "name": "HIGHLIGHTS IN ACADEMICS REPORTING",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HUBYDYXQ3VCI5HQGOXIUAD4OZA.gif",
+                "name": "HIGHLIGHTS IN CPOMMUNITY REPORTING",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2RKSML7U4ZDYFPC75EWFCDPO4I.png",
                 "blurb": "",
                 "articles": [{
                         "title": "In Certain Science and Engineering Fields, Sex Diversity Among Graduate Students Is Stagnating. In Others, It’s Getting Worse.",
@@ -689,7 +693,7 @@ const data = {
             },
             {
                 "name": "HIGHLIGHTS IN STUDENT LIFE REPORTING",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/G2RF2ZLZGFATTNF53IA27HE4WQ.jpg",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XIIMM6KFWRG6HEIYSGNEMMCBAY.jpg",
                 "blurb": "",
                 "articles": [{
                         "title": "Party Foul: The Rise of Alcohol Discipline at Columbia",
@@ -737,7 +741,7 @@ const data = {
                 ]
             }, {
                 "name": "BEST ESSAYS",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TE7RTE6JXRGLRGJ7CJM33DTNCM.gif",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4RFRLWXHRJHD5H4NKTA3HUUVPQ.jpg",
                 "blurb": "",
                 "articles": [{
                         "title": "I Am More Than My ID",
@@ -770,7 +774,42 @@ const data = {
                         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RRMZOYI3QFD43LW777HFEAAJZU.png"
                     }
                 ]
-            }
+            }, {
+                "name": "HIGHLIGHTS FROM THE EAR",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QI26RSJSAFEMHN75BNKGSMIEGI.png",
+                "blurb": "",
+                "articles": [{
+                        "title": "I Am More Than My ID",
+                        "author": "Alexander McNab",
+                        "link": "https://www.columbiaspectator.com/the-eye/2019/04/23/i-am-more-than-my-id/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TE7RTE6JXRGLRGJ7CJM33DTNCM.gif"
+                    },
+                    {
+                        "title": "Caught in the Crossfire",
+                        "author": "Amanda Ong",
+                        "link": "https://www.columbiaspectator.com/the-eye/2019/02/18/caught-in-the-crossfire/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OTFWCFR7CZF6NBOOU27RYT5ZJI.png"
+                    },
+                    {
+                        "title": "Long Days, Long Walks",
+                        "author": "Grace Holleman",
+                        "link": "https://www.columbiaspectator.com/the-eye/2019/02/05/long-days-long-walks/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VCGDYQU625BAPBBYOSLMDMSYLE.png"
+                    },
+                    {
+                        "title": "Both Here and Not: What it Means to Navigate Bipolar",
+                        "author": "Ethan DeLehman",
+                        "link": "https://www.columbiaspectator.com/the-eye/2018/11/19/both-here-and-not-what-it-means-to-navigate-bipolar/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PQPQBABQNBEIXPUYTMR7UZH3JY.gif"
+                    },
+                    {
+                        "title": "The Least Symbolic Thing in the World",
+                        "author": "Sophia Cornell",
+                        "link": "https://www.columbiaspectator.com/the-eye/2018/09/26/the-least-symbolic-thing-in-the-world/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RRMZOYI3QFD43LW777HFEAAJZU.png"
+                    }
+                ]
+            },
         ]
     },
     "A&E": {

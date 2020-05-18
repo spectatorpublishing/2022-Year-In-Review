@@ -6,7 +6,7 @@ import GenericPanelLayout from './GenericPanelLayout';
 import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
 import Lightbox from '../components/Lightbox/Lightbox'
 
-class CovidContainer extends Component {
+class GraphicsContainer extends Component {
     constructor(props) {
         super(props);
     }
@@ -24,4 +24,4 @@ class CovidContainer extends Component {
     }
 }
 
-export default CovidContainer;
+export default GraphicsContainer;
