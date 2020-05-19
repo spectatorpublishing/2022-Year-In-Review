@@ -22,7 +22,7 @@ class SportsContainer extends Component {
           <PageIntro title="SPORTS" description={this.props.data.blurb} img_src={this.props.data.img}/>
           <EditorLetter letter={letter} author="Lizzie Karpen" role="Sports Editor"/>
           
-          <SportsSlideShow data = {this.props.data.items} />
+          <SportsSlideShow data = {this.props.data.sections[0].items} />
       </React.Fragment>
       
     );
