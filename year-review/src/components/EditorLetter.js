@@ -35,7 +35,7 @@ let TempLetter = styled.h2`
   background-color: ${props => props.theme.indigo};
   align-items: left;
   margin-right: 10vw;
-  font-size: 8em;
+  /* font-size: 8em; -- specified by global styles */
   position: relative;
 `
 
