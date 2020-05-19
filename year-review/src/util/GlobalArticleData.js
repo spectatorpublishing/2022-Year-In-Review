@@ -1600,8 +1600,105 @@ const data = {
                     "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/26/oswald-fresh-takes-the-crown-at-bacchanals-battle-of-the-bands/",
                     "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R6AOGYFE4VEAJMA7JYMJUNU6UY.jpg"
                 },
-            ],
-        }],
+                {
+                    "title": "Bacchanal announces opening acts with headliner pending due to contract violations",
+                    "author": "Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/25/bacchanal-announces-opening-acts-with-headliner-pending-due-to-contract-violations/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KDPVJZAB4FDZ3GSJA7SXFBKV6Y.jpg"
+                },
+                {
+                    "title": "Bacchanal reveals contract violations never happened, headliner to be announced Sunday ",
+                    "author": "Alejandra Quintana",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/30/bacchanal-reveals-contract-violations-never-happened-headliner-to-be-announced-sunday/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DC3RPBCVB5BMDDX4F5PNCME3XU"
+                },
+                {
+                    "title": "SOPHIE to headline Bacchanal, Committee announces following weeklong prank",
+                    "author": "Isabela Espadas Barros Leal and Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/31/sophie-to-headline-bacchanal-committee-announces-following-weeklong-prank/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N5K3XPOMX5EMVA7V63WWKUNCIE.jpg"
+                },
+                {
+                    "title": "First-ever all-womxn lineup dominates the stage at 55th Bacchanal ",
+                    "author": "Abby Rooney",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/04/08/first-ever-all-womxn-lineup-dominates-the-stage-at-55th-bacchanal/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Virtual art is a silver lining of social distancing",
+            "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AKYVZ4W2D5CSZEO4Y4GXD4SBRI.jpg",
+            "blurb": "In lieu of crowded theaters, art galleries, and dance studios, Columbia artists found innovative ways to create and share art despite social distancing. Visual arts senior thesis students reimagined how art is exhibited in a digital space. The show went on for senior thesis students in the theater department, who adapted their productions for an exhilarating livestream format. And Columbia dancers took advantage of a slew of online resources that made New York’s elite dance scene more accessible than ever.",
+            "articles": [{
+                    "title": "Oswald Fresh takes the crown at Bacchanal’s Battle of the Bands",
+                    "author": "Lee Alexander",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/26/oswald-fresh-takes-the-crown-at-bacchanals-battle-of-the-bands/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R6AOGYFE4VEAJMA7JYMJUNU6UY.jpg"
+                },
+                {
+                    "title": "Bacchanal announces opening acts with headliner pending due to contract violations",
+                    "author": "Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/25/bacchanal-announces-opening-acts-with-headliner-pending-due-to-contract-violations/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KDPVJZAB4FDZ3GSJA7SXFBKV6Y.jpg"
+                },
+                {
+                    "title": "Bacchanal reveals contract violations never happened, headliner to be announced Sunday ",
+                    "author": "Alejandra Quintana",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/30/bacchanal-reveals-contract-violations-never-happened-headliner-to-be-announced-sunday/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DC3RPBCVB5BMDDX4F5PNCME3XU"
+                },
+                {
+                    "title": "SOPHIE to headline Bacchanal, Committee announces following weeklong prank",
+                    "author": "Isabela Espadas Barros Leal and Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/31/sophie-to-headline-bacchanal-committee-announces-following-weeklong-prank/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N5K3XPOMX5EMVA7V63WWKUNCIE.jpg"
+                },
+                {
+                    "title": "First-ever all-womxn lineup dominates the stage at 55th Bacchanal ",
+                    "author": "Abby Rooney",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/04/08/first-ever-all-womxn-lineup-dominates-the-stage-at-55th-bacchanal/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Virtual art is a silver lining of social distancing",
+            "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AKYVZ4W2D5CSZEO4Y4GXD4SBRI.jpg",
+            "blurb": "In lieu of crowded theaters, art galleries, and dance studios, Columbia artists found innovative ways to create and share art despite social distancing. Visual arts senior thesis students reimagined how art is exhibited in a digital space. The show went on for senior thesis students in the theater department, who adapted their productions for an exhilarating livestream format. And Columbia dancers took advantage of a slew of online resources that made New York’s elite dance scene more accessible than ever.",
+            "articles": [{
+                    "title": "Oswald Fresh takes the crown at Bacchanal’s Battle of the Bands",
+                    "author": "Lee Alexander",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/26/oswald-fresh-takes-the-crown-at-bacchanals-battle-of-the-bands/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R6AOGYFE4VEAJMA7JYMJUNU6UY.jpg"
+                },
+                {
+                    "title": "Bacchanal announces opening acts with headliner pending due to contract violations",
+                    "author": "Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/25/bacchanal-announces-opening-acts-with-headliner-pending-due-to-contract-violations/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KDPVJZAB4FDZ3GSJA7SXFBKV6Y.jpg"
+                },
+                {
+                    "title": "Bacchanal reveals contract violations never happened, headliner to be announced Sunday ",
+                    "author": "Alejandra Quintana",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/30/bacchanal-reveals-contract-violations-never-happened-headliner-to-be-announced-sunday/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DC3RPBCVB5BMDDX4F5PNCME3XU"
+                },
+                {
+                    "title": "SOPHIE to headline Bacchanal, Committee announces following weeklong prank",
+                    "author": "Isabela Espadas Barros Leal and Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/31/sophie-to-headline-bacchanal-committee-announces-following-weeklong-prank/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N5K3XPOMX5EMVA7V63WWKUNCIE.jpg"
+                },
+                {
+                    "title": "First-ever all-womxn lineup dominates the stage at 55th Bacchanal ",
+                    "author": "Abby Rooney",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/04/08/first-ever-all-womxn-lineup-dominates-the-stage-at-55th-bacchanal/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg"
+                }
+            ]
+        }
+        ],
         "seasons": [
             {
                 "name": "Fall Sports",
@@ -1705,6 +1802,37 @@ const data = {
                     "Sports Editor Lizzie Karpen can be contacted at elizabeth.karpen@columbiaspectator.com. Follow her on Twitter @LizzieKarpen."
                     ]
                 } 
+                ],
+                "articles": [{
+                    "title": "Oswald Fresh takes the crown at Bacchanal’s Battle of the Bands",
+                    "author": "Lee Alexander",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/26/oswald-fresh-takes-the-crown-at-bacchanals-battle-of-the-bands/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R6AOGYFE4VEAJMA7JYMJUNU6UY.jpg"
+                },
+                {
+                    "title": "Bacchanal announces opening acts with headliner pending due to contract violations",
+                    "author": "Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/25/bacchanal-announces-opening-acts-with-headliner-pending-due-to-contract-violations/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KDPVJZAB4FDZ3GSJA7SXFBKV6Y.jpg"
+                },
+                {
+                    "title": "Bacchanal reveals contract violations never happened, headliner to be announced Sunday ",
+                    "author": "Alejandra Quintana",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/30/bacchanal-reveals-contract-violations-never-happened-headliner-to-be-announced-sunday/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DC3RPBCVB5BMDDX4F5PNCME3XU"
+                },
+                {
+                    "title": "SOPHIE to headline Bacchanal, Committee announces following weeklong prank",
+                    "author": "Isabela Espadas Barros Leal and Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/31/sophie-to-headline-bacchanal-committee-announces-following-weeklong-prank/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N5K3XPOMX5EMVA7V63WWKUNCIE.jpg"
+                },
+                {
+                    "title": "First-ever all-womxn lineup dominates the stage at 55th Bacchanal ",
+                    "author": "Abby Rooney",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/04/08/first-ever-all-womxn-lineup-dominates-the-stage-at-55th-bacchanal/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg"
+                }
                 ]
             },
             {
@@ -1799,6 +1927,37 @@ const data = {
                         "Staff writer Wick Hallos can be contacted at Wick.Hallos@columbiaspectator.com. Follow Spectator on Twitter @CUSpecSports."
                         ]
                 },
+                ],
+                "articles": [{
+                    "title": "Oswald Fresh takes the crown at Bacchanal’s Battle of the Bands",
+                    "author": "Lee Alexander",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/26/oswald-fresh-takes-the-crown-at-bacchanals-battle-of-the-bands/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R6AOGYFE4VEAJMA7JYMJUNU6UY.jpg"
+                },
+                {
+                    "title": "Bacchanal announces opening acts with headliner pending due to contract violations",
+                    "author": "Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/25/bacchanal-announces-opening-acts-with-headliner-pending-due-to-contract-violations/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KDPVJZAB4FDZ3GSJA7SXFBKV6Y.jpg"
+                },
+                {
+                    "title": "Bacchanal reveals contract violations never happened, headliner to be announced Sunday ",
+                    "author": "Alejandra Quintana",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/30/bacchanal-reveals-contract-violations-never-happened-headliner-to-be-announced-sunday/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DC3RPBCVB5BMDDX4F5PNCME3XU"
+                },
+                {
+                    "title": "SOPHIE to headline Bacchanal, Committee announces following weeklong prank",
+                    "author": "Isabela Espadas Barros Leal and Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/31/sophie-to-headline-bacchanal-committee-announces-following-weeklong-prank/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N5K3XPOMX5EMVA7V63WWKUNCIE.jpg"
+                },
+                {
+                    "title": "First-ever all-womxn lineup dominates the stage at 55th Bacchanal ",
+                    "author": "Abby Rooney",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/04/08/first-ever-all-womxn-lineup-dominates-the-stage-at-55th-bacchanal/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg"
+                }
                 ]
             },
             {
@@ -1812,7 +1971,38 @@ const data = {
                     "However, players like men’s basketball superstar Mike Smith, CC ’20, and Patrick Tapé, CC ’20, will have the chance to once again compete at the highest level as they transfer to the University of Michigan and Duke, respectively, to play out their remaining eligibility."
                     ]
                 }
-            ],
+                ],
+                "articles": [{
+                    "title": "Oswald Fresh takes the crown at Bacchanal’s Battle of the Bands",
+                    "author": "Lee Alexander",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/26/oswald-fresh-takes-the-crown-at-bacchanals-battle-of-the-bands/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R6AOGYFE4VEAJMA7JYMJUNU6UY.jpg"
+                },
+                {
+                    "title": "Bacchanal announces opening acts with headliner pending due to contract violations",
+                    "author": "Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/25/bacchanal-announces-opening-acts-with-headliner-pending-due-to-contract-violations/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KDPVJZAB4FDZ3GSJA7SXFBKV6Y.jpg"
+                },
+                {
+                    "title": "Bacchanal reveals contract violations never happened, headliner to be announced Sunday ",
+                    "author": "Alejandra Quintana",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/30/bacchanal-reveals-contract-violations-never-happened-headliner-to-be-announced-sunday/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DC3RPBCVB5BMDDX4F5PNCME3XU"
+                },
+                {
+                    "title": "SOPHIE to headline Bacchanal, Committee announces following weeklong prank",
+                    "author": "Isabela Espadas Barros Leal and Bruce Acosta",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/31/sophie-to-headline-bacchanal-committee-announces-following-weeklong-prank/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N5K3XPOMX5EMVA7V63WWKUNCIE.jpg"
+                },
+                {
+                    "title": "First-ever all-womxn lineup dominates the stage at 55th Bacchanal ",
+                    "author": "Abby Rooney",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/04/08/first-ever-all-womxn-lineup-dominates-the-stage-at-55th-bacchanal/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg"
+                }
+                ]
             }
         ]
     },

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
-import GenericPanelLayout from './GenericPanelLayout';
+import ArticleCarousel from './ArticleCarousel';
+// import GenericPanelLayout from './GenericPanelLayout';
 import SportsSlideShow from './SportsSlideShow';
 import PageIntro from '../components/PageIntro';
 import EditorLetter from '../components/EditorLetter';
@@ -28,7 +29,8 @@ class SportsContainer extends Component {
            {this.props.data.seasons.map((data, i) =>
               <React.Fragment>
                 <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}> {data.name}</h3>
-                <SportsSlideShow data = {data.items} />
+                <SportsSlideShow key={i} data = {data.items} />
+                <ArticleCarousel key={i} data = {data} />
               </React.Fragment>
               )}
           </ScrollingNavBar>
