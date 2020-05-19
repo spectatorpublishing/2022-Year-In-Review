@@ -546,35 +546,23 @@ const data = {
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7UHGEBGJ5DLPFIJSAPCKSBT3I.jpg",
                 "blurb": "When six Barnard Public Safety officers physically restrained Alexander McNab, CC ’19, against a counter in the Milstein Center for failing to show identification at the Barnard gates last spring, students and administrators alike called for a thorough review of the college’s campus safety policies. As it makes changes to these policies, however, the college has faced criticism from employees who say that they don’t see a need for the same changes. Meanwhile, years of back-and-forth involving unannounced policy changes, contract violations, and skyrocketing legal fees have worsened tensions between Barnard and the union that represents over 200 employees of the college—including public safety, dining, and housekeeping.",
                 "articles": [{
-                        "title": "Your professors pay more for childcare than you do for tuition. 4 of them explain what this means for their lives, and your education.",
-                        "author": "Noah Percy",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/25/your-professor-pays-more-for-childcare-than-you-do-for-tuition-4-faculty-explain-what-this-means-for-their-lives-and-your-education/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5HKPWFTXBZGLXEDMSEZKHE3E2Y.jpg"
+                        "title": "“They don’t follow the rules”: Inside Barnard’s broken relationship with its employee union", 
+                        "author": "Juliette Verlaque",
+                        "link": "https://www.columbiaspectator.com/news/2019/10/17/they-dont-follow-the-rules-inside-barnards-broken-relationship-with-its-employee-union/",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7UHGEBGJ5DLPFIJSAPCKSBT3I.jpg"
                     },
                     {
-                        "title": "Senate passes resolution to create and document bylaws, including guidelines for faculty grievances",
-                        "author": "Emma James",
-                        "link": "https://www.columbiaspectator.com/news/2019/04/08/senate-passes-resolution-to-create-and-document-bylaws-including-guidelines-for-faculty-grievances/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VU4IBS6FUZBSRCX47NNCDYQ45E.jpg"
+                        "title": "Barnard Public Safety lacks consistent and clear guidelines for officer conduct, external investigation finds",  
+                        "author": "Karen Xia", 
+                        "link": "https://www.columbiaspectator.com/news/2019/08/15/barnard-public-safety-policies-lack-consistency-clarity-and-guidelines-on-use-of-physical-force-according-to-extensive-external-investigation/", 
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OAP5KY7RONBWXKVHSXOM74MFJY.jpg"
                     },
                     {
-                        "title": "How 4 faculty helped create Columbia’s first African American and African Diaspora studies department",
-                        "author": "Shubham Saharan and Madison Andrus",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/25/how-4-faculty-helped-create-columbias-first-african-american-and-african-diaspora-studies-department-2/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/XQJ4XNEE4VCBJHD3MSW6KYBLSE.jpg"
-                    },
-                    {
-                        "title": "Columbia has $185 million in dedicated funds. Why is hiring diverse faculty still so difficult?",
-                        "author": "Karen Xia and Noah Percy",
-                        "link": "https://www.columbiaspectator.com/news/2019/02/01/columbia-has-185-million-in-dedicated-funds-why-is-hiring-diverse-faculty-still-so-difficult-9/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JJJ44ZJW4NERLFYRBJI42GRTEU.jpg"
-                    },
-                    {
-                        "title": "New report highlights “concerning disparities” along race, gender lines within Columbia faculty",
-                        "author": "Harris Walker and Mihika Nadig",
-                        "link": "https://www.columbiaspectator.com/news/2018/10/18/new-report-highlights-concerning-disparities-along-race-gender-lines-within-columbia-faculty/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HAMP3SIR4NAXVJKWF4DAWSEIGY.jpg"
-                    },
+                        "title": "What should campus safety look like? As Barnard revises Public Safety policies, officers question college’s approach",   
+                        "author": "Juliette Verlaque",
+                        "link": "https://www.columbiaspectator.com/news/2019/11/21/what-should-campus-safety-look-like-as-barnard-revises-public-safety-policies-officers-question-colleges-approach/ ",
+                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QK3WAFF2ZREUVCJNYIALFEQWNE.jpg"
+                    }
                 ]
             },
         ]
