@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
+import GenericPanelLayout from './GenericPanelLayout';
 import SportsSlideShow from './SportsSlideShow';
 import PageIntro from '../components/PageIntro';
 import EditorLetter from '../components/EditorLetter';
@@ -20,9 +22,16 @@ class SportsContainer extends Component {
     return (
       <React.Fragment>
           <PageIntro title="SPORTS" description={this.props.data.blurb} img_src={this.props.data.img}/>
+              
           <EditorLetter letter={letter} author="Lizzie Karpen" role="Sports Editor"/>
-          
-          <SportsSlideShow data = {this.props.data.sections[0].items} />
+          <ScrollingNavBar menuItems={this.props.data.sections}>
+           {this.props.data.seasons.map((data, i) =>
+              <React.Fragment>
+                <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}> {data.name}</h3>
+                <SportsSlideShow data = {data.items} />
+              </React.Fragment>
+              )}
+          </ScrollingNavBar>
       </React.Fragment>
       
     );
