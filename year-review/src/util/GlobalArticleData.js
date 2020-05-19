@@ -1888,10 +1888,6 @@ const data = {
                 "link": "#local-businesses"
             },
             {
-                "name": "Diversity",
-                "link": "#diversity"
-            },
-            {
                 "name": "Students",
                 "link": "#students"
             }
@@ -1902,143 +1898,151 @@ const data = {
             "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N7HZME5DGVGQHDD4AIJ3ANG3LQ.jpg",
             "blurb": "As a university, Columbia must consider the ethics of offering academic programs with little job marketability. As a corporation, it must grapple with the challenges of receiving donations from those who create the same problems that Columbia’s research seeks to solve. As an institution spreading into neighboring communities in Morningside Heights and Manhattanville, it must understand its obligation to the people who have been displaced for the sake of an academic haven. And as Columbia is all of these things and more, there are millions of affiliates that contribute to the University community—but who deserves compensation for their labor?",
             "articles": [{
-                    "title": "Up against the invincible: A professor was convicted of sexual misconduct. Why is he still on campus? ",
-                    "author": "Karen Xia and Khadija Hussain",
-                    "link": "https://www.columbiaspectator.com/news-features/2019/04/11/up-against-the-invincible-a-professor-was-convicted-of-sexual-misconduct-why-is-he-still-on-campus-2/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N7HZME5DGVGQHDD4AIJ3ANG3LQ.jpg"
+                    "title": "The U.S. and Ivy League schools were late to respond to COVID-19. Data shows international universities did better.",
+                    "author":  "Kelly Pu, Jun Yi Zhang, Stephanie Lai, Raeedah Wahid",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Q4S24TEP2ZFTNH6P245MIKDQYY.gif"
                 },
                 {
-                    "title": "She has a no contact directive against her alleged rapist. Why do they still cross paths?",
-                    "author": "Emma James",
-                    "link": "https://www.columbiaspectator.com/news/2019/04/04/university-insurance-rate-doubled-over-last-fiscal-year-in-part-due-to-influx-of-lawsuits-2/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PXKURAEQH5CGNJQRZZIBR3LUDA.jpg"
+                    "title": "As the pandemic rages on, Columbia braces for widespread financial fallout",
+                    "author": "Abby Melbourne, Drew Letellier, Dia Gill, and Jessica Li",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/16/as-the-pandemic-rages-on-columbia-braces-for-widespread-financial-fallout/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SL573A7IKVGPXCOPLFSPT25QTE.jpg" 
                 },
                 {
-                    "title": "Amended lawsuit against former GS dean Tom Harford alleges Columbia knew of dean’s history of harassment",
-                    "author": "Karen Xia",
-                    "link": "https://www.columbiaspectator.com/news/2019/01/18/amended-lawsuit-against-former-gs-dean-tom-harford-alleges-columbia-knew-of-deans-history-of-harassment",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HOYGWHXHSZHPJD6LLGZUPA5DGE.jpg"
+                    "title": "Coronavirus threatens drop in international student enrollment for universities across nation",
+                    "author": "Sofia Partida",
+                    "link": "https://www.columbiaspectator.com/news/2020/03/10/coronavirus-threatens-drop-in-international-student-enrollment-for-universities-across-nation/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/INJWF2QRJRBCRI26EAVTLMVMIE.jpg" 
                 },
                 {
-                    "title": "Business School professor, Columbia found liable in former professor’s sexual harassment suit",
-                    "author": "Karen Xia",
-                    "link": "https://www.columbiaspectator.com/news/2018/07/26/business-school-professor-columbia-found-liable-in-former-professors-sexual-harassment-suit/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5TXI7XMM75ACXI3L4K62XEDSVU.jpg"
+                    "title": "Discourse and Debate: Columbia was allocated $12.8 million in federal aid for COVID-19 relief. Should it accept the money?",
+                    "author": "Brian Siegel, Brandon Shi, and Jacob Mazzarella",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/05/03/discourse-and-debate-columbia-was-allocated-128-million-in-federal-aid-for-covid-19-relief-what-should-it-do-with-the-money/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NFNRVDYCGJDWRMF7B4Q3FTYWQE.jpg"
                 }
             ]
         },
         {
-            "name": "University role in public safety called into question following death of Tessa Majors",
-            "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5N6I7QDU7JHNVOSBIBGKBT7JQI.jpg",
-            "blurb": "Since 2016, the graduate student union and the University have engaged in a tense legal battle, marked by months of protests, petitions, threats of legal action, and a weeklong strike that left students without teaching and research assistants a week before finals. In lieu of Columbia’s unwillingness to budge, the union announced that it would strike again in December 2018—a postdoctoral union had also formed and been verified at this time—to increase pressure on the University. Finally, days before the strike was authorized to begin, University President Lee Bollinger announced that Columbia would bargain with both unions, under the condition that they sign a bargaining framework including a no-strike provision until April 2020. The bargaining framework has since proven a significant point of contention for the graduate student union.",
+            "name": "Low-income Black residents, essential workers bear the brunt of COVID-19’s health and economic impacts",
+            "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4YIDEPDXCZCZRGE37QCRTQFG6I.jpg",
+            "blurb": "For decades, many “low-skilled” workers—including grocery and drugstore clerks, delivery drivers, and in-home care providers—saw their wages suppressed, positions cut to part-time or contracted work, and paid sick leave and health care benefits chipped away. Now, tens of millions of these workers have suddenly been recognized as “essential” and moved to the front lines of a global pandemic. The fight for economic justice, universal healthcare, and racial reparations is the fight against COVID-19.",
             "articles": [{
-                    "title": "Graduate student and postdoctoral unions officially begin negotiations with Columbia",
-                    "author": "Harris Walker",
-                    "link": "https://www.columbiaspectator.com/news/2019/02/26/graduate-student-and-postdoctoral-unions-officially-begin-negotiations-with-columbia/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CYH4GPSNK5HLNLPKAEWFPH4MYM.jpg"
+                    "title": "Segregation exposes Black residents to health risks. Hospitals are disincentivized from treating them.",
+                    "author": "Valeria Escobar",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/18/segregation-exposes-black-residents-to-health-risks-hospitals-are-disincentivized-from-treating-them/", 
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CFHDLHBZKBERZEZC36EELCZAUI.gif"
                 },
                 {
-                    "title": "Newly elected graduate student bargaining committee to emphasize social justice in negotiations with Columbia",
-                    "author": "Harris Walker",
-                    "link": "https://www.columbiaspectator.com/news/2019/02/18/newly-elected-graduate-student-bargaining-committee-to-emphasize-social-justice-in-negotiations-with-columbia/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/X3FUGENALNCU3BJMAXZ3Q7B5A4.jpg"
+                    "title": "West Harlem residents fall under the most at risk groups for contracting COVID. High poverty rates will make recovery an uphill battle.",
+                    "author": "Destiny Glover and Sofia Partida",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/13/west-harlem-residents-fall-under-the-most-at-risk-groups-for-contracting-covid-high-poverty-rates-will-make-recovery-an-uphill-battle/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NBSQEK6NCNEDJF3VGPGGFCB7LI.jpg"
                 },
                 {
-                    "title": "With Columbia bargaining framework on the table, graduate students remain divided on whether to negotiate",
-                    "author": "Karen Xia",
-                    "link": "https://www.columbiaspectator.com/news/2018/11/22/with-columbia-bargaining-framework-on-the-table-graduate-students-remain-divided-on-whether-to-negotiate/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/I6HEMP4MRFBYRKRUKSA4WHZ3CM.jpg"
+                    "title": "Students and residents around Columbia’s campus can stay home. The essential employees who work nearby cannot afford to.",
+                    "author": "Sofia Partida",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/10/students-and-residents-around-columbias-campus-can-stay-home-the-essential-employees-who-work-nearby-cant-afford-to/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4YIDEPDXCZCZRGE37QCRTQFG6I.jpg" 
                 },
                 {
-                    "title": "Columbia to bargain with grad student union, ending years-long struggle over union recognition",
-                    "author": "Rahil Kamath and Karen Xia",
-                    "link": "https://www.columbiaspectator.com/main/2018/11/19/columbia-to-bargain-with-grad-student-union-ending-years-long-struggle-over-union-recognition-3/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JRU7LYRVUFDZHEOZDJEWZGV5AA.jpg"
+                    "title": "Paid leave can stop the pandemic. Columbia’s policy lets it contract workers who are not guaranteed any.", 
+	                "author": "Valeria Escobar",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/01/paid-leave-can-stop-the-pandemic-columbias-policy-lets-them-contract-workers-who-arent-guaranteed-any/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JHVU7EYA6FDZXPBYRNXEVTCZK4.jpg" 
                 },
                 {
-                    "title": "Grad student union announces plans for indefinite strike beginning in December",
-                    "author": "Harris Walker",
-                    "link": "https://www.columbiaspectator.com/news/2018/11/01/grad-student-union-announces-plans-for-indefinite-strike-beginning-in-december/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AF3UHYAVWRCJLBQQE533OKU3LE.jpg"
-                },
-            ]
-        },
-        {
-            "name": "Businesses confront the effects of Columbia’s expansion",
-            "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OAP5KY7RONBWXKVHSXOM74MFJY.jpg",
-            "blurb": "Ongoing construction for the buildings for Columbia Business School on the Manhattanville campus has left local businesses in a dire state. Two businesses closed down, and others report revenue declines of 30 percent. Over the years, the University has come under scrutiny for turning a blind eye to the community, and while it has contractual obligations, many community leaders say they are not enough.",
-            "articles": [{
-                    "title": "Demands for transparency and equitable campus security erupt following Barnard Public Safety viral video",
-                    "author": "Marianna Najman-Franks",
-                    "link": "https://www.columbiaspectator.com/news/2019/04/18/demands-for-transparency-and-equitable-campus-security-erupt-following-barnard-public-safety-viral-video/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VUII2WXMNVHFPMQFYH5W26XWYM.jpg"
-                },
-                {
-                    "title": "Black Columbia student physically restrained on countertop by Barnard Public Safety requesting to see CUID",
-                    "author": "Marianna Najman-Franks",
-                    "link": "https://www.columbiaspectator.com/news/2019/04/12/black-columbia-student-physically-restrained-on-countertop-by-barnard-public-safety-requesting-to-see-cuid/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OAP5KY7RONBWXKVHSXOM74MFJY.jpg"
-                },
-                {
-                    "title": "Columbia says it abides by federal law for reporting hate crimes. Students and experts argue that compliance is not always enough. ",
-                    "author": "Grace El-Fishawy",
-                    "link": "https://www.columbiaspectator.com/news/2019/01/29/columbia-says-it-abides-by-federal-law-for-reporting-hate-crimes-students-and-experts-argue-that-compliance-is-not-always-enough/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/V7GH7ETZ3RHXPDKSZAKCTZ6NXY.jpg"
-                },
-                {
-                    "title": "Carman Hall residence vandalized with anti-black slur in early December",
-                    "author": "Karen Xia and Khadija Hussain",
-                    "link": "https://www.columbiaspectator.com/news/2018/12/18/carman-hall-vandalized-with-anti-black-slur-in-early-december/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/S2XK2EVJYJEMFEYTQB4I6VPGTE.jpg"
-                },
-                {
-                    "title": "Students of color harassed outside Butler by Columbia sophomore spewing racist, white supremacist rhetoric",
-                    "author": "Elina Arbo",
-                    "link": "https://www.columbiaspectator.com/news/2018/12/10/students-of-color-harassed-outside-butler-by-columbia-sophomore-spewing-racist-white-supremacist-rhetoric/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DORLV5BS3BBVBP3XT2G4AY2HWE.jpg"
-                },
-                {
-                    "title": "Columbia Teachers College professor’s office vandalized with swastikas, anti-Semitic slurs",
-                    "author": "Karen Xia",
-                    "link": "https://www.columbiaspectator.com/news/2018/11/29/teachers-college-professors-office-vandalized-with-anti-semitic-graffiti/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6Z42LII4INDNNPZRZE63J4UFHM.jpg"
+                    "title": "Columbia construction workers ordered to return to sites as COVID cases peak in NYC",
+                    "author": "Stephanie Lai",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/21/columbia-construction-workers-ordered-to-return-to-sites-as-covid-cases-peak-in-nyc/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YDOBEUGA4RHPZL2QGLUGVZDC2E.jpg" 
+                }, {
+                    "title": "“Landlords are waiting to pounce”: COVID-19 casts grim future for renters confronted by wave of evictions",
+                    "author": "Stephanie Lai",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/28/landlords-are-waiting-to-pounce-covid-19-casts-grim-future-for-renters-confronted-by-wave-of-evictions/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/L2V6FGJAO5CMZDOEG5BVTUEQRY.jpg"
                 }
             ]
         },
         {
-            "name": "Barnard faces heat from workers’ unions, public safety",
-            "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NMAJDV44ONDJHKNYEZ7N6NLJB4.jpg",
-            "blurb": "When six Barnard Public Safety officers physically restrained Alexander McNab, CC ’19, against a counter in the Milstein Center for failing to show identification at the Barnard gates last spring, students and administrators alike called for a thorough review of the college’s campus safety policies. As it makes changes to these policies, however, the college has faced criticism from employees who say that they don’t see a need for the same changes. Meanwhile, years of back-and-forth involving unannounced policy changes, contract violations, and skyrocketing legal fees have worsened tensions between Barnard and the union that represents over 200 employees of the college—including public safety, dining, and housekeeping.",
+            "name": "MoHi businesses lay off workers, close doors",
+            "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/V4KGJHFDINEKZN74ZVMTSBFUH4.jpg",
+            "blurb": "As COVID-19 ravaged New York City, businesses in the Morningside Heights area have laid off hundreds of workers, and remaining essential workers claim they were not provided with adequate protective gear. The local landscape of restaurants, venues, and small businesses will remain changed for years to come.",
             "articles": [{
-                    "title": "Your professors pay more for childcare than you do for tuition. 4 of them explain what this means for their lives, and your education.",
-                    "author": "Noah Percy",
-                    "link": "https://www.columbiaspectator.com/news/2019/04/25/your-professor-pays-more-for-childcare-than-you-do-for-tuition-4-faculty-explain-what-this-means-for-their-lives-and-your-education/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5HKPWFTXBZGLXEDMSEZKHE3E2Y.jpg"
+                    "title": "“When we lose the students, we lose business”: Small businesses lay off hundreds amid coronavirus outbreak",
+                    "author": "Clay Anderson",
+                    "link": "https://www.columbiaspectator.com/news/2020/03/26/when-we-lose-the-students-we-lose-business-small-businesses-forced-to-lay-off-hundreds-of-employees-amid-coronavirus-outbreak/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/V4KGJHFDINEKZN74ZVMTSBFUH4.jpg" 
                 },
                 {
-                    "title": "Senate passes resolution to create and document bylaws, including guidelines for faculty grievances",
-                    "author": "Emma James",
-                    "link": "https://www.columbiaspectator.com/news/2019/04/08/senate-passes-resolution-to-create-and-document-bylaws-including-guidelines-for-faculty-grievances/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VU4IBS6FUZBSRCX47NNCDYQ45E.jpg"
+                    "title": "Online gaming and crisis deliveries: Local restaurants find creative solutions to COVID-19 restrictions", 
+                    "author": "Noah Sheidlower",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/03/27/online-gaming-and-crisis-deliveries-local-restaurants-find-creative-solutions-to-restrictions-during-coronavirus-outbreak/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7FXVXEPY4ZFKDFKJYGCORCPVOU" 
                 },
                 {
-                    "title": "How 4 faculty helped create Columbia’s first African American and African Diaspora studies department",
-                    "author": "Shubham Saharan and Madison Andrus",
-                    "link": "https://www.columbiaspectator.com/news/2019/02/25/how-4-faculty-helped-create-columbias-first-african-american-and-african-diaspora-studies-department-2/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/XQJ4XNEE4VCBJHD3MSW6KYBLSE.jpg"
+                    "title": "Chinese restaurants and independent eateries face heightened closures amid COVID-19",
+                    "author": "Noah Sheidlower",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/04/03/chinese-restaurants-and-independent-eateries-face-heightened-closures-amid-covid-19/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PGQLJEVEVFD23CZ6B62TUP7L6Q.JPG"
                 },
                 {
-                    "title": "Columbia has $185 million in dedicated funds. Why is hiring diverse faculty still so difficult?",
-                    "author": "Karen Xia and Noah Percy",
-                    "link": "https://www.columbiaspectator.com/news/2019/02/01/columbia-has-185-million-in-dedicated-funds-why-is-hiring-diverse-faculty-still-so-difficult-9/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JJJ44ZJW4NERLFYRBJI42GRTEU.jpg"
+                    "title": "Please don’t stop the music: Local venues and performers cope with closures and looming financial crisis", 
+                    "author": "Bella Bromberg and Nigel Telman", 
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/04/28/please-dont-stop-the-music-local-venues-and-performers-cope-with-closures-and-looming-financial-crisis/", 
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DM7NMWLUZVHQDGIZPFOMO5JA34.jpg"
+                },
+            ]
+        },
+        {
+            "name": "Students adapt to online-learning and social distancing amid mixed messaging about safety practices",
+            "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/22IOVB3435CQZC6WPNTUGEVNRA.jpg",
+            "blurb": "When COVID-19 first broke out in the United States, little information was known about the virus, and young people were informed that they had a low risk of fatality compared to those above 60. They were initially encouraged to maintain hygienic practices, but not to see the virus as a threat to their personal health. Masks and social distancing were associated with racial bias against Chinese students at Columbia and not seen as practices that should be generally implemented. Just weeks later, the University transformed into a community over zoom.",
+            "articles": [{
+                    "title": "Inconsistent messaging around young people’s COVID-19 risk contributes to spread of infection",  
+                    "author": "Katriel Tolin",
+                    "link": "https://www.columbiaspectator.com/news/2020/03/30/inconsistent-messaging-around-young-peoples-covid-19-risk-contributes-to-spread-of-infection/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4CWDLVTLJRE2ZCNRI24GGUIBMI.jpg" 
                 },
                 {
-                    "title": "New report highlights “concerning disparities” along race, gender lines within Columbia faculty",
-                    "author": "Harris Walker and Mihika Nadig",
-                    "link": "https://www.columbiaspectator.com/news/2018/10/18/new-report-highlights-concerning-disparities-along-race-gender-lines-within-columbia-faculty/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HAMP3SIR4NAXVJKWF4DAWSEIGY.jpg"
+                    "title": "Online courses are disrupted by hackers as Columbia transitions to Zoom video conferencing platform",
+                    "author": "Stephanie Lai",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/02/online-courses-are-disrupted-by-hackers-as-columbia-transitions-to-zoom-video-conferencing-platform/", 
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PLJ2NWZXVJAGTD7C3EI5ZKUKZA.jpg"
                 },
+                {
+                    "title": "Social distancing was just abstract advice for college students. Then my grandfather died.",
+                    "author": "Gurtej Gill",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/04/06/social-distancing-was-just-abstract-advice-for-college-students-then-my-grandfather-died/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3VLMOFFDMFF5FOURPNS4DVNFTA.gif"
+                },
+                {
+                    "title": "Marginalized students have always called for accommodations. Will it take a pandemic for their voices to be heard?",
+                    "author": "Heven Haile and Colby King", 
+                    "link": "https://www.columbiaspectator.com/opinion/2020/04/14/marginalized-students-have-always-called-for-accommodations-will-it-take-a-pandemic-for-their-voices-to-be-heard/", 
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IBOQGVO6KFDAHHBZFW3PR3DZHQ.png"
+                },
+                {
+                    "title": "At Zoom University, Crepe-making, Photoshop Sets, and Virtual Backgrounds Keep Us Connected.",
+                    "author": "Briani Netzahuatl and Mína Wang",
+                    "link": "https://www.columbiaspectator.com/the-eye/2020/04/10/at-zoom-university-crepe-making-photoshop-sets-and-virtual-backgrounds-keep-us-connected/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/MYPTC4R7DRD3TN45YZAK3YALEI.jpg"
+                }, {
+                    "title": "Before Joining the Front Lines: Four Perspectives From Columbia Medical Students",
+                    "author": "Paul Hanna", 
+                    "link": "https://www.columbiaspectator.com/the-eye/2020/05/04/before-joining-the-front-lines-four-perspectives-from-columbia-medical-students/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PBLFITDU3JHPJBNT5KSYWPZEYM.png" 
+                }, {
+                    "title": "[100 words]: We asked how COVID-19 has impacted students’ lives. Here are their responses.", 
+                    "author": "[100 words] contributors, Liz Nichols, Hong Sen Du, Raeedah Wahid, Hsinyen Huang, and Tamarah Wallace", 
+                    "link": "https://www.columbiaspectator.com/opinion/2020/03/29/100-words-we-asked-how-covid-19-has-impacted-students-lives-here-are-their-responses/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6MTSNPXPPJEQRPTZFYEDZHPKOE.png"
+                }, {
+                    "title": "Views from quarantine",
+                    "author": "Spectator Illustrations staff",
+                    "link": "https://www.columbiaspectator.com/multimedia/2020/04/29/views-from-quarantine/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3UHHJ6SATZGZPO5FD3FKRRSMPU.png"
+                }
             ]
         },
     ],
