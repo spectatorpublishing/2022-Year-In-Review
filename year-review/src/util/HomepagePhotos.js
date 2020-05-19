@@ -1,9 +1,9 @@
 const HomepagePhotos = [
-    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/NMAJDV44ONDJHKNYEZ7N6NLJB4.jpg",
-    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QCXT6B3QONBTBG4EJUROH3SLMA.jpg",
-    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QIVHFBGWWZDQVFEHJJHWY2N45E.jpg",
-    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CSJ4AJQACVA3HAFJQFZN456TNU.jpg",
-    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C2PD73JOYBAWJCJDUD4UODD4FM.jpg",
-    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IABTMX6DRNBDLMTNNP7UD5GZBY.jpg"
+    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JQWMSIYH3RFARAAOBOIOQXTK2I.jpg",
+    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CTKF2G5UFBCLLNRPDR3JLFBWYU.jpg",
+    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6XKFOQJYZRCD7AT4LY7FFCWP6E.jpg",
+    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JV3NGZQ75ZADBLVIA6PW65WIRU.jpg",
+    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7YQAUCXS7BFHBBQZNURY7PNW7A.jpg",
+    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/I2423YJA2JD2LCBU3D3RHJOIOU.jpg"
 ]
 export default HomepagePhotos
