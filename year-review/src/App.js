@@ -14,7 +14,7 @@ import PhotoContainer from './containers/PhotoContainer'
 import DesignContainer from './containers/DesignContainer'
 import AEContainer from './containers/AEContainer'
 import SpectrumContainer from './containers/SpectrumContainer'
-import COVIDContainer from './containers/COVIDContainer'
+import CovidContainer from './containers/COVIDContainer'
 import GraphicsContainer from './containers/GraphicsContainer'
 
 import NavBar from './components/Navigation/NavBar' 
@@ -38,7 +38,7 @@ class App extends Component {
     const sports = () => <SportsContainer data = {data.Sports} />
     const ane = () => <AEContainer data = {data["A&E"]}/>
     const spectrum = () => <SpectrumContainer data = {data.Spectrum} />
-    const covid = () => <COVIDContainer data = {data.News} />
+    const covid = () => <CovidContainer data = {data.Covid} />
     const graphics = () => <GraphicsContainer data = {data.Graphics} />
 
     return (
@@ -74,7 +74,7 @@ class App extends Component {
                         <Route exact path="/sports" component={sports} />
                         <Route exact path="/arts-and-entertainment" component={ane} />
                         <Route exact path="/spectrum" component={spectrum} />
-                        <Route exact path="/covid" component={covid} />
+                        <Route exact path="/covid-19" component={covid} />
                         <Route exact path="/graphics" component={graphics} />
                       </Switch>
                       <Footer />
