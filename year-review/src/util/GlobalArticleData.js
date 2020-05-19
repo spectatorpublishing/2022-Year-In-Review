@@ -1804,34 +1804,71 @@ const data = {
                 } 
                 ],
                 "articles": [{
-                    "title": "Oswald Fresh takes the crown at Bacchanal’s Battle of the Bands",
-                    "author": "Lee Alexander",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/26/oswald-fresh-takes-the-crown-at-bacchanals-battle-of-the-bands/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R6AOGYFE4VEAJMA7JYMJUNU6UY.jpg"
+                    "title": "“A whole new passion for the game”: After a season lost to injury, star wideout Josh Wainwright is ready to get back on the field",
+                    "author": "Harris Walker",
+                    "link": "https://www.columbiaspectator.com/sports/2019/09/12/a-whole-new-passion-for-the-game-after-a-season-lost-to-injury-star-wideout-josh-wainwright-is-ready-to-get-back-on-the-field/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5QEG4UEYWJBC3GHWMBXSNCRAHA.jpg"
+    
                 },
                 {
-                    "title": "Bacchanal announces opening acts with headliner pending due to contract violations",
-                    "author": "Bruce Acosta",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/25/bacchanal-announces-opening-acts-with-headliner-pending-due-to-contract-violations/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KDPVJZAB4FDZ3GSJA7SXFBKV6Y.jpg"
+                    "title": "“One of the best players in the history of this program”: Amalya Johnson finishes a career filled with many accolades and even more memories",
+                    "author": "Adam Lang",
+                    "link": "https://www.columbiaspectator.com/sports/2019/11/12/one-of-the-best-players-in-the-history-of-this-program-amalya-johnson-ends-a-career-filled-with-many-accolades-and-even-more-memories/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JIOLYS3RIJGX7OS6ZSDADFJ2WI.jpg"
                 },
                 {
-                    "title": "Bacchanal reveals contract violations never happened, headliner to be announced Sunday ",
-                    "author": "Alejandra Quintana",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/30/bacchanal-reveals-contract-violations-never-happened-headliner-to-be-announced-sunday/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DC3RPBCVB5BMDDX4F5PNCME3XU"
+                    "title": "Bidding farewell: After 37 years and over 500 wins, a legendary men’s tennis coach retires",
+                    "author": "Elizabeth Karpen",
+                    "link": "https://www.columbiaspectator.com/sports/2019/05/28/bidding-farewell-after-37-years-and-over-500-wins-a-legendary-mens-tennis-coach-retires/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/T5OCD3QFEVAX5AL7FWRN44FEDM.jpg"
                 },
                 {
-                    "title": "SOPHIE to headline Bacchanal, Committee announces following weeklong prank",
-                    "author": "Isabela Espadas Barros Leal and Bruce Acosta",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/31/sophie-to-headline-bacchanal-committee-announces-following-weeklong-prank/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N5K3XPOMX5EMVA7V63WWKUNCIE.jpg"
+                    "title": "Victory screams and silent smiles: How Cheng and Ikwuazom have changed volleyball’s team culture",
+                    "author": "Clara Ence Morse",
+                    "link": "https://www.columbiaspectator.com/sports/2019/10/31/victory-screams-and-silent-smiles-how-cheng-and-ikwuazom-have-changed-volleyballs-team-culture/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZLHZSLSS7BD5JA7KTDAATOQE4A.jpg"
                 },
                 {
-                    "title": "First-ever all-womxn lineup dominates the stage at 55th Bacchanal ",
-                    "author": "Abby Rooney",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/04/08/first-ever-all-womxn-lineup-dominates-the-stage-at-55th-bacchanal/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg"
+                    "title": "Bill Campbell gave Columbia his time and money, but his biggest gift was generations of mentorship",
+                    "author": "Mackenzie George",
+                    "link": "https://www.columbiaspectator.com/sports/2019/11/21/bill-campbell-gave-columbia-his-time-and-money-but-his-biggest-gift-was-generations-of-mentorship/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/22OCVQ65QBAMVLIB7JARLW2H5E"
+                },
+                {
+                    "title": "The man, the myth, the mascot: Roar-ee the Lion’s role in championing a stronger athletic culture at Columbia",
+                    "author": "Elizabeth Karpen",
+                    "link": "https://www.columbiaspectator.com/sports/2019/09/19/the-man-the-myth-the-mascot-roar-ee-the-lions-role-in-championing-a-stronger-athletics-culture-at-columbia-2/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WY6IGLVDVBHT7HK4XBHTQ4UGTA.jpg"
+                },
+                {
+                    "title": "Ireland highlights individuality to build a cross country team for success",
+                    "author": "Mackenzie George",
+                    "link": "https://www.columbiaspectator.com/sports/2019/11/08/by-highlighting-individuality-ireland-springboards-a-cross-country-team-for-success/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DYNX4WATWZHA3G2Z5ZZPCCJRD4.jpg"
+                },
+                {
+                    "title": "Alone in the cage: How the “relentlessly confident” Alexa Conomikes has overcome adversity to step into the role of goalkeeper",
+                    "author": "Miles Schachner",
+                    "link": "https://www.columbiaspectator.com/sports/2019/11/07/alone-in-the-cage-how-the-relentlessly-confident-alexa-conomikes-has-overcome-adversity-to-step-into-the-role-of-goalkeeper/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ELTVQXZ5L5FKJHAJWA7H7VFKWI.jpg"
+                },
+                {
+                    "title": "Looking back on the legacy of Columbia football’s 2016 recruiting class",
+                    "author": "Harris Walker",
+                    "link": "https://www.columbiaspectator.com/sports/2020/05/12/looking-back-on-the-legacy-of-columbia-footballs-2016-recruiting-class/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JMOE3IPK4JHE3J77NE4WKJWEKE"
+                },
+                {
+                    "title": "Looking for greener pastures: Golf’s struggle for recognition on Columbia’s campus",
+                    "author": "Elizabeth Karpen",
+                    "link": "https://www.columbiaspectator.com/sports/2019/12/05/looking-for-greener-pastures-golfs-struggle-for-recognition-on-columbias-campus/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VUFD7LAMMFCSVIM4WKAN7I32OE"
+                },
+                {
+                    "title": "“A festival of rowing”: Lions take home top-five finishes and renewed sense of community at Head Of The Charles regatta",
+                    "author": "Clara Ence Morse",
+                    "link": "https://www.columbiaspectator.com/sports/2019/10/23/a-festival-of-rowing-lions-take-home-top-five-finishes-and-renewed-sense-of-community-at-head-of-the-charles-regatta/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/77D7GJLT6RHI3OCAOEO3LM2BGA.jpg"
                 }
                 ]
             },
@@ -1929,34 +1966,46 @@ const data = {
                 },
                 ],
                 "articles": [{
-                    "title": "Oswald Fresh takes the crown at Bacchanal’s Battle of the Bands",
-                    "author": "Lee Alexander",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/26/oswald-fresh-takes-the-crown-at-bacchanals-battle-of-the-bands/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R6AOGYFE4VEAJMA7JYMJUNU6UY.jpg"
+                    "title": "How coach Megan Griffith and first-year Lions are turning women’s basketball into a different breed",
+                    "author": "Adam Lang",
+                    "link": "https://www.columbiaspectator.com/sports/2020/02/27/how-coach-megan-griffith-and-first-year-lions-are-turning-womens-basketball-into-a-different-breed/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RGZFCNM45JGU5G5Q5DQQFUWETI.jpg"
                 },
                 {
-                    "title": "Bacchanal announces opening acts with headliner pending due to contract violations",
-                    "author": "Bruce Acosta",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/25/bacchanal-announces-opening-acts-with-headliner-pending-due-to-contract-violations/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KDPVJZAB4FDZ3GSJA7SXFBKV6Y.jpg"
+                    "title": "Everyone matters: How Aufrichtig built a fencing dynasty centered on teamwork",
+                    "author": "Mackenzie George",
+                    "link": "https://www.columbiaspectator.com/sports/2020/02/27/everyone-matters-how-aufrichtig-built-a-fencing-dynasty-centered-on-teamwork/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WYWJIE36PNGHLLPJM6EOQ4YKYQ.jpg"
                 },
                 {
-                    "title": "Bacchanal reveals contract violations never happened, headliner to be announced Sunday ",
-                    "author": "Alejandra Quintana",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/30/bacchanal-reveals-contract-violations-never-happened-headliner-to-be-announced-sunday/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DC3RPBCVB5BMDDX4F5PNCME3XU"
+                    "title": "“I’m not going to change because of a losing record”: Why the men’s basketball team’s faithful keeps coming back",
+                    "author": "Harris Walker and Elizabeth Karpen",
+                    "link": "https://www.columbiaspectator.com/sports/2020/05/08/im-not-going-to-change-because-of-a-losing-record-why-the-mens-basketball-teams-faithful-keeps-coming-back/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LQOX4CA7HBDXXKELVI5KCG4PVE.jpg"
                 },
                 {
-                    "title": "SOPHIE to headline Bacchanal, Committee announces following weeklong prank",
-                    "author": "Isabela Espadas Barros Leal and Bruce Acosta",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/31/sophie-to-headline-bacchanal-committee-announces-following-weeklong-prank/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N5K3XPOMX5EMVA7V63WWKUNCIE.jpg"
+                    "title": "No longer on thin ice: Men’s hockey enters the championship hunt",
+                    "author": "Clara Ence Morse",
+                    "link": "https://www.columbiaspectator.com/sports/2020/01/23/no-longer-on-thin-ice-mens-hockey-enters-the-championship-hunt/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6WNEHITQEJBGJEBL2IE7YLYLV4.gif"
                 },
                 {
-                    "title": "First-ever all-womxn lineup dominates the stage at 55th Bacchanal ",
-                    "author": "Abby Rooney",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/04/08/first-ever-all-womxn-lineup-dominates-the-stage-at-55th-bacchanal/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg"
+                    "title": "“It’s unmatched”: How swimmer Helen Wojdylo’s determination won her an Ivy League title and an Olympic trial berth",
+                    "author": "Miles Schachner",
+                    "link": "https://www.columbiaspectator.com/sports/2020/02/20/its-unmatched-how-swimmer-helen-wojdylos-determination-won-her-an-ivy-league-title-and-an-olympic-trial-berth/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/72DF4YPQS5D43OIEHSNKNFJMZA.jpg"
+                },
+                {
+                    "title": "How Janiya Clemmons left the bench to lead women’s basketball to its first winning season of the decade",
+                    "author": "Adam Lang",
+                    "link": "https://www.columbiaspectator.com/sports/2020/05/10/how-janiya-clemmons-left-the-bench-to-lead-womens-basketball-to-its-first-winning-season-of-the-decade/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CBUWV4NRUVG47CHCILLYPKKNHI.jpg"
+                },
+                {
+                    "title": "“It put Columbia on the map”: Lightweight rowing’s irreverent Instagram helps promote culture, pull in recruits",
+                    "author": "Clara Ence Morse",
+                    "link": "https://www.columbiaspectator.com/sports/2020/04/24/it-put-columbia-on-the-map-lightweight-rowings-irreverent-instagram-helps-promote-culture-pull-in-recruits/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IE66TAR7MVGXZBQX4HZZSFBL2A.png"
                 }
                 ]
             },
@@ -1973,34 +2022,70 @@ const data = {
                 }
                 ],
                 "articles": [{
-                    "title": "Oswald Fresh takes the crown at Bacchanal’s Battle of the Bands",
-                    "author": "Lee Alexander",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/02/26/oswald-fresh-takes-the-crown-at-bacchanals-battle-of-the-bands/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R6AOGYFE4VEAJMA7JYMJUNU6UY.jpg"
+                    "title": "With the world powered off, esports becomes a way to reboot communities off-campus",
+                    "author": "Elizabeth Karpen",
+                    "link": "https://www.columbiaspectator.com/sports/2020/05/11/with-the-world-powered-off-esports-becomes-a-way-to-reboot-communities-off-campus/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/MX5KYAVLVVE7VOYELI6ZLQ6GXM.JPG"
                 },
                 {
-                    "title": "Bacchanal announces opening acts with headliner pending due to contract violations",
-                    "author": "Bruce Acosta",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/25/bacchanal-announces-opening-acts-with-headliner-pending-due-to-contract-violations/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KDPVJZAB4FDZ3GSJA7SXFBKV6Y.jpg"
+                    "title": "Alex Keyser’s season ended before it ever really began",
+                    "author": "Elizabeth Karpen",
+                    "link": "https://www.columbiaspectator.com/sports/2020/04/07/alex-keysers-season-ended-before-it-ever-really-began/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NXF7EBEDOVGPRKUSPFR74MMNRI.JPG"
                 },
                 {
-                    "title": "Bacchanal reveals contract violations never happened, headliner to be announced Sunday ",
-                    "author": "Alejandra Quintana",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/30/bacchanal-reveals-contract-violations-never-happened-headliner-to-be-announced-sunday/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DC3RPBCVB5BMDDX4F5PNCME3XU"
+                    "title": "“Unfinished”: Fencing seniors struggle to find closure after COVID-19 erases chance at second straight national title",
+                    "author": "Mackenzie George",
+                    "link": "https://www.columbiaspectator.com/sports/2020/04/13/unfinished-fencing-seniors-struggle-to-find-closure-after-covid-19-erases-chance-at-second-straight-national-title/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OM2BWKQCLFC2XI7JJQTVOJN6ZA.jpg"
                 },
                 {
-                    "title": "SOPHIE to headline Bacchanal, Committee announces following weeklong prank",
-                    "author": "Isabela Espadas Barros Leal and Bruce Acosta",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/03/31/sophie-to-headline-bacchanal-committee-announces-following-weeklong-prank/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N5K3XPOMX5EMVA7V63WWKUNCIE.jpg"
+                    "title": "“I haven’t reached my potential”: After leading her team to a cancelled postseason, Janiya Clemmons weighs basketball and banking",
+                    "author": "Adam Lang",
+                    "link": "https://www.columbiaspectator.com/sports/2020/04/19/after-leading-her-team-to-a-cancelled-postseason-janiya-clemmons-weighs-basketball-and-banking/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Y2FWYGWTHBGIPIWIDMZICCIT4A.jpg"
                 },
                 {
-                    "title": "First-ever all-womxn lineup dominates the stage at 55th Bacchanal ",
-                    "author": "Abby Rooney",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/04/08/first-ever-all-womxn-lineup-dominates-the-stage-at-55th-bacchanal/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GRSRQNHHLFFYRIFWN4W2RGYRBE.jpg"
+                    "title": "Bhan’s historic performance offers extra hope for the already bright future of women’s tennis",
+                    "author": "Mackenize George",
+                    "link": "https://www.columbiaspectator.com/sports/2020/04/23/bhans-historic-performance-offers-extra-hope-for-the-already-bright-future-of-womens-tennis/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GPI23AHHBFEFVMJY4NGIHYF53E.jpg"
+                },
+                {
+                    "title": "Beyond all expectations: Seniors Iman Sule and Katie Wasserman break records on the track and excel in the classroom",
+                    "author": "Juliet Tochterman",
+                    "link": "https://www.columbiaspectator.com/sports/2020/05/07/beyond-all-expectations-seniors-iman-sule-and-katie-wasserman-break-records-on-the-track-and-excel-in-the-classroom/",
+                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4I4CQB27ANCWTELBHCBMI3HY5U.JPG"
+                },
+                {
+                    "title": "After a shattered season, Leo Pollack stares down a long road to recovery",
+                    "author": "Miles Schachner",
+                    "link": "https://www.columbiaspectator.com/sports/2020/05/07/after-a-shattered-season-leo-pollack-stares-down-a-long-road-to-recovery/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N342VXWRQREP7JPZ2COROR4DCM.JPG"
+                },
+                {
+                    "title": "“We have to start from square one”: Pandemic deals a blow to club sports teams across Columbia",
+                    "author": "Clara Ence Morse",
+                    "link": "https://www.columbiaspectator.com/sports/2020/05/12/we-have-to-start-from-square-one-pandemic-deals-a-blow-to-club-sports-teams-across-columbia/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N342VXWRQREP7JPZ2COROR4DCM.JPG"
+                },
+                {
+                    "title": "The best triple jumper in Columbia history, senior Daniel Igbokwe, will graduate after a record-breaking career",
+                    "author": "Juliet Tochterman",
+                    "link": "https://www.columbiaspectator.com/sports/2020/05/14/the-best-triple-jumper-in-columbia-history-senior-daniel-igbokwe-will-graduate-after-a-record-breaking-career/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GCTC24C7Y5GDPN67EM2ACOVXGA.jpg"
+                },
+                {
+                    "title": "The members of the lacrosse class of 2020 know how to win in their roles",
+                    "author": "Wick Hallos",
+                    "link": "https://www.columbiaspectator.com/sports/2020/05/14/the-lacrosse-class-of-2020-knows-how-to-win-in-their-roles/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UQRXTLSD2JESLNQAQOAT2YAKSA"
+                },
+                {
+                    "title": "For multiple members of the class of 2020, Ultimate Frisbee was home",
+                    "author": "Mackenzie George",
+                    "link": "https://www.columbiaspectator.com/sports/2020/05/14/for-multiple-members-of-the-class-of-2020-ultimate-frisbee-was-home/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/57AAIQ3YVNAFJBXWYQPAOBL5RM"
                 }
                 ]
             }
