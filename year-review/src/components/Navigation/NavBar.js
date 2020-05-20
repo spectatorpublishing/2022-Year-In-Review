@@ -266,7 +266,7 @@ class NavBar extends Component {
   
   updateTitle(match, name) {
     if (match) {
-      document.title = name + " | 2018-19 Year In Review";
+      document.title = name + " | 2019-20 Year In Review";
     }
   }
 
