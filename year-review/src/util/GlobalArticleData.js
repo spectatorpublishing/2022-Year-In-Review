@@ -782,16 +782,16 @@ const data = {
                       "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FUXN2FKFRZAZXMXARXBSLOSJBE.jpeg"
                     },
                     {
-                      "title": "value",
-                      "author": "value",
-                      "link": "https://www.columbiaspectator.com/spectrum/2019/09/28/class-of-2023-expectations-vs-reality/",
-                      "img": "value"
-                    },
-                    {
                       "title": "Class of 2023: expectations vs. reality",
                       "author": "Ariana Novo",
-                      "link": "https://www.columbiaspectator.com/spectrum/2020/02/19/how-did-that-date-actually-go/",
+                      "link": "https://www.columbiaspectator.com/spectrum/2019/09/28/class-of-2023-expectations-vs-reality/",
                       "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GDZ6V442XFGP7KWD32SQYVRE2Q.jpg"
+                    }, 
+                    {
+                      "title": "How did that date actually go?",
+                      "author": "Sydney Fox",
+                      "link": "https://www.columbiaspectator.com/spectrum/2020/02/19/how-did-that-date-actually-go/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5MXVXFTEGZEH5HSCQ63B2YYPEI.jpg"
                     }
                   ]
             },
@@ -804,7 +804,7 @@ const data = {
                       "title": "How to use LinkedIn and Handshake effectively",
                       "author": "Jazilah Salam",
                       "link": "https://www.columbiaspectator.com/spectrum/2020/03/10/how-to-use-linkedin-and-handshake-effectively/",
-                      "img": "https://www.columbiaspectator.com/spectrum/2020/03/10/how-to-use-linkedin-and-handshake-effectively/"
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XHW5H5ZK6NA4NB3RSWEH443YYQ.jpg"
                     },
                     {
                       "title": "How to flex your Barnumbia degree in an interview",
