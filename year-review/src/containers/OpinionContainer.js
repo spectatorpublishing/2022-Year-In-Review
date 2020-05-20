@@ -25,16 +25,16 @@ export default class OpinionContainer extends Component {
             <div>
               <GenericPanelLayout data={this.props.data.items[0]} />
             </div>
+            {/* <div>
+              <GenericPanelLayout data={this.props.data.items[1]} />
+            </div> */}
             <div>
               <GenericPanelLayout data={this.props.data.items[1]} />
             </div>
             <div>
-              <GenericPanelLayout data={this.props.data.items[2]} />
-            </div>
-            <div>
               <div style={{"height":"5vh"}}></div>
               <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}>Column</h3>
-              <PhotoGrid data={this.props.data.items[3].items} flip />
+              <PhotoGrid data={this.props.data.items[2].items} flip />
             </div>
           </ScrollingNavBar>
       </React.Fragment>

@@ -5,11 +5,11 @@ export const opinion_sections = [
 		name: "Op-Eds",
 		link: "#opeds"
 	},
-	{
-		img_src: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4KTNFECJOFAR5FGXFHTDDNZV74.jpg",
-		name: "[100 words]",
-		link: "#100-words"
-	},
+	// {
+	// 	img_src: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4KTNFECJOFAR5FGXFHTDDNZV74.jpg",
+	// 	name: "[100 words]",
+	// 	link: "#100-words"
+	// },
 	{
 		img_src: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TFDXCK62ENG65LVAS46KI6F35Y.png",
 		name: "Discourse & Debate",

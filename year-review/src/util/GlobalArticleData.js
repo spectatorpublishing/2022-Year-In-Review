@@ -1189,19 +1189,19 @@ const data = {
                     }
                   ]
             },
-            {
-                "name": "[100 words]",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4KTNFECJOFAR5FGXFHTDDNZV74.jpg",
-                "blurb": "Opinion’s new project, [100 words], aims to publish our readers’ concise and engaging 100-word responses to some of the most pressing questions affecting our community.",
-                "articles": [
-                    {
-                      "title": "[100 words]: We asked how COVID-19 has impacted students’ lives. Here are their responses.",
-                      "author": "[100 words] contributors",
-                      "link": "https://www.columbiaspectator.com/opinion/2020/03/29/100-words-we-asked-how-covid-19-has-impacted-students-lives-here-are-their-responses/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6MTSNPXPPJEQRPTZFYEDZHPKOE.png"
-                    }
-                  ]
-            },
+            // {
+            //     "name": "[100 words]",
+            //     "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4KTNFECJOFAR5FGXFHTDDNZV74.jpg",
+            //     "blurb": "Opinion’s new project, [100 words], aims to publish our readers’ concise and engaging 100-word responses to some of the most pressing questions affecting our community.",
+            //     "articles": [
+            //         {
+            //           "title": "[100 words]: We asked how COVID-19 has impacted students’ lives. Here are their responses.",
+            //           "author": "[100 words] contributors",
+            //           "link": "https://www.columbiaspectator.com/opinion/2020/03/29/100-words-we-asked-how-covid-19-has-impacted-students-lives-here-are-their-responses/",
+            //           "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6MTSNPXPPJEQRPTZFYEDZHPKOE.png"
+            //         }
+            //       ]
+            // },
             {
                 "name": "Discourse & Debate",
                 "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TFDXCK62ENG65LVAS46KI6F35Y.png",

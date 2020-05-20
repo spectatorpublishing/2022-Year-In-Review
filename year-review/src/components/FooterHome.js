@@ -91,6 +91,13 @@ const footerHome = (props) =>{
             <Line>Daniel Kim, <Role>Developer</Role></Line> 
             <Line>Arsalaan Ansari, <Role>Head of Engineering</Role></Line> 
           </Column>
+          <Column>
+              <RoleHeading>2019-20 Edition By</RoleHeading>
+              <Line>Carl Dobrović, <Role>Head of Engineering</Role></Line> 
+              <Line>David Wang, <Role>Head of Product</Role></Line> 
+              <Line>Raeedah Wahid, <Role>Graphics Editor</Role></Line> 
+          </Column>        
+
         </Names>
         </Desktop>
 
@@ -117,6 +124,12 @@ const footerHome = (props) =>{
             <Line>Daniel Kim, <Role>Developer</Role></Line> 
             <Line>Arsalaan Ansari, <Role>Head of Engineering</Role></Line> 
           </Column>
+          <Column>
+              <RoleHeading>2019-20 Edition By</RoleHeading>
+              <Line>Carl Dobrović, <Role>Head of Engineering</Role></Line> 
+              <Line>David Wang, <Role>Head of Product</Role></Line> 
+              <Line>Raeedah Wahid, <Role>Graphics Editor</Role></Line> 
+          </Column>        
         </Names>
         </Tablet>
 
@@ -184,6 +197,20 @@ const footerHome = (props) =>{
             <Line>Arsalaan Ansari,</Line> 
             <Role>Head of Engineering</Role>
             </Column>
+          </Row>
+
+          <RoleHeading>2019-20 Edition By</RoleHeading>
+            <Row continuation={true} >
+              <Column>
+              <Line>Carl Dobrović,</Line> 
+              <Role>Head of Engineering</Role>
+              </Column>
+              <Column>
+              <Line>David Wang,</Line> 
+              <Role>Head of Product</Role>
+              <Line>Raeedah Wahid,</Line> 
+              <Role>Graphics Editor</Role>
+              </Column>
           </Row>
         </Names>
         </Mobile>

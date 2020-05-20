@@ -12,6 +12,14 @@ export const NavItems = [
     "link": "/opinion"
   },
   {
+    "name": "Sports",
+    "link": "/sports"
+  },
+  {
+    "name": "A&E",
+    "link": "/arts-and-entertainment"
+  },
+  {
     "name": "The Eye",
     "link": "/eye"
   },
@@ -24,21 +32,9 @@ export const NavItems = [
     "link": "/graphics"
   },
   {
-    "name": "Sports",
-    "link": "/sports"
-  },
-  {
-    "name": "A&E",
-    "link": "/arts-and-entertainment"
-  },
-  {
     "name": "Spectrum",
     "link": "/spectrum"
-  },
-  {
-    "name": "Design",
-    "link": "/design"
-  },
+  }
 ];
 
 const Home = [
