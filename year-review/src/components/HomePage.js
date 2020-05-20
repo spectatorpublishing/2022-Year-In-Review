@@ -146,7 +146,7 @@ export default class HomePage extends Component {
               </Wrapper>
               <LeftDiv>
                 <YearDiv>
-                  <Year>2018 - 2019</Year>
+                  <Year>2019 - 2020</Year>
                 </YearDiv>
                 <LeftTitleDiv>
                   <MobileLeftTitle>
