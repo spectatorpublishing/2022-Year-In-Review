@@ -1,7 +1,7 @@
 // Data for Expanding Columns
 export const opinion_sections = [
 	{
-		img_src: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4UACPP7UIFEYHHSUR5QKSNDOHA.jpeg",
+		img_src: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PVSRKSO35BHPVM2LS6G7MIODY4.jpg",
 		name: "Op-Eds",
 		link: "#opeds"
 	},

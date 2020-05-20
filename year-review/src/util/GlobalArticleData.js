@@ -1136,7 +1136,7 @@ const data = {
         "blurb": "The editorial pages of the Spectator provide a comprehensive look into the most pressing, vulnerable topics affecting the Columbia community. This content aims not only to engage the reader but also to further discussion and catalyze action.",
         "items": [{
                 "name": "OP-EDS",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SLKRYBOP4FHWVABUCFXNPNIDGU.gif",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PVSRKSO35BHPVM2LS6G7MIODY4.jpg",
                 "blurb": "From pieces that expose the effects of Columbia’s impact on gentrification and the University’s policies surrounding sexual assault to articles that highlight restorative justice in the wake of Barnard first-year Tessa Majors’ death and COVID-19-induced discrimination, op-eds are your conduit for interpreting justice.",
                 "articles": [
                     {
@@ -2148,7 +2148,7 @@ const data = {
         {
             "name": "Students adapt to online-learning and social distancing amid mixed messaging about safety practices",
             "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/22IOVB3435CQZC6WPNTUGEVNRA.jpg",
-            "blurb": "When COVID-19 first broke out in the United States, little information was known about the virus, and young people were informed that they had a low risk of fatality compared to those above 60. They were initially encouraged to maintain hygienic practices, but not to see the virus as a threat to their personal health. Masks and social distancing were associated with racial bias against Chinese students at Columbia and not seen as practices that should be generally implemented. Just weeks later, the University transformed into a community over zoom.",
+            "blurb": "When COVID-19 first broke out in the United States, little information was known about the virus, and young people were informed that they had a low risk of fatality compared to those above 60. They were initially encouraged to maintain hygienic practices but not to see the virus as a threat to their personal health. Wearing masks and engaging in self-isolation were associated with racial biases against Chinese students at Columbia, and they were not seen as practices that should be generally implemented. Just weeks later, after the pandemic touched Columbia, the University community was upended and moved to Zoom.",
             "articles": [{
                     "title": "Inconsistent messaging around young people’s COVID-19 risk contributes to spread of infection",  
                     "author": "Katriel Tolin",
