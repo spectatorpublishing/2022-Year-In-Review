@@ -737,8 +737,8 @@ const data = {
     "A&E": {
         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7YQAUCXS7BFHBBQZNURY7PNW7A.jpg",
         sections: [{
-                "name": "Visual Art",
-                "link": "#visual-art"
+                "name": "Virtual Art",
+                "link": "#virtual-art"
             },
             {
                 "name": "Bacchanal",
