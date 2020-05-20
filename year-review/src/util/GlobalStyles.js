@@ -58,8 +58,8 @@ export const GlobalStyles = createGlobalStyle`
         url('https://s3.amazonaws.com/spectator-fonts/AvenirNextLTW01-MediumIt.woff2') format('woff2'),
         url('https://s3.amazonaws.com/spectator-fonts/AvenirNextLTW01-MediumIt.woff') format('woff'),
         url('https://s3.amazonaws.com/spectator-fonts/AvenirNextLTW01-MediumIt.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
+    font-weight: 900;
+    font-style: normal;
   }
     
   html {

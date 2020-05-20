@@ -330,7 +330,7 @@ const data = {
         ]
     },
     "Eye": {
-        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ADENF3WRVFB6ZDHNC3ZEOGZPWE.jpg",
+        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/75QIDJYJU5G7BMCBEWZ7P3EOB4.jpg",
         sections: 
         [
           {
@@ -900,7 +900,7 @@ const data = {
         "blurb": "The editorial pages of the Spectator provide a comprehensive look into the most pressing, vulnerable topics affecting the Columbia community. This content aims not only to engage the reader but also to further discussion and catalyze action.",
         "items": [{
                 "name": "OP-EDS",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4UACPP7UIFEYHHSUR5QKSNDOHA.jpeg",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SLKRYBOP4FHWVABUCFXNPNIDGU.gif",
                 "blurb": "From pieces that expose the effects of Columbia’s impact on gentrification and the University’s policies surrounding sexual assault to articles that highlight restorative justice in the wake of Barnard first-year Tessa Majors’ death and COVID-19-induced discrimination, op-eds are your conduit for interpreting justice.",
                 "articles": [
                     {

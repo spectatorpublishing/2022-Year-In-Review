@@ -39,7 +39,7 @@ let TempLetter = styled.h2`
   align-items: left;
   margin-right: 10vw;
   margin-bottom: 20px;
-  font-size: 8em;
+  font-size: 5em;
   position: relative;
 `
 const TitleBlurb = styled.p`
