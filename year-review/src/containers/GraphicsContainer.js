@@ -38,22 +38,31 @@ class GraphicsContainer extends Component {
                 <PageIntro title="Graphics" description={this.props.data.blurb} img_src={this.props.data.img}/>
                 
                 <ScrollingNavBar menuItems={this.props.data.sections}>
-                    {this.props.data.items.map((data, i) => 
-                        <React.Fragment>
-                            <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}> {data.name}</h3>
-                            <PhotoGrid data={data.articles} openLightbox={this.openGraphicsLightbox}/>
-                            {
-                                this.state.graphicsLightboxActive && <Lightbox
-					                index={this.state.lightboxIndex} 
-					                media={data.articles} 
-					                onClose={this.closeGraphicsLightbox
-                                    }>
-				                </Lightbox>
-                            }    
-                        </React.Fragment>
-                    )}
+                    <div>
+                        <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}> {this.props.data.items[0].name}</h3>
+                        <PhotoGrid data={this.props.data.items[0].articles} openLightbox={this.openGraphicsLightbox}/>
+                    </div>
+                    <div>
+                        <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}> {this.props.data.items[1].name}</h3>
+                        <PhotoGrid data={this.props.data.items[1].articles} openLightbox={this.openIllustrationsLightbox}/>
+                    </div>
                 </ScrollingNavBar>
-
+                    {
+                        this.state.graphicsLightboxActive && <Lightbox
+                            index={this.state.lightboxIndex} 
+                            media={this.props.data.items[0].articles} 
+                            onClose={this.closeGraphicsLightbox}
+                        >
+                        </Lightbox>
+                    }
+                    {
+                        this.state.illustrationsLightboxActive && <Lightbox
+                            index={this.state.lightboxIndex} 
+                            media={this.props.data.items[1].articles} 
+                            onClose={this.closeIllustrationsLightbox}
+                        >
+                        </Lightbox>
+                    }
                
                     
                     
