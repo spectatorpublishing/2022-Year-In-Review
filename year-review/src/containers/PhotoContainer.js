@@ -34,6 +34,7 @@ class PhotoContainer extends Component {
 		<ScrollingNavBar menuItems={this.props.data.sections}>
 			{this.props.data.items.map((data, i) => 
 			<React.Fragment>
+				{/* <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}> {data.section_name}</h3> */}
 				<PhotoGrid data={data} openLightbox={this.openLightbox}/>
 				{this.state.lightboxActive && <Lightbox
 					index={this.state.lightboxIndex} 
