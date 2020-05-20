@@ -2201,8 +2201,8 @@ const data = {
     "Graphics": {
         "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IQD4GSHP4VDOBDH6NK5XOL7V6U.gif",
         sections: [{
-                "name": "Graphics",
-                "link": "#graphics"
+                "name": "Data Visualization",
+                "link": "#data-visualization"
             },
             {
                 "name": "Illustrations",
@@ -2213,7 +2213,7 @@ const data = {
         "items": [
             //"Graphics",
             {
-                "name": "Graphics",
+                "name": "Data Visualization",
                 "articles": [{
                     "title": "The U.S. and Ivy League schools were late to respond to COVID-19. Data shows international universities did better.",
                     "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Q4S24TEP2ZFTNH6P245MIKDQYY.gif",
