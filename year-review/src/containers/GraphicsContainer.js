@@ -37,16 +37,26 @@ class GraphicsContainer extends Component {
             <React.Fragment>
                 <PageIntro title="Graphics" description={this.props.data.blurb} img_src={this.props.data.img}/>
                 
-                <div>
-                    {/* <div style={{"height":"5vh"}}></div> */}
-                    <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}></h3>
-                    <PhotoGrid data={this.props.data.items[0]} openLightbox={this.openGraphicsLightbox}/>
-	            </div>
-                {this.state.graphicsLightboxActive && <Lightbox
-					index={this.state.lightboxIndex} 
-					media={this.props.data.items[0]} 
-					onClose={this.closeGraphicsLightbox}>
-				</Lightbox>}
+                <ScrollingNavBar menuItems={this.props.data.sections}>
+                    {this.props.data.items.map((data, i) => 
+                        <React.Fragment>
+                            <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}> {data.name}</h3>
+                            <PhotoGrid data={data.articles} openLightbox={this.openGraphicsLightbox}/>
+                            {
+                                this.state.graphicsLightboxActive && <Lightbox
+					                index={this.state.lightboxIndex} 
+					                media={data.articles} 
+					                onClose={this.closeGraphicsLightbox
+                                    }>
+				                </Lightbox>
+                            }    
+                        </React.Fragment>
+                    )}
+                </ScrollingNavBar>
+
+               
+                    
+                    
             </React.Fragment>
         );
     }

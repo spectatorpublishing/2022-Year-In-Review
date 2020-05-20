@@ -2202,166 +2202,381 @@ const data = {
         "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IQD4GSHP4VDOBDH6NK5XOL7V6U.gif",
         sections: [{
                 "name": "Graphics",
-                "link": "#Graphics"
+                "link": "#graphics"
             },
+            {
+                "name": "Illustrations",
+                "link": "#illustrations"
+            }
         ],
         "blurb": "This past year the Spectator has worked to redefine journalism through the integration of data and visuals into our reporting. The Spectator Graphics team has contributed to innovative storytelling across News, Opinion, A&E, Sports, and The Eye in order to showcase the diverse talents of its staff and produce more compelling stories by showing, rather than just telling. A small group — but one with profound impact — the Spectator Graphics team is responsible for building web scrapers, data wrangling, visualizing data, and building interactive stories which seamlessly combine words, data, and visuals that ultimately create stories larger than the sum of their parts. Our team hopes to continue elevating the standard for journalism in the digital age for years to come.",
         "items": [
             //"Graphics",
-            [{
-                "title": "The U.S. and Ivy League schools were late to respond to COVID-19. Data shows international universities did better.",
-                "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/M4TCLJU2TZACDCC5PO6LEUYFXI.gif",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better/",
-                "author": "By the Spectator Graphics team"
-            }, {
-                "title": "Columbia tuition rates are among the highest in the country. Is it worth it?",
-                "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HWD2N3NA4FGJBESGVSQHRCYQRU.gif",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2020/01/23/columbia-tuition-rates-are-among-the-highest-in-the-country-is-it-worth-it/",
-                "author": "By Jason Kao"
-            }, {
-                "title": "Who funds Bacchanal? A look at how the money moves",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UOJDCCWOKBFZVLVQTJFXNICDEY.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/19/who-funds-bacchanal-a-look-at-how-the-money-moves/",
-                "author": "Graphics by Jessica Li"
-            }, {
-                "title": "Decades of Uncertainty: A visual history of the linguistics major through the Spec archives",
-                "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KQG7XJPX75AKRI6RS7QDOTM3SU.gif",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2019/10/18/linguistics-major-visual-history/",
-                "author": "By Jason Kao and Seyla Phan"
-            }, {
-                "title": "With classroom space shortage, Morningside Heights campus forced to expand boundaries",
-                "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/M4TCLJU2TZACDCC5PO6LEUYFXI.gif",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2019/09/19/with-classroom-space-shortage-morningside-heights-campus-forced-to-expand-boundaries/",
-                "author": "By the Spectator Graphics team"
-            }, {
-                "title": "Segregation exposes Black residents to health risks. Hospitals are disincentivized from treating them",
-                "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CFHDLHBZKBERZEZC36EELCZAUI.gif",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2020/04/18/segregation-exposes-black-residents-to-health-risks-hospitals-are-disincentivized-from-treating-them/",
-                "author": "Data analysis and graphics by Mike Fu and Raeedah Wahid | Visual production by Hong Sen Du"
-            }, {
-                "title": "With classroom space shortage, Morningside Heights campus forced to expand boundaries",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2019/09/19/with-classroom-space-shortage-morningside-heights-campus-forced-to-expand-boundaries/",
-                "author": "Data analysis and graphics by Jason Kao"
-            }, {
-                "title": "As the pandemic rages on, Columbia braces for widespread financial fallout",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2020/04/16/as-the-pandemic-rages-on-columbia-braces-for-widespread-financial-fallout/",
-                "author": "Data reporting and graphics by Jessica Li"
-            }, {
-                "title": "West Harlem residents fall under the most at risk groups for contracting COVID. High poverty rates will make recovery an uphill battle",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2020/04/13/west-harlem-residents-fall-under-the-most-at-risk-groups-for-contracting-covid-high-poverty-rates-will-make-recovery-an-uphill-battle/",
-                "author": "Visual production by Jason Kao and Jun Yi Zhang | Graphics by Luke Dobrović"
+            {
+                "name": "Graphics",
+                "articles": [{
+                    "title": "The U.S. and Ivy League schools were late to respond to COVID-19. Data shows international universities did better.",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Q4S24TEP2ZFTNH6P245MIKDQYY.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better/",
+                    "author": "By the Spectator Graphics team"
+                },
+                {
+                    "title": "Columbia tuition rates are among the highest in the country. Is it worth it?",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/B6WTQOBD75DAPIBQARQWYNJORM.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2020/01/23/columbia-tuition-rates-are-among-the-highest-in-the-country-is-it-worth-it/",
+                    "author": "By Jason Kao"
+                }, {
+                    "title": "Who funds Bacchanal? A look at how the money moves",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UOJDCCWOKBFZVLVQTJFXNICDEY.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/19/who-funds-bacchanal-a-look-at-how-the-money-moves/",
+                    "author": "Graphics by Jessica Li"
+                }, {
+                    "title": "Decades of Uncertainty: A visual history of the linguistics major through the Spec archives",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6FWL3IYTB5BLNBDFH5XBXT5JHQ.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2019/10/18/linguistics-major-visual-history/",
+                    "author": "By Jason Kao and Seyla Phan"
+                }, {
+                    "title": "With classroom space shortage, Morningside Heights campus forced to expand boundaries",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2019/09/19/with-classroom-space-shortage-morningside-heights-campus-forced-to-expand-boundaries/",
+                    "author": "Data analysis and graphic by Jason Kao"
+                }, {
+                    "title": "As the pandemic rages on, Columbia braces for widespread financial fallout",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WFPRUXS3GVDTBK3NXGCNI2S5Y4.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/16/as-the-pandemic-rages-on-columbia-braces-for-widespread-financial-fallout/",
+                    "author": "Data reporting and graphics by Jessica Li"
+                }, {
+                    "title": "West Harlem residents fall under the most at risk groups for contracting COVID. High poverty rates will make recovery an uphill battle",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UPO4WWVNY5FOZORE2JULYXGOCQ.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/13/west-harlem-residents-fall-under-the-most-at-risk-groups-for-contracting-covid-high-poverty-rates-will-make-recovery-an-uphill-battle/",
+                    "author": "Visual production by Jason Kao and Jun Yi Zhang | Graphics by Luke Dobrović"
+                }, 
+                {
+                    "title": "[100 words]: We asked how COVID-19 has impacted students’ lives.",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZCN6RYEPTFBF3PFXIYW4KESQRM.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/03/29/100-words-we-asked-how-covid-19-has-impacted-students-lives-here-are-their-responses/",
+                    "author": "Visual production by Hong Sen Du and Raeedah Wahid"
+                }, 
+                {
+                    "title": "Uncertainty Looms as Student Jobs are Disappearing During the Great Lockdown",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZG7PZ4NNCBFIZEASZLZCIYSE54.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown/",
+                    "author": "Data analysis and interactives by Jason Kao and Charlotte Li"
+                }, 
+                {
+                    "title": "Segregation exposes Black residents to health risks. Hospitals are disincentivized from treating them",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GOJVXUXMDFBODOBQQ3WNNVSARY.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/18/segregation-exposes-black-residents-to-health-risks-hospitals-are-disincentivized-from-treating-them/",
+                    "author": "Data analysis and graphics by Mike Fu and Raeedah Wahid | Visual production by Hong Sen Du"
+                },  
+                {
+                    "title": "A space built for the community, the Forum remains inaccessible to local residents",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OC4QIMFHRNCX5FETN4XJAJXM4Q.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2020/02/06/the-forums-design-prevents-west-harlem-residents-from-occupying-a-space-built-for-the-community/",
+                    "author": "Architectural rendering by Jun Yi Zhang"
+                },
+                {
+                    "title": "A decade in athletics: The men’s tennis team’s greatest generation never ended",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QU2DX2FX3BFEPOKXVPRI3JZUZU.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/sports/2020/03/30/a-decade-in-athletics-the-mens-tennis-teams-greatest-generation-never-ended/",
+                    "author": "Graphic by Natalie Guerra"
+                },
+                {
+                    "title": "“Landlords are waiting to pounce”: COVID-19 casts grim future for renters confronted by wave of evictions",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/REEM6K5BFVHYDA2N23KIL3Y4PU.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/28/landlords-are-waiting-to-pounce-covid-19-casts-grim-future-for-renters-confronted-by-wave-of-evictions/",
+                    "author": "Graphic by Jessica Li"
+                },
+                {
+                    "title": "“They don’t follow the rules”: Inside Barnard’s broken relationship with its employee union",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VP5UMBAUNNDJNE6Z5GBIOKZPLQ.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2019/10/17/they-dont-follow-the-rules-inside-barnards-broken-relationship-with-its-employee-union/",
+                    "author": "Graphic by Kelly Pu"
+                },
+                {
+                    "title": "Students and Faculty Say Gender-Based Harassment and Discrimination at Columbia is Systemic. Why Are They Turning Away From the System Built to Address It?",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HPXEFBF3GFDEXDVPMCSOVHYSSI.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/eye-lead/2019/11/15/students-and-faculty-say-gender-based-harassment-and-discrimination-at-columbia-is-systemic-why-are-they-turning-away-from-the-system-built-to-address-it/",
+                    "author": "Visual production and graphic by Jason Kao"
+                },
+                {
+                    "title": "‘The next chapter’: Despite history of alumni apathy, Bollinger-era initiatives drive newfound culture of engagement",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4E3VGN4BF5HT5EHHDZEI45DCSQ.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2019/10/31/the-next-chapter-despite-history-of-alumni-apathy-bollinger-era-initiatives-drive-newfound-culture-of-engagement/",
+                    "author": "Graphic by Charlotte Li"
+                },
+                {
+                    "title": "Stacking up: Where do Columbia’s contributions to the community rank among its Ivy peers?",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5XBKZ4TJU5FMPB2SLZDZ3DPDBU.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2019/10/24/stacking-up-where-do-columbias-contributions-to-the-community-rank-among-its-ivy-peers/",
+                    "author": "Data reporting by Stephanie Lai | Graphics by Fiorella Alessandra Chacon"
+                },
+                {
+                    "title": "Community members see long-awaited safety improvements to Morningside Park in aftermath of Majors’ death",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UYJHXMLRP5BY3LZKKQHK6R4M5Y.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2020/01/30/community-members-see-long-awaited-safety-improvements-to-morningside-park-in-aftermath-of-majors-death/",
+                    "author": "Data reporting and visualization by Charlotte Li"
+                },
+                {
+                    "title": "Over a fourth of West Harlem did not self-report in the 2010 census. COVID-19 could make numbers worse",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7V7J6OIRAFFX7AK2ZU4ZFUP6AQ.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2020/04/02/over-a-fourth-of-west-harlem-was-not-self-reported-in-the-2010-census-covid-19-could-make-numbers-worse/",
+                    "author": "Graphic by Ivana Moore"
+                },
+                {
+                    "title": "“It put Columbia on the map”: Lightweight rowing’s irreverent Instagram helps promote culture, pull in recruits",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3PK6XZSPRBACXP6V5FHLUIUCPE.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/sports/2020/04/24/it-put-columbia-on-the-map-lightweight-rowings-irreverent-instagram-helps-promote-culture-pull-in-recruits/",
+                    "author": "Data reporting by Clara Ence Morse and Kelly Pu | Graphics by Kelly Pu"
+                },
+                {
+                    "title": "Student Groups Search for Space on a Crowded Campus. A Recently Open Brownstone is the Answer for One",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DSWK23FDMNE7ROXWVBQ2AVZUTI.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2020/02/13/student-groups-search-for-space-on-a-crowded-campus-a-recently-open-brownstone-is-the-answer-for-one/",
+                    "author": "Graphic by Jun Yi Zhang"
+                },
+                {
+                    "title": "As Majors’ case awaits trial, experts say public urgency has led to unfair treatment of youth suspects",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FSXAG5N75NAIRG5ULL3MUYAK7M.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/news/2020/03/25/as-majors-case-awaits-trial-experts-say-public-urgency-has-led-to-unfair-treatment-of-youth-suspects/",
+                    "author": "Graphic by Jason Kao"
+                },
+                {
+                    "title": "A decade in athletics: Track and field crosses a threshold after a century with little momentum",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YKPVOEQCPBDRHIY6N6H3QGM7GM.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/sports/2020/04/28/a-decade-in-athletics-track-and-field-crosses-a-threshold-after-a-century-with-little-momentum/",
+                    "author": "Graphic by Natalie Guerra"
+                },
+                {
+                    "title": "A decade in athletics: Women’s tennis enjoys historic firsts",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7Z5SUMLUJRHWRHM62GCKQUMLRU.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/sports/2020/04/27/a-decade-in-athletics-womens-tennis-enjoyed-historic-firsts/",
+                    "author": "Graphic by Natalie Guerra"
+                }]
             },
             {
-                "title": "[100 words]: We asked how COVID-19 has impacted students’ lives.",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/opinion/2020/03/29/100-words-we-asked-how-covid-19-has-impacted-students-lives-here-are-their-responses/",
-                "author": "Visual production by Hong Sen Du and Raeedah Wahid"
-            }, 
-            {
-                "title": "Uncertainty Looms as Student Jobs are Disappearing During the Great Lockdown",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown/",
-                "author": "Data analysis and interactives by Jason Kao and Charlotte Li"
-            }, 
-            {
-                "title": "Community members see long-awaited safety improvements to Morningside Park in aftermath of Majors’ death",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UYJHXMLRP5BY3LZKKQHK6R4M5Y.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2020/01/30/community-members-see-long-awaited-safety-improvements-to-morningside-park-in-aftermath-of-majors-death/",
-                "author": "Data reporting and visualization by Charlotte Li"
-            },
-            {
-                "title": "A space built for the community, the Forum remains inaccessible to local residents",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OC4QIMFHRNCX5FETN4XJAJXM4Q.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2020/02/06/the-forums-design-prevents-west-harlem-residents-from-occupying-a-space-built-for-the-community/",
-                "author": "Architectural rendering by Jun Yi Zhang"
-            },
-            {
-                "title": "A decade in athletics: The men’s tennis team’s greatest generation never ended",
-                "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QU2DX2FX3BFEPOKXVPRI3JZUZU.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/sports/2020/03/30/a-decade-in-athletics-the-mens-tennis-teams-greatest-generation-never-ended/",
-                "author": "Graphic by Natalie Guerra"
-            },
-            {
-                "title": "“Landlords are waiting to pounce”: COVID-19 casts grim future for renters confronted by wave of evictions",
-                "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/REEM6K5BFVHYDA2N23KIL3Y4PU.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2020/04/28/landlords-are-waiting-to-pounce-covid-19-casts-grim-future-for-renters-confronted-by-wave-of-evictions/",
-                "author": "Graphic by Jessica Li"
-            },
-            {
-                "title": "“They don’t follow the rules”: Inside Barnard’s broken relationship with its employee union",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VP5UMBAUNNDJNE6Z5GBIOKZPLQ.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2019/10/17/they-dont-follow-the-rules-inside-barnards-broken-relationship-with-its-employee-union/",
-                "author": "Graphic by Kelly Pu"
-            },
-            {
-                "title": "‘The next chapter’: Despite history of alumni apathy, Bollinger-era initiatives drive newfound culture of engagement",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4E3VGN4BF5HT5EHHDZEI45DCSQ.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2019/10/31/the-next-chapter-despite-history-of-alumni-apathy-bollinger-era-initiatives-drive-newfound-culture-of-engagement/",
-                "author": "Graphic by Charlotte Li"
-            },
-            {
-                "title": "Stacking up: Where do Columbia’s contributions to the community rank among its Ivy peers?",
-                "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5XBKZ4TJU5FMPB2SLZDZ3DPDBU.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/sports/2020/04/28/a-decade-in-athletics-track-and-field-crosses-a-threshold-after-a-century-with-little-momentum/",
-                "author": "Data reporting by Stephanie Lai | Graphics by Fiorella Alessandra Chacon"
-            },
-            {
-                "title": "Student Groups Search for Space on a Crowded Campus. A Recently Open Brownstone is the Answer for One",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DSWK23FDMNE7ROXWVBQ2AVZUTI.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/the-eye/2020/02/13/student-groups-search-for-space-on-a-crowded-campus-a-recently-open-brownstone-is-the-answer-for-one/",
-                "author": "Graphic by Jun Yi Zhang"
-            },
-            {
-                "title": "Students and Faculty Say Gender-Based Harassment and Discrimination at Columbia is Systemic. Why Are They Turning Away From the System Built to Address It?",
-                "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DSWK23FDMNE7ROXWVBQ2AVZUTI.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/eye-lead/2019/11/15/students-and-faculty-say-gender-based-harassment-and-discrimination-at-columbia-is-systemic-why-are-they-turning-away-from-the-system-built-to-address-it/",
-                "author": "Visual production and graphic by Jason Kao"
-            },
-            {
-                "title": "As Majors’ case awaits trial, experts say public urgency has led to unfair treatment of youth suspects",
-                "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FSXAG5N75NAIRG5ULL3MUYAK7M.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2020/03/25/as-majors-case-awaits-trial-experts-say-public-urgency-has-led-to-unfair-treatment-of-youth-suspects/",
-                "author": "Graphic by Jason Kao"
-            },
-            {
-                "title": "Over a fourth of West Harlem did not self-report in the 2010 census. COVID-19 could make numbers worse",
-                "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7V7J6OIRAFFX7AK2ZU4ZFUP6AQ.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/news/2020/04/02/over-a-fourth-of-west-harlem-was-not-self-reported-in-the-2010-census-covid-19-could-make-numbers-worse/",
-                "author": "Graphic by Ivana Moore"
-            },
-            {
-                "title": "“It put Columbia on the map”: Lightweight rowing’s irreverent Instagram helps promote culture, pull in recruits",
-                "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3PK6XZSPRBACXP6V5FHLUIUCPE.png",
-                "description": "",
-                "link": "https://www.columbiaspectator.com/sports/2020/04/24/it-put-columbia-on-the-map-lightweight-rowings-irreverent-instagram-helps-promote-culture-pull-in-recruits/",
-                "author": "Data reporting by Clara Ence Morse and Kelly Pu | Graphics by Kelly Pu"
+                "name": "Illustrations",
+                "articles": [{
+                    "title": "The Map For My Bladder",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FY4EIRGP55HQPEXVWKYEHQECTA.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2020/02/18/the-map-for-my-bladder/",
+                    "author": "Robert Hunter"
+                  },
+                  {
+                    "title": "All the world’s a stage for senior thesis directors’ livestream productions",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YVNDEXJWAFGKLK7ZXMVISQY5N4.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/04/09/all-the-worlds-a-stage-for-senior-thesis-directors-livestream-productions/",
+                    "author": "Angela Wei"
+                  },
+                  {
+                    "title": "A how-to on gift-giving from afar",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/63WMD56XIZFPBLBHOBTKFYERW4.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/spectrum/2020/04/10/a-how-to-on-gift-giving-from-afar/",
+                    "author": "Nicole Yang"
+                  },
+                  {
+                    "title": "Petition to bully anyone who disagrees with my petition",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/62S2YQKM3NAIJBAHFVG5YIMSPE.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/04/01/petition-to-bully-anyone-who-disagrees-with-my-petition/",
+                    "author": "Carlos Ochoa"
+                  },
+                  {
+                    "title": "Bi the way...",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/55Q4YJY2FFGHHOH3ICK3TQ7SCE.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2019/09/03/bi-the-way/",
+                    "author": "Aaron Jackson"
+                  },
+                  {
+                    "title": "Online Classes Are Not New at Columbia—But Amid the Pandemic, They Look Different.",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4E2QOOR7JZFFLKD5RG22INWLQA.JPG",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2020/04/24/online-classes-are-not-new-at-columbiabut-amid-the-pandemic-they-look-different/",
+                    "author": "Natalie Tak"
+                  },
+                  {
+                    "title": "The restorative benefits of banana bread",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OIRNLNI7ANA2ZGAFA2UJXSAOK4.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/02/19/the-restorative-benefits-of-banana-bread/",
+                    "author": "Brenda Huang"
+                  },
+                  {
+                    "title": "An uncomfortable faith",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SLKRYBOP4FHWVABUCFXNPNIDGU.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/section-lead/2019/09/20/an-uncomfortable-faith/",
+                    "author": "Beatrice Lintner"
+                  },
+                  {
+                    "title": "Pete Buttigieg is the old man’s millennial",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WQ3FZ6HMUVED3JHVAZNWW3YMHI.jpeg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/01/28/pete-buttigieg-is-the-old-mans-millennial/",
+                    "author": "Liz Nichols"
+                  },
+                  {
+                    "title": "Social distancing was just abstract advice for college students. Then my grandfather died.",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3VLMOFFDMFF5FOURPNS4DVNFTA.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/04/06/social-distancing-was-just-abstract-advice-for-college-students-then-my-grandfather-died/",
+                    "author": "Liz Evseeva"
+                  },
+                  {
+                    "title": "Don’t call me whitewashed. Not now.",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QUBVGUVW2RGWRN75ZBAZD5TAKM.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/04/13/dont-call-me-whitewashed-not-now/",
+                    "author": "Stephanie Koo"
+                  },
+                  {
+                    "title": "What is sex and intimacy in isolation?",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CGY46BD3QZCLPOIWPDFDRWBR3M.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/04/19/what-is-sex-and-intimacy-in-isolation/",
+                    "author": "Sam Wilcox"
+                  },
+                  {
+                    "title": "Man in Hungarian Pastry Shop writes MFA thesis based on you",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2IKAXOSPI5H7JDKBMKWWDGYPXE.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2019/11/06/man-in-hungarian-pastry-shop-writes-mfa-thesis-based-on-you/",
+                    "author": "Ashley Jiao"
+                  },
+                  {
+                    "title": "The cost of education",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YUAK424SNNATZPN2EHLUDOI25M.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/02/20/the-cost-of-education/",
+                    "author": "Tassneen Bashir"
+                  },
+                  {
+                    "title": "Student “absolutely positive” that girl from Zoom class is locking eyes with him",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/V6BKKZ6RRVC7JDHO5CL5FVDN4E.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/04/15/student-absolutely-positive-that-girl-from-zoom-class-is-locking-eyes-with-him/",
+                    "author": "Carlos Ochoa"
+                  },
+                  {
+                    "title": "Party of One",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Y42TF6UKUBCC7NNMOSACXNDQAY.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2020/03/05/party-of-one/",
+                    "author": "Tina Wang"
+                  },
+                  {
+                    "title": "Alternative milks: a review",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J5GKJ62EHVGLBCAKL74DI2S3PQ.jpeg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/spectrum/2019/10/13/alternative-milks-a-review/",
+                    "author": "Ray Banke"
+                  },
+                  {
+                    "title": "Foreign film watchlist for quarantine",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/F3DXHHOODFGOTB3IJ74ZZ7JWBY.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/spectrum/2020/04/27/foreign-film-watchlist-for-quarantine/",
+                    "author": "Liza Evseeva"
+                  },
+                  {
+                    "title": "In 2015, Union Theological Seminary Announced It Would Sell Its Air Rights. Students Feel It Sold Its Values Too.",
+                    "front_image": "https://spectator-static-assets.s3.amazonaws.com/uts/jts-illo.3857229b.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/eye-lead/2019/11/26/in-2015-union-theological-seminary-announced-it-would-sell-its-air-rights-students-feel-it-sold-its-values-too/",
+                    "author": "Robert Hunter"
+                  },
+                  {
+                    "title": "Inside the Organization Mobilizing Students Across 1,500 Living Rooms to Support Hospital Workers",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R57FSHN3C5BH3LN6TXSMCGWTOM.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2020/04/20/inside-the-organization-mobilizing-graduate-students-across-1500-living-rooms-to-support-hospital-workers/",
+                    "author": "Ellie Soh"
+                  },
+                  {
+                    "title": "Dear Asian members of the Columbia community",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YLAS4KJWPNATHF5AHTJ7BOBQ7Q.jpeg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/04/10/dear-chinese-students-from-your-muslim-peer/",
+                    "author": "Sam Wilcox"
+                  },
+                  {
+                    "title": "Don’t throw out my legos",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PVSRKSO35BHPVM2LS6G7MIODY4.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/04/03/dont-throw-out-my-legos/",
+                    "author": "Ashley Jiao"
+                  },
+                  {
+                    "title": "Defining a New Normal",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CG4DVUML6ZEF7K3LHYTOWKEGPE.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2020/03/24/defining-a-new-normal/",
+                    "author": "Ray Banke"
+                  },
+                  {
+                    "title": "How Do You Clap Back at a Middle-Aged Family Member Who Posts Hate About You on Instagram?",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QDKH6MXZ3RFIPAEJ5A72IKSJEI.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2019/10/30/how-do-you-clap-back-at-a-middle-aged-family-member-who-posts-hate-about-you-on-instagram/",
+                    "author": "Tina Wang"
+                  },
+                  {
+                    "title": "Without Warning",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FTACYVPX2FCVXALQDRMPCZT3GM.jpeg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2019/11/12/without-warning/",
+                    "author": "Brenda Huang"
+                  },
+                  {
+                    "title": "Ramadan is usually a time for community. Isolation makes this difficult but not impossible.",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QOWQMSN7FNE3LLDRVWOY6MAW4Y.jpeg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/04/20/ramadan-is-usually-a-time-for-community-isolation-makes-this-difficult-but-not-impossible/",
+                    "author": "Stephanie Koo"
+                  },
+                  {
+                    "title": "The Columbia Minecraft Club: Building a Community, Block by Block",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UILKI2OV6BBFHI4O5AJLMNZIHY.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2019/10/24/the-columbia-minecraft-club-building-a-community-block-by-block/",
+                    "author": "Tassneen Bashir"
+                  },
+                  {
+                    "title": "On setting boundaries",
+                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZBETGBVF2BHDXDIAZ3S5XQXLMQ.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/03/04/on-setting-boundaries/",
+                    "author": "Aaron Jackson"
+                  }]
             }
-            ],
         ]
     }
 }
