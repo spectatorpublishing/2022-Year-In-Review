@@ -1963,7 +1963,7 @@ const data = {
     ],
     }, 
     "Graphics": {
-        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VIGEOPL3GNFBVMCRCXNRPSZ5LU.jpg",
+        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IQD4GSHP4VDOBDH6NK5XOL7V6U.gif",
         sections: [{
                 "name": "Graphics",
                 "link": "#Graphics"
