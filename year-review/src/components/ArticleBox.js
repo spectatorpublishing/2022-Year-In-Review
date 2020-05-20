@@ -69,10 +69,15 @@ const Text = styled.div`
 `
 
 const Desc = styled.div`
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding: 5px;
     overflow:hidden;
     text-overflow: ellipsis;
+
+    @media (max-width: 991px){
+        /* safari looking weird */
+        font-size: 0.7rem; 
+    }
 
 `
 
