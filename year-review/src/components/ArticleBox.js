@@ -12,7 +12,8 @@ const Title = styled.h5`
     font-size: 0.9rem;
     padding: 5px;
     @media (max-width: 991px){
-        font-size: 0.8rem;
+        /* safari looking weird */
+        font-size: 0.7rem; 
     }
 `
 
@@ -68,7 +69,7 @@ const Text = styled.div`
 `
 
 const Desc = styled.div`
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     padding: 5px;
     overflow:hidden;
     text-overflow: ellipsis;
