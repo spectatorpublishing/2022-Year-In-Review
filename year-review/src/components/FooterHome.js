@@ -74,7 +74,7 @@ const footerHome = (props) =>{
             <RoleHeading>Designed By</RoleHeading>
             <Line>Shannon Hui, <Role>Product Manager</Role></Line> 
             <Line>David Wang, <Role>Product Designer</Role></Line> 
-            <Line>Kevin Li, <Role>Head of Product</Role></Line> 
+            <Line>Kevin Li, <Role>Former Head of Product</Role></Line> 
           </Column>
 
           <Column>
@@ -89,7 +89,7 @@ const footerHome = (props) =>{
             <Line>Wendy Wang, <Role>Developer</Role></Line> 
             <Line>Yunsu Kim, <Role>Developer</Role></Line> 
             <Line>Daniel Kim, <Role>Developer</Role></Line> 
-            <Line>Arsalaan Ansari, <Role>Head of Engineering</Role></Line> 
+            <Line>Arsalaan Ansari, <Role>Former Head of Engineering</Role></Line> 
           </Column>
           <Column>
               <RoleHeading>2019-20 Edition By</RoleHeading>
@@ -107,7 +107,7 @@ const footerHome = (props) =>{
             <RoleHeading>Designed By</RoleHeading>
             <Line>Shannon Hui, <Role>Product Manager</Role></Line> 
             <Line>David Wang, <Role>Product Designer</Role></Line> 
-            <Line>Kevin Li, <Role>Head of Product</Role></Line> 
+            <Line>Kevin Li, <Role>Former Head of Product</Role></Line> 
           </Column>
 
           <Column>
@@ -122,7 +122,7 @@ const footerHome = (props) =>{
             <Line>Wendy Wang, <Role>Developer</Role></Line> 
             <Line>Yunsu Kim, <Role>Developer</Role></Line> 
             <Line>Daniel Kim, <Role>Developer</Role></Line> 
-            <Line>Arsalaan Ansari, <Role>Head of Engineering</Role></Line> 
+            <Line>Arsalaan Ansari, <Role>Former Head of Engineering</Role></Line> 
           </Column>
           <Column>
               <RoleHeading>2019-20 Edition By</RoleHeading>
@@ -151,7 +151,7 @@ const footerHome = (props) =>{
           <Row continuation={true} >
             <Column>
             <Line>Kevin Li,</Line> 
-            <Role>Head of Product</Role>
+            <Role>Former Head of Product</Role>
             </Column>
             <Column>
             </Column>
@@ -195,7 +195,7 @@ const footerHome = (props) =>{
             </Column>
             <Column>
             <Line>Arsalaan Ansari,</Line> 
-            <Role>Head of Engineering</Role>
+            <Role>Former Head of Engineering</Role>
             </Column>
           </Row>
 
