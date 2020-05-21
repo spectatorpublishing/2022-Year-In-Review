@@ -77,7 +77,8 @@ const data = {
                         "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4JATA2JH2ZHMRJF7JURRTUUQIM.jpg",
                         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4JATA2JH2ZHMRJF7JURRTUUQIM.jpg",
                         "description": "A man crosses the intersection of 110th Street and Broadway at the height of the flooding.  Read More ",
-                        "link": "https://www.columbiaspectator.com/multimedia/2020/02/13/broadway-avenue-flooded-after-water-main-breaks/"
+                        "link": "https://www.columbiaspectator.com/multimedia/2020/02/13/broadway-avenue-flooded-after-water-main-breaks/",
+                        "author": "Lila Gaffney / Senior Staff Photographer"
                       },
                       {
                         "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WFOCTFE7ZVF5RKH4CCQIL3QALY.jpg",
@@ -1402,8 +1403,8 @@ const data = {
         ]
     },
     "Sports": {
-        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C2PD73JOYBAWJCJDUD4UODD4FM.jpg",
-        "blurb": "Sports dives deep into the world of Columbia Athletics, providing important coverage that not only conveys what happens at every game but captures the more humanizing stories behind the coaches, players, and teams who make each game worthwhile. From football’s back to back winning seasons, to the end of a 37-year era for legendary men’s tennis head coach Bid Goswami, 2019 was a year to remember for Columbia.",
+        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LOIZYNSGYRGS7NPWYQSIRAWXPM.jpg",
+        "blurb": "Sports dives deep into the world of Columbia Athletics, providing important coverage that not only conveys what happens at every game but captures the more humanizing stories behind the coaches, players, and teams who make each game worthwhile.",
         "sections": [{
             "name": "Fall Sports",
             "link": "#fall-sports"
@@ -1737,6 +1738,16 @@ const data = {
                     "The turn of events prevented the fencing team, the reigning national champion, from attempting to win yet another title; stopped the six-back-to-back-Ancient-Eight-crown-winning men’s tennis team from breaking the record for winning the most consecutive Ivy tennis titles; and robbed senior athletes of their final season, especially after the Ivy League made the decision to not extend an extra year of eligibility to those who lost their seasons due to the coronavirus pandemic. All the athletes affected lost an opportunity to represent their university and prove themselves on the field.",
                     "However, players like men’s basketball superstar Mike Smith, CC ’20, and Patrick Tapé, CC ’20, will have the chance to once again compete at the highest level as they transfer to the University of Michigan and Duke, respectively, to play out their remaining eligibility."
                     ]
+                },{
+                    "name": "Ivy League cancels all spring sports practices, competitions",
+                    "author": "Lizzie Karpen",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2SVEILJRNZBL7LV32ZRZ746OKY.jpg",
+                    "blurb": ["The Ivy League decided to cancel all practices and competitions for spring sports on March 11.", "This announcement followed Columbia Athletics’ release the previous day, which claimed that practices, competitions, and travel for spring sports would continue for the foreseeable future, with limited in-person attendance at any public events. Following the Ivy League’s decision, spring teams such as the men’s tennis team, which has won the Ancient Eight crown for six consecutive years, no longer had the opportunity to compete.", "On March 10, the Ivy League also announced that it was canceling the 2020 Ivy League Men’s and Women’s Basketball Tournaments scheduled to take place from March 13 to 15 in Cambridge, Massachusetts soon after Harvard University reported it would be closing its campus to students. The decision garnered significant controversy from many Ivy League teams, many of whom began circulating an online petition calling for the tournaments to be reinstated. Basketball is one of the most-viewed and -sponsored sports in the league, with strong alumni bases and games streamed live on ESPN+."]
+                }, {
+                    "name": "Ivy League to deny spring athletes additional year of in-conference eligibility",
+                    "author": "Clara Ence Morse",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/C2PD73JOYBAWJCJDUD4UODD4FM.jpg",
+                    "blurb": ["This year, following the cancelation of spring sports and postseason winter tournaments due to the coronavirus pandemic, the Ivy League chose to maintain existing policies and not grant an extra year of eligibility in the league to spring- and winter-sport athletes.", "This decision came three days after the NCAA Division I Council announced that it would allow schools to give their spring-sport athletes an extra year of eligibility and permit coaches to expand their rosters to accommodate returning seniors who were unable to compete this spring due to COVID-19. The council did not offer an extra season of eligibility to winter-sport athletes.", "In a statement to Spectator, an Ivy League spokesperson said that the decision not to grant an extra year of eligibility was a continuation of “its longstanding practice that athletic opportunities are for undergraduates.”", "The Ivy League has long disallowed other extensions of eligibility within the conference, including the NCAA’s rule permitting athletes to have four seasons of competition within a five-year period. Even before this decision, players who lost entire seasons to injury, including senior basketball players Mike Smith and Jake Killingsworth, would have to transfer out of the league to finish their college playing time."]
                 }
                 ],
                 "articles": [{
@@ -1785,7 +1796,7 @@ const data = {
                     "title": "“We have to start from square one”: Pandemic deals a blow to club sports teams across Columbia",
                     "author": "Clara Ence Morse",
                     "link": "https://www.columbiaspectator.com/sports/2020/05/12/we-have-to-start-from-square-one-pandemic-deals-a-blow-to-club-sports-teams-across-columbia/",
-                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N342VXWRQREP7JPZ2COROR4DCM.JPG"
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YZ3CPDCIKJBH3BIJEULU6V5XEQ.jpg"
                 },
                 {
                     "title": "The best triple jumper in Columbia history, senior Daniel Igbokwe, will graduate after a record-breaking career",
