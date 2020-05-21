@@ -1414,7 +1414,7 @@ const data = {
             "link": "#winter-sports"
         },
         {
-            "name": "Spring Sports",
+            "name": "COVID Cancellations",
             "link": "#spring-sports"
         }
         ],
