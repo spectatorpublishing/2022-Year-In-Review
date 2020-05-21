@@ -32,6 +32,10 @@ export const NavItems = [
     "link": "/graphics"
   },
   {
+    "name": "Illustrations",
+    "link": "/Illustrations"
+  },
+  {
     "name": "Spectrum",
     "link": "/spectrum"
   }

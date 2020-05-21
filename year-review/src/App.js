@@ -11,11 +11,12 @@ import OpinionContainer from './containers/OpinionContainer'
 import SportsContainer from './containers/SportsContainer'
 import EyeContainer from './containers/EyeContainer'
 import PhotoContainer from './containers/PhotoContainer'
-import DesignContainer from './containers/DesignContainer'
+// import DesignContainer from './containers/DesignContainer'
 import AEContainer from './containers/AEContainer'
 import SpectrumContainer from './containers/SpectrumContainer'
 import CovidContainer from './containers/COVIDContainer'
 import GraphicsContainer from './containers/GraphicsContainer'
+import IllustrationsContainer from './containers/IllustrationsContainer'
 
 import NavBar from './components/Navigation/NavBar' 
 import Footer from './components/Footer'
@@ -40,6 +41,7 @@ class App extends Component {
     const spectrum = () => <SpectrumContainer data = {data.Spectrum} />
     const covid = () => <CovidContainer data = {data.Covid} />
     const graphics = () => <GraphicsContainer data = {data.Graphics} />
+    const illo = () => <IllustrationsContainer data = {data.Illustrations} />
 
     return (
       <PreloadProvider>
@@ -74,6 +76,7 @@ class App extends Component {
                         <Route exact path="/eye" component={eye} />
                         <Route exact path="/photo" component={photo} />
                         <Route exact path="/graphics" component={graphics} />
+                        <Route exact path="/illustrations" component={illo} />
                         <Route exact path="/spectrum" component={spectrum} />
                         {/* <Route exact path="/design" component={design} /> */}
                         
