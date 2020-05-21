@@ -15,7 +15,7 @@ let TempTitle = styled.h1`
   text-shadow: ${props => props.theme.shadow};
   z-index: 2;
   position: relative;
-  font-size: 12em;
+  font-size: ${props => props.isIllo ? "9em" : "12em"};
   @media (max-width: 991px){
         font-size: 6rem;
   }
@@ -54,7 +54,7 @@ color: ${props => props.theme.white};
 text-shadow: ${props => props.theme.shadow};
 z-index: 2;
 position: relative;
-font-size: 5rem;
+font-size: ${props => props.isIllo ? "3.5rem" : "5rem"};
 padding: 15px;
 margin-top: 0.7em;`
 
@@ -106,7 +106,7 @@ class PageIntro extends Component {
           <YIRButton>
             <ButtonToHome />
           </YIRButton>
-          <TempTitle>
+          <TempTitle isIllo={this.props.isIllo}>
             <span>
               {isEye && <EyeLogo 
                 src="https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J4UANNLBCVB67HGQOFHU5R6FRU.png" 
@@ -122,7 +122,7 @@ class PageIntro extends Component {
       </Desktop>,
       <MobileAndTablet>
           <MobileHeader {...this.props}>
-            <MobileTitle>
+            <MobileTitle isIllo={this.props.isIllo}>
               <MobileSpan>
                 {isEye && <MobileEyeLogo 
                   src="https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J4UANNLBCVB67HGQOFHU5R6FRU.png" 

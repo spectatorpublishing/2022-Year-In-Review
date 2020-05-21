@@ -35,7 +35,7 @@ class GraphicsContainer extends Component {
     render() {
         return(
             <React.Fragment>
-                <PageIntro title="Graphics" description={this.props.data.blurb} img_src={this.props.data.img}/>
+                <PageIntro title="GRAPHICS" description={this.props.data.blurb} img_src={this.props.data.img}/>
                     <PhotoGrid data={this.props.data.items[0].articles} openLightbox={this.openGraphicsLightbox}/>                
                     {
                         this.state.graphicsLightboxActive && <Lightbox

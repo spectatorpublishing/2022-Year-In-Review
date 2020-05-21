@@ -35,7 +35,7 @@ class IllustrationsContainer extends Component {
     render() {
         return(
             <React.Fragment>
-                <PageIntro title="Illustrations" description={this.props.data.blurb} img_src={this.props.data.img}/>
+                <PageIntro isIllo={true} title="ILLUSTRATIONS" description={this.props.data.blurb} img_src={this.props.data.img}/>
                     <PhotoGrid data={this.props.data.items[0].articles} openLightbox={this.openIllustrationsLightbox}/>                
                     {
                         this.state.illustrationsLightboxActive && <Lightbox
