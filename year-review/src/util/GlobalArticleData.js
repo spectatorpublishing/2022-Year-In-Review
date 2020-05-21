@@ -1729,7 +1729,7 @@ const data = {
                 ]
             },
             {
-                "name": "Spring Sports",
+                "name": "COVID Cancellations",
                 "items": [{
                 "name": "SPORTS IN THE TIME OF CORONAVIRUS",
                 "author": "Spectator Sports Staff",
