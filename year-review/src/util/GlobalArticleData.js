@@ -2281,7 +2281,7 @@ const data = {
                     "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZG7PZ4NNCBFIZEASZLZCIYSE54.png",
                     "description": "",
                     "link": "https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown/",
-                    "author": "Data analysis and interactives by Jason Kao and Charlotte Li"
+                    "author": "Data analysis by Eve Washington | Interactives by Charlotte Li and Jason Kao"
                 }, 
                 {
                     "title": "Segregation exposes Black residents to health risks. Hospitals are disincentivized from treating them",
