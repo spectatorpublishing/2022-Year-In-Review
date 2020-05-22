@@ -33,7 +33,7 @@ export default class OpinionContainer extends Component {
             </div>
             <div>
               <div style={{"height":"5vh"}}></div>
-              <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}>Column</h3>
+              <h3 style={{color: "white", Left: "1vw", padding: "1vh", "backgroundColor": "black"}}>Columns</h3>
               <PhotoGrid data={this.props.data.items[2].items} flip />
             </div>
           </ScrollingNavBar>
