@@ -2425,7 +2425,7 @@ const data = {
                     "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3VLMOFFDMFF5FOURPNS4DVNFTA.gif",
                     "description": "",
                     "link": "https://www.columbiaspectator.com/opinion/2020/04/06/social-distancing-was-just-abstract-advice-for-college-students-then-my-grandfather-died/",
-                    "author": "Liz Evseeva"
+                    "author": "Liza Evseeva"
                   },
                   {
                     "title": "Don’t call me whitewashed. Not now.",
