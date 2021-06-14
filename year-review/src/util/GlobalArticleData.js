@@ -170,160 +170,76 @@ const data = {
                 "name": "Spectrum",
                 "articles": [
                     {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/O74P4TLT2FGLVABT2XP65U2PIY.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/O74P4TLT2FGLVABT2XP65U2PIY.jpg",
-                        "description": "Being single on Valentine’s Day.  Read more ",
-                        "link": "https://www.columbiaspectator.com/spectrum/2020/02/12/being-single-on-valentines-day/",
-                        "author": "Beatrice Shlansky / Senior Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N42MYV6OCNFXRP5YTLOI32XSCM.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N42MYV6OCNFXRP5YTLOI32XSCM.jpg",
+                        "description": " Read more ",
+                        "link": "https://www.columbiaspectator.com/spectrum/2021/02/01/a-guide-to-navigating-columbias-virtual-career-centers/",
+                        "author": "Princeton Huang / Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KL5SMC5YVZEEJNYGIKO4IMTLKA.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KL5SMC5YVZEEJNYGIKO4IMTLKA.jpg",
-                        "description": "Top 5 events and activities to explore in NYC this October.",
-                        "link": "https://www.columbiaspectator.com/spectrum/2019/10/09/top-5-events-and-activities-to-explore-in-nyc-this-october/",
-                        "author": "Auden Barbour / Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JMC3HRMDRJFHZLPFDCX65ZJE3Q.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JMC3HRMDRJFHZLPFDCX65ZJE3Q.jpg",
+                        "description": " Read more ",
+                        "link": "https://www.columbiaspectator.com/spectrum/2021/02/12/activities-to-regain-your-sense-of-inner-peace/",
+                        "author": " Princeton Huang / Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EUP34UJN4ZBVRAOF7ZH2XRLXPM.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EUP34UJN4ZBVRAOF7ZH2XRLXPM.jpg",
-                        "description": "What clubs can you find at Activities Day Fall 2019?",
-                        "link": "https://www.columbiaspectator.com/spectrum/2019/09/06/what-clubs-can-you-find-at-activities-day-fall-2019/",
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KISJKDBY5ZAMHJO6ZTENFOW2E4.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KISJKDBY5ZAMHJO6ZTENFOW2E4.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/spectrum/2021/04/12/tips-and-tricks-for-finals-season/",
                         "author": "Gabi Levy / Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZMEHBRWSLVEU3DSYDSBH7KMBZE.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZMEHBRWSLVEU3DSYDSBH7KMBZE.jpg",
-                        "description": "Is cabin fever starting to settle in? Do not worry! Here is a list of free online resources that can help you continue doing the activities you love while keeping your community safe.",
-                        "link": "https://www.columbiaspectator.com/spectrum/2020/04/21/beat-cabin-fever-with-these-free-online-tools/",
-                        "author": "Olivia Treynor / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GDZ6V442XFGP7KWD32SQYVRE2Q.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GDZ6V442XFGP7KWD32SQYVRE2Q.jpg",
-                        "description": "Class of 2023: Expectations vs. reality",
-                        "link": "https://www.columbiaspectator.com/spectrum/2019/09/28/class-of-2023-expectations-vs-reality/",
-                        "author": "Alex Kieu / Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BB65BFR5LRA2XHORI3HO47FTBE.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BB65BFR5LRA2XHORI3HO47FTBE.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/spectrum/2021/03/11/lottery-numbers-are-out-now-what/",
+                        "author": "Rommel Nunez / Staff Photographer"
                       }
                 ]
             }, {
                 "name": "Sports",
                 "articles": [
                     {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/H6DMNAIEZZFNZP6PWWA7HPIXNA.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/H6DMNAIEZZFNZP6PWWA7HPIXNA.jpg",
-                        "description": "Fencing is not generally considered a team sport. But for the Columbia Lions, it is. Fencing is a screaming sport. For the Lions, it is that, too. At the 2020 Ivy League Championships, there was plenty of both. Ringed by fellow fencers, the women’s team pieced together two days of impeccable performances to earn its third straight Ivy League title.  Read more ",
-                        "link": "https://www.columbiaspectator.com/sports/2020/02/11/womens-fencing-clinches-third-consecutive-ivy-league-title-men-finish-with-close-runner-up-performance/",
-                        "author": "Sarah-Jayne Austin / Senior Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6JBJ7465MRFULIQD5SG5YMZKYI.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6JBJ7465MRFULIQD5SG5YMZKYI.jpg",
+                        "description": "Previous NCAA rules prevented athletes taking a leave of absence from communicating with their teams, but this restriction was lifted during the pandemic.  Read more ",
+                        "link": "https://www.columbiaspectator.com/sports/2021/02/03/weekly-zoom-meetings-prove-to-be-an-effective-communication-and-bonding-tool-for-fencing-leaders/",
+                        "author": "Rommel Nunez / Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RGZFCNM45JGU5G5Q5DQQFUWETI.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RGZFCNM45JGU5G5Q5DQQFUWETI.jpg",
-                        "description": "When first-year guard Abbey Hsu pulled up and drained her 31st point of the night, Columbia’s lead on Harvard came to 32. In head coach Megan Griffith’s four seasons with the Lions, the team has won only once against the Crimson before Hsu’s explosive night.  Read more ",
-                        "link": "https://www.columbiaspectator.com/sports/2020/02/27/how-coach-megan-griffith-and-first-year-lions-are-turning-womens-basketball-into-a-different-breed/",
-                        "author": "Aliya Schneider / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VZQE577BRJA2NEEZSDD2WBEOMM.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VZQE577BRJA2NEEZSDD2WBEOMM.jpg",
-                        "description": "It came down to the wire, but sophomore Sofia Camacho Ferral pulled through when it counted. A late kick and shoulder-to-shoulder finish allowed Ferral to edge out Rutgers’ Olympia Martin for a first-place finish at the Metropolitan Cross Country Championships at Van Cortlandt Park.  Read more ",
-                        "link": "https://www.columbiaspectator.com/sports/2019/10/14/camacho-ferral-claims-first-place-as-columbia-women-test-younger-runners-at-metropolitan-xc-championships/",
-                        "author": "Emma Chen / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZXIEHVKX7ZDAZB4G2IHL3RRR5E.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZXIEHVKX7ZDAZB4G2IHL3RRR5E.jpg",
-                        "description": "After being banned from performing at football games, the Columbia University Marching Band protested this decision through a field show in front of Low Library.  Read more ",
-                        "link": "https://www.columbiaspectator.com/sports/2020/05/09/cumb/",
-                        "author": "Kate Della Pietra / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JIOLYS3RIJGX7OS6ZSDADFJ2WI.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JIOLYS3RIJGX7OS6ZSDADFJ2WI.jpg",
-                        "description": "Senior defender Amalya Johnson’s list of accolades is already extensive—and it is only expected to grow now, after another dominant season.  Read more ",
-                        "link": "https://www.columbiaspectator.com/sports/2019/11/12/one-of-the-best-players-in-the-history-of-this-program-amalya-johnson-ends-a-career-filled-with-many-accolades-and-even-more-memories/",
-                        "author": "Sarah-Jayne Austin / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HCXMLSCQL5HKPNPFVVC6IJKOS4.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/HCXMLSCQL5HKPNPFVVC6IJKOS4.jpg",
-                        "description": "Columbia beat Harvard in dramatic fashion on Saturday, winning 17-10 in overtime on a walk-off interception by junior safety Ben Mathiasmeier. The win marks the first time the Lions have defeated Harvard since Nov. 8, 2003. The win is a rare high point for a team that has dealt with adversity through the first seven weeks of the season.",
-                        "link": "https://www.columbiaspectator.com/sports/2019/11/09/columbia-beats-harvard-17-10-in-thrilling-overtime-comeback/",
-                        "author": "Aliya Schneider / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ELTVQXZ5L5FKJHAJWA7H7VFKWI.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ELTVQXZ5L5FKJHAJWA7H7VFKWI.jpg",
-                        "description": "For Columbia field hockey, there’s one athlete who’s stood in goal all season: Alexa Conomikes, a junior who moved into the starting role for the first time this year. Conomikes transitioned into starting goalie with ease, making 95 saves in 15 games. She records 6.33 saves per game on average, the second-best mark in the Ivy League and the ninth-best mark in the nation.",
-                        "link": "https://www.columbiaspectator.com/sports/2019/11/07/alone-in-the-cage-how-the-relentlessly-confident-alexa-conomikes-has-overcome-adversity-to-step-into-the-role-of-goalkeeper/",
-                        "author": "Sarah-Jayne Austin / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3HX67GVEKJDT3BEI6DDZSSTBNA.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3HX67GVEKJDT3BEI6DDZSSTBNA.jpg",
-                        "description": "Columbia men’s basketball failed to secure its second Ivy League win this weekend. The losses to Princeton and Penn marked the team’s 12th and 13th consecutive losses, cementing the Lions’ spot at the bottom of the Ancient Eight.",
-                        "link": "https://www.columbiaspectator.com/sports/2020/03/09/mens-basketball-ends-on-13-game-losing-streak-finishes-last-in-ivy-league/",
-                        "author": "Kate Della Pietra / Staff Photographer"
-                      }
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/L4M26QZYBBBRBKC5AE24EW2YEQ.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/L4M26QZYBBBRBKC5AE24EW2YEQ.jpg",
+                        "description": "Nicoloff was leading the Lions and batting .394 in 2020 before the season was cut short. Read more ",
+                        "link": "https://www.columbiaspectator.com/sports/2021/04/28/josh-nicoloff-leads-columbia-baseball-by-example-even-after-losing-junior-and-senior-seasons/",
+                        "author": "Kathy Fang / Staff Photographer"
+		      }
                 ]
             }, 
             {
                 "name": "The Eye",
                 "articles": [
                     {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TZMTSPOXSJDSLFAESA5WHYE4BQ.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/TZMTSPOXSJDSLFAESA5WHYE4BQ.jpg",
-                        "description": "The concrete halls of the mechanical engineering department are decked in dim grey blocks and starved of natural light, but Mike Massimino’s office feels lively. Inside, the walls are lined with tidy rows of memorabilia: photos of Massimino’s crew in their space station hailing from his two missions, a proper portrait of him beaming in his space suit, and awards written in dramatic typefaces, adorned in heavy golden frames.   Read more ",
-                        "link": "https://www.columbiaspectator.com/the-eye/2019/11/21/mike-massimino-renaissance-spaceman-on-coming-home/",
-                        "author": "Beatrice Shlansky / Senior Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SIMFMLIRCBBOZATJLBEPOYSLNU.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SIMFMLIRCBBOZATJLBEPOYSLNU.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/the-eye/2021/04/15/not-an-isolated-experience-students-navigating-gender-identity-in-quarantine/",
+                        "author": "Temi George / Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WAMQNOBT6RAZRIZIJ2RY7VQRBA.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WAMQNOBT6RAZRIZIJ2RY7VQRBA.jpg",
-                        "description": "Henry Williams has become a known figure in politics, receiving attention for running Mike Gravel’s presidential campaign alongside his high school friend David Oks.  Read more ",
-                        "link": "https://www.columbiaspectator.com/the-eye/2019/11/18/leaving-the-playground-after-running-a-presidential-campaign-henry-williams-isnt-done-with-national-politics/",
-                        "author": "Olivia Treynor / Senior Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NYJFLSMT3FHPLPTYQ7KNTGRQCU.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NYJFLSMT3FHPLPTYQ7KNTGRQCU.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/features/2021/04/09/fashioning-a-place-online-columbia-university-students-create-fashion-representation-on-social-media/",
+                        "author": "Rommel Nunez / Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P2WVKUS7JFHW7LT2S66VFXBNNQ.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P2WVKUS7JFHW7LT2S66VFXBNNQ.jpg",
-                        "description": "“You need all disciplines, really, to work together on these existential problems that face us now,” Pamela Smith, the director of the Center for Science and Society, says. “And everybody agrees about that, but how to shift the University out of its 19th-century model into the 21st century is a really, really hard problem.”.  Read more ",
-                        "link": "https://www.columbiaspectator.com/eye-lead/2019/10/23/is-columbias-department-system-ready-to-evolve/",
-                        "author": "Aliya Shchneider / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZLLFUR6BQRHAFLXQDS3BTCWNZU.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZLLFUR6BQRHAFLXQDS3BTCWNZU.jpg",
-                        "description": "This year, one Columbia brownstone has been home to transfer students. Next fall, Casa Latina, a Special Interest Community for Latinx students, will move into the coveted brownstone.   Read more ",
-                        "link": "https://www.columbiaspectator.com/the-eye/2020/02/13/student-groups-search-for-space-on-a-crowded-campus-a-recently-open-brownstone-is-the-answer-for-one/",
-                        "author": "Elisabeth McLaughlin / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://spectator-static-assets.s3.amazonaws.com/the-box/KateDellaPietra_CenterforJustice11_26_CDS-7.f828dcff.jpeg",
-                        "img": "https://spectator-static-assets.s3.amazonaws.com/the-box/KateDellaPietra_CenterforJustice11_26_CDS-7.f828dcff.jpeg",
-                        "description": "When Leyla Martinez, GS ’18, filled out her Columbia application, she was confronted with a question that some applicants might glance over without a second thought. The question asks applicants whether or not they have ever been convicted of a crime. If they answer yes, the applicant can explain what happened. “It kinda took the wind out of me,” Martinez remembers, “and I wasn't going to continue the application process.”  Read more ",
-                        "link": "https://www.columbiaspectator.com/eye-lead/2019/12/07/in-the-midst-of-a-national-debate-over-the-box-student-and-university-initiatives-push-for-higher-ed-accessibility-for-justice-involved-individuals/",
-                        "author": "Kate Della Pietra / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://spectator-static-assets.s3.amazonaws.com/uts/ElisabethMcLaughlin_UnionConstruction_SF-6.e0a55d1a.jpg",
-                        "img": "https://spectator-static-assets.s3.amazonaws.com/uts/ElisabethMcLaughlin_UnionConstruction_SF-6.e0a55d1a.jpg",
-                        "description": "On September 19, 2019, the voices of Union Theological Seminary students echoed through the nave of James Memorial Chapel: “Woe to them who build their seminary by unrighteousness, their luxury condos by injustice.” Read more ",
-                        "link": "https://www.columbiaspectator.com/eye-lead/2019/11/26/in-2015-union-theological-seminary-announced-it-would-sell-its-air-rights-students-feel-it-sold-its-values-too/",
-                        "author": "Elisabeth McLaughlin / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CXF6FW5RWJDQJO4UX4XF7XLT74.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CXF6FW5RWJDQJO4UX4XF7XLT74.jpg",
-                        "description": "Columbia’s ever-expanding University is now being filled with projects that cross departmental boundaries.  Read more ",
-                        "link": "https://www.columbiaspectator.com/eye-lead/2019/10/23/is-columbias-department-system-ready-to-evolve/",
-                        "author": "Aliya Shchneider / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WEJPCGA2DJCN3NH2EHFGN7RBHE.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WEJPCGA2DJCN3NH2EHFGN7RBHE.jpg",
-                        "description": "We’re seated in an empty classroom on the fifth floor of Lewisohn Hall. It’s not a terribly small space, but Leonard Elmore certainly makes it feel that way. His lanky 6-foot-9 figure dwarfs the orange chair he sits on.  Read more ",
-                        "link": "https://www.columbiaspectator.com/the-eye/2019/10/29/len-elmore-accidental-athlete-quiet-activist/",
-                        "author": "Kirill Buskirk / Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IBGPUXDB2FATZLLSHI5CCYKCEQ.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IBGPUXDB2FATZLLSHI5CCYKCEQ.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/the-eye/2021/04/08/eva-westphal-on-songwriting-authenticity-and-caramel-coffee/",
+                        "author": "Rommel Nunez / Staff Photographer"
                       }
                 ]
             },
@@ -331,75 +247,53 @@ const data = {
                 "name": "Arts & Entertainment",
                 "articles": [
                     {
-                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BSR6KHTDMJACRNMKYLPWLGXWF4.jpg",
-                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BSR6KHTDMJACRNMKYLPWLGXWF4.jpg",
-                        "description": "The part-time General Studies student and full-time dancer Christina Clark will bring her choreographic voice to Columbia Ballet Collaborative’s spring performances.  Read more ",
-                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/20/from-columbia-to-the-new-york-city-ballet-dancer-christina-clark-performs-a-balancing-act/",
-                        "author": "Gabi Levy / Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UZHGOFGMAVAUJKQ4FO54E77FOA.jpg  ",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UZHGOFGMAVAUJKQ4FO54E77FOA.jpg  ",
+                        "description": "Cafe du Soleil put up bubble tents over the summer so that groups of diners could be safely separated. But with cold weather approaching, many restaurants are worried about outdoor dining's continued feasibility. Some are turning to indoor dining despite potential health risks.  Read more ",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/10/16/indoor-dining-promised-economic-relief-for-restaurants-do-morningside-heights-restaurants-agree/",
+                        "author": "Samantha Camacho / Staff Photographer"
                       },
                       {
-                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PR3OXBHFVRAHVNPP3DU36LNVGY.jpg",
-                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PR3OXBHFVRAHVNPP3DU36LNVGY.jpg",
-                        "description": "One unnamed artist offered a conceptual piece by twisting colorful, patterned paper into small tubes and fastening them together. His piece resembled a balance, a symbol typically associated with the legal system and justice, which perhaps suggested a rumination by incarcerated people on the extent of justice they experience.  Read more ",
-                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/05/a-closer-look-at-incarcerated-artists-stories-in-paper/",
-                        "author": "Cherrie Zheng / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2DIAWM46NVGN7MIFZIT3OX4HSQ.jpg",
-                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2DIAWM46NVGN7MIFZIT3OX4HSQ.jpg",
-                        "description": "",
-                        "https": "//www.columbiaspectator.com/arts-and-entertainment/2019/10/24/at-waterlicht-visual-arts-and-environmental-activism-converge/> Read more ",
-                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/10/24/at-waterlicht-visual-arts-and-environmental-activism-converge/",
-                        "author": "Gabi Levy / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/K3ALF2DFNJHTFKLTIFLFYIRCFQ.jpg",
-                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/K3ALF2DFNJHTFKLTIFLFYIRCFQ.jpg",
-                        "description": "Multimedia artist and architect Olafur Eliasson spoke about his illustrious artistic repertoire, safe spaces, and making environmental responsibility physically tangible through art during an address at The Forum on Thursday.  Read more ",
-                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/09/27/multimedia-artist-olafur-eliasson-advocates-for-environmental-empowerment-through-art-at-world-leaders-forum/",
-                        "author": "Kirill Buskirk/ Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BU6XSF5KWBCH3EBZNDMUNRQMNU.jpg",
-                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BU6XSF5KWBCH3EBZNDMUNRQMNU.jpg",
-                        "description": "The exhibit at the Rare Book and Manuscript Library is part of the University's initiative to examine the climate crisis through an artistic lens.  Read more ",
-                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/01/23/butler-is-awash-in-books-for-year-of-water-exhibit-celebrating-earths-precious-resource/",
-                        "author": "Olivia Treynor / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YBIWZPEK5JBC5IOXMBBVSAVIOI.jpg",
-                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YBIWZPEK5JBC5IOXMBBVSAVIOI.jpg",
-                        "description": "Crowds gathered in the lobby of Columbia’s Italian Academy for Advanced Studies in America for the international conference.  Read more ",
-                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/10/21/authors-of-the-restitution-of-african-cultural-heritage-report-discuss-the-return-of-african-objects-to-their-native-countries-at-symposium/",
-                        "author": "Elisabeth McLaughlin / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SO3G5A3VLFBUZJ46EZDW3J4C7E.jpg",
-                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SO3G5A3VLFBUZJ46EZDW3J4C7E.jpg",
-                        "description": "As she sits across the table from a portrait of Lorenzo Da Ponte, the first professor of Italian at Columbia University, Barbara Faedda prepares to change the direction of the Italian department with her new seminar, Introduction to Fashion Studies. Read more ",
-                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/11/20/professor-barbara-faedda-meets-the-demand-for-more-fashion-on-campus/",
-                        "author": "Arielle Shternfeld / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XT46545MGFFC5PNCMINHXBQIZQ.jpg",
-                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XT46545MGFFC5PNCMINHXBQIZQ.jpg",
-                        "description": "Models wearing vibrant pieces that display cultural influences walk down the runway, performance groups move swiftly as one, and a poet captivates the audience under the spotlights of Roone Arledge Auditorium.  Read more ",
-                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/11/11/aaa-resurges-in-celebration-of-asian-american-empowerment-at-annual-cultureshock-showcase/",
-                        "author": "Aliya Schneider / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HEHDV7JIGZFKDA3AV4EH3F7QI4.jpg",
-                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HEHDV7JIGZFKDA3AV4EH3F7QI4.jpg",
-                        "description": "In its West End Preview, the 126th Annual Varsity Show’s cast and crew investigated Bacchanal’s move to Terminal 5 through satirical songs and dances. Read more ",
-                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/14/the-126th-varsity-shows-west-end-preview-seeks-to-get-to-the-bottom-of-bacchanals-terminal-5-move/",
-                        "author": "Ellis Shapiro-Barnum / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Q5HFMS4UVJEIVBLXU3IEESDVYE.jpg",
-                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Q5HFMS4UVJEIVBLXU3IEESDVYE.jpg",
-                        "description": "The same scene played out several times, each iteration eerily repetitive to the others yet unique in its execution. Read more ",
-                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/11/11/linguistic-features-of-aave-was-a-stunning-and-unsettling-social-critique-on-discrimination/",
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AARTR4WSYZCUZCZS4GU3NJXGNU.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AARTR4WSYZCUZCZS4GU3NJXGNU.jpg",
+                        "description": "Board game cafe Hex and Co. is preparing to move into its new space, the old home of the historic West End Bar.  Read more ",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/01/14/a-look-into-hex-co-manhattans-largest-board-game-cafe/",
                         "author": "Beatrice Shlansky / Senior Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MTVHCBOTTFDOHBWUNR46UXEDUQ.JPG  ",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MTVHCBOTTFDOHBWUNR46UXEDUQ.JPG  ",
+                        "description": "Climate justice activist Lauren Ritchie has spurred an inclusive climate action revolution with her platform @ecojusticeproject on Instagram.",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/15/climate-justice-activist-lauren-ritchie-cc-22-on-redefining-sustainability-and-inciting-an-inclusive-climate-action-movement/",
+                        "author": "Millie Felder / Senior Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WL62PMVYANC5NGXGWNWITTLXEQ.jpg ",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WL62PMVYANC5NGXGWNWITTLXEQ.jpg ",
+                        "description": "Stephanie Chow, CC ’23, otherwise known as Wilchai, navigates the tension between what we remember and the truths of our past realities in her somber debut single, “Deluge.” Read more ",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/23/student-musician-wilchai-reflects-on-memory-family-in-debut-single-deluge/",
+                        "author": "Rommel Nunez / Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6NEHBCZ2CZBBHMHBCNHEXE2T2A.JPG ",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6NEHBCZ2CZBBHMHBCNHEXE2T2A.JPG ",
+                        "description": "Sharing a space with Junzi kitchen, new popup Nice Day Chinese Takeout offers their own twist on classic Chinese American food. Read more ",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/31/nice-day-chinese-takeout-honors-chinese-american-culinary-roots/",
+                        "author": "Millie Felder / Senior Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AC4NM6SV35GNHJLKL7AXZ2OTAE.jpg ",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AC4NM6SV35GNHJLKL7AXZ2OTAE.jpg ",
+                        "description": "Crowds gathered in the lobby of Columbia’s Italian Academy for Advanced Studies in America for the international conference.  Read more ",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/14/student-founded-exclusive-beauty-salon-promotes-self-care-and-black-culture-through-hair-services/",
+                        "author": "Rommel Nunez / Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IBNMBS3BRVA3JHAIUC7YUPKGNY.jpg ",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IBNMBS3BRVA3JHAIUC7YUPKGNY.jpg ",
+                        "description": "Tap dance is a loud art form, making it a discipline that is unfit for Zoom dance classes. Read more ",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/17/burden-of-reviving-tap-courses-falls-on-students-leaving-the-future-of-the-program-uncertain/",
+                        "author": "Beatrice Shlansky / Senior Staff Photographer" 
                       }
                 ]
             }
