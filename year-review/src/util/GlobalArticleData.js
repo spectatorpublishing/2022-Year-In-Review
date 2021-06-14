@@ -43,7 +43,7 @@ const data = {
                 },
                 {
                     "title": "Through students' eyes: Voting in 2020",
-                    "author": "Kate Della Pietra, Olivia Treynor, Beatrice Shlansky",
+                    "author": "Kate Della Pietra, Selina Yang, Princeton Huang, Joao Santos, Olivia Treynor, Beatrice Shlansky",
                     "link": "https://www.columbiaspectator.com/photo-essay/2020/11/03/through-students-eyes-voting-in-2020/",
                     "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6PTMIZ7BXND55I2PTJVJGTCC7U.jpg"
                 },
@@ -78,32 +78,25 @@ const data = {
                 "name": "News",
                 "articles": [
                     {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/XLCPGGDKMJBBROEM2PWGJKHOTE.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/XLCPGGDKMJBBROEM2PWGJKHOTE.jpg",
-                        "description": "A new guide was released that aimed to improve departmental climate across the University, highlighting principles of transparency, uniformity, assistance, and respect.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2019/12/09/provosts-office-releases-guide-for-improving-departments-workplace-culture/",
-                        "author": "Elisabeth McLaughlin / Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2GDOYBTXOVFBHO4TOM3Y2WYRXY.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2GDOYBTXOVFBHO4TOM3Y2WYRXY.jpg",
+                        "description": "During the fall semester, there were 258 reports of alleged Health Compact violations. Some of these cases are still pending review, but as of the first week of the spring semester, the University determined 219 violations had occurred on campus.  Read More ",
+                        "link": "https://www.columbiaspectator.com/news/2021/01/21/columbia-invites-1800-students-back-to-campus-despite-social-distancing-violations-and-rising-cases/",
+                        "author": "Millie Felder / Senior Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YV5GALTUXVH3BFLFWHSGZ2SMFY.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YV5GALTUXVH3BFLFWHSGZ2SMFY.jpg",
-                        "description": "The event centered around Edward Snowden’s perspective on Internet anonymity and the reasoning behind his decision in 2013 to release classified information from the National Security Agency to a group of journalists from The Guardian and the Washington Post.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2019/10/30/edward-snowden-discusses-shortcomings-in-legal-protections-against-mass-surveillance-in-event-at-the-forum/",
-                        "author": "Caroline Dailey / Senior Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FMENGH7PNBC63E6PXVDYSR6UWI.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FMENGH7PNBC63E6PXVDYSR6UWI.jpg",
+                        "description": "Willem Morris, CC ’21, leads a group of student organizers, politicians, and rally participants up Low Steps, chanting and bearing posters emblazoned with the demands of the tuition strike. Read More ",
+                        "link": "https://www.columbiaspectator.com/news/2021/01/18/local-candidates-join-student-organizers-back-largest-tuition-strike-in-history-at-sunday-rally/",
+                        "author": "Kathy Fang / Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4JATA2JH2ZHMRJF7JURRTUUQIM.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4JATA2JH2ZHMRJF7JURRTUUQIM.jpg",
-                        "description": "A man crosses the intersection of 110th Street and Broadway at the height of the flooding.  Read More ",
-                        "link": "https://www.columbiaspectator.com/multimedia/2020/02/13/broadway-avenue-flooded-after-water-main-breaks/",
-                        "author": "Lila Gaffney / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WFOCTFE7ZVF5RKH4CCQIL3QALY.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WFOCTFE7ZVF5RKH4CCQIL3QALY.jpg",
-                        "description": "The Advisory Committee on Socially Responsible Investing will decide whether to accept the Extinction Rebellion’s proposal to divest from all fossil fuels. If accepted, the ACSRI will recommend the proposal to the University’s board of trustees.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2020/02/12/extinction-rebellion-to-propose-divestment-from-fossil-fuels-to-the-advisory-committee-for-socially-responsible-investment/",
-                        "author": "Olivia Treynor  / Senior Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EIPHBF4FMBH7HJGCJGFBOSUZGA.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EIPHBF4FMBH7HJGCJGFBOSUZGA.jpg",
+                        "description": "Open work orders at the Grant Houses, pictured above, have risen 25 percent year-over-year. Read more. ",
+                        "link": "https://www.columbiaspectator.com/news/2021/02/06/nycha-maintenance-issues-have-skyrocketed-since-the-pandemic-how-can-residents-hold-nycha-accountable/",
+                        "author": "Rommel Nunez  / Staff Photographer"
                       },
                       {
                         "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C6UR3YSF3BBSXBN65VW5TMUVAA.jpg",
@@ -113,89 +106,64 @@ const data = {
                         "author": "Aliya Schneider / Senior Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/L4Y6D2SPSVEA5O76U44RQE74RU.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/L4Y6D2SPSVEA5O76U44RQE74RU.jpg",
-                        "description": "The consensus among 12th Avenue businesses was clear: They were not prepared for the University’s construction, and the University has not provided them with a safety net despite its disruption to the corridor.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2020/03/13/upscaled-the-cost-of-columbia-construction-for-struggling-12th-avenue-businesses/",
-                        "author": "Elisabeth McLaughlin / Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FHW4IPQGHJCNTGE2NCFTT3LZBM.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FHW4IPQGHJCNTGE2NCFTT3LZBM.jpg",
+                        "description": " Read More ",
+                        "link": "https://www.columbiaspectator.com/news/2021/03/22/a-teachers-college-reading-curriculum-is-among-the-nations-most-popular-does-it-serve-english-language-learners/",
+                        "author": "Rommel Nunez / Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C7XETM55AZHWTOSDWQABLMVUIE.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C7XETM55AZHWTOSDWQABLMVUIE.jpg",
-                        "description": "In its eighth iteration, Morningside Lights featured 50 lanterns that cast a colorful glow across the park.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2019/09/23/lanterns-and-community-members-light-up-morningside-park-at-annual-celebration/",
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FRMDASKKIZDODGXRWX6QS7WZ6Q.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FRMDASKKIZDODGXRWX6QS7WZ6Q.jpg",
+                        "description": " Read More ",
+                        "link": "https://www.columbiaspectator.com/news/2021/02/11/an-unthinkable-tragedy-struck-barnard-and-its-surrounding-community-a-year-later-what-has-changed/",
+                        "author": "Millie Felder / Senior Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BBNGX2MDKBCIXF44VHJTE5TJEA.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BBNGX2MDKBCIXF44VHJTE5TJEA.jpg",
+                        "description": " Read More ",
+                        "link": "https://www.columbiaspectator.com/news/2021/02/26/graduate-workers-union-announces-intention-to-strike-on-march-15/",
+                        "author": "Princeton Huang / Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Y3DAGUG3IBGG7FMRYIYZN6C7SA.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Y3DAGUG3IBGG7FMRYIYZN6C7SA.jpg",
+                        "description": "Across work sectors, a quarter of women who became unemployed over the course of the pandemic credited it to a lack of childcare. Read More ",
+                        "link": "https://www.columbiaspectator.com/news/2021/03/17/union-members-advocate-for-childcare-benefits-as-the-pandemic-continues-to-disproportionately-affect-female-faculty/",
+                        "author": "Selina Yang / Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LSXCJ7QUGNFMXBRXX24RW2FKSA.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LSXCJ7QUGNFMXBRXX24RW2FKSA.jpg",
+                        "description": " Read More ",
+                        "link": "https://www.columbiaspectator.com/news/2021/04/06/for-senior-residents-seeking-to-get-vaccinated-appointments-are-only-accessible-with-the-help-of-community-members/",
+                        "author": "Samantha Camacho / Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IN6DFCPOONBZLJZDZS7WRDA2IU.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IN6DFCPOONBZLJZDZS7WRDA2IU.jpg",
+                        "description": "The religion department’s graduate workers have decided to continue striking, despite the GWC-UAW’s bargaining committee decision to accept the University’s proposal to pause the strike and enter into mediated negotiations. Read More ",
+                        "link": "https://www.columbiaspectator.com/news/2021/04/08/as-most-student-workers-return-to-work-the-religion-department-continues-to-strike/",
                         "author": "Beatrice Shlansky / Senior Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LA2ZHMYKXNF65OOIV3VARWIXO4.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/LA2ZHMYKXNF65OOIV3VARWIXO4.jpg",
-                        "description": "From Low Steps, students proceeded downtown to join the other protesters at Foley Square. The crowd included many students of all ages, who were given leave from public school if they participated in the strike.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2019/09/21/columbia-and-barnard-students-join-thousands-of-youth-activists-including-greta-thunberg-for-new-york-climate-strike/",
-                        "author": "Elisabeth McLaughlin / Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DVTQQRVHMVEGHCO7RWXPOYP2NM.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DVTQQRVHMVEGHCO7RWXPOYP2NM.jpg",
+                        "description": "Columbia’s virtual Commencement is a fitting end to the seniors’ last year, which has largely been marked by both disappointment and hope. As student leaders, these seniors had the difficult role of building or maintaining community while looking beyond the gates. Read More ",
+                        "link": "https://www.columbiaspectator.com/news/2021/04/29/virtual-commencement-is-made-bittersweet-with-the-pandemic-coming-under-control/",
+                        "author": "Beatrice Shlansky / Senior Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6XKFOQJYZRCD7AT4LY7FFCWP6E.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6XKFOQJYZRCD7AT4LY7FFCWP6E.jpg",
-                        "description": "Hundreds of students and faculty mourned the death of Barnard first-year Tessa Majors at a vigil held in her honor on Thursday night.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2019/12/13/first-year-barnard-student-remembered-for-her-energy-and-passion/",
-                        "author": "Lila Gaffney / Senior Staff Photographer"
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/M27IEPDGDNHHZNJRGPV3B6T2WI.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/M27IEPDGDNHHZNJRGPV3B6T2WI.jpg",
+                        "description": "In April, Columbia settled for $13 million in a class-action lawsuit over alleged breaches in fiduciary duty regarding the management of its employee retirement plans.Read More ",
+                        "link": "https://www.columbiaspectator.com/news/2021/06/01/columbia-settles-for-13-million-in-class-action-lawsuit-over-unnecessarily-expensive-and-underperforming-employee-retirement-plans/",
+                        "author": "Princeton Huang / Staff Photographer"
                       },
                       {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CTKF2G5UFBCLLNRPDR3JLFBWYU.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CTKF2G5UFBCLLNRPDR3JLFBWYU.jpg",
-                        "description": "As Aline Estefam, a graduate student in urban planning, approached 125th Street and Broadway, she immediately noticed the contemporary architecture of The Forum at Columbia University. With wide windows and sharp white edges, it stands in stark contrast with the surrounding gradient of brown brick buildings.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2020/02/06/the-forums-design-prevents-west-harlem-residents-from-occupying-a-space-built-for-the-community/",
-                        "author": "Gabi Levy / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/V4KGJHFDINEKZN74ZVMTSBFUH4.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/V4KGJHFDINEKZN74ZVMTSBFUH4.jpg",
-                        "description": "The Spectator has logged over 370 layoffs in Morningside Heights and Manhattanville.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2020/03/26/when-we-lose-the-students-we-lose-business-small-businesses-forced-to-lay-off-hundreds-of-employees-amid-coronavirus-outbreak/",
-                        "author": "Olivia Treynor / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FYNBB6SIGNDWZD7BRT24AFN6JU.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FYNBB6SIGNDWZD7BRT24AFN6JU.jpg",
-                        "description": "Maria Hinojosa was the first Latina ever hired at NPR.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2019/10/02/for-award-winning-journalist-maria-hinojosa-bc-84-returning-to-barnard-is-a-dream-come-true/",
-                        "author": "Michael Cao / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FMY3H6ANI5AYBM23GY5VI4QLUY.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FMY3H6ANI5AYBM23GY5VI4QLUY.jpg",
-                        "description": "New York City banned the sale of flavored e-cigarettes in a 42-2 vote last Tuesday, but the community is divided about how the ban will impact the neighborhood.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2019/12/04/community-remains-divided-over-impact-of-new-york-city-flavored-e-cigarette-ban/",
-                        "author": "Olivia Treynor / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QZA5NBL5PZGULPWFK547I6AZ3A.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QZA5NBL5PZGULPWFK547I6AZ3A.jpg",
-                        "description": "At the panel, Hatice Cengiz, Jamal Khashoggi’s fiancee and an outspoken advocate on behalf of the slain dissident, joined Saudi activist Lina al-Hathloul and Dean of the Journalism School Steve Coll.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2019/09/30/un-investigator-khashoggi-fiancee-condemn-international-response-to-journalists-murder-at-j-school-event/",
-                        "author": "Olivia Treynor / Senior Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EL6X7FBITZF5ZEYEZBBN63F3VE.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EL6X7FBITZF5ZEYEZBBN63F3VE.jpg",
-                        "description": "Broken Chinese characters on a blackboard in Butler Library translated to “Wuhan virus isolation area,” reflecting an anti-Chinese sentiment emerging around the coronavirus. While the coronavirus has no nationality or ethnicity, many Chinese students self-isolate or wear protective masks to prevent contagion and also to ensure their own safety.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2020/02/06/anti-chinese-message-written-in-butler-as-anxiety-rises-over-coronavirus/",
-                        "author": "Alex Kieu / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YDOBEUGA4RHPZL2QGLUGVZDC2E.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YDOBEUGA4RHPZL2QGLUGVZDC2E.jpg",
-                        "description": "As New York City faces 9,562 deaths and 134,874 confirmed cases of COVID-19 as of April 21, workers have been asked to return to work with enhanced health and safety measures.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2020/04/21/columbia-construction-workers-ordered-to-return-to-sites-as-covid-cases-peak-in-nyc/",
-                        "author": "Lola Lafia / Staff Photographer"
-                      },
-                      {
-                        "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/U3YVTRG53FCGRP6ZDVE3BR6IYU.jpg",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/U3YVTRG53FCGRP6ZDVE3BR6IYU.jpg",
-                        "description": "LionBase is celebrating its first anniversary. What started as a ragtag team of freelancing students has now evolved to a startup that strives for both professionalism and community.  Read More ",
-                        "link": "https://www.columbiaspectator.com/news/2019/11/20/at-lionbase-students-get-paid-to-do-real-world-data-science/",
-                        "author": "Cherrie Zheng / Staff Photographer"
-                      }
+                        
+                      
                 ]
             },
             {
