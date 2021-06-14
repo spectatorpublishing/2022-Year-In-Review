@@ -1,6 +1,6 @@
 const data = {
     "Photos": {
-        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2DIAWM46NVGN7MIFZIT3OX4HSQ.jpg",
+        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DUCXD3GI4RERPM7Q3ZJCOBDFQU.jpg",
         sections: [
         {
             "name": "News",
@@ -23,35 +23,53 @@ const data = {
             "link": "#arts-and-entertainment"
         },
     ],
-        "blurb": "A photograph is the product of instinct, patience, and careful observation that can, in an instant, ignite emotion and reflect truth. As photographers, we move through space attentive to the rhythm of the world around us: to patterns and quality of light and sound, to weather, and to the intricate choreography of the thousand moments that make up a day. This year, our staff has documented instances of exceptional grace and heartbreak, as well as the simple, quotidian motions that define our community, from Broadway in the rain to Low Beach on a sunny day to the scaffolds and concrete blocks of Manhattanville. This spring, while many of us remain far from Columbia and New York, reflecting on our staff’s careful documentation of our school, our neighborhood, and our city is a testament to the power of a photograph to distill emotion and remind us of our shared experiences—our pride, our sadness, our outrage, our appreciation—in anticipation of what is to come.",
+        "blurb": "In the past year, Spectator’s photo section has weathered many challenges. Taking photos of a campus that was missing the majority of its student population presented numerous difficulties, and our work was complicated by only having a handful of photographers in New York City. Despite these challenges, we pioneered new methods of capturing photos, participating in everything from socially distanced portrait sessions to Zoom and FaceTime photoshoots. We completed photo essays, captured events everywhere from Times Square to West Harlem, took portraits of campus leaders and students, and worked to ensure Spectator’s articles received suitable visual coverage. Here, you will find just a glimpse of our work, including our coverage of virtual theater performances, President Joe Biden’s election, and the Graduate Workers of Columbia-United Auto Workers’ strike.",
         "Photo_Essays": {
             "name": "Photo Essays",
             "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WWRNGQBQJRAX3OWVS6TFX7NUDU.jpg",
             "blurb": "",
             "articles": [
                 {
-                    "title": "In Focus: New York City Climate Strike",
-                    "author": "Elisabeth McLaughlin",
-                    "link": "https://www.columbiaspectator.com/photo-essay/2019/09/24/in-focus-new-york-city-climate-strike/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2WFMKSXSQZF37BNRXSO3SNUVNA.jpg"
+                    "title": "In Focus: My Digicam Life",
+                    "author": "Gabi Levy",
+                    "link": "https://www.columbiaspectator.com/photo-essay/2021/04/09/in-focus-my-digicam-life/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZCDASOHNVFGVRKEHHJZ4I3B73Y.jpg"
                 },
                 {
-                    "title": "In Focus: Love on Low",
-                    "author": "Olivia Treynor",
-                    "link": "https://www.columbiaspectator.com/photo-essays/2020/02/13/love-on-low/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VUWEL6GA3RBQ7PQD2E5UPNESBY.jpg"
+                    "title": "Fear of Missing Out: A First-Year Experience",
+                    "author": "Selina Yang",
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/02/04/fear-of-missing-out-a-first-year-experience/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KM62I5C2YRD2FIRVQWQL6J7TY4.jpg"
                 },
                 {
-                    "title": "In Focus: Football defeats Penn 44–6 in Homecoming blowout",
-                    "author": "Aliya Schneider, Cherrie Zheng, and Olivia Treynor",
-                    "link": "https://www.columbiaspectator.com/photo-essay/2019/10/21/in-focus-football-defeats-penn-44-6-in-homecoming-blowout/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CLBWOYTPMJH2LDODQI5PW4SNBA.jpg"
+                    "title": "Through students' eyes: Voting in 2020",
+                    "author": "Kate Della Pietra, Olivia Treynor, Beatrice Shlansky",
+                    "link": "https://www.columbiaspectator.com/photo-essay/2020/11/03/through-students-eyes-voting-in-2020/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6PTMIZ7BXND55I2PTJVJGTCC7U.jpg"
                 },
                 {
-                    "title": "In Focus: What does self-care look like at Columbia?",
-                    "author": "Aliya Schneider",
-                    "link": "https://www.columbiaspectator.com/photo-essay/2019/10/31/in-focus-what-does-self-care-look-like-at-columbia/",
-                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FWW75IMHG5AGVIKJMKBIG6YNKI.jpg"
+                    "title": "When restaurants struggle to survive, what does it mean for the community?",
+                    "author": "Millie Felder, Beatrice Shlansky",
+                    "link": "https://www.columbiaspectator.com/photo-essays/2021/01/21/when-restaurants-struggle-to-survive-what-does-it-mean-for-the-community/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FI27W5OH2ZASZMRMGFAYVB5N4I.jpg"
+                },
+		    {
+                    "title": "Anticipation of a Biden presidency: Reactions in New York",
+                    "author": "Temi Gorge, Rommel Nunez, Samantha Camacho, Jazilah Salam",
+                    "link": "https://www.columbiaspectator.com/photo-essay/2020/11/07/anticipation-of-a-biden-presidency-reactions-in-new-york/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OEWBANT2H5AGHJ2SPSNK5ZV3ZQ.jpeg"
+                },
+		    {
+                    "title": "A walk through West Harlem: A look at often overlooked historic sites",
+                    "author": "Beatrice Shlansky",
+                    "link": "https://www.columbiaspectator.com/photo-essay/2021/02/15/a-walk-through-west-harlem-a-look-at-often-overlooked-historic-sites/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5JEX7WGSLZEWHO4PAK5RSD44XQ.jpg"
+                },
+		    {
+                    "title": "In focus: Columbia graduate students picket on the first day of strike",
+                    "author": "Selina Yang, Joao Santos, Millie Felder, Samantha Camacho",
+                    "link": "https://www.columbiaspectator.com/photo-essay/2021/03/16/in-focus-columbia-graduate-students-picket-on-the-first-day-of-strike/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RX7ENP5ITVBWHO3LRMOJ7FS47U.jpg"
                 },
             ]
         },
