@@ -447,20 +447,20 @@ const data = {
         ]
     },
     "Eye": {
-        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/75QIDJYJU5G7BMCBEWZ7P3EOB4.jpg",
+        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3TPQE452RZGYJJP57NYT33YTDQ.jpeg",
         sections: 
         [
           {
-            "name": "Academics",
-            "link": "#academics"
-          },
-          {
-            "name": "Community",
-            "link": "#community"
+            "name": "Feature Reporting",
+            "link": "#feature-reporting"
           },
           {
             "name": "Student Life",
             "link": "#student-life"
+          },
+          {
+            "name": "University Administration",
+            "link": "#university-administration"
           },
           {
             "name": "Essays",
@@ -471,119 +471,113 @@ const data = {
             "link": "#the-ear"
           }
         ],
-        "blurb": "As Spectator’s long-form magazine, The Eye has spent the past year pursuing rigorous, thorough, and empathetic journalism. Through character driven stories with an emphasis on voice and style, we have sought to engage with, inform, and challenge the Columbia community—to evoke something within you, our readers. Put simply: to read an Eye piece is to feel, to think critically, and to draw closer to those who share our spaces. ",
+        "blurb": "As the long-form magazine of Spectator, The Eye has produced rigorous and empathetic journalism and narrative non-fiction writing. From the hidden world of student-athlete career networks to community-led anti-violence initiatives in West Harlem, we’re proud of the thorough and in-depth storytelling we have shared with our readers this year.  ",
         "items": [{
-                "name": "HIGHLIGHTS IN ACADEMICS REPORTING",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TDO6A3HQAFFLLADP3BMPW3OPEI.png",
-                "blurb": "",
+                "name": "Feature Reporting",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OWZOJP6QF5DBNJY7QOM3JH3SGY.jpg",
+                "blurb": "In-depth, narrative journalism that dives deeply into the stories within our communities.",
                 "articles": [
                     {
-                      "title": "Before Joining the Front Lines: Four Perspectives From Columbia Medical Students",
-                      "author": "Paul Hanna",
-                      "link": "https://www.columbiaspectator.com/the-eye/2020/05/04/before-joining-the-front-lines-four-perspectives-from-columbia-medical-students/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/PBLFITDU3JHPJBNT5KSYWPZEYM.png"
+                      "title": "One Relationship at a Time: Restorative Justice Initiatives in West Harlem are Rewriting Legacies of Violence and Mass Incarceration",
+                      "author": "Ellida Parker and Cheryn Hong",
+                      "link": "https://www.columbiaspectator.com/eye-lead/2021/02/26/one-relationship-at-a-time-restorative-justice-initiatives-in-west-harlem-are-rewriting-legacies-of-violence-and-mass-incarceration/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4PSRQNCXTNGXRCUFJLOSFLUAHQ.jpg"
                     },
                     {
-                      "title": "Columbia Expects Graduate Students to Pay Rent in June. What Does This Mean for Those Who Can’t Foot The Bill?",
+                      "title": "For Athletes, Career Networks Unlock a World of Opportunity in Finance and Consulting",
+                      "author": "Miles Schachner, Elizabeth Karpen, Clara Ence Morse, Melissa Wang, and Charlotte Li",
+                      "link": "https://www.columbiaspectator.com/the-eye/2020/11/14/for-athletes-career-networks-unlock-a-world-of-opportunity-in-finance-and-consulting/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3VK2J6NNKRGJRDF3PNHCAULE6I.jpg"
+                    }
+                  ]
+            },
+            {
+                "name": "Highlights in Student Life Reporting",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CNCHAQ5CZVBGZIN374V764XHBE.jpg",
+                "blurb": "Stories amplifying what it means to be a Columbia or Barnard student in an age of social distancing, remote learning, and societal upheaval.",
+                "articles": [
+                    {
+                      "title": "Fashioning a Place Online: Columbia Students Create Fashion Representation on Social Media",
+                      "author": "Lily Meyers",
+                      "link": "https://www.columbiaspectator.com/features/2021/04/09/fashioning-a-place-online-columbia-university-students-create-fashion-representation-on-social-media/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VGONRZG5BRGEFKIJR7S2D2TNBM.jpg"
+                    },
+			{
+                      "title": "The New Columbia Bubble: First Generation, Low Income Students Form The Majority In Pandemic-era Dorms",
+                      "author": "Briani Netzahuatl",
+                      "link": "https://www.columbiaspectator.com/the-eye/2020/12/14/new-columbia-bubble-first-generation-low-income-students-form-the-majority-in-pandemic-era-dorms/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5NAL2ERLFFFVTLN2JGNBJFIBNI.gif"
+                    },
+			{
+                      "title": "(Not) an Isolated Experience: Students Navigating Gender Identity in Quarantine",
+                      "author": "Temi George",
+                      "link": "https://www.columbiaspectator.com/the-eye/2021/04/15/not-an-isolated-experience-students-navigating-gender-identity-in-quarantine/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SIMFMLIRCBBOZATJLBEPOYSLNU.jpg"
+                    },
+                    {
+                      "title": "Alarmed, but Not Surprised: Debunking the Shock of Anti-Asian Racism",
+                      "author": "Cheryn Hong",
+                      "link": "https://www.columbiaspectator.com/the-eye/2021/04/01/alarmed-but-not-surprised-debunking-the-shock-of-anti-asian-racism/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BQ5ZP5S4HNHIVHWZNY2KTP3FGY.png"
+                    }
+                  ]
+            },
+            {
+                "name": "Highlights in University Administration Reporting",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CUV3X3E2AFCP5PEQ5M7GRH7EFM.jpg",
+                "blurb": "This year, administrative decisions and policies impacted students' lives more than nearly ever before. We dug into Columbia's administrative actions and the stories they shaped in our communities.",
+                "articles": [
+                    {
+                      "title": "No Filmmaking at Film School: Administrative Policies Make Production Impossible",
+                      "author": "Isabella Aldrete and Kambi Gathesha",
+                      "link": "https://www.columbiaspectator.com/the-eye/2020/12/14/lights-camera-inaction-on-not-making-films-in-film-school/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BLPT7JFWCFFBDKZ7VEYGSZ4TLY.jpg"
+                    },
+                    {
+                      "title": "Ignored, Erased, Unheard: The Doctor Behind the Name Change of Bard Hall",
+                      "author": "Annie Cheng and Kaiwen Zhang",
+                      "link": "https://www.columbiaspectator.com/the-eye/2020/12/15/ignored-erased-unheard-the-doctor-behind-the-name-change-of-bard-hall/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FEJE4QQPRFCF3M4DWTRWJLFTTE.gif"
+                    },
+                    {
+                      "title": "Inside the Bargaining Zoom: Two Years In, Graduate Students Still Fight for a Contract with Columbia",
                       "author": "Cole Cahill",
-                      "link": "https://www.columbiaspectator.com/the-eye/2020/04/24/columbia-wont-provide-summer-rent-relief-for-graduate-students-what-does-this-mean-for-those-who-cant-foot-the-bill/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UQIGPSKF6BHVLPJGJD4WYFICPU.jpeg"
-                    },
-                    {
-                      "title": "Students and Faculty Say Gender-Based Harassment and Discrimination at Columbia is Systemic. Why Are They Turning Away From the System Built to Address It?",
-                      "author": "Gavrielle Jacobovitz",
-                      "link": "https://www.columbiaspectator.com/eye-lead/2019/11/15/students-and-faculty-say-gender-based-harassment-and-discrimination-at-columbia-is-systemic-why-are-they-turning-away-from-the-system-built-to-address-it/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/C7UPWL55MVHCREXFVRX5J5KSRA.png"
-                    },
-                    {
-                      "title": "In 2015, Union Theological Seminary announced it would sell its air rights. Students feel it sold its values too.",
-                      "author": "Jack Meyer",
-                      "link": "https://www.columbiaspectator.com/eye-lead/2019/11/26/in-2015-union-theological-seminary-announced-it-would-sell-its-air-rights-students-feel-it-sold-its-values-too/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CVQ63QYOTFGM7I5GD6US6GVEOA.png"
-                    }
-                  ]
-            },
-            {
-                "name": "HIGHLIGHTS IN COMMUNITY REPORTING",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2RKSML7U4ZDYFPC75EWFCDPO4I.png",
-                "blurb": "",
-                "articles": [
-                    {
-                      "title": "The Motto “Specializing in Saving Lives” Means More to Youth Than One Might Expect",
-                      "author": "William Yee",
-                      "link": "https://www.columbiaspectator.com/the-eye/2020/03/04/the-motto-specializing-in-saving-lives-means-more-to-youth-than-one-might-expect/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2RKSML7U4ZDYFPC75EWFCDPO4I.png"
-                    },
-                    {
-                      "title": "The Local Food Landscape Is Changing. What Does Columbia Bring To The Table?",
-                      "author": "Reina Patel",
-                      "link": "https://www.columbiaspectator.com/the-eye/2019/12/06/the-local-food-landscape-is-changing-what-does-columbia-bring-to-the-table/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JBGKQRO2WJCRJBGKFIVP2UF2NQ.gif"
-                    }
-                  ]
-            },
-            {
-                "name": "HIGHLIGHTS IN STUDENT LIFE REPORTING",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XIIMM6KFWRG6HEIYSGNEMMCBAY.jpg",
-                "blurb": "",
-                "articles": [
-                    {
-                      "title": "Student Groups Search for Space on a Crowded Campus. A Recently Open Brownstone is the Answer for One.",
-                      "author": "Teresa Lawlor",
-                      "link": "https://www.columbiaspectator.com/the-eye/2020/02/13/student-groups-search-for-space-on-a-crowded-campus-a-recently-open-brownstone-is-the-answer-for-one/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QKXLYAZWFBES5LHMRQHFSZRH3I.jpg"
-                    },
-                    {
-                      "title": "At Zoom University, Crepe-making, Photoshop Sets, and Virtual Backgrounds Keep Us Connected.",
-                      "author": "Briani Netzahuatl and Mína Wang",
-                      "link": "https://www.columbiaspectator.com/the-eye/2020/04/10/at-zoom-university-crepe-making-photoshop-sets-and-virtual-backgrounds-keep-us-connected/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/MYPTC4R7DRD3TN45YZAK3YALEI.jpg"
-                    },
-                    {
-                      "title": "Accommodated but Unsupported: Without Centralized Advocacy Network, Students With Disabilities Continue to Face Stigma",
-                      "author": "Mary Marsh",
-                      "link": "https://www.columbiaspectator.com/the-eye/2019/10/11/accommodated-but-unsupported-without-centralized-advocacy-network-students-with-disabilities-continue-to-face-stigma/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/C3N4KCVSVFBW5MOOVHSUULXPFU.jpg"
-                    },
-                    {
-                      "title": "In the Midst of a National Debate Over ‘The Box,’ Student and University Initiatives Push for Higher Ed Accessibility for Justice-Involved Individuals",
-                      "author": "Claudia Gohn",
-                      "link": "https://www.columbiaspectator.com/eye-lead/2019/12/07/in-the-midst-of-a-national-debate-over-the-box-student-and-university-initiatives-push-for-higher-ed-accessibility-for-justice-involved-individuals/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KEPLGPAQU5CXLKISFZ4NDJRBWA.jpg"
+                      "link": "https://www.columbiaspectator.com/the-eye/2021/01/27/inside-the-bargaining-zoom-two-years-in-graduate-students-still-fight-for-a-contract-with-columbia/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/C2ARMJKUFBA4PNF5AMJ6DRLBQQ.jpg"
                     }
                   ]
             }, {
-                "name": "BEST ESSAYS",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4RFRLWXHRJHD5H4NKTA3HUUVPQ.jpg",
-                "blurb": "",
+                "name": "The Year's Best Essays",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VJSBB66A3BGATFJPCAHTUOQD4Q.gif",
+                "blurb": "Isolation during the pandemic allowed many of us an opportunity to reflect and introspect in new ways. Our writers and contributors produced touching and incredible personal essays that we had the privelege of sharing.",
                 "articles": [
                     {
-                      "title": "Bring Your Own Diploma",
-                      "author": "Jordan Allyn",
-                      "link": "https://www.columbiaspectator.com/the-eye/2020/03/30/bring-your-own-diploma/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4RFRLWXHRJHD5H4NKTA3HUUVPQ.jpg"
+                      "title": "Among Them",
+                      "author": "Veena Dinavahi",
+                      "link": "https://www.columbiaspectator.com/the-eye/2021/03/25/among-them/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VVY442BGABHJ3DPDJT5U3GF2CE.png"
                     },
                     {
-                      "title": "All is Scary and Bright",
-                      "author": "AJ McDougall",
-                      "link": "https://www.columbiaspectator.com/the-eye/2020/02/14/all-is-scary-and-bright/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IKYGUMWXW5CXDF2UIYFGT5TZZU.gif"
+                      "title": "A PhD in Power",
+                      "author": "Margaret Scarborough",
+                      "link": "https://www.columbiaspectator.com/the-eye/2021/04/03/a-phd-in-power/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4525MOXOE5D75B3PR6V5TXCJ2Q.png"
                     },
                     {
-                      "title": "The Map For My Bladder",
-                      "author": "Claudia Gohn and Charlotte Li",
-                      "link": "https://www.columbiaspectator.com/the-eye/2020/02/18/the-map-for-my-bladder/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FY4EIRGP55HQPEXVWKYEHQECTA.jpg"
+                      "title": "Farewell, Historian",
+                      "author": "Jack Becker",
+                      "link": "https://www.columbiaspectator.com/the-eye/2020/10/27/farewell-historian/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XMYSDHHSA5AHPJJOTU77NLCETA.jpg"
                     },
                     {
-                      "title": "What's in a Name?",
-                      "author": "Akshiti Vats",
-                      "link": "https://www.columbiaspectator.com/the-eye/2019/10/15/whats-in-a-name/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/COLCQNHQCFDSXIIOXCAWHBNG4E.jpeg"
+                      "title": "Two Generations, One Page Apart",
+                      "author": "Megan Lunny",
+                      "link": "https://www.columbiaspectator.com/the-eye/2021/02/11/two-generations-one-page-apart/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VJSBB66A3BGATFJPCAHTUOQD4Q.gif"
                     }
                   ]
             }, {
-                "name": "HIGHLIGHTS FROM THE EAR",
+                "name": "Highlights from our podcast, "The Ear"",
                 "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QI26RSJSAFEMHN75BNKGSMIEGI.png",
                 "blurb": "",
                 "articles": [
