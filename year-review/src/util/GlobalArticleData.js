@@ -2263,207 +2263,199 @@ const data = {
         ]
     },
     "Illustrations": {
-        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/STTVVI5JGRAQNCLNFJ4HLRT2EA.gif",
+        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PVRSAJGM3VAEDNF4M4O54ZZAO4.png",
         sections: [],
-        "blurb": "Research shows that we remember images better than words. As illustrators, beyond documenting important events, we capture the personal stories and emotions tied to them. Take a look at the past year—from political campaigns to Zoom classes—through our eyes.",
-        "items": [
+        "blurb": "Visual memory draws much more than just an image — it captures an experience. As Illustrators, we build empathy between writer and reader, no matter the piece. During a year when remote learning and campus communities felt more disconnected than ever, our illustrators bridged that gap by visualizing the colors, themes, and imagery of personal experience and emotion. Whether we are covering the 2020 election, recounting details of a year on zoom, or simply finding the silver-linings of everyday life, we encourage you to think outside the box and reflect upon the past year — through our eyes. ",
+         "Illustrations_Essays": {
+            "name": "Illustrations Essays",
+            "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WWRNGQBQJRAX3OWVS6TFX7NUDU.jpg",
+            "blurb": "",
+            "articles": [
+                {
+                    "title": "Silver Linings",
+                    "author": "Spectator Illustrations Team",
+                    "link": "https://www.columbiaspectator.com/illustrations/2021/04/15/silver-linings/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/I324CT2NZVBPRE5FDAHOLD5YYE.gif"
+                },
+                {
+                    "title": "Thinking outside the Zoom box",
+                    "author": "Spectator Illustrations Team",
+                    "link": "https://www.columbiaspectator.com/multimedia/2020/12/14/thinking-outside-the-zoom-box/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7OODNYBX5VFU3MHWLKNB2VXPNE.gif"
+                },
+		    ]
+		    }
+		"items": [
             {
                 "name": "Illustrations",
                 "articles": [{
-                    "title": "The Map For My Bladder",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FY4EIRGP55HQPEXVWKYEHQECTA.jpg",
+                    "title": "One Year After Losing My Sense of Smell: A Reflection on ‘Little Women,’ Lighting my Apartment on Fire, and Selling Out",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SAQKGK5K3RC75GZASNBTLVSNAA.jpg",
                     "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2020/02/18/the-map-for-my-bladder/",
-                    "author": "Robert Hunter"
-                  },
-                  {
-                    "title": "All the world’s a stage for senior thesis directors’ livestream productions",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YVNDEXJWAFGKLK7ZXMVISQY5N4.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/04/09/all-the-worlds-a-stage-for-senior-thesis-directors-livestream-productions/",
-                    "author": "Angela Wei"
-                  },
-                  {
-                    "title": "A how-to on gift-giving from afar",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/63WMD56XIZFPBLBHOBTKFYERW4.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/spectrum/2020/04/10/a-how-to-on-gift-giving-from-afar/",
-                    "author": "Nicole Yang"
-                  },
-                  {
-                    "title": "Petition to bully anyone who disagrees with my petition",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/62S2YQKM3NAIJBAHFVG5YIMSPE.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/01/petition-to-bully-anyone-who-disagrees-with-my-petition/",
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/05/19/one-year-after-losing-my-sense-of-smell-a-reflection-on-little-women-lighting-my-apartment-on-fire-and-selling-out//",
                     "author": "Carlos Ochoa"
                   },
                   {
-                    "title": "Bi the way...",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/55Q4YJY2FFGHHOH3ICK3TQ7SCE.gif",
+                    "title": "Hyrule, Heroics, and Healing",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/H5ARDL2EJVGVBD4LZEKX5DK5OU.png",
                     "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2019/09/03/bi-the-way/",
-                    "author": "Aaron Jackson"
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/03/18/hyrule-heroics-and-healing/",
+                    "author": "Sadia Sharif"
                   },
                   {
-                    "title": "Online Classes Are Not New at Columbia—But Amid the Pandemic, They Look Different.",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4E2QOOR7JZFFLKD5RG22INWLQA.JPG",
+                    "title": "Me, TV, and COVID-19",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YILNJU34FNCKNANBRF6GTNHILI.gif",
                     "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2020/04/24/online-classes-are-not-new-at-columbiabut-amid-the-pandemic-they-look-different/",
-                    "author": "Natalie Tak"
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/03/18/me-tv-and-covid-19/",
+                    "author": "Julian Michaud"
                   },
                   {
-                    "title": "The restorative benefits of banana bread",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OIRNLNI7ANA2ZGAFA2UJXSAOK4.png",
+                    "title": "QuaranTikTok",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PB24OLNVKZDP3LQOLOMUIFV7QU.jpeg",
                     "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/02/19/the-restorative-benefits-of-banana-bread/",
-                    "author": "Brenda Huang"
-                  },
-                  {
-                    "title": "An uncomfortable faith",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SLKRYBOP4FHWVABUCFXNPNIDGU.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/section-lead/2019/09/20/an-uncomfortable-faith/",
-                    "author": "Beatrice Lintner"
-                  },
-                  {
-                    "title": "Pete Buttigieg is the old man’s millennial",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WQ3FZ6HMUVED3JHVAZNWW3YMHI.jpeg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/01/28/pete-buttigieg-is-the-old-mans-millennial/",
-                    "author": "Liz Nichols"
-                  },
-                  {
-                    "title": "Social distancing was just abstract advice for college students. Then my grandfather died.",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3VLMOFFDMFF5FOURPNS4DVNFTA.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/06/social-distancing-was-just-abstract-advice-for-college-students-then-my-grandfather-died/",
-                    "author": "Liz Evseeva"
-                  },
-                  {
-                    "title": "Don’t call me whitewashed. Not now.",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QUBVGUVW2RGWRN75ZBAZD5TAKM.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/13/dont-call-me-whitewashed-not-now/",
-                    "author": "Stephanie Koo"
-                  },
-                  {
-                    "title": "What is sex and intimacy in isolation?",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CGY46BD3QZCLPOIWPDFDRWBR3M.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/19/what-is-sex-and-intimacy-in-isolation/",
-                    "author": "Sam Wilcox"
-                  },
-                  {
-                    "title": "Man in Hungarian Pastry Shop writes MFA thesis based on you",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2IKAXOSPI5H7JDKBMKWWDGYPXE.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2019/11/06/man-in-hungarian-pastry-shop-writes-mfa-thesis-based-on-you/",
-                    "author": "Ashley Jiao"
-                  },
-                  {
-                    "title": "The cost of education",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YUAK424SNNATZPN2EHLUDOI25M.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/02/20/the-cost-of-education/",
-                    "author": "Tassneen Bashir"
-                  },
-                  {
-                    "title": "Student “absolutely positive” that girl from Zoom class is locking eyes with him",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/V6BKKZ6RRVC7JDHO5CL5FVDN4E.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/15/student-absolutely-positive-that-girl-from-zoom-class-is-locking-eyes-with-him/",
-                    "author": "Carlos Ochoa"
-                  },
-                  {
-                    "title": "Party of One",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Y42TF6UKUBCC7NNMOSACXNDQAY.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2020/03/05/party-of-one/",
-                    "author": "Tina Wang"
-                  },
-                  {
-                    "title": "Alternative milks: a review",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J5GKJ62EHVGLBCAKL74DI2S3PQ.jpeg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/spectrum/2019/10/13/alternative-milks-a-review/",
-                    "author": "Ray Banke"
-                  },
-                  {
-                    "title": "Foreign film watchlist for quarantine",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/F3DXHHOODFGOTB3IJ74ZZ7JWBY.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/spectrum/2020/04/27/foreign-film-watchlist-for-quarantine/",
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/02/11/quarantiktok/",
                     "author": "Liza Evseeva"
                   },
                   {
-                    "title": "In 2015, Union Theological Seminary Announced It Would Sell Its Air Rights. Students Feel It Sold Its Values Too.",
-                    "front_image": "https://spectator-static-assets.s3.amazonaws.com/uts/jts-illo.3857229b.png",
+                    "title": "For Athletes, Career Networks Unlock a World of Opportunity in Finance and Consulting",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3VK2J6NNKRGJRDF3PNHCAULE6I.jpg",
                     "description": "",
-                    "link": "https://www.columbiaspectator.com/eye-lead/2019/11/26/in-2015-union-theological-seminary-announced-it-would-sell-its-air-rights-students-feel-it-sold-its-values-too/",
-                    "author": "Robert Hunter"
+                    "link": "https://www.columbiaspectator.com/the-eye/2020/11/14/for-athletes-career-networks-unlock-a-world-of-opportunity-in-finance-and-consulting/",
+                    "author": "Yingjie Wang"
                   },
                   {
-                    "title": "Inside the Organization Mobilizing Students Across 1,500 Living Rooms to Support Hospital Workers",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R57FSHN3C5BH3LN6TXSMCGWTOM.jpg",
+                    "title": "Ivy League students are not who you think they are, Mr. President.",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/H7X3XEGLD5ANTEH2NLYN7WSYVE.jpg",
                     "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2020/04/20/inside-the-organization-mobilizing-graduate-students-across-1500-living-rooms-to-support-hospital-workers/",
-                    "author": "Ellie Soh"
+                    "link": "https://www.columbiaspectator.com/opinion/2021/03/25/ivy-league-students-are-not-who-you-think-they-are-mr-president/",
+                    "author": "Melody Lu"
                   },
                   {
-                    "title": "Dear Asian members of the Columbia community",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YLAS4KJWPNATHF5AHTJ7BOBQ7Q.jpeg",
+                    "title": "Orientation 2020",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/R7CDAFZ57FE2DAHQISZB2FD7UI.gif",
                     "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/10/dear-chinese-students-from-your-muslim-peer/",
-                    "author": "Sam Wilcox"
-                  },
-                  {
-                    "title": "Don’t throw out my legos",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PVSRKSO35BHPVM2LS6G7MIODY4.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/03/dont-throw-out-my-legos/",
-                    "author": "Ashley Jiao"
-                  },
-                  {
-                    "title": "Defining a New Normal",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CG4DVUML6ZEF7K3LHYTOWKEGPE.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2020/03/24/defining-a-new-normal/",
-                    "author": "Ray Banke"
-                  },
-                  {
-                    "title": "How Do You Clap Back at a Middle-Aged Family Member Who Posts Hate About You on Instagram?",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QDKH6MXZ3RFIPAEJ5A72IKSJEI.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2019/10/30/how-do-you-clap-back-at-a-middle-aged-family-member-who-posts-hate-about-you-on-instagram/",
-                    "author": "Tina Wang"
-                  },
-                  {
-                    "title": "Without Warning",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FTACYVPX2FCVXALQDRMPCZT3GM.jpeg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2019/11/12/without-warning/",
+                    "link": "https://orientation.columbiadailyspectator.com//",
                     "author": "Brenda Huang"
                   },
                   {
-                    "title": "Ramadan is usually a time for community. Isolation makes this difficult but not impossible.",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QOWQMSN7FNE3LLDRVWOY6MAW4Y.jpeg",
+                    "title": "Why Metternich matters",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IGD5JFY5V5FCPOGO7UP3PXZD6M.GIF",
                     "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/20/ramadan-is-usually-a-time-for-community-isolation-makes-this-difficult-but-not-impossible/",
-                    "author": "Stephanie Koo"
+                    "link": "https://www.columbiaspectator.com/opinion/2021/02/23/why-metternich-matters/",
+                    "author": "Natalie Tak"
                   },
                   {
-                    "title": "The Columbia Minecraft Club: Building a Community, Block by Block",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UILKI2OV6BBFHI4O5AJLMNZIHY.gif",
+                    "title": "The Columbia Climate School must engage the public",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TEF64VLLVFH4FATOC33VEQBXZQ.png",
                     "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2019/10/24/the-columbia-minecraft-club-building-a-community-block-by-block/",
-                    "author": "Tassneen Bashir"
+                    "link": "https://www.columbiaspectator.com/opinion/2021/02/19/the-columbia-climate-school-must-engage-the-public//",
+                    "author": "Ryan Newberger"
                   },
                   {
-                    "title": "On setting boundaries",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZBETGBVF2BHDXDIAZ3S5XQXLMQ.gif",
+                    "title": "40 Years of Women At Columbia",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FD64BPCFGNGHJDXHNNRDC6T7BU.png",
                     "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/03/04/on-setting-boundaries/",
+                    "link": "https://womenshistorymonth2021.columbiadailyspectator.com/#/",
+                    "author": "Tina Wang"
+                  },
+                  {
+                    "title": "If you could turn on your video.",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GKR6TRJKMBCTNIGM3PTBJ66MD4.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/10/09/if-you-could-turn-on-your-video/",
+                    "author": "Nicole Yang"
+                  },
+                  {
+                    "title": "Ask us how we feel, not what we think",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PN4C7KH4ORHY3D6UKBQVQ4KIZM.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2021/03/30/ask-us-how-we-feel-not-what-we-think/",
+                    "author": "Raymond Banke"
+                  },
+                  {
+                    "title": "Record Reverie: The Resurgence of Vinyl Culture in the 21st Century",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IVT23DF54BETNJZD6E43UQ75QM.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/04/12/record-reverie-the-resurgence-of-vinyl-culture-in-the-21st-century/",
+                    "author": "Ashley Jiao"
+                  },
+                  {
+                    "title": "From Bears to Lions: The creation of the Columbia-Barnard Athletic Consortium",
+                    "front_image": " https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AAD2GIS5FRAFJAWTYILCRUGFUE.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/sports/2021/03/22/from-bears-to-lions-the-creation-of-the-columbia-barnard-athletic-consortium/",
+                    "author": "Carlos Ochoa"
+                  },
+                  {
+                    "title": "Jazz: Universal Language or Community Divider?",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TQN2SBFCWZDELD57RSZAFE5TYA.jpeg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/02/16/jazz-universal-language-or-community-divider/",
+                    "author": "Noelle Hunter"
+                  },
+                  {
+                    "title": "Beyond the silver screen: a look at the vibrant history of Harlem’s Black film scene",
+                    "front_image": " https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EIWNF5ELAVESTHB2BQHKPM7GPU.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/18/beyond-the-silver-screen-a-look-at-the-vibrant-history-of-harlems-black-film-scene//",
+                    "author": "Isai Soto"
+                  },
+                  {
+                    "title": "Virtual date ideas for a COVID-19-safe Valentine’s Day",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZWITPLX27VB77DPCSJGJ6RGHBU.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/spectrum/2021/02/08/virtual-date-ideas-for-a-covid-19-safe-valentines-day/",
+                    "author": "Ellie Soh"
+                  },
+                  {
+                    "title": "An easy guide to academic help resources",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UORJZFJCPREYZFTYPQJJ77Y6NU.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/spectrum/2020/11/16/an-easy-guide-to-academic-help-resources/",
+                    "author": "Angela Wei"
+                  },
+                  {
+                    "title": "Reject populism. Save New York City.",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CJYNIIFOQNHP3BCHLVFYCQKXDM.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/opinion/2020/11/18/reject-populism-save-new-york-city/",
+                    "author": "Tina Wang"
+                  },
+                  {
+                    "title": "Green is the new black: Columbia community members push for sustainable fashion",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PGQLDKQQE5FXTGL4UIC22KKESM.png,
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/12/03/green-is-the-new-black-columbia-community-members-push-for-sustainable-fashion/",
                     "author": "Aaron Jackson"
+                  },
+                  {
+                    "title": "Alarmed, but Not Surprised: Debunking the Shock of Anti-Asian Racism",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BQ5ZP5S4HNHIVHWZNY2KTP3FGY.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/04/01/alarmed-but-not-surprised-debunking-the-shock-of-anti-asian-racism/?fbclid=IwAR0G85txhPGFxuYm6TFI10TszQHu2eHgtH5GgqslfMs9bb9gw1k6K8FFgMQ",
+                    "author": "Brenda Huang"
+                  },
+                  {
+                    "title": "What outdoor activity should you do with the extra hour of sunlight?",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/V2LOLW6G4ZENXBIH6NT7EKVG5A.jpg",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/spectrum/2021/03/21/quiz-what-outdoor-activity-should-you-do-with-the-extra-hour-of-sunlight/",
+                    "author": "Ashley Jiao"
+                  },
+                  {
+                    "title": "In a ‘Lighter Equals Faster’ Culture, Runners Must Combat a Culture of Disordered Eating",
+                    "front_image": " https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EBNTW5T7JFHHHFME4GD5DBO6Y4.gif",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/02/10/in-a-lighter-equals-faster-culture-runners-must-combat-a-culture-of-disordered-eating//",
+                    "author": "Ray Banke"
+                  },
+        
+                  {
+                    "title": "Among Them",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VVY442BGABHJ3DPDJT5U3GF2CE.png",
+                    "description": "",
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/03/25/among-them/",
+                    "author": "Magan Chin"
                   }]
             }
         ]
