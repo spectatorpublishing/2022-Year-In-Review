@@ -6,7 +6,11 @@ const data = {
             "name": "News",
             "link": "#news"
         },
-        {
+        {	
+	    "name": "Opinion" 
+	    "link": "#opinion"
+	{, 
+	{
             "name": "Spectrum",
             "link": "#spectrum"
         },
@@ -162,6 +166,46 @@ const data = {
                         "author": "Princeton Huang / Staff Photographer"
                       }
                 ]
+	    }, 
+            {
+                "name": "Opinion",
+                "articles": [
+                    {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FPKMOEAYMFFNHICMV4QPGJVSJI.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FPKMOEAYMFFNHICMV4QPGJVSJI.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/opinion/2021/04/08/the-test-optional-revolution-what-does-it-mean-for-the-ivy-leagues-next-generations/",
+                        "author": "Princeton Huang / Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MBHU67XWMJGL5AN25TPE3ET44E.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MBHU67XWMJGL5AN25TPE3ET44E.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/opinion/2021/04/09/columbias-zero-tolerance-pandemic-policies-arent-working/",
+                        "author": "Princeton Huang/ Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YM6WMKZCD5A6TGF2PNSL2I4TKQ.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YM6WMKZCD5A6TGF2PNSL2I4TKQ.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/opinion/2020/10/19/the-mailman-school-of-public-health-prioritizes-its-fiscal-health-over-its-students-health/",
+                        "author": "Rommel Nunez / Staff Photographer"
+ 		      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UIOKTATV5BB3POF6L3QHNRAPYY.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UIOKTATV5BB3POF6L3QHNRAPYY.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/main/2021/03/15/a-letter-from-your-ta-on-the-upcoming-strike/",
+                        "author": "Princeton Huang/ Staff Photographer"  
+		      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UWLS4O3IIJGNNPVKPNZVVGPM5M.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UWLS4O3IIJGNNPVKPNZVVGPM5M.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/main/2021/03/31/reflecting-on-the-pandemic-prompts-opportunity-for-personal-growth/",
+                        "author": "Princeton Huang / Staff Photographer"
+                      }
+                ]
             },
             {
                 "name": "Spectrum",
@@ -291,6 +335,13 @@ const data = {
                         "description": "Tap dance is a loud art form, making it a discipline that is unfit for Zoom dance classes. Read more ",
                         "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/17/burden-of-reviving-tap-courses-falls-on-students-leaving-the-future-of-the-program-uncertain/",
                         "author": "Beatrice Shlansky / Senior Staff Photographer" 
+		      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MOVBQP7TC5F2ZBU64BF22GTSWI.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MOVBQP7TC5F2ZBU64BF22GTSWI.jpg",
+                        "description": "Carlos Sánchez-Tatá is the founder and president of the Useless Art Society. Read more ",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/04/02/the-useless-art-society-fosters-community-and-creative-expression-in-bimonthly-zoom-meetings/",
+                        "author": "Rommel Nunez / Staff Photographer"
                       }
                 ]
             }
