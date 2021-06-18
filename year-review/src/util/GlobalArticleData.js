@@ -1018,7 +1018,7 @@ const data = {
                     "title": "Musicians reflect on financial struggles without live performance venues, inadequate government response",
                     "author": "Maryam Rahaman",
                     "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/11/05/musicians-reflect-on-financial-struggles-without-live-performance-venues-inadequate-government-response/",
-                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VG4SHR2IOJAWDFPJ3X6NXZL5BE.jpg"
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N4C3VQJGKVHEJKLCYRRNQVWDLA.jpg"
                   }
                 ]
           }, 
@@ -2579,7 +2579,7 @@ const data = {
         "blurb": "Visual memory draws much more than just an image — it captures an experience. As Illustrators, we build empathy between writer and reader, no matter the piece. During a year when remote learning and campus communities felt more disconnected than ever, our illustrators bridged that gap by visualizing the colors, themes, and imagery of personal experience and emotion. Whether we are covering the 2020 election, recounting details of a year on zoom, or simply finding the silver-linings of everyday life, we encourage you to think outside the box and reflect upon the past year — through our eyes. ",
          "Illustrations_Essays": {
             "name": "Illustrations Essays",
-            "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WWRNGQBQJRAX3OWVS6TFX7NUDU.jpg",
+            "img": "https://backtocampus.s3.amazonaws.com/low_steps.jpg",
             "blurb": "",
             "articles": [
                 {
@@ -2657,7 +2657,7 @@ const data = {
                   },
                   {
                     "title": "The Columbia Climate School must engage the public",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TEF64VLLVFH4FATOC33VEQBXZQ.png",
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MEGFSABN7JEAPNGZSE4HWJG42Q.png",
                     "description": "",
                     "link": "https://www.columbiaspectator.com/opinion/2021/02/19/the-columbia-climate-school-must-engage-the-public//",
                     "author": "Ryan Newberger"

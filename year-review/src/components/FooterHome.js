@@ -94,7 +94,7 @@ const footerHome = (props) =>{
             <Line>Arsalaan Ansari, <Role>Former Head of Engineering</Role></Line> 
           </Column>
           <Column>
-              <RoleHeading>2020 - 21 Edition By</RoleHeading>
+              <RoleHeading>2020-21 Edition By</RoleHeading>
               <Line>Erin McNulty, <Role>Head of Engineering</Role></Line> 
               <Line>Cindy Espinosa, <Role>Head of Product</Role></Line> 
           </Column>        
@@ -126,10 +126,9 @@ const footerHome = (props) =>{
             <Line>Arsalaan Ansari, <Role>Former Head of Engineering</Role></Line> 
           </Column>
           <Column>
-              <RoleHeading>2019-20 Edition By</RoleHeading>
-              <Line>Carl Dobrović, <Role>Head of Engineering</Role></Line> 
-              <Line>David Wang, <Role>Head of Product</Role></Line> 
-              <Line>Raeedah Wahid, <Role>Graphics Editor</Role></Line> 
+          <RoleHeading>2020-21 Edition By</RoleHeading>
+              <Line>Erin McNulty, <Role>Head of Engineering</Role></Line> 
+              <Line>Cindy Espinosa, <Role>Head of Product</Role></Line> 
           </Column>        
         </Names>
         </Tablet>
@@ -200,17 +199,15 @@ const footerHome = (props) =>{
             </Column>
           </Row>
 
-          <RoleHeading>2019-20 Edition By</RoleHeading>
+          <RoleHeading>2020-21 Edition By</RoleHeading>
             <Row continuation={true} >
               <Column>
-              <Line>Carl Dobrović,</Line> 
+              <Line>Erin McNulty,</Line> 
               <Role>Head of Engineering</Role>
               </Column>
               <Column>
-              <Line>David Wang,</Line> 
+              <Line>Cindy Espinosa,</Line> 
               <Role>Head of Product</Role>
-              <Line>Raeedah Wahid,</Line> 
-              <Role>Graphics Editor</Role>
               </Column>
           </Row>
         </Names>
