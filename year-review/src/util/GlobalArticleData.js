@@ -298,7 +298,7 @@ const data = {
         ]
     },
     "News": {
-        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GIWJDYYJPZBPDHSZROKJWFRNHE",
+        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AOWRM5UAMBBAVC6QFBMVPMZCWY.jpg",
         sections: [{
                 "name": "Student Workers' Strike",
                 "link": "#GWC-UAW-goes-on-strike-after-years-of-failed-negotiations"
@@ -331,7 +331,7 @@ const data = {
         "blurb": "In March 2020, the COVID-19 pandemic radically upended our normal way of life. As the pandemic exacerbated long-standing systemic inequities, it challenged us to question what “normal” is. Throughout this unprecedented time, Spectator’s news reporters have strived to uncover deeper insights into these inequities both within and beyond Columbia. Now, as the pandemic’s end is in sight, you can find some of our most important stories from the past year, which cover everything from the graduate student worker strike to disparities in COVID-19 vaccine distribution.",
         "items": [{
                 "name": "GWC-UAW goes on strike after years of failed negotiations",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/S2XK2EVJYJEMFEYTQB4I6VPGTE.jpg",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LM2KPFMJSZB2PB5O6PATKJ5PGA.jpgg",
                 "blurb": "Fair wages, third party arbitration in cases of discrimination and harassment, child-care benefits, and other demands were driving forces behind the student workers’ strike this spring. Across the University, thousands of workers halted their labor and went on strike while negotiations continued with the University for the GWC-UAW’s first labor contract. With a tentative agreement rejected in April, resignations from all 10 members of the bargaining committee, and the union’s upcoming elections, it remains to be seen whether Columbia’s student workers will reach a contract with the University. ",
                 "articles": [{
                         "title": "After two years of unsuccessful negotiations, student-workers are officially on strike",
@@ -371,7 +371,7 @@ const data = {
             },
             {
                 "name": "Health & COVID-19",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6XKFOQJYZRCD7AT4LY7FFCWP6E.jpg",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JTP5QXPFL5BINFQJLL2YDEAIXQ.jpg",
                 "blurb": "Over the course of the year, high spikes of COVID-19 in New York City forced residents to take significant safety precautions amid a pandemic that disproportionately impacted the community of West Harlem. While Columbia was criticized for COVID-19 policies that many felt put communities at risk, residents struggled with issues of local distrust of healthcare and difficulties with getting the coronavirus vaccine, whose arrival promised the relief that residents had been awaiting.",
                 "articles": [{
                         "title": "Columbia invites 1,800 students back to campus despite social distancing violations and rising cases  ",
@@ -437,7 +437,7 @@ const data = {
             },
             {
                 "name": "Administration",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7UHGEBGJ5DLPFIJSAPCKSBT3I.jpg",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AP6KA3DJJJCTRMPYTBQEBBZWDQ.jpg",
                 "blurb": "Every day, the University’s power to dramatically impact the lives of its students and workers sparks new discourse––and necessitates regular coverage of the occurrences, controversies, and hidden revelations of Columbia.",
                 "articles": [{
                         "title": "175 women alleged sexual abuse against a Columbia gynecologist. Five years after his conviction, they’re still fighting to be heard. ", 
@@ -485,7 +485,7 @@ const data = {
             },
             {
                 "name": "West Harlem",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6XKFOQJYZRCD7AT4LY7FFCWP6E.jpg",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FZGXXWP6GREQNC4XJXCLEKU2LE.jpg",
                 "blurb": "The tenuous relationship between Columbia and West Harlem, the community it occupies, became even more complicated as COVID-19 raised questions of how Columbia would continue its affairs. This sparked conversations within West Harlem and the Columbia community about the risks of further COVID-19 spread and increased gentrification within the community. But beyond the question of Columbia’s impact on West Harlem, our reporters examined a wide variety of preexisting issues that became further exacerbated and complicated by the pandemic––from policing to environmental risks to education.",
                 "articles": [{
                         "title": "What happened to NYPD officers who were charged with misconduct? They were promoted or paid more",
@@ -569,7 +569,7 @@ const data = {
             },
             {
                 "name": "Student Life",
-                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7UHGEBGJ5DLPFIJSAPCKSBT3I.jpg",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SHPAZ2WVBJFRZJTVODWZRXB3VM.jpg",
                 "blurb": "Between first-years who had yet to step foot on College Walk and seniors who found their final spring unusually quiet, the remote school year was bittersweet. Some found solace in the communities and organizing work they had begun prior to the pandemic. Meanwhile, others found that in addition to a global pandemic, they were grappling with the implications of national conversations around race within Columbia’s own campus.",
                 "articles": [{
                         "title": "After a year of national reckoning, Black students continue organizing for racial justice ", 
