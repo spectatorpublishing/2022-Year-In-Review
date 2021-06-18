@@ -335,6 +335,13 @@ const data = {
                         "description": "Tap dance is a loud art form, making it a discipline that is unfit for Zoom dance classes. Read more ",
                         "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/17/burden-of-reviving-tap-courses-falls-on-students-leaving-the-future-of-the-program-uncertain/",
                         "author": "Beatrice Shlansky / Senior Staff Photographer" 
+		      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MOVBQP7TC5F2ZBU64BF22GTSWI.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MOVBQP7TC5F2ZBU64BF22GTSWI.jpg",
+                        "description": "Carlos Sánchez-Tatá is the founder and president of the Useless Art Society. Read more ",
+                        "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/04/02/the-useless-art-society-fosters-community-and-creative-expression-in-bimonthly-zoom-meetings/",
+                        "author": "Rommel Nunez / Staff Photographer"
                       }
                 ]
             }
