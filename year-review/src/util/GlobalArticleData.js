@@ -382,7 +382,7 @@ const data = {
         "blurb": "In March 2020, the COVID-19 pandemic radically upended our normal way of life. As the pandemic exacerbated long-standing systemic inequities, it challenged us to question what “normal” is. Throughout this unprecedented time, Spectator’s news reporters have strived to uncover deeper insights into these inequities both within and beyond Columbia. Now, as the pandemic’s end is in sight, you can find some of our most important stories from the past year, which cover everything from the graduate student worker strike to disparities in COVID-19 vaccine distribution.",
         "items": [{
                 "name": "GWC-UAW goes on strike after years of failed negotiations",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LM2KPFMJSZB2PB5O6PATKJ5PGA.jpgg",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LM2KPFMJSZB2PB5O6PATKJ5PGA.jpg",
                 "blurb": "Fair wages, third party arbitration in cases of discrimination and harassment, child-care benefits, and other demands were driving forces behind the student workers’ strike this spring. Across the University, thousands of workers halted their labor and went on strike while negotiations continued with the University for the GWC-UAW’s first labor contract. With a tentative agreement rejected in April, resignations from all 10 members of the bargaining committee, and the union’s upcoming elections, it remains to be seen whether Columbia’s student workers will reach a contract with the University. ",
                 "articles": [{
                         "title": "After two years of unsuccessful negotiations, student-workers are officially on strike",
