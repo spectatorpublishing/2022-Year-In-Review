@@ -303,148 +303,317 @@ const data = {
     "News": {
         "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GIWJDYYJPZBPDHSZROKJWFRNHE",
         sections: [{
+                "name": "Student Workers' Strike",
+                "link": "#GWC-UAW-goes-on-strike-after-years-of-failed-negotiations"
+            },
+            {
+                "name": "Health & Covid-19",
+                "link": "#health-covid-19"
+            },
+            {
+                "name": "Admissions",
+                "link": "#Admissions"
+            },
+            {
                 "name": "Administration",
-                "link": "#administration"
+                "link": "#Administration"
+	 },
+            {
+                "name": "West Harlem",
+                "link": "#West-Harlem"
             },
             {
-                "name": "Tessa Majors",
-                "link": "#tessa-majors"
-            },
+                "name": "Local Politics",
+                "link": "#Local-Politics"
+              },
             {
-                "name": "Businesses",
-                "link": "#businesses"
-            },
-            {
-                "name": "Barnard",
-                "link": "#barnard"
+                "name": "Student Life",
+                "link": "#Student-Life"
             },
         ],
-        "blurb": "Universities are far more than just places for intellectual enrichment. They hold the power and influence to enact consequential change. Students, investors, staff, and administrators all have perspectives—some conflicting—of how Columbia should act as an Ivy League institution, multi-billion-dollar corporation, and ground-breaking research university. Spectator’s news team has compiled coverage of some of the top storylines that have driven discourse on and around campus. Below, find some of the most talked-about and top investigative stories from the past year:",
+        "blurb": "In March 2020, the COVID-19 pandemic radically upended our normal way of life. As the pandemic exacerbated long-standing systemic inequities, it challenged us to question what “normal” is. Throughout this unprecedented time, Spectator’s news reporters have strived to uncover deeper insights into these inequities both within and beyond Columbia. Now, as the pandemic’s end is in sight, you can find some of our most important stories from the past year, which cover everything from the graduate student worker strike to disparities in COVID-19 vaccine distribution.",
         "items": [{
-                "name": "As higher-ed grapples with budget shortfalls, Columbia shapes the role of an educational institution",
+                "name": "GWC-UAW goes on strike after years of failed negotiations",
                 "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/S2XK2EVJYJEMFEYTQB4I6VPGTE.jpg",
-                "blurb": "As a university, Columbia must consider the ethics of offering academic programs with little job marketability. As a corporation, it must grapple with the challenges of receiving donations from those who create the same problems that Columbia’s research seeks to solve. As an institution spreading into neighboring communities in Morningside Heights and Manhattanville, it must understand its obligation to the people who have been displaced for the sake of an academic haven. And as Columbia is all of these things and more, there are millions of affiliates that contribute to the University community—but who deserves compensation for their labor?",
+                "blurb": "Fair wages, third party arbitration in cases of discrimination and harassment, child-care benefits, and other demands were driving forces behind the student workers’ strike this spring. Across the University, thousands of workers halted their labor and went on strike while negotiations continued with the University for the GWC-UAW’s first labor contract. With a tentative agreement rejected in April, resignations from all 10 members of the bargaining committee, and the union’s upcoming elections, it remains to be seen whether Columbia’s student workers will reach a contract with the University. ",
                 "articles": [{
-                        "title": "Bollinger announces task forces on Columbia’s role in climate solutions, pressing global problems",
-                        "author": "Teddy Ajluni", 
-                        "link": "https://www.columbiaspectator.com/news/2019/09/19/bollinger-announces-two-new-task-forces-to-address-climate-change-pressing-human-problems-on-a-global-scale/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Z4744EH7TRFHHAXWMTEIPBQ53M.jpg"
+                        "title": "After two years of unsuccessful negotiations, student-workers are officially on strike",
+                        "author": "Talia Abrahamson", 
+                        "link": "https://www.columbiaspectator.com/news/2021/03/16/after-two-years-of-unsuccessful-negotiations-student-workers-are-officially-on-strike/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Y77LXDFJWBGDVGRF3LL2HNPMQQ.jpg"
                     },
                     {
-                        "title": "‘The next chapter’: Despite history of alumni apathy, Bollinger-era initiatives drive newfound culture of engagement", 
-                        "author": "Griffin Jones",
-                        "link": "https://www.columbiaspectator.com/news/2019/10/31/the-next-chapter-despite-history-of-alumni-apathy-bollinger-era-initiatives-drive-newfound-culture-of-engagement/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7VNT25JGZFB6JPBGB5UGTZPTZQ.jpg"
+                        "title": "Columbia still refuses to give the GWC-UAW neutral, third-party arbitration. Is this indicative of a deeper institutional issue?", 
+                        "author": "Irie Sentner",
+                        "link": "https://www.columbiaspectator.com/news/2021/03/25/columbia-still-refuses-to-give-the-gwc-uaw-neutral-third-party-arbitration-is-this-indicative-of-a-deeper-institutional-issue/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VDKW7SNIBNGFHBFWPTRDFPCFWI.jpg"
                     },
                     {
-                        "title": "Donors have not given to Columbia’s climate research. Columbia says a climate school will change that.",
-                        "author": "Griffin Jones",
-                        "link": "https://www.columbiaspectator.com/news/2020/02/06/donors-havent-given-to-columbias-climate-research-columbia-says-the-climate-school-will-change-that/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/AZLD52PLYBHUPILEC77OMZ64WY.jpg"
+                        "title": "The pandemic has heightened the stakes for graduate student union negotiations across the country",
+                        "author": "Talia Abrahamson",
+                        "link": "https://www.columbiaspectator.com/news/2021/03/31/the-pandemic-has-heightened-the-stakes-for-graduate-student-union-negotiations-across-the-country/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FWQZB7LYNZEIZP6K7WUQNLRKXA.jpg"
                     },
                     {
-                        "title": "The Ivy League has over $135 billion in endowment. Not a single university has pledged to fully divest from fossil fuels.",
-                        "author": "Valeria Escobar",
-                        "link": "https://www.columbiaspectator.com/news/2020/02/17/the-ivy-league-has-over-135-billion-in-endowment-not-a-single-university-has-pledged-to-fully-divest-from-fossil-fuels/", 
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/EFRSWT3AGRELHDBCBDXX3632DA.jpg"
+                        "title": "Union members advocate for childcare benefits as the pandemic continues to disproportionately affect female faculty ",
+                        "author": "Ashley Yung",
+                        "link": "https://www.columbiaspectator.com/news/2021/03/17/union-members-advocate-for-childcare-benefits-as-the-pandemic-continues-to-disproportionately-affect-female-faculty/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Y3DAGUG3IBGG7FMRYIYZN6C7SA.jpg"
                     }, {
-                        "title":  "‘An ethical quandary’: In face of national humanities decline, English department reckons with future of graduate students",
-	                    "author": "Serena White",
-	                    "link": "https://www.columbiaspectator.com/news/2019/10/31/an-ethical-quandary-in-face-of-national-humanities-decline-english-department-reckons-with-future-of-graduate-students/",
-	                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PGEYWUWWKFEJLNCLJSPX2QGY4Q.jpg"    
+                        "title":  "Concerns over learning loss, grades mount in third week of graduate workers strike",
+	                    "author": "Zachary Schermele",
+	                    "link": "https://www.columbiaspectator.com/news/2021/04/02/concerns-over-learning-loss-grades-mount-in-third-week-of-graduate-workers-strike/",
+	                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SRKXPHBBJRC7NJ57OZAY6OGWEI.jpg"    
                     }, {
-                        "title": "Graduate Workers Union votes to authorize strike with overwhelming support", 
-                        "author": "Valeria Escobar",
-                        "link": "https://www.columbiaspectator.com/news/2020/03/03/graduate-workers-union-holds-vote-to-authorize-strike-as-negotiation-deadline-approaches/", 
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/N5Y2CXVHW5BV5FG3IGIE7PZZVI.jpg"
+                        "title": "Dissatisfied with contract negotiations and bargaining committee, GWC-UAW student-workers vote to reject tentative agreement", 
+                        "author": "Talia Abrahamson",
+                        "link": "https://www.columbiaspectator.com/news/2021/05/02/dissatisfied-with-contract-negotiations-and-bargaining-committee-gwc-uaw-student-workers-vote-to-reject-tentative-agreement/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CUV3X3E2AFCP5PEQ5M7GRH7EFM.jpg"
                     }
                 ]
             },
             {
-                "name": "University role in public safety called into question following death of Tessa Majors",
+                "name": "Health & COVID-19",
                 "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6XKFOQJYZRCD7AT4LY7FFCWP6E.jpg",
-                "blurb": "On Dec. 11, the University sent out a Clery Crime Alert that soon made national news. Tessa Majors, a Barnard first-year, was killed during an attempted robbery in Morningside Park. In the days following, students and University administrators mourned Majors’ death, calling for more safety precautions at the park. Conversations surrounding racism arose as the community faced the reality that many did not know how to navigate the park. And as many grieved the incident, three youth suspects were charged for the crime, raising additional concerns over criminal justice.",
+                "blurb": "Over the course of the year, high spikes of COVID-19 in New York City forced residents to take significant safety precautions amid a pandemic that disproportionately impacted the community of West Harlem. While Columbia was criticized for COVID-19 policies that many felt put communities at risk, residents struggled with issues of local distrust of healthcare and difficulties with getting the coronavirus vaccine, whose arrival promised the relief that residents had been awaiting.",
                 "articles": [{
-                        "title": "First-year Barnard student remembered for her energy and passion",
-                        "author": "Stephanie Lai and Sofia Partida",
-                        "link": "https://www.columbiaspectator.com/news/2019/12/13/first-year-barnard-student-remembered-for-her-energy-and-passion/", 
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6XKFOQJYZRCD7AT4LY7FFCWP6E.jpg" 
+                        "title": "Columbia invites 1,800 students back to campus despite social distancing violations and rising cases  ",
+                        "author": "Talia Abrahamson",
+                        "link": "https://www.columbiaspectator.com/news/2021/01/21/columbia-invites-1800-students-back-to-campus-despite-social-distancing-violations-and-rising-cases/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2GDOYBTXOVFBHO4TOM3Y2WYRXY.jpg" 
                     },
                     {
-                        "title": "Community members see long-awaited safety improvements to Morningside Park in aftermath of Majors’ death ", 
-                        "author": "Stephanie Lai",
-                        "link": "https://www.columbiaspectator.com/news/2020/01/30/community-members-see-long-awaited-safety-improvements-to-morningside-park-in-aftermath-of-majors-death/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/5JZKFWDW7ZGFHFKP3G7WTXCQQY"
+                        "title": "West Harlem residents were promised an equitable vaccination plan. There are no vaccination sites in their neighborhood.", 
+                        "author": "Faith Andrews and Lucy Brenner",
+                        "link": "https://www.columbiaspectator.com/news/2021/02/02/west-harlem-residents-were-promised-an-equitable-vaccination-plan-there-are-no-vaccination-sites-in-their-neighborhood/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FZGXXWP6GREQNC4XJXCLEKU2LE.jpg"
                     },
                     {
-                        "title": "As Majors’ case awaits trial, experts say public urgency has led to unfair treatment of youth suspects", 
-	                    "author": "Destiny Glover",
-	                    "link": "https://www.columbiaspectator.com/news/2020/03/25/as-majors-case-awaits-trial-experts-say-public-urgency-has-led-to-unfair-treatment-of-youth-suspects/",
-	                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/36ERH5GGV5BYDPNFPQ4SVRWQXU.jpg"
+                        "title": "West Harlem residents’ distrust of hospitals is symptomatic of institutional disregard", 
+	                    "author": "Faith Andrews",
+	                    "link": "https://www.columbiaspectator.com/news/2021/02/05/west-harlem-residents-distrust-of-hospitals-is-symptomatic-of-institutional-disregard/",
+	                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VNXICIHRHNEPDDHQXGYBNGGLYI.jpg"
                     },
                     {
-                        "title": "Morningside Park is essential to Harlem’s identity. How has the University misunderstood resident challenges in the public space?", 
-	                    "author": "Stephanie Lai",
-	                    "link": "https://www.columbiaspectator.com/news/2020/01/22/morningside-park-is-essential-to-harlems-identity-how-has-the-university-misunderstood-resident-challenges-in-the-public-space/",
-	                    "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/L42EE7U75FCWPHZVD3DJDTSX2Q.jpg"
+                        "title": "For senior residents seeking to get vaccinated, appointments are only accessible with the help of community members ", 
+	                    "author": "Faith Andrews and Claire Hunt",
+	                    "link": "https://www.columbiaspectator.com/news/2021/04/06/for-senior-residents-seeking-to-get-vaccinated-appointments-are-only-accessible-with-the-help-of-community-members/",
+	                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LSXCJ7QUGNFMXBRXX24RW2FKSA.jpg"
                     },
                     {
-                        "title": "Activists rented an empty storefront to address youth violence in West Harlem. Then it closed down.", 
-                        "author": "Stephanie Lai",
-                        "link": "https://www.columbiaspectator.com/news/2020/02/04/activists-rented-an-empty-storefront-to-address-youth-violence-in-west-harlem-then-it-closed-down/", 
+                        "title": "Unsatisfied with the University’s COVID-19 testing policies, many hope that the vaccine will address what the institution did not", 
+                        "author": "Stella Pagkas",
+                        "link": "https://www.columbiaspectator.com/news/2021/04/14/unsatisfied-with-the-universitys-covid-19-testing-policies-many-hope-that-the-vaccine-will-address-what-the-institution-did-not/", 
                         "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R7R4NHFE3RGKPONNZMP2EOVIPU.jpg"
                     },
                 ]
             },
             {
-                "name": "Businesses confront the effects of Columbia’s expansion",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ADJ37JSOSBCNBCQ53HYZ2AI7E4.jpg",
-                "blurb": "Ongoing construction for the buildings for Columbia Business School on the Manhattanville campus has left local businesses in a dire state. Two businesses closed down, and others report revenue declines of 30 percent. Over the years, the University has come under scrutiny for turning a blind eye to the community, and while it has contractual obligations, many community leaders say they are not enough.",
+                "name": "Admissions",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UYXODICYXVBLHMMTUUOJATDIRM.jpg",
+                "blurb": "The uncertainty of the pandemic admissions landscape culminated this spring in an unprecedented spike in applications to elite universities across the nation and falling admission rates. Columbia saw a 51 percent spike in applications and admitted only 3.7 percent of students to the Class of 2025. However, because the pandemic has amplified inequalities in admissions processes, it remains to be seen if the larger pool of undergraduate applicants will create a more diverse first-year class this fall.",
                 "articles": [{
-                        "title" : "Upscaled: The cost of Columbia construction for struggling 12th Avenue businesses",
-                        "author": "Clay Anderson and Stephanie Lai",
-                        "link": "https://www.columbiaspectator.com/news/2020/03/13/upscaled-the-cost-of-columbia-construction-for-struggling-12th-avenue-businesses/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ADJ37JSOSBCNBCQ53HYZ2AI7E4.jpg"
+                        "title" : "Columbia may look whiter and wealthier next year. Here’s why.",
+                        "author": "Carmen Sherlock,
+                        "link": "https://www.columbiaspectator.com/news/2020/11/30/columbia-may-look-whiter-and-wealthier-next-year-heres-why/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/P6D3SIPFYNF65HAFXE2FXB6JSM.jpg"
                     },
                     {
-                        "title": "Manhattanville campus plans to make 12th Avenue pedestrian-friendly, but will businesses survive until then?", 
-                        "author": "Clay Anderson",
-                        "link": "https://www.columbiaspectator.com/news/2020/01/29/manhattanville-campus-plans-to-make-12th-avenue-pedestrian-friendly-but-will-businesses-survive-until-then/", 
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KSGQRAR6AZHUHHFDR2FE4MSROI.jpg"
+                        "title": "Columbia acceptance rate drops to record low 3.7 percent after 51 percent spike in applications", 
+                        "author": "Irie Sentner",
+                        "link": "https://www.columbiaspectator.com/news/2021/04/07/columbia-acceptance-rate-drops-to-record-low-37-percent-after-51-percent-spike-in-applications/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/M255JLAUF5BBPN7NLZU7IBESEY.jpg"
                     },
                     {
-                        "title": "Stacking up: Where do Columbia’s contributions to the community rank among its Ivy peers?",
-                        "author": "Stephanie Lai",
-                        "link":"https://www.columbiaspectator.com/news/2019/10/24/stacking-up-where-do-columbias-contributions-to-the-community-rank-among-its-ivy-peers/", 
-                        "img":"https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FWPTABR7QJGDLN7426RQYVYBEU.jpg"
+                        "title": "Over 60,000 students applied to Columbia this year. Will the 51 percent spike decrease the achievement gap?   ",
+                        "author": "Irie Sentner",
+                        "link":"https://www.columbiaspectator.com/news/2021/03/12/over-60000-students-applied-to-columbia-this-year-will-the-51-percent-spike-decrease-the-achievement-gap/", 
+                        "img":"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UYXODICYXVBLHMMTUUOJATDIRM.jpg"
+	           },
+                    {
+                        "title": "Barnard sees record number of applicants for class of 2025 ",
+                        "author": "Zachary Schermele",
+                        "link":"https://www.columbiaspectator.com/news/2021/04/01/barnard-sees-record-number-of-applicants-for-class-of-2025/", 
+                        "img":"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BMSFKGOSQJCRZGLLXTP2SKB2VE.jpg"
                     }
                 ]
             },
             {
-                "name": "Barnard faces heat from workers’ unions, Public Safety",
+                "name": "Administration",
                 "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7UHGEBGJ5DLPFIJSAPCKSBT3I.jpg",
-                "blurb": "When six Barnard Public Safety officers physically restrained Alexander McNab, CC ’19, against a counter in the Milstein Center for failing to show identification at the Barnard gates last spring, students and administrators alike called for a thorough review of the college’s campus safety policies. As it makes changes to these policies, however, the college has faced criticism from employees who say that they don’t see a need for the same changes. Meanwhile, years of back-and-forth involving unannounced policy changes, contract violations, and skyrocketing legal fees have worsened tensions between Barnard and the union that represents over 200 employees of the college—including public safety, dining, and housekeeping.",
+                "blurb": "Every day, the University’s power to dramatically impact the lives of its students and workers sparks new discourse––and necessitates regular coverage of the occurrences, controversies, and hidden revelations of Columbia.",
                 "articles": [{
-                        "title": "“They don’t follow the rules”: Inside Barnard’s broken relationship with its employee union", 
-                        "author": "Juliette Verlaque",
-                        "link": "https://www.columbiaspectator.com/news/2019/10/17/they-dont-follow-the-rules-inside-barnards-broken-relationship-with-its-employee-union/",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7UHGEBGJ5DLPFIJSAPCKSBT3I.jpg"
+                        "title": "175 women alleged sexual abuse against a Columbia gynecologist. Five years after his conviction, they’re still fighting to be heard. ", 
+                        "author": "Kathy Fang and Elizabeth Karpen",
+                        "link": "https://www.columbiaspectator.com/news/2021/03/26/175-women-alleged-sexual-abuse-against-a-columbia-gynecologist-five-years-after-his-conviction-theyre-still-fighting-to-be-heard/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DKLQKFAXQZDNFBGI4RVMFMTB7Y.jpg"
                     },
                     {
-                        "title": "Barnard Public Safety lacks consistent and clear guidelines for officer conduct, external investigation finds",  
-                        "author": "Karen Xia", 
-                        "link": "https://www.columbiaspectator.com/news/2019/08/15/barnard-public-safety-policies-lack-consistency-clarity-and-guidelines-on-use-of-physical-force-according-to-extensive-external-investigation/", 
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OAP5KY7RONBWXKVHSXOM74MFJY.jpg"
+                        "title": "Amid calls for Public Safety reform, how does the University respond? ",  
+                        "author": "Drew Letellier", 
+                        "link": "https://www.columbiaspectator.com/news/2021/02/11/amid-calls-for-public-safety-reform-how-does-the-university-respond/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SR6QIXFNMBFQ5MFCEUBDPUIEZI.jpg"
                     },
                     {
-                        "title": "What should campus safety look like? As Barnard revises Public Safety policies, officers question college’s approach",   
-                        "author": "Juliette Verlaque",
-                        "link": "https://www.columbiaspectator.com/news/2019/11/21/what-should-campus-safety-look-like-as-barnard-revises-public-safety-policies-officers-question-colleges-approach/ ",
-                        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QK3WAFF2ZREUVCJNYIALFEQWNE.jpg"
+                        "title": "Vulnerable faculty members find research and professional growth stunted as remote learning continues",   
+                        "author": "Faith Andrews",
+                        "link": "https://www.columbiaspectator.com/news/2020/10/28/vulnerable-faculty-members-find-research-and-professional-growth-stunted-as-remote-learning-continues/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DORLV5BS3BBVBP3XT2G4AY2HWE.jpg"
+	            },
+                    {
+                        "title": "Thousands sign onto Columbia tuition strike as student organizers push for voice in university budgets",  
+                        "author": "Talia Abrahamson", 
+                        "link": "https://www.columbiaspectator.com/news/2020/12/14/thousands-sign-onto-columbia-tuition-strike-as-student-organizers-push-for-voice-in-university-budgets/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GUYAQPMFTFF5JE7YASO7EYLFVI.jpg"
+                    },
+                    {
+                        "title": "After a contentious term at Columbia, former EVP of University Life Suzanne Goldberg to oversee national Title IX policy ",   
+                        "author": "Kathy Fang and Faith Onyechere",
+                        "link": "https://www.columbiaspectator.com/news/2021/02/02/after-a-contentious-term-at-columbia-former-evp-of-university-life-suzanne-goldberg-to-oversee-national-title-ix-policy/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HJEPPMPP4FGXVD4I3USFEEL5JU"
+                    },
+                    {
+                        "title": "Columbia ends 14-year divestment in Sudan, cites investment as a force for stabilization",  
+                        "author": "Dia Gill", 
+                        "link": "https://www.columbiaspectator.com/main/2021/02/05/columbia-ends-14-year-divestment-in-sudan-cites-investment-as-a-force-for-stabilization/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2EPCKTOBMBCKNHVER74RHS7FPU.jpg"
+                    },
+                    {
+                        "title": "Facing fall registration and diploma holds, students vote to end Columbia tuition strike",   
+                        "author": "Talia Abrahamson",
+                        "link": "https://www.columbiaspectator.com/news/2021/04/06/facing-fall-registration-and-diploma-holds-students-vote-to-end-columbia-tuition-strike/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3UDGIX5FORAVTD56FDMYGUFXLA.jpg"
+	 }
+                ]
+            },
+            {
+                "name": "West Harlem",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6XKFOQJYZRCD7AT4LY7FFCWP6E.jpg",
+                "blurb": "The tenuous relationship between Columbia and West Harlem, the community it occupies, became even more complicated as COVID-19 raised questions of how Columbia would continue its affairs. This sparked conversations within West Harlem and the Columbia community about the risks of further COVID-19 spread and increased gentrification within the community. But beyond the question of Columbia’s impact on West Harlem, our reporters examined a wide variety of preexisting issues that became further exacerbated and complicated by the pandemic––from policing to environmental risks to education.",
+                "articles": [{
+                        "title": "What happened to NYPD officers who were charged with misconduct? They were promoted or paid more",
+                        "author": "Stephanie Lai and Raeedah Wahid",
+                        "link": "https://www.columbiaspectator.com/news/2020/09/22/what-happened-to-nypd-officers-who-were-charged-with-misconduct-they-were-promoted-or-paid-more/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YAZJTZS4ZBDBDM243HZXN462E4" 
+                    },
+                    {
+                        "title": "Columbia canceled housing contracts, so 14,000 students moved into the city. What does this mean for the local housing market? ", 
+                        "author": "Abby Melbourne and Stephanie Lai",
+                        "link": "https://www.columbiaspectator.com/news/2020/11/11/columbia-canceled-housing-contracts-so-14000-students-moved-into-the-city-what-does-this-mean-for-the-local-housing-market/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/J7USDTWSWFBUJGEV6G6OEL3N2Q.JPG"
+                    },
+                    {
+                        "title": "As COVID-19 cases rise, so does food insecurity among the homeless. Can food providers and shelters keep up? ", 
+	                    "author": "Maya Mitrasinovic and Elizabeth Commisso",
+	                    "link": "https://www.columbiaspectator.com/news/2020/11/30/as-covid-19-cases-rise-so-does-food-insecurity-among-the-homeless-can-food-providers-and-shelters-keep-up/",
+	                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/O4PAJA6A6FAZ3IIE3NLPJ7MOWM.jpg"
+                    },
+                    {
+                        "title": "More students are returning to on-campus housing amid a citywide COVID-19 spike. Local residents have concerns", 
+	                    "author": "Katherine Nessel",
+	                    "link": "https://www.columbiaspectator.com/news/2021/01/19/more-students-are-returning-to-on-campus-housing-amid-a-citywide-covid-19-spike-local-residents-have-concerns/",
+	                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GNHR6DZXLJCQZAHIDDJAGAJVW4.jpg"
+                    },
+                    {
+                        "title": "NYCHA maintenance issues have skyrocketed since the pandemic. How can residents hold NYCHA accountable? ", 
+                        "author": "Katherine Nessel",
+                        "link": "https://www.columbiaspectator.com/news/2021/02/06/nycha-maintenance-issues-have-skyrocketed-since-the-pandemic-how-can-residents-hold-nycha-accountable/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EIPHBF4FMBH7HJGCJGFBOSUZGA.jpg"
+	            },
+                    {
+                        "title": "Housing, natural disasters, and streetscape: the various fronts of environmental racism in Harlem and throughout the city ", 
+                        "author": "Katherine Nessel and Faith Andrews ",
+                        "link": "https://www.columbiaspectator.com/news/2021/02/16/housing-natural-disasters-and-streetscape-the-various-fronts-of-environmental-racism-in-harlem-and-throughout-the-city/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GNJDZVFI3RAWXC5OEVJV3HE7GU.jpg"
+	            },
+                    {
+                        "title": "As public school enrollment plummets citywide, hard-hit West Harlem schools work to support students", 
+                        "author": "Maya Mitrasinovic and Alice Tecotzky",
+                        "link": "https://www.columbiaspectator.com/news/2021/03/12/as-public-school-enrollment-plummets-citywide-hard-hit-west-harlem-schools-work-to-support-students/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PCFQMW67PNCSTJ3KGWZHVIL5ZI.jpg"
+                    },
+                ]
+            },
+            {
+                "name": "Local Politics",
+                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WRPOO5WVZNCZ5F7D3XG42UDJLY.jpg",
+                "blurb": "Amid the pandemic and a subsequent economic downturn, the crowded 2021 mayoral and City Council races have arguably become all the more pressing, as candidates have battled to prove they were the right fit to guide New York City to recovery. For West Harlem residents, who have been hit especially hard by both the health risks of COVID-19 and the recession, the question of who will represent their district in City Council––and who will serve New York City as mayor––has high-stake implications. Spectator took a look at many of the political hopefuls, including Columbia Law School alum Andrew Yang, who launched his campaign less than a mile away from Columbia at Morningside Park.",
+                "articles": [{
+                        "title" : "Hotly contested city council race draws deep-pocket support from housing industry",
+                        "author": "Lucy Brenner, Ivana Moore, and Carmen Sherlock",
+                        "link": "https://www.columbiaspectator.com/news/2020/11/17/hotly-contested-city-council-race-draws-deep-pocket-support-from-housing-industry/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/27T76RPOZNEFFH6LAOQJBB2U6U.png"
+                    },
+                    {
+                        "title": "Local candidates join student organizers, back largest tuition strike in history at Sunday rally", 
+                        "author": "Abby Melbourne, Faith Andrews, and Maya Mitrasinovic",
+                        "link": "https://www.columbiaspectator.com/news/2021/01/18/local-candidates-join-student-organizers-back-largest-tuition-strike-in-history-at-sunday-rally/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FMENGH7PNBC63E6PXVDYSR6UWI.jpg"
+                    },
+                    {
+                        "title": "Andrew Yang, Law '99, kicks off mayoral campaign in Morningside Park ",
+                        "author": "Katherine Nessel",
+                        "link":"https://www.columbiaspectator.com/news/2021/01/15/andrew-yang-law-99-kicks-off-mayoral-campaign-in-morningside-park/", 
+                        "img":"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WRPOO5WVZNCZ5F7D3XG42UDJLY.jpg"
+	            },
+                    {
+                        "title": "Spectator's guide to the New York City mayoral race", 
+                        "author": "Aili Hou and Katherine Nessel",
+                        "link": "https://www.columbiaspectator.com/news/2021/03/31/spectators-guide-to-the-new-york-city-mayoral-race/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GB54WFJJZJA4LBL275X34ALAMY.jpg"
+                    },
+                    {
+                        "title": "Spectator's Guide to the City Council District 7 Race",
+                        "author": "Alice Tecotzky",
+                        "link":"https://www.columbiaspectator.com/news/2021/04/09/spectators-guide-to-the-city-council-district-7-race/", 
+                        "img":"https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MQZ3XZJCTRETJE7KCQESJOODFQ.jpg"
                     }
                 ]
             },
+            {
+                "name": "Student Life",
+                "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/P7UHGEBGJ5DLPFIJSAPCKSBT3I.jpg",
+                "blurb": "Between first-years who had yet to step foot on College Walk and seniors who found their final spring unusually quiet, the remote school year was bittersweet. Some found solace in the communities and organizing work they had begun prior to the pandemic. Meanwhile, others found that in addition to a global pandemic, they were grappling with the implications of national conversations around race within Columbia’s own campus.",
+                "articles": [{
+                        "title": "After a year of national reckoning, Black students continue organizing for racial justice ", 
+                        "author": "Talia Abrahamson",
+                        "link": "https://www.columbiaspectator.com/news/2021/02/08/after-a-year-of-national-reckoning-black-students-continue-organizing-for-racial-justice/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KMG2HBNEKJGENICVS4EJFRY5Z4.gif"
+                    },
+                    {
+                        "title": "On campus and across the globe, the class of 2024 tries to connect with Columbia",  
+                        "author": "Faith Onyechere", 
+                        "link": "https://www.columbiaspectator.com/news/2021/01/19/on-campus-and-across-the-globe-the-class-of-2024-tries-to-connect-with-columbia/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GJXTL7BULNCQRL3B6O2PF3M3YE.jpg"
+                    },
+                    {
+                        "title": "Virtual Commencement is made bittersweet with the pandemic coming under control",   
+                        "author": "Talia Abrahamson",
+                        "link": "https://www.columbiaspectator.com/news/2021/04/29/virtual-commencement-is-made-bittersweet-with-the-pandemic-coming-under-control/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DVTQQRVHMVEGHCO7RWXPOYP2NM.jpg"
+	            },
+                    {
+                        "title": "Students file EOAA complaint after human rights professor uses N-word more than 10 times during class on hate speech",  
+                        "author": "Dia Gill", 
+                        "link": "https://www.columbiaspectator.com/news/2021/04/15/students-file-eoaa-complaint-after-human-rights-professor-uses-n-word-more-than-10-times-during-class-on-hate-speech/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5MZVVYQHTBERPOC7TVV2T64AOA.jpg"
+                    },
+                    {
+                        "title": "Mobilized African Diaspora demands Columbia confront its anti-Black history, gives administrators 48 hours to respond ",   
+                        "author": "Dia Gill",
+                        "link": "https://www.columbiaspectator.com/news/2020/08/31/student-group-mobilized-african-diaspora-calls-on-university-to-stop-supporting-nypd-confront-anti-black-history/",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/S2XK2EVJYJEMFEYTQB4I6VPGTE.jpg"
+                    },
+                    {
+                        "title": "Atlanta mass shooting and surge in hate crimes leave Asian students grieving and reexamining anti-Asian past    ",  
+                        "author": "Ashley Yung", 
+                        "link": "https://www.columbiaspectator.com/news/2021/03/25/atlanta-mass-shooting-and-surge-in-hate-crimes-leave-asian-students-grieving-and-reexamining-anti-asian-past/", 
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SHPAZ2WVBJFRZJTVODWZRXB3VM.jpg"
+                    
+                ]
+            },		     
         ]
+		    
     },
     "Eye": {
         "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/75QIDJYJU5G7BMCBEWZ7P3EOB4.jpg",
