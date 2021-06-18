@@ -154,8 +154,8 @@ class SpectrumSlider extends Component{
 		return (
 			<ColumnWrapper>
 				<Contain translateValue={this.state.index*(-25)}> {grid}</Contain>
-				{leftArrow}
-				{rightArrow}
+				{this.props.data.length > 4 && leftArrow}
+				{this.props.data.length > 4 && rightArrow}
 			</ColumnWrapper>		
 
 		);

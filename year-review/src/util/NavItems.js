@@ -1,9 +1,5 @@
 export const NavItems = [
   {
-    "name": "COVID-19",
-    "link": "/covid-19"
-  },
-  {
     "name": "News",
     "link": "/news"
   },

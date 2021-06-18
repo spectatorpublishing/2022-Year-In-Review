@@ -177,6 +177,7 @@ class ImageBoxSlider extends Component {
 	}
 
 	render(){
+		console.log(this.props)
 		let boxes = this.props.data.map ( (data,i) => 
 			<Article title= {data.title} author={data.author} 
 				onClick = {() => this.props.handleClick(i)} url={data.link}

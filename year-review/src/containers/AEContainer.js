@@ -5,20 +5,29 @@ import GenericPanelLayout from './GenericPanelLayout';
 import PageIntro from '../components/PageIntro';
 import EditorLetter from '../components/EditorLetter';
 
-const letter = "Dear readers,\
-\n\nWhy does art matter to you?\
-\n\nAs I’m writing this letter from self-isolation at home in Chicago, I’m finding that art plays an integral role in our lives now more than ever. When we were on campus, art connected us to our Columbia community, our broader community in West Harlem, our electrifying city, and people across the globe. Now, as we reinvent our routines amid a devastating global pandemic, art reminds us that beauty and innovation can be found in unexpected (virtual) places.\
-\n\nAs journalists, our goal is always to tap into something broader than a single story. From analyzing how Columbians practice sustainability in fashion to reporting on immersive art exhibits that grapple with the effects of climate change, we showed how art has a role to play in protecting our planet. If that’s not a universal story, then I don’t know what is.\
-\n\nFrom paintings to plays to films, art is all about the representation of something—a story, a feeling, an identity. Art has also long been characterized by a dire lack of representation of many groups of people, including women, people of color, and queer people. Through our coverage, Arts & Entertainment aimed to confront the troubling legacy of exclusion in the art world. We looked critically at our stages and screens, in our art galleries and Core Curriculum required readings. We also looked behind the scenes to shed light on who gets to be a gatekeeper and to explore how we can push for equity.\
-\n\nWhile Arts & Entertainment had previously covered local restaurants’ comings and goings, we strove this year to situate our Food & Drink coverage within a cultural context. From exploring Little Senegal to covering how local restaurants are coping amid the pandemic, we’ve hopefully given our readers a lot more to chew on than just food, although we encourage you to eat up.\
-\n\nIf you needed convincing, we hope our coverage this year has shown you why the arts matter. If you were already convinced, we hope we’ve provided a place for you to learn about all the ways that art challenges us to imagine a better world, and how we can use art to connect with each other even when we’re apart from our community in the extraordinary sleepless city that we call home.";
+const letter = `Dear readers,
+
+Over the past year, the confines of art have been broken down and tossed out the window. Could anyone have imagined that Columbia’s dance groups would spend hours editing together footage of dancers scattered across the globe? That tickets to a Broadway show would become a virtual pass into a Zoom theater production? That chat boxes would replace clapping and shouting during concerts?
+
+Art is creative expression. Art is adaptability. Art is passion. Art is, I guess, a bunch of little Zoom squares.
+
+Although many students never stepped foot on campus last year, the arts blossomed. While some took a hiatus in preparation for the return to in-person instruction, most groups worked around the obvious challenge and created shows, concerts, exhibitions, and films from their laptops. While only a fraction of students lived on campus this year, arts groups worked through the isolation and came together to connect the Columbia community. Many students took this time to record albums, launch fashion brands, start video blogs, and create literary publications. Others transformed their living rooms into dance studios, bedrooms into art labs, and dorm kitchens into gourmet facilities. The arts are not dead, and they will never die.
+
+Arts & Entertainment documented many of these stories and gave readers an opportunity to learn about and engage with the arts on and around campus. Writers have been hard at work profiling emerging artists and providing in-depth coverage of student-led productions. Beyond these local topics, Arts & Entertainment took this time to investigate and question systemic issues within the broader arts community, looking to shed light on problems that the pandemic and racial unrest exacerbated.
+
+Through long-form stories, Arts & Entertainment examined gender inequity in the film industry, Columbia’s role in the development of hip-hop, and the evolving Core Curriculum. Our writers highlighted stories of women, people of color, and LGBTQ people who have historically lacked a voice in the arts world. In addition, we covered issues of climate change, sexual harassment, and mental health in the arts, exploring how we as journalists and artists can push for equity.
+
+Moreover, Arts & Entertainment analyzed the University’s relationship to the surrounding area by investigating issues such as food gentrification, income and resource disparity, and efforts to protect neighborhood culture. We expanded coverage into Harlem by exploring food insecurity, art and its role in preserving history, and fashion as an expression of identity. Through archival work, writers dug up secrets of the past that have had profound impacts on local communities, especially marginalized groups who have very rarely received media attention.
+
+Someone had asked me at the beginning of the year how an arts section would even exist if there were no arts to cover. I told them that this was the best time to dig deeper and tell stories that revealed why the arts matter, especially when in-person performances halted. The arts ultimately became a means through which artists, from behind their laptops, could connect with each other and discover themselves.
+`;
 
 class AEContainer extends Component {
   render() {
     return (
       <React.Fragment>
         <PageIntro title="A&E" description={this.props.data.blurb} img_src={this.props.data.img}/>
-        <EditorLetter letter={letter} author="Abby Rooney" role="Arts & Entertainment Editor"/>
+        <EditorLetter letter={letter} author="Noah Sheidlower" role="Arts & Entertainment Editor"/>
         <ScrollingNavBar menuItems={this.props.data.sections}>
             {this.props.data.items.map((data, i) => 
               <GenericPanelLayout key={i} data = {this.props.data.items[i]} />)}

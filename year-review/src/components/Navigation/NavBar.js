@@ -27,14 +27,14 @@ let TransparentContainer = styled(NavContainer)`
 `
 
 let LogoContainer = styled.div`
-  width: 20%;
+  width: 15%;
 `
 
 let MenuContainer = styled.div`
   align-items: center;
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 80%;
 `
 
 let MenuRow = styled.div`
@@ -99,6 +99,10 @@ let MenuLink = styled(NavLink)`
   &.navLinkActive {
     color: ${props => props.theme.blue};
   }
+
+  h5 {
+    font-size: 1rem;
+  }
 `
 
 let MenuScrollLink = styled(NavHashLink)`
@@ -125,6 +129,10 @@ let MenuScrollLink = styled(NavHashLink)`
 
   &.navLinkActive {
     color: ${props => props.theme.blue};
+  }
+
+  h5 {
+    font-size: 1rem;
   }
 `
 
@@ -200,7 +208,7 @@ let MobileItem = styled.h4`
 `
 
 let CrownWrapper = styled.a`
-  width: 20%;
+  width: 15%;
   height: 48px;
   display: flex;
   justify-content: center;

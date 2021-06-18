@@ -160,10 +160,7 @@ const data = {
                         "description": "In April, Columbia settled for $13 million in a class-action lawsuit over alleged breaches in fiduciary duty regarding the management of its employee retirement plans.Read More ",
                         "link": "https://www.columbiaspectator.com/news/2021/06/01/columbia-settles-for-13-million-in-class-action-lawsuit-over-unnecessarily-expensive-and-underperforming-employee-retirement-plans/",
                         "author": "Princeton Huang / Staff Photographer"
-                      },
-                      {
-                        
-                      
+                      }
                 ]
             },
             {
@@ -414,7 +411,7 @@ const data = {
                 "blurb": "The uncertainty of the pandemic admissions landscape culminated this spring in an unprecedented spike in applications to elite universities across the nation and falling admission rates. Columbia saw a 51 percent spike in applications and admitted only 3.7 percent of students to the Class of 2025. However, because the pandemic has amplified inequalities in admissions processes, it remains to be seen if the larger pool of undergraduate applicants will create a more diverse first-year class this fall.",
                 "articles": [{
                         "title" : "Columbia may look whiter and wealthier next year. Here’s why.",
-                        "author": "Carmen Sherlock,
+                        "author": "Carmen Sherlock",
                         "link": "https://www.columbiaspectator.com/news/2020/11/30/columbia-may-look-whiter-and-wealthier-next-year-heres-why/",
                         "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/P6D3SIPFYNF65HAFXE2FXB6JSM.jpg"
                     },
@@ -609,11 +606,10 @@ const data = {
                         "author": "Ashley Yung", 
                         "link": "https://www.columbiaspectator.com/news/2021/03/25/atlanta-mass-shooting-and-surge-in-hate-crimes-leave-asian-students-grieving-and-reexamining-anti-asian-past/", 
                         "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SHPAZ2WVBJFRZJTVODWZRXB3VM.jpg"
-                    
+                    }
                 ]
             },		     
         ]
-		    
     },
     "Eye": {
         "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3TPQE452RZGYJJP57NYT33YTDQ.jpeg",
@@ -746,7 +742,7 @@ const data = {
                     }
                   ]
             }, {
-                "name": "Highlights from our podcast, "The Ear"",
+                "name": `Highlights from our podcast, "The Ear"`,
                 "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QI26RSJSAFEMHN75BNKGSMIEGI.png",
                 "blurb": "",
                 "articles": [
@@ -779,403 +775,787 @@ const data = {
         ]
     },
     "A&E": {
-        "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7YQAUCXS7BFHBBQZNURY7PNW7A.jpg",
-        sections: [{
-                "name": "Virtual Art",
-                "link": "#virtual-art"
-            },
-            {
-                "name": "Bacchanal",
-                "link": "#bacchanal"
-            },
-            {
-                "name": "Climate Change",
-                "link": "#climate-change"
-            },
-            {
-                "name": "Gender Equity",
-                "link": "#gender-equity"
-            },
-            {
-                "name": "Exclusion",
-                "link": "#exclusion"
-            }, 
-            {
-                "name": "Culture & Cuisine",
-                "link": "#culture-cuisine"
-            }
-        ],
-        "blurb": "Arts & Entertainment strives to analyze and investigate Columbia’s arts scene to hold it accountable to being the best it can be. We provide a space to critically discuss the arts at Columbia and aim to promote engagement with the arts by showing every reader why the arts should matter to them.",
-        "items": [{
-                "name": "Virtual art is a silver lining of social distancing",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AKYVZ4W2D5CSZEO4Y4GXD4SBRI.jpg",
-                "blurb": "In lieu of crowded theaters, art galleries, and dance studios, Columbia artists found innovative ways to create and share art despite social distancing. Visual arts senior thesis students reimagined how art is exhibited in a digital space. The show went on for senior thesis students in the theater department, who adapted their productions for an exhilarating livestream format. And Columbia dancers took advantage of a slew of online resources that made New York’s elite dance scene more accessible than ever.",
-                "articles": [
-                    {
-                      "title": "All the world’s a stage for senior thesis directors’ livestream productions",
-                      "author": "Abby Rooney",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/04/09/all-the-worlds-a-stage-for-senior-thesis-directors-livestream-productions/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YVNDEXJWAFGKLK7ZXMVISQY5N4.jpg"
-                    },
-                    {
-                      "title": "“Virtual movers and groovers” at Columbia and Barnard are making dance accessible at home",
-                      "author": "Lizzie Green",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/04/20/virtual-movers-and-groovers-at-columbia-and-barnard-are-making-dance-accessible-at-home/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EDK2PUXXCRCOXEKKAM73MAUJTQ.jpg"
-                    },
-                    {
-                      "title": "Livestream senior thesis productions are theater at its most intimate and inventive",
-                      "author": "Sophie Craig",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/05/04/livestream-senior-thesis-productions-are-theater-at-its-most-intimate-and-inventive/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AKYVZ4W2D5CSZEO4Y4GXD4SBRI.jpg"
-                    },
-                    {
-                      "title": "Visual arts seniors merge digital and physical art in first-ever online thesis exhibition/",
-                      "author": "Olivia Doyle and Margaret Tilley",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/05/12/visual-arts-seniors-merge-digital-and-physical-art-in-first-ever-online-thesis-exhibition/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BO4F355FORHGVIWIBHZLWTTEYM.jpg"
-                    }
-                  ]
-            },
-            {
-                "name": "Bacchanal moves first off-campus, then to Instagram Live",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2N4EXYXPRFABFNK3EVMHQBPO7E.jpg",
-                "blurb": "Last year, the Bacchanal committee announced that the annual concert was canceled as part of a prank on the student body. This year, of course, Bacchanal was actually canceled in light of the COVID-19 outbreak. The concert would have taken place off campus at Terminal 5, a decision which sparked debate about the role of Bacchanal in cultivating community on campus. While we didn’t get to see whether the move would have been a success, student musicians rallied on Instagram Live to create a digital substitute for the spring tradition.",
-                "articles": [
-                    {
-                      "title": "Bacchanal spring concert to be hosted off campus at Terminal 5",
-                      "author": "Isabela Espadas Barros Leal and Nigel Telman",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/12/06/bacchanal-spring-concert-to-be-hosted-off-campus-at-terminal-5/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/KDPVJZAB4FDZ3GSJA7SXFBKV6Y.jpg"
-                    },
-                    {
-                      "title": "Community event or spring concert? Bacchanal’s changing identity",
-                      "author": "Nigel Telman",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/01/23/community-event-or-spring-concert-bacchanals-changing-identity/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2N4EXYXPRFABFNK3EVMHQBPO7E.jpg"
-                    },
-                    {
-                      "title": "Who funds Bacchanal? A look at how the money moves",
-                      "author": "Nigel Telman",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/19/who-funds-bacchanal-a-look-at-how-the-money-moves/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/M5Y43XS4PNDUDAP6CSA4F6LDX4.png"
-                    },
-                    {
-                      "title": "With most anticipated headliner in recent years, Bacchanal is officially canceled",
-                      "author": "Nigel Telman",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/03/13/with-most-anticipated-headliner-in-recent-years-bacchanal-is-officially-canceled/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2N4EXYXPRFABFNK3EVMHQBPO7E.jpg"
-                    },
-                    {
-                      "title": "Bacchanal was canceled. Students still found a campus community—in Instagram Live comments.",
-                      "author": "Bella Bromberg and Stephen Crespo",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/04/08/bacchanal-was-cancelled-students-still-found-a-campus-communityin-instagram-live-comments/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/62UEAF4LPBFC7HCRNCX4TZGFQE.jpg"
-                    }
-                  ]
-            },
-            {
-                "name": "Artists take action to protect the planet",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2DIAWM46NVGN7MIFZIT3OX4HSQ.jpg",
-                "blurb": "As the climate crisis demands ever more urgent action, artists have used their works to illustrate the emergency and foster appreciation for Earth’s natural resources. Daan Roosegaarde’s immersive light installation WATERLICHT captured the power of water and cautioned against the dangers of rising sea levels. At the LeRoy Neiman Gallery, Yann Toma’s exhibit “Capitalocene” called on corporations to take responsibility for protecting the environment. As the world around us moves toward fast fashion, we looked at how Columbia students and faculty are challenging the industry and practicing sustainability in keeping with the University’s climate action plan.",
-                "articles": [
-                    {
-                      "title": "The slow death of fast fashion on Columbia’s campus",
-                      "author": "Katie Levine",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/01/30/the-slow-death-of-fast-fashion-on-columbias-campus/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YBU77NWHNRGOREWKLHZ4GAH6CM.jpg"
-                    },
-                    {
-                      "title": "Ripples of change: Climate Change Theatre Action brings environmental awareness through theater",
-                      "author": "Sophia Santos",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/11/21/ripples-of-change-climate-change-theatre-action-brings-environmental-awareness-through-theater/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/77YLRHJIJNBZLPUQFPFBUB52JE.jpg"
-                    },
-                    {
-                      "title": "LeRoy Neiman Gallery’s “Capitalocene” exhibition addresses the climate crisis with hope",
-                      "author": "Margaret Tilley",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/11/26/leroy-neiman-gallerys-capitalocene-exhibition-addresses-the-climate-crisis-with-hope/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/MGRI7EOYDZDAHI2GQGFJL43KME.jpg"
-                    },
-                    {
-                      "title": "At WATERLICHT, visual arts and environmental activism converge",
-                      "author": "Esterah Brown",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/10/24/at-waterlicht-visual-arts-and-environmental-activism-converge/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2DIAWM46NVGN7MIFZIT3OX4HSQ.jpg"
-                    }
-                  ]
-            },
-            {
-                "name": "Artists work toward gender equity on stage, on screen, and behind the scenes",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GXCAYYSN5RBHXFXW5TFNURHQJA.jpg",
-                "blurb": "From film to dance and literature, artists challenged us to work toward gender equity. At this year’s Athena Film Festival, stories of unseen women were made stunningly visible on screen. The Butler Banner emblazoned the names of eight female authors above Plato’s and Aristotle’s on Butler Library’s façade. Behind the scenes, artists continued to fight for equity. Women who spoke out against Harvey Weinstein and Russell Simmons discussed the trajectory of the #MeToo movement in the film and music industries. On the opening night of “West Side Story,” protesters rallied outside a Broadway theater to show support for Alexandra Waterbury, GS ’21, who accused one of the show’s lead actors of sexual harassment. And at “Black, Here, and Queer,” student artists brought intersectional identities to the forefront of the conversation.",
-                "articles": [
-                    {
-                      "title": "Athena Film Festival highlights stories of unseen women across the world",
-                      "author": "Isabela Espadas Barros Leal, Sarah Robertson, Sophia Santos, and Fonda Shen",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/03/02/athena-film-festival-highlights-stories-of-unseen-women-across-the-world/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Q53KANQVOZFJJH2LQMTYR6CPVY.jpg"
-                    },
-                    {
-                      "title": "Harvey Weinstein, Russell Simmons accusers speak on breaking the silence at Athena Film Festival",
-                      "author": "Abby Rooney",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/03/03/harvey-weinstein-russell-simmons-accusers-speak-on-breaking-the-silence-at-athena-film-festival/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UKPDL45P4BEPPP4VZVVWSKP5TI.jpg"
-                    },
-                    {
-                      "title": "Beyond the Butler Banner: Book club illuminates the legacies of eight female authors through conversation",
-                      "author": "Olivia Doyle and Margaret Tilley",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/10/07/beyond-the-butler-banner-book-club-illuminates-the-legacies-of-eight-female-authors-through-conversation/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/MGRZQ7INEVFVJJDF6FWKVM4NW4.jpg"
-                    },
-                    {
-                      "title": "Dozens protest “West Side Story” amid GS student’s sexual harassment complaint against actor",
-                      "author": "Katie Levine and Nigel Telman",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/21/protesters-rally-outside-broadways-west-side-story-in-support-of-general-studies-student-alexandra-waterbury-amid-sexual-harassment-case/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GXCAYYSN5RBHXFXW5TFNURHQJA.jpg"
-                    },
-                    {
-                      "title": "Choreographer Mari Meade re-examines gender norms in the pas de deux with Columbia Repertory Ballet",
-                      "author": "Lizzie Green",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/03/11/choreographer-mari-meade-re-examines-gender-norms-in-the-pas-de-deux-with-columbia-repertory-ballet/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UZ3VYP4MYZFTRALRW7EZJFE4ZQ.jpg"
-                    },
-                    {
-                      "title": "“Black, Here, and Queer” empowers black queer, trans, and non-binary artists through an intimate display of visuals and performances",
-                      "author": "Isabela Espadas Barros Leal and Anya Raj",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/10/28/black-here-and-queer-empowers-black-queer-trans-and-non-binary-artists-through-an-intimate-display-of-visuals-and-performances/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OGTH5U2UWBDNZPYOHN7M6GYHCM.jpg"
-                    }
-                  ]
-            },
-            {
-                "name": "Across the board, artists reckon with history, confront a legacy of exclusion",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/T6QTHVFJ6NC4XJO5EEAD3JCCPA.jpg",
-                "blurb": "This year, renowned artists came to campus to start conversations around diversity and inclusion. Pulitzer Prize-winning playwright Suzan-Lori Parks, whose play “Father Comes Home From the Wars” was added to the Literature Humanities syllabus on the 100th anniversary of the Core Curriculum, spoke about exploring the contemporary Black experience through literature. Jay-Z discussed racial injustice at an event for the new department of African American and African diaspora studies. Student artists then grappled with racism, colonization, and exclusion in their own works. The Black Theatre Ensemble created space for Black stories in a predominantly white theater scene. The Barnard theater department’s well-meaning production of “Men on Boats” couldn’t overcome a script steeped in disturbing historical context. And the Chinese Students Club slashed stereotypes at its annual Lunar Gala fashion show in the face of discrimination against Asian students in the wake of COVID-19.",
-                "articles": [
-                    {
-                      "title": "Suzan-Lori Parks offered “a million suggestions” to students during her lecture on the Core",
-                      "author": "Olivia Doyle",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/11/suzan-lori-parks-offered-a-million-suggestions-to-students-during-her-lecture-on-the-core/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JLUJOMN4CRBPFCZMJQZBHO36RA.jpg"
-                    },
-                    {
-                      "title": "Black Theatre Ensemble discusses creating space, voice, and visibility in campus theater",
-                      "author": "Anya Raj",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/03/09/black-theatre-ensemble-discusses-creating-space-voice-and-visibility-in-campus-theater/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EDZDJX4EQJD4PA34HCQIE22HMA.jpg"
-                    },
-                    {
-                      "title": "Jay-Z and Jelani Cobb speak on prison reform, NFL deals, and the hope in hip-hop at inaugural lecture",
-                      "author": "Abby Rooney",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/06/jay-z-and-jelani-cobb-speak-on-prison-reform-nfl-deals-and-the-hope-in-hip-hop-at-inaugural-lecture/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UH6DQLNI6FGK3JXGPV22OP55DA.jpg"
-                    },
-                    {
-                      "title": "With disturbing historical context, a superb cast could not keep “Men on Boats” afloat",
-                      "author": "Sarah Robertson",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/12/09/with-disturbing-historical-context-a-superb-cast-could-not-keep-men-on-boats-afloat/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BGJKSDPFFVGYNAZ6YNTTNSQBUE.jpg"
-                    },
-                    {
-                      "title": "Chinese Students Club seeks to “Unlabel” stereotypes at annual Lunar Gala fashion show",
-                      "author": "Katie Levine and Sophie Craig",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/25/chinese-students-club-seeks-to-unlabel-stereotypes-at-annual-lunar-gala-fashion-show/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/T6QTHVFJ6NC4XJO5EEAD3JCCPA.jpg"
-                    }
-                  ]
-            }, 
-            {
-                "name": "Local restaurants serve up food and drink, culture, and history",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IKNVGNOI2BEO7ETNZ7T5AHW63Q.jpg",
-                "blurb": "Beyond covering local restaurant openings and closures, our Food & Drink beat delved into the culture and history behind some of the lively eateries woven into the fabric of West Harlem’s culinary scene. Some highlights include a feature on Dinosaur BBQ’s signature “slow and low” cuisine; a spotlight on hidden gem Doaba Deli; a peek inside Showman’s, Harlem’s longest-standing jazz club; and a tour of Little Senegal, a home for West African food and culture on the Upper West Side.",
-                "articles": [
-                    {
-                      "title": "Dinosaur Bar-B-Que gives a taste of New York’s BBQ history",
-                      "author": "Alexandra Aguirre",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/01/31/dinosaur-bar-b-que-gives-a-taste-of-new-yorks-bbq-history/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/IKNVGNOI2BEO7ETNZ7T5AHW63Q.jpg"
-                    },
-                    {
-                      "title": "Hidden Restaurants: Doaba Deli serves up top-notch Punjabi fare",
-                      "author": "Noah Sheidlower",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/04/hidden-restaurants-doaba-deli-serves-up-top-notch-punjabi-fare/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/25KHRKBSXJAHJIRBPHW4R4GQRU.jpg"
-                    },
-                    {
-                      "title": "Showman’s, Harlem’s longest-standing jazz club, serves up cocktails with a side of history",
-                      "author": "Alexandra Aguirre",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/10/30/showmans-harlems-longest-standing-jazz-club-serves-up-cocktails-with-a-side-of-history/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/SJZWSX5NRRA4DO2LSLRW4NTLMQ.jpg"
-                    },
-                    {
-                      "title": "Little Senegal: a home for West African food and culture in Harlem",
-                      "author": "Noah Sheidlower",
-                      "link": "https://www.columbiaspectator.com/arts-and-entertainment/2019/11/07/little-senegal-a-home-for-west-african-food-and-culture-in-harlem/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/6SURMZUYOBBNND53BUKHJ3MIFI.jpg"
-                    }
-                  ]
-            }
-        ]
-    },
-    "Spectrum": {
-        sections: [{
-                "name": "The Columbia Rundown",
-                "link": "#the-columbia-rundown"
-            },
-            {
-                "name": "Life After Columbia",
-                "link": "#life-after-columbia"
-            },
-            {
-                "name": "Feeling Festive",
-                "link": "#feeling-festive"
-            },
-            {
-                "name": "Finding Community During COVID-19",
-                "link": "#finding-community-during-covid19"
-            },
-        ],
-        "blurb": "As students grapple with a spectrum of experiences, stories, narratives, and struggles, Spectrum aims to be a guiding, unifying, and comforting presence.s. Amid the complexity and turmoil of student life, Spectrum encourages students to engage in self-care and self-love against all odds.",
-        "items": [{
-                "name": "The Columbia Rundown",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NZIZFSCUVRCDJM6LF32XMUZDTE.jpg",
-                "blurb": "Spectrum’s mission is to be your big sibling on campus and make your life at Columbia a little bit easier and a little bit more fun. It is easy to feel lost at Columbia, so we made it our mission to help by giving you a crash course on being a student at the Universityand in New York City.",
-                "articles": [
-                    {
-                      "title": "A guide to Morningside Heights as a Columbia student",
-                      "author": "Lina Karim",
-                      "link": "https://www.columbiaspectator.com/spectrum/2020/04/22/a-guide-to-morningside-heights-as-a-columbia-student/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/23SKMVUBCBH37ONRJ3G7OUBNJI.jpg"
-                    },
-                    {
-                      "title": "A night out as a Columbia student",
-                      "author": "Ariana Novo and Jane Mok",
-                      "link": "https://www.columbiaspectator.com/spectrum/2020/04/17/a-night-out-as-a-columbia-student/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/RTCKJMVTPRGXHNCDC6AWU7X2D4"
-                    },
-                    {
-                      "title": "The unwritten rules of Columbia",
-                      "author": "Lina Karim",
-                      "link": "https://www.columbiaspectator.com/spectrum/2019/05/02/the-unwritten-rules-of-columbia/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FUXN2FKFRZAZXMXARXBSLOSJBE.jpeg"
-                    },
-                    {
-                      "title": "Class of 2023: expectations vs. reality",
-                      "author": "Ariana Novo",
-                      "link": "https://www.columbiaspectator.com/spectrum/2019/09/28/class-of-2023-expectations-vs-reality/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/GDZ6V442XFGP7KWD32SQYVRE2Q.jpg"
-                    }, 
-                    {
-                      "title": "How did that date actually go?",
-                      "author": "Sydney Fox",
-                      "link": "https://www.columbiaspectator.com/spectrum/2020/02/19/how-did-that-date-actually-go/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5MXVXFTEGZEH5HSCQ63B2YYPEI.jpg"
-                    }
-                  ]
-            },
-            {
-                "name": "Life After Columbia",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XHW5H5ZK6NA4NB3RSWEH443YYQ.jpg",
-                "blurb": "The open waters of life after college are daunting for even the most prepared sailors, but you’re not alone in your voyage across the stormy seas. This year, we investigated how students can plan their professional careers by going straight to the sources. Both Beyond Barnard and the Center for Career Education sat down with us to discuss their most frequently asked questions, their biggest pieces of advice, and the resources the University provides for us.",
-                "articles": [
-                    {
-                      "title": "How to use LinkedIn and Handshake effectively",
-                      "author": "Jazilah Salam",
-                      "link": "https://www.columbiaspectator.com/spectrum/2020/03/10/how-to-use-linkedin-and-handshake-effectively/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XHW5H5ZK6NA4NB3RSWEH443YYQ.jpg"
-                    },
-                    {
-                      "title": "How to flex your Barnumbia degree in an interview",
-                      "author": "Ariana Novo",
-                      "link": "https://www.columbiaspectator.com/spectrum/2020/03/09/how-to-flex-your-barnumbia-degree-in-an-interview/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6S2L5CHEYFGARCT4OR72V6POLY.jpg"
-                    },
-                    {
-                      "title": "What is Beyond Barnard, and how can it help you?",
-                      "author": "Jazilah Salam",
-                      "link": "https://www.columbiaspectator.com/spectrum/2019/10/02/what-is-beyond-barnard-and-how-can-it-help-you/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LBQMFAS3TZD6HORHFC3AWTZN2E.jpg"
-                    },
-                    {
-                      "title": "Tips for making the most of the Columbia Center for Career Education",
-                      "author": "Michelle Zhuang",
-                      "link": "https://www.columbiaspectator.com/spectrum/2019/09/23/tips-for-making-the-most-of-the-columbia-center-for-career-education-cce/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XIIMM6KFWRG6HEIYSGNEMMCBAY.jpg"
-                    }
-                  ]
-            },
-            {
-                "name": "Feeling Festive",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Z6X7F5KBDJGQJMEUVZGL4JKT5U.jpg",
-                "blurb": "You can go to numerous parties, from Homecoming to Halloween, throughout the academic year. Our articles provided inspiration for costume ideas, themed recipes, and events that you could visit around the city to supplement your festivities.",
-                "articles": [
-                    {
-                      "title": "Who’s your valentine?",
-                      "author": "Ariana Novo",
-                      "link": "https://www.columbiaspectator.com/spectrum/2020/03/01/quiz-whos-your-valentine/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/A5UX627SYFFHPEH2VPM2WQ26HI.jpg"
-                    },
-                    {
-                      "title": "Tiny things Spectrum is grateful for",
-                      "author": "Michelle Zhuang",
-                      "link": "https://www.columbiaspectator.com/spectrum/2019/11/20/tiny-things-spectrum-is-grateful-for/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/56WFCY5445DXTHXTFU7AJAKLTU.gif"
-                    },
-                    {
-                      "title": "Last minute Halloween costumes based on your zodiac sign",
-                      "author": "Lina Karim",
-                      "link": "https://www.columbiaspectator.com/spectrum/2019/10/25/last-minute-halloween-costumes-based-on-your-zodiac-sign/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WVN5SKS27JFHNHY7DHXTVXPWHY.gif"
-                    },
-                    {
-                      "title": "Types of people you’ll meet on campus this fall",
-                      "author": "Jazilah Salam",
-                      "link": "https://www.columbiaspectator.com/spectrum/2019/10/11/types-of-people-youll-meet-on-campus-this-fall/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4KDJLZ4N4FA6TAALKXPMLRHMSI.png"
-                    },
-                    {
-                      "title": "How to “win” Homecoming",
-                      "author": "Lina Karim",
-                      "link": "https://www.columbiaspectator.com/spectrum/2019/10/09/how-to-win-homecoming/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/32HGINRIJVFFZMHR45EO7IFFJM.jpg"
-                    }
-                  ]
-            },
-            {
-                "name": "Finding Community During COVID-19",
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TW6SDEWIVRF4NLL7RKXZ5QVRPI.jpg",
-                "blurb": "Our school year was interrupted by COVID-19, and it is important to remember that you are not alone. Though this pandemic has affected all of us differently, navigating a virtual school life is a first for all of us. Spectrum sought to help you navigate this new world with our tried-and-true blend of humor, sincerity, and practicality.",
-                "articles": [
-                    {
-                      "title": "Coronavirus cancels: Your guide to postponed campus events",
-                      "author": "Nandini Talwar",
-                      "link": "https://www.columbiaspectator.com/spectrum/2020/03/11/coronavirus-cancels-your-guide-to-postponed-campus-events/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DH5MTEEV7NHIZPJCC5FQPEL4FE.jpg"
-                    },
-                    {
-                      "title": "What type of Zoomer are you?",
-                      "author": "Lina Karim",
-                      "link": "https://www.columbiaspectator.com/spectrum/2020/04/15/quiz-what-type-of-zoomer-are-you/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3QIFLDFUDNDD5EZVE3LBVRKWAI.jpg"
-                    },
-                    {
-                      "title": "How to do college online: A guide to our new virtual reality of learning",
-                      "author": "Haleigh Stewart",
-                      "link": "https://www.columbiaspectator.com/spectrum/2020/04/01/how-to-do-college-online-a-guide-to-our-new-virtual-reality-of-learning/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WI7KWA5WJRB6PKEURLHP7PIT74.jpg"
-                    },
-                    {
-                      "title": "What’s your quarantine personality?",
-                      "author": "Haleigh Stewart",
-                      "link": "https://www.columbiaspectator.com/spectrum/2020/04/27/whats-your-quarantine-personality/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/G33ZNV3SDZHSRJR3GJCDFFL3YU.jpg"
-                    }
-                  ]
-            }
-        ]
-    },
-    "Opinion": {
+      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RMHTSN45KVEQVNJJ5MS76VDNBY.png",
+      sections: [{
+              "name": "Pandemic Art",
+              "link": "#pandemic-art"
+          },
+          {
+              "name": "Archival",
+              "link": "#archival"
+          },
+          {
+              "name": "Gender Equity",
+              "link": "#gender-equity"
+          },
+          {
+              "name": "Profiles",
+              "link": "#profiles"
+          }, 
+          {
+              "name": "Inclusion and Exclusion",
+              "link": "#inclusion-and-exclusion"
+          },
+{
+              "name": "Harlem",
+              "link": "#harlem"
+          },
+{
+              "name": "Adapting to COVID-19",
+              "link": "#adapting-to-covid-19"
+          }
+
+      ],
+      "blurb": "Arts & Entertainment strives to engage critically with the arts and culture of Columbia and the surrounding area, reporting on issues that matter to stakeholders in the campus arts community while keeping readers informed and engaged. We aim to accurately represent the diversity of the campus arts scene by connecting with different cultures through investigations, profiles, events coverage, and archival works.",
+      "items": [{
+              "name": "Creating art during a pandemic",
+              "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RA5BZP6NJFHXFO2MDMACAFR7JE.jpg",
+              "blurb": "Dancers, singers, painters, and actors took on roles like video editor and tech support as arts groups pivoted to fully virtual productions. With the exception of a few theater productions, most campus arts groups used platforms like Zoom for their live readings and interactive performances. Beyond Zoom, students took to YouTube for vlogs, notebooks for original poetry, TikTok for music, and even vinyl records for recording sessions. The pandemic has made the arts significantly more accessible for students, faculty, and community members.",
+              "articles": [
+                  {
+                    "title": "COVID-19 restricts access to dance space, but creativity of Columbia’s dance groups persists",
+                    "author": "Emma Danon",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/09/covid-19-restricts-access-to-dance-space-but-creativity-of-columbias-dance-groups-persists/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/M4SKCKB6RFEJZK2RHZ6AWHXTTI.jpg"
+                  },
+                  {
+                    "title": "“Unedited: Seven Columbia YouTubers share all",
+                    "author": "Holly Qu",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/04/15/unedited-seven-columbia-youtubers-share-all/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LV6ZIIUUKVGY7HXT3Y4SYNIUVY.PNG"
+                  },
+                  {
+                    "title": "Columbia’s literary magazine scene depicts animated love stories and quarantine poetry",
+                    "author": "Jane Loughman",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/17/columbias-literary-magazine-scene-depicts-animated-love-stories-and-quarantine-poetry/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CFKI5KFZZNB4ROUJWT4TTPYYTQ.jpg"
+                  },
+                  {
+                    "title": "On the verge of viral: Columbia musicians on creating, marketing, and ascending to fame in a TikTok age",
+                    "author": "Bella Bromberg",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/24/on-the-verge-of-viral-columbia-musicians-on-creating-marketing-and-ascending-to-fame-in-a-tiktok-age/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RA5BZP6NJFHXFO2MDMACAFR7JE.jpg"
+                  },
+      {
+                    "title": "Record Reverie: The Resurgence of Vinyl Culture in the 21st Century",
+                    "author": "Bella Bromberg and Noah Bullwinkle",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/04/12/record-reverie-the-resurgence-of-vinyl-culture-in-the-21st-century/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IVT23DF54BETNJZD6E43UQ75QM.gif"
+                  },
+      {
+                    "title": "Green is the new black: Columbia community members push for sustainable fashion",
+                    "author": "Fernando Aguero",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/12/03/green-is-the-new-black-columbia-community-members-push-for-sustainable-fashion/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PGQLDKQQE5FXTGL4UIC22KKESM.png"
+                  },
+      {
+                    "title": "Barnard theater department’s ‘On Loop’ crosses a landscape of grief in first in-person performance",
+                    "author": "Sophie Craig",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/22/barnard-theater-departments-on-loop-crosses-a-landscape-of-grief-in-first-in-person-performance/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/A3VQYPBDLFF3JIL5BGHOMEJRKU.jpeg"
+                  },
+      {
+                    "title": "Boasting green screens and meta-Internet commentary, the 127th Annual Varsity Show takes a lighthearted approach to a heavy year",
+                    "author": "Sophie Craig and Nigel Telman",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/05/10/boasting-green-screens-and-meta-internet-commentary-the-127th-annual-varsity-show-takes-a-lighthearted-approach-to-a-heavy-year/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3WSP2HT535CO5INDQQZRWFEDBI.jpeg"
+                  },
+                ]
+          },
+          {
+              "name": "Looking back at the archives",
+              "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EIWNF5ELAVESTHB2BQHKPM7GPU.png",
+              "blurb": "Did you know that Columbia used to have a bar in JJ’s Place? That a street vendor sold pig’s feet out of a baby carriage in Harlem? That hip-hop developed in practice rooms and recording studios at Columbia? This year, Arts & Entertainment probed into old Spectator editions, century-old playbills and takeout menus, and ancient photographs to uncover the secrets of Columbia and Harlem’s past. Through this archival reporting, we unearthed the stories of figures who transformed the local community and applied our findings to contemporary issues, such as barriers to entry in the food industry and diversity in theater.",
+              "articles": [
+                  {
+                    "title": "Beyond the silver screen: a look at the vibrant history of Harlem’s Black film scene",
+                    "author": "Irene Madrigal and Emma Schartz",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/18/beyond-the-silver-screen-a-look-at-the-vibrant-history-of-harlems-black-film-scene/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EIWNF5ELAVESTHB2BQHKPM7GPU.png"
+                  },
+                  {
+                    "title": "An ale-inclusive look into Columbia’s campus bar scene",
+                    "author": "Noah Sheidlower",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/01/20/an-ale-inclusive-look-into-columbias-campus-bar-scene/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LRU3SMOEDRHJRP5AYPBYNIOF5Q.png"
+                  },
+                  {
+                    "title": "From baby carriage food carts to fusion soul food spots: A look into Harlem’s complex restaurant scene",
+                    "author": "Noah Sheidlower",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/18/from-baby-carriage-food-carts-to-fusion-soul-food-spots-a-look-into-harlems-complex-restaurant-scene/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RMHTSN45KVEQVNJJ5MS76VDNBY.png"
+                  },
+                  {
+                    "title": "‘Barnardesia’: The operetta that built Brooks Hall",
+                    "author": "Sophie Craig",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/25/barnardesia-the-operetta-that-built-brooks-hall/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HDDWUPDB5RF4VMH3UED5JF6ROM.jpeg"
+                  },
+                  {
+                    "title": "The Hip-Hop Project: A historical exploration into the relationship between Columbia University and the rap revolution",
+                    "author": "Nigel Telman",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/24/the-hip-hop-project-a-historical-exploration-into-the-relationship-between-columbia-university-and-the-rap-revolution/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YHHNI3N3QJAINETBJ3FDGII26E.jpg"
+                  },
+      {
+                    "title": "Roll the tape: A look at Barnard’s moving pictures archive in a digital world",
+                    "author": "Emma Schartz and Caroline Val",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/30/roll-the-tape-a-look-at-barnards-moving-pictures-archive-in-a-digital-world/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AEUMUCIAVBG6TDF4TAHIP7Z5NU.JPG"
+                  }
+                ]
+          },
+          {
+              "name": "Artists work toward gender equity on stage, on screen, and behind the scenes",
+              "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KV7SGPSLHZFEZHN6APGGQZTFGQ.jpeg",
+              "blurb": "With so many hidden barriers that keep women and gender-nonconforming people out of executive arts positions, artists on and around campus have been fighting for gender equity. This year’s Athena Film Festival, which was completely remote, showcased nearly 100 feature-length and short films, as well as panels with industry leaders and filmmakers. We conducted an investigation into these barriers to entry, conducted interviews with over 30 women filmmakers, and wrote nearly 40 articles on major themes from the festival. Gender disparities are also pronounced in the culinary world, and women chefs have been pushing for more visibility and respect in and out of their kitchens. Additionally, many theater productions questioned gender norms and actors’ relationships with femininity.",
+              "articles": [
+                  {
+                    "title": "Athena Film Festival: Despite the isolation of virtual film festivals, directors aim for increased accessibility and stronger community",
+                    "author": "Noah Sheidlower",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/25/athena-film-festival-despite-the-isolation-of-virtual-film-festivals-directors-aim-for-increased-accessibility-and-stronger-community/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SZIHQBMOSNGK7ONZSZWYG2GDHI.jpeg"
+                  },
+                  {
+                    "title": "Initiatives have been created to amplify women in the restaurant industry, but the disparity in senior-level positions remains prevalent",
+                    "author": "Irene Madrigal",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/25/initiatives-have-been-created-to-amplify-women-in-the-restaurant-industry-but-the-disparity-in-senior-level-positions-remains-prevalent/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/D6MAYEHD4ZGMXEM7NMV2IIN6BY.JPG"
+                  },
+                  {
+                    "title": "Rewriting Bronx history from a Feminist Perspective in Raquel Cepeda’s ‘La Madrina’",
+                    "author": "Daniela Miranda",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/24/rewriting-bronx-history-from-a-feminist-perspective-in-raquel-cepedas-la-madrina/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/F4S6NXVWX5GL5GDVZEJE474BDM.jpg"
+                  },
+                  {
+                    "title": "‘Come As You Are’ shorts program showcases stories of authenticity, identity, and self-acceptance",
+                    "author": "Victoria Irizarry Sanabria",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/23/come-as-you-are-shorts-program-showcases-stories-of-authenticity-identity-and-self-acceptance/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SI5DCV3YBNBL5CFAUGKGWGTOSQ.jpg"
+                  }
+                ]
+          },
+          {
+              "name": "Profiling Columbia’s talented artists",
+              "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TUBI75M5W5GGDNGT67AELIR2AI.jpg",
+              "blurb": "During the pandemic, many student-artists discovered their identity and purpose in the arts world, creating new artworks that showcased their evolution and personal experiences. While some wrote and produced their own albums, others expanded their fashion brands or choreographed their own dance routines. Mamadou Yattassaye, CC ’21, released his debut album, “To Stitch a Rose,” which revolves around themes of faith and vulnerability. Chase Guerin, CC ’23, worked to redefine the luxury goods industry by bringing symbolism and storytelling into his luxury lifestyle brand, Guerin. And Sarah Kinsley, CC ’22, recently reached almost one million Spotify streams for her single “Karma.”",
+              "articles": [
+                  {
+                    "title": "Seniors reflect on their time as part of Columbia’s dance community",
+                    "author": "Liz Radway and Emma Danon",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/04/28/seniors-reflect-on-their-time-as-part-of-columbias-dance-community/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6UKPRDAIDVCFLDNJVDBLMKTGGI.JPG"
+                  },
+                  {
+                    "title": "Blooming in darkness: Chase Guerin, CC ’23, inspires hope amid adversity with luxury brand Guerin",
+                    "author": "Esterah Brown",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/12/14/blooming-in-darkness-chase-guerin-cc-23-inspires-hope-amid-adversity-with-luxury-brand-guerin/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NO7W6G5S7NH2XLLBITFN5GU33E.jpg"
+                  },
+                  {
+                    "title": "Award-winning playwright Phanésia Pharel, BC ’21, on hope, healing, and uplifting Black voices",
+                    "author": "Sophie Craig",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/10/07/award-winning-playwright-phanesia-pharel-bc-21-on-hope-healing-and-uplifting-black-voices/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MMQLIJJWORC2XD4XDHQVMEKXRY.jpg"
+                  },
+                  {
+                    "title": "‘We all are roses’: Mamadou., CC ’21, discusses faith and vulnerability in his debut album",
+                    "author": "Esterah Brown",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/01/21/we-all-are-roses-mamadou-cc-21-discusses-faith-and-vulnerability-in-his-debut-album/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CI2G54KHKRA5TJDI5TM55V5O3I.jpg"
+                  },
+                  {
+                    "title": "Musician Sarah Kinsley, CC ’22, talks new music, TikTok, and self-expression",
+                    "author": "Maryam Rahaman",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/05/28/musician-sarah-kinsley-cc-22-talks-new-music-tiktok-and-self-expression/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RMIPRU3U35ES3FA2GBYMJDGXHQ.jpg"
+                  }
+                ]
+          },
+          {
+              "name": "Inclusion (and Exclusion)",
+              "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YRB4ATX7I5CCBBAW6EB4X2QD2Q.jpg",
+              "blurb": "This year, artists grappled with how to make the arts more inclusive and representative of different cultures, especially following the racial unrest of the summer. The Wallach Art Gallery, for example, held its Uptown Triennial featuring artists of color in dialogue with the Harlem Renaissance, while the 2021 MODA Curates exhibition examined the intersection of aesthetics and cultural history. The Core Curriculum recently underwent some changes, such as the introduction of Claudia Rankine’s “Citizen” into the Literature Humanities curriculum and music of the civil rights era into the Music Humanities curriculum. Student groups like Black Theatre Ensemble showcased works that empowered artists of color while questioning how the theater industry currently functions. With some students lacking resources or materials to complete their required classes from home, some departments helped students financially or mailed over supplies. In addition, after an upsurge in anti-Asian violence, some arts groups raised money for community organizations to support vulnerable populations.",
+              "articles": [
+                  {
+                    "title": "2021 MODA Curates highlights underrepresented communities through art at the intersection of aesthetics and cultural history",
+                    "author": "Vincent Hou",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/04/15/2021-moda-curates-highlights-underrepresented-communities-through-art-at-the-intersection-of-aesthetics-and-cultural-history/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YRB4ATX7I5CCBBAW6EB4X2QD2Q.jpg"
+                  },
+                  {
+                    "title": "Wallach Art Gallery’s Uptown Triennial 2020 showcases artists of color in dialogue with the Harlem Renaissance",
+                    "author": "Vincent Hou and Camilla Marchese",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/11/24/wallach-art-gallerys-uptown-triennial-2020-showcases-artists-of-color-in-dialogue-with-the-harlem-renaissance/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XHIIDEE7SNF5BFRE64N77VWW3I.jpg"
+                  },
+                  {
+                    "title": "Despite efforts to revive Barnard tap classes, the future of the program remains uncertain",
+                    "author": "Bella Druckman and Julia Tong",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/17/burden-of-reviving-tap-courses-falls-on-students-leaving-the-future-of-the-program-uncertain/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IBNMBS3BRVA3JHAIUC7YUPKGNY.jpg"
+                  },
+                  {
+                    "title": "Recent changes to the Music Humanities curriculum raise questions about the role of diversity and inclusion in the Core",
+                    "author": "Maryam Rahaman",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/25/recent-changes-to-the-music-humanities-curriculum-raise-questions-about-the-role-of-diversity-and-inclusion-in-the-core/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3HHI3IIIRBGABPKIFLIM3CWWQU"
+                  },
+                  {
+                    "title": "Barnard film center emphasizes “resilience and resistance” as students adjust to working remotely",
+                    "author": "Irene Madrigal",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/11/17/barnard-film-center-emphasizes-resilience-and-resistance-as-students-adjust-to-working-remotely/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VG4SHR2IOJAWDFPJ3X6NXZL5BE.jpg"
+                  },
+         {
+                    "title": "Musicians reflect on financial struggles without live performance venues, inadequate government response",
+                    "author": "Maryam Rahaman",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/11/05/musicians-reflect-on-financial-struggles-without-live-performance-venues-inadequate-government-response/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VG4SHR2IOJAWDFPJ3X6NXZL5BE.jpg"
+                  }
+                ]
+          }, 
+          {
+              "name": "Uncovering Harlem’s culture and history",
+              "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XPVAMKSJENGVDN7M5RBT5JOW6Y.jpg",
+              "blurb": "Columbia is so closely connected with Harlem and its arts scene, but oftentimes, students are unfamiliar with Harlem’s cultural sites and institutions. This semester, we investigated Columbia’s relationship with Harlem and took a look at the neighborhood’s jazz history, new artistic renaissance, and dance scene. In addition to a deep dive into the history of soul food and African diaspora cooking, we shed light on Harlem-based beauty salons empowering women to feel confident in their skin, as well as institutions like Harlem’s Hollywood Maysles Documentary Center telling previously untold stories of Black history.",
+              "articles": [
+                  {
+                    "title": "How Harlem restaurants are staying afloat amid the pandemic",
+                    "author": "Noah Sheidlower and Bella Druckman",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/12/09/how-harlem-restaurants-are-staying-afloat-amid-the-pandemic/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XPVAMKSJENGVDN7M5RBT5JOW6Y.jpg"
+                  },
+                  {
+                    "title": "Harlem’s new renaissance: How Harlem art galleries are covering Black History Month",
+                    "author": "Esterah Brown",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/02/15/harlems-new-renaissance-how-harlem-art-galleries-are-covering-black-history-month/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LRNOR446ZNCV3P23Y7A7WFWQPE.jpg"
+                  },
+                  {
+                    "title": "Dance Theatre of Harlem keeps dance alive with Claudia Schreier’s ‘Passage’ in Virtual Ballet Series",
+                    "author": "Liz Radway",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/19/dance-theatre-of-harlem-keeps-dance-alive-with-claudia-schreiers-passage-in-virtual-ballet-series/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MX2WLK6TAZCAXOPHLNCJBBOLJU.JPG"
+                  },
+                  {
+                    "title": "Harlem’s Hollywood: Maysles Documentary Center tells untold stories",
+                    "author": "Emma Schartz",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/08/04/harlems-hollywood-maysles-documentary-center-tells-untold-stories/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/K2WZ3OTVIBBDPKLMIMR5HSUL7M.jpg"
+                  },
+      {
+                    "title": "How Harlem-based beauty salons are empowering women to feel confident in their skin",
+                    "author": "Esterah Brown",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/03/25/how-harlem-based-beauty-salons-are-empowering-women-to-feel-confident-in-their-skin/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TCHKAFIO7VEFLCAPDSIBOGZNUQ.jpg"
+                  }
+    ]
+          }, 
+          {
+              "name": "Adapting to COVID-19",
+              "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UZHGOFGMAVAUJKQ4FO54E77FOA.jpg",
+              "blurb": "The Morningside Heights and West Harlem communities showed tremendous resilience throughout the pandemic, with long-time residents, students,faculty, and small business owners coming together to support one another. About 90 percent of neighborhood restaurants remained open, and a number of newcomers have occupied empty storefronts. But restaurants were hit particularly hard, especially those which relied more on in-person dining than takeout and delivery. Restaurants struggling to adapt to the freezing winter with little to no indoor seating lead to many coming up with creative ways to deliver food, cater to the local population, and give back to the community. On the academic side, COVID-19 inspired the creation of new courses that pushed students to think themselves out of the pandemic. Many courses had to be completely rethought for a virtual setting, such as theater classes that rely heavily on in-person interaction. Despite some obstacles, many student artists were able to keep up with their crafts at home, looking toward social media as a way to market their creations.",
+              "articles": [
+                  {
+                    "title": "Indoor dining promised economic relief for restaurants. Do Morningside Heights restaurants agree?",
+                    "author": "Noah Sheidlower",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/10/16/indoor-dining-promised-economic-relief-for-restaurants-do-morningside-heights-restaurants-agree/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UZHGOFGMAVAUJKQ4FO54E77FOA.jpg"
+                  },
+                  {
+                    "title": "Transition to takeout and delivery revamps restaurant menu options, grows reach to customers in Morningside Heights",
+                    "author": "Noah Sheidlower",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/11/18/transition-to-takeout-and-delivery-revamps-restaurant-menu-options-grows-reach-to-customers-in-morningside-heights/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YXB6JA5OYRE2PGZK6LGFBWJLFA.jpg"
+                  },
+                  {
+                    "title": "COVID-19 inspires new courses that push students to think themselves out of the pandemic",
+                    "author": "Bella Druckman",
+                    "link": "https://www.columbiaspectator.com/main/2021/01/19/covid-19-inspires-new-courses-that-push-students-to-think-themselves-out-of-the-pandemic/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/D4SCO5Q725B6VJCGCT5CP2XPLQ.jpg"
+                  },
+                  {
+                    "title": "From family rifts to the social media blues, student musicians struggle to create at home",
+                    "author": "Maryam Rahaman",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/10/19/from-family-rifts-to-the-social-media-blues-student-musicians-struggle-to-create-at-home/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MGJW4KV2UVEH7IW7LY4XLXLDEI.jpg"
+                  }
+                ]
+          }
+      ]
+  },
+  "Spectrum": {
+
+
+    sections: [{
+
+
+            "name": "The Columbia Rundown",
+
+
+            "link": "#the-columbia-rundown"
+
+
+        },
+
+
+        {
+
+
+            "name": "Life After Columbia",
+
+
+            "link": "#life-after-columbia"
+
+
+        },
+
+
+        {
+
+
+            "name": "Feeling Festive",
+
+
+            "link": "#feeling-festive"
+
+
+        },
+
+
+        {
+
+
+            "name": "Finding Community During COVID-19",
+
+
+            "link": "#finding-community-during-covid19"
+
+
+        },
+
+
+    ],
+
+
+    "blurb": "Spectrum’s mission is to be your big sibling and guiding compass for your time at Columbia and New York City. Through interactive and engaging multimedia content, including guides, quizzes, videos and more, Spectrum aims to unify its audience and demystify the college experience.",
+
+
+    "items": [{
+
+
+            "name": "The Columbia Rundown",
+
+
+            "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/NZIZFSCUVRCDJM6LF32XMUZDTE.jpg",
+
+
+            "blurb": "Spectrum’s mission is to be your big sibling on campus and make your life at Columbia a little bit easier and a little bit more fun. It is easy to feel lost at Columbia, so we made it our mission to help by giving you a crash course on being a student at the University and in New York City.",
+
+
+            "articles": [
+
+
+                {
+
+
+                  "title": "Recap: Columbia’s conversation on violence against Asian Americans",
+
+
+                  "author": "Emma Cho",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2021/05/05/recap-columbias-conversation-on-violence-against-asian-americans/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HFGAEBARORHZZJNN7DGAWIAENU.jpeg"
+
+
+                },
+
+
+                {
+
+
+                  "title": "Columbia tales and traditions through the years",
+
+
+                  "author": "Swethaa Suresh",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2021/04/12/columbia-tales-and-traditions-through-the-years/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FD64BPCFGNGHJDXHNNRDC6T7BU.png"
+
+
+                },
+
+
+                {
+
+
+                  "title": "The graduate workers union strike: explained",
+
+
+                  "author": "Jane Mok and Victoria Tereshchenko",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2021/03/18/the-graduate-workers-union-strike-explained/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GRWF4BAS7VGPVFIMORVDBGPEMA.jpg"
+
+
+                },
+
+
+                {
+
+
+                  "title": "Considering taking a spring A or B course? Here’s what students had to say about their experience.",
+
+
+                  "author": "Maya Sulkin",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2020/12/01/considering-taking-a-spring-a-or-b-course-heres-what-students-had-to-say-about-their-experience/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DTDVQLHJS5H3LCPERSGQHUXPFE.jpg"
+
+
+                },
+
+
+                {
+
+
+                  "title": "A crash course on university honors, awards, and scholar programs",
+
+
+                  "author": "Swethaa Suresh",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2020/11/16/a-crash-course-on-university-honors-awards-and-scholar-programs/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/EBREWCGTTZAVPDX3OE5ORZAZ7A.gif"
+
+
+                }
+
+
+              ]
+
+
+        },
+
+
+        {
+
+
+            "name": "Life After Columbia",
+
+
+            "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/XHW5H5ZK6NA4NB3RSWEH443YYQ.jpg",
+
+
+            "blurb": "The open waters of life after college are daunting for even the most prepared sailors, but you’re not alone in your voyage across the stormy seas. This year, we investigated how students can plan their professional careers by going straight to the sources. Both Beyond Barnard and the Center for Career Education sat down with us to discuss their most frequently asked questions, their biggest pieces of advice, and the resources the University provides for us.",
+
+
+            "articles": [
+
+
+                {
+
+
+                  "title": "A guide to navigating Columbia’s virtual career centers",
+
+
+                  "author": "Swethaa Suresh",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2021/02/01/a-guide-to-navigating-columbias-virtual-career-centers/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/N42MYV6OCNFXRP5YTLOI32XSCM.jpg"
+
+
+                },
+
+
+                {
+
+
+                  "title": "The ultimate guide to Columbia graduate schools",
+
+
+                  "author": "Emma Cho",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2021/02/01/the-ultimate-guide-to-columbia-graduate-schools/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PRWQ7BCVNRHF7BNJI2JEQAPT5I.gif"
+
+
+                },
+
+
+                {
+
+
+                  "title": "Zoom ready: being prepared for virtual interviews",
+
+
+                  "author": "Nirutti Charupaisankit",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2021/02/01/zoom-ready-being-prepared-for-virtual-interviews/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SUZF746D4ZGLVDL463IF3O4AJE.png"
+
+
+                },
+
+
+                {
+
+
+                  "title": "4+1 Barnard programs and Columbia special programs explained",
+
+
+                  "author": "Lina Karim",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2020/11/16/41-barnard-programs-and-columbia-special-programs-explained/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DSXIXATJ55FPZEC4RKFOTBOKTM.gif"
+
+
+                }
+
+
+              ]
+
+
+        },
+
+
+        {
+
+
+            "name": "Feeling Festive",
+
+
+            "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Z6X7F5KBDJGQJMEUVZGL4JKT5U.jpg",
+
+
+            "blurb": "You can go to numerous parties, from Homecoming to Halloween, throughout the academic year. Our articles provided inspiration for costume ideas, themed recipes, and events that you could visit around the city to supplement your festivities.",
+
+
+            "articles": [
+
+
+                {
+
+
+                  "title": "Springtime events in New York",
+
+
+                  "author": "Haley Long and Lina Karim",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2021/04/12/springtime-events-in-new-york/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ICFMLA74WREUNPYM7TEGBDFW4Q"
+
+
+                },
+
+
+                {
+
+
+                  "title": "Virtual date ideas for a COVID-19-safe Valentine’s Day",
+
+
+                  "author": "Swethaa Suresh",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2021/02/08/virtual-date-ideas-for-a-covid-19-safe-valentines-day/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZWITPLX27VB77DPCSJGJ6RGHBU.gif"
+
+
+                },
+
+
+                {
+
+
+                  "title": "A guide to celebrating Thanksgiving safely",
+
+
+                  "author": "Lina Karim and Emma Cho",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2020/11/23/a-guide-to-celebrating-thanksgiving-safely/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OD2KFT3NV5HS7ADM7GSO42FTOQ.gif"
+
+
+                },
+
+
+                {
+
+
+                  "title": "Ways to use your face mask as part of a Halloween costume",
+
+
+                  "author": "Ariana Novo",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2020/10/26/ways-to-use-your-face-mask-as-part-of-a-halloween-costume/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TE3M5JHFDJG4TCIPBP6DZWQ2YM.gif"
+
+
+                },
+
+
+                {
+
+
+                  "title": "Outdoor activities for fall in NYC",
+
+
+                  "author": "Ariana Novo",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2020/10/11/outdoor-activities-for-fall-in-nyc/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DHCGGVC2YBGCDDTQO7QT5GJBGM.JPG"
+
+
+                }
+
+
+              ]
+
+
+        },
+
+
+        {
+
+
+            "name": "Finding Community During COVID-19",
+
+
+            "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TW6SDEWIVRF4NLL7RKXZ5QVRPI.jpg",
+
+
+            "blurb": "Our college career was interrupted by COVID-19, and it is important to remember that you are not alone. Though this pandemic has affected all of us differently, navigating a virtual school life is a first for all of us. Spectrum sought to help you navigate this new world with our tried-and-true blend of humor, sincerity, and practicality.",
+
+
+            "articles": [
+
+
+                {
+
+
+                  "title": "DormMatch: a solution to socializing in the time of COVID-19",
+
+
+                  "author": "Jane Mok",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2021/03/11/dormmatch-a-solution-to-socializing-in-the-time-of-covid-19/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7AZYS4HLNJBUNJ6MGIVJZXXEHM.jpg"
+
+
+                },
+
+
+                {
+
+
+                  "title": "Global Center and WeWork study spaces, explained",
+
+
+                  "author": "Swethaa Suresh",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2020/10/18/global-center-and-wework-study-spaces-explained/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YOJTHLFFEZGDTL75HFVDWPUX34"
+
+
+                },
+
+
+                {
+
+
+                  "title": "New semester, similar challenges: Putting a spotlight on mental health during the pandemic",
+
+
+                  "author": "Ryan Balderas, Caitlin Buckley, Haley Chung, Ariana Novo, and Charlotte Wu",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2021/01/25/new-semester-similar-challenges-putting-a-spotlight-on-mental-health-during-the-pandemic/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/4NEKEF23EJCPHKHSKPRPRM45FQ.png"
+
+
+                },
+
+
+                {
+
+
+                  "title": "Resources to help international students navigate Columbia during COVID-19",
+
+
+                  "author": "Swethaa Suresh",
+
+
+                  "link": "https://www.columbiaspectator.com/spectrum/2020/10/19/resources-to-help-international-students-navigate-columbia-during-covid-19/",
+
+
+                  "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RGWI2Y2EWRA2FFJ26NSND3KWDE.jpg"
+
+
+                }
+
+
+              ]
+
+
+        }
+
+
+    ]
+
+
+},
+ "Opinion": {
         "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SLKRYBOP4FHWVABUCFXNPNIDGU.gif",
         "blurb": "The editorial pages of the Spectator provide a comprehensive look into the most pressing, vulnerable topics affecting the Columbia community. This content aims not only to engage the reader but also to further discussion and catalyze action.",
         "items": [{
@@ -1447,27 +1827,29 @@ const data = {
     },
 	    "Sports": {
 		    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/AAD2GIS5FRAFJAWTYILCRUGFUE.jpg",
-		    "blurb": "Sports celebrates, explores, and investigates athletic life on campus, from the journeys of individual student athletes to the chemistry which shapes a team and the ways athletic institutions impact every facet of life at Columbia."
-		    "sections": [{
+		    "blurb": "Sports celebrates, explores, and investigates athletic life on campus, from the journeys of individual student athletes to the chemistry which shapes a team and the ways athletic institutions impact every facet of life at Columbia.",
+		    "sections": [
+          {
 			    "name": "Coronavirus",
 			    "link": "#coronavirus",
-			},
-			{
-			"name": "Black History Month",
-			"link": "#athlete-spotlight",
-			}, 
-			"name": "Athlete Spotlight",
-			"link": "#athlete-spotlight"
-			},
-			{
-			"name": "Team Culture",
-			"link": "#team-culture",
-			},
-			{
-			"name": "Administration",
-			"link": "#administration",
-			},
-			],
+          },
+          {
+          "name": "Black History Month",
+          "link": "#athlete-spotlight",
+          }, 
+          {
+          "name": "Athlete Spotlight",
+          "link": "#athlete-spotlight"
+          },
+          {
+          "name": "Team Culture",
+          "link": "#team-culture",
+          },
+          {
+          "name": "Administration",
+          "link": "#administration",
+          }
+        ],
 		"items": [{
 			"name": "Coronavirus",
 			"img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JO2PEX7OCZGFZKSDTXKWAZLALA.jpg",
@@ -1572,9 +1954,9 @@ const data = {
 			"img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WPOQAMFV3RAV5I6ALLF56IGWJU.jpg"
 			}, 
 			{
-			"title": "‘His footprint is all over the program’: How Josh Wainwright broke records and spearheaded the revitalization of Columbia football"
-			"author": "Bernard Wang"
-			"link": "https://www.columbiaspectator.com/sports/2021/04/28/his-footprint-is-all-over-the-program-how-josh-wainwright-broke-records-and-spearheaded-the-revitalization-of-columbia-football/"
+			"title": "‘His footprint is all over the program’: How Josh Wainwright broke records and spearheaded the revitalization of Columbia football",
+			"author": "Bernard Wang",
+			"link": "https://www.columbiaspectator.com/sports/2021/04/28/his-footprint-is-all-over-the-program-how-josh-wainwright-broke-records-and-spearheaded-the-revitalization-of-columbia-football/",
 			"img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JO2PEX7OCZGFZKSDTXKWAZLALA.jpg"
 			}
 			]
@@ -2045,389 +2427,149 @@ const data = {
     ],
     }, 
     "Graphics": {
-        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IQD4GSHP4VDOBDH6NK5XOL7V6U.gif",
-        sections: [{
-                "name": "Data Visualization",
-                "link": "#data-visualization"
-            },
-            {
-                "name": "Illustrations",
-                "link": "#illustrations"
-            }
-        ],
-        "blurb": "This past year the Spectator has worked to redefine journalism through the integration of data and visuals into our reporting. The Spectator Graphics team has contributed to innovative storytelling across News, Opinion, A&E, Sports, and The Eye in order to showcase the diverse talents of its staff and produce more compelling stories by showing, rather than just telling. A small group — but one with profound impact — the Spectator Graphics team is responsible for building web scrapers, data wrangling, visualizing data, and building interactive stories which seamlessly combine words, data, and visuals that ultimately create stories larger than the sum of their parts. Our team hopes to continue elevating the standard for journalism in the digital age for years to come.",
-        "items": [
-            //"Graphics",
-            {
-                "name": "Data Visualization",
-                "articles": [{
-                    "title": "The U.S. and Ivy League schools were late to respond to COVID-19. Data shows international universities did better.",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Q4S24TEP2ZFTNH6P245MIKDQYY.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2020/04/13/the-us-and-ivy-league-schools-were-late-to-respond-to-covid-19-data-shows-international-universities-did-better/",
-                    "author": "By the Spectator Graphics team"
-                },
-                {
-                    "title": "Columbia tuition rates are among the highest in the country. Is it worth it?",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/B6WTQOBD75DAPIBQARQWYNJORM.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2020/01/23/columbia-tuition-rates-are-among-the-highest-in-the-country-is-it-worth-it/",
-                    "author": "By Jason Kao"
-                }, {
-                    "title": "Who funds Bacchanal? A look at how the money moves",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UOJDCCWOKBFZVLVQTJFXNICDEY.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/02/19/who-funds-bacchanal-a-look-at-how-the-money-moves/",
-                    "author": "Graphics by Jessica Li"
-                }, {
-                    "title": "Decades of Uncertainty: A visual history of the linguistics major through the Spec archives",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6FWL3IYTB5BLNBDFH5XBXT5JHQ.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2019/10/18/linguistics-major-visual-history/",
-                    "author": "By Jason Kao and Seyla Phan"
-                }, {
-                    "title": "With classroom space shortage, Morningside Heights campus forced to expand boundaries",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ENIHZBUWZFHKLMDXHYROLMOY2I.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2019/09/19/with-classroom-space-shortage-morningside-heights-campus-forced-to-expand-boundaries/",
-                    "author": "Data analysis and graphic by Jason Kao"
-                }, {
-                    "title": "As the pandemic rages on, Columbia braces for widespread financial fallout",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WFPRUXS3GVDTBK3NXGCNI2S5Y4.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2020/04/16/as-the-pandemic-rages-on-columbia-braces-for-widespread-financial-fallout/",
-                    "author": "Data reporting and graphics by Jessica Li"
-                }, {
-                    "title": "West Harlem residents fall under the most at risk groups for contracting COVID. High poverty rates will make recovery an uphill battle",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UPO4WWVNY5FOZORE2JULYXGOCQ.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2020/04/13/west-harlem-residents-fall-under-the-most-at-risk-groups-for-contracting-covid-high-poverty-rates-will-make-recovery-an-uphill-battle/",
-                    "author": "Visual production by Jason Kao and Jun Yi Zhang | Graphics by Luke Dobrović"
-                }, 
-                {
-                    "title": "[100 words]: We asked how COVID-19 has impacted students’ lives.",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZCN6RYEPTFBF3PFXIYW4KESQRM.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/03/29/100-words-we-asked-how-covid-19-has-impacted-students-lives-here-are-their-responses/",
-                    "author": "Visual production by Hong Sen Du and Raeedah Wahid"
-                }, 
-                {
-                    "title": "Uncertainty Looms as Student Jobs are Disappearing During the Great Lockdown",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZG7PZ4NNCBFIZEASZLZCIYSE54.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/eye-lead/2020/05/15/uncertainty-looms-as-student-jobs-are-disappearing-during-the-great-lockdown/",
-                    "author": "Data analysis by Eve Washington | Interactives by Charlotte Li and Jason Kao"
-                }, 
-                {
-                    "title": "Segregation exposes Black residents to health risks. Hospitals are disincentivized from treating them",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GOJVXUXMDFBODOBQQ3WNNVSARY.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2020/04/18/segregation-exposes-black-residents-to-health-risks-hospitals-are-disincentivized-from-treating-them/",
-                    "author": "Data analysis and graphics by Mike Fu and Raeedah Wahid | Visual production by Hong Sen Du"
-                },  
-                {
-                    "title": "A space built for the community, the Forum remains inaccessible to local residents",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/OC4QIMFHRNCX5FETN4XJAJXM4Q.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2020/02/06/the-forums-design-prevents-west-harlem-residents-from-occupying-a-space-built-for-the-community/",
-                    "author": "Architectural rendering by Jun Yi Zhang"
-                },
-                {
-                    "title": "A decade in athletics: The men’s tennis team’s greatest generation never ended",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QU2DX2FX3BFEPOKXVPRI3JZUZU.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/sports/2020/03/30/a-decade-in-athletics-the-mens-tennis-teams-greatest-generation-never-ended/",
-                    "author": "Graphic by Natalie Guerra"
-                },
-                {
-                    "title": "“Landlords are waiting to pounce”: COVID-19 casts grim future for renters confronted by wave of evictions",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/REEM6K5BFVHYDA2N23KIL3Y4PU.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2020/04/28/landlords-are-waiting-to-pounce-covid-19-casts-grim-future-for-renters-confronted-by-wave-of-evictions/",
-                    "author": "Graphic by Jessica Li"
-                },
-                {
-                    "title": "“They don’t follow the rules”: Inside Barnard’s broken relationship with its employee union",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/VP5UMBAUNNDJNE6Z5GBIOKZPLQ.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2019/10/17/they-dont-follow-the-rules-inside-barnards-broken-relationship-with-its-employee-union/",
-                    "author": "Graphic by Kelly Pu"
-                },
-                {
-                    "title": "Students and Faculty Say Gender-Based Harassment and Discrimination at Columbia is Systemic. Why Are They Turning Away From the System Built to Address It?",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HPXEFBF3GFDEXDVPMCSOVHYSSI.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/eye-lead/2019/11/15/students-and-faculty-say-gender-based-harassment-and-discrimination-at-columbia-is-systemic-why-are-they-turning-away-from-the-system-built-to-address-it/",
-                    "author": "Visual production and graphic by Jason Kao"
-                },
-                {
-                    "title": "‘The next chapter’: Despite history of alumni apathy, Bollinger-era initiatives drive newfound culture of engagement",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4E3VGN4BF5HT5EHHDZEI45DCSQ.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2019/10/31/the-next-chapter-despite-history-of-alumni-apathy-bollinger-era-initiatives-drive-newfound-culture-of-engagement/",
-                    "author": "Graphic by Charlotte Li"
-                },
-                {
-                    "title": "Stacking up: Where do Columbia’s contributions to the community rank among its Ivy peers?",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5XBKZ4TJU5FMPB2SLZDZ3DPDBU.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2019/10/24/stacking-up-where-do-columbias-contributions-to-the-community-rank-among-its-ivy-peers/",
-                    "author": "Data reporting by Stephanie Lai | Graphics by Fiorella Alessandra Chacon"
-                },
-                {
-                    "title": "Community members see long-awaited safety improvements to Morningside Park in aftermath of Majors’ death",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UYJHXMLRP5BY3LZKKQHK6R4M5Y.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2020/01/30/community-members-see-long-awaited-safety-improvements-to-morningside-park-in-aftermath-of-majors-death/",
-                    "author": "Data reporting and visualization by Charlotte Li"
-                },
-                {
-                    "title": "Over a fourth of West Harlem did not self-report in the 2010 census. COVID-19 could make numbers worse",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7V7J6OIRAFFX7AK2ZU4ZFUP6AQ.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2020/04/02/over-a-fourth-of-west-harlem-was-not-self-reported-in-the-2010-census-covid-19-could-make-numbers-worse/",
-                    "author": "Graphic by Ivana Moore"
-                },
-                {
-                    "title": "“It put Columbia on the map”: Lightweight rowing’s irreverent Instagram helps promote culture, pull in recruits",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3PK6XZSPRBACXP6V5FHLUIUCPE.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/sports/2020/04/24/it-put-columbia-on-the-map-lightweight-rowings-irreverent-instagram-helps-promote-culture-pull-in-recruits/",
-                    "author": "Data reporting by Clara Ence Morse and Kelly Pu | Graphics by Kelly Pu"
-                },
-                {
-                    "title": "Student Groups Search for Space on a Crowded Campus. A Recently Open Brownstone is the Answer for One",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/DSWK23FDMNE7ROXWVBQ2AVZUTI.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2020/02/13/student-groups-search-for-space-on-a-crowded-campus-a-recently-open-brownstone-is-the-answer-for-one/",
-                    "author": "Graphic by Jun Yi Zhang"
-                },
-                {
-                    "title": "As Majors’ case awaits trial, experts say public urgency has led to unfair treatment of youth suspects",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FSXAG5N75NAIRG5ULL3MUYAK7M.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/news/2020/03/25/as-majors-case-awaits-trial-experts-say-public-urgency-has-led-to-unfair-treatment-of-youth-suspects/",
-                    "author": "Graphic by Jason Kao"
-                },
-                {
-                    "title": "A decade in athletics: Track and field crosses a threshold after a century with little momentum",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YKPVOEQCPBDRHIY6N6H3QGM7GM.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/sports/2020/04/28/a-decade-in-athletics-track-and-field-crosses-a-threshold-after-a-century-with-little-momentum/",
-                    "author": "Graphic by Natalie Guerra"
-                },
-                {
-                    "title": "A decade in athletics: Women’s tennis enjoys historic firsts",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7Z5SUMLUJRHWRHM62GCKQUMLRU.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/sports/2020/04/27/a-decade-in-athletics-womens-tennis-enjoyed-historic-firsts/",
-                    "author": "Graphic by Natalie Guerra"
-                }]
-            },
-            {
-                "name": "Illustrations",
-                "articles": [{
-                    "title": "The Map For My Bladder",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FY4EIRGP55HQPEXVWKYEHQECTA.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2020/02/18/the-map-for-my-bladder/",
-                    "author": "Robert Hunter"
-                  },
-                  {
-                    "title": "All the world’s a stage for senior thesis directors’ livestream productions",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YVNDEXJWAFGKLK7ZXMVISQY5N4.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/04/09/all-the-worlds-a-stage-for-senior-thesis-directors-livestream-productions/",
-                    "author": "Angela Wei"
-                  },
-                  {
-                    "title": "A how-to on gift-giving from afar",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/63WMD56XIZFPBLBHOBTKFYERW4.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/spectrum/2020/04/10/a-how-to-on-gift-giving-from-afar/",
-                    "author": "Nicole Yang"
-                  },
-                  {
-                    "title": "Petition to bully anyone who disagrees with my petition",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/62S2YQKM3NAIJBAHFVG5YIMSPE.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/01/petition-to-bully-anyone-who-disagrees-with-my-petition/",
-                    "author": "Carlos Ochoa"
-                  },
-                  {
-                    "title": "Bi the way...",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/55Q4YJY2FFGHHOH3ICK3TQ7SCE.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2019/09/03/bi-the-way/",
-                    "author": "Aaron Jackson"
-                  },
-                  {
-                    "title": "Online Classes Are Not New at Columbia—But Amid the Pandemic, They Look Different.",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/4E2QOOR7JZFFLKD5RG22INWLQA.JPG",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2020/04/24/online-classes-are-not-new-at-columbiabut-amid-the-pandemic-they-look-different/",
-                    "author": "Natalie Tak"
-                  },
-                  {
-                    "title": "The restorative benefits of banana bread",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/OIRNLNI7ANA2ZGAFA2UJXSAOK4.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/02/19/the-restorative-benefits-of-banana-bread/",
-                    "author": "Brenda Huang"
-                  },
-                  {
-                    "title": "An uncomfortable faith",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SLKRYBOP4FHWVABUCFXNPNIDGU.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/section-lead/2019/09/20/an-uncomfortable-faith/",
-                    "author": "Beatrice Lintner"
-                  },
-                  {
-                    "title": "Pete Buttigieg is the old man’s millennial",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WQ3FZ6HMUVED3JHVAZNWW3YMHI.jpeg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/01/28/pete-buttigieg-is-the-old-mans-millennial/",
-                    "author": "Liz Nichols"
-                  },
-                  {
-                    "title": "Social distancing was just abstract advice for college students. Then my grandfather died.",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3VLMOFFDMFF5FOURPNS4DVNFTA.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/06/social-distancing-was-just-abstract-advice-for-college-students-then-my-grandfather-died/",
-                    "author": "Liza Evseeva"
-                  },
-                  {
-                    "title": "Don’t call me whitewashed. Not now.",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QUBVGUVW2RGWRN75ZBAZD5TAKM.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/13/dont-call-me-whitewashed-not-now/",
-                    "author": "Stephanie Koo"
-                  },
-                  {
-                    "title": "What is sex and intimacy in isolation?",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CGY46BD3QZCLPOIWPDFDRWBR3M.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/19/what-is-sex-and-intimacy-in-isolation/",
-                    "author": "Sam Wilcox"
-                  },
-                  {
-                    "title": "Man in Hungarian Pastry Shop writes MFA thesis based on you",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/2IKAXOSPI5H7JDKBMKWWDGYPXE.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2019/11/06/man-in-hungarian-pastry-shop-writes-mfa-thesis-based-on-you/",
-                    "author": "Ashley Jiao"
-                  },
-                  {
-                    "title": "The cost of education",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/YUAK424SNNATZPN2EHLUDOI25M.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/02/20/the-cost-of-education/",
-                    "author": "Tassneen Bashir"
-                  },
-                  {
-                    "title": "Student “absolutely positive” that girl from Zoom class is locking eyes with him",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/V6BKKZ6RRVC7JDHO5CL5FVDN4E.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/15/student-absolutely-positive-that-girl-from-zoom-class-is-locking-eyes-with-him/",
-                    "author": "Carlos Ochoa"
-                  },
-                  {
-                    "title": "Party of One",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/Y42TF6UKUBCC7NNMOSACXNDQAY.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2020/03/05/party-of-one/",
-                    "author": "Tina Wang"
-                  },
-                  {
-                    "title": "Alternative milks: a review",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/J5GKJ62EHVGLBCAKL74DI2S3PQ.jpeg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/spectrum/2019/10/13/alternative-milks-a-review/",
-                    "author": "Ray Banke"
-                  },
-                  {
-                    "title": "Foreign film watchlist for quarantine",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/F3DXHHOODFGOTB3IJ74ZZ7JWBY.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/spectrum/2020/04/27/foreign-film-watchlist-for-quarantine/",
-                    "author": "Liza Evseeva"
-                  },
-                  {
-                    "title": "In 2015, Union Theological Seminary Announced It Would Sell Its Air Rights. Students Feel It Sold Its Values Too.",
-                    "front_image": "https://spectator-static-assets.s3.amazonaws.com/uts/jts-illo.3857229b.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/eye-lead/2019/11/26/in-2015-union-theological-seminary-announced-it-would-sell-its-air-rights-students-feel-it-sold-its-values-too/",
-                    "author": "Robert Hunter"
-                  },
-                  {
-                    "title": "Inside the Organization Mobilizing Students Across 1,500 Living Rooms to Support Hospital Workers",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/R57FSHN3C5BH3LN6TXSMCGWTOM.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2020/04/20/inside-the-organization-mobilizing-graduate-students-across-1500-living-rooms-to-support-hospital-workers/",
-                    "author": "Ellie Soh"
-                  },
-                  {
-                    "title": "Dear Asian members of the Columbia community",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YLAS4KJWPNATHF5AHTJ7BOBQ7Q.jpeg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/10/dear-chinese-students-from-your-muslim-peer/",
-                    "author": "Sam Wilcox"
-                  },
-                  {
-                    "title": "Don’t throw out my legos",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PVSRKSO35BHPVM2LS6G7MIODY4.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/03/dont-throw-out-my-legos/",
-                    "author": "Ashley Jiao"
-                  },
-                  {
-                    "title": "Defining a New Normal",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CG4DVUML6ZEF7K3LHYTOWKEGPE.jpg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2020/03/24/defining-a-new-normal/",
-                    "author": "Ray Banke"
-                  },
-                  {
-                    "title": "How Do You Clap Back at a Middle-Aged Family Member Who Posts Hate About You on Instagram?",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QDKH6MXZ3RFIPAEJ5A72IKSJEI.png",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2019/10/30/how-do-you-clap-back-at-a-middle-aged-family-member-who-posts-hate-about-you-on-instagram/",
-                    "author": "Tina Wang"
-                  },
-                  {
-                    "title": "Without Warning",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/FTACYVPX2FCVXALQDRMPCZT3GM.jpeg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2019/11/12/without-warning/",
-                    "author": "Brenda Huang"
-                  },
-                  {
-                    "title": "Ramadan is usually a time for community. Isolation makes this difficult but not impossible.",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/QOWQMSN7FNE3LLDRVWOY6MAW4Y.jpeg",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/04/20/ramadan-is-usually-a-time-for-community-isolation-makes-this-difficult-but-not-impossible/",
-                    "author": "Stephanie Koo"
-                  },
-                  {
-                    "title": "The Columbia Minecraft Club: Building a Community, Block by Block",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/UILKI2OV6BBFHI4O5AJLMNZIHY.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/the-eye/2019/10/24/the-columbia-minecraft-club-building-a-community-block-by-block/",
-                    "author": "Tassneen Bashir"
-                  },
-                  {
-                    "title": "On setting boundaries",
-                    "front_image": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/ZBETGBVF2BHDXDIAZ3S5XQXLMQ.gif",
-                    "description": "",
-                    "link": "https://www.columbiaspectator.com/opinion/2020/03/04/on-setting-boundaries/",
-                    "author": "Aaron Jackson"
-                  }]
-            }
-        ]
-    },
-    "Illustrations": {
+      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IPI62R3RUZAI7CUG663E46OBO4.png",
+
+      /* 
+      There shouldn't be any need for sections (Graphics is not split into DataViz and Illos)
+      This sectioning also does not show up on the 2019-20 site
+
+      Commented things out & changed things based on the structure of the illustrations part of the 2019-20 file; please double check :))
+      */
+
+      /*
+      sections: [{
+              "name": "Data Visualization",
+              "link": "#data-visualization"
+          },
+          {
+              "name": "Illustrations",
+              "link": "#illustrations"
+          }
+      ],
+      */
+
+      "blurb": "This year, the Spectator graphics team has expanded the understanding of graphics in journalism. We combined the analysis of new data sources with more comprehensive reporting to truly integrate data with our journalism. Our talented staff continuously pushed for compelling and nuanced visuals in both our independent graphics pieces and our collaborations with other sections. Some of our most memorable stories ranged from Columbia-affiliated campaign contributions and New York Police Department officer misconduct to the struggles of international students during COVID-19 and the persistent gender disparities in athletics’ funding. Find them here, and keep an eye out for all the work to come.",
+      "items": [
+          {
+              "name": "Graphics", //changed this
+              "articles": [{
+                  "title": "International students struggle to learn across time zones as COVID-19 keeps them out of New York City",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/Y2XUZ63SPRD53MJ75D4F73LMJE.png",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2021/03/08/international-students-struggle-to-learn-across-time-zones-as-covid-19-keeps-them-out-of-new-york-city/",
+                  "author": "Jun Yi Zhang, Melissa Wang, Jessica Li, and Michelle Xu | Illustration by Brenda Huang"
+              },
+              {
+                  "title": "What happened to NYPD officers who were charged with misconduct? They were promoted or paid more.",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PMKZKYSIQRF4FG46PPVA2OFCMY.gif",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2020/09/22/what-happened-to-nypd-officers-who-were-charged-with-misconduct-they-were-promoted-or-paid-more/",
+                  "author": "Stephanie Lai and Raeedah Wahid"
+              }, 
+              {
+                  "title": "Columbia affiliates donated far more to Biden, but Trump fares better than in 2016",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2DQCP5TXURDQBMBWBK3WTESHVU.png",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2020/11/06/columbia-affiliates-donated-far-more-to-biden-but-trump-fares-better-than-in-2016/",
+                  "author": "Luke Dobrovic and Ellen Guo | Edited by Raeedah Wahid and Jessica Li | Illustrations by Melissa Wang"
+              }, 
+              {
+                  "title": "Housing, natural disasters, and streetscape: the various fronts of environmental racism in Harlem and throughout the city",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DCKVMOFNF5GPPFVZIHQQQXC4EE.jpg",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2021/02/16/housing-natural-disasters-and-streetscape-the-various-fronts-of-environmental-racism-in-harlem-and-throughout-the-city/",
+                  "author": "Data reporting and map by Ellen Guo"
+              },
+              {
+                  "title": "‘We have work to do’: examining Columbia Athletics’ persistent gender disparity in team funding",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5JURPD5OHRBIRESOBVSBHV5RL4.png",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/sports/2021/03/26/we-have-work-to-do-examining-columbia-athletics-persistent-gender-disparity-in-team-funding/",
+                  "author": "Data reporting and graphics by Clara Ence Morse and Andrew Park"
+              }, 
+              {
+                  "title": "For Athletes, Career Networks Unlock a World of Opportunity in Finance and Consulting",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QXE3OJ2M45ELNBQ5PBPKKYQRAE.gif",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/the-eye/2020/11/14/for-athletes-career-networks-unlock-a-world-of-opportunity-in-finance-and-consulting/",
+                  "author": "Graphics by Melissa Wang and Charlotte Li"
+              },  
+              {
+                  "title": "A COVID-19 vaccine is on its way, but a majority of West Harlem residents won’t see it anytime soon",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UGU6SVCTP5G4NIZWXA4LFPPU34.png",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2020/08/04/a-covid-19-vaccine-is-on-its-way-but-a-majority-of-west-harlem-residents-wont-see-it-anytime-soon/",
+                  "author": "Elizabeth Commisso and Chloe Kok | Edited by Raeedah Wahid | Illustration by Melissa Wang"
+              }, 
+              {
+                  "title": "The ‘inescapable’ effect of off-campus athletics: How the distance to Baker has shaped Columbia’s recruiting, performance, and sports culture",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QDRHN4DIZRD6TFTTAOAADFL7WU.gif",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/sports/2020/12/09/the-inescapable-effect-of-off-campus-athletics-how-the-distance-to-baker-has-shaped-columbias-recruiting-performance-and-sports-culture/",
+                  "author": "Visual design by Jefferson Sheng and Jun Yi Zhang | Interactives by Victoria Geh, Evan Li, Patrick Puma, and Hong Sen Du"
+              }, 
+              {
+                  "title": "When restaurants struggle to survive, what does it mean for the community?",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BMVFGM5RKBGK7IA37J53BQDDRQ.png",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/photo-essays/2021/01/21/when-restaurants-struggle-to-survive-what-does-it-mean-for-the-community/",
+                  "author": "Interactive table by Elizabeth Commisso and Charlotte Li"
+              }, 
+              {
+                  "title": "As public school enrollment plummets citywide, hard-hit West Harlem schools work to support students",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/IRY7WR47IRADJL2DMBVKPSNQ5Y.png",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2021/03/12/as-public-school-enrollment-plummets-citywide-hard-hit-west-harlem-schools-work-to-support-students/",
+                  "author": "Data analysis and graphics by Jefferson Sheng and Ethan Zhang"
+              },  
+              {
+                  "title": "Columbia canceled housing contracts, so 14,000 students moved into the city. What does this mean for the local housing market?",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/I3HOTOHX2VCQVIMLNZGFXZKZYM.png",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2020/11/11/columbia-canceled-housing-contracts-so-14000-students-moved-into-the-city-what-does-this-mean-for-the-local-housing-market/",
+                  "author": "Graphic by Charlotte Li and Jason Kao"
+              },
+              {
+                  "title": "Broken windows policing and gentrification not only harmed the Black community, but also strengthened Columbia’s reputation",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/TQTXQPVCLJHDBCZCDPYZHGVC7Q.gif",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2020/10/05/broken-windows-policing-and-gentrification-not-only-harmed-the-black-community-but-also-strengthened-columbias-reputation/",
+                  "author": "Map by Jason Kao"
+              },
+              {
+                  "title": "As COVID-19 cases rise, so does food insecurity among the homeless. Can food providers and shelters keep up?",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VDGJU3SX3VF47GLCMNH2MNHEWM.png",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2020/11/30/as-covid-19-cases-rise-so-does-food-insecurity-among-the-homeless-can-food-providers-and-shelters-keep-up/",
+                  "author": "Maya Mitrasinovic (News) and Elizabeth Commisso"
+              },
+              {
+                  "title": "Hotly contested city council race draws deep-pocket support from housing industry",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/27T76RPOZNEFFH6LAOQJBB2U6U.png",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2020/11/17/hotly-contested-city-council-race-draws-deep-pocket-support-from-housing-industry/",
+                  "author": "Lucy Brenner (News), Ivana Moore, and Carmen Sherlock (News)"
+              },
+              {
+                  "title": "Local affordable housing initiatives face challenges posed by the COVID-19 recession",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/I3JK7AXLVNH5ZGOICA4PI54U34.png",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2020/11/15/local-affordable-housing-initiatives-face-challenges-posed-by-the-covid-19-recession/",
+                  "author": "Graphic by Jefferson Sheng and Pranay Talla"
+              },
+              {
+                  "title": "Virtual counseling and remote campus life present new challenges for students struggling with mental health",
+                  "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZKIWTZKTAZGDNAWNJL5WQQBCEE.jpg",
+                  "description": "",
+                  "link": "https://www.columbiaspectator.com/news/2021/02/23/virtual-counseling-and-remote-campus-life-present-new-challenges-for-students-struggling-with-mental-health/",
+                  "author": "Graphic by Jefferson Sheng"
+              }]
+          }
+      ]
+  },
+      "Illustrations": {
         "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PVRSAJGM3VAEDNF4M4O54ZZAO4.png",
-        sections: [],
+        "sections": [],
         "blurb": "Visual memory draws much more than just an image — it captures an experience. As Illustrators, we build empathy between writer and reader, no matter the piece. During a year when remote learning and campus communities felt more disconnected than ever, our illustrators bridged that gap by visualizing the colors, themes, and imagery of personal experience and emotion. Whether we are covering the 2020 election, recounting details of a year on zoom, or simply finding the silver-linings of everyday life, we encourage you to think outside the box and reflect upon the past year — through our eyes. ",
          "Illustrations_Essays": {
             "name": "Illustrations Essays",
@@ -2447,7 +2589,7 @@ const data = {
                     "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/7OODNYBX5VFU3MHWLKNB2VXPNE.gif"
                 },
 		    ]
-		    }
+		    },
 		"items": [
             {
                 "name": "Illustrations",
@@ -2586,7 +2728,7 @@ const data = {
                   },
                   {
                     "title": "Green is the new black: Columbia community members push for sustainable fashion",
-                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PGQLDKQQE5FXTGL4UIC22KKESM.png,
+                    "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/PGQLDKQQE5FXTGL4UIC22KKESM.png",
                     "description": "",
                     "link": "https://www.columbiaspectator.com/arts-and-entertainment/2020/12/03/green-is-the-new-black-columbia-community-members-push-for-sustainable-fashion/",
                     "author": "Aaron Jackson"
