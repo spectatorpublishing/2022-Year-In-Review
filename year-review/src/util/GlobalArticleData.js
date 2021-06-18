@@ -6,7 +6,11 @@ const data = {
             "name": "News",
             "link": "#news"
         },
-        {
+        {	
+	    "name": "Opinion" 
+	    "link": "#opinion"
+	{, 
+	{
             "name": "Spectrum",
             "link": "#spectrum"
         },
@@ -159,6 +163,46 @@ const data = {
                         "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/M27IEPDGDNHHZNJRGPV3B6T2WI.jpg",
                         "description": "In April, Columbia settled for $13 million in a class-action lawsuit over alleged breaches in fiduciary duty regarding the management of its employee retirement plans.Read More ",
                         "link": "https://www.columbiaspectator.com/news/2021/06/01/columbia-settles-for-13-million-in-class-action-lawsuit-over-unnecessarily-expensive-and-underperforming-employee-retirement-plans/",
+                        "author": "Princeton Huang / Staff Photographer"
+                      }
+                ]
+	    }, 
+            {
+                "name": "Opinion",
+                "articles": [
+                    {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FPKMOEAYMFFNHICMV4QPGJVSJI.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FPKMOEAYMFFNHICMV4QPGJVSJI.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/opinion/2021/04/08/the-test-optional-revolution-what-does-it-mean-for-the-ivy-leagues-next-generations/",
+                        "author": "Princeton Huang / Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MBHU67XWMJGL5AN25TPE3ET44E.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/MBHU67XWMJGL5AN25TPE3ET44E.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/opinion/2021/04/09/columbias-zero-tolerance-pandemic-policies-arent-working/",
+                        "author": "Princeton Huang/ Staff Photographer"
+                      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YM6WMKZCD5A6TGF2PNSL2I4TKQ.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YM6WMKZCD5A6TGF2PNSL2I4TKQ.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/opinion/2020/10/19/the-mailman-school-of-public-health-prioritizes-its-fiscal-health-over-its-students-health/",
+                        "author": "Rommel Nunez / Staff Photographer"
+ 		      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UIOKTATV5BB3POF6L3QHNRAPYY.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UIOKTATV5BB3POF6L3QHNRAPYY.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/main/2021/03/15/a-letter-from-your-ta-on-the-upcoming-strike/",
+                        "author": "Princeton Huang/ Staff Photographer"  
+		      },
+                      {
+                        "front_image": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UWLS4O3IIJGNNPVKPNZVVGPM5M.jpg",
+                        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UWLS4O3IIJGNNPVKPNZVVGPM5M.jpg",
+                        "description": "Read more ",
+                        "link": "https://www.columbiaspectator.com/main/2021/03/31/reflecting-on-the-pandemic-prompts-opportunity-for-personal-growth/",
                         "author": "Princeton Huang / Staff Photographer"
                       }
                 ]
