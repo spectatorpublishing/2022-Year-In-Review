@@ -1,9 +1,23 @@
 const HomepagePhotos = [
-    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/7YQAUCXS7BFHBBQZNURY7PNW7A.jpg",
-    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/I2423YJA2JD2LCBU3D3RHJOIOU.jpg",
-    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6XKFOQJYZRCD7AT4LY7FFCWP6E.jpg",
-    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JV3NGZQ75ZADBLVIA6PW65WIRU.jpg",
-    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/JQWMSIYH3RFARAAOBOIOQXTK2I.jpg",
-    "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/CTKF2G5UFBCLLNRPDR3JLFBWYU.jpg"
+    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DVTQQRVHMVEGHCO7RWXPOYP2NM.jpg",
+
+    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/X5VA524PJBCGRD26WY2XESCLYY.jpg",
+    
+    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/JJU7IW7O5JGCZDITQ4GJDWKRBA.jpg",
+    
+    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SHPAZ2WVBJFRZJTVODWZRXB3VM.jpg",
+    
+    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LBM374BXYNGJ5H6TZHYIPB3ZVI.jpg",
+    
+    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/34BUCNV5XZA3XPN4FE2NC3LQVY.jpg",
+    
+    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2GDOYBTXOVFBHO4TOM3Y2WYRXY.jpg",
+    
+    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/FMENGH7PNBC63E6PXVDYSR6UWI.jpg",
+    
+    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SNESRWCT5ZDDTH5C2KRVP7HZZA.jpeg",
+    
+    "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/UZHGOFGMAVAUJKQ4FO54E77FOA.jpg",
+    
 ]
 export default HomepagePhotos

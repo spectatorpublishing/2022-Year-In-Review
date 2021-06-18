@@ -7,10 +7,10 @@ const data = {
             "link": "#news"
         },
         {	
-	    "name": "Opinion" 
-	    "link": "#opinion"
-	{, 
-	{
+          "name": "Opinion", 
+          "link": "#opinion"
+        }, 
+	      {
             "name": "Spectrum",
             "link": "#spectrum"
         },
