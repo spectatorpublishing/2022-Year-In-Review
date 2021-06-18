@@ -979,6 +979,12 @@ const data = {
               "blurb": "This year, artists grappled with how to make the arts more inclusive and representative of different cultures, especially following the racial unrest of the summer. The Wallach Art Gallery, for example, held its Uptown Triennial featuring artists of color in dialogue with the Harlem Renaissance, while the 2021 MODA Curates exhibition examined the intersection of aesthetics and cultural history. The Core Curriculum recently underwent some changes, such as the introduction of Claudia Rankine’s “Citizen” into the Literature Humanities curriculum and music of the civil rights era into the Music Humanities curriculum. Student groups like Black Theatre Ensemble showcased works that empowered artists of color while questioning how the theater industry currently functions. With some students lacking resources or materials to complete their required classes from home, some departments helped students financially or mailed over supplies. In addition, after an upsurge in anti-Asian violence, some arts groups raised money for community organizations to support vulnerable populations.",
               "articles": [
                   {
+                    "title": "The Changing Food Landscape: How The Columbia area shifted from mom-and-pop restaurants to a hotspot for chains and trendy eats",
+                    "author": "Noah Sheidlower",
+                    "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/06/17/the-changing-food-landscape-how-the-columbia-area-shifted-from-mom-and-pop-restaurants-to-a-hotspot-for-chains-and-trendy-eats/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZFLZ4YW5KZBUVJG5FITZIH655Q.JPG"
+                  },
+                  {
                     "title": "2021 MODA Curates highlights underrepresented communities through art at the intersection of aesthetics and cultural history",
                     "author": "Vincent Hou",
                     "link": "https://www.columbiaspectator.com/arts-and-entertainment/2021/04/15/2021-moda-curates-highlights-underrepresented-communities-through-art-at-the-intersection-of-aesthetics-and-cultural-history/",
