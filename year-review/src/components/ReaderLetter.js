@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 
-const letter = 
-"This past academic year has seen changes of unprecedented nature. Ending the fall semester with the tragic loss of Barnard first-year Tessa Majors, we plunged into another semester only to have to evacuate campus and transition to remote learning as the world battled with the COVID-19 pandemic. The events of these months—both at the University and across the nation—will be documented as pivotal events in history for years to come.\
-\n\nThroughout this time, we have striven to show how universities and colleges hold more power than just that within the realm of academia—they are capable of impacting thousands of people beyond just the walls of their campuses. As students, staff, administrators, investors, and West Harlem residents continue to grapple with Columbia’s global impact as an institution, we at Spectator will continue to critically engage with institutional practices and shine a light on betrayals of public trust by Columbia.\
-\n\nThough at first glance, Columbia seems to be a predominantly academic and intellectual space, the events of this year demonstrate that there are many more facets of a multi-billion dollar institution that remain unexplored. As such, we also made the critical decision this year to expand our coverage of Columbia’s relationship with the community with pieces that examine how historical factors—such as the exclusion of low-income Black residents from Morningside Heights—have lasting impacts on healthcare resources, public education, and more for West Harlem residents. What happens during a public health crisis when the only hospital in West Harlem is located in a neighborhood founded on anti-Blackness? While students, faculty, and administrators scrambled to leave campus, how does the University ensure the safety of the essential workers who helped those populations get home?\
-\n\nWe invite you to take a look back on the stories that shaped a turning point in Columbia’s history.\
-"
+const letter = `Dear readers, 
+
+This has been a year of change like no other. For many of us, we spent the year away from Morningside Heights, creating a Columbia community from the confines of our bedroom. However, a remote campus has not stopped the forces of social justice across the campus. Throughout the course of a global pandemic, we have seen a tuition strike rise and eventually fall, a student workers’ strike that led to the Graduate Workers of Columbia-United Auto Workers’ first proposed contract, though it was eventually rejected. The events of the 2020-21 school year will be moments that will define not only Columbia but also New York City and the United States for decades to come. 
+
+At Spectator, we have used our year of remote learning to show the inequities within the Morningside Heights and West Harlem communities and how Columbia’s power as a major research institution has increased those gaps. As the University continues to engage with its students, faculty, administrators, and trustees and continues to expand its influence over members of the Morningside Heights and West Harlem communities, we will continue to hold those in power to account and investigate what goes on inside the offices in Low Library. 
+
+While the University may appear to be an institution primarily focused on education, this year has demonstrated that a multi-billion dollar research university has far more stories to be told than just those in the classroom. This year, we focused on interrogating how Columbia interacts with its students and the larger community. We hope that through observing the events of the past year—from how the COVID-19 vaccine was unevenly distributed between Morningside Heights and Harlem to the depleting local business scene on Broadway to how the University’s athletic facilities negatively influence recruitment and performance—you can look at Columbia a little bit differently than you did before.  
+
+We invite you to take a look back on the stories this year that shaped a turning point in Columbia’s history and will continue to influence the University’s future.
+`;
 
 
 let LetterContain = styled.div`
@@ -120,8 +124,8 @@ class EditorLetter extends Component {
             <TempLetter> Dear Readers, </TempLetter>
             <TitleBlurb>{letter}</TitleBlurb>
             <Border><SectionDivider/></Border>
-            <Line>Karen Xia, <Role>Editor in Chief, President</Role></Line> 
-            <Line>Shubham Saharan, <Role>Managing Editor, Vice President</Role></Line> 
+            <Line>Sarah Braka, <Role>Editor in Chief, President</Role></Line> 
+            <Line>Lizzie Karpen, <Role>Managing Editor, Vice President</Role></Line> 
           </LetterContain>
         </Desktop>
         <MobileAndTablet>
@@ -129,8 +133,8 @@ class EditorLetter extends Component {
             <MobileLetter> Dear Readers, </MobileLetter>
             <MobileBlurb>{letter}</MobileBlurb>
             <Border><SectionDivider/></Border>
-            <MobileLine>Karen Xia, <MobileRole>Editor in Chief, President</MobileRole></MobileLine> 
-            <MobileLine>Shubham Saharan, <MobileRole>Managing Editor, Vice President</MobileRole></MobileLine> 
+            <MobileLine>Sarah Braka, <MobileRole>Editor in Chief, President</MobileRole></MobileLine> 
+            <MobileLine>Lizzie Karpen, <MobileRole>Managing Editor, Vice President</MobileRole></MobileLine> 
           </MobileContain>
         </MobileAndTablet>
       </React.Fragment>

@@ -8,8 +8,7 @@ import EditorLetter from '../components/EditorLetter'
 import PhotoGrid from '../components/PhotoGrid';
 import { opinion_sections } from '../util/OpinionData'
 
-const letter = "Throughout this year of immense and varied loss, I have seen both ardent resilience and raw vulnerability reflected on the Opinion pages. Our community was able to keep grief and fear at bay long enough to do something about these tragedies, to thoroughly examine how they have highlighted and exacerbated inequalities, and to try to induce change. I want to express my gratitude to our student, faculty, and community-leader contributors for writing this past year, as I know it could not have been easy at times. I sincerely hope that the issues and solutions you have debated are continuously reexamined, even in more peaceful times.\
-\n\nStay safe, everyone. I hope to see you all again soon,"
+const letter = "Growing used to the new online normal, Columbia students have responded with resilience. Those of us on the editorial team have seen our community grow and adapt to these new challenges in stride. While it would have been possible and understandable for contributors to turn inward and lament about their own problems, we have instead seen a zeal for equity that has only been highlighted by the pandemic. This year’s work proves that nothing can stop the members of the Columbia community from lifting each other up, and we hope you too can experience this as you read through our op-eds, columns, and cartoons."
 
 
 export default class OpinionContainer extends Component {
@@ -18,7 +17,7 @@ export default class OpinionContainer extends Component {
     return (
       <React.Fragment>
           <PageIntro title="OPINION" description={this.props.data.blurb} img_src={this.props.data.img}/>
-          <EditorLetter letter={letter} author="Tamarah Wallace" role="Editorial Page Editor"/>
+          <EditorLetter letter={letter} author="Ryan Oden" role="Editorial Page Editor"/>
 
           <ExpandingColumns data = {opinion_sections}/>
           <ScrollingNavBar menuItems={opinion_sections}>
