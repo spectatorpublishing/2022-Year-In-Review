@@ -40,7 +40,7 @@ const Inner = styled.div`
 `;
 
 const Front = styled.div`
-  background-image: url(${({front_image}) => front_image});
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${({front_image}) => front_image});
   background-size: cover;
   background-position: center;
   transition: background-image .3s ease;
@@ -80,7 +80,7 @@ const FrontAuthor = styled.h4`
   margin-top: 10vh;
   font-size: 1.7em;
   color: ${props => props.theme.white};
-  text-shadow: ${props => props.theme.shadow};
+  text-shadow: rgba(0, 0, 0, 1.5) 0 0 20px;
   opacity: ${({shadowed}) => shadowed && "0.4"};
 
   @media only screen and (max-width: 991px){
