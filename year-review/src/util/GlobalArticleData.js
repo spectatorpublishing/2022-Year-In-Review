@@ -704,7 +704,19 @@ const data = {
                       "author": "Miles Schachner, Elizabeth Karpen, Clara Ence Morse, Melissa Wang, and Charlotte Li",
                       "link": "https://www.columbiaspectator.com/the-eye/2020/11/14/for-athletes-career-networks-unlock-a-world-of-opportunity-in-finance-and-consulting/",
                       "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3VK2J6NNKRGJRDF3PNHCAULE6I.jpg"
-                    }
+                    },
+                    {
+                      "title": "The Price Is Not Right: After Decades of Rising Tuition, Students Ask Themselves if the Diploma Is Still Worth the Cost",
+                      "author": "Isabella Aldrete",
+                      "link": "https://www.columbiaspectator.com/the-eye/2021/02/19/the-price-is-not-right-after-decades-of-rising-tuition-students-ask-themselves-if-the-diploma-is-still-worth-the-cost/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/42E4U2LTA5E5ZCE7JQZNY7UUCU.png"
+                    },
+                    {
+                      "title": "A Student’s Race for City Council: Maria Ordoñez on Her Decision to Represent District 7",
+                      "author": "Lilienne Shore Kilgore-Brown",
+                      "link": "https://www.columbiaspectator.com/the-eye/2021/04/15/a-students-race-for-city-council-maria-ordonez-on-her-decision-to-represent-district-7/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/5YWKZZPPKNE37GSCTKLRM4Z7YY.jpg"
+                    },
                   ]
             },
             {
@@ -790,40 +802,66 @@ const data = {
                       "author": "Megan Lunny",
                       "link": "https://www.columbiaspectator.com/the-eye/2021/02/11/two-generations-one-page-apart/",
                       "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VJSBB66A3BGATFJPCAHTUOQD4Q.gif"
+                    },
+                    {
+
+
+                      "title": "Hyrule, Heroics, and Healing",
+                      "author": "Fritzie Schwentker",
+                      "link": "https://www.columbiaspectator.com/the-eye/2021/03/18/hyrule-heroics-and-healing/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/H5ARDL2EJVGVBD4LZEKX5DK5OU.png"
+                    },
+                    {
+                      "title": "One Year After Losing My Sense of Smell: A Reflection on ‘Little Women,’ Lighting my Apartment on Fire, and Selling Out",
+                      "author": "Elizabeth Karpen",
+                      "link": "https://www.columbiaspectator.com/the-eye/2021/05/19/one-year-after-losing-my-sense-of-smell-a-reflection-on-little-women-lighting-my-apartment-on-fire-and-selling-out/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SAQKGK5K3RC75GZASNBTLVSNAA.jpg"
+                    },
+                    {
+                      "title": "Claudia Conway Isn’t OK, and Neither Am I",
+                      "author": "Caitlin McCormick",
+                      "link": "https://www.columbiaspectator.com/the-eye/2020/12/09/claudia-conway-isnt-okay-and-neither-am-i/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/CUNOQENYKJB7DBSJLTL72SZOVE.jpg"
+                    },
+                    {
+                      "title": "My Second Act",
+                      "author": "Teresa Lawlor",
+                      "link": "https://www.columbiaspectator.com/the-eye/2021/01/28/my-second-act/",
+                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BEP5J4YJARABDKIWL743JTJQGU.jpeg"
                     }
                   ]
             }, {
-                "name": `Highlights from our podcast, "The Ear"`,
-                "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QI26RSJSAFEMHN75BNKGSMIEGI.png",
-                "blurb": "",
-                "articles": [
-                    {
-                      "title": "The Woman at the Center of the Photograph",
-                      "author": "Victoria Li",
-                      "link": "https://www.columbiaspectator.com/the-eye/2020/03/05/the-woman-at-the-center-of-the-photograph/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/3HCUQ3OLRVB2VOIEQCDDMHWBTA.jpg"
-                    },
-                    {
-                      "title": "Women Bard From Entry",
-                      "author": "Claudia Gohn",
-                      "link": "https://www.columbiaspectator.com/the-eye/2019/11/20/women-bard-from-entry/",
-                      "img": "https://arc-anglerfish-arc2-prod-spectator.s3.amazonaws.com/public/WOMNWU5T4RD4JG545FV6JCMYMA.jpeg"
-                    },
-                    {
-                      "title": "The Continued Crisis",
-                      "author": "Teresa Lawlor and Sam Hyman",
-                      "link": "https://www.columbiaspectator.com/the-eye/2020/05/07/the-continued-crisis/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/QI26RSJSAFEMHN75BNKGSMIEGI.png"
-                    },
-                    {
-                      "title": "Two murders, 47 years apart",
-                      "author": "Cole Cahill",
-                      "link": "https://www.columbiaspectator.com/the-eye/2020/05/12/two-murders-47-years-apart/",
-                      "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZGJ3P7XENJB7NFF7TTN6CEMCFY.png"
-                    }
-                  ]
-            },
-        ]
+              "name": `Highlights from our podcast, "The Ear"`,
+              "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/64ZEKWTUJ5D6VGYH7Y7Z3GWU44.JPG",
+              "blurb": "",
+              "articles": [
+                  {
+                    "title": "When the Navy Came to Campus: Columbia’s Navy ROTC debate",
+                    "author": "Annie Cheng",
+                    "link": "https://www.columbiaspectator.com/podcasts/2021/06/12/when-the-navy-came-to-campus-columbias-navy-rotc-debate/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3TPQE452RZGYJJP57NYT33YTDQ.jpeg"
+                  },
+                  {
+                    "title": "Understanding Cural Education Inequity",
+                    "author": "Natalie Goldberg",
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/04/16/understanding-rural-education-inequity/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/2GARJP4G5BB3BB4ZZGBYRXJUXU.png"
+                  },
+                  {
+                    "title": "Science and Skulls: Measuring Columbia’s Eugenicist Past",
+                    "author": "Matthew Lucia and Miles Stephenson",
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/02/02/science-and-skulls-measuring-columbias-eugenicist-past/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/WXZU7YXNVRFORK32WIFAYKCLQI.png"
+                  },
+                  {
+                    "title": "Columbia’s Composers: Keeping Composure in Quarantine",
+                    "author": "Matthew Lucia",
+                    "link": "https://www.columbiaspectator.com/the-eye/2021/04/09/columbias-composers-keeping-composure-in-quarantine/",
+                    "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VWBHRR5VWFCKNMEFACT7MSACBQ.gif"
+                  }
+                ]
+          },
+      ]
     },
     "A&E": {
       "img": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/RMHTSN45KVEQVNJJ5MS76VDNBY.png",
