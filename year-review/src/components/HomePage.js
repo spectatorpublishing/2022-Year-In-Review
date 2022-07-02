@@ -66,6 +66,10 @@ let SectionTitle = styled.h3`
     color: ${props => props.theme.blue};
     cursor: pointer;
   }
+
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
 `
 let LogoDiv = styled.a`
   position: absolute;
@@ -146,7 +150,7 @@ export default class HomePage extends Component {
               </Wrapper>
               <LeftDiv>
                 <YearDiv>
-                  <Year>2020 - 2021</Year>
+                  <Year>2021 - 2022</Year>
                 </YearDiv>
                 <LeftTitleDiv>
                   <MobileLeftTitle>
@@ -183,7 +187,7 @@ export default class HomePage extends Component {
           <HomePageContainer>
             <LeftDiv>
               <YearDiv>
-                <Year>2020 - 2021</Year>
+                <Year>2021 - 2022</Year>
               </YearDiv>
               <LeftTitleDiv>
                 <LeftTitle>

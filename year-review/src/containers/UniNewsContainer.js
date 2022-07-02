@@ -4,7 +4,7 @@ import ScrollingNavBar from '../components/Navigation/ScrollingNavBar';
 import GenericPanelLayout from './GenericPanelLayout';
 import PageIntro from '../components/PageIntro'
 
-class NewsContainer extends Component {
+class UniNewsContainer extends Component {
 
   constructor() {
       super()
@@ -57,7 +57,7 @@ class NewsContainer extends Component {
     return (
       <React.Fragment>
         <div onWheel = {this.handleWheel}>
-          <PageIntro title="NEWS" description={this.props.data.blurb} img_src={this.props.data.img}/>
+          <PageIntro title="UNIVERSITY NEWS" description={this.props.data.blurb} img_src={this.props.data.img}/>
           <ScrollingNavBar menuItems={this.props.data.sections}>
             {this.props.data.items.map((data, i) => 
               <GenericPanelLayout key={i} data = {this.props.data.items[i]} />)}
@@ -68,4 +68,4 @@ class NewsContainer extends Component {
   }
 }
 
-export default NewsContainer;
+export default UniNewsContainer;

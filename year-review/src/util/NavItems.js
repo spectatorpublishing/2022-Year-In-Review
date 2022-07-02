@@ -1,7 +1,11 @@
 export const NavItems = [
   {
-    "name": "News",
-    "link": "/news"
+    "name": "University News",
+    "link": "/uni-news"
+  },
+  {
+    "name": "City News",
+    "link": "/city-news"
   },
   {
     "name": "Opinion",
@@ -34,6 +38,10 @@ export const NavItems = [
   {
     "name": "Spectrum",
     "link": "/spectrum"
+  },
+  {
+    "name": "Video",
+    "link": "/video"
   }
 ];
 

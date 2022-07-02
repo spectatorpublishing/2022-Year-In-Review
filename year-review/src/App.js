@@ -4,9 +4,10 @@ import { withRouter } from 'react-router'
 import { ThemeProvider } from "styled-components";
 import { MobileAndTablet, Desktop } from 'react-responsive-simple';
 import { GlobalStyles, Theme } from "./util/GlobalStyles";
-// Hello world
+
 import HomeContainer from './containers/HomeContainer'
-import NewsContainer from './containers/NewsContainer'
+import UniNewsContainer from './containers/UniNewsContainer'
+import CityNewsContainer from './containers/CityNewsContainer'
 import OpinionContainer from './containers/OpinionContainer'
 import SportsContainer from './containers/SportsContainer'
 import EyeContainer from './containers/EyeContainer'
@@ -30,10 +31,12 @@ class App extends Component {
 
   render() {
     const home = () => <HomeContainer /> 
-    const news = () => <NewsContainer data = {data.News} />
+    const uninews = () => <UniNewsContainer data = {data.UniNews} />
+    const citynews = () => <CityNewsContainer data = {data.CityNews} />
     const opinion = () => <OpinionContainer data={data.Opinion}/>
     const eye = () => <EyeContainer data = {data.Eye}/>
     const photo = () => <PhotoContainer data = {data.Photos}/>
+    const video = () => <PhotoContainer data = {data.Video}/>
     // const design = () => <DesignContainer data = {data.Design} />
     const sports = () => <SportsContainer data = {data.Sports} />
     const ane = () => <AEContainer data = {data["A&E"]}/>
@@ -77,7 +80,7 @@ class App extends Component {
                   <GlobalStyles />
                     <React.Fragment>
                       <Desktop>
-                        {this.props.location.pathname === "/2020-year-review" ?
+                        {this.props.location.pathname === "/2021-year-review" ?
                           <NavBar menuItems={NavItems} transparent hideCrown/>
                         :
                           <NavBar menuItems={NavItems} />
@@ -91,7 +94,8 @@ class App extends Component {
                       </MobileAndTablet>
                       <Switch onUpdate={() => console.log("update")} >
                         <Route exact path="/" component={home} />
-                        <Route exact path="/news" component={news} />
+                        <Route exact path="/city-news" component={citynews} />
+                        <Route exact path="/uni-news" component={uninews} />
                         <Route exact path="/opinion" component={opinion} />
                         <Route exact path="/sports" component={sports} />
                         <Route exact path="/arts-and-entertainment" component={ane} />
@@ -100,6 +104,7 @@ class App extends Component {
                         <Route exact path="/graphics" component={graphics} />
                         <Route exact path="/illustrations" component={illo} />
                         <Route exact path="/spectrum" component={spectrum} />
+                        <Route exact path="/video" component={video} />
                         {/* <Route exact path="/design" component={design} /> */}
                         
                       </Switch>
